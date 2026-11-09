@@ -7,7 +7,7 @@
 <div class="nx-stat"><strong>52</strong><span>Challenge</span></div>
 <div class="nx-stat"><strong>368</strong><span>Halaman</span></div>
 <div class="nx-stat"><strong>506</strong><span>File bukti</span></div>
-<div class="nx-stat"><strong>51</strong><span>Terverifikasi</span></div>
+<div class="nx-stat"><strong>51</strong><span>Verified</span></div>
 </div>
 </div>
 
