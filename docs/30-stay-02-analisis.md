@@ -71,3 +71,9 @@ NXCTF{st4y_w1th_m3_1n_th3_d4rk}
 
 Plaintext dapat dibaca dan berformat flag. Tidak perlu brute-force key:
 petunjuk lirik ("falling") langsung mengarah ke key tersebut.
+
+### Evidence langkah ini
+
+![term-02-bitstream.png](assets/stay/term-02-bitstream.png)
+
+*Terminal evidence — `02-bitstream.txt` (arsip transkrip sesi solve).*

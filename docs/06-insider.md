@@ -16,6 +16,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/insider/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 - Artefak hanya berupa profil Chrome (`ChromeProfile/`), tanpa disk image dan tanpa log server.
@@ -24,15 +30,19 @@
 - Extension non-webstore **ZenVPN 2.7.1** dan timestamp bookmark/search **20250314** melengkapi komponen flag.
 - Flag disusun dari empat artefak: `wraithbyte` + `cve202421412` + `20250314` + `zenvpn271`.
 
-<div class="nx-evidence-preview"><a href="06-insider-05-bukti-evidence.html"><img src="assets/insider/98-terminal-evidence.png" alt="Pratinjau evidence insider" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="06-insider-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="06-insider-09-bukti-evidence.html"><img src="assets/insider/00b-submit-platform.png" alt="Pratinjau evidence insider" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="06-insider-09-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
-<a class="nx-page-card" href="06-insider-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="06-insider-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="06-insider-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="06-insider-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="06-insider-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="06-insider-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="06-insider-01-recon-artefak.html"><b>Recon Artefak</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="06-insider-02-recon-artefak-2.html"><b>Recon Artefak</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="06-insider-03-struktur-profil.html"><b>Struktur profil</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="06-insider-04-history-aktivitas-tersangka.html"><b>History: aktivitas tersangka</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="06-insider-05-analisis-artefak.html"><b>Analisis Artefak</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="06-insider-06-analisis-artefak-2.html"><b>Analisis Artefak</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="06-insider-07-pemulihan-artefak.html"><b>Pemulihan Artefak</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="06-insider-08-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="06-insider-09-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="06-insider-10-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

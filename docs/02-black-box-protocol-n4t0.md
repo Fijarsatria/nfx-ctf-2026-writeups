@@ -16,6 +16,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/black-box-protocol-n4t0/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## Ringkasan
 
 > **Catatan verifikasi:** seluruh isi workbook berhasil didekode dan hasilnya
@@ -39,15 +45,16 @@
 - Flag tersebut **diterima platform** saat recheck 2026-11-09 dengan respons
   `Correct, but already solved.` Status challenge ini adalah **VERIFIED**.
 
-<div class="nx-evidence-preview"><a href="02-black-box-protocol-n4t0-05-bukti-evidence.html"><img src="assets/black-box-protocol-n4t0/98-terminal-evidence.png" alt="Pratinjau evidence Black Box Protocol N4T0" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="02-black-box-protocol-n4t0-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="02-black-box-protocol-n4t0-06-bukti-evidence.html"><img src="assets/black-box-protocol-n4t0/00b-submit-platform.png" alt="Pratinjau evidence Black Box Protocol N4T0" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="02-black-box-protocol-n4t0-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="02-black-box-protocol-n4t0-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
 <a class="nx-page-card" href="02-black-box-protocol-n4t0-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="02-black-box-protocol-n4t0-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="02-black-box-protocol-n4t0-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="02-black-box-protocol-n4t0-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="02-black-box-protocol-n4t0-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="02-black-box-protocol-n4t0-03-analisis-2.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="02-black-box-protocol-n4t0-04-solver.html"><b>Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="02-black-box-protocol-n4t0-05-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="02-black-box-protocol-n4t0-06-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="02-black-box-protocol-n4t0-07-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

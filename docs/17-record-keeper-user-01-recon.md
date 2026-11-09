@@ -73,3 +73,9 @@ Contoh health probe dari console:
 $ printf '\x00\x00\x00\x00' | nc 127.0.0.1 3000
 PONG
 ```
+
+### Evidence langkah ini
+
+![term-01-recon.png](assets/record-keeper-user/term-01-recon.png)
+
+*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*

@@ -1,6 +1,6 @@
 # Stay — Evidence / Bukti
 
-<div class="nx-challenge-head"><span class="nx-chip">1 screenshot</span><span class="nx-chip">7 transkrip / script</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">8 screenshot</span><span class="nx-chip">7 transkrip / script</span></div>
 
 
 [← Overview](30-stay.md) · [Index](index.md)
@@ -8,15 +8,61 @@
 
 ## Arsip Evidence
 
-> Semua file di bawah berasal dari folder `assets/stay/`. Screenshot ditempel langsung; file teks/script ditautkan.
+> Semua file berasal dari `assets/stay/`. Screenshot platform dan terminal adalah bukti asli dari sesi solve; transkrip mentah tetap ditautkan di bagian bawah.
 
-### Screenshot
+### Platform
 
 <div class="nx-evidence-grid">
-<figure><a href="assets/stay/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/stay/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+<figure><a href="assets/stay/00-challenge-platform.png" target="_blank" rel="noopener"><img src="assets/stay/00-challenge-platform.png" alt="00-challenge-platform.png" loading="lazy"></a><figcaption>00-challenge-platform.png</figcaption></figure>
 </div>
 
-### Transkrip / file pendukung
+*Challenge brief asli di platform NFX CTF 2026.*
+
+<div class="nx-evidence-grid">
+<figure><a href="assets/stay/00b-submit-platform.png" target="_blank" rel="noopener"><img src="assets/stay/00b-submit-platform.png" alt="00b-submit-platform.png" loading="lazy"></a><figcaption>00b-submit-platform.png</figcaption></figure>
+</div>
+
+*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+
+### Terminal (arsip sesi)
+
+<div class="nx-evidence-grid">
+<figure><a href="assets/stay/term-00-solve-output.png" target="_blank" rel="noopener"><img src="assets/stay/term-00-solve-output.png" alt="term-00-solve-output.png" loading="lazy"></a><figcaption>term-00-solve-output.png</figcaption></figure>
+</div>
+
+*Terminal evidence — `00-solve-output.txt` (arsip transkrip sesi solve).*
+
+<div class="nx-evidence-grid">
+<figure><a href="assets/stay/term-01-zero-width-sequence.png" target="_blank" rel="noopener"><img src="assets/stay/term-01-zero-width-sequence.png" alt="term-01-zero-width-sequence.png" loading="lazy"></a><figcaption>term-01-zero-width-sequence.png</figcaption></figure>
+</div>
+
+*Terminal evidence — `01-zero-width-sequence.txt` (arsip transkrip sesi solve).*
+
+<div class="nx-evidence-grid">
+<figure><a href="assets/stay/term-02-bitstream.png" target="_blank" rel="noopener"><img src="assets/stay/term-02-bitstream.png" alt="term-02-bitstream.png" loading="lazy"></a><figcaption>term-02-bitstream.png</figcaption></figure>
+</div>
+
+*Terminal evidence — `02-bitstream.txt` (arsip transkrip sesi solve).*
+
+<div class="nx-evidence-grid">
+<figure><a href="assets/stay/term-03-plaintext.png" target="_blank" rel="noopener"><img src="assets/stay/term-03-plaintext.png" alt="term-03-plaintext.png" loading="lazy"></a><figcaption>term-03-plaintext.png</figcaption></figure>
+</div>
+
+*Terminal evidence — `03-plaintext.txt` (arsip transkrip sesi solve).*
+
+<div class="nx-evidence-grid">
+<figure><a href="assets/stay/term-04-raw-zero-width.png" target="_blank" rel="noopener"><img src="assets/stay/term-04-raw-zero-width.png" alt="term-04-raw-zero-width.png" loading="lazy"></a><figcaption>term-04-raw-zero-width.png</figcaption></figure>
+</div>
+
+*Terminal evidence — `04-raw-zero-width.txt` (arsip transkrip sesi solve).*
+
+<div class="nx-evidence-grid">
+<figure><a href="assets/stay/term-05-zero-width-seq.png" target="_blank" rel="noopener"><img src="assets/stay/term-05-zero-width-seq.png" alt="term-05-zero-width-seq.png" loading="lazy"></a><figcaption>term-05-zero-width-seq.png</figcaption></figure>
+</div>
+
+*Terminal evidence — `05-zero-width-seq.txt` (arsip transkrip sesi solve).*
+
+### Transkrip mentah & script
 
 - [`00-solve-output.txt`](assets/stay/00-solve-output.txt)
 - [`01-zero-width-sequence.txt`](assets/stay/01-zero-width-sequence.txt)

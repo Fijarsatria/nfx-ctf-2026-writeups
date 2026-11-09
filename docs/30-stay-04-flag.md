@@ -2,6 +2,9 @@
 
 [← Overview](30-stay.md) · [Index](index.md)
 
+> **Flag:** `NFX{st4y_w1th_m3_1n_th3_d4rk}`
+> **Status:** `VERIFIED`
+
 Plaintext hasil decode:
 
 ```text
@@ -22,10 +25,10 @@ Verifikasi:
 - Assertion terhadap `NXCTF{...}` PASS.
 - Prefix dinormalisasi ke `NFX` sesuai flag platform.
 
-## Flag
+### Bukti submit di platform
 
-`NFX{st4y_w1th_m3_1n_th3_d4rk}`
+![00b-submit-platform.png](assets/stay/00b-submit-platform.png)
 
-**Status:** `VERIFIED`
+*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
 
 > **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

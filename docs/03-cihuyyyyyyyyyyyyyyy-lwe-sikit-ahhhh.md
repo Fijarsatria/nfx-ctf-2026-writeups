@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 - Attachment `lwe.py` bukan kode challenge, melainkan **transkrip LWE**:
@@ -30,15 +36,16 @@
   di platform; KDF/skema enkripsi tidak disertakan di lampiran (lihat §3.4).
 - Flag: `NFXCTF{l4tt1c3_sm4ll_s3cr3t_LWE_7e2a0195}`.
 
-<div class="nx-evidence-preview"><a href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-05-bukti-evidence.html"><img src="assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/98-terminal-evidence.png" alt="Pratinjau evidence Cihuyyyyyyyyyyyyyyy LWE sikit ahhhh" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-06-bukti-evidence.html"><img src="assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/00b-submit-platform.png" alt="Pratinjau evidence Cihuyyyyyyyyyyyyyyy LWE sikit ahhhh" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
 <a class="nx-page-card" href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-03-solver.html"><b>Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-04-solver-2.html"><b>Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-05-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-06-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-07-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

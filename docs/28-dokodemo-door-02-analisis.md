@@ -2,7 +2,7 @@
 
 [← Overview](28-dokodemo-door.md) · [Index](index.md)
 
-### 2.1 Sifat repeating-key XOR
+## 2.1 Sifat repeating-key XOR
 
 Untuk ciphertext `C[i]` dan key `K` dengan panjang `L`:
 
@@ -16,7 +16,7 @@ PDF memiliki struktur yang sangat dapat ditebak:
 - Header: `%PDF-1.4\n`
 - Trailer: `%%EOF\n`
 
-### 2.2 Menemukan panjang key dan key
+## 2.2 Menemukan panjang key dan key
 
 Crib header memberi 9 byte pertama key. Crib trailer memberi 6 byte terakhir
 key. Untuk setiap kandidat panjang key `L = 1..64`, kedua crib harus
@@ -52,7 +52,7 @@ n f x _ k 3 t u k _ p 1 n t u !
 
 atau `nfx_k3tuk_p1ntu!` — sesuai tema challenge ("ketuk pintu").
 
-### 2.3 Verifikasi hasil dekripsi
+## 2.3 Verifikasi hasil dekripsi
 
 ```bash
 $ python3 solve_dokodemo.py
@@ -67,21 +67,8 @@ $ sha256sum rahasia.pdf /tmp/opencode/dokodemo_decrypted.pdf
 6039511dcd291ae1cf2da15be996b9086aaaefad125364893df52f057e8207fb  /tmp/opencode/dokodemo_decrypted.pdf
 ```
 
-### 2.4 Ekstraksi teks dari PDF
+### Evidence langkah ini
 
-PDF dibuat dengan ReportLab. Content stream halaman memakai filter
-`[/ASCII85Decode /FlateDecode]`. Setelah decode, operator `Tj` berisi teks:
+![term-02-extracted-text.png](assets/dokodemo-door/term-02-extracted-text.png)
 
-```text
-[ NFX PROTOCOL // RESTRICTED ACCESS ]
-DOKODEMO DOOR
-Sandi Rahasia Gerbang Masuk Sektor Barat
-Di balik pintu ini terdapat akses langsung menuju jaringan rahasia NFX.
-Hanya mereka yang memiliki otentikasi sah yang diperkenankan masuk.
-Ketuk tiga kali pada pintu dan bisikkan kode otorisasi:
-Flag: NFX{k3tuk_p1ntu_bUk4_d0kum3n_x0r}
-Gunakan flag di atas untuk melakukan submission pada platform CTF.
-NFX CLASSIFIED ARCHIVE // STRICTLY CONFIDENTIAL // DO NOT DISTRIBUTE
-```
-
-Flag muncul sebagai teks biasa di halaman PDF.
+*Terminal evidence — `02-extracted-text.txt` (arsip transkrip sesi solve).*

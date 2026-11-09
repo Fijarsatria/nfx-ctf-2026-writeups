@@ -68,3 +68,9 @@ Symbol:
 00000000000012bc T setup_seccomp
 00000000000014fd T main
 ```
+
+### Evidence langkah ini
+
+![term-01-file-hash-checksec.png](assets/narrowgate/term-01-file-hash-checksec.png)
+
+*Terminal evidence — `01-file-hash-checksec.txt` (arsip transkrip sesi solve).*

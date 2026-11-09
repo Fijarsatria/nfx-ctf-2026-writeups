@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/record-keeper-user/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## Ringkasan
 
 > **Catatan bukti.** Sumber utama adalah
@@ -46,15 +52,18 @@
 - Submit pertama ditolak karena typo `w1r1t3` (kelebihan `1`); setelah
   dikoreksi menjadi `wr1t3`, platform menerima `+500 points`.
 
-<div class="nx-evidence-preview"><a href="17-record-keeper-user-05-bukti-evidence.html"><img src="assets/record-keeper-user/98-terminal-evidence.png" alt="Pratinjau evidence Record Keeper (User)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="17-record-keeper-user-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="17-record-keeper-user-08-bukti-evidence.html"><img src="assets/record-keeper-user/00b-submit-platform.png" alt="Pratinjau evidence Record Keeper (User)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="17-record-keeper-user-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="17-record-keeper-user-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
 <a class="nx-page-card" href="17-record-keeper-user-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="17-record-keeper-user-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="17-record-keeper-user-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="17-record-keeper-user-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="17-record-keeper-user-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="17-record-keeper-user-03-analisis-2.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="17-record-keeper-user-04-setelah-rce.html"><b>Setelah RCE</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="17-record-keeper-user-05-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="17-record-keeper-user-06-output.html"><b>Output</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="17-record-keeper-user-07-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="17-record-keeper-user-08-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="17-record-keeper-user-09-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

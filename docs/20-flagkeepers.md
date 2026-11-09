@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/flagkeepers/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 - `app.py` memakai **satu nonce GCM global** untuk dua key berbeda
@@ -33,15 +39,17 @@
   `msg[:idx]` memuat `admin = True`.
 - Flag: `NFX{gcm_f0rb1dd3n_4tt4ck_du4l_t4g_c0ll1s10n_m4st3r}`.
 
-<div class="nx-evidence-preview"><a href="20-flagkeepers-05-bukti-evidence.html"><img src="assets/flagkeepers/98-terminal-evidence.png" alt="Pratinjau evidence FlagKeepers" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="20-flagkeepers-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="20-flagkeepers-07-bukti-evidence.html"><img src="assets/flagkeepers/00b-submit-platform.png" alt="Pratinjau evidence FlagKeepers" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="20-flagkeepers-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="20-flagkeepers-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
 <a class="nx-page-card" href="20-flagkeepers-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="20-flagkeepers-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="20-flagkeepers-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="20-flagkeepers-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="20-flagkeepers-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="20-flagkeepers-03-helper-gf-2-128-ghash.html"><b>Helper GF(2^128) / GHASH</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="20-flagkeepers-04-solver.html"><b>Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="20-flagkeepers-05-reproduksi-offline.html"><b>Reproduksi offline</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="20-flagkeepers-06-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="20-flagkeepers-07-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="20-flagkeepers-08-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

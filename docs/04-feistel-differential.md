@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/feistel-differential/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 - Cipher adalah Feistel 7 ronde pada blok 32-bit (dua half 16-bit), dengan
@@ -31,15 +37,18 @@
 - Verifikasi: 280.000/280.000 baris cocok. Dekripsi `flag.enc` menghasilkan
   flag + padding PKCS#7 `03 03 03`.
 
-<div class="nx-evidence-preview"><a href="04-feistel-differential-05-bukti-evidence.html"><img src="assets/feistel-differential/98-terminal-evidence.png" alt="Pratinjau evidence Feistel Differential" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="04-feistel-differential-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="04-feistel-differential-08-bukti-evidence.html"><img src="assets/feistel-differential/00b-submit-platform.png" alt="Pratinjau evidence Feistel Differential" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="04-feistel-differential-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="04-feistel-differential-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
 <a class="nx-page-card" href="04-feistel-differential-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="04-feistel-differential-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="04-feistel-differential-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="04-feistel-differential-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="04-feistel-differential-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="04-feistel-differential-03-analisis-2.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="04-feistel-differential-04-strategi.html"><b>Strategi</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="04-feistel-differential-05-script-lengkap.html"><b>Script lengkap</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="04-feistel-differential-06-solver.html"><b>Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="04-feistel-differential-07-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="04-feistel-differential-08-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="04-feistel-differential-09-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

@@ -2,7 +2,7 @@
 
 [← Overview](08-frekuensi-sunyi.md) · [Index](index.md)
 
-### 1.1 Deskripsi challenge
+## 1.1 Deskripsi challenge
 
 > **Author: Kesatria Baja Ringan**
 >
@@ -14,7 +14,7 @@ Petunjuk "tidak untuk didengar" mengarah kuat ke **spektrogram**: pesan
 tidak dimaksudkan untuk telinga, tetapi untuk mata yang melihat domain
 frekuensi.
 
-### 1.2 File / service yang diberikan
+## 1.2 File / service yang diberikan
 
 | File/Service | Ukuran | Keterangan |
 |---|---|---|
@@ -33,7 +33,7 @@ $ sha256sum umum/Misc/frekuensi-sunyi/view
 a556512ee8203fc4c080013303f496bef9a01902fe3e8a7766433f502c293dea  view
 ```
 
-### 1.3 Environment
+## 1.3 Environment
 
 - OS: Linux x86-64.
 - Tools: `file`, `sha256sum`, Python 3, `numpy`, `scipy`, `Pillow`.
@@ -42,24 +42,8 @@ a556512ee8203fc4c080013303f496bef9a01902fe3e8a7766433f502c293dea  view
   pemrosesannya sama.
 - Tidak ada service jaringan; challenge sepenuhnya offline.
 
-### 1.4 Triage awal
+### Evidence langkah ini
 
-```bash
-$ file work/event/misc/frekuensi-sunyi/rekaman_lobi.wav
-RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, stereo 44100 Hz
+![01-spectrogram-repro.png](assets/frekuensi-sunyi/01-spectrogram-repro.png)
 
-$ python3 - <<'EOF'
-from scipy.io import wavfile
-import numpy as np
-fs, a = wavfile.read('rekaman_lobi.wav')
-print(fs, a.shape, a.dtype, a.shape[0]/fs)
-print('channels identical:', np.array_equal(a[:,0], a[:,1]))
-EOF
-44100 (5296128, 2) int16 120.09360544217687
-channels identical: True
-```
-
-**Temuan:** kanal kiri dan kanan identik, jadi tidak ada pesan stereo
-difference. RIFF hanya berisi `fmt` + `data` standar; tidak ada trailing
-data. Ini memperkuat dugaan bahwa payload ada di **isi frekuensi**, bukan
-di struktur file.
+*Evidence — `01-spectrogram-repro.png`.*

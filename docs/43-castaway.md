@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/castaway/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 - `castaway` membaca calon flag dari **stdin** (`fgets`), bukan dari argumen.
@@ -26,15 +32,23 @@
 - Inversi dilakukan per byte dengan brute force 256 kandidat; key state dipulihkan berurutan dari ciphertext.
 - Flag: `NFX{c4st4w4y_0n_4n_0p4qu3_st4t3_m4ch1n3}`.
 
-<div class="nx-evidence-preview"><a href="43-castaway-05-bukti-evidence.html"><img src="assets/castaway/98-terminal-evidence.png" alt="Pratinjau evidence Castaway" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="43-castaway-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="43-castaway-03-perintah-akuisisi-bukti.html"><img src="assets/castaway/00b-submit-platform.png" alt="Pratinjau evidence Castaway" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="43-castaway-03-perintah-akuisisi-bukti.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="43-castaway-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="43-castaway-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="43-castaway-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="43-castaway-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="43-castaway-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="43-castaway-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="43-castaway-02-triage-awal.html"><b>Triage awal</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="43-castaway-03-perintah-akuisisi-bukti.html"><b>Perintah akuisisi bukti</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="43-castaway-04-fungsi-main.html"><b>Fungsi `main`</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="43-castaway-05-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="43-castaway-06-fungsi-transform-0x1282.html"><b>Fungsi transform `0x1282`</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="43-castaway-07-transformasi-per-byte.html"><b>Transformasi per byte</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="43-castaway-08-data-di-rodata.html"><b>Data di `.rodata`</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="43-castaway-09-strategi.html"><b>Strategi</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="43-castaway-10-solver-lengkap.html"><b>Solver lengkap</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="43-castaway-11-output-asli.html"><b>Output asli</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="43-castaway-12-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="43-castaway-13-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="43-castaway-14-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

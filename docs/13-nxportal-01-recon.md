@@ -2,7 +2,7 @@
 
 [← Overview](13-nxportal.md) · [Index](index.md)
 
-### 1.1 Deskripsi challenge
+## 1.1 Deskripsi challenge
 
 > Author: Ariaf
 >
@@ -21,7 +21,7 @@ Kalimat kunci:
 - “terkirim ke tujuan yang seharusnya tidak menerimanya” → recipient injection
   / header injection.
 
-### 1.2 File / service
+## 1.2 File / service
 
 Tidak ada source lokal (`umum/Web/nxportal` hanya `BRIEF.md` + `challenge.json`).
 Yang tersedia adalah instance live dan catatan investigasi sebelumnya.
@@ -43,7 +43,7 @@ Catatan sebelumnya (`flags/web/NXPortal.txt`) menyebut:
 - session/JWT/itsdangerous forging, SQLi, SSTI, LFI, command injection, Host
   poisoning, default creds: negatif.
 
-### 1.3 Environment
+## 1.3 Environment
 
 - `curl`, `python3` + `requests`.
 - Instance dijalankan ulang dengan:
@@ -54,21 +54,8 @@ Catatan sebelumnya (`flags/web/NXPortal.txt`) menyebut:
 - Sink email eksternal untuk uji: **mail.tm** (API gratis).
 - Tidak ada submit flag.
 
-### 1.4 Triage awal
+### Evidence langkah ini
 
-```bash
-BASE=http://s1.nfx.my.id:40001
-curl -sS -i "$BASE/"
-curl -sS -i "$BASE/login"
-curl -sS -i "$BASE/forgot"
-curl -sS -i "$BASE/reset"
-```
+![term-01-recon.png](assets/nxportal/term-01-recon.png)
 
-Temuan:
-- `/` → `200`, landing NXPortal.
-- `/login` → `200`, form `email` + `password`, `POST /login`.
-- `/forgot` → `200`, form “Corporate Account Recovery”, `POST /forgot`.
-- `/reset` → `200`, form `token` + `password`, `POST /reset`.
-- `/register` → `404` (tidak ada registrasi).
-- `/dashboard` tanpa session → `302 /login`.
-- `/blog/5` → artikel “Hardening Header Parsing & Mail Notification Engines”.
+*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*

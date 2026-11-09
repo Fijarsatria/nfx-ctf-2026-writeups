@@ -58,3 +58,9 @@ Temuan:
 - `/register` → `404`.
 - `/dashboard` tanpa session → `302 /login`.
 - Header `Server: gunicorn`, `Vary: Cookie` → Flask session.
+
+### Evidence langkah ini
+
+![term-01-recon.png](assets/changetrack/term-01-recon.png)
+
+*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*

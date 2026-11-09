@@ -56,3 +56,9 @@ Empat code point yang muncul:
 
 Karakter-karakter ini tidak terlihat di browser, tetapi tetap tersimpan
 dalam UTF-8 dan bisa diekstrak dengan Python.
+
+### Evidence langkah ini
+
+![term-01-zero-width-sequence.png](assets/stay/term-01-zero-width-sequence.png)
+
+*Terminal evidence — `01-zero-width-sequence.txt` (arsip transkrip sesi solve).*

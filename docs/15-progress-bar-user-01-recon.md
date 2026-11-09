@@ -64,3 +64,9 @@ satu worker prefork
 lewat HTTP dan writable oleh `www-data`; ini penting karena exploit hanya bisa
 menjalankan command sangat pendek, sehingga payload panjang harus ditaruh
 sebagai file.
+
+### Evidence langkah ini
+
+![term-01-recon.png](assets/progress-bar-user/term-01-recon.png)
+
+*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*

@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/progress-bar-user/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## Ringkasan
 
 > **Catatan bukti.** Sumber utama adalah
@@ -48,15 +54,20 @@
 - Nilai tersebut **byte-identik** dengan `user.txt` di target, tetapi platform
   menolaknya. Instance sudah di-redeploy dan dibaca ulang; hasilnya sama.
 
-<div class="nx-evidence-preview"><a href="15-progress-bar-user-05-bukti-evidence.html"><img src="assets/progress-bar-user/98-terminal-evidence.png" alt="Pratinjau evidence Progress Bar (User)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="15-progress-bar-user-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="15-progress-bar-user-10-bukti-evidence.html"><img src="assets/progress-bar-user/00b-submit-platform.png" alt="Pratinjau evidence Progress Bar (User)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="15-progress-bar-user-10-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="15-progress-bar-user-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="15-progress-bar-user-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="15-progress-bar-user-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="15-progress-bar-user-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="15-progress-bar-user-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="15-progress-bar-user-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="15-progress-bar-user-02-permukaan-upload-dan-session-upload-prog.html"><b>Permukaan upload dan `session.upload_progress`</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="15-progress-bar-user-03-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="15-progress-bar-user-04-analisis-2.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="15-progress-bar-user-05-strategi.html"><b>Strategi</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="15-progress-bar-user-06-langkah-exploit.html"><b>Langkah exploit</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="15-progress-bar-user-07-output.html"><b>Output</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="15-progress-bar-user-08-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="15-progress-bar-user-09-riwayat-penolakan-di-backend-lama.html"><b>Riwayat penolakan di backend lama</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="15-progress-bar-user-10-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="15-progress-bar-user-11-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

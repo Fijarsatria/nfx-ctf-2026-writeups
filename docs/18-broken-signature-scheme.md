@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/broken-signature-scheme/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 Challenge punya tiga lapisan:
@@ -30,15 +36,17 @@ Challenge punya tiga lapisan:
    filter 20 bit bocor di posisi 500 menemukan `p,q`.
 3. **AES-GCM.** Key = `SHA256(p||q)`, lalu `decrypt_and_verify` membuka flag.
 
-<div class="nx-evidence-preview"><a href="18-broken-signature-scheme-05-bukti-evidence.html"><img src="assets/broken-signature-scheme/98-terminal-evidence.png" alt="Pratinjau evidence Broken Signature Scheme" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="18-broken-signature-scheme-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="18-broken-signature-scheme-07-bukti-evidence.html"><img src="assets/broken-signature-scheme/00b-submit-platform.png" alt="Pratinjau evidence Broken Signature Scheme" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="18-broken-signature-scheme-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="18-broken-signature-scheme-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="18-broken-signature-scheme-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="18-broken-signature-scheme-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="18-broken-signature-scheme-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="18-broken-signature-scheme-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="18-broken-signature-scheme-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="18-broken-signature-scheme-02-layer-1-rsa-signature-multiplicatif.html"><b>Layer 1 — RSA signature multiplicatif</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="18-broken-signature-scheme-03-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="18-broken-signature-scheme-04-solver.html"><b>Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="18-broken-signature-scheme-05-solver-2.html"><b>Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="18-broken-signature-scheme-06-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="18-broken-signature-scheme-07-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="18-broken-signature-scheme-08-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

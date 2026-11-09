@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/nfxctf-convention/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 - Service adalah simulator konvensi: register, main mini-game untuk naik rank, edit nama, dan (hanya VIP rank 20+) meninggalkan feedback.
@@ -28,15 +34,18 @@
 - Format string `%7$p` membocorkan canary dan `%17$p` membocorkan return address libc (`libc+0x29d90`).
 - ROP `pop rdi; "/bin/sh"; system` → shell, lalu `cat flag.txt`.
 
-<div class="nx-evidence-preview"><a href="10-nfxctf-convention-05-bukti-evidence.html"><img src="assets/nfxctf-convention/98-terminal-evidence.png" alt="Pratinjau evidence NFXCTF Convention" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="10-nfxctf-convention-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="10-nfxctf-convention-08-bukti-evidence.html"><img src="assets/nfxctf-convention/00b-submit-platform.png" alt="Pratinjau evidence NFXCTF Convention" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="10-nfxctf-convention-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="10-nfxctf-convention-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="10-nfxctf-convention-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="10-nfxctf-convention-03-eksploitasi.html"><b>Eksploitasi</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="10-nfxctf-convention-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="10-nfxctf-convention-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="10-nfxctf-convention-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="10-nfxctf-convention-02-recon-2.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="10-nfxctf-convention-03-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="10-nfxctf-convention-04-bug-3-format-string-di-view-profile.html"><b>Bug #3 — format string di `view_profile()`</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="10-nfxctf-convention-05-eksploitasi.html"><b>Eksploitasi</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="10-nfxctf-convention-06-output-asli.html"><b>Output asli</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="10-nfxctf-convention-07-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="10-nfxctf-convention-08-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="10-nfxctf-convention-09-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

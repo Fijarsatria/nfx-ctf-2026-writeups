@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/my-lovely-freya/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 - Attachment `FreyaSayangkuh` adalah **ZIP** berisi `freya_sayangkuh.png`
@@ -34,15 +40,18 @@
   `NXCTF{FR3Y4_MY_L0V3LY!}`.
 - Flag platform: `NFX{FR3Y4_MY_L0V3LY!}`.
 
-<div class="nx-evidence-preview"><a href="29-my-lovely-freya-05-bukti-evidence.html"><img src="assets/my-lovely-freya/98-terminal-evidence.png" alt="Pratinjau evidence My Lovely Freya" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="29-my-lovely-freya-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="29-my-lovely-freya-08-bukti-evidence.html"><img src="assets/my-lovely-freya/00b-submit-platform.png" alt="Pratinjau evidence My Lovely Freya" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="29-my-lovely-freya-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="29-my-lovely-freya-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="29-my-lovely-freya-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="29-my-lovely-freya-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="29-my-lovely-freya-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="29-my-lovely-freya-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="29-my-lovely-freya-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="29-my-lovely-freya-02-triage-awal.html"><b>Triage awal</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="29-my-lovely-freya-03-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="29-my-lovely-freya-04-dekripsi.html"><b>Dekripsi</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="29-my-lovely-freya-05-penyelesaian.html"><b>Penyelesaian</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="29-my-lovely-freya-06-output-asli.html"><b>Output asli</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="29-my-lovely-freya-07-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="29-my-lovely-freya-08-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="29-my-lovely-freya-09-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

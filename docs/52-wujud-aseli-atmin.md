@@ -17,12 +17,18 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/wujud-aseli-atmin/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## Ringkasan
 
 > Challenge baru di event umum (bukan extend), dibuat 2026-11-07 23:51.
 > Attachment: `dokumentasi.png`.
 
-<div class="nx-evidence-preview"><a href="52-wujud-aseli-atmin-06-bukti-evidence.html"><img src="assets/wujud-aseli-atmin/98-terminal-evidence.png" alt="Pratinjau evidence Wujud Aseli Atmin" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="52-wujud-aseli-atmin-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="52-wujud-aseli-atmin-06-bukti-evidence.html"><img src="assets/wujud-aseli-atmin/00b-submit-platform.png" alt="Pratinjau evidence Wujud Aseli Atmin" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="52-wujud-aseli-atmin-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
@@ -30,7 +36,7 @@
 <a class="nx-page-card" href="52-wujud-aseli-atmin-01-cerita-singkat.html"><b>Cerita Singkat</b><span>Konteks dan cerita challenge</span></a>
 <a class="nx-page-card" href="52-wujud-aseli-atmin-02-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
 <a class="nx-page-card" href="52-wujud-aseli-atmin-03-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="52-wujud-aseli-atmin-04-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="52-wujud-aseli-atmin-04-penyelesaian.html"><b>Penyelesaian</b><span>Baca bagian ini</span></a>
 <a class="nx-page-card" href="52-wujud-aseli-atmin-05-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
 <a class="nx-page-card" href="52-wujud-aseli-atmin-06-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
 <a class="nx-page-card" href="52-wujud-aseli-atmin-07-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>

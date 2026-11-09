@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/medium-tea/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 - Binary `medium_tea` memvalidasi flag 40 byte dari `argv[1]`.
@@ -25,15 +31,21 @@
 - Karena TEA invertibel, dekripsi dilakukan dengan urutan ronde terbalik, `sum` dimulai dari `0xc6ef3720` dan dikurangi `delta` setiap ronde.
 - Flag: `NFX{t1ny_3ncrypt10n_4lg0r1thm_32_r0und5}`.
 
-<div class="nx-evidence-preview"><a href="47-medium-tea-05-bukti-evidence.html"><img src="assets/medium-tea/98-terminal-evidence.png" alt="Pratinjau evidence Medium TEA" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="47-medium-tea-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="47-medium-tea-03-perintah-akuisisi-bukti.html"><img src="assets/medium-tea/00b-submit-platform.png" alt="Pratinjau evidence Medium TEA" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="47-medium-tea-03-perintah-akuisisi-bukti.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="47-medium-tea-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="47-medium-tea-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="47-medium-tea-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="47-medium-tea-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="47-medium-tea-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="47-medium-tea-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="47-medium-tea-02-triage-awal.html"><b>Triage awal</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="47-medium-tea-03-perintah-akuisisi-bukti.html"><b>Perintah akuisisi bukti</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="47-medium-tea-04-alur-utama.html"><b>Alur utama</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="47-medium-tea-05-round-function-tea-yang-dimodifikasi.html"><b>Round function TEA yang dimodifikasi</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="47-medium-tea-06-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="47-medium-tea-07-strategi.html"><b>Strategi</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="47-medium-tea-08-solver-lengkap.html"><b>Solver lengkap</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="47-medium-tea-09-output-asli.html"><b>Output asli</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="47-medium-tea-10-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="47-medium-tea-11-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="47-medium-tea-12-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

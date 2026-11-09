@@ -1,0 +1,6 @@
+$ git -C /tmp/nexus_repo log --oneline --all --decorate
+5c65d99 (HEAD -> main) Remove Ansible inventory
+8acfc1f Add Ansible deployment inventory
+575209a Add service status page
+cdc4e69 Add platform documentation
+8af0aa7 Initial landing page

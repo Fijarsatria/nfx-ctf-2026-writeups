@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/pipa-nu-kotor/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 - Service mengelola "pipa" (pipe) dengan operasi buka/tutup/tulis/baca/login.
@@ -26,15 +32,17 @@
 - Login dengan password baru → `cetak_flag()` membaca `flag.txt`.
 - Flag: `NFX{Si44aTehKuduSadarDip4lakSave3Jari1}`.
 
-<div class="nx-evidence-preview"><a href="39-pipa-nu-kotor-05-bukti-evidence.html"><img src="assets/pipa-nu-kotor/98-terminal-evidence.png" alt="Pratinjau evidence Pipa Nu Kotor" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="39-pipa-nu-kotor-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="39-pipa-nu-kotor-07-bukti-evidence.html"><img src="assets/pipa-nu-kotor/00b-submit-platform.png" alt="Pratinjau evidence Pipa Nu Kotor" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="39-pipa-nu-kotor-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="39-pipa-nu-kotor-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="39-pipa-nu-kotor-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="39-pipa-nu-kotor-03-eksploitasi.html"><b>Eksploitasi</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="39-pipa-nu-kotor-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="39-pipa-nu-kotor-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="39-pipa-nu-kotor-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="39-pipa-nu-kotor-02-triage-awal.html"><b>Triage awal</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="39-pipa-nu-kotor-03-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="39-pipa-nu-kotor-04-analisis-2.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="39-pipa-nu-kotor-05-eksploitasi.html"><b>Eksploitasi</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="39-pipa-nu-kotor-06-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="39-pipa-nu-kotor-07-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="39-pipa-nu-kotor-08-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

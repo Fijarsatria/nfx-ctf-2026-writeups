@@ -56,3 +56,9 @@ DNI>nK
 `file` menyebut `data`, bukan PDF, dan tidak ada string `%PDF` di awal.
 Namun distribusi byte terlihat seperti teks PDF yang di-XOR: banyak byte
 rendah dan pola berulang.
+
+### Evidence langkah ini
+
+![term-01-solve-output.png](assets/dokodemo-door/term-01-solve-output.png)
+
+*Terminal evidence — `01-solve-output.txt` (arsip transkrip sesi solve).*

@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/static-iv-offline/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 - `challenge.py` membocorkan `MASTER = b"\x13\x37" * 16` di source.
@@ -27,15 +33,16 @@
   berisi prefix `user-input-goes-here:|` diikuti flag.
 - Flag: `NXCTF{cbc_1v_r3u53_l34k5_k3y5tr34m_b0fbd4d35f80}`.
 
-<div class="nx-evidence-preview"><a href="22-static-iv-offline-05-bukti-evidence.html"><img src="assets/static-iv-offline/98-terminal-evidence.png" alt="Pratinjau evidence Static IV Offline" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="22-static-iv-offline-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="22-static-iv-offline-06-bukti-evidence.html"><img src="assets/static-iv-offline/00b-submit-platform.png" alt="Pratinjau evidence Static IV Offline" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="22-static-iv-offline-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="22-static-iv-offline-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="22-static-iv-offline-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="22-static-iv-offline-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="22-static-iv-offline-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="22-static-iv-offline-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="22-static-iv-offline-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="22-static-iv-offline-02-triage-awal.html"><b>Triage awal</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="22-static-iv-offline-03-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="22-static-iv-offline-04-solver.html"><b>Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="22-static-iv-offline-05-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="22-static-iv-offline-06-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="22-static-iv-offline-07-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

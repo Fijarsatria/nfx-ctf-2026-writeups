@@ -16,6 +16,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/s3rvice-k3reta/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## Ringkasan
 
 > Catatan penting: `flags/wave2/S3rvice_K3reta.NOTES.md` dan
@@ -39,15 +45,18 @@
 - Flag valid: `NFX{Dr0n3_T3rb41k_T3mp4t_S3rv1c3_T3rb41k_J4uh_B4ng3T_BTW_B4ng_R0f1_K3r3n_S3rb4_b1s4}`
   (diterima platform, `+480`).
 
-<div class="nx-evidence-preview"><a href="34-s3rvice-k3reta-05-bukti-evidence.html"><img src="assets/s3rvice-k3reta/98-terminal-evidence.png" alt="Pratinjau evidence S3rvice K3reta" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="34-s3rvice-k3reta-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="34-s3rvice-k3reta-08-bukti-evidence.html"><img src="assets/s3rvice-k3reta/00b-submit-platform.png" alt="Pratinjau evidence S3rvice K3reta" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="34-s3rvice-k3reta-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
-<a class="nx-page-card" href="34-s3rvice-k3reta-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="34-s3rvice-k3reta-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="34-s3rvice-k3reta-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="34-s3rvice-k3reta-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="34-s3rvice-k3reta-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="34-s3rvice-k3reta-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="34-s3rvice-k3reta-01-jejak-awal.html"><b>Jejak Awal</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="34-s3rvice-k3reta-02-analisis-jejak.html"><b>Analisis Jejak</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="34-s3rvice-k3reta-03-q1-q13-jawaban-dan-verifikasi.html"><b>Q1–Q13: jawaban dan verifikasi</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="34-s3rvice-k3reta-04-analisis-jejak-2.html"><b>Analisis Jejak</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="34-s3rvice-k3reta-05-q9-q13-dari-post-tiktok-ke-plus-code.html"><b>Q9–Q13: dari post TikTok ke Plus Code</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="34-s3rvice-k3reta-06-pencarian-verifikasi.html"><b>Pencarian &amp; Verifikasi</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="34-s3rvice-k3reta-07-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="34-s3rvice-k3reta-08-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="34-s3rvice-k3reta-09-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

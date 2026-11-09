@@ -34,26 +34,40 @@ Tidak ada attachment binary. Challenge sepenuhnya berupa live service.
 
 ### 1.4 Triage awal
 
-`[REKONSTRUKSI]` Perintah yang dijalankan pertama kali:
+Perintah live yang dijalankan dari bastion:
 
 ```bash
-nmap -Pn -sV -p- --min-rate 2000 10.10.20.21
+nmap -Pn -sV -p 22,80 10.10.20.21
 curl -sS -i http://10.10.20.21/
 curl -sS -i http://10.10.20.21/.git/HEAD
 ```
 
-Hasil yang terdokumentasi di notes:
+Output asli:
 
 ```text
-22/tcp  open  ssh      OpenSSH 8.9p1
-80/tcp  open  http     nginx
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.18 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    nginx
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 `http://10.10.20.21/` menyajikan situs statis **"Nexus Developer Platform"**.
-Direktori `/.git/` dapat diakses dari webroot.
+Direktori `/.git/` dapat diakses dari webroot dan mengembalikan ref HEAD.
 
-**Catatan operasional.** Pada percobaan awal, container `NFX/b2r/labs/21`
-crash-loop: port 22 hanya hidup sekitar 25–1500 ms lalu container mati, dan MAC
-berubah tiap ~60 detik. `nx-up` ulang sekitar 11:01 UTC membuat container
-stabil; setelah itu port 80 dan 22 tetap terbuka. Tanpa redeploy, SSH tidak
-mungkin diselesaikan dalam jendela hidup selama itu.
+**Catatan instance.** Instance `NFX/b2r/labs/21` di-deploy ulang lewat platform
+pada 2026-11-09. Setelah status `ONLINE`, port 22 dan 80 stabil selama sesi
+live rerun; seluruh perintah di bawah dijalankan pada instance tersebut.
+
+### Evidence langkah ini
+
+![term-01-live-recon.png](assets/forgotten-commit-root/term-01-live-recon.png)
+
+*Terminal evidence — `01-live-recon.txt` (arsip transkrip sesi solve).*
+
+![term-01b-live-web.png](assets/forgotten-commit-root/term-01b-live-web.png)
+
+*Terminal evidence — `01b-live-web.txt` (arsip transkrip sesi solve).*
+
+![term-01c-live-git-head.png](assets/forgotten-commit-root/term-01c-live-git-head.png)
+
+*Terminal evidence — `01c-live-git-head.txt` (arsip transkrip sesi solve).*

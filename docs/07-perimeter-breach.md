@@ -16,6 +16,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/perimeter-breach/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 - Tiga log (`access.log` Nginx, `auth.log` syslog, `webapp.log`) merekam satu kampanye serangan dari **185.220.101.47** pada 10 Oktober 2026.
@@ -26,15 +32,20 @@
 - Persistence: `deploy` membuat user **`svc_backup`** (UID 1002, group sudo), mengganti password, lalu login SSH publickey sebagai `svc_backup` (14:41:27).
 - Flag: `NFX{P4th_1nt0_Pr0duct10n}`.
 
-<div class="nx-evidence-preview"><a href="07-perimeter-breach-05-bukti-evidence.html"><img src="assets/perimeter-breach/98-terminal-evidence.png" alt="Pratinjau evidence Perimeter Breach" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="07-perimeter-breach-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="07-perimeter-breach-10-bukti-evidence.html"><img src="assets/perimeter-breach/00b-submit-platform.png" alt="Pratinjau evidence Perimeter Breach" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="07-perimeter-breach-10-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
-<a class="nx-page-card" href="07-perimeter-breach-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="07-perimeter-breach-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="07-perimeter-breach-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="07-perimeter-breach-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="07-perimeter-breach-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="07-perimeter-breach-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="07-perimeter-breach-01-recon-artefak.html"><b>Recon Artefak</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="07-perimeter-breach-02-reconnaissance-gobuster.html"><b>Reconnaissance — gobuster</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="07-perimeter-breach-03-sql-injection-sqlmap.html"><b>SQL injection — sqlmap</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="07-perimeter-breach-04-initial-access-admin-login.html"><b>Initial access — admin login</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="07-perimeter-breach-05-webshell-execution.html"><b>Webshell execution</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="07-perimeter-breach-06-analisis-artefak.html"><b>Analisis Artefak</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="07-perimeter-breach-07-lima-pertanyaan-investigasi-rekonstruksi.html"><b>Lima pertanyaan investigasi (rekonstruksi)</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="07-perimeter-breach-08-pemulihan-artefak.html"><b>Pemulihan Artefak</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="07-perimeter-breach-09-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="07-perimeter-breach-10-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="07-perimeter-breach-11-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

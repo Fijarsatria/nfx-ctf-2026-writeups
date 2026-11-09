@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/progress-bar-root/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## Ringkasan
 
 > **Catatan bukti.** Sumber utama adalah
@@ -44,15 +50,18 @@
   `x; id; echo ---CAT---; cat /root/root.txt ... #` memberi eksekusi root.
 - Root flag: `NFX{fr0m_w4tcht0w3r_c0nf1g_t0_r00t_3xp0rt_j0b}`.
 
-<div class="nx-evidence-preview"><a href="14-progress-bar-root-05-bukti-evidence.html"><img src="assets/progress-bar-root/98-terminal-evidence.png" alt="Pratinjau evidence Progress Bar (Root)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="14-progress-bar-root-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="14-progress-bar-root-08-bukti-evidence.html"><img src="assets/progress-bar-root/00b-submit-platform.png" alt="Pratinjau evidence Progress Bar (Root)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="14-progress-bar-root-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="14-progress-bar-root-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="14-progress-bar-root-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="14-progress-bar-root-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="14-progress-bar-root-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="14-progress-bar-root-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="14-progress-bar-root-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="14-progress-bar-root-02-foothold-php2shell-cve-2026-109618.html"><b>Foothold: PHP2Shell CVE-2026-109618</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="14-progress-bar-root-03-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="14-progress-bar-root-04-strategi.html"><b>Strategi</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="14-progress-bar-root-05-langkah-exploit.html"><b>Langkah exploit</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="14-progress-bar-root-06-output.html"><b>Output</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="14-progress-bar-root-07-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="14-progress-bar-root-08-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="14-progress-bar-root-09-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

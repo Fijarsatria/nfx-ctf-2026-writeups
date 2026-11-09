@@ -52,3 +52,9 @@ extradata:0         .. file: Zip archive data, at least v2.0 to extract
 00000010: 65 a4 2b 00 00 00 2b 00 00 00 0b 00  00 00 63 61  |e.+...+.......ca|
 00000020: 74 61 74 61 6e 2e 74 78  74 ...                    |tatan.txt...    |
 ```
+
+### Evidence langkah ini
+
+![01-dokumentasi.png](assets/wujud-aseli-atmin/01-dokumentasi.png)
+
+*Evidence — `01-dokumentasi.png`.*

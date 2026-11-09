@@ -1,0 +1,15 @@
+$ curl -sS -i http://10.10.20.21/.git/HEAD
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 09 Nov 2026 15:57:05 GMT
+Content-Type: application/octet-stream
+Content-Length: 21
+Last-Modified: Mon, 09 Nov 2026 15:37:48 GMT
+Connection: keep-alive
+ETag: "6af1e8cc-15"
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+Accept-Ranges: bytes
+
+ref: refs/heads/main

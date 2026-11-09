@@ -16,6 +16,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/career-tempat-belajar/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## Ringkasan
 
 > Catatan metadata: `writeups/_manifest.json` mencatat 380 poin / 7 solves,
@@ -37,15 +43,17 @@
 - Profil Gravatar live tersebut memuat flag di field `aboutMe`:
   `NFX{Gr4v4t4r_0s1nt_R3cru1t3r_D1hL34Rn}`.
 
-<div class="nx-evidence-preview"><a href="09-career-tempat-belajar-05-bukti-evidence.html"><img src="assets/career-tempat-belajar/98-terminal-evidence.png" alt="Pratinjau evidence Career Tempat Belajar" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="09-career-tempat-belajar-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="09-career-tempat-belajar-07-bukti-evidence.html"><img src="assets/career-tempat-belajar/00b-submit-platform.png" alt="Pratinjau evidence Career Tempat Belajar" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="09-career-tempat-belajar-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
-<a class="nx-page-card" href="09-career-tempat-belajar-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="09-career-tempat-belajar-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="09-career-tempat-belajar-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="09-career-tempat-belajar-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="09-career-tempat-belajar-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="09-career-tempat-belajar-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="09-career-tempat-belajar-01-jejak-awal.html"><b>Jejak Awal</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="09-career-tempat-belajar-02-triage-awal.html"><b>Triage awal</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="09-career-tempat-belajar-03-analisis-jejak.html"><b>Analisis Jejak</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="09-career-tempat-belajar-04-analisis-jejak-2.html"><b>Analisis Jejak</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="09-career-tempat-belajar-05-pencarian-verifikasi.html"><b>Pencarian &amp; Verifikasi</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="09-career-tempat-belajar-06-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="09-career-tempat-belajar-07-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="09-career-tempat-belajar-08-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

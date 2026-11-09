@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/the-ghost-operator/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## Ringkasan
 
 > Catatan verifikasi: kandidat `NFX{villa_istana_bunga}` dan
@@ -41,15 +47,18 @@
 - Flag yang diterima platform: `NFX{villa_istana_bunga_lembang}` —
   nama safehouse + kota Lembang (bukan sekadar `villa_istana_bunga`).
 
-<div class="nx-evidence-preview"><a href="35-the-ghost-operator-05-bukti-evidence.html"><img src="assets/the-ghost-operator/98-terminal-evidence.png" alt="Pratinjau evidence The Ghost Operator" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="35-the-ghost-operator-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="35-the-ghost-operator-08-bukti-evidence.html"><img src="assets/the-ghost-operator/00b-submit-platform.png" alt="Pratinjau evidence The Ghost Operator" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="35-the-ghost-operator-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
-<a class="nx-page-card" href="35-the-ghost-operator-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="35-the-ghost-operator-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="35-the-ghost-operator-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="35-the-ghost-operator-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="35-the-ghost-operator-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="35-the-ghost-operator-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="35-the-ghost-operator-01-jejak-awal.html"><b>Jejak Awal</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="35-the-ghost-operator-02-analisis-jejak.html"><b>Analisis Jejak</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="35-the-ghost-operator-03-analisis-jejak-2.html"><b>Analisis Jejak</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="35-the-ghost-operator-04-identifikasi-tempat.html"><b>Identifikasi tempat</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="35-the-ghost-operator-05-mengapa-lowercase-ditolak.html"><b>Mengapa lowercase ditolak?</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="35-the-ghost-operator-06-pencarian-verifikasi.html"><b>Pencarian &amp; Verifikasi</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="35-the-ghost-operator-07-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="35-the-ghost-operator-08-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="35-the-ghost-operator-09-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

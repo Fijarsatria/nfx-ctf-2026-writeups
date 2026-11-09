@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/rsa-coppersmith-cihuy/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 - RSA 1024-bit dengan `e=65537`; hanya `chall.py` yang diberikan.
@@ -27,15 +33,16 @@
 - Dekripsi RSA memberi plaintext yang di-zero-pad di kiri:
   `NFXCTF{C0pp3rsm1th_p4rt14l_k3y_3xp0sur3_9617eda9}`.
 
-<div class="nx-evidence-preview"><a href="21-rsa-coppersmith-cihuy-05-bukti-evidence.html"><img src="assets/rsa-coppersmith-cihuy/98-terminal-evidence.png" alt="Pratinjau evidence RSA Coppersmith cihuy" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="21-rsa-coppersmith-cihuy-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="21-rsa-coppersmith-cihuy-06-bukti-evidence.html"><img src="assets/rsa-coppersmith-cihuy/00b-submit-platform.png" alt="Pratinjau evidence RSA Coppersmith cihuy" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="21-rsa-coppersmith-cihuy-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="21-rsa-coppersmith-cihuy-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
 <a class="nx-page-card" href="21-rsa-coppersmith-cihuy-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="21-rsa-coppersmith-cihuy-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="21-rsa-coppersmith-cihuy-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="21-rsa-coppersmith-cihuy-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="21-rsa-coppersmith-cihuy-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="21-rsa-coppersmith-cihuy-03-script-lengkap.html"><b>Script lengkap</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="21-rsa-coppersmith-cihuy-04-solver.html"><b>Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="21-rsa-coppersmith-cihuy-05-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="21-rsa-coppersmith-cihuy-06-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="21-rsa-coppersmith-cihuy-07-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

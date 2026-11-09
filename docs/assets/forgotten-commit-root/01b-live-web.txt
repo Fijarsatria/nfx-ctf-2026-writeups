@@ -1,0 +1,64 @@
+$ curl -sS -i http://10.10.20.21/ | head -60
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 09 Nov 2026 15:57:05 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 17689
+Last-Modified: Sun, 01 Nov 2026 17:40:39 GMT
+Connection: keep-alive
+ETag: "6ae77997-4519"
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+Accept-Ranges: bytes
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Developer Platform</title>
+    <meta name="description" content="The internal developer platform for Nexus Engineering. Build, deploy, observe, and secure services on a paved road.">
+    <meta name="theme-color" content="#070b12">
+    <meta property="og:title" content="Nexus Developer Platform">
+    <meta property="og:description" content="Build, deploy, observe, and secure services on the internal Nexus platform.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="announcement">
+        <div class="shell announcement-inner">
+            <span class="tag tag-brand">New</span>
+            <span>Nexus Platform 3.14 is now available. Read the <a href="/docs/#deployments">release notes</a>.</span>
+        </div>
+    </div>
+
+    <header class="site-header" data-header>
+        <div class="shell nav">
+            <a class="brand" href="/" aria-label="Nexus Developer Platform home">
+                <img class="brand-mark" src="/assets/img/mark.svg" alt="" width="34" height="34">
+                <span class="brand-text">
+                    <span class="brand-name">Nexus</span>
+                    <span class="brand-sub">Developer Platform</span>
+                </span>
+            </a>
+            <nav class="nav-links" id="primary-navigation" data-nav-links aria-label="Primary">
+                <a class="nav-link" href="/" aria-current="page">Overview</a>
+                <a class="nav-link" href="/#platform">Platform</a>
+                <a class="nav-link" href="/docs/">Documentation</a>
+                <a class="nav-link" href="/status.html">Status</a>
+            </nav>
+            <div class="nav-actions">
+                <a class="status-chip" href="/status.html">
+                    <span class="status-dot"></span>
+                    <span class="status-chip-text">All systems operational</span>
+                </a>
+                <a class="btn btn-small btn-primary" href="/docs/">Read the docs</a>
+                <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation">
+                    <span></span>
+
+[stderr]
+curl: (23) Failed writing body

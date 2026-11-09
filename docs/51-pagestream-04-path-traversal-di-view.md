@@ -1,0 +1,25 @@
+# PageStream — Path traversal di `/view`
+
+[← Overview](51-pagestream.md) · [Index](index.md)
+
+## 2.2 Path traversal di `/view`
+
+`routes/posts.js`:
+
+```js
+router.get('/view', requireAdmin, (req, res) => {
+    const fileParam = req.query.file;
+    if (!fileParam) {
+        return res.status(400).send('Missing file parameter');
+    }
+    const targetPath = path.resolve(__dirname, '../uploads', fileParam);
+    const stream = fs.createReadStream(targetPath);
+    ...
+    stream.pipe(res);
+});
+```
+
+- `__dirname = /app/routes`.
+- `path.resolve('/app/routes', '../uploads', '../../root/flag.txt')` → `/root/flag.txt`.
+- Tidak ada pengecekan `targetPath.startsWith('/app/uploads/')`.
+- Flag `/root/flag.txt` mode 600 root, tetapi proses Node berjalan sebagai root, jadi bisa dibaca.

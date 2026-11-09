@@ -59,3 +59,9 @@ satu worker prefork
 /upload.php = form upload multipart
 /out/ = web-served, writable www-data
 ```
+
+### Evidence langkah ini
+
+![term-01-recon.png](assets/progress-bar-root/term-01-recon.png)
+
+*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*

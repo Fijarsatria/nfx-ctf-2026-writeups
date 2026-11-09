@@ -26,3 +26,13 @@ Alur besarnya:
 5. Ambil LSB kanal R → base64 → decode.
 6. Flag: `NFX{NFCC_Goes_to_NCSC_2026}`.
 7. Submit → **`Correct! +460 points.`**
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/wujud-aseli-atmin/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
+![00b-submit-platform.png](assets/wujud-aseli-atmin/00b-submit-platform.png)
+
+*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*

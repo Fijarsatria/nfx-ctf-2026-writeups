@@ -65,433 +65,599 @@ nav:
     - 01-forgotten-commit-root.md
     - Recon: 01-forgotten-commit-root-01-recon.md
     - Analisis: 01-forgotten-commit-root-02-analisis.md
-    - Eksploitasi / Solver: 01-forgotten-commit-root-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 01-forgotten-commit-root-04-flag.md
-    - Evidence / Bukti: 01-forgotten-commit-root-05-bukti-evidence.md
-    - Referensi: 01-forgotten-commit-root-06-referensi.md
+    - Enumerasi sudo: 01-forgotten-commit-root-03-enumerasi-sudo.md
+    - Eksploitasi / Solver: 01-forgotten-commit-root-04-eksploitasi-solver.md
+    - Kenapa fzf bisa menjadi privesc: 01-forgotten-commit-root-05-kenapa-fzf-bisa-menjadi-privesc.md
+    - Flag & Verifikasi: 01-forgotten-commit-root-06-flag.md
+    - Evidence / Bukti: 01-forgotten-commit-root-07-bukti-evidence.md
+    - Referensi: 01-forgotten-commit-root-08-referensi.md
 - NF · Crypto:
   - 02. Black Box Protocol N4T0:
     - 02-black-box-protocol-n4t0.md
     - Recon: 02-black-box-protocol-n4t0-01-recon.md
     - Analisis: 02-black-box-protocol-n4t0-02-analisis.md
-    - Eksploitasi / Solver: 02-black-box-protocol-n4t0-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 02-black-box-protocol-n4t0-04-flag.md
-    - Evidence / Bukti: 02-black-box-protocol-n4t0-05-bukti-evidence.md
-    - Referensi: 02-black-box-protocol-n4t0-06-referensi.md
+    - Analisis: 02-black-box-protocol-n4t0-03-analisis-2.md
+    - Solver: 02-black-box-protocol-n4t0-04-solver.md
+    - Flag & Verifikasi: 02-black-box-protocol-n4t0-05-flag.md
+    - Evidence / Bukti: 02-black-box-protocol-n4t0-06-bukti-evidence.md
+    - Referensi: 02-black-box-protocol-n4t0-07-referensi.md
   - 03. Cihuyyyyyyyyyyyyyyy LWE sikit ahhhh:
     - 03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh.md
     - Recon: 03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-01-recon.md
     - Analisis: 03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-02-analisis.md
-    - Eksploitasi / Solver: 03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-04-flag.md
-    - Evidence / Bukti: 03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-05-bukti-evidence.md
-    - Referensi: 03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-06-referensi.md
+    - Solver: 03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-03-solver.md
+    - Solver: 03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-04-solver-2.md
+    - Flag & Verifikasi: 03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-05-flag.md
+    - Evidence / Bukti: 03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-06-bukti-evidence.md
+    - Referensi: 03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-07-referensi.md
   - 04. Feistel Differential:
     - 04-feistel-differential.md
     - Recon: 04-feistel-differential-01-recon.md
     - Analisis: 04-feistel-differential-02-analisis.md
-    - Eksploitasi / Solver: 04-feistel-differential-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 04-feistel-differential-04-flag.md
-    - Evidence / Bukti: 04-feistel-differential-05-bukti-evidence.md
-    - Referensi: 04-feistel-differential-06-referensi.md
+    - Analisis: 04-feistel-differential-03-analisis-2.md
+    - Strategi: 04-feistel-differential-04-strategi.md
+    - Script lengkap: 04-feistel-differential-05-script-lengkap.md
+    - Solver: 04-feistel-differential-06-solver.md
+    - Flag & Verifikasi: 04-feistel-differential-07-flag.md
+    - Evidence / Bukti: 04-feistel-differential-08-bukti-evidence.md
+    - Referensi: 04-feistel-differential-09-referensi.md
 - NF · Forensics:
   - 05. Heker Tersenyum - Art Evidence Secret:
     - 05-heker-tersenyum-art-evidence-secret.md
-    - Recon: 05-heker-tersenyum-art-evidence-secret-01-recon.md
-    - Analisis: 05-heker-tersenyum-art-evidence-secret-02-analisis.md
-    - Eksploitasi / Solver: 05-heker-tersenyum-art-evidence-secret-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 05-heker-tersenyum-art-evidence-secret-04-flag.md
-    - Evidence / Bukti: 05-heker-tersenyum-art-evidence-secret-05-bukti-evidence.md
-    - Referensi: 05-heker-tersenyum-art-evidence-secret-06-referensi.md
+    - Recon Artefak: 05-heker-tersenyum-art-evidence-secret-01-recon-artefak.md
+    - Triage awal: 05-heker-tersenyum-art-evidence-secret-02-triage-awal.md
+    - Analisis Artefak: 05-heker-tersenyum-art-evidence-secret-03-analisis-artefak.md
+    - Ekstraksi LSB manual: 05-heker-tersenyum-art-evidence-secret-04-ekstraksi-lsb-manual.md
+    - Bitplane LSB: 05-heker-tersenyum-art-evidence-secret-05-bitplane-lsb.md
+    - Pemulihan Artefak: 05-heker-tersenyum-art-evidence-secret-06-pemulihan-artefak.md
+    - Flag & Verifikasi: 05-heker-tersenyum-art-evidence-secret-07-flag.md
+    - Evidence / Bukti: 05-heker-tersenyum-art-evidence-secret-08-bukti-evidence.md
+    - Referensi: 05-heker-tersenyum-art-evidence-secret-09-referensi.md
   - 06. insider:
     - 06-insider.md
-    - Recon: 06-insider-01-recon.md
-    - Analisis: 06-insider-02-analisis.md
-    - Eksploitasi / Solver: 06-insider-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 06-insider-04-flag.md
-    - Evidence / Bukti: 06-insider-05-bukti-evidence.md
-    - Referensi: 06-insider-06-referensi.md
+    - Recon Artefak: 06-insider-01-recon-artefak.md
+    - Recon Artefak: 06-insider-02-recon-artefak-2.md
+    - Struktur profil: 06-insider-03-struktur-profil.md
+    - 'History: aktivitas tersangka': 06-insider-04-history-aktivitas-tersangka.md
+    - Analisis Artefak: 06-insider-05-analisis-artefak.md
+    - Analisis Artefak: 06-insider-06-analisis-artefak-2.md
+    - Pemulihan Artefak: 06-insider-07-pemulihan-artefak.md
+    - Flag & Verifikasi: 06-insider-08-flag.md
+    - Evidence / Bukti: 06-insider-09-bukti-evidence.md
+    - Referensi: 06-insider-10-referensi.md
   - 07. Perimeter Breach:
     - 07-perimeter-breach.md
-    - Recon: 07-perimeter-breach-01-recon.md
-    - Analisis: 07-perimeter-breach-02-analisis.md
-    - Eksploitasi / Solver: 07-perimeter-breach-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 07-perimeter-breach-04-flag.md
-    - Evidence / Bukti: 07-perimeter-breach-05-bukti-evidence.md
-    - Referensi: 07-perimeter-breach-06-referensi.md
+    - Recon Artefak: 07-perimeter-breach-01-recon-artefak.md
+    - Reconnaissance — gobuster: 07-perimeter-breach-02-reconnaissance-gobuster.md
+    - SQL injection — sqlmap: 07-perimeter-breach-03-sql-injection-sqlmap.md
+    - Initial access — admin login: 07-perimeter-breach-04-initial-access-admin-login.md
+    - Webshell execution: 07-perimeter-breach-05-webshell-execution.md
+    - Analisis Artefak: 07-perimeter-breach-06-analisis-artefak.md
+    - Lima pertanyaan investigasi (rekonstruksi): 07-perimeter-breach-07-lima-pertanyaan-investigasi-rekonstruksi.md
+    - Pemulihan Artefak: 07-perimeter-breach-08-pemulihan-artefak.md
+    - Flag & Verifikasi: 07-perimeter-breach-09-flag.md
+    - Evidence / Bukti: 07-perimeter-breach-10-bukti-evidence.md
+    - Referensi: 07-perimeter-breach-11-referensi.md
 - NF · Misc:
   - 08. Frekuensi Sunyi:
     - 08-frekuensi-sunyi.md
     - Recon: 08-frekuensi-sunyi-01-recon.md
-    - Analisis: 08-frekuensi-sunyi-02-analisis.md
-    - Eksploitasi / Solver: 08-frekuensi-sunyi-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 08-frekuensi-sunyi-04-flag.md
-    - Evidence / Bukti: 08-frekuensi-sunyi-05-bukti-evidence.md
-    - Referensi: 08-frekuensi-sunyi-06-referensi.md
+    - Triage awal: 08-frekuensi-sunyi-02-triage-awal.md
+    - Analisis: 08-frekuensi-sunyi-03-analisis.md
+    - Analisis: 08-frekuensi-sunyi-04-analisis-2.md
+    - Penyelesaian: 08-frekuensi-sunyi-05-penyelesaian.md
+    - Output asli: 08-frekuensi-sunyi-06-output-asli.md
+    - Flag & Verifikasi: 08-frekuensi-sunyi-07-flag.md
+    - Evidence / Bukti: 08-frekuensi-sunyi-08-bukti-evidence.md
+    - Referensi: 08-frekuensi-sunyi-09-referensi.md
   - 52. Wujud Aseli Atmin:
     - 52-wujud-aseli-atmin.md
     - Cerita Singkat: 52-wujud-aseli-atmin-01-cerita-singkat.md
     - Recon: 52-wujud-aseli-atmin-02-recon.md
     - Analisis: 52-wujud-aseli-atmin-03-analisis.md
-    - Eksploitasi / Solver: 52-wujud-aseli-atmin-04-eksploitasi-solver.md
+    - Penyelesaian: 52-wujud-aseli-atmin-04-penyelesaian.md
     - Flag & Verifikasi: 52-wujud-aseli-atmin-05-flag.md
     - Evidence / Bukti: 52-wujud-aseli-atmin-06-bukti-evidence.md
     - Referensi: 52-wujud-aseli-atmin-07-referensi.md
 - NF · Osint:
   - 09. Career Tempat Belajar:
     - 09-career-tempat-belajar.md
-    - Recon: 09-career-tempat-belajar-01-recon.md
-    - Analisis: 09-career-tempat-belajar-02-analisis.md
-    - Eksploitasi / Solver: 09-career-tempat-belajar-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 09-career-tempat-belajar-04-flag.md
-    - Evidence / Bukti: 09-career-tempat-belajar-05-bukti-evidence.md
-    - Referensi: 09-career-tempat-belajar-06-referensi.md
+    - Jejak Awal: 09-career-tempat-belajar-01-jejak-awal.md
+    - Triage awal: 09-career-tempat-belajar-02-triage-awal.md
+    - Analisis Jejak: 09-career-tempat-belajar-03-analisis-jejak.md
+    - Analisis Jejak: 09-career-tempat-belajar-04-analisis-jejak-2.md
+    - Pencarian & Verifikasi: 09-career-tempat-belajar-05-pencarian-verifikasi.md
+    - Flag & Verifikasi: 09-career-tempat-belajar-06-flag.md
+    - Evidence / Bukti: 09-career-tempat-belajar-07-bukti-evidence.md
+    - Referensi: 09-career-tempat-belajar-08-referensi.md
 - NF · Pwn:
   - 10. NFXCTF Convention:
     - 10-nfxctf-convention.md
     - Recon: 10-nfxctf-convention-01-recon.md
-    - Analisis: 10-nfxctf-convention-02-analisis.md
-    - Eksploitasi: 10-nfxctf-convention-03-eksploitasi.md
-    - Flag & Verifikasi: 10-nfxctf-convention-04-flag.md
-    - Evidence / Bukti: 10-nfxctf-convention-05-bukti-evidence.md
-    - Referensi: 10-nfxctf-convention-06-referensi.md
+    - Recon: 10-nfxctf-convention-02-recon-2.md
+    - Analisis: 10-nfxctf-convention-03-analisis.md
+    - 'Bug #3 — format string di `view_profile()`': 10-nfxctf-convention-04-bug-3-format-string-di-view-profile.md
+    - Eksploitasi: 10-nfxctf-convention-05-eksploitasi.md
+    - Output asli: 10-nfxctf-convention-06-output-asli.md
+    - Flag & Verifikasi: 10-nfxctf-convention-07-flag.md
+    - Evidence / Bukti: 10-nfxctf-convention-08-bukti-evidence.md
+    - Referensi: 10-nfxctf-convention-09-referensi.md
 - NF · Web:
   - 11. NexaIdentity:
     - 11-nexaidentity.md
     - Recon: 11-nexaidentity-01-recon.md
-    - Analisis: 11-nexaidentity-02-analisis.md
-    - Eksploitasi / Solver: 11-nexaidentity-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 11-nexaidentity-04-flag.md
-    - Evidence / Bukti: 11-nexaidentity-05-bukti-evidence.md
-    - Referensi: 11-nexaidentity-06-referensi.md
+    - Triage awal: 11-nexaidentity-02-triage-awal.md
+    - Analisis: 11-nexaidentity-03-analisis.md
+    - Analisis: 11-nexaidentity-04-analisis-2.md
+    - Eksploitasi / Solver: 11-nexaidentity-05-eksploitasi-solver.md
+    - Script minimal: 11-nexaidentity-06-script-minimal.md
+    - Flag & Verifikasi: 11-nexaidentity-07-flag.md
+    - Evidence / Bukti: 11-nexaidentity-08-bukti-evidence.md
+    - Referensi: 11-nexaidentity-09-referensi.md
   - 12. NexaPartner:
     - 12-nexapartner.md
     - Recon: 12-nexapartner-01-recon.md
-    - Analisis: 12-nexapartner-02-analisis.md
-    - Eksploitasi / Solver: 12-nexapartner-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 12-nexapartner-04-flag.md
-    - Evidence / Bukti: 12-nexapartner-05-bukti-evidence.md
-    - Referensi: 12-nexapartner-06-referensi.md
+    - Triage awal: 12-nexapartner-02-triage-awal.md
+    - Settings API: 12-nexapartner-03-settings-api.md
+    - Analisis: 12-nexapartner-04-analisis.md
+    - Eksploitasi / Solver: 12-nexapartner-05-eksploitasi-solver.md
+    - Output asli: 12-nexapartner-06-output-asli.md
+    - Flag & Verifikasi: 12-nexapartner-07-flag.md
+    - Evidence / Bukti: 12-nexapartner-08-bukti-evidence.md
+    - Referensi: 12-nexapartner-09-referensi.md
   - 13. NXPortal:
     - 13-nxportal.md
     - Recon: 13-nxportal-01-recon.md
-    - Analisis: 13-nxportal-02-analisis.md
-    - Eksploitasi / Solver (sebagian, belum selesai): 13-nxportal-03-eksploitasi-solver-sebagian-belum-selesa.md
-    - Flag & Verifikasi: 13-nxportal-04-flag.md
-    - Evidence / Bukti: 13-nxportal-05-bukti-evidence.md
-    - Rencana Penyelesaian (OPEN): 13-nxportal-06-rencana-penyelesaian-open.md
-    - Referensi: 13-nxportal-07-referensi.md
+    - Triage awal: 13-nxportal-02-triage-awal.md
+    - Analisis: 13-nxportal-03-analisis.md
+    - 'Hint blog: header parsing / multi-line payload': 13-nxportal-04-hint-blog-header-parsing-multi-line-payl.md
+    - Yang sudah dicoba (live, 2026-11-08): 13-nxportal-05-yang-sudah-dicoba-live-2026-11-08.md
+    - Eksploitasi / Solver (sebagian, belum selesai): 13-nxportal-06-eksploitasi-solver-sebagian-belum-selesa.md
+    - Flag & Verifikasi: 13-nxportal-07-flag.md
+    - Evidence / Bukti: 13-nxportal-08-bukti-evidence.md
+    - Rencana Penyelesaian (OPEN): 13-nxportal-09-rencana-penyelesaian-open.md
+    - Referensi: 13-nxportal-10-referensi.md
 - Extend · Boot To Root:
   - 14. Progress Bar (Root):
     - 14-progress-bar-root.md
     - Recon: 14-progress-bar-root-01-recon.md
-    - Analisis: 14-progress-bar-root-02-analisis.md
-    - Eksploitasi / Solver: 14-progress-bar-root-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 14-progress-bar-root-04-flag.md
-    - Evidence / Bukti: 14-progress-bar-root-05-bukti-evidence.md
-    - Referensi: 14-progress-bar-root-06-referensi.md
+    - 'Foothold: PHP2Shell CVE-2026-109618': 14-progress-bar-root-02-foothold-php2shell-cve-2026-109618.md
+    - Analisis: 14-progress-bar-root-03-analisis.md
+    - Strategi: 14-progress-bar-root-04-strategi.md
+    - Langkah exploit: 14-progress-bar-root-05-langkah-exploit.md
+    - Output: 14-progress-bar-root-06-output.md
+    - Flag & Verifikasi: 14-progress-bar-root-07-flag.md
+    - Evidence / Bukti: 14-progress-bar-root-08-bukti-evidence.md
+    - Referensi: 14-progress-bar-root-09-referensi.md
   - 15. Progress Bar (User):
     - 15-progress-bar-user.md
     - Recon: 15-progress-bar-user-01-recon.md
-    - Analisis: 15-progress-bar-user-02-analisis.md
-    - Eksploitasi / Solver: 15-progress-bar-user-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 15-progress-bar-user-04-flag.md
-    - Evidence / Bukti: 15-progress-bar-user-05-bukti-evidence.md
-    - Referensi: 15-progress-bar-user-06-referensi.md
+    - Permukaan upload dan `session.upload_progress`: 15-progress-bar-user-02-permukaan-upload-dan-session-upload-prog.md
+    - Analisis: 15-progress-bar-user-03-analisis.md
+    - Analisis: 15-progress-bar-user-04-analisis-2.md
+    - Strategi: 15-progress-bar-user-05-strategi.md
+    - Langkah exploit: 15-progress-bar-user-06-langkah-exploit.md
+    - Output: 15-progress-bar-user-07-output.md
+    - Flag & Verifikasi: 15-progress-bar-user-08-flag.md
+    - Flag & Verifikasi: 15-progress-bar-user-09-riwayat-penolakan-di-backend-lama.md
+    - Evidence / Bukti: 15-progress-bar-user-10-bukti-evidence.md
+    - Referensi: 15-progress-bar-user-11-referensi.md
   - 16. Record Keeper (Root):
     - 16-record-keeper-root.md
     - Recon: 16-record-keeper-root-01-recon.md
-    - Analisis: 16-record-keeper-root-02-analisis.md
-    - Eksploitasi / Solver: 16-record-keeper-root-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 16-record-keeper-root-04-flag.md
-    - Evidence / Bukti: 16-record-keeper-root-05-bukti-evidence.md
-    - Referensi: 16-record-keeper-root-06-referensi.md
+    - Triage awal: 16-record-keeper-root-02-triage-awal.md
+    - Analisis: 16-record-keeper-root-03-analisis.md
+    - Analisis: 16-record-keeper-root-04-analisis-2.md
+    - Strategi: 16-record-keeper-root-05-strategi.md
+    - Langkah exploit: 16-record-keeper-root-06-langkah-exploit.md
+    - Output: 16-record-keeper-root-07-output.md
+    - Flag & Verifikasi: 16-record-keeper-root-08-flag.md
+    - Evidence / Bukti: 16-record-keeper-root-09-bukti-evidence.md
+    - Referensi: 16-record-keeper-root-10-referensi.md
   - 17. Record Keeper (User):
     - 17-record-keeper-user.md
     - Recon: 17-record-keeper-user-01-recon.md
     - Analisis: 17-record-keeper-user-02-analisis.md
-    - Eksploitasi / Solver: 17-record-keeper-user-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 17-record-keeper-user-04-flag.md
-    - Evidence / Bukti: 17-record-keeper-user-05-bukti-evidence.md
-    - Referensi: 17-record-keeper-user-06-referensi.md
+    - Analisis: 17-record-keeper-user-03-analisis-2.md
+    - Setelah RCE: 17-record-keeper-user-04-setelah-rce.md
+    - Eksploitasi / Solver: 17-record-keeper-user-05-eksploitasi-solver.md
+    - Output: 17-record-keeper-user-06-output.md
+    - Flag & Verifikasi: 17-record-keeper-user-07-flag.md
+    - Evidence / Bukti: 17-record-keeper-user-08-bukti-evidence.md
+    - Referensi: 17-record-keeper-user-09-referensi.md
 - Extend · Crypto:
   - 18. Broken Signature Scheme:
     - 18-broken-signature-scheme.md
     - Recon: 18-broken-signature-scheme-01-recon.md
-    - Analisis: 18-broken-signature-scheme-02-analisis.md
-    - Eksploitasi / Solver: 18-broken-signature-scheme-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 18-broken-signature-scheme-04-flag.md
-    - Evidence / Bukti: 18-broken-signature-scheme-05-bukti-evidence.md
-    - Referensi: 18-broken-signature-scheme-06-referensi.md
+    - Layer 1 — RSA signature multiplicatif: 18-broken-signature-scheme-02-layer-1-rsa-signature-multiplicatif.md
+    - Analisis: 18-broken-signature-scheme-03-analisis.md
+    - Solver: 18-broken-signature-scheme-04-solver.md
+    - Solver: 18-broken-signature-scheme-05-solver-2.md
+    - Flag & Verifikasi: 18-broken-signature-scheme-06-flag.md
+    - Evidence / Bukti: 18-broken-signature-scheme-07-bukti-evidence.md
+    - Referensi: 18-broken-signature-scheme-08-referensi.md
   - 19. ECDSA Nonce Bias:
     - 19-ecdsa-nonce-bias.md
     - Recon: 19-ecdsa-nonce-bias-01-recon.md
     - Analisis: 19-ecdsa-nonce-bias-02-analisis.md
-    - Eksploitasi / Solver: 19-ecdsa-nonce-bias-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 19-ecdsa-nonce-bias-04-flag.md
-    - Evidence / Bukti: 19-ecdsa-nonce-bias-05-bukti-evidence.md
-    - Referensi: 19-ecdsa-nonce-bias-06-referensi.md
+    - Script lengkap: 19-ecdsa-nonce-bias-03-script-lengkap.md
+    - Solver: 19-ecdsa-nonce-bias-04-solver.md
+    - Flag & Verifikasi: 19-ecdsa-nonce-bias-05-flag.md
+    - Evidence / Bukti: 19-ecdsa-nonce-bias-06-bukti-evidence.md
+    - Referensi: 19-ecdsa-nonce-bias-07-referensi.md
   - 20. FlagKeepers:
     - 20-flagkeepers.md
     - Recon: 20-flagkeepers-01-recon.md
     - Analisis: 20-flagkeepers-02-analisis.md
-    - Eksploitasi / Solver: 20-flagkeepers-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 20-flagkeepers-04-flag.md
-    - Evidence / Bukti: 20-flagkeepers-05-bukti-evidence.md
-    - Referensi: 20-flagkeepers-06-referensi.md
+    - Helper GF(2^128) / GHASH: 20-flagkeepers-03-helper-gf-2-128-ghash.md
+    - Solver: 20-flagkeepers-04-solver.md
+    - Reproduksi offline: 20-flagkeepers-05-reproduksi-offline.md
+    - Flag & Verifikasi: 20-flagkeepers-06-flag.md
+    - Evidence / Bukti: 20-flagkeepers-07-bukti-evidence.md
+    - Referensi: 20-flagkeepers-08-referensi.md
   - 21. RSA Coppersmith cihuy:
     - 21-rsa-coppersmith-cihuy.md
     - Recon: 21-rsa-coppersmith-cihuy-01-recon.md
     - Analisis: 21-rsa-coppersmith-cihuy-02-analisis.md
-    - Eksploitasi / Solver: 21-rsa-coppersmith-cihuy-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 21-rsa-coppersmith-cihuy-04-flag.md
-    - Evidence / Bukti: 21-rsa-coppersmith-cihuy-05-bukti-evidence.md
-    - Referensi: 21-rsa-coppersmith-cihuy-06-referensi.md
+    - Script lengkap: 21-rsa-coppersmith-cihuy-03-script-lengkap.md
+    - Solver: 21-rsa-coppersmith-cihuy-04-solver.md
+    - Flag & Verifikasi: 21-rsa-coppersmith-cihuy-05-flag.md
+    - Evidence / Bukti: 21-rsa-coppersmith-cihuy-06-bukti-evidence.md
+    - Referensi: 21-rsa-coppersmith-cihuy-07-referensi.md
   - 22. Static IV Offline:
     - 22-static-iv-offline.md
     - Recon: 22-static-iv-offline-01-recon.md
-    - Analisis: 22-static-iv-offline-02-analisis.md
-    - Eksploitasi / Solver: 22-static-iv-offline-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 22-static-iv-offline-04-flag.md
-    - Evidence / Bukti: 22-static-iv-offline-05-bukti-evidence.md
-    - Referensi: 22-static-iv-offline-06-referensi.md
+    - Triage awal: 22-static-iv-offline-02-triage-awal.md
+    - Analisis: 22-static-iv-offline-03-analisis.md
+    - Solver: 22-static-iv-offline-04-solver.md
+    - Flag & Verifikasi: 22-static-iv-offline-05-flag.md
+    - Evidence / Bukti: 22-static-iv-offline-06-bukti-evidence.md
+    - Referensi: 22-static-iv-offline-07-referensi.md
   - 23. Unbreakable Delay:
     - 23-unbreakable-delay.md
     - Recon: 23-unbreakable-delay-01-recon.md
     - Analisis: 23-unbreakable-delay-02-analisis.md
-    - Eksploitasi / Solver: 23-unbreakable-delay-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 23-unbreakable-delay-04-flag.md
-    - Evidence / Bukti: 23-unbreakable-delay-05-bukti-evidence.md
-    - Referensi: 23-unbreakable-delay-06-referensi.md
+    - Analisis: 23-unbreakable-delay-03-analisis-2.md
+    - Solver: 23-unbreakable-delay-04-solver.md
+    - Output asli simulasi: 23-unbreakable-delay-05-output-asli-simulasi.md
+    - Flag & Verifikasi: 23-unbreakable-delay-06-flag.md
+    - Evidence / Bukti: 23-unbreakable-delay-07-bukti-evidence.md
+    - Referensi: 23-unbreakable-delay-08-referensi.md
 - Extend · Forensics:
   - 24. Access Remains:
     - 24-access-remains.md
-    - Recon: 24-access-remains-01-recon.md
-    - Analisis: 24-access-remains-02-analisis.md
-    - Eksploitasi / Solver: 24-access-remains-03-eksploitasi-solver.md
-    - Alur 8 Sub-Challenge Q&A (verified): 24-access-remains-04-alur-8-sub-challenge-q-a-verified.md
-    - Flag & Verifikasi: 24-access-remains-05-flag.md
-    - Evidence / Bukti: 24-access-remains-06-bukti-evidence.md
-    - Referensi: 24-access-remains-07-referensi.md
+    - Deskripsi challenge: 24-access-remains-01-deskripsi-challenge.md
+    - Recon Artefak: 24-access-remains-02-recon-artefak.md
+    - Triage awal: 24-access-remains-03-triage-awal.md
+    - SAM + SYSTEM + SECURITY → NTLM: 24-access-remains-04-sam-system-security-ntlm.md
+    - Analisis Artefak: 24-access-remains-05-analisis-artefak.md
+    - Analisis Artefak: 24-access-remains-06-analisis-artefak-2.md
+    - Pemulihan Artefak: 24-access-remains-07-pemulihan-artefak.md
+    - Alur 8 Sub-Challenge Q&A (verified): 24-access-remains-08-alur-8-sub-challenge-q-a-verified.md
+    - Flag & Verifikasi: 24-access-remains-09-flag.md
+    - Evidence / Bukti: 24-access-remains-10-bukti-evidence.md
+    - Referensi: 24-access-remains-11-referensi.md
   - 25. Bluebird Session:
     - 25-bluebird-session.md
-    - Recon: 25-bluebird-session-01-recon.md
-    - Analisis: 25-bluebird-session-02-analisis.md
-    - Eksploitasi / Solver: 25-bluebird-session-03-eksploitasi-solver.md
-    - Alur 11 Sub-Challenge Q&A (verified): 25-bluebird-session-04-alur-11-sub-challenge-q-a-verified.md
-    - Flag & Verifikasi: 25-bluebird-session-05-flag.md
-    - Evidence / Bukti: 25-bluebird-session-06-bukti-evidence.md
-    - Referensi: 25-bluebird-session-07-referensi.md
+    - Recon Artefak: 25-bluebird-session-01-recon-artefak.md
+    - Triage awal: 25-bluebird-session-02-triage-awal.md
+    - Identitas dua user: 25-bluebird-session-03-identitas-dua-user.md
+    - Bash history: 25-bluebird-session-04-bash-history.md
+    - GNOME Keyring `login.keyring`: 25-bluebird-session-05-gnome-keyring-login-keyring.md
+    - Analisis Artefak: 25-bluebird-session-06-analisis-artefak.md
+    - Pemulihan Artefak: 25-bluebird-session-07-pemulihan-artefak.md
+    - Alur 11 Sub-Challenge Q&A (verified): 25-bluebird-session-08-alur-11-sub-challenge-q-a-verified.md
+    - Flag & Verifikasi: 25-bluebird-session-09-flag.md
+    - Evidence / Bukti: 25-bluebird-session-10-bukti-evidence.md
+    - Referensi: 25-bluebird-session-11-referensi.md
   - 26. Panggilan Terakhir:
     - 26-panggilan-terakhir.md
-    - Recon: 26-panggilan-terakhir-01-recon.md
-    - Analisis: 26-panggilan-terakhir-02-analisis.md
-    - Eksploitasi / Solver: 26-panggilan-terakhir-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 26-panggilan-terakhir-04-flag.md
-    - Evidence / Bukti: 26-panggilan-terakhir-05-bukti-evidence.md
-    - Referensi: 26-panggilan-terakhir-06-referensi.md
+    - Recon Artefak: 26-panggilan-terakhir-01-recon-artefak.md
+    - SIP INVITE dan SDP: 26-panggilan-terakhir-02-sip-invite-dan-sdp.md
+    - Ekstraksi RTP: 26-panggilan-terakhir-03-ekstraksi-rtp.md
+    - Transkripsi: 26-panggilan-terakhir-04-transkripsi.md
+    - Pemulihan Artefak: 26-panggilan-terakhir-05-pemulihan-artefak.md
+    - Flag & Verifikasi: 26-panggilan-terakhir-06-flag.md
+    - Evidence / Bukti: 26-panggilan-terakhir-07-bukti-evidence.md
+    - Referensi: 26-panggilan-terakhir-08-referensi.md
   - 27. Weak Handshake:
     - 27-weak-handshake.md
-    - Recon: 27-weak-handshake-01-recon.md
-    - Analisis: 27-weak-handshake-02-analisis.md
-    - Eksploitasi / Solver: 27-weak-handshake-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 27-weak-handshake-04-flag.md
-    - Evidence / Bukti: 27-weak-handshake-05-bukti-evidence.md
-    - Referensi: 27-weak-handshake-06-referensi.md
+    - Recon Artefak: 27-weak-handshake-01-recon-artefak.md
+    - Analisis Artefak: 27-weak-handshake-02-analisis-artefak.md
+    - Analisis Artefak: 27-weak-handshake-03-analisis-artefak-2.md
+    - Analisis Artefak: 27-weak-handshake-04-analisis-artefak-3.md
+    - Analisis Artefak: 27-weak-handshake-05-analisis-artefak-4.md
+    - Pemulihan Artefak: 27-weak-handshake-06-pemulihan-artefak.md
+    - Output: 27-weak-handshake-07-output.md
+    - Flag & Verifikasi: 27-weak-handshake-08-flag.md
+    - Evidence / Bukti: 27-weak-handshake-09-bukti-evidence.md
+    - Referensi: 27-weak-handshake-10-referensi.md
 - Extend · Misc:
   - 28. Dokodemo Door:
     - 28-dokodemo-door.md
     - Recon: 28-dokodemo-door-01-recon.md
     - Analisis: 28-dokodemo-door-02-analisis.md
-    - Eksploitasi / Solver: 28-dokodemo-door-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 28-dokodemo-door-04-flag.md
-    - Evidence / Bukti: 28-dokodemo-door-05-bukti-evidence.md
-    - Referensi: 28-dokodemo-door-06-referensi.md
+    - Ekstraksi teks dari PDF: 28-dokodemo-door-03-ekstraksi-teks-dari-pdf.md
+    - Strategi: 28-dokodemo-door-04-strategi.md
+    - Solver: 28-dokodemo-door-05-solver.md
+    - Output asli: 28-dokodemo-door-06-output-asli.md
+    - Flag & Verifikasi: 28-dokodemo-door-07-flag.md
+    - Evidence / Bukti: 28-dokodemo-door-08-bukti-evidence.md
+    - Referensi: 28-dokodemo-door-09-referensi.md
   - 29. My Lovely Freya:
     - 29-my-lovely-freya.md
     - Recon: 29-my-lovely-freya-01-recon.md
-    - Analisis: 29-my-lovely-freya-02-analisis.md
-    - Eksploitasi / Solver: 29-my-lovely-freya-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 29-my-lovely-freya-04-flag.md
-    - Evidence / Bukti: 29-my-lovely-freya-05-bukti-evidence.md
-    - Referensi: 29-my-lovely-freya-06-referensi.md
+    - Triage awal: 29-my-lovely-freya-02-triage-awal.md
+    - Analisis: 29-my-lovely-freya-03-analisis.md
+    - Dekripsi: 29-my-lovely-freya-04-dekripsi.md
+    - Penyelesaian: 29-my-lovely-freya-05-penyelesaian.md
+    - Output asli: 29-my-lovely-freya-06-output-asli.md
+    - Flag & Verifikasi: 29-my-lovely-freya-07-flag.md
+    - Evidence / Bukti: 29-my-lovely-freya-08-bukti-evidence.md
+    - Referensi: 29-my-lovely-freya-09-referensi.md
   - 30. Stay:
     - 30-stay.md
     - Recon: 30-stay-01-recon.md
     - Analisis: 30-stay-02-analisis.md
-    - Eksploitasi / Solver: 30-stay-03-eksploitasi-solver.md
+    - Penyelesaian: 30-stay-03-penyelesaian.md
     - Flag & Verifikasi: 30-stay-04-flag.md
     - Evidence / Bukti: 30-stay-05-bukti-evidence.md
     - Referensi: 30-stay-06-referensi.md
   - 31. SymHell:
     - 31-symhell.md
     - Recon: 31-symhell-01-recon.md
-    - Analisis: 31-symhell-02-analisis.md
-    - Eksploitasi / Solver: 31-symhell-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 31-symhell-04-flag.md
-    - Evidence / Bukti: 31-symhell-05-bukti-evidence.md
-    - Referensi: 31-symhell-06-referensi.md
+    - Triage awal: 31-symhell-02-triage-awal.md
+    - Analisis: 31-symhell-03-analisis.md
+    - Penyelesaian: 31-symhell-04-penyelesaian.md
+    - Flag & Verifikasi: 31-symhell-05-flag.md
+    - Evidence / Bukti: 31-symhell-06-bukti-evidence.md
+    - Referensi: 31-symhell-07-referensi.md
   - 32. The Alchemist's Sandbox:
     - 32-the-alchemists-sandbox.md
     - Recon: 32-the-alchemists-sandbox-01-recon.md
-    - Analisis: 32-the-alchemists-sandbox-02-analisis.md
-    - Eksploitasi / Solver: 32-the-alchemists-sandbox-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 32-the-alchemists-sandbox-04-flag.md
-    - Evidence / Bukti: 32-the-alchemists-sandbox-05-bukti-evidence.md
-    - Referensi: 32-the-alchemists-sandbox-06-referensi.md
+    - Triage awal: 32-the-alchemists-sandbox-02-triage-awal.md
+    - Analisis: 32-the-alchemists-sandbox-03-analisis.md
+    - Analisis: 32-the-alchemists-sandbox-04-analisis-2.md
+    - Payload: 32-the-alchemists-sandbox-05-payload.md
+    - Solver lengkap: 32-the-alchemists-sandbox-06-solver-lengkap.md
+    - Output asli: 32-the-alchemists-sandbox-07-output-asli.md
+    - Flag & Verifikasi: 32-the-alchemists-sandbox-08-flag.md
+    - Evidence / Bukti: 32-the-alchemists-sandbox-09-bukti-evidence.md
+    - Referensi: 32-the-alchemists-sandbox-10-referensi.md
 - Extend · Osint:
   - 33. Fresh Arrival:
     - 33-fresh-arrival.md
-    - Recon: 33-fresh-arrival-01-recon.md
-    - Analisis: 33-fresh-arrival-02-analisis.md
-    - Eksploitasi / Solver: 33-fresh-arrival-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 33-fresh-arrival-04-flag.md
-    - Evidence / Bukti: 33-fresh-arrival-05-bukti-evidence.md
-    - Referensi: 33-fresh-arrival-06-referensi.md
+    - Jejak Awal: 33-fresh-arrival-01-jejak-awal.md
+    - Triage awal: 33-fresh-arrival-02-triage-awal.md
+    - Analisis Jejak: 33-fresh-arrival-03-analisis-jejak.md
+    - Analisis Jejak: 33-fresh-arrival-04-analisis-jejak-2.md
+    - Pencarian & Verifikasi: 33-fresh-arrival-05-pencarian-verifikasi.md
+    - Flag & Verifikasi: 33-fresh-arrival-06-flag.md
+    - Evidence / Bukti: 33-fresh-arrival-07-bukti-evidence.md
+    - Referensi: 33-fresh-arrival-08-referensi.md
   - 34. S3rvice K3reta:
     - 34-s3rvice-k3reta.md
-    - Recon: 34-s3rvice-k3reta-01-recon.md
-    - Analisis: 34-s3rvice-k3reta-02-analisis.md
-    - Eksploitasi / Solver: 34-s3rvice-k3reta-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 34-s3rvice-k3reta-04-flag.md
-    - Evidence / Bukti: 34-s3rvice-k3reta-05-bukti-evidence.md
-    - Referensi: 34-s3rvice-k3reta-06-referensi.md
+    - Jejak Awal: 34-s3rvice-k3reta-01-jejak-awal.md
+    - Analisis Jejak: 34-s3rvice-k3reta-02-analisis-jejak.md
+    - 'Q1–Q13: jawaban dan verifikasi': 34-s3rvice-k3reta-03-q1-q13-jawaban-dan-verifikasi.md
+    - Analisis Jejak: 34-s3rvice-k3reta-04-analisis-jejak-2.md
+    - 'Q9–Q13: dari post TikTok ke Plus Code': 34-s3rvice-k3reta-05-q9-q13-dari-post-tiktok-ke-plus-code.md
+    - Pencarian & Verifikasi: 34-s3rvice-k3reta-06-pencarian-verifikasi.md
+    - Flag & Verifikasi: 34-s3rvice-k3reta-07-flag.md
+    - Evidence / Bukti: 34-s3rvice-k3reta-08-bukti-evidence.md
+    - Referensi: 34-s3rvice-k3reta-09-referensi.md
   - 35. The Ghost Operator:
     - 35-the-ghost-operator.md
-    - Recon: 35-the-ghost-operator-01-recon.md
-    - Analisis: 35-the-ghost-operator-02-analisis.md
-    - Eksploitasi / Solver: 35-the-ghost-operator-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 35-the-ghost-operator-04-flag.md
-    - Evidence / Bukti: 35-the-ghost-operator-05-bukti-evidence.md
-    - Referensi: 35-the-ghost-operator-06-referensi.md
+    - Jejak Awal: 35-the-ghost-operator-01-jejak-awal.md
+    - Analisis Jejak: 35-the-ghost-operator-02-analisis-jejak.md
+    - Analisis Jejak: 35-the-ghost-operator-03-analisis-jejak-2.md
+    - Identifikasi tempat: 35-the-ghost-operator-04-identifikasi-tempat.md
+    - Mengapa lowercase ditolak?: 35-the-ghost-operator-05-mengapa-lowercase-ditolak.md
+    - Pencarian & Verifikasi: 35-the-ghost-operator-06-pencarian-verifikasi.md
+    - Flag & Verifikasi: 35-the-ghost-operator-07-flag.md
+    - Evidence / Bukti: 35-the-ghost-operator-08-bukti-evidence.md
+    - Referensi: 35-the-ghost-operator-09-referensi.md
   - 36. Tragedi 9/11:
     - 36-tragedi-9-11.md
-    - Recon: 36-tragedi-9-11-01-recon.md
-    - Analisis: 36-tragedi-9-11-02-analisis.md
-    - Eksploitasi / Solver: 36-tragedi-9-11-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 36-tragedi-9-11-04-flag.md
-    - Evidence / Bukti: 36-tragedi-9-11-05-bukti-evidence.md
-    - Referensi: 36-tragedi-9-11-06-referensi.md
+    - Jejak Awal: 36-tragedi-9-11-01-jejak-awal.md
+    - Triage awal: 36-tragedi-9-11-02-triage-awal.md
+    - Analisis Jejak: 36-tragedi-9-11-03-analisis-jejak.md
+    - Analisis Jejak: 36-tragedi-9-11-04-analisis-jejak-2.md
+    - Pencarian & Verifikasi: 36-tragedi-9-11-05-pencarian-verifikasi.md
+    - Flag & Verifikasi: 36-tragedi-9-11-06-flag.md
+    - Evidence / Bukti: 36-tragedi-9-11-07-bukti-evidence.md
+    - Referensi: 36-tragedi-9-11-08-referensi.md
 - Extend · Pwn:
   - 37. Gateway Under Pressure:
     - 37-gateway-under-pressure.md
     - Recon: 37-gateway-under-pressure-01-recon.md
-    - Analisis: 37-gateway-under-pressure-02-analisis.md
-    - Eksploitasi: 37-gateway-under-pressure-03-eksploitasi.md
-    - Flag & Verifikasi: 37-gateway-under-pressure-04-flag.md
-    - Evidence / Bukti: 37-gateway-under-pressure-05-bukti-evidence.md
-    - Referensi: 37-gateway-under-pressure-06-referensi.md
+    - Triage awal: 37-gateway-under-pressure-02-triage-awal.md
+    - '`do_audit()` — arbitrary-length stack read': 37-gateway-under-pressure-03-do-audit-arbitrary-length-stack-read.md
+    - Analisis: 37-gateway-under-pressure-04-analisis.md
+    - Eksploitasi: 37-gateway-under-pressure-05-eksploitasi.md
+    - Flag & Verifikasi: 37-gateway-under-pressure-06-flag.md
+    - Evidence / Bukti: 37-gateway-under-pressure-07-bukti-evidence.md
+    - Referensi: 37-gateway-under-pressure-08-referensi.md
   - 38. NarrowGate:
     - 38-narrowgate.md
     - Recon: 38-narrowgate-01-recon.md
-    - Analisis: 38-narrowgate-02-analisis.md
-    - Eksploitasi: 38-narrowgate-03-eksploitasi.md
-    - Flag & Verifikasi: 38-narrowgate-04-flag.md
-    - Evidence / Bukti: 38-narrowgate-05-bukti-evidence.md
-    - Referensi: 38-narrowgate-06-referensi.md
+    - '`leaker()` — format string': 38-narrowgate-02-leaker-format-string.md
+    - '`main()` — validasi 16-bit': 38-narrowgate-03-main-validasi-16-bit.md
+    - Analisis: 38-narrowgate-04-analisis.md
+    - Eksploitasi: 38-narrowgate-05-eksploitasi.md
+    - Output asli: 38-narrowgate-06-output-asli.md
+    - Flag & Verifikasi: 38-narrowgate-07-flag.md
+    - Evidence / Bukti: 38-narrowgate-08-bukti-evidence.md
+    - Referensi: 38-narrowgate-09-referensi.md
   - 39. Pipa Nu Kotor:
     - 39-pipa-nu-kotor.md
     - Recon: 39-pipa-nu-kotor-01-recon.md
-    - Analisis: 39-pipa-nu-kotor-02-analisis.md
-    - Eksploitasi: 39-pipa-nu-kotor-03-eksploitasi.md
-    - Flag & Verifikasi: 39-pipa-nu-kotor-04-flag.md
-    - Evidence / Bukti: 39-pipa-nu-kotor-05-bukti-evidence.md
-    - Referensi: 39-pipa-nu-kotor-06-referensi.md
+    - Triage awal: 39-pipa-nu-kotor-02-triage-awal.md
+    - Analisis: 39-pipa-nu-kotor-03-analisis.md
+    - Analisis: 39-pipa-nu-kotor-04-analisis-2.md
+    - Eksploitasi: 39-pipa-nu-kotor-05-eksploitasi.md
+    - Flag & Verifikasi: 39-pipa-nu-kotor-06-flag.md
+    - Evidence / Bukti: 39-pipa-nu-kotor-07-bukti-evidence.md
+    - Referensi: 39-pipa-nu-kotor-08-referensi.md
   - 40. Starved:
     - 40-starved.md
     - Recon: 40-starved-01-recon.md
-    - Analisis: 40-starved-02-analisis.md
-    - Eksploitasi: 40-starved-03-eksploitasi.md
-    - Flag & Verifikasi: 40-starved-04-flag.md
-    - Evidence / Bukti: 40-starved-05-bukti-evidence.md
-    - Referensi: 40-starved-06-referensi.md
+    - Triage awal: 40-starved-02-triage-awal.md
+    - Analisis: 40-starved-03-analisis.md
+    - Analisis: 40-starved-04-analisis-2.md
+    - Eksploitasi: 40-starved-05-eksploitasi.md
+    - Output asli: 40-starved-06-output-asli.md
+    - Flag & Verifikasi: 40-starved-07-flag.md
+    - Evidence / Bukti: 40-starved-08-bukti-evidence.md
+    - Referensi: 40-starved-09-referensi.md
   - 41. Talatah Ti Peuntas:
     - 41-talatah-ti-peuntas.md
     - Recon: 41-talatah-ti-peuntas-01-recon.md
-    - Analisis: 41-talatah-ti-peuntas-02-analisis.md
-    - Eksploitasi: 41-talatah-ti-peuntas-03-eksploitasi.md
-    - Flag & Verifikasi: 41-talatah-ti-peuntas-04-flag.md
-    - Evidence / Bukti: 41-talatah-ti-peuntas-05-bukti-evidence.md
-    - Referensi: 41-talatah-ti-peuntas-06-referensi.md
+    - Triage awal: 41-talatah-ti-peuntas-02-triage-awal.md
+    - Analisis: 41-talatah-ti-peuntas-03-analisis.md
+    - Analisis: 41-talatah-ti-peuntas-04-analisis-2.md
+    - Alamat penting: 41-talatah-ti-peuntas-05-alamat-penting.md
+    - Eksploitasi: 41-talatah-ti-peuntas-06-eksploitasi.md
+    - Eksploitasi: 41-talatah-ti-peuntas-07-eksploitasi-2.md
+    - Flag & Verifikasi: 41-talatah-ti-peuntas-08-flag.md
+    - Evidence / Bukti: 41-talatah-ti-peuntas-09-bukti-evidence.md
+    - Referensi: 41-talatah-ti-peuntas-10-referensi.md
   - 42. THE FORGOTTEN STATE:
     - 42-the-forgotten-state.md
     - Recon: 42-the-forgotten-state-01-recon.md
-    - Analisis: 42-the-forgotten-state-02-analisis.md
-    - Eksploitasi: 42-the-forgotten-state-03-eksploitasi.md
-    - Flag & Verifikasi: 42-the-forgotten-state-04-flag.md
-    - Evidence / Bukti: 42-the-forgotten-state-05-bukti-evidence.md
-    - Referensi: 42-the-forgotten-state-06-referensi.md
+    - Triage awal: 42-the-forgotten-state-02-triage-awal.md
+    - Analisis: 42-the-forgotten-state-03-analisis.md
+    - Analisis: 42-the-forgotten-state-04-analisis-2.md
+    - Analisis: 42-the-forgotten-state-05-analisis-3.md
+    - Eksploitasi: 42-the-forgotten-state-06-eksploitasi.md
+    - Catatan jalur UAF: 42-the-forgotten-state-07-catatan-jalur-uaf.md
+    - Flag & Verifikasi: 42-the-forgotten-state-08-flag.md
+    - Evidence / Bukti: 42-the-forgotten-state-09-bukti-evidence.md
+    - Referensi: 42-the-forgotten-state-10-referensi.md
 - Extend · Reverse:
   - 43. Castaway:
     - 43-castaway.md
     - Recon: 43-castaway-01-recon.md
-    - Analisis: 43-castaway-02-analisis.md
-    - Eksploitasi / Solver: 43-castaway-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 43-castaway-04-flag.md
-    - Evidence / Bukti: 43-castaway-05-bukti-evidence.md
-    - Referensi: 43-castaway-06-referensi.md
+    - Triage awal: 43-castaway-02-triage-awal.md
+    - Perintah akuisisi bukti: 43-castaway-03-perintah-akuisisi-bukti.md
+    - Fungsi `main`: 43-castaway-04-fungsi-main.md
+    - Analisis: 43-castaway-05-analisis.md
+    - Fungsi transform `0x1282`: 43-castaway-06-fungsi-transform-0x1282.md
+    - Transformasi per byte: 43-castaway-07-transformasi-per-byte.md
+    - Data di `.rodata`: 43-castaway-08-data-di-rodata.md
+    - Strategi: 43-castaway-09-strategi.md
+    - Solver lengkap: 43-castaway-10-solver-lengkap.md
+    - Output asli: 43-castaway-11-output-asli.md
+    - Flag & Verifikasi: 43-castaway-12-flag.md
+    - Evidence / Bukti: 43-castaway-13-bukti-evidence.md
+    - Referensi: 43-castaway-14-referensi.md
   - 44. Hard Feistel:
     - 44-hard-feistel.md
     - Recon: 44-hard-feistel-01-recon.md
-    - Analisis: 44-hard-feistel-02-analisis.md
-    - Eksploitasi / Solver: 44-hard-feistel-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 44-hard-feistel-04-flag.md
-    - Evidence / Bukti: 44-hard-feistel-05-bukti-evidence.md
-    - Referensi: 44-hard-feistel-06-referensi.md
+    - Triage awal: 44-hard-feistel-02-triage-awal.md
+    - Perintah akuisisi bukti: 44-hard-feistel-03-perintah-akuisisi-bukti.md
+    - Analisis: 44-hard-feistel-04-analisis.md
+    - Analisis: 44-hard-feistel-05-analisis-2.md
+    - Analisis: 44-hard-feistel-06-analisis-3.md
+    - Strategi: 44-hard-feistel-07-strategi.md
+    - Solver lengkap: 44-hard-feistel-08-solver-lengkap.md
+    - Output asli: 44-hard-feistel-09-output-asli.md
+    - Verifikasi tambahan dengan gdb: 44-hard-feistel-10-verifikasi-tambahan-dengan-gdb.md
+    - Flag & Verifikasi: 44-hard-feistel-11-flag.md
+    - Evidence / Bukti: 44-hard-feistel-12-bukti-evidence.md
+    - Referensi: 44-hard-feistel-13-referensi.md
   - 45. Hard VM Bytecode:
     - 45-hard-vm-bytecode.md
     - Recon: 45-hard-vm-bytecode-01-recon.md
-    - Analisis: 45-hard-vm-bytecode-02-analisis.md
-    - Eksploitasi / Solver: 45-hard-vm-bytecode-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 45-hard-vm-bytecode-04-flag.md
-    - Evidence / Bukti: 45-hard-vm-bytecode-05-bukti-evidence.md
-    - Referensi: 45-hard-vm-bytecode-06-referensi.md
+    - Triage awal: 45-hard-vm-bytecode-02-triage-awal.md
+    - Perintah akuisisi bukti: 45-hard-vm-bytecode-03-perintah-akuisisi-bukti.md
+    - Main dan layout: 45-hard-vm-bytecode-04-main-dan-layout.md
+    - Format instruksi: 45-hard-vm-bytecode-05-format-instruksi.md
+    - Analisis: 45-hard-vm-bytecode-06-analisis.md
+    - Membalik transformasi: 45-hard-vm-bytecode-07-membalik-transformasi.md
+    - Strategi: 45-hard-vm-bytecode-08-strategi.md
+    - Solver lengkap: 45-hard-vm-bytecode-09-solver-lengkap.md
+    - Output asli: 45-hard-vm-bytecode-10-output-asli.md
+    - Flag & Verifikasi: 45-hard-vm-bytecode-11-flag.md
+    - Evidence / Bukti: 45-hard-vm-bytecode-12-bukti-evidence.md
+    - Referensi: 45-hard-vm-bytecode-13-referensi.md
   - 46. Medium RC4:
     - 46-medium-rc4.md
     - Recon: 46-medium-rc4-01-recon.md
-    - Analisis: 46-medium-rc4-02-analisis.md
-    - Eksploitasi / Solver: 46-medium-rc4-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 46-medium-rc4-04-flag.md
-    - Evidence / Bukti: 46-medium-rc4-05-bukti-evidence.md
-    - Referensi: 46-medium-rc4-06-referensi.md
+    - Triage awal: 46-medium-rc4-02-triage-awal.md
+    - Perintah akuisisi bukti: 46-medium-rc4-03-perintah-akuisisi-bukti.md
+    - Peta fungsi `main`: 46-medium-rc4-04-peta-fungsi-main.md
+    - Analisis: 46-medium-rc4-05-analisis.md
+    - Strategi: 46-medium-rc4-06-strategi.md
+    - Solver lengkap: 46-medium-rc4-07-solver-lengkap.md
+    - Menjalankan solver: 46-medium-rc4-08-menjalankan-solver.md
+    - Flag & Verifikasi: 46-medium-rc4-09-flag.md
+    - Evidence / Bukti: 46-medium-rc4-10-bukti-evidence.md
+    - Referensi: 46-medium-rc4-11-referensi.md
   - 47. Medium TEA:
     - 47-medium-tea.md
     - Recon: 47-medium-tea-01-recon.md
-    - Analisis: 47-medium-tea-02-analisis.md
-    - Eksploitasi / Solver: 47-medium-tea-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 47-medium-tea-04-flag.md
-    - Evidence / Bukti: 47-medium-tea-05-bukti-evidence.md
-    - Referensi: 47-medium-tea-06-referensi.md
+    - Triage awal: 47-medium-tea-02-triage-awal.md
+    - Perintah akuisisi bukti: 47-medium-tea-03-perintah-akuisisi-bukti.md
+    - Alur utama: 47-medium-tea-04-alur-utama.md
+    - Round function TEA yang dimodifikasi: 47-medium-tea-05-round-function-tea-yang-dimodifikasi.md
+    - Analisis: 47-medium-tea-06-analisis.md
+    - Strategi: 47-medium-tea-07-strategi.md
+    - Solver lengkap: 47-medium-tea-08-solver-lengkap.md
+    - Output asli: 47-medium-tea-09-output-asli.md
+    - Flag & Verifikasi: 47-medium-tea-10-flag.md
+    - Evidence / Bukti: 47-medium-tea-11-bukti-evidence.md
+    - Referensi: 47-medium-tea-12-referensi.md
 - Extend · Web:
   - 48. ChangeTrack:
     - 48-changetrack.md
     - Recon: 48-changetrack-01-recon.md
     - Analisis: 48-changetrack-02-analisis.md
-    - Eksploitasi / Solver: 48-changetrack-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 48-changetrack-04-flag.md
-    - Evidence / Bukti: 48-changetrack-05-bukti-evidence.md
-    - Referensi: 48-changetrack-06-referensi.md
+    - Analisis: 48-changetrack-03-analisis-2.md
+    - Analisis: 48-changetrack-04-analisis-3.md
+    - Eksploitasi / Solver: 48-changetrack-05-eksploitasi-solver.md
+    - Output asli: 48-changetrack-06-output-asli.md
+    - Flag & Verifikasi: 48-changetrack-07-flag.md
+    - Evidence / Bukti: 48-changetrack-08-bukti-evidence.md
+    - Referensi: 48-changetrack-09-referensi.md
   - 49. LinkVault:
     - 49-linkvault.md
-    - Recon: 49-linkvault-01-recon.md
-    - Analisis: 49-linkvault-02-analisis.md
-    - Eksploitasi / Solver: 49-linkvault-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 49-linkvault-04-flag.md
-    - Evidence / Bukti: 49-linkvault-05-bukti-evidence.md
-    - Referensi: 49-linkvault-06-referensi.md
+    - Deskripsi challenge: 49-linkvault-01-deskripsi-challenge.md
+    - File / service yang diberikan: 49-linkvault-02-file-service-yang-diberikan.md
+    - Recon: 49-linkvault-03-recon.md
+    - SSRF guard dan bypass IPv6 loopback: 49-linkvault-04-ssrf-guard-dan-bypass-ipv6-loopback.md
+    - Internal import tidak memvalidasi `filter`: 49-linkvault-05-internal-import-tidak-memvalidasi-filter.md
+    - Analisis: 49-linkvault-06-analisis.md
+    - Strategi: 49-linkvault-07-strategi.md
+    - Langkah exploit (live): 49-linkvault-08-langkah-exploit-live.md
+    - Eksploitasi / Solver: 49-linkvault-09-eksploitasi-solver.md
+    - Flag & Verifikasi: 49-linkvault-10-flag.md
+    - Evidence / Bukti: 49-linkvault-11-bukti-evidence.md
+    - Referensi: 49-linkvault-12-referensi.md
   - 50. NexusGate:
     - 50-nexusgate.md
-    - Recon: 50-nexusgate-01-recon.md
-    - Analisis: 50-nexusgate-02-analisis.md
-    - Eksploitasi / Solver: 50-nexusgate-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 50-nexusgate-04-flag.md
-    - Evidence / Bukti: 50-nexusgate-05-bukti-evidence.md
-    - Referensi: 50-nexusgate-06-referensi.md
+    - Deskripsi challenge: 50-nexusgate-01-deskripsi-challenge.md
+    - Recon: 50-nexusgate-02-recon.md
+    - 'ACL bypass: raw `req.url` vs `new URL()`': 50-nexusgate-03-acl-bypass-raw-req-url-vs-new-url.md
+    - Cursor over-grant → PHASE_TOKEN: 50-nexusgate-04-cursor-over-grant-phase-token.md
+    - 'File-read sandbox: Node permission tree': 50-nexusgate-05-file-read-sandbox-node-permission-tree.md
+    - Analisis: 50-nexusgate-06-analisis.md
+    - Strategi: 50-nexusgate-07-strategi.md
+    - Langkah exploit (live): 50-nexusgate-08-langkah-exploit-live.md
+    - Output asli: 50-nexusgate-09-output-asli.md
+    - Flag & Verifikasi: 50-nexusgate-10-flag.md
+    - Evidence / Bukti: 50-nexusgate-11-bukti-evidence.md
+    - Referensi: 50-nexusgate-12-referensi.md
   - 51. PageStream:
     - 51-pagestream.md
-    - Recon: 51-pagestream-01-recon.md
-    - Analisis: 51-pagestream-02-analisis.md
-    - Eksploitasi / Solver: 51-pagestream-03-eksploitasi-solver.md
-    - Flag & Verifikasi: 51-pagestream-04-flag.md
-    - Evidence / Bukti: 51-pagestream-05-bukti-evidence.md
-    - Referensi: 51-pagestream-06-referensi.md
+    - Deskripsi challenge: 51-pagestream-01-deskripsi-challenge.md
+    - Recon: 51-pagestream-02-recon.md
+    - Mass assignment role: 51-pagestream-03-mass-assignment-role.md
+    - Path traversal di `/view`: 51-pagestream-04-path-traversal-di-view.md
+    - Upload filename traversal: 51-pagestream-05-upload-filename-traversal.md
+    - Analisis: 51-pagestream-06-analisis.md
+    - Eksploitasi / Solver: 51-pagestream-07-eksploitasi-solver.md
+    - Output asli: 51-pagestream-08-output-asli.md
+    - Flag & Verifikasi: 51-pagestream-09-flag.md
+    - Evidence / Bukti: 51-pagestream-10-bukti-evidence.md
+    - Referensi: 51-pagestream-11-referensi.md

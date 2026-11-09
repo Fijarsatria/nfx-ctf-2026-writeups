@@ -2,7 +2,7 @@
 
 [← Overview](29-my-lovely-freya.md) · [Index](index.md)
 
-### 1.1 Deskripsi challenge
+## 1.1 Deskripsi challenge
 
 > **Author: salep88**
 >
@@ -25,7 +25,7 @@ Petunjuk angka penting:
 - "dua ratus lima puluh enam alasan" → **AES-256** (256-bit).
 - "rahasia di balik foto" → data di luar area gambar yang terlihat.
 
-### 1.2 File yang diberikan
+## 1.2 File yang diberikan
 
 | File | Ukuran | SHA-256 | Keterangan |
 |---|---|---|---|
@@ -46,40 +46,15 @@ Archive:  FreyaSayangkuh
   1782638                     2 files
 ```
 
-### 1.3 Environment
+## 1.3 Environment
 
 - OS: Linux x86-64.
 - Tools: `unzip`, `file`, `exiftool`, Python 3, `zlib`, Pillow,
   `openssl` 3.x.
 - Tidak ada service; semuanya offline.
 
-### 1.4 Triage awal
+### Evidence langkah ini
 
-```bash
-$ file FreyaSayangkuh
-FreyaSayangkuh: Zip archive data, at least v2.0 to extract, compression method=deflate
+![01-hidden-rows.png](assets/my-lovely-freya/01-hidden-rows.png)
 
-$ file freya_sayangkuh.png
-PNG image data, 1024 x 1200, 8-bit/color RGB, non-interlaced
-
-$ exiftool freya_sayangkuh.png
-...
-Image Width                     : 1024
-Image Height                    : 1200
-Secret                          : QXlhbWdHb3Jlbmc0NQ==
-Image Size                      : 1024x1200
-```
-
-Metadata `Secret`:
-
-```bash
-$ python3 - <<'EOF'
-import base64
-print(base64.b64decode("QXlhbWdHb3Jlbmc0NQ==").decode())
-EOF
-AyamgGoreng45
-```
-
-Sekilas ini terlihat seperti password. Namun percobaan dekripsi dengan
-`AyamgGoreng45` menghasilkan `bad decrypt`, jadi metadata ini adalah decoy
-(perhatikan: hilang huruf `H` di depan dan `@` di akhir).
+*Evidence — `01-hidden-rows.png`.*

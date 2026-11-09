@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/bluebird-session/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 - Evidence Linux: `/etc/passwd`, `/etc/shadow`, `/etc/group`, dua home (`mizore`, `nozomi`), keyring GNOME, `for_nozomi.zip`, `Ensemble.mp4`, dan log.
@@ -28,16 +34,20 @@
 - Setelah 11/11 Q&A selesai, platform mengembalikan flag final:
   `NFX{Mizore_Promise_Never_Forgotten_The_Bluebird_Still_Sings}`.
 
-<div class="nx-evidence-preview"><a href="25-bluebird-session-06-bukti-evidence.html"><img src="assets/bluebird-session/98-terminal-evidence.png" alt="Pratinjau evidence Bluebird Session" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="25-bluebird-session-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="25-bluebird-session-10-bukti-evidence.html"><img src="assets/bluebird-session/00b-submit-platform.png" alt="Pratinjau evidence Bluebird Session" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="25-bluebird-session-10-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
-<a class="nx-page-card" href="25-bluebird-session-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="25-bluebird-session-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="25-bluebird-session-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="25-bluebird-session-04-alur-11-sub-challenge-q-a-verified.html"><b>Alur 11 Sub-Challenge Q&amp;A (verified)</b><span>Baca bagian ini</span></a>
-<a class="nx-page-card" href="25-bluebird-session-05-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="25-bluebird-session-06-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="25-bluebird-session-07-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="25-bluebird-session-01-recon-artefak.html"><b>Recon Artefak</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="25-bluebird-session-02-triage-awal.html"><b>Triage awal</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="25-bluebird-session-03-identitas-dua-user.html"><b>Identitas dua user</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="25-bluebird-session-04-bash-history.html"><b>Bash history</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="25-bluebird-session-05-gnome-keyring-login-keyring.html"><b>GNOME Keyring `login.keyring`</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="25-bluebird-session-06-analisis-artefak.html"><b>Analisis Artefak</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="25-bluebird-session-07-pemulihan-artefak.html"><b>Pemulihan Artefak</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="25-bluebird-session-08-alur-11-sub-challenge-q-a-verified.html"><b>Alur 11 Sub-Challenge Q&amp;A (verified)</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="25-bluebird-session-09-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="25-bluebird-session-10-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="25-bluebird-session-11-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

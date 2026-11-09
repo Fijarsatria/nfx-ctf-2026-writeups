@@ -89,3 +89,17 @@ NFX{NFCC_Goes_to_NCSC_2026}
   `catatan.txt`.
 - Rantainya: **trailer ZIP → PNG rusak → perbaiki signature → LSB kanal R →
   base64 → flag**.
+
+### Evidence langkah ini
+
+![term-02-hashes.png](assets/wujud-aseli-atmin/term-02-hashes.png)
+
+*Terminal evidence — `02-hashes.txt` (arsip transkrip sesi solve).*
+
+![term-02a-exiftool.png](assets/wujud-aseli-atmin/term-02a-exiftool.png)
+
+*Terminal evidence — `02a-exiftool.txt` (arsip transkrip sesi solve).*
+
+![term-02b-binwalk.png](assets/wujud-aseli-atmin/term-02b-binwalk.png)
+
+*Terminal evidence — `02b-binwalk.txt` (arsip transkrip sesi solve).*

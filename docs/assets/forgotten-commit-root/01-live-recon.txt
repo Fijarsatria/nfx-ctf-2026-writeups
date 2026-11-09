@@ -1,0 +1,12 @@
+$ nmap -Pn -sV -p 22,80 10.10.20.21
+Starting Nmap 7.80 ( https://nmap.org ) at 2026-11-09 15:56 UTC
+Nmap scan report for nfx-b2r-21.nfx-b2r (10.10.20.21)
+Host is up (0.0013s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.18 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    nginx
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.86 seconds

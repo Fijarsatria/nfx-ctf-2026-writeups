@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/fresh-arrival/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 - Foto challenge adalah **Boeing 737-341(SF)**, registrasi **PK-ADL**,
@@ -32,15 +38,17 @@
 - China Xinhua Airlines: IATA **XW**, ICAO **CXH**, markas **Beijing**.
 - Flag: `NFX{XW_CXH_beijing_raihan}`.
 
-<div class="nx-evidence-preview"><a href="33-fresh-arrival-05-bukti-evidence.html"><img src="assets/fresh-arrival/98-terminal-evidence.png" alt="Pratinjau evidence Fresh Arrival" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="33-fresh-arrival-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="33-fresh-arrival-07-bukti-evidence.html"><img src="assets/fresh-arrival/00b-submit-platform.png" alt="Pratinjau evidence Fresh Arrival" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="33-fresh-arrival-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
-<a class="nx-page-card" href="33-fresh-arrival-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="33-fresh-arrival-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="33-fresh-arrival-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="33-fresh-arrival-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="33-fresh-arrival-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="33-fresh-arrival-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="33-fresh-arrival-01-jejak-awal.html"><b>Jejak Awal</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="33-fresh-arrival-02-triage-awal.html"><b>Triage awal</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="33-fresh-arrival-03-analisis-jejak.html"><b>Analisis Jejak</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="33-fresh-arrival-04-analisis-jejak-2.html"><b>Analisis Jejak</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="33-fresh-arrival-05-pencarian-verifikasi.html"><b>Pencarian &amp; Verifikasi</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="33-fresh-arrival-06-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="33-fresh-arrival-07-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="33-fresh-arrival-08-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

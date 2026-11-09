@@ -18,6 +18,12 @@
 
 > **Status: OPEN.** Halaman ini memuat analisis dan kendala yang ditemui; flag belum ditemukan.
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/nxportal/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## Ringkasan
 
 > Catatan: `flags/web/NXPortal.txt` **bukan flag challenge**, melainkan catatan investigasi
@@ -46,16 +52,17 @@
   admin tidak dapat diselesaikan.
 - Rencana penyelesaian ada di §7. Status tetap **OPEN**.
 
-<div class="nx-evidence-preview"><a href="13-nxportal-05-bukti-evidence.html"><img src="assets/nxportal/98-terminal-evidence.png" alt="Pratinjau evidence NXPortal" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="13-nxportal-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
-
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
 <a class="nx-page-card" href="13-nxportal-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="13-nxportal-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="13-nxportal-03-eksploitasi-solver-sebagian-belum-selesa.html"><b>Eksploitasi / Solver (sebagian, belum selesai)</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="13-nxportal-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="13-nxportal-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="13-nxportal-06-rencana-penyelesaian-open.html"><b>Rencana Penyelesaian (OPEN)</b><span>Rencana penyelesaian (OPEN)</span></a>
-<a class="nx-page-card" href="13-nxportal-07-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="13-nxportal-02-triage-awal.html"><b>Triage awal</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="13-nxportal-03-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="13-nxportal-04-hint-blog-header-parsing-multi-line-payl.html"><b>Hint blog: header parsing / multi-line payload</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="13-nxportal-05-yang-sudah-dicoba-live-2026-11-08.html"><b>Yang sudah dicoba (live, 2026-11-08)</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="13-nxportal-06-eksploitasi-solver-sebagian-belum-selesa.html"><b>Eksploitasi / Solver (sebagian, belum selesai)</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="13-nxportal-07-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="13-nxportal-08-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="13-nxportal-09-rencana-penyelesaian-open.html"><b>Rencana Penyelesaian (OPEN)</b><span>Rencana penyelesaian (OPEN)</span></a>
+<a class="nx-page-card" href="13-nxportal-10-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

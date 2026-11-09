@@ -1,6 +1,6 @@
 # NFX CTF 2026 — Writeup Medium–Hard (GitHub Pages)
 
-Situs statis MkDocs Material untuk **368 halaman** (52 challenge).
+Situs statis MkDocs Material untuk **534 halaman** (52 challenge).
 Tiap challenge dipecah menjadi Overview, Recon, Analisis, Eksploitasi, Flag,
 Evidence, dan Referensi, lengkap dengan command, output, dan screenshot.
 
@@ -44,7 +44,7 @@ build akan gagal dan menampilkan nama file yang bermasalah.
 ## Struktur
 
 - `docs/index.md` — cover, status, daftar challenge.
-- `docs/NN-*.md` — halaman per challenge.
+- `docs/NN-*.md` — halaman per bagian (Recon, Analisis, Solver, dst.).
 - `docs/assets/` — screenshot dan file evidence.
 - `mkdocs.yml` — nav per event/kategori.
 

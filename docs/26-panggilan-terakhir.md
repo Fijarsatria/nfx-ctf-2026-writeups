@@ -17,6 +17,12 @@
 
 [← Kembali ke Index](index.md)
 
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/panggilan-terakhir/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
 ## TL;DR
 
 - `korban.pcap` berisi satu panggilan SIP antara Raka (ext 204, `10.24.8.31`) dan Dina (ext 231, `10.24.8.24`).
@@ -25,15 +31,17 @@
 - Dina (stream 4002 → 4000) mengucapkan flag secara lisan: “NFXCTF, kurung kurawa buka, garis bawah, merah, garis bawah, 2 0 4, kurung kurawa tutup”.
 - Flag: `NFXCTF{ARSIP_MERAH_204}`.
 
-<div class="nx-evidence-preview"><a href="26-panggilan-terakhir-05-bukti-evidence.html"><img src="assets/panggilan-terakhir/98-terminal-evidence.png" alt="Pratinjau evidence Panggilan Terakhir" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="26-panggilan-terakhir-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="26-panggilan-terakhir-07-bukti-evidence.html"><img src="assets/panggilan-terakhir/00b-submit-platform.png" alt="Pratinjau evidence Panggilan Terakhir" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="26-panggilan-terakhir-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
-<a class="nx-page-card" href="26-panggilan-terakhir-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="26-panggilan-terakhir-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="26-panggilan-terakhir-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
-<a class="nx-page-card" href="26-panggilan-terakhir-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="26-panggilan-terakhir-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="26-panggilan-terakhir-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="26-panggilan-terakhir-01-recon-artefak.html"><b>Recon Artefak</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="26-panggilan-terakhir-02-sip-invite-dan-sdp.html"><b>SIP INVITE dan SDP</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="26-panggilan-terakhir-03-ekstraksi-rtp.html"><b>Ekstraksi RTP</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="26-panggilan-terakhir-04-transkripsi.html"><b>Transkripsi</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="26-panggilan-terakhir-05-pemulihan-artefak.html"><b>Pemulihan Artefak</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="26-panggilan-terakhir-06-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="26-panggilan-terakhir-07-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="26-panggilan-terakhir-08-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

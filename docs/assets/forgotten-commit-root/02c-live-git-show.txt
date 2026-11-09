@@ -1,0 +1,6 @@
+$ git -C /tmp/nexus_repo show --stat --oneline 5c65d99
+5c65d99 Remove Ansible inventory
+ .gitignore            |  3 +++
+ ansible/deploy.yml    | 16 ----------------
+ ansible/inventory.ini |  2 --
+ 3 files changed, 3 insertions(+), 18 deletions(-)

@@ -2,7 +2,7 @@
 
 [← Overview](12-nexapartner.md) · [Index](index.md)
 
-### 1.1 Deskripsi challenge
+## 1.1 Deskripsi challenge
 
 > Author: Ariaf
 >
@@ -14,7 +14,7 @@ Tidak ada attachment. Service:
 NFX/web/07_nexapartner   key: NFXCTF-NFCC-NXCTF-2026
 ```
 
-### 1.2 File / service
+## 1.2 File / service
 
 Tidak ada source lokal (`umum/Web/nexapartner` hanya `BRIEF.md` + `challenge.json`). Validasi black-box pada instance live.
 
@@ -40,31 +40,18 @@ GET  /admin/audit            Audit admin (setelah bypass)
 
 `/api-docs` menampilkan endpoint partner (referrals, commissions, webhooks/test) dan contoh API key `pk_live_arunika_4f8c1d2e`. Endpoint tersebut tidak diperlukan untuk flag.
 
-### 1.3 Environment
+## 1.3 Environment
 
 - `curl`, `python3` + `requests`.
 - Instance dijalankan dengan `nxapi.py nx-up "NFX/web/07_nexapartner" ...`.
 - Tidak ada submit flag ke platform.
 
-### 1.4 Triage awal
+### Evidence langkah ini
 
-```bash
-BASE=http://s1.nfx.my.id:43965
-curl -sS -i "$BASE/"
-curl -sS -i "$BASE/login"
-curl -sS -i -c cookies.txt \
-  -d 'email=partner@nexapartner.test&password=partner1234' "$BASE/login"
-```
+![term-01-recon.png](assets/nexapartner/term-01-recon.png)
 
-Temuan:
-- `/` → `200`, landing partner.
-- `/login` → `200`, demo account:
-  ```text
-  partner@nexapartner.test / partner1234
-  ```
-- Login → `302 /dashboard`, `Set-Cookie: connect.sid=...`.
-- `/dashboard` menampilkan `Maya Anggraini · Channel Partnerships Manager` dan `Arunika Retail Group`.
-- `/admin` → `403`:
-  ```text
-  The partner audit console is restricted to Partner Operations administrators.
-  ```
+*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+
+![01-admin-audit-flag.png](assets/nexapartner/01-admin-audit-flag.png)
+
+*Evidence — `01-admin-audit-flag.png`.*

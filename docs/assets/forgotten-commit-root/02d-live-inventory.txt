@@ -1,0 +1,3 @@
+$ git -C /tmp/nexus_repo show 8acfc1f23fe2c7c50e947ce92e0abffd93835c57:ansible/inventory.ini
+[web]
+srv.nexus.internal ansible_user=leonardo ansible_password="Dev0pment#2026!"
