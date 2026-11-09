@@ -345,6 +345,17 @@ table.nx-challenge-table td {
 }
 table.nx-challenge-table tbody tr:hover { background: rgba(99, 102, 241, .08); }
 table.nx-challenge-table td:first-child { color: #94a3b8; font-variant-numeric: tabular-nums; }
+table.nx-challenge-table th:first-child,
+table.nx-challenge-table td:first-child { width: 2.5rem; }
+table.nx-challenge-table td:nth-child(2) { min-width: 15rem; }
+table.nx-challenge-table th:nth-child(3),
+table.nx-challenge-table td:nth-child(3),
+table.nx-challenge-table th:nth-child(4),
+table.nx-challenge-table td:nth-child(4),
+table.nx-challenge-table th:nth-child(5),
+table.nx-challenge-table td:nth-child(5),
+table.nx-challenge-table th:nth-child(6),
+table.nx-challenge-table td:nth-child(6) { white-space: nowrap; }
 .nx-row-sub { color: #94a3b8; font-size: .72rem; }
 .nx-empty {
   margin: 1rem 0;
