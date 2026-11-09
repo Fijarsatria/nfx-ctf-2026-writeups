@@ -322,32 +322,32 @@ html { scroll-behavior: smooth; }
 table.nx-challenge-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: .8rem;
+  font-size: .76rem;
   margin: 0;
 }
 table.nx-challenge-table th {
   position: sticky;
   top: 0;
   z-index: 1;
-  padding: .6rem .7rem;
+  padding: .55rem .5rem;
   text-align: left;
   background: #111827;
   color: #cbd5e1;
-  font-size: .7rem;
-  letter-spacing: .06em;
+  font-size: .68rem;
+  letter-spacing: .05em;
   text-transform: uppercase;
   border-bottom: 1px solid var(--nx-border);
 }
 table.nx-challenge-table td {
-  padding: .55rem .7rem;
+  padding: .5rem .5rem;
   border-bottom: 1px solid rgba(148, 163, 184, .09);
   vertical-align: middle;
 }
 table.nx-challenge-table tbody tr:hover { background: rgba(99, 102, 241, .08); }
 table.nx-challenge-table td:first-child { color: #94a3b8; font-variant-numeric: tabular-nums; }
 table.nx-challenge-table th:first-child,
-table.nx-challenge-table td:first-child { width: 2.5rem; }
-table.nx-challenge-table td:nth-child(2) { min-width: 15rem; }
+table.nx-challenge-table td:first-child { width: 2.2rem; }
+table.nx-challenge-table td:nth-child(2) { min-width: 12.5rem; }
 table.nx-challenge-table th:nth-child(3),
 table.nx-challenge-table td:nth-child(3),
 table.nx-challenge-table th:nth-child(4),
