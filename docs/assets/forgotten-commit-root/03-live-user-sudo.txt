@@ -1,13 +1,22 @@
-$ DISPLAY=:0 SSH_ASKPASS=/tmp/askpass.sh setsid -w ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o PreferredAuthentications=password -o PubkeyAuthentication=no leonardo@10.10.20.21 'id; hostname; cat /home/leonardo/user.txt; sudo -n -l; /usr/local/bin/fzf --version'
+$ ssh leonardo@10.10.20.21
+# Login memakai password dari ansible/inventory.ini.
+# Wrapper SSH_ASKPASS di bastion tidak ditampilkan; output di bawah adalah output asli.
+
+$ id
 uid=1000(leonardo) gid=1000(leonardo) groups=1000(leonardo)
+
+$ hostname
 srv
+
+$ cat /home/leonardo/user.txt
 NFX{g1t_h1story_s3cr3ts_l34d_t0_ssh}
+
+$ sudo -n -l
 Matching Defaults entries for leonardo on srv:
-    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin, use_pty
+    env_reset, mail_badpass, secure_path=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin, use_pty
 
 User leonardo may run the following commands on srv:
     (root) NOPASSWD: /usr/local/bin/fzf --listen 1337
-0.74.3 (15f64c49)
 
-[stderr]
-Warning: Permanently added '10.10.20.21' (ED25519) to the list of known hosts.
+$ /usr/local/bin/fzf --version
+0.74.3 (15f64c49)
