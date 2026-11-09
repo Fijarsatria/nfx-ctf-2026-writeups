@@ -20,11 +20,11 @@
 
 ## Ringkasan
 
-> Catatan: `flags/web/NXPortal.txt` **bukan flag**, melainkan catatan investigasi
+> Catatan: `flags/web/NXPortal.txt` **bukan flag challenge**, melainkan catatan investigasi
 > (`UNSOLVED — NXPortal ...`). Tidak ada flag placeholder di platform
 > (`flag_placeholder=false`). Writeup ini mendokumentasikan seluruh temuan,
 > payload yang sudah dicoba, dan rencana penyelesaian. **Tidak ada flag yang
-> dikarang dan tidak ada submit ke platform.**
+> dicantumkan, dan tidak ada submit ke platform.**
 ## TL;DR
 
 - **NXPortal** adalah gerbang identitas Flask/gunicorn dengan alur login dan

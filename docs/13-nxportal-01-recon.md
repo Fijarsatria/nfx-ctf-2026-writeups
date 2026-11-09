@@ -33,7 +33,7 @@ Yang tersedia adalah instance live dan catatan investigasi sebelumnya.
 | Route publik | `/`, `/about`, `/services`, `/blog`, `/blog/<id>`, `/contact`, `/login`, `/forgot`, `/reset` |
 | Route auth | `/dashboard` (302 ke `/login` bila belum login) |
 | Domain email | `@nxctf.local` |
-| Flag file | `flags/web/NXPortal.txt` (catatan, bukan flag) |
+| Flag file | `flags/web/NXPortal.txt` (catatan investigasi, bukan flag challenge) |
 
 Catatan sebelumnya (`flags/web/NXPortal.txt`) menyebut:
 - instance `http://s1.nfx.my.id:40001`;

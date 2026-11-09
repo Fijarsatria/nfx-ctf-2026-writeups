@@ -4,7 +4,7 @@
 
 **Belum ditemukan.** Status OPEN.
 
-`flags/web/NXPortal.txt` berisi catatan investigasi, bukan flag:
+`flags/web/NXPortal.txt` berisi catatan investigasi, bukan flag challenge:
 
 ```text
 UNSOLVED — NXPortal (web) — recheck 2026-11-08
