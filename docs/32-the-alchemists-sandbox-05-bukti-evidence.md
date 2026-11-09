@@ -10,7 +10,6 @@
 ### Transkrip / file pendukung
 
 - [`01-solve-output.txt`](assets/the-alchemists-sandbox/01-solve-output.txt)
-- [`chall.cpython-312.pyc`](assets/the-alchemists-sandbox/__pycache__/chall.cpython-312.pyc)
 - [`chall.py`](assets/the-alchemists-sandbox/chall.py)
 - [`solve_alchemist.py`](assets/the-alchemists-sandbox/solve_alchemist.py)
 
