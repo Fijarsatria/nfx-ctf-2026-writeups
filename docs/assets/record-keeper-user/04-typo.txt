@@ -1,0 +1,19 @@
+STATUS VERIFIKASI — Record Keeper (User)
+
+Percobaan pertama (salah transkripsi):
+  NFX{br0tl1_0ob_w1r1t3_w0rk3r_r0p_rc3}
+  -> {"success":false,"message":"Incorrect flag"}
+
+Nilai sebenarnya di target:
+  NFX{br0tl1_0ob_wr1t3_w0rk3r_r0p_rc3}
+  (perhatikan: "wr1t3", bukan "w1r1t3")
+
+Percobaan setelah koreksi:
+  {"id":"598dedd9-21d5-4946-bd8f-e47732c1fbd6",
+   "title":"Record Keeper (User)",
+   "flag":"NFX{br0tl1_0ob_wr1t3_w0rk3r_r0p_rc3}",
+   "http":200,
+   "result":{"success":true,"message":"Correct! +500 points."}}
+
+Penyebab penolakan pertama: typo manual (tambahan angka 1), bukan flag target
+yang salah. Hash file target 849fc4...c39fa4b cocok dengan isi yang dikirim.

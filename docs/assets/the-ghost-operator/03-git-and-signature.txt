@@ -1,0 +1,63 @@
+== git log --all ==
+d2627a7 (HEAD -> main) audit: final system integrity verification before handoff
+
+== git cat-file -p HEAD ==
+tree 9c66f5f6c7a0e9d97984a6ee7d14d3aaab7c7922
+author Dimas Wirawan <dimas.wirawan@netmetrics-net.example> 1792954132 +0700
+committer Dimas Wirawan <dimas.wirawan@netmetrics-net.example> 1792954132 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ iQIzBAABCAAdFiEEsXFx1A3iUvGT55cH5r5xyivYSk4FAmreTyEACgkQ5r5xyivY
+ Sk61Nw//cgHjiGeW9tKKHmt4VDQmMa3vtJj8l3l2CzGvMkOK1kqQddtvwIycghyk
+ 0gZ9P77TA0lA8aGW3QR0NfQdQe4kkUVDHKuIG0gDXoz3l/YnplOTOfL7PxnHVYRl
+ budSBHbibDLRE+LUpCo8xT9GCMFHMb2l41E1QOzC8p4KN8JpR1kew3MYkypv21X7
+ vjvk3YQtzc8weknT+BwMnrYUCnfUxt+nayfK3rOEf6TJKTQdTGeyKPTyAlEQlEYd
+ qy2d0WOMUNbwgakmSydB+3eFCB/gJHS3L/sm9feoAh4pVEQpzJR5F0psWqG8/ZuI
+ ahuUgvbHLkU7ghsEDDjY1HZfEQSb7z+BOF781GP5QBZStx2zgXpR2OKfibT5wGHA
+ Hlve5XH+jMudWY4tA7zmrcnu4UPB8rTKUwnN/ncBcKWJfr/I8Sh1bOSL91CGPoBH
+ FgYeMYiI/HbbBRMvSCRi+hPzHJHc+J2wIHS7IcU/UFBoOVDQEUqyIVzyyweey3Gw
+ WqpBtAoso+aJlT6D56lF8z2XabXDa4tCRhO6yYP2K+dOUZpaMjiyJf/nMXaWy114
+ d/2BtWHj936IdNr+qFlHgKUy+kfcQAEPWIzrR6R7JDuBrx2jV6Mr2LbeRvVc1Hop
+ w3ln0CplSDgBKbMB4wWhIPNtEKFobbzOsvDnU2uDXRv2oOPkhvs=
+ =aHWZ
+ -----END PGP SIGNATURE-----
+
+audit: final system integrity verification before handoff
+
+== git log --show-signature -1 ==
+commit d2627a7e85c19332bf5d36081ac2e05577a2cdba
+gpg: Signature made Mon Oct 26 01:49:05 2026 WIB
+gpg:                using RSA key B17171D40DE252F193E79707E6BE71CA2BD84A4E
+gpg: Good signature from "Dimas Wirawan (rentry.co/ghost-route-0914) <ghost.operator.rentry@veloxphantom.net>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: B171 71D4 0DE2 52F1 93E7  9707 E6BE 71CA 2BD8 4A4E
+Author: Dimas Wirawan <dimas.wirawan@netmetrics-net.example>
+Date:   Mon Oct 26 01:48:52 2026 +0700
+
+    audit: final system integrity verification before handoff
+
+== .git/config ==
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[user]
+	name = Dimas Wirawan
+	email = dimas.wirawan@netmetrics-net.example
+	signingkey = E6BE71CA2BD84A4E
+
+== IR_MEMO.md (xxd) ==
+00000000: 2320 496e 6369 6465 6e74 2052 6573 706f  # Incident Respo
+00000010: 6e73 6520 4175 6469 7420 4d65 6d6f 202d  nse Audit Memo -
+00000020: 204e 6574 4d65 7472 6963 7320 496e 7465   NetMetrics Inte
+00000030: 726e 616c 0d0a 4175 6469 746f 723a 2053  rnal..Auditor: S
+00000040: 6563 4f70 730d 0a4f 7065 7261 746f 723a  ecOps..Operator:
+00000050: 2044 696d 6173 2057 6972 6177 616e 0d0a   Dimas Wirawan..
+00000060: 5374 6174 7573 3a20 5245 5349 474e 4544  Status: RESIGNED
+00000070: 0d0a 4175 6469 7420 7369 676e 6564 2077  ..Audit signed w
+00000080: 6974 6820 6f66 6669 6369 616c 2047 5047  ith official GPG
+00000090: 206b 6579 2e0d 0a                         key...

@@ -1,0 +1,42 @@
+=== GET / ===
+HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+date: Sun, 08 Nov 2026 01:11:51 GMT
+connection: keep-alive
+keep-alive: timeout=5
+transfer-encoding: chunked
+
+<!DOCTYPE html>
+<html lang="en" class="dark h-full bg-slate-950">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+=== /health ===
+HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+date: Sun, 08 Nov 2026 01:11:51 GMT
+connection: keep-alive
+keep-alive: timeout=5
+transfer-encoding: chunked
+
+{"ok":true,"service":"nexusgate","node":"v24.14.0"}
+
+=== ACL: /internal/console/cursor ===
+HTTP/1.1 403 Forbidden
+content-type: text/plain
+Date: Sun, 08 Nov 2026 01:11:51 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+forbidden
+=== ACL bypass: /./internal/console/cursor ===
+HTTP/1.1 403 Forbidden
+content-type: text/plain
+Date: Sun, 08 Nov 2026 01:11:51 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+forbidden

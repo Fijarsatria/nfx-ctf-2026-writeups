@@ -1,0 +1,161 @@
+### proxy.js ACL
+const server = http.createServer({ maxHeaderSize: 128 * 1024 }, (req, res) => {
+  // ---- 1. path ACL ----
+  if (req.url.startsWith('/internal/')) {
+    res.writeHead(403, { 'content-type': 'text/plain' });
+    res.end('forbidden');
+    return;
+  }
+
+  // ---- 2. ticket pages: edge-cached fetch ----
+  if (req.method === 'GET' && req.url.startsWith('/tickets/')) {
+    ticketDispatcher.request({
+      origin: BACKEND_ORIGIN,
+      path: req.url,
+      method: req.method,
+      headers: rebuildHeaders(req),
+    }).then((r) => {
+      res.writeHead(r.statusCode, r.headers);
+      r.body.pipe(res);
+    }).catch(() => {
+      res.writeHead(502, { 'content-type': 'text/plain' });
+      res.end('bad gateway');
+    });
+    return;
+  }
+
+  // ---- 3. generic forwarding: rebuild headers + pipe body ----
+  const headers = rebuildHeaders(req);
+  // explicit framing for requests with no visible body indicator
+  if (!req.headers['content-length'] && !req.headers['transfer-encoding']) {
+    headers['content-length'] = '0';
+  }
+
+### routes.js cursor
+  // ---------- Internal Ops Console (Gateway ACL protected) ----------
+  if (pathname === '/internal/console/cursor') {
+    if (req.method === 'POST') {
+      const id = url.searchParams.get('id');
+      const owner = url.searchParams.get('owner') || '';
+      if (!id) return json(400, { err: 'id required' });
+      cursors.set(id, tagStore.iterate`SELECT * FROM vault WHERE owner = ${owner}`);
+      json(200, { ok: true });
+      return;
+    }
+    if (req.method === 'GET') {
+      const id = url.searchParams.get('id');
+      const juser = url.searchParams.get('journal');
+      const it = cursors.get(id);
+      if (!it) return json(400, { err: 'no such cursor' });
+      const r = it.next();
+      if (r.done) return json(200, { done: true });
+      const row = r.value;
+      if (juser) journal(juser, `vault row: owner=${row.owner} secret=${row.secret}`);
+      json(200, { done: false, owner: row.owner });
+      return;
+    }
+  }
+
+  if (pathname === '/internal/console/files' && req.method === 'POST') {
+    readBody((body) => {
+      const { token, path: filePath, journal: juser } = parseBody(body);
+      if (token !== PHASE_TOKEN) return json(403, { err: 'invalid token' });
+      if (!filePath) return json(400, { err: 'path required' });
+      const out = spawnSync(process.execPath, [
+        '--permission',
+        '--allow-fs-read=/app/data/bot1.json',
+        '--allow-fs-read=/app/data/bot2.json',
+        '--allow-fs-read=/app/data/bot3.json',
+        '-e',
+        'try{console.log(require("fs").readFileSync(process.env.NX_TARGET,"utf8"))}catch(e){console.log("ERR:"+e.code)}',
+      ], {
+        env: { NX_TARGET: filePath, PATH: process.env.PATH },
+        encoding: 'utf8',
+        timeout: 5000,
+      });
+      const text = (out.stdout || '').trim() || (out.stderr || '').trim();
+      if (juser) journal(juser, `file read: ${filePath} -> ${text}`);
+      json(200, { ok: true });
+    });
+    return;
+  }
+
+### db.js
+'use strict';
+const { DatabaseSync } = require('node:sqlite');
+const crypto = require('crypto');
+
+const ADMIN_PASSWORD = crypto.randomBytes(16).toString('hex');
+const PHASE_TOKEN = crypto.randomBytes(16).toString('hex');
+const MASTER_TICKET = crypto.randomBytes(16).toString('hex');
+
+// In-memory identity and vault store
+const db = new DatabaseSync(':memory:');
+db.exec(`
+  CREATE TABLE users (username TEXT PRIMARY KEY, password TEXT);
+  CREATE TABLE vault (owner TEXT, secret TEXT);
+  CREATE TABLE journal (username TEXT, entry TEXT);
+`);
+
+db.prepare('INSERT INTO users VALUES (?, ?)').run('admin', ADMIN_PASSWORD);
+db.prepare('INSERT INTO vault VALUES (?, ?)').run('admin', PHASE_TOKEN);
+
+// Tagged template prepared statement manager
+const tagStore = db.createTagStore();
+
+// Admin telemetry heartbeat sync
+setInterval(() => {
+  try {
+    tagStore.all`SELECT * FROM vault WHERE owner = ${'admin'}`;
+  } catch (_) { /* heartbeat error suppressed */ }
+}, 10000);
+
+### bot.js
+// Background worker for periodic audit validation
+const botCookie = 'session=' + crypto.randomBytes(8).toString('hex');
+sessions.set(botCookie.slice(8), 'admin');
+
+function botCycle() {
+  const nonce = crypto.randomBytes(8).toString('hex');
+  const req = http.get({
+    host: '127.0.0.1',
+    port: 80,
+    path: `/tickets/latest?aud=${nonce}`,
+    headers: {
+      cookie: botCookie,
+      'user-agent': 'nx-audit-bot/1.0',
+      accept: 'text/html,application/xhtml+xml',
+    },
+  }, (res) => {
+    res.resume();
+    res.on('end', () => {
+      try { fs.writeFileSync('/app/data/bot', nonce); } catch (_) { /* write error suppressed */ }
+    });
+  });
+  req.on('error', () => { /* connection error suppressed */ });
+}
+
+function startBotWorker() {
+  setInterval(botCycle, 45000);
+}
+
+### views.js tickets
+function ticketsHtml(user, masterTicket) {
+  const inner = user === 'admin'
+    ? `<p class="text-sm text-slate-400 mb-4">Master service authorization ticket:</p>
+       <div class="flex items-center gap-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
+         <span class="ticket font-mono text-emerald-400 font-bold text-base tracking-wider">${esc(masterTicket)}</span>
+         <button class="px-4 py-2 rounded-lg text-xs font-extrabold bg-gradient-to-r from-violet-600 to-indigo-600 text-white shadow-lg shadow-purple-500/20 hover:brightness-110 ml-auto" onclick="copyTicket()">Copy Ticket</button>
+       </div>
+       <meta name="nx-ticket" content="${esc(masterTicket)}">`
+    : `<div class="text-center py-12 text-slate-500 text-sm">No active master ticket for your role.<br>Master access tickets are issued to administrators.</div>`;
+
+  return shell('Service Tickets', `
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <h1 class="text-2xl font-extrabold text-white tracking-tight">Service Access Tickets</h1>
+        <p class="text-sm text-slate-400 mt-1">Authorization ticket portal for internal microservices.</p>
+      </div>
+    </div>
+    <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-6 backdrop-blur-sm shadow-xl">${inner}</div>`, user, 'tickets');
+}

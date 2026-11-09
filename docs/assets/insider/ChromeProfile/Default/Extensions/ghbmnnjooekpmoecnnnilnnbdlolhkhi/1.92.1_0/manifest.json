@@ -1,0 +1,16 @@
+{
+  "background": {
+    "service_worker": "background.js"
+  },
+  "description": "Edit Google Docs, Sheets and Slides offline.",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "manifest_version": 3,
+  "name": "Google Docs Offline",
+  "permissions": [
+    "storage",
+    "unlimitedStorage"
+  ],
+  "version": "1.92.1"
+}

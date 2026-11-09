@@ -1,0 +1,12 @@
+Pipa Nu Kotor struct (malloc 0x18 -> chunk 0x20)
+  +0x00 char *data
+  +0x08 size_t capacity (0x40)
+  +0x10 int  readonly   (rw=0, ro=1)
+  +0x14 int  flags       (set to |=0x10 after first write; NOT initialised on open)
+
+Stale-flag bypass in op_tulis:
+  if (readonly && !(flags & 0x10)) -> "halaman dilindungi"
+The ro pipe is created by reusing the freed rw struct chunk from tcache; the
++0x14 word still holds 0x10 from the earlier write, so the check passes and
+memcpy(shadow_page, input, len) overwrites the root password.
+shadow_page @ 0x4040e0 (0x40 bytes), password format "$6$%02x...$".

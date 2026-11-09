@@ -1,0 +1,19 @@
+
+reverse/Medium_01_RC4/medium_rc4:     file format elf64-x86-64
+
+Contents of section .rodata:
+ 2000 01000200 50656d61 6b616961 6e3a2025  ....Pemakaian: %
+ 2010 73203c66 6c61673e 0a005772 6f6e6721  s <flag>..Wrong!
+ 2020 006e3074 5f733363 7572335f 6b33795f  .n0t_s3cur3_k3y_
+ 2030 32303236 00436f72 72656374 21205243  2026.Correct! RC
+ 2040 34206d65 6d616e67 2073696d 65747269  4 memang simetri
+ 2050 732e0000 00000000 00000000 00000000  s...............
+ 2060 ada1e2de 80fab7a4 65572a79 e3ecf825  ........eW*y...%
+ 2070 690a5cca 49dff6ca a4c29c36 d2485f17  i.\.I......6.H_.
+ 2080 bb3e29d2 01f7009c 9d31               .>)......1      
+
+
+reverse/Medium_01_RC4/medium_rc4:     file format elf64-x86-64
+
+Contents of section .data:
+ 4000 00000000 00000000 08400000 00000000  .........@......

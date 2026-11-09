@@ -1,0 +1,50 @@
+=== GET / ===
+HTTP/1.1 200 OK
+Date: Sun, 08 Nov 2026 01:10:31 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+
+<!DOCTYPE html>
+<html lang="en" class="dark h-full bg-zinc-950">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LinkVault &middot; Enterprise Threat Intelligence &amp; Link Ingestion</title>
+  
+  
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('lv_sidebar_collapsed') === 'true') {
+          document.documentElement.classList.add('sidebar-is-collapsed');
+        }
+      } catch (e) {}
+
+=== GET /login ===
+HTTP/1.1 200 OK
+Date: Sun, 08 Nov 2026 01:10:31 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+
+<!DOCTYPE html>
+<html lang="en" class="dark h-full bg-zinc-950">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LinkVault &middot; Enterprise Threat Intelligence &amp; Link Ingestion</title>
+  
+  
+  <script>
+    (function () {
+
+=== GET /health (not present) ===
+HTTP/1.1 404 Not Found
+Date: Sun, 08 Nov 2026 01:10:31 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+
+<!DOCTYPE html>
+<html lang="en" class="dark h-full bg-zinc-950">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">

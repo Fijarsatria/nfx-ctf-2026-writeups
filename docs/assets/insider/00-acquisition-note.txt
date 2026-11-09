@@ -1,0 +1,21 @@
+DIGITAL EVIDENCE ACQUISITION REPORT
+====================================
+Case ID          : NFX-2025-0317 (Project Helios data leak)
+Device           : Dell Latitude 7440, asset NFX-LT-0192
+Custodian        : Noah Fox <n.fox@nfx-aero.example>
+Seized           : 2025-03-17 06:40:00 UTC, Singapore Changi Airport (T3)
+Examiner         : A. Tanaka, NFX DFIR Unit
+Acquisition tool : FTK Imager 4.7.1
+Source path      : C:\Users\nfox\AppData\Local\Google\Chrome\User Data
+Profile          : Default
+Browser version  : Google Chrome 138.0.7204.158
+
+Evidence layout  : ChromeProfile/
+Artifact hashes  :
+  Default/History  SHA-256 327a1af0d234d76a76b8da1fc2220c7e517492486658fcf75cac4a68ce98be5e
+
+Notes:
+- The laptop was powered on and the Chrome process was still running at seizure.
+- The user is suspected of researching a Windows UAC bypass and exfiltrating
+  Project Helios documents. Only the browser profile is provided in this package.
+- All timestamps inside Chrome databases are stored in UTC (Chrome/WebKit epoch).

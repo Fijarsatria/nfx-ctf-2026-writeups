@@ -1,0 +1,10 @@
+PDF bytes: 8672
+[ NFX PROTOCOL // RESTRICTED ACCESS ]
+DOKODEMO DOOR
+Sandi Rahasia Gerbang Masuk Sektor Barat
+Di balik pintu ini terdapat akses langsung menuju jaringan rahasia NFX.
+Hanya mereka yang memiliki otentikasi sah yang diperkenankan masuk.
+Ketuk tiga kali pada pintu dan bisikkan kode otorisasi:
+Flag: NFX{k3tuk_p1ntu_bUk4_d0kum3n_x0r}
+Gunakan flag di atas untuk melakukan submission pada platform CTF.
+NFX CLASSIFIED ARCHIVE // STRICTLY CONFIDENTIAL // DO NOT DISTRIBUTE

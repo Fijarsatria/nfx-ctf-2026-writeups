@@ -1,0 +1,13 @@
+ciphertext bytes      : 8672
+candidate key length  : 16
+recovered key         : b'nfx_k3tuk_p1ntu!'
+crib-unknown positions: [9] filled with (95,)
+decrypted header      : b'%PDF-1.4\n%\x93\x8c\x8b\x9e Repor'
+decrypted trailer     : b'>>\nstartxref\n8239\n%%EOF\n'
+score                 : 1213
+written               : /tmp/opencode/dokodemo_decrypted.pdf
+=== sha256 ===
+44f43727b3de339f94ded1e67ef9cc6620e4d88f8fa707b4a738c35eba4a6df2  /home/bocil/ctf/nfx/crypto/Dokodemo_Door/rahasia.pdf
+6039511dcd291ae1cf2da15be996b9086aaaefad125364893df52f057e8207fb  /tmp/opencode/dokodemo_decrypted.pdf
+=== file ===
+/tmp/opencode/dokodemo_decrypted.pdf: PDF document, version 1.4, 1 page(s)

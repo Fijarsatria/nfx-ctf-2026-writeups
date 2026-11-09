@@ -1,0 +1,151 @@
+=== GET / ===
+HTTP/1.1 200 OK
+Server: gunicorn
+Date: Sun, 08 Nov 2026 01:26:47 GMT
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Content-Length: 9613
+Vary: Cookie
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NXPortal - Enterprise Identity & Access Governance</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Navbar -->
+    <nav class="navbar">
+        <a href="/" class="brand">
+            ⚡ NXPortal <span>Enterprise IAM</span>
+        </a>
+        <div class="nav-links">
+            <a href="/" class="nav-item active">Home</a>
+            <a href="/about" class="nav-item ">About Us</a>
+            <a href="/services" class="nav-item ">Solutions</a>
+            <a href="/blog" class="nav-item ">Tech Blog</a>
+            <a href="/contact" class="nav-item ">Contact</a>
+
+            
+            <a href="/login" class="nav-btn">Employee Portal</a>
+            
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        
+<div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="pill-tag">
+            ✨ NXPortal Control Plane v2.4 Release
+        </div>
+        <h1>Unified Identity Governance for the Modern Enterprise</h1>
+        <p>
+            NXPortal provides high-availability zero-trust authentication, context-aware role mapping, and centralized credential lifecycle governance for <code>@nxctf.local</code> systems.
+        </p>
+        <div style="display: flex; justify-content: center; gap: 16px;">
+            <a href="/services" class="btn-primary" style="width: auto; text-decoration: none; padding: 14px 32px;">Explore Solutions</a>
+            <a href="/login" class="btn-secondary">Employee Sign In</a>
+        </div>
+    </div>
+
+    <!-- Live System Stats Bar -->
+    <div class="stats-grid">
+
+=== /login ===
+HTTP/1.1 200 OK
+Server: gunicorn
+Date: Sun, 08 Nov 2026 01:26:47 GMT
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Content-Length: 3934
+Vary: Cookie
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - NXPortal Corporate IAM</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Navbar -->
+    <nav class="navbar">
+        <a href="/" class="brand">
+            ⚡ NXPortal <span>Enterprise IAM</span>
+        </a>
+        <div class="nav-links">
+            <a href="/" class="nav-item ">Home</a>
+            <a href="/about" class="nav-item ">About Us</a>
+            <a href="/services" class="nav-item ">Solutions</a>
+            <a href="/blog" class="nav-item ">Tech Blog</a>
+            <a href="/contact" class="nav-item ">Contact</a>
+
+            
+            <a href="/login" class="nav-btn">Employee Portal</a>
+            
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        
+<div class="container">
+    <div class="card" style="max-width: 450px; margin: 30px auto;">
+        <h2 class="card-title">🔐 Employee Sign In</h2>
+
+        
+
+        
+
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="email">Corporate Email Address</label>
+                <input type="email" id="email" name="email" placeholder="user@nxctf.local" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="••••••••" required>
+            </div>
+
+=== /forgot-password ===
+HTTP/1.1 404 NOT FOUND
+Server: gunicorn
+Date: Sun, 08 Nov 2026 01:26:47 GMT
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Content-Length: 207
+
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+=== /reset-password ===
+HTTP/1.1 404 NOT FOUND
+Server: gunicorn
+Date: Sun, 08 Nov 2026 01:26:47 GMT
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Content-Length: 207
+
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>

@@ -1,0 +1,28 @@
+Starved — seccomp filter (decoded from setup_seccomp disassembly)
+
+Default action: KILL (0x80000000), then allow-list via seccomp_rule_add().
+
+Allowed syscalls:
+  write       = 1
+  open        = 2
+  openat      = 0x101
+  pread64     = 0x11
+  close       = 3
+  lseek       = 8
+  fstat       = 5
+  newfstatat  = 0x106
+  brk         = 0xc
+  exit        = 0x3c
+  exit_group  = 0xe7
+  read        = 0   <-- with arg0 == 0 (SCMP_CMP_EQ, datum 0)
+
+The last rule is built with seccomp_rule_add(ctx, ALLOW, 0, 1, cmp) where cmp is
+a zeroed scmp_arg_cmp: arg=0, op=SCMP_CMP_EQ, datum=0.  So read() is only
+allowed on fd 0.
+
+Exploit consequence:
+  close(0)                  -> fd 0 becomes free
+  open("flag.txt", O_RDONLY) -> kernel returns fd 0
+  read(0, buf, n)            -> allowed by seccomp
+  write(1, buf, n)           -> allowed
+No execve in the allow-list; a shell/execve ROP would be killed.

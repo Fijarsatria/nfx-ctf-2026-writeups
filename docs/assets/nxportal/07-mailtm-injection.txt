@@ -1,0 +1,9 @@
+A_display    HTTP 200 -> success: If a matching corporate account exists in our records, recovery instructions have been dispatched.
+B_doubleat   HTTP 200 -> success: If a matching corporate account exists in our records, recovery instructions have been dispatched.
+C_comment    HTTP 200 -> error: Access Denied: Only corporate @nxctf.local email addresses are permitted.
+D_crlf       HTTP 200 -> success: If a matching corporate account exists in our records, recovery instructions have been dispatched.
+E_newline    HTTP 200 -> success: If a matching corporate account exists in our records, recovery instructions have been dispatched.
+F_comma      HTTP 200 -> success: If a matching corporate account exists in our records, recovery instructions have been dispatched.
+
+mail.tm HTTP 200
+messages 0

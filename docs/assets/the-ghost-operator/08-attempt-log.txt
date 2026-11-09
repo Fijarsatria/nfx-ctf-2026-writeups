@@ -1,0 +1,16 @@
+Attempt log — The Ghost Operator
+================================
+1. investigation.zip -> repo git satu commit d2627a7, signed GPG.
+2. git log --show-signature -> key B17171D40DE252F193E79707E6BE71CA2BD84A4E,
+   UID: Dimas Wirawan (rentry.co/ghost-route-0914) <ghost.operator.rentry@veloxphantom.net>.
+3. Keyserver search "veloxphantom.net" -> 3 keys:
+   - A0BE3884... -> telegra.ph/Field-Notes-0914-Escape-Route-10-25-2
+   - BE7BB77B... -> telegra.ph/Field-Notes-0914-Escape-Route-10-25
+   - B17171D4... -> rentry.co/ghost-route-0914
+4. Semua telegra.ph (termasuk -3) dan snapshot rentry berisi field notes yang
+   sama: KM 9 Kolonel Masturi, kaki Burangrang, kompleks villa terbesar,
+   taman bunga tematik.
+5. Identifikasi: Villa Istana Bunga (VIB), Jl. Kolonel Masturi KM 9.
+6. Flag yang diuji: NFX{villa_istana_bunga} -> REJECTED (user report).
+7. String wave 1 NFX{Villa_Istana_Bunga} -> pernah accepted; belum diuji ulang
+   di wave 2. Status: OPEN.

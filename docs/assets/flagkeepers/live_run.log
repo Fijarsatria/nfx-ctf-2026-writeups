@@ -1,0 +1,14 @@
+[banner ok] 210
+[sample0] msg= b'RECOVERY|ts=1794053560|r=1de81f84|t=fdaef5b11644|OK'
+[sample0] ctlen 51 tag 2a0ccbabce92a0e321d862330ad3dc9a
+[collected] 14 idx 32
+[msg lengths] {51}
+[H] 0x26493fa6231e531baf7ba6bf77c84b50
+[E_K(J0) consistency] 1
+[forged] plaintext= b'admin = True                                       '
+[forged] ct= 953f210a7913d6a2e4211f1fe7fa4082716ce1d2bc88c1e8bd712e3becae698a013b4e3d955aef26d4f6983e844488fbb5ed70
+[forged] tag= ced4419767ad26b3c4801c6aca6fb644
+[final idx] 32
+[opt4 ct prompt] CT: 
+[opt4 tag prompt] Tag: 
+[RESULT] NFX{gcm_f0rb1dd3n_4tt4ck_du4l_t4g_c0ll1s10n_m4st3r}

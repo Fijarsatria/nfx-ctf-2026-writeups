@@ -1,0 +1,4 @@
+flag_file : /home/bocil/ctf/nfx/flags/pwn/NFXCTF_Convention.txt
+flag      : NFX{h4ck3r_c0nv3nt10n_m4st3r_pwn3r_9988776655}
+sha256    : 7d79fff3a4a6d9861ce08929373f0d51f4b53364d202cb7810c25a3b63c19ee9  /home/bocil/ctf/nfx/flags/pwn/NFXCTF_Convention.txt
+status    : CANDIDATE (belum terverifikasi platform; ledger writeups/FLAGS.md)

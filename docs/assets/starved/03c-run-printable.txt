@@ -1,0 +1,12 @@
+[*] Loaded 218 cached gadgets for '/home/bocil/ctf/nfx/pwn/Starved/peserta/libc.so.6'
+[x] Starting local process '/home/bocil/ctf/nfx/pwn/Starved/peserta/ld-linux-x86-64.so.2'
+[+] Starting local process '/home/bocil/ctf/nfx/pwn/Starved/peserta/ld-linux-x86-64.so.2': pid 142068
+[+] canary=0x39fb296e5a075d00 pie=0x7eeb73cf5000 libc=0x7eeb73a00000
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process '/home/bocil/ctf/nfx/pwn/Starved/peserta/ld-linux-x86-64.so.2' stopped with exit code 1 (pid 142068)
+[x] Receiving all data: 256B
+[+] Receiving all data: Done (256B)
+NFX{LOCAL_TEST_FLAG_STARVED}
+^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^D^@M-qM-^?^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@	^@^@^@^A^@^D^@^L^C^@^@^@^@^@^@ ^@^@^@^@^@^@^@^S^@^@^@^D^@M-qM-^?^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^^^@^@^@^B^@^O^@M-p
+^@^@^@^@^@^@^@^@^@^@^@^@^@^@ ^@^@^@^B^@^O^@ ^K^@^@^@^@^@^@^@^@^@^@^@^@^@^@3^@^@^@^B^@^O^@`^K^@^@^@^@^@^@^@^@^@^@^@^@^@^@I^@^@^@^A^@^Y^@M-x0^@^@^@^@^@^@^A^@^@^@^@^@^@^@U^@^@^@^A^@^U^@@-^@^@^@^@^@^@^@^@^@^@^@^@^@^@|^@^@^@^B^@^O^@M- ^K^@^@^@^@^@^@^@^@^@^@^@^@^@^@

@@ -1,0 +1,45 @@
+[login] 302 /dashboard
+[save SSTI1] HTTP 302
+[test SSTI1] HTTP 302
+
+--- captured 086f9505-94c9-4b7c-96f5-2101b15f507a ip=116.212.75.209 ---
+SSTI1
+uid=0(root) gid=0(root) groups=0(root)
+
+
+--- captured 634a178f-6da0-4b8f-9c86-90414e1ecce3 ip=116.212.75.209 ---
+SSTI1
+uid=0(root) gid=0(root) groups=0(root)
+
+
+--- captured bcd6561f-ad36-4ab4-b156-a9b5159c3dd7 ip=116.212.75.209 ---
+HELLO_WEBHOOK_SITE 49
+target=https://api.github.com/events
+
+--- captured bc14ea01-fa72-45c2-8623-3f8fcac8d74d ip=116.212.75.209 ---
+HELLO_WEBHOOK_SITE 49
+target=https://api.github.com/events
+[save SSTI2] HTTP 302
+[test SSTI2] HTTP 302
+
+--- captured 2b8926d8-7b88-4ca8-8127-037df46d4a79 ip=116.212.75.209 ---
+SSTI2
+uid=0(root) gid=0(root) groups=0(root)
+
+
+--- captured 8a1c2339-229a-42c2-a326-efc42dfb8e59 ip=116.212.75.209 ---
+SSTI2
+uid=0(root) gid=0(root) groups=0(root)
+
+[save SSTI3] HTTP 302
+[test SSTI3] HTTP 302
+
+--- captured 00da4439-59ea-4cee-8686-58e58257f29a ip=116.212.75.209 ---
+SSTI3
+uid=0(root) gid=0(root) groups=0(root)
+
+
+--- captured 46ebbd41-0abe-4972-a0c1-3e4441421b77 ip=116.212.75.209 ---
+SSTI3
+uid=0(root) gid=0(root) groups=0(root)
+

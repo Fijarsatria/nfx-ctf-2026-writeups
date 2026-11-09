@@ -1,0 +1,21 @@
+Shell sebagai node:
+
+$ id
+uid=1000(node) gid=1000(node) groups=1000(node)
+
+$ cat /home/node/user.txt
+NFX{br0tl1_0ob_wr1t3_w0rk3r_r0p_rc3}
+
+Detail file:
+  path   : /home/node/user.txt
+  size   : 37 bytes (flag + newline)
+  mode   : 0400
+  owner  : node
+  sha256 : 849fc4aa022f84dac5481d7c33d228caac07ab64605ef9884ab581621c39fa4b
+  base64 : TkZYe2JyMHRsMV8wb2Jfd3IxdDNfdzByazNyX3IwcF9yYzN9Cg==
+  hex    : 4e 46 58 7b 62 72 30 74 6c 31 5f 30 6f 62 5f 77
+           72 31 74 33 5f 77 30 72 6b 33 72 5f 72 30 70 5f
+           72 63 33 7d 0a
+
+FLAG USER
+NFX{br0tl1_0ob_wr1t3_w0rk3r_r0p_rc3}

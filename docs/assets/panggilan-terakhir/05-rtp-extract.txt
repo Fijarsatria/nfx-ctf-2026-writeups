@@ -1,0 +1,5 @@
+/home/bocil/ctf/nfx/writeups/assets/panggilan-terakhir/solve_panggilan.py:5: DeprecationWarning: 'audioop' is deprecated and slated for removal in Python 3.13
+  import audioop
+pcap linktype=1 snaplen=65535
+4000->4002 ssrc=a2040001 pkts=1051 seq=3800..4850 payload=168160 durasi=21.02s -> pt_4000_4002_a2040001.wav
+4002->4000 ssrc=b2310001 pkts=2374 seq=3800..6173 payload=379840 durasi=47.48s -> pt_4002_4000_b2310001.wav

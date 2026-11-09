@@ -1,0 +1,26 @@
+b'hello, 0x7c789ac29d90'
+libc 0x7c789ac00000 RW_PATH 0x7c789ae24000
+55555e9e7000-55555ea08000 rw-p 00000000 00:00 0                          [heap]
+7c789ac00000-7c789ac28000 r--p 00000000 08:01 525125                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/libc.so.6
+7c789ac28000-7c789adbd000 r-xp 00028000 08:01 525125                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/libc.so.6
+7c789adbd000-7c789ae15000 r--p 001bd000 08:01 525125                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/libc.so.6
+7c789ae15000-7c789ae16000 ---p 00215000 08:01 525125                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/libc.so.6
+7c789ae16000-7c789ae1a000 r--p 00215000 08:01 525125                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/libc.so.6
+7c789ae1a000-7c789ae1c000 rw-p 00219000 08:01 525125                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/libc.so.6
+7c789ae1c000-7c789ae29000 rw-p 00000000 00:00 0
+7c789ae34000-7c789ae39000 rw-p 00000000 00:00 0
+7c789ae39000-7c789ae3a000 r--p 00000000 08:01 525123                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/narrowgate
+7c789ae3a000-7c789ae3b000 r-xp 00001000 08:01 525123                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/narrowgate
+7c789ae3b000-7c789ae3c000 r--p 00002000 08:01 525123                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/narrowgate
+7c789ae3c000-7c789ae3d000 r--p 00002000 08:01 525123                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/narrowgate
+7c789ae3d000-7c789ae3e000 rw-p 00003000 08:01 525123                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/narrowgate
+7c789ae3e000-7c789ae42000 r--p 00000000 00:00 0                          [vvar]
+7c789ae42000-7c789ae44000 r--p 00000000 00:00 0                          [vvar_vclock]
+7c789ae44000-7c789ae46000 r-xp 00000000 00:00 0                          [vdso]
+7c789ae46000-7c789ae48000 r--p 00000000 08:01 525124                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/ld-linux-x86-64.so.2
+7c789ae48000-7c789ae72000 r-xp 00002000 08:01 525124                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/ld-linux-x86-64.so.2
+7c789ae72000-7c789ae7d000 r--p 0002c000 08:01 525124                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/ld-linux-x86-64.so.2
+7c789ae7e000-7c789ae80000 r--p 00037000 08:01 525124                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/ld-linux-x86-64.so.2
+7c789ae80000-7c789ae82000 rw-p 00039000 08:01 525124                     /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/ld-linux-x86-64.so.2
+7fff37699000-7fff376ba000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

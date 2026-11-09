@@ -1,0 +1,83 @@
+01:18:00.000000 IP 10.24.8.31.5060 > 10.24.8.24.5060: SIP: INVITE sip:231@pbx.cakrawala.internal SIP/2.0
+E.......@.T.
+...
+..........1INVITE sip:231@pbx.cakrawala.internal SIP/2.0
+Via: SIP/2.0/UDP 10.24.8.31:5060;branch=z9hG4bK-204-INVITE
+From: <sip:204@pbx.cakrawala.internal>;tag=a204
+To: <sip:231@pbx.cakrawala.internal>
+Call-ID: c1a84d0e-204@pbx.cakrawala.internal
+CSeq: 1 INVITE
+Contact: <sip:204@10.24.8.31:5060>
+Content-Type: application/sdp
+Content-Length: 138
+
+v=0
+o=- 204 1 IN IP4 10.24.8.31
+s=Desk phone 204
+c=IN IP4 10.24.8.31
+t=0 0
+m=audio 4000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+a=sendrecv
+
+01:18:00.120000 IP 10.24.8.24.5060 > 10.24.8.31.5060: SIP: SIP/2.0 200 OK
+E.......@.T.
+...
+.........O.SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.24.8.31:5060;branch=z9hG4bK-204-INVITE
+From: <sip:204@pbx.cakrawala.internal>;tag=a204
+To: <sip:231@pbx.cakrawala.internal>;tag=b231
+Call-ID: c1a84d0e-204@pbx.cakrawala.internal
+CSeq: 1 INVITE
+Contact: <sip:204@10.24.8.31:5060>
+Content-Type: application/sdp
+Content-Length: 138
+
+v=0
+o=- 204 1 IN IP4 10.24.8.24
+s=Desk phone 231
+c=IN IP4 10.24.8.24
+t=0 0
+m=audio 4002 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+a=sendrecv
+
+01:18:00.160000 IP 10.24.8.31.5060 > 10.24.8.24.5060: SIP: ACK sip:231@10.24.8.24:5060 SIP/2.0
+E..N....@.U8
+...
+........:.?ACK sip:231@10.24.8.24:5060 SIP/2.0
+Via: SIP/2.0/UDP 10.24.8.31:5060;branch=z9hG4bK-204-ACK
+From: <sip:204@pbx.cakrawala.internal>;tag=a204
+To: <sip:231@pbx.cakrawala.internal>;tag=b231
+Call-ID: c1a84d0e-204@pbx.cakrawala.internal
+CSeq: 1 ACK
+Contact: <sip:204@10.24.8.31:5060>
+Content-Length: 0
+
+
+01:19:11.272000 IP 10.24.8.31.5060 > 10.24.8.24.5060: SIP: BYE sip:231@10.24.8.24:5060 SIP/2.0
+E..N....@.U8
+...
+........:..BYE sip:231@10.24.8.24:5060 SIP/2.0
+Via: SIP/2.0/UDP 10.24.8.31:5060;branch=z9hG4bK-204-BYE
+From: <sip:204@pbx.cakrawala.internal>;tag=a204
+To: <sip:231@pbx.cakrawala.internal>;tag=b231
+Call-ID: c1a84d0e-204@pbx.cakrawala.internal
+CSeq: 2 BYE
+Contact: <sip:204@10.24.8.31:5060>
+Content-Length: 0
+
+
+01:19:11.352000 IP 10.24.8.24.5060 > 10.24.8.31.5060: SIP: SIP/2.0 200 OK
+E..9....@.UM
+...
+........%=.SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.24.8.31:5060;branch=z9hG4bK-204-BYE
+From: <sip:204@pbx.cakrawala.internal>;tag=a204
+To: <sip:231@pbx.cakrawala.internal>;tag=b231
+Call-ID: c1a84d0e-204@pbx.cakrawala.internal
+CSeq: 2 BYE
+Contact: <sip:204@10.24.8.31:5060>
+Content-Length: 0
+
+

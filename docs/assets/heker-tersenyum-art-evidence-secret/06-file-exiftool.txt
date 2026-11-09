@@ -1,0 +1,46 @@
+=== file
+00-original.png: PNG image data, 1495 x 2424, 8-bit/color RGB, non-interlaced
+
+=== sha256
+1d349bbff6ba8f9bfd85fbf6980d098b5d810035395f3477d463526b11b2c4a1  00-original.png
+
+=== exiftool -a -u -g1
+---- ExifTool ----
+ExifTool Version Number         : 12.76
+---- System ----
+File Name                       : 00-original.png
+Directory                       : .
+File Size                       : 775 kB
+File Modification Date/Time     : 2026:11:08 08:25:29+07:00
+File Access Date/Time           : 2026:11:08 08:26:02+07:00
+File Inode Change Date/Time     : 2026:11:08 08:25:29+07:00
+File Permissions                : -rw-r--r--
+---- File ----
+File Type                       : PNG
+File Type Extension             : png
+MIME Type                       : image/png
+---- PNG ----
+Image Width                     : 1495
+Image Height                    : 2424
+Bit Depth                       : 8
+Color Type                      : RGB
+Compression                     : Deflate/Inflate
+Filter                          : Adaptive
+Interlace                       : Noninterlaced
+Comment                         : The smallest details matter.
+Photo Location                  : SmFrYXJ0YSBTZWxhdGFuLCAxMzMwLCBSVyAyMCwgUlQgMTAsIFMzVnJkWEpwZFdzNU9RPT0=
+---- Composite ----
+Image Size                      : 1495x2424
+Megapixels                      : 3.6
+
+=== strings metadata
+$tEXtComment
+The smallest details matter.
+VtEXtPhotoLocation
+SmFrYXJ0YSBTZWxhdGFuLCAxMzMwLCBSVyAyMCwgUlQgMTAsIFMzVnJkWEpwZFdzNU9RPT0=
+s\I+ei
+Q9(*_U<
+ihu4$!!!--M$
+dffVUU
+VVVYYY
+---urr

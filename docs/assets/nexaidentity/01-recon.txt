@@ -1,0 +1,178 @@
+=== GET / ===
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 3787
+ETag: W/"ecb-OtU2s5KlTbcBlHAVS5MyxwLuoSQ"
+Date: Sun, 08 Nov 2026 01:18:45 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Employee directory — NexaIdentity</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="announcement">NexaIdentity · Employee directory · Profile changes sync every 15 minutes</div>
+  <nav class="navbar">
+    <a class="brand" href="/">Nexa<span>Identity</span></a>
+    <div class="nav-links">
+      
+    </div>
+    <div class="nav-actions">
+      
+        <a href="/login">Employee login</a>
+        <a class="btn btn-primary" href="/login">Open directory</a>
+      
+    </div>
+  </nav>
+
+  <main class="container">
+
+
+<section class="hero">
+  <div class="hero-copy">
+    <span class="eyebrow">People platform</span>
+    <h1>Find the right teammate across the NexaCommerce network.</h1>
+    <p>NexaIdentity is the internal employee directory for teams, roles, departments, and workspace profiles. Sign in with your company account to explore the directory.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="/login">Sign in to the directory</a>
+      <a class="btn btn-ghost" href="/login">View demo access</a>
+    </div>
+    <div class="hero-stats">
+      <div><strong>12</strong><span>Employees</span></div>
+      <div><strong>11</strong><span>Departments</span></div>
+      <div><strong>6</strong><span>Office locations</span></div>
+    </div>
+  </div>
+  <div class="hero-panel">
+    <div class="hero-card">
+      <span class="card-kicker">Directory snapshot</span>
+      <h2>People Operations</h2>
+      <p>Profiles are maintained by each team lead and reviewed by People Operations every quarter.</p>
+      <div class="hero-avatars">
+        <span class="avatar avatar-light">NK</span>
+        <span class="avatar avatar-light">RP</span>
+        <span class="avatar avatar-light">SM</span>
+        <span class="avatar avatar-light">BS</span>
+        <span class="avatar avatar-light">+8</span>
+      </div>
+    </div>
+    <div class="hero-mini">
+      <div><strong>15 min</strong><span>Profile sync</span></div>
+      <div><strong>SSO</strong><span>Workspace access</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="feature-grid">
+  <article class="feature-card">
+    <span class="feature-icon">DIR</span>
+    <h3>People directory</h3>
+    <p>Search colleagues by name, department, or office and open a full workspace profile.</p>
+  </article>
+  <article class="feature-card">
+    <span class="feature-icon">ORG</span>
+    <h3>Org visibility</h3>
+    <p>See reporting lines, team ownership, and the people behind every NexaCommerce service.</p>
+  </article>
+  <article class="feature-card">
+    <span class="feature-icon">SEC</span>
+    <h3>Identity governance</h3>
+    <p>People Operations manages directory access and keeps recovery records in a restricted console.</p>
+  </article>
+</section>
+
+<section class="panel">
+  <div class="panel-head">
+    <div>
+      <span class="eyebrow">Workspace notice</span>
+      <h2>Directory access is limited to NexaCommerce employees</h2>
+    </div>
+    <span class="pill pill-info">SSO enforced</span>
+  </div>
+  <p class="muted">Use your company email to sign in. Contractors and partners receive a sponsored workspace account from their NexaCommerce manager.</p>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>NexaIdentity</strong>
+      <p>The employee directory and workspace identity portal for NexaCommerce.</p>
+    </div>
+    <div class="footer-links">
+      <a href="/">Directory home</a>
+      <a href="/login">Employee login</a>
+      <a href="/directory">People search</a>
+    </div>
+    <p class="copyright">&copy; 2024 NexaIdentity. Internal use only.</p>
+  </footer>
+</body>
+</html>
+
+
+=== /robots.txt ===
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 1359
+ETag: W/"54f-MJxxdDFx2HngfvMwj61eZrTlehM"
+Date: Sun, 08 Nov 2026 01:18:45 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Not found — NexaIdentity</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="announcement">NexaIdentity · Employee directory · Profile changes sync every 15 minutes</div>
+  <nav class="navbar">
+    <a class="brand" href="/">Nexa<span>Identity</span></a>
+    <div class="nav-links">
+      
+    </div>
+    <div class="nav-actions">
+      
+        <a href="/login">Employee login</a>
+        <a class="btn btn-primary" href="/login">Open directory</a>
+      
+    </div>
+  </nav>
+
+  <main class="container">
+
+
+<section class="error-page">
+  <span class="error-code">404</span>
+  <h1>Page not found</h1>
+  <p class="muted">That page does not exist.</p>
+  <a class="btn btn-primary" href="/">Back to directory home</a>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>NexaIdentity</strong>
+      <p>The employee directory and workspace identity portal for NexaCommerce.</p>
+    </div>
+    <div class="footer-links">
+      <a href="/">Directory home</a>
+      <a href="/login">Employee login</a>
+      <a href="/directory">People search</a>
+    </div>
+    <p class="copyright">&copy; 2024 NexaIdentity. Internal use only.</p>
+  </footer>
+</body>
+</html>
+

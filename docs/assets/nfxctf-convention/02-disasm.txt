@@ -1,0 +1,353 @@
+===== register_user =====
+
+/home/bocil/ctf/nfx/work/event/pwn/nfxctf-convention/src/peserta/oscar_convention:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+Disassembly of section .plt:
+
+Disassembly of section .plt.got:
+
+Disassembly of section .plt.sec:
+
+Disassembly of section .text:
+
+00000000000013b7 <register_user>:
+    13b7:	f3 0f 1e fa          	endbr64
+    13bb:	55                   	push   rbp
+    13bc:	48 89 e5             	mov    rbp,rsp
+    13bf:	48 83 ec 10          	sub    rsp,0x10
+    13c3:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+    13ca:	00 00 
+    13cc:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+    13d0:	31 c0                	xor    eax,eax
+    13d2:	48 8d 05 58 0c 00 00 	lea    rax,[rip+0xc58]        # 2031 <_IO_stdin_used+0x31>
+    13d9:	48 89 c7             	mov    rdi,rax
+    13dc:	b8 00 00 00 00       	mov    eax,0x0
+    13e1:	e8 8a fd ff ff       	call   1170 <printf@plt>
+    13e6:	ba 3f 00 00 00       	mov    edx,0x3f
+    13eb:	48 8d 05 6e 2c 00 00 	lea    rax,[rip+0x2c6e]        # 4060 <player>
+    13f2:	48 89 c6             	mov    rsi,rax
+    13f5:	bf 00 00 00 00       	mov    edi,0x0
+    13fa:	e8 a1 fd ff ff       	call   11a0 <read@plt>
+    13ff:	48 8d 05 3d 0c 00 00 	lea    rax,[rip+0xc3d]        # 2043 <_IO_stdin_used+0x43>
+    1406:	48 89 c6             	mov    rsi,rax
+    1409:	48 8d 05 50 2c 00 00 	lea    rax,[rip+0x2c50]        # 4060 <player>
+    1410:	48 89 c7             	mov    rdi,rax
+    1413:	e8 78 fd ff ff       	call   1190 <strcspn@plt>
+    1418:	48 8d 15 41 2c 00 00 	lea    rdx,[rip+0x2c41]        # 4060 <player>
+    141f:	c6 04 10 00          	mov    BYTE PTR [rax+rdx*1],0x0
+    1423:	48 8d 05 36 2c 00 00 	lea    rax,[rip+0x2c36]        # 4060 <player>
+    142a:	48 89 c6             	mov    rsi,rax
+    142d:	48 8d 05 11 0c 00 00 	lea    rax,[rip+0xc11]        # 2045 <_IO_stdin_used+0x45>
+    1434:	48 89 c7             	mov    rdi,rax
+    1437:	b8 00 00 00 00       	mov    eax,0x0
+    143c:	e8 2f fd ff ff       	call   1170 <printf@plt>
+    1441:	90                   	nop
+    1442:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+    1446:	64 48 2b 04 25 28 00 	sub    rax,QWORD PTR fs:0x28
+    144d:	00 00 
+    144f:	74 05                	je     1456 <register_user+0x9f>
+    1451:	e8 0a fd ff ff       	call   1160 <__stack_chk_fail@plt>
+    1456:	c9                   	leave
+    1457:	c3                   	ret
+
+Disassembly of section .fini:
+===== edit_name =====
+
+/home/bocil/ctf/nfx/work/event/pwn/nfxctf-convention/src/peserta/oscar_convention:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+Disassembly of section .plt:
+
+Disassembly of section .plt.got:
+
+Disassembly of section .plt.sec:
+
+Disassembly of section .text:
+
+0000000000001458 <edit_name>:
+    1458:	f3 0f 1e fa          	endbr64
+    145c:	55                   	push   rbp
+    145d:	48 89 e5             	mov    rbp,rsp
+    1460:	48 81 ec 90 00 00 00 	sub    rsp,0x90
+    1467:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+    146e:	00 00 
+    1470:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+    1474:	31 c0                	xor    eax,eax
+    1476:	8b 05 28 2c 00 00    	mov    eax,DWORD PTR [rip+0x2c28]        # 40a4 <player+0x44>
+    147c:	83 f8 04             	cmp    eax,0x4
+    147f:	7f 11                	jg     1492 <edit_name+0x3a>
+    1481:	48 8d 05 d0 0b 00 00 	lea    rax,[rip+0xbd0]        # 2058 <_IO_stdin_used+0x58>
+    1488:	48 89 c7             	mov    rdi,rax
+    148b:	e8 c0 fc ff ff       	call   1150 <puts@plt>
+    1490:	eb 57                	jmp    14e9 <edit_name+0x91>
+    1492:	48 8d 05 f4 0b 00 00 	lea    rax,[rip+0xbf4]        # 208d <_IO_stdin_used+0x8d>
+    1499:	48 89 c7             	mov    rdi,rax
+    149c:	b8 00 00 00 00       	mov    eax,0x0
+    14a1:	e8 ca fc ff ff       	call   1170 <printf@plt>
+    14a6:	48 8b 15 83 2b 00 00 	mov    rdx,QWORD PTR [rip+0x2b83]        # 4030 <stdin@GLIBC_2.2.5>
+    14ad:	48 8d 85 70 ff ff ff 	lea    rax,[rbp-0x90]
+    14b4:	be 80 00 00 00       	mov    esi,0x80
+    14b9:	48 89 c7             	mov    rdi,rax
+    14bc:	e8 ef fc ff ff       	call   11b0 <fgets@plt>
+    14c1:	48 8d 85 70 ff ff ff 	lea    rax,[rbp-0x90]
+    14c8:	48 89 c6             	mov    rsi,rax
+    14cb:	48 8d 05 8e 2b 00 00 	lea    rax,[rip+0x2b8e]        # 4060 <player>
+    14d2:	48 89 c7             	mov    rdi,rax
+    14d5:	e8 66 fc ff ff       	call   1140 <strcpy@plt>
+    14da:	48 8d 05 bd 0b 00 00 	lea    rax,[rip+0xbbd]        # 209e <_IO_stdin_used+0x9e>
+    14e1:	48 89 c7             	mov    rdi,rax
+    14e4:	e8 67 fc ff ff       	call   1150 <puts@plt>
+    14e9:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+    14ed:	64 48 2b 04 25 28 00 	sub    rax,QWORD PTR fs:0x28
+    14f4:	00 00 
+    14f6:	74 05                	je     14fd <edit_name+0xa5>
+    14f8:	e8 63 fc ff ff       	call   1160 <__stack_chk_fail@plt>
+    14fd:	c9                   	leave
+    14fe:	c3                   	ret
+
+Disassembly of section .fini:
+===== view_profile =====
+
+/home/bocil/ctf/nfx/work/event/pwn/nfxctf-convention/src/peserta/oscar_convention:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+Disassembly of section .plt:
+
+Disassembly of section .plt.got:
+
+Disassembly of section .plt.sec:
+
+Disassembly of section .text:
+
+00000000000014ff <view_profile>:
+    14ff:	f3 0f 1e fa          	endbr64
+    1503:	55                   	push   rbp
+    1504:	48 89 e5             	mov    rbp,rsp
+    1507:	48 83 ec 10          	sub    rsp,0x10
+    150b:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+    1512:	00 00 
+    1514:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+    1518:	31 c0                	xor    eax,eax
+    151a:	48 8d 05 8f 0b 00 00 	lea    rax,[rip+0xb8f]        # 20b0 <_IO_stdin_used+0xb0>
+    1521:	48 89 c7             	mov    rdi,rax
+    1524:	e8 27 fc ff ff       	call   1150 <puts@plt>
+    1529:	48 8d 05 30 2b 00 00 	lea    rax,[rip+0x2b30]        # 4060 <player>
+    1530:	48 89 c6             	mov    rsi,rax
+    1533:	48 8d 05 8c 0b 00 00 	lea    rax,[rip+0xb8c]        # 20c6 <_IO_stdin_used+0xc6>
+    153a:	48 89 c7             	mov    rdi,rax
+    153d:	b8 00 00 00 00       	mov    eax,0x0
+    1542:	e8 29 fc ff ff       	call   1170 <printf@plt>
+    1547:	8b 05 57 2b 00 00    	mov    eax,DWORD PTR [rip+0x2b57]        # 40a4 <player+0x44>
+    154d:	89 c6                	mov    esi,eax
+    154f:	48 8d 05 7a 0b 00 00 	lea    rax,[rip+0xb7a]        # 20d0 <_IO_stdin_used+0xd0>
+    1556:	48 89 c7             	mov    rdi,rax
+    1559:	b8 00 00 00 00       	mov    eax,0x0
+    155e:	e8 0d fc ff ff       	call   1170 <printf@plt>
+    1563:	8b 05 37 2b 00 00    	mov    eax,DWORD PTR [rip+0x2b37]        # 40a0 <player+0x40>
+    1569:	89 c6                	mov    esi,eax
+    156b:	48 8d 05 68 0b 00 00 	lea    rax,[rip+0xb68]        # 20da <_IO_stdin_used+0xda>
+    1572:	48 89 c7             	mov    rdi,rax
+    1575:	b8 00 00 00 00       	mov    eax,0x0
+    157a:	e8 f1 fb ff ff       	call   1170 <printf@plt>
+    157f:	48 8d 05 5f 0b 00 00 	lea    rax,[rip+0xb5f]        # 20e5 <_IO_stdin_used+0xe5>
+    1586:	48 89 c7             	mov    rdi,rax
+    1589:	b8 00 00 00 00       	mov    eax,0x0
+    158e:	e8 dd fb ff ff       	call   1170 <printf@plt>
+    1593:	48 8b 05 0e 2b 00 00 	mov    rax,QWORD PTR [rip+0x2b0e]        # 40a8 <player+0x48>
+    159a:	48 89 c7             	mov    rdi,rax
+    159d:	e8 ae fb ff ff       	call   1150 <puts@plt>
+    15a2:	48 8d 05 17 2b 00 00 	lea    rax,[rip+0x2b17]        # 40c0 <log_buf>
+    15a9:	0f b6 00             	movzx  eax,BYTE PTR [rax]
+    15ac:	84 c0                	test   al,al
+    15ae:	74 32                	je     15e2 <view_profile+0xe3>
+    15b0:	48 8d 05 36 0b 00 00 	lea    rax,[rip+0xb36]        # 20ed <_IO_stdin_used+0xed>
+    15b7:	48 89 c7             	mov    rdi,rax
+    15ba:	b8 00 00 00 00       	mov    eax,0x0
+    15bf:	e8 ac fb ff ff       	call   1170 <printf@plt>
+    15c4:	48 8d 05 f5 2a 00 00 	lea    rax,[rip+0x2af5]        # 40c0 <log_buf>
+    15cb:	48 89 c7             	mov    rdi,rax
+    15ce:	b8 00 00 00 00       	mov    eax,0x0
+    15d3:	e8 98 fb ff ff       	call   1170 <printf@plt>
+    15d8:	bf 0a 00 00 00       	mov    edi,0xa
+    15dd:	e8 4e fb ff ff       	call   1130 <putchar@plt>
+    15e2:	48 8d 05 13 0b 00 00 	lea    rax,[rip+0xb13]        # 20fc <_IO_stdin_used+0xfc>
+    15e9:	48 89 c7             	mov    rdi,rax
+    15ec:	e8 5f fb ff ff       	call   1150 <puts@plt>
+    15f1:	90                   	nop
+    15f2:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+    15f6:	64 48 2b 04 25 28 00 	sub    rax,QWORD PTR fs:0x28
+    15fd:	00 00 
+    15ff:	74 05                	je     1606 <view_profile+0x107>
+    1601:	e8 5a fb ff ff       	call   1160 <__stack_chk_fail@plt>
+    1606:	c9                   	leave
+    1607:	c3                   	ret
+
+Disassembly of section .fini:
+===== leave_feedback =====
+
+/home/bocil/ctf/nfx/work/event/pwn/nfxctf-convention/src/peserta/oscar_convention:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+Disassembly of section .plt:
+
+Disassembly of section .plt.got:
+
+Disassembly of section .plt.sec:
+
+Disassembly of section .text:
+
+0000000000001776 <leave_feedback>:
+    1776:	f3 0f 1e fa          	endbr64
+    177a:	55                   	push   rbp
+    177b:	48 89 e5             	mov    rbp,rsp
+    177e:	48 83 c4 80          	add    rsp,0xffffffffffffff80
+    1782:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+    1789:	00 00 
+    178b:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+    178f:	31 c0                	xor    eax,eax
+    1791:	8b 05 0d 29 00 00    	mov    eax,DWORD PTR [rip+0x290d]        # 40a4 <player+0x44>
+    1797:	83 f8 13             	cmp    eax,0x13
+    179a:	7f 14                	jg     17b0 <leave_feedback+0x3a>
+    179c:	48 8d 05 05 0a 00 00 	lea    rax,[rip+0xa05]        # 21a8 <_IO_stdin_used+0x1a8>
+    17a3:	48 89 c7             	mov    rdi,rax
+    17a6:	e8 a5 f9 ff ff       	call   1150 <puts@plt>
+    17ab:	e9 8a 00 00 00       	jmp    183a <leave_feedback+0xc4>
+    17b0:	48 8d 05 25 0a 00 00 	lea    rax,[rip+0xa25]        # 21dc <_IO_stdin_used+0x1dc>
+    17b7:	48 89 c7             	mov    rdi,rax
+    17ba:	b8 00 00 00 00       	mov    eax,0x0
+    17bf:	e8 ac f9 ff ff       	call   1170 <printf@plt>
+    17c4:	48 8d 45 90          	lea    rax,[rbp-0x70]
+    17c8:	ba 00 01 00 00       	mov    edx,0x100
+    17cd:	48 89 c6             	mov    rsi,rax
+    17d0:	bf 00 00 00 00       	mov    edi,0x0
+    17d5:	e8 c6 f9 ff ff       	call   11a0 <read@plt>
+    17da:	89 45 8c             	mov    DWORD PTR [rbp-0x74],eax
+    17dd:	83 7d 8c 00          	cmp    DWORD PTR [rbp-0x74],0x0
+    17e1:	7e 57                	jle    183a <leave_feedback+0xc4>
+    17e3:	8b 45 8c             	mov    eax,DWORD PTR [rbp-0x74]
+    17e6:	83 e8 01             	sub    eax,0x1
+    17e9:	48 98                	cdqe
+    17eb:	0f b6 44 05 90       	movzx  eax,BYTE PTR [rbp+rax*1-0x70]
+    17f0:	3c 0a                	cmp    al,0xa
+    17f2:	75 0d                	jne    1801 <leave_feedback+0x8b>
+    17f4:	8b 45 8c             	mov    eax,DWORD PTR [rbp-0x74]
+    17f7:	83 e8 01             	sub    eax,0x1
+    17fa:	48 98                	cdqe
+    17fc:	c6 44 05 90 00       	mov    BYTE PTR [rbp+rax*1-0x70],0x0
+    1801:	48 8d 45 90          	lea    rax,[rbp-0x70]
+    1805:	48 89 c1             	mov    rcx,rax
+    1808:	48 8d 05 e3 09 00 00 	lea    rax,[rip+0x9e3]        # 21f2 <_IO_stdin_used+0x1f2>
+    180f:	48 89 c2             	mov    rdx,rax
+    1812:	be 00 01 00 00       	mov    esi,0x100
+    1817:	48 8d 05 a2 28 00 00 	lea    rax,[rip+0x28a2]        # 40c0 <log_buf>
+    181e:	48 89 c7             	mov    rdi,rax
+    1821:	b8 00 00 00 00       	mov    eax,0x0
+    1826:	e8 55 f9 ff ff       	call   1180 <snprintf@plt>
+    182b:	48 8d 05 c3 09 00 00 	lea    rax,[rip+0x9c3]        # 21f5 <_IO_stdin_used+0x1f5>
+    1832:	48 89 c7             	mov    rdi,rax
+    1835:	e8 16 f9 ff ff       	call   1150 <puts@plt>
+    183a:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+    183e:	64 48 2b 04 25 28 00 	sub    rax,QWORD PTR fs:0x28
+    1845:	00 00 
+    1847:	74 05                	je     184e <leave_feedback+0xd8>
+    1849:	e8 12 f9 ff ff       	call   1160 <__stack_chk_fail@plt>
+    184e:	c9                   	leave
+    184f:	c3                   	ret
+
+Disassembly of section .fini:
+===== main =====
+
+/home/bocil/ctf/nfx/work/event/pwn/nfxctf-convention/src/peserta/oscar_convention:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+Disassembly of section .plt:
+
+Disassembly of section .plt.got:
+
+Disassembly of section .plt.sec:
+
+Disassembly of section .text:
+
+00000000000018f0 <main>:
+    18f0:	f3 0f 1e fa          	endbr64
+    18f4:	55                   	push   rbp
+    18f5:	48 89 e5             	mov    rbp,rsp
+    18f8:	48 83 ec 30          	sub    rsp,0x30
+    18fc:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+    1903:	00 00 
+    1905:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+    1909:	31 c0                	xor    eax,eax
+    190b:	b8 00 00 00 00       	mov    eax,0x0
+    1910:	e8 f4 f9 ff ff       	call   1309 <setup>
+    1915:	48 8d 05 73 09 00 00 	lea    rax,[rip+0x973]        # 228f <_IO_stdin_used+0x28f>
+    191c:	48 89 c7             	mov    rdi,rax
+    191f:	e8 2c f8 ff ff       	call   1150 <puts@plt>
+    1924:	b8 00 00 00 00       	mov    eax,0x0
+    1929:	e8 89 fa ff ff       	call   13b7 <register_user>
+    192e:	b8 00 00 00 00       	mov    eax,0x0
+    1933:	e8 18 ff ff ff       	call   1850 <menu>
+    1938:	48 8b 15 f1 26 00 00 	mov    rdx,QWORD PTR [rip+0x26f1]        # 4030 <stdin@GLIBC_2.2.5>
+    193f:	48 8d 45 e0          	lea    rax,[rbp-0x20]
+    1943:	be 10 00 00 00       	mov    esi,0x10
+    1948:	48 89 c7             	mov    rdi,rax
+    194b:	e8 60 f8 ff ff       	call   11b0 <fgets@plt>
+    1950:	48 85 c0             	test   rax,rax
+    1953:	0f 84 96 00 00 00    	je     19ef <main+0xff>
+    1959:	48 8d 45 e0          	lea    rax,[rbp-0x20]
+    195d:	48 89 c7             	mov    rdi,rax
+    1960:	e8 7b f8 ff ff       	call   11e0 <atoi@plt>
+    1965:	89 45 dc             	mov    DWORD PTR [rbp-0x24],eax
+    1968:	83 7d dc 05          	cmp    DWORD PTR [rbp-0x24],0x5
+    196c:	77 6d                	ja     19db <main+0xeb>
+    196e:	8b 45 dc             	mov    eax,DWORD PTR [rbp-0x24]
+    1971:	48 8d 14 85 00 00 00 	lea    rdx,[rax*4+0x0]
+    1978:	00 
+    1979:	48 8d 05 48 09 00 00 	lea    rax,[rip+0x948]        # 22c8 <_IO_stdin_used+0x2c8>
+    1980:	8b 04 02             	mov    eax,DWORD PTR [rdx+rax*1]
+    1983:	48 98                	cdqe
+    1985:	48 8d 15 3c 09 00 00 	lea    rdx,[rip+0x93c]        # 22c8 <_IO_stdin_used+0x2c8>
+    198c:	48 01 d0             	add    rax,rdx
+    198f:	3e ff e0             	notrack jmp rax
+    1992:	b8 00 00 00 00       	mov    eax,0x0
+    1997:	e8 63 fb ff ff       	call   14ff <view_profile>
+    199c:	eb 4c                	jmp    19ea <main+0xfa>
+    199e:	b8 00 00 00 00       	mov    eax,0x0
+    19a3:	e8 60 fc ff ff       	call   1608 <play_game>
+    19a8:	eb 40                	jmp    19ea <main+0xfa>
+    19aa:	b8 00 00 00 00       	mov    eax,0x0
+    19af:	e8 a4 fa ff ff       	call   1458 <edit_name>
+    19b4:	eb 34                	jmp    19ea <main+0xfa>
+    19b6:	b8 00 00 00 00       	mov    eax,0x0
+    19bb:	e8 b6 fd ff ff       	call   1776 <leave_feedback>
+    19c0:	eb 28                	jmp    19ea <main+0xfa>
+    19c2:	48 8d 05 e4 08 00 00 	lea    rax,[rip+0x8e4]        # 22ad <_IO_stdin_used+0x2ad>
+    19c9:	48 89 c7             	mov    rdi,rax
+    19cc:	e8 7f f7 ff ff       	call   1150 <puts@plt>
+    19d1:	bf 00 00 00 00       	mov    edi,0x0
+    19d6:	e8 25 f8 ff ff       	call   1200 <exit@plt>
+    19db:	48 8d 05 d4 08 00 00 	lea    rax,[rip+0x8d4]        # 22b6 <_IO_stdin_used+0x2b6>
+    19e2:	48 89 c7             	mov    rdi,rax
+    19e5:	e8 66 f7 ff ff       	call   1150 <puts@plt>
+    19ea:	e9 3f ff ff ff       	jmp    192e <main+0x3e>
+    19ef:	90                   	nop
+    19f0:	b8 00 00 00 00       	mov    eax,0x0
+    19f5:	48 8b 55 f8          	mov    rdx,QWORD PTR [rbp-0x8]
+    19f9:	64 48 2b 14 25 28 00 	sub    rdx,QWORD PTR fs:0x28
+    1a00:	00 00 
+    1a02:	74 05                	je     1a09 <main+0x119>
+    1a04:	e8 57 f7 ff ff       	call   1160 <__stack_chk_fail@plt>
+    1a09:	c9                   	leave
+    1a0a:	c3                   	ret
+
+Disassembly of section .fini:

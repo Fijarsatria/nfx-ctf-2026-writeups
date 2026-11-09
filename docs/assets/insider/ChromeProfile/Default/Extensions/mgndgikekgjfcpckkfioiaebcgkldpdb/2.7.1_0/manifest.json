@@ -1,0 +1,27 @@
+{
+  "action": {
+    "default_icon": "icon128.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "description": "Lightweight VPN proxy. Routes browser traffic through a remote exit node.",
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "128": "icon128.png"
+  },
+  "manifest_version": 3,
+  "minimum_chrome_version": "116",
+  "name": "ZenVPN",
+  "permissions": [
+    "proxy",
+    "storage",
+    "tabs",
+    "webRequest",
+    "webRequestAuthProvider"
+  ],
+  "version": "2.7.1"
+}

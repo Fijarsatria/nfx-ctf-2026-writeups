@@ -1,0 +1,7 @@
+Starved record layout (from main disassembly)
+  buffer          rbp-0x1a0
+  canary          rbp-0x08   -> offset 0x198 (408)
+  saved rbp       rbp
+  saved rip       rbp+0x08
+  first read      read(0, rbp-0x1a8, 8) -> [len:u32][magic:u32==0xdead]
+  second read     read(0, rbp-0x1a0, len_u32)   <-- uncontrolled size

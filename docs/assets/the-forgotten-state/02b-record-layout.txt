@@ -1,0 +1,14 @@
+THE FORGOTTEN STATE record layout (0x20-byte struct, non-PIE)
+  +0x00 name[16]
+  +0x10 uint32 len
+  +0x14 uint32 flags
+  +0x18 char  *data
+table[16]  @ 0x404080   (pointer, never cleared on release)
+active[16] @ 0x404100   (cleared on release; view/edit/list never read it)
+free@got   @ 0x404000
+
+op_edit:
+  read_int(&new_len, 1, 0x400);
+  read_exact(rec->data, new_len);     <-- no check against the original malloc
+  rec->len = new_len;
+=> 0x20-byte record overflow reaches the next record header.

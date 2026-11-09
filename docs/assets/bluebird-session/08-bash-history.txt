@@ -1,0 +1,75 @@
+=== mizore/.bash_history
+whoami
+id
+ls -la /home/nozomi/Documents
+secret-tool store --label="Mizore Promise Note" app bluebird target for_nozomi_note
+secret-tool lookup app bluebird target for_nozomi_note
+ls -la /home/nozomi/Documents/for_nozomi_content
+pwd
+ip addr
+
+=== nozomi/.bash_history
+exit
+sudo bash -c 'cat > /home/nozomi/Documents/for_nozomi_content/README.txt' << 'EOF'
+These memories were never meant to disappear.
+
+Look through the performance, the pictures, and the sound that remains.
+EOF
+
+ls
+cd /home/nozomi/
+ls
+cd Documents/
+ls
+exit
+cd
+ls
+cd Documents/
+l
+ls
+cd for_nozomi_content/
+ls
+cat README.txt 
+ls
+ls ~
+ls
+cd ..
+ls
+mv *.jpg /home/nozomi/Documents/for_nozomi_content/
+ls
+ls for_nozomi_content/
+cd /home/nozomi/Documents/for_nozomi_content
+7z a -tzip ../for_nozomi.zip . -p'MizoreCanFly2077!@'
+sudo chown nozomi:nozomi /home/nozomi/Documents/for_nozomi.zip
+ls
+cd ..
+ls
+ls -la
+zipinfo
+zipinfo for_nozomi
+zipinfo for_nozomi.zip 
+exit
+
+=== root/.bash_history
+cd /home/nozomi/
+cd Documents/
+ls
+mv Ensemble.mp4 /home/mizore/Documents/
+sudo chown -R mizore:mizore /home/mizore/Documents/Ensemble.mp4
+mkdir -p /home/mizore/Documents Desktop
+mv Ensemble.mp4 /home/mizore/Documents/
+sudo chown -R mizore:mizore /home/mizore/Documents/Ensemble.mp4
+ls
+mkdir -p /home/mizore/Documents /home/mizore/Desktop
+ls
+rm Desktop/
+rmdir Desktop/
+ls
+clear
+rm -rf for_nozomi
+ls
+rm -rf for_nozomi_content/
+clear
+ls
+clear
+exit

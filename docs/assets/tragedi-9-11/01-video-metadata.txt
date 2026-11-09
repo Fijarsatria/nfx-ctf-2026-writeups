@@ -1,0 +1,40 @@
+== file ==
+/tmp/opencode/drive/view.mp4: ISO Media, MP4 Base Media v1 [ISO 14496-12:2003]
+
+== sha256 ==
+c617b4d71998d0def7afab221836f095b7b7db908443aef1cb717a7b1ba2101e  /tmp/opencode/drive/view.mp4
+
+== ffprobe ==
+codec_name=h264
+width=1920
+height=1080
+coded_width=1920
+coded_height=1080
+nal_length_size=4
+r_frame_rate=30/1
+duration=58.500000
+bit_rate=4751167
+max_bit_rate=N/A
+nb_frames=1755
+extradata_size=43
+TAG:language=eng
+TAG:handler_name=Bento4 Video Handler
+TAG:vendor_id=[0][0][0][0]
+codec_name=aac
+r_frame_rate=0/0
+duration=58.514000
+bit_rate=128880
+max_bit_rate=N/A
+nb_frames=2744
+extradata_size=5
+TAG:language=eng
+TAG:handler_name=Bento4 Sound Handler
+TAG:vendor_id=[0][0][0][0]
+format_name=mov,mp4,m4a,3gp,3g2,mj2
+duration=58.514000
+size=35738008
+bit_rate=4886079
+TAG:major_brand=isom
+TAG:minor_version=512
+TAG:compatible_brands=isomiso2avc1mp41
+TAG:encoder=Lavf62.12.102

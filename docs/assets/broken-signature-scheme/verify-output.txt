@@ -1,0 +1,8 @@
+[L1] m0*m1*m2 == target : True
+[L1] forged sig^e == m   : True
+[L1] target message      : give-me-the-flag
+[L2] p*q == N            : True
+[L2] q-p                 : 2037035976334486086268445688409378161051468393665936250636140449354381299763336706183399480
+[L2] leak matches        : True
+[L3] AES-GCM tag         : OK
+[L3] FLAG                : NXCTF{mult1_l4y3r_l4tt1c3_r54_s1gn4tur3_hnp_8c211ad6b5a6}

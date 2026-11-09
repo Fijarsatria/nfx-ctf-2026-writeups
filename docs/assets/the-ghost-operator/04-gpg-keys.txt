@@ -1,0 +1,32 @@
+=== key A0BE3884C3DA0ED27A6D627338353AD29DC58103 ===
+	version 4, algo 1, created 1792953553, expires 0
+	keyid: 38353AD29DC58103
+:user ID packet: "Dimas Wirawan (telegra.ph/Field-Notes-0914-Escape-Route-10-25-2) <ghost.operator@veloxphantom.net>"
+:signature packet: algo 1, keyid 38353AD29DC58103
+	version 4, created 1792953553, md5len 0, sigclass 0x13
+	hashed subpkt 2 len 4 (sig created 2026-10-25)
+
+=== key BE7BB77BC5DC29E31149C1F9C92E23B3427F0BBC ===
+	version 4, algo 1, created 1792953278, expires 0
+	keyid: C92E23B3427F0BBC
+:user ID packet: "Dimas Wirawan (telegra.ph/Field-Notes-0914-Escape-Route-10-25) <ghost.operator@veloxphantom.net>"
+:signature packet: algo 1, keyid C92E23B3427F0BBC
+	version 4, created 1792953278, md5len 0, sigclass 0x13
+	hashed subpkt 2 len 4 (sig created 2026-10-25)
+
+=== key B17171D40DE252F193E79707E6BE71CA2BD84A4E ===
+	version 4, algo 1, created 1792954100, expires 0
+	keyid: E6BE71CA2BD84A4E
+:user ID packet: "Dimas Wirawan (rentry.co/ghost-route-0914) <ghost.operator.rentry@veloxphantom.net>"
+:signature packet: algo 1, keyid E6BE71CA2BD84A4E
+	version 4, created 1792954100, md5len 0, sigclass 0x13
+	hashed subpkt 2 len 4 (sig created 2026-10-25)
+
+== keyserver index (veloxphantom.net) ==
+info:1:3
+pub:A0BE3884C3DA0ED27A6D627338353AD29DC58103:1:4096:1792953553::
+uid:Dimas Wirawan (telegra.ph/Field-Notes-0914-Escape-Route-10-25-2) <ghost.operator@veloxphantom.net>:1792953553::
+pub:BE7BB77BC5DC29E31149C1F9C92E23B3427F0BBC:1:4096:1792953278::
+uid:Dimas Wirawan (telegra.ph/Field-Notes-0914-Escape-Route-10-25) <ghost.operator@veloxphantom.net>:1792953278::
+pub:B17171D40DE252F193E79707E6BE71CA2BD84A4E:1:4096:1792954100::
+uid:Dimas Wirawan (rentry.co/ghost-route-0914) <ghost.operator.rentry@veloxphantom.net>:1792954100::

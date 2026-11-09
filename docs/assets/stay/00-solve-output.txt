@@ -1,0 +1,11 @@
+zero-width characters : 176
+  '\u200c' -> 00 : 39
+  '\u2060' -> 01 : 79
+  '\u200b' -> 10 : 32
+  '\u200d' -> 11 : 26
+bit length            : 352
+base64 text           : KDkvOC8VFBJVFTMeXxMOPgFfNl8JORUEXzYKUxQKEQ==
+after base64 (hex)    : 28392f382f1514125515331e5f130e3e015f365f093915045f360a53140a11
+xor key               : b'falling'
+plaintext             : NXCTF{st4y_w1th_m3_1n_th3_d4rk}
+assertion             : PASS

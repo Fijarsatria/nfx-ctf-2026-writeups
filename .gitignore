@@ -1,0 +1,6 @@
+.venv/
+site/
+site.zip
+preview/
+__pycache__/
+.DS_Store

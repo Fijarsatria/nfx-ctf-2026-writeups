@@ -1,0 +1,153 @@
+=== FTP control (port 2121)
+18:23:03.481830 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [S], seq 2666670575, win 65495, options [mss 65495,sackOK,TS val 175541217 ecr 0,nop,wscale 7], length 0
+E..<..@.@.....8d..8d...I..)..........G.........
+
+v..........
+18:23:03.481845 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [S.], seq 2264864814, ack 2666670576, win 65483, options [mss 65495,sackOK,TS val 175541217 ecr 175541217,nop,wscale 7], length 0
+E..<..@.@.H...8d..8d.I........)......G.........
+
+v..
+v......
+18:23:03.481858 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [.], ack 1, win 512, options [nop,nop,TS val 175541217 ecr 175541217], length 0
+E..4..@.@.....8d..8d...I..)..../.....?.....
+
+v..
+v..
+18:23:03.482777 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [P.], seq 1:29, ack 1, win 512, options [nop,nop,TS val 175541218 ecr 175541217], length 28
+E..P.&@.@.Ph..8d..8d.I...../..)......[.....
+
+v..
+v..220 pyftpdlib 2.2.0 ready.
+
+18:23:03.482856 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [.], ack 29, win 512, options [nop,nop,TS val 175541218 ecr 175541218], length 0
+E..4..@.@.....8d..8d...I..)....K.....?.....
+
+v..
+v..
+18:23:03.482918 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [P.], seq 1:17, ack 29, win 512, options [nop,nop,TS val 175541218 ecr 175541218], length 16
+E..D..@.@.....8d..8d...I..)....K.....O.....
+
+v..
+v..USER anonymous
+
+18:23:03.482954 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [.], ack 17, win 512, options [nop,nop,TS val 175541218 ecr 175541218], length 0
+E..4.'@.@.P...8d..8d.I.....K..*......?.....
+
+v..
+v..
+18:23:03.483144 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [P.], seq 29:62, ack 17, win 512, options [nop,nop,TS val 175541218 ecr 175541218], length 33
+E..U.(@.@.Pa..8d..8d.I.....K..*......`.....
+
+v..
+v..331 Username ok, send password.
+
+18:23:03.483255 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [P.], seq 17:39, ack 62, win 512, options [nop,nop,TS val 175541218 ecr 175541218], length 22
+E..J..@.@.....8d..8d...I..*....l.....U.....
+
+v..
+v..PASS ftp@example.com
+
+18:23:03.483400 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [P.], seq 62:85, ack 39, win 512, options [nop,nop,TS val 175541218 ecr 175541218], length 23
+E..K.)@.@.Pj..8d..8d.I.....l..*......V.....
+
+v..
+v..230 Login successful.
+
+18:23:03.483510 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [P.], seq 39:44, ack 85, win 512, options [nop,nop,TS val 175541218 ecr 175541218], length 5
+E..9..@.@.....8d..8d...I..*..........D.....
+
+v..
+v..PWD
+
+18:23:03.483601 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [P.], seq 85:120, ack 44, win 512, options [nop,nop,TS val 175541219 ecr 175541218], length 35
+E..W.*@.@.P]..8d..8d.I........*......b.....
+
+v..
+v..257 "/" is the current directory.
+
+18:23:03.483826 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [P.], seq 44:50, ack 120, win 512, options [nop,nop,TS val 175541219 ecr 175541219], length 6
+E..:..@.@.....8d..8d...I..*..........E.....
+
+v..
+v..EPSV
+
+18:23:03.484063 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [P.], seq 120:169, ack 50, win 512, options [nop,nop,TS val 175541219 ecr 175541219], length 49
+E..e.+@.@.PN..8d..8d.I........*!.....p.....
+
+v..
+v..229 Entering extended passive mode (|||42345|).
+
+18:23:03.484321 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [P.], seq 50:58, ack 169, win 512, options [nop,nop,TS val 175541219 ecr 175541219], length 8
+E..<..@.@.....8d..8d...I..*!.........G.....
+
+v..
+v..TYPE I
+
+18:23:03.484469 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [P.], seq 169:195, ack 58, win 512, options [nop,nop,TS val 175541219 ecr 175541219], length 26
+E..N.,@.@.Pd..8d..8d.I........*).....Y.....
+
+v..
+v..200 Type set to: Binary.
+
+18:23:03.484582 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [P.], seq 58:77, ack 195, win 512, options [nop,nop,TS val 175541220 ecr 175541219], length 19
+E..G..@.@.....8d..8d...I..*).........R.....
+
+v..
+v..SIZE clannad.webp
+
+18:23:03.510929 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [P.], seq 195:207, ack 77, win 512, options [nop,nop,TS val 175541246 ecr 175541220], length 12
+E..@.-@.@.Pq..8d..8d.I........*<.....K.....
+
+v..
+v..213 262796
+
+18:23:03.511168 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [P.], seq 77:96, ack 207, win 512, options [nop,nop,TS val 175541246 ecr 175541246], length 19
+E..G..@.@.....8d..8d...I..*<.........R.....
+
+v..
+v..RETR clannad.webp
+
+18:23:03.526367 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [P.], seq 207:261, ack 96, win 512, options [nop,nop,TS val 175541261 ecr 175541246], length 54
+E..j..@.@.PF..8d..8d.I........*O.....u.....
+
+v.
+v..125 Data connection already open. Transfer starting.
+
+18:23:03.529361 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [P.], seq 261:285, ack 96, win 512, options [nop,nop,TS val 175541264 ecr 175541246], length 24
+E..L./@.@.Pc..8d..8d.I.....3..*O.....W.....
+
+v..
+v..226 Transfer complete.
+
+18:23:03.529466 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [.], ack 285, win 512, options [nop,nop,TS val 175541264 ecr 175541261], length 0
+E..4..@.@.....8d..8d...I..*O...K.....?.....
+
+v..
+v.
+18:23:03.529686 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [P.], seq 96:102, ack 285, win 512, options [nop,nop,TS val 175541265 ecr 175541261], length 6
+E..:..@.@.....8d..8d...I..*O...K.....E.....
+
+v..
+v..QUIT
+
+18:23:03.529870 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [P.], seq 285:299, ack 102, win 512, options [nop,nop,TS val 175541265 ecr 175541265], length 14
+E..B.0@.@.Pl..8d..8d.I.....K..*U.....M.....
+
+v..
+v..221 Goodbye.
+
+18:23:03.530001 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [F.], seq 102, ack 299, win 512, options [nop,nop,TS val 175541265 ecr 175541265], length 0
+E..4..@.@.....8d..8d...I..*U...Y.....?.....
+
+v..
+v..
+18:23:03.530071 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [F.], seq 299, ack 103, win 512, options [nop,nop,TS val 175541265 ecr 175541265], length 0
+E..4.1@.@.Py..8d..8d.I.....Y..*V.....?.....
+
+v..
+v..
+18:23:03.530097 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [.], ack 300, win 512, options [nop,nop,TS val 175541265 ecr 175541265], length 0
+E..4..@.@.....8d..8d...I..*V...Z.....?.....
+
+v..
+v..

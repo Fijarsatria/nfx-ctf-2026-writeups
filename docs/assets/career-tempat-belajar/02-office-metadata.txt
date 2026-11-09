@@ -1,0 +1,35 @@
+== file ==
+osint/office.png: PNG image data, 1824 x 2346, 8-bit/color RGB, non-interlaced
+
+== sha256 ==
+f531e041cff71d858f2215ee97bcb2dd40429cf35e3264818c0fde676e2621f9  osint/office.png
+
+== exiftool ==
+ExifTool Version Number         : 12.76
+File Name                       : office.png
+Directory                       : osint
+File Size                       : 3.2 MB
+File Modification Date/Time     : 2026:11:07 12:32:23+07:00
+File Access Date/Time           : 2026:11:07 18:37:44+07:00
+File Inode Change Date/Time     : 2026:11:07 18:35:53+07:00
+File Permissions                : -rw-r--r--
+File Type                       : PNG
+File Type Extension             : png
+MIME Type                       : image/png
+Image Width                     : 1824
+Image Height                    : 2346
+Bit Depth                       : 8
+Color Type                      : RGB
+Compression                     : Deflate/Inflate
+Filter                          : Adaptive
+Interlace                       : Noninterlaced
+Author                          : Kada
+Comment                         : 3%4TD'aPBA*Z,QPN
+Title                           : Dih Office
+Image Size                      : 1824x2346
+Megapixels                      : 4.3
+
+== PNG tEXt chunks ==
+tEXt b'Author\x00Kada'
+tEXt b"Comment\x003%4TD'aPBA*Z,QPN"
+tEXt b'Title\x00Dih Office'

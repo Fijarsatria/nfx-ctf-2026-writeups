@@ -1,0 +1,21 @@
+Reddit pivot — terdokumentasi dari pencarian publik
+====================================================
+Subreddit : r/PublicFreakout
+Post title: "Shop owner saves woman's life from wall of dust on 9/11"
+Posted by : u/PigParkerPt2
+Date      : September 11, 2021 22:13 UTC
+Score     : 72.326 points, 2.821 comments (snapshot pencarian)
+Video URL : https://v.redd.it/tf2es5z87ym71
+Post URL  : https://www.reddit.com/r/PublicFreakout/comments/pmgkqi/shop_owner_saves_womans_life_from_wall_of_dust_on/
+
+Kutipan berita yang memuat atribusi:
+- La Opinión (12 Sep 2021): "El impresionante video fue compartido por
+  u/PigParkerPt2 en la red social Reddit..."
+  https://laopinion.com/2021/09/12/video-inedito-del-9-11-miren-los-escombros-hombre-salva-a-mujer-de-nube-de-polvo-tras-caida-de-torres-gemelas/
+- El Diario NY (12 Sep 2021): "El aterrador video fue compartido por
+  u/PigParkerPt2 en Reddit..."
+  https://eldiariony.com/2021/09/12/video-inedito-del-9-11-capta-a-dueno-de-tienda-salvando-a-mujer-de-nube-de-polvo/
+
+Catatan: Reddit memblokir akses langsung dari environment ini (403/network
+policy). Judul, username, dan URL di atas terverifikasi lewat hasil pencarian
+publik dan dua artikel berita yang mengutip unggahan tersebut.

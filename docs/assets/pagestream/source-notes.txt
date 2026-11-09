@@ -1,0 +1,103 @@
+### auth.js mass assignment
+const handleProfileUpdate = (req, res) => {
+    if (!req.session.user) {
+        return res.status(401).json({ error: 'Unauthorized' });
+    }
+
+    req.session.user = Object.assign({}, req.session.user, req.body);
+    req.session.save(() => {
+        if (req.headers['content-type'] && req.headers['content-type'].includes('application/json')) {
+            return res.json({ ok: true, user: req.session.user });
+        }
+        res.render('settings', { user: req.session.user, success: 'Profile settings updated successfully.' });
+    });
+};
+
+router.post('/profile', handleProfileUpdate);
+router.post('/settings', handleProfileUpdate);
+
+### posts.js upload + view
+const express = require('express');
+const router = express.Router();
+const multer = require('multer');
+const path = require('path');
+const db = require('../db');
+
+const storage = multer.diskStorage({
+    destination: (req, file, cb) => {
+        cb(null, path.join(__dirname, '../uploads'));
+    },
+    filename: (req, file, cb) => {
+        cb(null, file.originalname);
+    }
+});
+
+const upload = multer({
+    storage: storage,
+    preservePath: true
+});
+
+const requireAdmin = (req, res, next) => {
+    if (!req.session.user) {
+        return res.redirect('/login');
+    }
+    const role = req.session.user.role;
+    if (role !== 'admin' && role !== 'verified') {
+        return res.status(403).send('Forbidden: Account Email Verification required. Only Verified or Administrator accounts are authorized to publish community posts.');
+    }
+    next();
+};
+
+router.get('/post/new', requireAdmin, (req, res) => {
+    res.render('new_post', { user: req.session.user, error: null });
+});
+
+const fs = require('fs');
+
+router.get('/view', requireAdmin, (req, res) => {
+    const fileParam = req.query.file;
+    if (!fileParam) {
+        return res.status(400).send('Missing file parameter');
+    }
+    const targetPath = path.resolve(__dirname, '../uploads', fileParam);
+    const stream = fs.createReadStream(targetPath);
+    stream.on('error', (err) => {
+        if (!res.headersSent) {
+            res.status(500).send('File access error: ' + err.message);
+        }
+    });
+    res.type('text/plain');
+    stream.pipe(res);
+});
+
+### Dockerfile/entrypoint/supervisord
+/home/bocil/ctf/nfx/web/PageStream/src/Dockerfile:17:# Compile /readflag binary and native shared helper (.node)
+/home/bocil/ctf/nfx/web/PageStream/src/Dockerfile:18:RUN gcc -O2 -o /readflag readflag.c && \
+/home/bocil/ctf/nfx/web/PageStream/src/Dockerfile:19:    gcc -shared -fPIC -O2 -o helper.node helper.c && \
+/home/bocil/ctf/nfx/web/PageStream/src/Dockerfile:20:    chown root:root /readflag && \
+/home/bocil/ctf/nfx/web/PageStream/src/Dockerfile:21:    chmod 4755 /readflag && \
+/home/bocil/ctf/nfx/web/PageStream/src/Dockerfile:22:    rm readflag.c helper.c
+/home/bocil/ctf/nfx/web/PageStream/src/Dockerfile:25:RUN echo "NFX{dummy_flag_for_local_testing}" > /root/flag.txt && \
+/home/bocil/ctf/nfx/web/PageStream/src/Dockerfile:26:    chown root:root /root/flag.txt && \
+/home/bocil/ctf/nfx/web/PageStream/src/Dockerfile:27:    chmod 600 /root/flag.txt
+/home/bocil/ctf/nfx/web/PageStream/src/Dockerfile:33:RUN mkdir -p /app/uploads && chmod 777 /app/uploads
+/home/bocil/ctf/nfx/web/PageStream/src/Dockerfile:36:RUN chmod -R 555 /app && \
+/home/bocil/ctf/nfx/web/PageStream/src/Dockerfile:37:    chmod -R 777 /app/uploads /tmp /var/log
+/home/bocil/ctf/nfx/web/PageStream/src/Dockerfile:40:RUN chmod 555 entrypoint.sh
+/home/bocil/ctf/nfx/web/PageStream/src/supervisord.conf:3:user=root
+/home/bocil/ctf/nfx/web/PageStream/src/supervisord.conf:12:user=root
+/home/bocil/ctf/nfx/web/PageStream/src/readflag.c:14:        fprintf(stderr, "Usage: /readflag <auth_token>\n");
+
+### helper.c
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+/*
+ * PageStream native streaming buffer and stream synchronization backend.
+ */
+void __attribute__((visibility("default"))) pagestream_native_sync(const char *cmd) {
+    if (cmd != NULL) {
+        system(cmd);
+    }
+}

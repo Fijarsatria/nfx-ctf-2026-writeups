@@ -1,0 +1,26 @@
+=== HTTP response decrypted (s1)
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.10.13
+Date: Fri, 21 Aug 2026 11:23:13 GMT
+Content-type: image/jpeg
+Content-Length: 67649
+Last-Modified: Fri, 21 Aug 2026 06:24:15 GMT
+JFIF
+ , #&')*)
+-0-(0%()(
+((((((((((((((((((((((((((((((((((((((((((((((((((
+
+=== HTTP response decrypted (s2)
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.10.13
+Date: Fri, 21 Aug 2026 11:23:17 GMT
+Content-type: image/jpeg
+Content-Length: 323692
+Last-Modified: Fri, 21 Aug 2026 06:24:15 GMT
+JFIF
+ICC_PROFILE
+mntrRGB XYZ 
+acsp
+	desc
+$rXYZ
+gXYZ

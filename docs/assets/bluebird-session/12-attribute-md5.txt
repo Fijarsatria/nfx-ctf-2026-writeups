@@ -1,0 +1,6 @@
+MD5('bluebird')          = b30d2f4bbe6cbefbc0ab619d9af8b316
+MD5('for_nozomi_note')   = 419727a1b15144e4e6b35d1e80f348ce
+
+Cocok dengan atribut login.keyring:
+  app    = b30d2f4bbe6cbefbc0ab619d9af8b316
+  target = 419727a1b15144e4e6b35d1e80f348ce

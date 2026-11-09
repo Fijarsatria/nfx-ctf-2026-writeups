@@ -1,0 +1,75 @@
+== git log --all --oneline --stat ==
+c00a353 feat : change decrypt service.go
+ internal/service/decrypt_service.go | 39 +++++++++++++++++++++++++++++++++++++
+ 1 file changed, 39 insertions(+)
+1433bb3 feat : add decrypt_service.go
+ internal/service/decrypt_service.go | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+4fe9d80 feat : add decrypt_api.go
+ internal/api/decrypt_api.go | 47 +++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 47 insertions(+)
+d7909fd feat : remove config in .env.example
+ .env.example | 2 --
+ 1 file changed, 2 deletions(-)
+43de7b7 feat : add .gitignore
+ .gitignore | 2 ++
+ 1 file changed, 2 insertions(+)
+ea765a9 chore : deleted .env
+ .env | 5 -----
+ 1 file changed, 5 deletions(-)
+62d5640 feat : add main.go
+ go.sum  | 56 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ main.go | 27 +++++++++++++++++++++++++++
+ 2 files changed, 83 insertions(+)
+df34505 add .env
+ .env         | 5 +++++
+ .env.example | 4 ++++
+ 2 files changed, 9 insertions(+)
+7d821ca feat : add internal
+ internal/api/encrypt_api.go         | 47 +++++++++++++++++++++++++++++++++++++
+ internal/config/loader.go           | 22 +++++++++++++++++
+ internal/config/model.go            | 11 +++++++++
+ internal/service/encrypt_service.go | 39 ++++++++++++++++++++++++++++++
+ 4 files changed, 119 insertions(+)
+562afdc add dto
+ dto/encrypt_dto.go | 11 +++++++++++
+ dto/response.go    | 45 +++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 56 insertions(+)
+44dbfab feat : add domain
+ domain/encrypt_xor_domain.go | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+
+== branches/tags ==
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+
+== git show df34505:.env ==
+SERVER_HOST=localhost
+SERVER_PORT=3002
+
+
+NFX{OS1NT_DU4R_D34_D0R}
+== git show 62d5640:.env.example ==
+SERVER_HOST=
+SERVER_PORT=
+
+NFX{OS1NT_DU4R_D34_D0R}
+== commit ea765a9 ==
+commit ea765a9c0925f132ea6db85f7c556f44c9cd8e3d
+Author: PigParkerPt2 <whoiami7869@gmail.com>
+Date:   Sun Nov 1 22:46:50 2026 +0700
+
+    chore : deleted .env
+
+ .env | 5 -----
+ 1 file changed, 5 deletions(-)
+
+== HEAD files ==
+f637caceb2df55c0cb8fa8e30b54300b83165dfce482e4c3b81bfa6bf39b85c1  ./.gitignore
+221a347f79b3f5f9c847e3f2ce21454f9c21537dd829474707f3567d64fbc231  ./go.sum
+6fb9757a65436c75c097d02fc79709fb18eff9ed7a6fcb5d68e96e0b63d2e2ab  ./domain/encrypt_xor_domain.go
+e53bc6c56ebe1dd61534d8ce08ab748d65b4a3d9c48bdd98375f959e1d54fc97  ./dto/encrypt_dto.go
+d4c79ee9077b8d3b44de4292e1502f1b94ba309a306c40c2bcc221d1a68c0abe  ./dto/response.go
+80f3aad671874195bafc98604e5b15f54be93413ed1e65c355b9cbfe728ef59d  ./.env.example
+61b5a1d1b62d2ac8579d72f6eb25a09b7e9ce1444692a9ac6df05c644e48155c  ./main.go

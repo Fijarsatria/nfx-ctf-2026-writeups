@@ -1,0 +1,34 @@
+{
+  "browser": {
+    "last_whats_new_version": 138
+  },
+  "os_crypt": {
+    "audit_enabled": true,
+    "encrypted_key": "RFBBUEmk5kiTGCMtGDuTQyNxMvzl99cr96fIpe02niGuCDlcG5fO7YxzDYoiP8rG4IfTDCj9hyWsaCa3LX878rBtByUqJ7rISg6AtDl/Zhu4TRdWdA=="
+  },
+  "profile": {
+    "info_cache": {
+      "Default": {
+        "active_time": 1742029920,
+        "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
+        "background_apps": false,
+        "default_avatar_fill_color": -14737376,
+        "default_avatar_stroke_color": -3684409,
+        "is_using_default_avatar": false,
+        "is_using_default_name": false,
+        "name": "Noah Fox",
+        "user_name": "n.fox@nfx-aero.example"
+      }
+    },
+    "last_active_profiles": [
+      "Default"
+    ],
+    "profiles_order": [
+      "Default"
+    ]
+  },
+  "user_experience_metrics": {
+    "client_id2": "74fa371d-5d5e-4ec6-9d43-02b5b3d84975",
+    "client_id_timestamp": "1738459800"
+  }
+}

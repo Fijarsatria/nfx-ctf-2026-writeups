@@ -1,0 +1,15 @@
+NFXCTF Convention layout (non-PIE? no: PIE, canary, Full RELRO)
+player @ 0x4060 (BSS)
+  +0x00 char name[64]
+  +0x40 int  score
+  +0x44 int  rank
+  +0x48 char *quote
+log_buf @ 0x40c0
+
+register_user: read(0, player, 0x3f); strcspn(...)=0
+edit_name:     if (rank > 4) { fgets(stackbuf,0x80); strcpy(player, stackbuf); }
+               stackbuf is rbp-0x90, player is global -> overflow score+rank.
+leave_feedback: if (rank > 19) { read(0, rbp-0x70, 0x100);
+                  snprintf(log_buf,0x100,"%s",buf); }
+               buffer 0x70, canary at rbp-8 -> 104 bytes to canary.
+view_profile:  printf(log_buf)  (format string)

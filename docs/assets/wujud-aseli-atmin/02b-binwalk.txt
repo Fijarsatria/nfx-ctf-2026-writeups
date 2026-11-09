@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/usr/bin/binwalk", line 2, in <module>
+    from binwalk.__main__ import main
+  File "/usr/lib/python3/dist-packages/binwalk/__main__.py", line 24, in <module>
+    import binwalk.modules
+  File "/usr/lib/python3/dist-packages/binwalk/modules/__init__.py", line 3, in <module>
+    from binwalk.modules.disasm import Disasm
+  File "/usr/lib/python3/dist-packages/binwalk/modules/disasm.py", line 21, in <module>
+    class Disasm(Module):
+  File "/usr/lib/python3/dist-packages/binwalk/modules/disasm.py", line 60, in Disasm
+    Architecture(type=capstone.CS_ARCH_ARM64,
+                      ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'capstone' has no attribute 'CS_ARCH_ARM64'. Did you mean: 'CS_ARCH_ARM'?

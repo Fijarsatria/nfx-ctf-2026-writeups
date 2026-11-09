@@ -1,0 +1,56 @@
+##### token=x
+HTTP/1.1 200 OK
+Server: gunicorn
+Date: Sun, 08 Nov 2026 01:27:27 GMT
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Content-Length: 3801
+Vary: Cookie
+
+<!DOCTYPE html>
+<html lang="en">
+40:        <div class="alert-error">Invalid or expired reset token.</div>
+45:                <label for="token">Reset Token</label>
+46:                <input type="text" id="token" name="token" value="x" placeholder="Paste reset token here" required>
+##### token=test
+HTTP/1.1 200 OK
+Server: gunicorn
+Date: Sun, 08 Nov 2026 01:27:27 GMT
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Content-Length: 3804
+Vary: Cookie
+
+<!DOCTYPE html>
+<html lang="en">
+40:        <div class="alert-error">Invalid or expired reset token.</div>
+45:                <label for="token">Reset Token</label>
+46:                <input type="text" id="token" name="token" value="test" placeholder="Paste reset token here" required>
+##### token=123456
+HTTP/1.1 200 OK
+Server: gunicorn
+Date: Sun, 08 Nov 2026 01:27:27 GMT
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Content-Length: 3806
+Vary: Cookie
+
+<!DOCTYPE html>
+<html lang="en">
+40:        <div class="alert-error">Invalid or expired reset token.</div>
+45:                <label for="token">Reset Token</label>
+46:                <input type="text" id="token" name="token" value="123456" placeholder="Paste reset token here" required>
+##### token=admin
+HTTP/1.1 200 OK
+Server: gunicorn
+Date: Sun, 08 Nov 2026 01:27:28 GMT
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Content-Length: 3805
+Vary: Cookie
+
+<!DOCTYPE html>
+<html lang="en">
+40:        <div class="alert-error">Invalid or expired reset token.</div>
+45:                <label for="token">Reset Token</label>
+46:                <input type="text" id="token" name="token" value="admin" placeholder="Paste reset token here" required>

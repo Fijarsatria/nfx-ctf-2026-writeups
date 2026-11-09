@@ -1,0 +1,35 @@
+
+reverse/Hard_03_Castaway/castaway:     file format elf64-x86-64
+
+Contents of section .rodata:
+ 2000 01000200 00000000 00000000 00000000  ................
+ 2010 00000000 00000000 00000000 00000000  ................
+ 2020 0addef13 168cfbf9 2208b971 039d27c3  ........"..q..'.
+ 2030 a4ad8104 0f025bcd 84979e5f 8b5a52d0  ......[...._.ZR.
+ 2040 df5dc136 4f42a272 d1659bd7 46b01da5  .].6OB.r.e..F...
+ 2050 95557a78 4acea67e db961b43 151aff94  .UzxJ..~...C....
+ 2060 91da796c 0ec79377 ba701814 6482f1bf  ..yl...w.p..d...
+ 2070 0c3c3526 5601f2cb b454f6d9 fd324b86  .<5&V....T...2K.
+ 2080 5eb57b28 aae7ab1c 50873709 11202421  ^.{(....P.7.. $!
+ 2090 e58a2553 cf679cec 0060ee6e 2ce6ea57  ..%S.g...`.n,..W
+ 20a0 ac473da3 59123e40 a91076a0 cc41f0f7  .G=.Y.>@..v..A..
+ 20b0 f39fa85c 34b6e3b8 8d39d4d3 619a2ade  ...\4....9..a.*.
+ 20c0 5807dcf8 fc06eb66 a1482b3a 904dae51  X......f.H+:.M.Q
+ 20d0 e8883bd5 68fe8ff4 b292c8d8 806f63fa  ..;.h........oc.
+ 20e0 314ee149 198e050b 6bc5bcc0 ca1e2983  1N.I....k.....).
+ 20f0 697f74c9 d27c85e0 7517f533 306d45af  i.t..|..u..30mE.
+ 2100 b12de9c6 6abe7399 44d6b7bb 892e3f62  .-..j.s.D.....?b
+ 2110 bdc20d2f 23b3a7c4 ed4ce438 7de2981f  .../#....L.8}...
+ 2120 dc5ac5d4 1cd2bb6b 825c9af1 d19676bd  .Z.....k.\....v.
+ 2130 00000000 00000000 00000000 00000000  ................
+ 2140 d554ada8 41e3e679 f6bf13d0 1d319dd7  .T..A..y.....1..
+ 2150 2db7cd6e a9c8e8a4 957bcacb b55f16f0  -..n.....{..._..
+ 2160 362681c3 2cfb9b74 666c6167 3e20000d  6&..,..tflag> ..
+ 2170 0a004e6f 70652e00 41636365 73732067  ..Nope..Access g
+ 2180 72616e74 65642e00                    ranted..        
+
+
+reverse/Hard_03_Castaway/castaway:     file format elf64-x86-64
+
+Contents of section .data:
+ 4000 00000000 00000000 08400000 00000000  .........@......

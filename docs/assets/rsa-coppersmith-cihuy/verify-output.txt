@@ -1,0 +1,5 @@
+p == p_msb*2^212 + x : True
+unknown x bits       : 208
+N % p == 0           : True
+p bits / q bits      : 512 512
+plaintext (stripped) : NFXCTF{C0pp3rsm1th_p4rt14l_k3y_3xp0sur3_9617eda9}

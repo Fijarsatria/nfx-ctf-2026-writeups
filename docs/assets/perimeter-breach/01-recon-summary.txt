@@ -1,0 +1,25 @@
+=== file / hash
+access.log: ASCII text
+auth.log:   ASCII text
+webapp.log: ASCII text
+9791a7b100360d6eb286df1ec47a658904f56f3c6e281439c9d017d663d5daa3  access.log
+4c1dfdd0a3deea705cc71655bf7a4b0c1882864a4587991648a3ebb1118d6da0  auth.log
+4f50447044108489f5cfa0337ad5b5415f630da3a8b75a95d4ffdc906ce0ca21  webapp.log
+
+=== line count
+   6254 access.log
+    952 auth.log
+     63 webapp.log
+   7269 total
+
+=== top source IP
+    183 185.220.101.47
+      8 45.155.205.233
+      3 36.80.14.22
+      1 36.98.88.68
+      1 36.98.149.97
+      1 36.98.123.216
+      1 36.97.68.173
+      1 36.97.118.167
+      1 36.96.46.138
+      1 36.96.160.26

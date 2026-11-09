@@ -1,0 +1,70 @@
+===== Console: runtime + protocol (t23.html) =====
+          </div>
+          <div>
+            <dt>Transport</dt>
+            <dd>Framed TCP</dd>
+          </div>
+          <div>
+            <dt>Endpoint</dt>
+            <dd>10.10.20.23:3000</dd>
+          </div>
+          <div>
+            <dt>Decoder</dt>
+            <dd>Brotli / worker</dd>
+          </div>
+        </dl>
+      </div>
+        </div>
+        <span class="panel-tag">v1.4</span>
+      </div>
+
+      <div class="protocol-grid">
+        <div class="protocol-copy">
+          <p>
+            Every message is length-prefixed with a 32-bit unsigned integer in
+            network byte order. An empty frame is a liveness probe and returns
+            <code>PONG</code>. A non-empty frame is written to the Brotli
+            decoder; the first accepted frame returns <code>ACK</code>.
+          </p>
+          <div class="code-block">
+            <div class="code-row"><span>frame</span><code>[ length : u32be ][ body : bytes ]</code></div>
+            <div class="code-row"><span>probe</span><code>00 00 00 00</code></div>
+            <div class="code-row"><span>ack</span><code>ACK\n</code></div>
+            <div class="code-row"><span>error</span><code>ERR PROTOCOL\n</code></div>
+          </div>
+        </div>
+
+        <div class="protocol-side">
+
+===== Console: service mesh (t23.html) =====
+          <h2>Service mesh</h2>
+        </div>
+        <button class="btn ghost small" id="check-services" type="button">Check services</button>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card" data-service="ingest">
+          <div class="service-head">
+            <span class="service-name">Record Transform</span>
+            <span class="service-port">:3000</span>
+          </div>
+          <span class="service-status">idle</span>
+          <p class="service-detail">Brotli worker ingest endpoint.</p>
+        </article>
+        <article class="service-card" data-service="ssh">
+          <div class="service-head">
+            <span class="service-name">Ops SSH</span>
+            <span class="service-port">:22</span>
+          </div>
+          <span class="service-status">idle</span>
+          <p class="service-detail">Maintenance shell for the ops group.</p>
+        </article>
+        <article class="service-card" data-service="spooler">
+          <div class="service-head">
+            <span class="service-name">Spool API</span>
+            <span class="service-port">:9090</span>
+          </div>
+          <span class="service-status">idle</span>
+          <p class="service-detail">Queue health and archive status.</p>
+        </article>
+        <article class="service-card" data-service="console">

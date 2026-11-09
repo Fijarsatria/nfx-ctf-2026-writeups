@@ -1,0 +1,21 @@
+# The Alchemist's Sandbox — Flag & Verifikasi
+
+[← Overview](32-the-alchemists-sandbox.md) · [Index](index.md)
+
+```text
+NFXCTF{pyj41l_4st_4lch3my_vm_pwn_d84f216a}
+```
+
+Verifikasi:
+
+- Payload lolos `verify_ast` (tanpa angka/kutip, tanpa node terlarang).
+- `run_sandbox(PAYLOAD)` mengembalikan `_VAULT_STATE` yang sama.
+- Hasil dekripsi 42 byte.
+- `_encrypt_vault(flag) == _VAULT_STATE` (round-trip PASS).
+- Flag sama dengan `flags/wave2/The_Alchemists_Sandbox.txt`.
+
+## Flag
+
+`NFXCTF{pyj41l_4st_4lch3my_vm_pwn_d84f216a}`
+
+**Status:** `VERIFIED`

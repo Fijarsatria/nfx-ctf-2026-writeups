@@ -1,0 +1,4 @@
+flag_file : /home/bocil/ctf/nfx/flags/pwn/PipaNuKotor.txt
+flag      : NFX{Si44aTehKuduSadarDip4lakSave3Jari1}
+sha256    : bc034ff5ff99e6edb4c5ee1988345166f246ec01aa1ba8051969fe249ead2041  /home/bocil/ctf/nfx/flags/pwn/PipaNuKotor.txt
+status    : VERIFIED platform (writeups/FLAGS.md)

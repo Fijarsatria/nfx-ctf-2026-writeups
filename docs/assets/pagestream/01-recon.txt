@@ -1,0 +1,6 @@
+=== GET /health ===
+
+
+=== GET / ===
+
+=== GET /dashboard unauth ===

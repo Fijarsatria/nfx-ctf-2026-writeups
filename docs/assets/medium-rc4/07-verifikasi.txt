@@ -1,0 +1,10 @@
+$ ./reverse/Medium_01_RC4/medium_rc4 'NFX{wrong}'
+Wrong!
+rc=1
+
+$ ./reverse/Medium_01_RC4/medium_rc4 'NFX{rc4_1s_s1mpl3_but_d34dly_1n_r3v3rs1ng}'
+Correct! RC4 memang simetris.
+rc=0
+
+$ sha256sum reverse/Medium_01_RC4/medium_rc4
+cc8b962d1501755603febfb884c5c49b42d9814aff165ed21d9cc81cda71d0f1  reverse/Medium_01_RC4/medium_rc4

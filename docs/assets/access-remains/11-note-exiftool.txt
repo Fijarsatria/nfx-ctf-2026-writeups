@@ -1,0 +1,48 @@
+=== exiftool kumiko03
+ExifTool Version Number         : 12.76
+File Name                       : 07-kumiko03.jpg
+Directory                       : .
+File Size                       : 311 kB
+File Modification Date/Time     : 2026:11:08 08:25:29+07:00
+File Access Date/Time           : 2026:11:08 08:26:40+07:00
+File Inode Change Date/Time     : 2026:11:08 08:25:29+07:00
+File Permissions                : -rw-rw-r--
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+JFIF Version                    : 1.01
+Resolution Unit                 : None
+X Resolution                    : 1
+Y Resolution                    : 1
+Profile CMM Type                : 
+Profile Version                 : 4.3.0
+Profile Class                   : Display Device Profile
+Color Space Data                : RGB
+Profile Connection Space        : XYZ
+Profile Date Time               : 2016:01:01 00:00:00
+Profile File Signature          : acsp
+Primary Platform                : Unknown ()
+CMM Flags                       : Not Embedded, Independent
+Device Manufacturer             : 
+
+=== note
+Ariaf said this archive only contained photos of Kumiko.
+
+There was no report, no document, and no obvious message.
+Only a few pictures, preserved like quiet memories from a performance
+that had already ended.
+
+But some sounds do not disappear completely.
+
+Even if the sound fades, the truth still resonates somewhere.
+
+It may no longer be heard by the ear,
+but it can still be found by those willing to look carefully.
+
+A photograph can hold more than a face.
+A memory can carry more than a feeling.
+And sometimes, what remains is not written in plain sight.
+
+Among these images, one still carries the echo.
+
+Find the one that remembers.

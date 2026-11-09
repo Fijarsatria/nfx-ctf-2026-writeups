@@ -1,0 +1,25 @@
+sample rate           : 44100
+shape                 : (5296128, 2) (int16)
+duration              : 120.094 s
+channels identical    : True
+STFT                  : (1025, 10321), band 11520-19488 Hz
+STFT time span        : 0.023-29.977 s (relative to residual)
+saved                 : /home/bocil/ctf/nfx/writeups/assets/frekuensi-sunyi/01-spectrogram-repro.png
+manual transcription  : ASK{o0fP4_Pr01Y}
+ROT13                 : NFX{b0sC4_Ce01L}
+=== hashes / file ===
+22746242af986a2b70a9f84774ba996eeb2ea6bff3fdba3716f3ab7e26acc166  /home/bocil/ctf/nfx/work/event/misc/frekuensi-sunyi/rekaman_lobi.wav
+/home/bocil/ctf/nfx/work/event/misc/frekuensi-sunyi/rekaman_lobi.wav: RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, stereo 44100 Hz
+=== provided clean spectrogram ===
+NFX{b0sC4_Ce01L}
+=== RIFF chunks ===
+header b'RIFF' b'WAVE'
+fmt  16
+data 21184512
+trailing bytes after chunks: 0
+=== lag correlation (first 2,000,000 samples) ===
+2266000 0.25265241749536127
+2267000 0.22103063442822352
+2268000 0.8322302575660112
+2269000 0.21341940220701375
+2270000 0.24863627046892123

@@ -1,0 +1,37 @@
+Local reproduction of Node 24.14.0 permission-tree behavior
+============================================================
+
+Environment: node-v24.14.0-linux-x64 (downloaded from nodejs.org)
+Test dir:    /tmp/opencode/ngtest
+
+Setup:
+  mkdir -p data
+  echo '{"shard":1}' > data/bot1.json
+  echo '{"shard":2}' > data/bot2.json
+  echo '{"shard":3}' > data/bot3.json
+  printf 'deadbeefcafebabe' > data/bot
+
+Command (three allow-list entries — same as NexusGate):
+  NX_TARGET=/tmp/opencode/ngtest/data/bot \
+  node --permission \
+       --allow-fs-read=/tmp/opencode/ngtest/data/bot1.json \
+       --allow-fs-read=/tmp/opencode/ngtest/data/bot2.json \
+       --allow-fs-read=/tmp/opencode/ngtest/data/bot3.json \
+       -e 'try{console.log(require("fs").readFileSync(process.env.NX_TARGET,"utf8"))}catch(e){console.log("ERR:"+e.code)}'
+
+Output:
+  deadbeefcafebabe
+
+Control: with only ONE allow-list entry (bot1.json), the same read is denied:
+  ERR:ERR_ACCESS_DENIED
+
+Additional probes with all three entries:
+  /tmp/opencode/ngtest/data/bot    -> deadbeefcafebabe
+  /tmp/opencode/ngtest/data/bo     -> ERR:ERR_ACCESS_DENIED
+  /tmp/opencode/ngtest/data/bot1   -> ERR:ERR_ACCESS_DENIED
+  /tmp/opencode/ngtest/data/bot1.json -> {"shard":1}
+  /tmp/opencode/ngtest/data/botX   -> ERR:ERR_ACCESS_DENIED
+
+Conclusion: the common prefix of the three allowed files (/app/data/bot)
+becomes readable as a permission-tree node in Node 24.14.0. This is the same
+behavior observed on the live NexusGate instance.

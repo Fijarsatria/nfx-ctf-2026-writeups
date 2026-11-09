@@ -1,0 +1,25 @@
+NFX CTF 2026 — Record Keeper (User)
+Target: 10.10.20.23 (accessed from bastion 10.10.20.10)
+Primary source: flags/b2r/NexusRecordTransform.NOTES.md, /tmp/opencode/t23.html
+
+[REKONSTRUKSI] Triage awal:
+    nmap -Pn -sV -p- --min-rate 2000 10.10.20.23
+    curl -sS -i http://10.10.20.23:8080/
+    printf '\x00\x00\x00\x00' | nc 10.10.20.23 3000
+
+Service yang terdokumentasi:
+  - :8080  console "Nexus Record Transform" (diagnostic surface)
+  - :3000  framed-TCP Brotli record transform (Node.js 24.9.0)
+  - :22    OpenSSH (ops maintenance shell)
+  - :9090  spool API (queue health / archive status)
+
+Protokol dari halaman console (t23.html):
+    frame   = [ length : u32be ][ body : bytes ]
+    probe   = 00 00 00 00        -> PONG
+    non-empty body               -> ACK / ERR PROTOCOL
+    record  = 0x330 bytes (fixed-size normalized output)
+    runtime = Node.js 24.9.0, Brotli / worker, internal only, no auth layer
+
+Contoh dari console:
+    $ printf '\x00\x00\x00\x00' | nc 127.0.0.1 3000
+    PONG

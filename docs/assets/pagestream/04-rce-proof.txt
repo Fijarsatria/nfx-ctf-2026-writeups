@@ -1,0 +1,9 @@
+upload overwrite dashboard.ejs: 302 /dashboard
+GET /dashboard -> 200
+uid=0(root) gid=0(root) groups=0(root)
+---KEY---
+4da4b2091f8dca166bd4ad4dc0cc6d2d---FLAG---
+NFX{f3w_n_d4y_ch41ns_f0r_w3b_pwn_1s_n0t_th4t_h4rd_7734a1}
+
+
+FLAG=NFX{f3w_n_d4y_ch41ns_f0r_w3b_pwn_1s_n0t_th4t_h4rd_7734a1}

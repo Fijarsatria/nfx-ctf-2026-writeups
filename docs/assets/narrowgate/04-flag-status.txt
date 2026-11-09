@@ -1,0 +1,4 @@
+flag_file : /home/bocil/ctf/nfx/flags/pwn/NarrowGate.txt
+flag      : NFX{ex3cve_d3ni3d_but_0pen_r34d_writ3_s4v3d_th3_day}
+sha256    : d1ca0211d05240300be9d7d55230344de3832db8e9339acca5a23fcdad41de31  /home/bocil/ctf/nfx/flags/pwn/NarrowGate.txt
+status    : VERIFIED platform (writeups/FLAGS.md)

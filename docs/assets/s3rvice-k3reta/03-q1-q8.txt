@@ -1,0 +1,16 @@
+Q&A S3rvice K3reta — jawaban yang sudah diketahui (dari sesi Q&A sebelumnya)
+============================================================================
+Q1 Penyebab kejadian                : longsor (tanah longsor tebingan rel)
+Q2 Kilometer                        : 45+4/5 (piket 400-500)
+Q3 Petak / antar stasiun            : Cilebut - Bojong Gede
+Q4 Tanggal kejadian                 : 21/11/2012
+Q5 Jumlah perjalanan dibatalkan     : 98
+Q6 Panjang rel amblas/menggantung   : 200 M
+Q7 Alat berat / excavator rel       : Atlas
+Q8 Nomor kereta / rangkaian terkait : 6007
+Q9 Nama akun media sosial abang drone: OPEN (pola xxxxx_xxxx)
+
+Catatan: Q1-Q6 punya sumber publik kuat (lihat 04-sumber-berita.md).
+Q7 dan Q8 berasal dari sesi Q&A yang sudah dijawab benar; padanan sumber
+publiknya bersifat tentatif (Atlas = excavator rel; 6007 = KuMoHa 6007 /
+rangkaian KRL khusus wanita yang dipakai uji coba 26 Nov 2012).

@@ -1,0 +1,30 @@
+=== file / hash
+capture.pcapng: pcap capture file, microsecond ts (little-endian) - version 2.4 (Linux cooked v2, capture length 262144)
+de2f31ef3b6a57f63f65a31edfb20e455afd6030fa8b9040003268126be76562  capture.pcapng
+
+=== tcpdump summary
+18:22:56.345267 lo    In  IP 192.168.56.100 > 192.168.56.100: ICMP echo request, id 12, seq 1, length 64
+18:22:56.345279 lo    In  IP 192.168.56.100 > 192.168.56.100: ICMP echo reply, id 12, seq 1, length 64
+18:22:57.398545 lo    In  IP 192.168.56.100 > 192.168.56.100: ICMP echo request, id 12, seq 2, length 64
+18:22:57.398561 lo    In  IP 192.168.56.100 > 192.168.56.100: ICMP echo reply, id 12, seq 2, length 64
+18:22:58.404286 lo    In  IP 192.168.56.100 > 192.168.56.100: ICMP echo request, id 12, seq 3, length 64
+18:22:58.404302 lo    In  IP 192.168.56.100 > 192.168.56.100: ICMP echo reply, id 12, seq 3, length 64
+18:22:59.428897 lo    In  IP 192.168.56.100 > 192.168.56.100: ICMP echo request, id 12, seq 4, length 64
+18:22:59.428911 lo    In  IP 192.168.56.100 > 192.168.56.100: ICMP echo reply, id 12, seq 4, length 64
+18:23:03.481830 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [S], seq 2666670575, win 65495, options [mss 65495,sackOK,TS val 175541217 ecr 0,nop,wscale 7], length 0
+18:23:03.481845 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [S.], seq 2264864814, ack 2666670576, win 65483, options [mss 65495,sackOK,TS val 175541217 ecr 175541217,nop,wscale 7], length 0
+18:23:03.481858 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [.], ack 1, win 512, options [nop,nop,TS val 175541217 ecr 175541217], length 0
+18:23:03.482777 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [P.], seq 1:29, ack 1, win 512, options [nop,nop,TS val 175541218 ecr 175541217], length 28
+18:23:03.482856 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [.], ack 29, win 512, options [nop,nop,TS val 175541218 ecr 175541218], length 0
+18:23:03.482918 lo    In  IP 192.168.56.100.36538 > 192.168.56.100.2121: Flags [P.], seq 1:17, ack 29, win 512, options [nop,nop,TS val 175541218 ecr 175541218], length 16
+18:23:03.482954 lo    In  IP 192.168.56.100.2121 > 192.168.56.100.36538: Flags [.], ack 17, win 512, options [nop,nop,TS val 175541218 ecr 175541218], length 0
+
+=== flow count
+     25 In 192.168.56.100.8443
+     24 In 192.168.56.100
+     14 In 192.168.56.100.36538
+     13 In 192.168.56.100.56422
+     13 In 192.168.56.100.2121
+     12 In 192.168.56.100.42345
+     11 In 192.168.56.100.44956
+      9 In 192.168.56.100.56410

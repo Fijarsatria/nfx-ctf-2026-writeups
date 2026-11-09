@@ -1,0 +1,17 @@
+=== /etc/passwd (user manusia)
+aria:x:1000:1000:aria:/home/aria:/bin/bash
+mizore:x:1001:1001::/home/mizore:/bin/bash
+nozomi:x:1002:1002::/home/nozomi:/bin/bash
+
+=== /etc/hostname
+srv
+
+=== /etc/shadow (user manusia)
+aria:$6$SNnuMjQe9I10lQwA$NMyw.e9akpMk14Z9ahS0K4GEnDFxxnl4fMr4Q/RKmNie8czOWZ8Dk7TP0ZnR/xKRWDQnSZE5n1VumQR6NB2JD/:20387:0:99999:7:::
+mizore:$6$bluebird$DapjL6a0nzC4W7lGKYhAtHOEPMW06uuQOg4DiPxOWF3RKE6RRSKIumUGXj3QmER5G4ceko4QUsikFswkW330E1:20684:0:99999:7:::
+nozomi:$y$j9T$DhVH4WQyNgEFCqIkUphFf1$q0BKoCWrbVK2X0hcG6HzpOhEua2qY2sATukNgvlK/C5:20684:0:99999:7:::
+
+=== /etc/group (user manusia)
+aria:x:1000:
+mizore:x:1001:
+nozomi:x:1002:

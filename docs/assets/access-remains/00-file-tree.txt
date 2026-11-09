@@ -1,0 +1,35 @@
+Users/ariaf/AppData/Local/Microsoft/Credentials/DFBE70A7E5CC19A398EBF1B96859CE5D	11168
+Users/ariaf/AppData/Local/Microsoft/Vault/4BF4C442-9B8A-41A0-B380-DD4A704DDB28/Policy.vpol	436
+Users/ariaf/AppData/Local/Microsoft/Vault/UserProfileRoaming/Latest.dat	1
+Users/ariaf/AppData/Roaming/Microsoft/Credentials/B0294E9651990C1435CA6300E4BB2378	538
+Users/ariaf/AppData/Roaming/Microsoft/Protect/CREDHIST	24
+Users/ariaf/AppData/Roaming/Microsoft/Protect/S-1-5-21-3304503823-3980900213-1333018566-1005/Preferred	24
+Users/ariaf/AppData/Roaming/Microsoft/Protect/S-1-5-21-3304503823-3980900213-1333018566-1005/bb24f650-d046-439c-a88b-ab8f89ba61a4	468
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/AutomaticDestinations/5f7b5f1e01b83767.automaticDestinations-ms	6656
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/AutomaticDestinations/9b9cdc69c1c24e2b.automaticDestinations-ms	3584
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/AutomaticDestinations/f01b4d95cf55d32a.automaticDestinations-ms	10240
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/AutomaticDestinations/f701aa858f07b258.automaticDestinations-ms	1536
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/7e4dca80246863e3.customDestinations-ms	24
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/9a165f62edbfa161.customDestinations-ms	5278
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/ccba5a5986c77e43.customDestinations-ms	3942
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/f01b4d95cf55d32a.customDestinations-ms	24
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/DPPAI.lnk	629
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/File Explorer.lnk	1733
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/VBOXSVR.lnk	1436
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/a.lnk	1617
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/data (VBOXSVR) (2).lnk	1548
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/data (VBOXSVR).lnk	1548
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/desktop.ini	432
+Users/ariaf/AppData/Roaming/Microsoft/Windows/Recent/note.txt.lnk	629
+Users/ariaf/Documents/Kumiko.zip	530710
+Users/ariaf/Documents/kumiko1.gif	1395155
+Users/ariaf/Documents/kumiko2.jpg	132944
+Users/ariaf/Documents/kumiko3.jpg	98795
+Users/ariaf/NTUSER.DAT	983040
+Windows/System32/config/SAM	81920
+Windows/System32/config/SECURITY	32768
+Windows/System32/config/SOFTWARE	71827456
+Windows/System32/config/SYSTEM	12124160
+Windows/System32/winevt/Logs/Application.evtx	2166784
+Windows/System32/winevt/Logs/Security.evtx	8458240
+Windows/System32/winevt/Logs/System.evtx	1118208

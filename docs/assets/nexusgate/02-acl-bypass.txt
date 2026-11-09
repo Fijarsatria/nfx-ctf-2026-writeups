@@ -1,0 +1,23 @@
+=== curl --path-as-is /./internal/... ===
+HTTP/1.1 400 Bad Request
+content-type: application/json; charset=utf-8
+date: Sun, 08 Nov 2026 01:11:54 GMT
+connection: keep-alive
+keep-alive: timeout=5
+transfer-encoding: chunked
+
+{"err":"no such cursor"}
+
+=== raw HTTP request ===
+HTTP/1.1 400 Bad Request
+content-type: application/json; charset=utf-8
+date: Sun, 08 Nov 2026 01:11:54 GMT
+connection: keep-alive
+keep-alive: timeout=5
+transfer-encoding: chunked
+
+18
+{"err":"no such cursor"}
+0
+
+

@@ -1,0 +1,33 @@
+NarrowGate — seccomp filter (decoded from setup_seccomp BPF bytes)
+
+The program builds a classic BPF sock_filter array and calls
+prctl(PR_SET_NO_NEW_PRIVS,1) then prctl(PR_SET_SECCOMP, SECCOMP_MODE_FILTER).
+
+Instructions (code, jt, jf, k):
+  [0]  0x20, 0,  0, 4            ; load arch
+  [1]  0x15, 1,  0, 0xc000003e   ; if arch != x86_64 -> next, else skip kill
+  [2]  0x06, 0,  0, 0x80000000   ; RET KILL
+  [3]  0x20, 0,  0, 0            ; load syscall nr
+  [4]  0x15, 11, 0, 0            ; read        -> allow
+  [5]  0x15, 10, 0, 1            ; write       -> allow
+  [6]  0x15, 9,  0, 2            ; open        -> allow
+  [7]  0x15, 8,  0, 3            ; close       -> allow
+  [8]  0x15, 7,  0, 8            ; lseek       -> allow
+  [9]  0x15, 6,  0, 5            ; fstat       -> allow
+  [10] 0x15, 5,  0, 0x106        ; newfstatat  -> allow
+  [11] 0x15, 4,  0, 0xc          ; brk         -> allow
+  [12] 0x15, 3,  0, 0x3c         ; exit        -> allow
+  [13] 0x15, 2,  0, 0xe7         ; exit_group  -> allow
+  [14] 0x15, 1,  0, 0x13e        ; getrandom   -> allow
+  [15] 0x06, 0,  0, 0x80000000   ; RET KILL
+  [16] 0x06, 0,  0, 0x7fff0000   ; RET ALLOW
+
+Allowed: read, write, open, close, lseek, fstat, newfstatat, brk, exit,
+exit_group, getrandom.
+NOT allowed: execve, openat (0x101), pread64 (0x11).
+
+Exploit consequence:
+  - use raw syscall open (rax=2), because glibc open() may emit openat(0x101);
+  - move open()'s fd from rax to edi (misaligned gadget xchg edi,eax at
+    0x164f5e) before read(fd,...);
+  - no shell: ORW only.

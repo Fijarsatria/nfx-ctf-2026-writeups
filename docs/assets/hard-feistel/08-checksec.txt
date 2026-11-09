@@ -1,0 +1,8 @@
+$ python3 -c "from pwn import *; print(ELF('reverse/Hard_02_Feistel/hard_feistel').checksec())"
+RELRO:      Full RELRO
+Stack:      Canary found
+NX:         NX enabled
+PIE:        PIE enabled
+FORTIFY:    Enabled
+SHSTK:      Enabled
+IBT:        Enabled

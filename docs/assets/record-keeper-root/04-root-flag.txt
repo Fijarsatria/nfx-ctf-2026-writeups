@@ -1,0 +1,20 @@
+ROOT FLAG
+NFX{sp00l3r_4rch1v3_r00t_pwn3d}
+bytes: 32
+sha256: fd5719c9f528bcf21b5d87e9e92ca8ded2763a29b73ca1cb8c7e450265c71d38
+file: flags/b2r/NexusRecordTransform_Root.txt
+
+Ekstraksi:
+$ tar -xOzf /tmp/opsexfil/rootarc.tar.gz ./root.txt
+NFX{sp00l3r_4rch1v3_r00t_pwn3d}
+
+Kredensial ops yang bocor (dikonfirmasi, tidak diperlukan untuk langkah akhir):
+  ops:0ps#Sp00l2026
+  spool token: SPOOL-7f3c9a1e4b2d
+
+Platform submit log (read-only):
+  {"id":"3376336b-f018-4201-8a0a-c481331aee70",
+   "title":"Record Keeper (Root)",
+   "flag":"NFX{sp00l3r_4rch1v3_r00t_pwn3d}",
+   "http":200,
+   "result":{"success":true,"message":"Correct! +500 points."}}

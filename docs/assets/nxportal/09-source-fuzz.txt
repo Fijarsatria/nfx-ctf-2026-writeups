@@ -1,0 +1,36 @@
+Source/static exposure fuzz — NXPortal live instance (2026-11-08)
+
+Command pattern:
+  python3 - <<'PY'
+  for p in paths:
+      r = requests.get(BASE + p, timeout=6, allow_redirects=False)
+      if r.status_code != 404:
+          print(r.status_code, p, len(r.content))
+  PY
+
+Result: the loop printed NOTHING. Every tested path returned 404
+(the Flask 404 page is 207 bytes), so there is no exposed source,
+database, .git, or debug endpoint.
+
+Paths tested:
+  /app.py /main.py /config.py /config.json /requirements.txt
+  /Dockerfile /docker-compose.yml /.git/HEAD /.git/config
+  /database.db /nxportal.db /app.db /instance/app.db
+  /instance/nxportal.db /instance/users.db /data/app.db /tmp/nxportal.db
+  /static/../app.py /static/..%2fapp.py /static/%2e%2e/app.py
+  /static/....//app.py /static/app.py /static/config.py
+  /templates/reset.html /templates/forgot.html
+  /utils/mailer.py /utils/db.py /utils/__init__.py
+  /backup /backup.zip /app.zip /source.zip /download /export
+  /api/export /api/backup /debug/config /debug/vars
+  /api /api/ /api/v1 /api/v1/ /api/health /healthz /status
+  /.env /env
+
+Additional raw-path checks (curl --path-as-is):
+  /static/../app.py          -> 404
+  /static/..%2fapp.py        -> 404
+  /static/%2e%2e/app.py      -> 404
+  /static/..%252fapp.py      -> 404
+  /static//app.py            -> 308 (redirect, no source)
+  /%2e%2e/app.py             -> 404
+  /static/..%5capp.py        -> 404

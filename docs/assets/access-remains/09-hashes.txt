@@ -1,0 +1,7 @@
+=== hash artefak utama
+7a8e71d96ecacddcd08c95719555c146343b03818ba998d2a331e1d049ae7abd  05-Kumiko.zip
+8e038d3747607696ffbf0db62aaffdbba51dbbe4d868785a4d4d7d9c5eb0b18c  07-kumiko03.jpg
+030df1d12a46fa5fb18bfd4efd85b151905d19a835675f240e1e3f5fce293fae  /tmp/opencode/access_ev/Evidence/Windows/System32/config/SAM
+debb833ff6a4eaba9368e8c9e1d0fbb58ac5a579b0d3c9a0032f4a0ccad17143  /tmp/opencode/access_ev/Evidence/Windows/System32/config/SYSTEM
+1e63364f2c6e0d078345c8eabe23d99e552a0f9d0be23ea8ada36f849c443951  /tmp/opencode/access_ev/Evidence/Users/ariaf/NTUSER.DAT
+cf3122ac29bbed1bfd220e43dc19990c1fe20227a883d85b463a8d550a5a1124  /tmp/opencode/access_ev/Evidence/Users/ariaf/AppData/Roaming/Microsoft/Protect/S-1-5-21-3304503823-3980900213-1333018566-1005/bb24f650-d046-439c-a88b-ab8f89ba61a4

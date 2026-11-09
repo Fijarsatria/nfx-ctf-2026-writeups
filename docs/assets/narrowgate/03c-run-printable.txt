@@ -1,0 +1,10 @@
+[x] Starting local process '/home/bocil/ctf/nfx/pwn/NarrowGate/peserta/ld-linux-x86-64.so.2'
+[+] Starting local process '/home/bocil/ctf/nfx/pwn/NarrowGate/peserta/ld-linux-x86-64.so.2': pid 142037
+[+] canary=0xce1a66df77b8d400 pie=0x76ccdc85c000 libc=0x76ccdc600000
+[x] Receiving all data
+[x] Receiving all data: 0B
+[x] Receiving all data: 256B
+[+] Receiving all data: Done (256B)
+[*] Stopped process '/home/bocil/ctf/nfx/pwn/NarrowGate/peserta/ld-linux-x86-64.so.2' (pid 142037)
+NFX{LOCAL_TEST_FLAG_NARROWGATE}
+^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@

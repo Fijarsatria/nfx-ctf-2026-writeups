@@ -1,0 +1,21 @@
+ExifTool Version Number         : 12.76
+File Name                       : dokumentasi.png
+Directory                       : .
+File Size                       : 1329 kB
+File Modification Date/Time     : 2026:11:08 09:04:45+07:00
+File Access Date/Time           : 2026:11:08 09:04:45+07:00
+File Inode Change Date/Time     : 2026:11:08 09:04:45+07:00
+File Permissions                : -rw-rw-r--
+File Type                       : PNG
+File Type Extension             : png
+MIME Type                       : image/png
+Image Width                     : 1280
+Image Height                    : 960
+Bit Depth                       : 8
+Color Type                      : RGB
+Compression                     : Deflate/Inflate
+Filter                          : Adaptive
+Interlace                       : Noninterlaced
+Warning                         : [minor] Trailer data after PNG IEND chunk
+Image Size                      : 1280x960
+Megapixels                      : 1.2

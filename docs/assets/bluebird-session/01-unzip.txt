@@ -1,0 +1,18 @@
+
+7-Zip 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit locale=C.UTF-8 Threads:2 OPEN_MAX:1048576
+
+Scanning the drive for archives:
+1 file, 554674 bytes (542 KiB)
+
+Extracting archive: /tmp/opencode/bb_full/Evidence/home/nozomi/Documents/for_nozomi.zip
+--
+Path = /tmp/opencode/bb_full/Evidence/home/nozomi/Documents/for_nozomi.zip
+Type = zip
+Physical Size = 554674
+
+Everything is Ok
+
+Files: 6
+Size:       556921
+Compressed: 554674

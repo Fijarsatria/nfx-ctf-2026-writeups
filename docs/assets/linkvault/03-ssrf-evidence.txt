@@ -1,0 +1,6 @@
+REQUEST: POST http://s1.nfx.my.id:49191/submit
+HTTP 200
+TEXT: Ingest, analyze, and quarantine external URLs through the zero-trust link preview sandbox.
+TEXT: Destination will be fetched server-side through the hardened egress gateway.
+
+blocked literal: True HTTP 200

@@ -1,0 +1,24 @@
+magic          : GnomeKeyring
+version/crypto : 0.0 / crypto=0 / hash=0
+keyring name   : Login
+iterations     : 3421
+salt           : 871fa30523eb6c6b
+num_items      : 1
+
+PLAINTEXT ITEM HEADER:
+  id=1 type=0
+    app        type=0 value=b'b30d2f4bbe6cbefbc0ab619d9af8b316'
+    target     type=0 value=b'419727a1b15144e4e6b35d1e80f348ce'
+
+verify MD5     : 8b7b9e237395fb8d94877330300e1b3c == 8b7b9e237395fb8d94877330300e1b3c ? True
+
+display_name   : Mizore Promise Note
+secret         :
+For Nozomi,
+
+I promised I would keep playing, even if the sound could no longer reach you.
+Every note we left behind still belongs to the same sky.
+
+The archive is for you.
+for_nozomi.zip password: MizoreCanFly2077!@
+

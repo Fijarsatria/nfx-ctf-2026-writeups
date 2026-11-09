@@ -1,0 +1,19 @@
+NFX CTF 2026 — Progress Bar (Root)
+Target: 10.10.20.22 (accessed from bastion 10.10.20.10)
+Primary source: flags/b2r/ProgressBar.NOTES.md
+
+[REKONSTRUKSI] Triage awal:
+    nmap -Pn -sV -p- --min-rate 2000 10.10.20.22
+    curl -sS -i http://10.10.20.22/
+    curl -sS -i http://10.10.20.22/upload.php
+
+Stack terdokumentasi:
+  - Apache prefork + mod_php, PHP 8.4.26
+  - display_errors=On, memory_limit=8M, post_max_size=64M
+  - session.upload_progress.enabled=On, satu worker prefork
+  - /upload.php (multipart), /out/ web-served dan writable www-data
+
+Loopback services:
+  - 127.0.0.1:3000 watchtower
+  - 127.0.0.1:8080 telephony UCP
+  - 127.0.0.1:9000 automation (root)

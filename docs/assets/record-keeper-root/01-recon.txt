@@ -1,0 +1,21 @@
+NFX CTF 2026 — Record Keeper (Root)
+Target: 10.10.20.23 (accessed from bastion 10.10.20.10)
+Primary source: flags/b2r/NexusRecordTransform.NOTES.md, /tmp/opencode/t23.html
+
+Service mesh:
+  :8080  console / diagnostic surface
+  :3000  framed-TCP Brotli record transform (Node.js 24.9.0)
+  :22    OpenSSH (ops maintenance shell)
+  :9090  spool API
+
+Spool architecture (dari console):
+  - Queue: /srv/record-spool/*.job
+  - Job format:
+        id=<name>
+        action=archive
+        target=<absolute-path>
+  - Output: /var/backups/records/<id>.tar.gz
+  - Root-owned worker consumes *.job every 2 seconds.
+  - Access model: node = runtime only; ops = submit archive jobs and inspect
+    output; root = runs spooler and owns archive output.
+  - Maintenance credentials under /etc/nexus.

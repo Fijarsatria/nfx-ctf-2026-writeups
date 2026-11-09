@@ -1,0 +1,73 @@
+# Weak Handshake — Eksploitasi / Solver
+
+[← Overview](27-weak-handshake.md) · [Index](index.md)
+
+### 3.1 Strategi
+
+1. Reassemble TCP streams dari pcap (linktype Linux SLL2).
+2. Ambil `clannad.webp` dari FTP data (decoy).
+3. Parse TLS ServerHello + Certificate; ambil modulus RSA.
+4. Fermat factorization → p, q, d, private key.
+5. Decrypt ClientKeyExchange → premaster.
+6. Hitung master secret dengan **Extended Master Secret**.
+7. Decrypt record AES-128-CBC (IV 16 + ciphertext + MAC 20).
+8. Rekonstruksi HTTP response → JPEG → overlay flag.
+
+### 3.2 Script
+
+Script lengkap: `assets/weak-handshake/solve_weak.py`.
+
+Bagian inti:
+
+```python
+# Fermat
+a = math.isqrt(n)
+if a*a < n: a += 1
+for i in range(2_000_000):
+    b2 = a*a - n
+    b = math.isqrt(b2)
+    if b*b == b2:
+        p, q = a-b, a+b
+        break
+    a += 1
+
+d = pow(65537, -1, (p-1)*(q-1))
+key = RSA.construct((n, 65537, d, p, q))
+pre = PKCS1_v1_5.new(key).decrypt(enc, None)
+
+# Extended Master Secret
+transcript = client_hello + server_hello + certificate + server_hello_done + client_key_exchange
+session_hash = hashlib.sha256(transcript).digest()
+master = prf(pre, b'extended master secret', session_hash, 48)
+key_block = prf(master, b'key expansion', server_random + client_random, 104)
+server_key = key_block[56:72]
+
+# decrypt record
+iv = body[:16]
+ct = body[16:-20]
+pt = AES.new(server_key, AES.MODE_CBC, iv=iv).decrypt(ct)
+```
+
+### 3.3 Output
+
+```text
+[+] FTP data clannad.webp: 262796 byte, magic=b'RIFF\x84\x02\x04\x00WEBP'
+[+] cert RSA 1024 bit, e=65537
+[+] Fermat factor i=0: p-q=236
+[+] premaster: 0303a7db81cb42e9cd0156bcb4bd34890a8878ab838684db1fe340b319597ac14
+               1a092397cd0ae44aa0529897bf2c729
+[+] master: a5238af33e2e13f0e05f9e29259cd9d9fcf2e883b47b1f72cb86f6c45d2d1f31
+            2bf40641a17e327b8b634e1f5e838a83
+[+] server_write_key: 3fda8cda19e2cdd551ca8ff0201946e6
+[+] http_s1.bin: 67846 byte
+HTTP/1.0 200 OK
+...
+[+] tomoyo_s1.jpg: 67653 byte
+[+] cert RSA 1024 bit, e=65537
+[+] Fermat factor i=0: p-q=236
+[+] premaster: 0303025e00edd0d15f64e5b9c2b7f7618582df46497af8f4e4e1e2f7b720746d...
+[+] master: 151953826976a847c1f4f12e205237f2b575e4d508060e7fa7e3a3c199b9a2b5...
+[+] server_write_key: 175295cce7a2ec71273d1191526a5e06
+[+] http_s2.bin: 324224 byte
+[+] tomoyo_s2.jpg: 323711 byte
+```

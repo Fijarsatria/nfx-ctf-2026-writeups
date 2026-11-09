@@ -1,0 +1,17 @@
+$ file reverse/Hard_03_Castaway/castaway
+reverse/Hard_03_Castaway/castaway: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=ecc3e55a90532bddbb7e3603420f488342d3e632, for GNU/Linux 3.2.0, stripped
+
+$ stat -c '%s bytes' reverse/Hard_03_Castaway/castaway
+14472 bytes
+
+$ sha256sum reverse/Hard_03_Castaway/castaway
+6ca0a8f8e50b77f7dc666cf1b7a486f1a12df1008c478cbbe6615245bca776d1  reverse/Hard_03_Castaway/castaway
+
+$ md5sum reverse/Hard_03_Castaway/castaway
+a77f3296127692a05ced8583fa73f480  reverse/Hard_03_Castaway/castaway
+
+$ ls -l reverse/Hard_03_Castaway/castaway
+-rwxr-xr-x 1 bocil bocil 14472 Nov  7 12:32 reverse/Hard_03_Castaway/castaway
+
+Catatan: mode awal file dari arsip challenge adalah -rw-r--r-- (tidak executable).
+chmod +x dilakukan hanya agar binary dapat dijalankan untuk verifikasi; isi file tidak berubah dan hash tetap sama.

@@ -1,0 +1,27 @@
+STATUS VERIFIKASI — Progress Bar (User)
+
+Nilai user.txt di target (byte-exact, dua instance berbeda):
+  NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}
+  sha256 417cbc99464eaa61e26a0357eea76c372371df762cbfca74efe2a87758c17f04
+  size 50, mode 400, owner deploy:deploy
+
+Submit platform (read-only log, bukan submit baru):
+  {"id":"73538e96-4f51-4e50-aae6-2ceaf56f9d4a",
+   "title":"Progress Bar (User)",
+   "flag":"NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}",
+   "http":200,
+   "result":{"success":false,"message":"Incorrect flag"}}
+
+Pemeriksaan ulang:
+  1. Instance lama di-re-exploit; user.txt dibaca sebagai root via automation.
+  2. Challenge row diperbarui 2026-11-07T17:39:53Z; labs/22 di-stop/redeploy
+     (fresh 1197 s), chain PHP2Shell dijalankan ulang.
+  3. user.txt pada instance baru tetap byte-identik (hash sama).
+  4. find / -xdev -name user.txt -o -name root.txt dan
+     grep -R "NFX{" /home /root /etc /opt /app /var/www /srv /usr/local /tmp /out
+     hanya menemukan dua file flag yang diketahui; tidak ada file user flag lain.
+
+Kesimpulan:
+  Target konsisten mengirim nilai di atas. Penolakan platform bukan karena salah
+  baca atau rotasi flag di target; nilai yang tersimpan di platform berbeda.
+  Status writeup: verified local (platform rejected).

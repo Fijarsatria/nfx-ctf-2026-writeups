@@ -1,0 +1,5 @@
+d*G.x == pubkey.x : True
+d*G.y == pubkey.y : True
+nonces < 2^248    : 200 / 200
+AES-GCM tag       : OK
+FLAG              = NXCTF{ecds4_hnp_n0nc3_b14s_8b1t_l4tt1c3_a3d2ae498097}

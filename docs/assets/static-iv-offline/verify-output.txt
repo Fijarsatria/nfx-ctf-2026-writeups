@@ -1,0 +1,4 @@
+key = c3bde56fc541212d2e6a51ce58b7c3cb9330284ad45b5ea1c476296b70ef2fed
+plaintext = b'user-input-goes-here:|NXCTF{cbc_1v_r3u53_l34k5_k3y5tr34m_b0fbd4d35f80}'
+prefix ok = True
+FLAG = NXCTF{cbc_1v_r3u53_l34k5_k3y5tr34m_b0fbd4d35f80}

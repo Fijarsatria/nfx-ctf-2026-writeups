@@ -1,0 +1,25 @@
+$ file state
+/home/bocil/ctf/nfx/pwn/TheForgottenState/peserta/state: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=b35d59944000aae617a421ff9df72debc43748f0, for GNU/Linux 3.2.0, not stripped
+$ sha256sum state
+57d3954881917b39492c0ffbea4e74b58a06c49768f103b555fd0f8887bf08e7  /home/bocil/ctf/nfx/pwn/TheForgottenState/peserta/state
+$ checksec (pwntools)
+RELRO:      Partial RELRO
+Stack:      Canary found
+NX:         NX enabled
+PIE:        No PIE (0x400000)
+SHSTK:      Enabled
+IBT:        Enabled
+Stripped:   No
+
+$ file libc.so.6
+/home/bocil/ctf/nfx/pwn/TheForgottenState/peserta/libc.so.6: ELF 64-bit LSB shared object, x86-64, version 1 (GNU/Linux), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=066527e430a32768d82741e00b81eebb1a872294, for GNU/Linux 3.2.0, stripped
+$ sha256sum libc.so.6
+85e64f97e348786a8fb4d9f3d52fec289e2fb86bba20f0731dfe61990525e0f7  /home/bocil/ctf/nfx/pwn/TheForgottenState/peserta/libc.so.6
+$ checksec (pwntools)
+RELRO:      Full RELRO
+Stack:      Canary found
+NX:         NX enabled
+PIE:        PIE enabled
+FORTIFY:    Enabled
+SHSTK:      Enabled
+IBT:        Enabled

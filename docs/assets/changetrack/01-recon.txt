@@ -1,0 +1,120 @@
+=== GET / ===
+HTTP/1.1 302 FOUND
+Server: gunicorn
+Date: Sun, 08 Nov 2026 01:19:56 GMT
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Content-Length: 199
+Location: /login
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, Accept
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Vary: Cookie
+
+<!doctype html>
+<html lang=en>
+<title>Redirecting...</title>
+<h1>Redirecting...</h1>
+<p>You should be redirected automatically to the target URL: <a href="/login">/login</a>. If not, click the link.
+
+=== /login ===
+HTTP/1.1 200 OK
+Server: gunicorn
+Date: Sun, 08 Nov 2026 01:19:56 GMT
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Content-Length: 5117
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, Accept
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-slate-50">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign In — ChangeTrack Studio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              teal: '#0d9488',
+              emerald: '#059669',
+              slate: '#0f172a'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .font-mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+  </style>
+</head>
+
+<body class="h-full bg-slate-50 text-slate-800 flex flex-col antialiased selection:bg-teal-500 selection:text-white">
+
+  <!-- Full-Width High-Contrast Header -->
+  <header class="border-b border-slate-800 bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between">
+
+      <!-- Brand Logo -->
+      <a href="/dashboard" class="flex items-center gap-3 group">
+        <div
+          class="w-9 h-9 rounded-xl bg-gradient-to-tr from-teal-500 to-emerald-500 flex items-center justify-center font-black text-white text-base shadow-md shadow-teal-500/20 group-hover:scale-105 transition-transform">
+          📡
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="text-lg font-extrabold text-white tracking-tight">Change<span
+              class="text-teal-400">Track</span></span>
+          <span
+            class="text-[10px] font-bold px-2.5 py-0.5 rounded-full bg-slate-800 text-teal-300 border border-slate-700">v2.4</span>
+        </div>
+      </a>
+
+      <!-- Right User Controls with Truncated Email -->
+      <div class="flex items-center gap-4">
+        
+        <a href="/login"
+          class="px-4 py-2 rounded-xl text-xs font-extrabold bg-teal-600 hover:bg-teal-500 text-white transition shadow-md shadow-teal-600/20">Sign
+          In</a>
+        
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Balanced Main Content Area -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-8 py-8">
+    
+<div class="min-h-[70vh] flex items-center justify-center">
+  <div class="w-full max-w-md bg-white border border-slate-200 rounded-3xl p-8 shadow-xl shadow-slate-200/60">
+    <div class="text-center mb-8">
+      <div
+        class="inline-flex w-14 h-14 rounded-2xl bg-gradient-to-br from-teal-500 to-emerald-600 items-center justify-center font-black text-white text-2xl shadow-lg shadow-teal-500/25 mb-4">
+        📡</div>
+      <h1 class="text-2xl font-black text-slate-900 tracking-tight">Sign In to ChangeTrack</h1>
+      <p class="text-xs text-slate-500 mt-1.5">Enterprise Web & API Monitoring Studio Portal</p>
+    </div>
+
+    
+
+    <form method="POST" action="/login" class="space-y-5">
+      <div>
+        <label class="block text-xs font-bold text-slate-700 mb-2 uppercase tracking-wider">Corporate Email</label>

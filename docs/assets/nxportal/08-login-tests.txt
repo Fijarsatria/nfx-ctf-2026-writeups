@@ -1,0 +1,10 @@
+[admin@nxctf.local' OR '1'='1] -> 200   alert-error">Invalid corporate email or password.
+
+[' OR 1=1--] -> 200   alert-error">Invalid corporate email or password.
+
+[admin@nxctf.local'--] -> 200   alert-error">Invalid corporate email or password.
+
+[admin@nxctf.local'/*] -> 200   alert-error">Invalid corporate email or password.
+
+[" OR 1=1--] -> 200   alert-error">Invalid corporate email or password.
+

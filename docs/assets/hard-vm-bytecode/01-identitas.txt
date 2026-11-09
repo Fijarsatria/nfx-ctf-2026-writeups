@@ -1,0 +1,17 @@
+$ file reverse/Hard_01_VM_Bytecode/hard_vm
+reverse/Hard_01_VM_Bytecode/hard_vm: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=b0c9e6c30f4121196fc85a998419383dea6cf0e7, for GNU/Linux 3.2.0, stripped
+
+$ stat -c '%s bytes' reverse/Hard_01_VM_Bytecode/hard_vm
+14472 bytes
+
+$ sha256sum reverse/Hard_01_VM_Bytecode/hard_vm
+54cc69e2f8213ccb685818c3a371a08c87caf9d487d5a47b157ab3bcf7f93697  reverse/Hard_01_VM_Bytecode/hard_vm
+
+$ md5sum reverse/Hard_01_VM_Bytecode/hard_vm
+7b33fd7a143dc9123434672e26c50d3d  reverse/Hard_01_VM_Bytecode/hard_vm
+
+$ ls -l reverse/Hard_01_VM_Bytecode/hard_vm
+-rwxr-xr-x 1 bocil bocil 14472 Nov  7 12:32 reverse/Hard_01_VM_Bytecode/hard_vm
+
+Catatan: mode awal file dari arsip challenge adalah -rw-r--r-- (tidak executable).
+chmod +x dilakukan hanya agar binary dapat dijalankan untuk verifikasi; isi file tidak berubah dan hash tetap sama.

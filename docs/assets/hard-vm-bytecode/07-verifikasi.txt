@@ -1,0 +1,10 @@
+$ ./reverse/Hard_01_VM_Bytecode/hard_vm 'NFX{wrong}'
+Wrong!
+rc=1
+
+$ ./reverse/Hard_01_VM_Bytecode/hard_vm 'NFX{vm_byt3c0d3_1s_l1k3_4_puzzl3}'
+Correct! Bytecode VM berhasil dibongkar.
+rc=0
+
+$ sha256sum reverse/Hard_01_VM_Bytecode/hard_vm
+54cc69e2f8213ccb685818c3a371a08c87caf9d487d5a47b157ab3bcf7f93697  reverse/Hard_01_VM_Bytecode/hard_vm

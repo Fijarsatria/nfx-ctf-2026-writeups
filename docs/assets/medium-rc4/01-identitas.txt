@@ -1,0 +1,14 @@
+$ file reverse/Medium_01_RC4/medium_rc4
+reverse/Medium_01_RC4/medium_rc4: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=8bfdd28a937fb4bafda042b415e4484687ff60a9, for GNU/Linux 3.2.0, stripped
+
+$ stat -c '%s bytes' reverse/Medium_01_RC4/medium_rc4
+14472 bytes
+
+$ sha256sum reverse/Medium_01_RC4/medium_rc4
+cc8b962d1501755603febfb884c5c49b42d9814aff165ed21d9cc81cda71d0f1  reverse/Medium_01_RC4/medium_rc4
+
+$ md5sum reverse/Medium_01_RC4/medium_rc4
+1fc7cd71f875fb9ad48c1b4e986e5781  reverse/Medium_01_RC4/medium_rc4
+
+$ ls -l reverse/Medium_01_RC4/medium_rc4
+-rwxr-xr-x 1 bocil bocil 14472 Nov  7 12:32 reverse/Medium_01_RC4/medium_rc4

@@ -1,0 +1,16 @@
+=== auth.log SSH / sudo timeline
+414:Oct 10 08:25:40 web01 sshd[1522]: Accepted publickey for ubuntu from 36.80.14.22 port 50122 ssh2: RSA SHA256:q3Zx9o1m
+427:Oct 10 14:20:03 web01 sshd[24410]: Accepted password for deploy from 185.220.101.47 port 45072 ssh2
+428:Oct 10 14:20:03 web01 sshd[24410]: pam_unix(sshd:session): session opened for user deploy(uid=1001) by (uid=0)
+430:Oct 10 14:20:17 web01 sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/sbin/useradd -m -s /bin/bash -G sudo svc_backup
+431:Oct 10 14:20:17 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1001)
+432:Oct 10 14:20:17 web01 useradd[24502]: new group: name=svc_backup, GID=1002
+433:Oct 10 14:20:17 web01 useradd[24502]: new user: name=svc_backup, UID=1002, GID=1002, home=/home/svc_backup, shell=/bin/bash, from=/dev/pts/0
+434:Oct 10 14:20:17 web01 usermod[24509]: add 'svc_backup' to group 'sudo'
+435:Oct 10 14:20:17 web01 sudo: pam_unix(sudo:session): session closed for user root
+436:Oct 10 14:20:34 web01 sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/chpasswd
+437:Oct 10 14:20:34 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1001)
+438:Oct 10 14:20:34 web01 chpasswd[24520]: pam_unix(chpasswd:chauthtok): password changed for svc_backup
+439:Oct 10 14:20:34 web01 sudo: pam_unix(sudo:session): session closed for user root
+442:Oct 10 14:41:27 web01 sshd[24688]: Accepted publickey for svc_backup from 185.220.101.47 port 52311 ssh2: RSA SHA256:Zk1pQ0v9
+443:Oct 10 14:41:27 web01 sshd[24688]: pam_unix(sshd:session): session opened for user svc_backup(uid=1002) by (uid=0)

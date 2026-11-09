@@ -1,0 +1,14 @@
+00000000: 5361 6c74 6564 5f5f d4be 860a 4bb7 cf3a  Salted__....K..:
+00000010: 92c5 4dc0 d0ee 5cf0 aeef 80a8 3e7a e8ce  ..M...\.....>z..
+00000020: 5a7d 8114 d186 319a 95f4 41f3 5c21 cb0f  Z}....1...A.\!..
+--- openssl decrypt ---
+exit=0
+--- plaintext ---
+NXCTF{FR3Y4_MY_L0V3LY!}
+--- plaintext hex ---
+00000000: 4e58 4354 467b 4652 3359 345f 4d59 5f4c  NXCTF{FR3Y4_MY_L
+00000010: 3056 334c 5921 7d0a                      0V3LY!}.
+--- decoy metadata secret (AyamgGoreng45) ---
+bad decrypt
+4077D1D05C7D0000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:../providers/implementations/ciphers/ciphercommon_block.c:124:
+Õq•”SãºrwN£¼exit=1

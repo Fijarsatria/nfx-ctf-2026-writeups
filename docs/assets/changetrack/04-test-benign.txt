@@ -1,0 +1,17 @@
+HTTP/1.1 302 FOUND
+Server: gunicorn
+Date: Sun, 08 Nov 2026 01:20:32 GMT
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Content-Length: 223
+Location: /watchers/watch-01
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, Accept
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Vary: Cookie
+
+<!doctype html>
+<html lang=en>
+<title>Redirecting...</title>
+<h1>Redirecting...</h1>
+<p>You should be redirected automatically to the target URL: <a href="/watchers/watch-01">/watchers/watch-01</a>. If not, click the link.

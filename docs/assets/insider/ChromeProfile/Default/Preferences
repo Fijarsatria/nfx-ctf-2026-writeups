@@ -1,0 +1,162 @@
+{
+  "account_info": [
+    {
+      "account_id": "1047293188472039485761",
+      "email": "n.fox@nfx-aero.example",
+      "full_name": "Noah Fox",
+      "gaia": "",
+      "given_name": "Noah",
+      "locale": "en-US",
+      "picture_url": ""
+    }
+  ],
+  "browser": {
+    "has_seen_welcome_page": true
+  },
+  "default_search_provider": {
+    "enabled": true
+  },
+  "extensions": {
+    "settings": {
+      "mgndgikekgjfcpckkfioiaebcgkldpdb": {
+        "active_permissions": {
+          "api": [
+            "proxy",
+            "storage",
+            "tabs",
+            "webRequest",
+            "webRequestAuthProvider"
+          ],
+          "explicit_host": [
+            "<all_urls>"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": [
+            "<all_urls>"
+          ]
+        },
+        "commands": {},
+        "content_settings": [],
+        "creation_flags": 38,
+        "events": [],
+        "first_install_time": 13386435260000000,
+        "from_webstore": false,
+        "granted_permissions": {
+          "api": [
+            "proxy",
+            "storage",
+            "tabs",
+            "webRequest",
+            "webRequestAuthProvider"
+          ],
+          "explicit_host": [
+            "<all_urls>"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": [
+            "<all_urls>"
+          ]
+        },
+        "incognito_content_settings": [],
+        "incognito_preferences": {},
+        "last_update_time": 13386435260000000,
+        "location": 1,
+        "manifest": {
+          "background": {
+            "service_worker": "background.js"
+          },
+          "description": "Lightweight VPN proxy. Routes browser traffic through a remote exit node.",
+          "host_permissions": [
+            "<all_urls>"
+          ],
+          "manifest_version": 3,
+          "name": "ZenVPN",
+          "permissions": [
+            "proxy",
+            "storage",
+            "tabs",
+            "webRequest",
+            "webRequestAuthProvider"
+          ],
+          "version": "2.7.1"
+        },
+        "path": "mgndgikekgjfcpckkfioiaebcgkldpdb/2.7.1_0",
+        "preferences": {},
+        "regular_only_preferences": {},
+        "state": 1,
+        "was_installed_by_default": false,
+        "was_installed_by_oem": false
+      },
+      "ghbmnnjooekpmoecnnnilnnbdlolhkhi": {
+        "active_permissions": {
+          "api": [
+            "storage",
+            "unlimitedStorage"
+          ],
+          "explicit_host": [],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "commands": {},
+        "content_settings": [],
+        "creation_flags": 38,
+        "events": [],
+        "first_install_time": 13382932442000000,
+        "from_webstore": true,
+        "granted_permissions": {
+          "api": [
+            "storage",
+            "unlimitedStorage"
+          ],
+          "explicit_host": [],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "incognito_content_settings": [],
+        "incognito_preferences": {},
+        "last_update_time": 13382932442000000,
+        "location": 1,
+        "manifest": {
+          "background": {
+            "service_worker": "background.js"
+          },
+          "description": "Edit Google Docs, Sheets and Slides offline.",
+          "host_permissions": [],
+          "manifest_version": 3,
+          "name": "Google Docs Offline",
+          "permissions": [
+            "storage",
+            "unlimitedStorage"
+          ],
+          "version": "1.92.1"
+        },
+        "path": "ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.92.1_0",
+        "preferences": {},
+        "regular_only_preferences": {},
+        "state": 1,
+        "was_installed_by_default": false,
+        "was_installed_by_oem": false
+      }
+    },
+    "ui": {
+      "developer_mode": true
+    }
+  },
+  "profile": {
+    "avatar_index": 26,
+    "content_settings": {},
+    "exit_type": "Normal",
+    "exited_cleanly": true,
+    "name": "Noah Fox"
+  },
+  "session": {
+    "restore_on_startup": 1,
+    "startup_urls": [
+      "https://www.nfx-aero.example/projects/helios"
+    ]
+  },
+  "signin": {
+    "allowed": true,
+    "allowed_secondary": true
+  }
+}

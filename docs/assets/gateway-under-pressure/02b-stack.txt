@@ -1,0 +1,9 @@
+Gateway Under Pressure stack layout
+do_audit:
+  buf @ rbp-0x50, canary @ rbp-8, saved rbp @ rbp, ret @ rbp+8
+  write(1, rbp-0x50, len) with len 1..0x1000 -> stack disclosure
+do_dispatch:
+  buf @ rbp-0x50, read_exact(buf, len) with len 1..0x200 -> overflow
+  offsets: canary 0x48, saved rbp 0x50, ret 0x58
+release_gateway (hidden win): fopen("flag.txt","r"); printf("FLAG: %s")
+main return address after do_audit = PIE+0x1807

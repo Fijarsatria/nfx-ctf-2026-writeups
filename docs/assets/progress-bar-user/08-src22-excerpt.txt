@@ -1,0 +1,87 @@
+===== /opt/watchtower/app.py — /api/config =====
+            self._send(200, PAGE)
+        elif path == "/api/health":
+            payload = {"bind": f"{BIND}:{PORT}", "service": "watchtower", "status": "ok"}
+            self._send(200, json.dumps(payload), "application/json")
+        elif path == "/api/config":
+            try:
+                config = load_config()
+            except Exception as exc:
+                self._send(500, json.dumps({"error": str(exc)}), "application/json")
+                return
+            self._send(200, json.dumps(config), "application/json")
+        else:
+            self._send(404, "Not Found\n", "text/plain; charset=utf-8")
+
+===== /opt/telephony/app.py — inbox page =====
+  <p class="muted">Signed in as {html.escape(username)}</p>
+  <div class="mail">
+    <b>CID Automation Key</b> &lt;9000&gt;<br>
+    <span class="muted">Tue, Jun 30, 2026 9:31 AM</span>
+    <p>Rotation reminder: the automation worker key is <code>{html.escape(key)}</code>. Keep it inside the loopback operations network.</p>
+  </div>
+</main>
+</body>
+
+===== /opt/telephony/app.py — /ucp/inbox handler =====
+        if path == "/ucp/inbox":
+            session, _ = self._session()
+            if not session:
+                self._redirect("/ucp")
+                return
+            if "voicemail" not in session.get("widgets", set()):
+                self._redirect("/ucp")
+                return
+            credentials = load_credentials()
+            self._send(200, inbox_page(str(credentials.get("username", "ucp-template")), load_key()))
+            return
+        if path == "/ucp/logout":
+            _, token = self._session()
+
+===== /opt/automation/app.py — command injection =====
+
+        report = payload.get("report")
+        if not isinstance(report, str) or not report.strip():
+            self._send(400, json.dumps({"error": "report is required"}))
+            return
+
+        command = f"tar czf {EXPORT_DIR}/{report}.tgz {DATA_DIR} 2>&1"
+        try:
+            proc = subprocess.run(
+                command,
+                shell=True,
+                capture_output=True,
+                text=True,
+                timeout=20,
+            )
+        except subprocess.TimeoutExpired:
+            self._send(504, json.dumps({"error": "export timed out"}))
+            return
+
+        output = (proc.stdout or "") + (proc.stderr or "")
+        self._send(200, json.dumps({"command": command, "output": output}))
+
+    def log_message(self, fmt, *args):
+
+===== /usr/local/sbin/challenge-entrypoint — automation as root =====
+===== /usr/local/sbin/challenge-entrypoint =====
+#!/usr/bin/env bash
+set -euo pipefail
+
+mkdir -p /out /var/www/uploads /var/automation/exports /var/automation/data
+chown -R www-data:www-data /out /var/www/uploads
+chmod 2775 /var/www/uploads
+chmod 0775 /out
+
+start_as() {
+  local user="$1"
+  shift
+  local uid gid
+  uid="$(id -u "$user")"
+  gid="$(id -g "$user")"
+  setpriv --reuid="$uid" --regid="$gid" --clear-groups -- "$@" &
+}
+
+python3 -u /opt/automation/app.py &
+start_as svc-watch python3 -u /opt/watchtower/app.py
+start_as svc-telephony python3 -u /opt/telephony/app.py

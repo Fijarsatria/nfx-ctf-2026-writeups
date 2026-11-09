@@ -1,0 +1,17 @@
+$ file reverse/Hard_02_Feistel/hard_feistel
+reverse/Hard_02_Feistel/hard_feistel: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=07ef75b61feb2bef67ee155a70783c772f166dda, for GNU/Linux 3.2.0, stripped
+
+$ stat -c '%s bytes' reverse/Hard_02_Feistel/hard_feistel
+14528 bytes
+
+$ sha256sum reverse/Hard_02_Feistel/hard_feistel
+2db9a9e254792a497cc71e64be16b35b02665e4d9d553734dff3b9dfc7e21e51  reverse/Hard_02_Feistel/hard_feistel
+
+$ md5sum reverse/Hard_02_Feistel/hard_feistel
+9ff3b4313af3f7dceedf5e0443408231  reverse/Hard_02_Feistel/hard_feistel
+
+$ ls -l reverse/Hard_02_Feistel/hard_feistel
+-rwxr-xr-x 1 bocil bocil 14528 Nov  7 12:32 reverse/Hard_02_Feistel/hard_feistel
+
+Catatan: mode awal file dari arsip challenge adalah -rw-r--r-- (tidak executable).
+chmod +x dilakukan hanya agar binary dapat dijalankan untuk verifikasi; isi file tidak berubah dan hash tetap sama.

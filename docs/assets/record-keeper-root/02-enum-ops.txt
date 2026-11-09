@@ -1,0 +1,24 @@
+Enumerasi dari shell node:
+
+$ sudo -n -l
+User node may run the following commands on ...:
+    (ops) NOPASSWD: /usr/local/bin/record-archive
+
+$ cat /usr/local/bin/record-archive
+cd "$target"; tar -czf "$out" *
+
+$ ls -l /etc/nexus
+-rw-r----- 1 root ops ... ops.creds
+-rw-r----- 1 root ops ... spool.token
+
+# /opt source: root-owned spooler /app/src/spooler.js
+# Setiap 2 detik memindai /srv/record-spool/*.job dan menjalankan:
+tar -czf /var/backups/records/<id>.tar.gz -C <target> .
+# sebagai root.
+
+Temuan:
+  - Wrapper record-archive menjalankan tar dengan glob "*" di direktori target.
+  - Nama file yang diawali "--" akan dibaca GNU tar sebagai opsi.
+  - Ini membuka tar checkpoint injection: --checkpoint-action=exec=...
+  - Spool job "target" tidak divalidasi; target=/root akan mengarsipkan /root
+    sebagai root.

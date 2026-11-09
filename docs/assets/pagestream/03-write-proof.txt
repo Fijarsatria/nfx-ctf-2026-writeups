@@ -1,0 +1,3 @@
+upload: 302 /dashboard
+read ../../pwned-pagestream.txt -> 200 'PAGESTREAM-WRITE-PROOF\n'
+read ../../etc/hostname -> 200 '79d4b7833cd4\n'

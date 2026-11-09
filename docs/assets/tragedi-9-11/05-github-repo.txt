@@ -1,0 +1,27 @@
+GitHub — PigParkerPt2/xor-operation
+===================================
+URL: https://github.com/PigParkerPt2/xor-operation
+Owner: PigParkerPt2 (id 351115424)
+Default branch: master
+HEAD: c00a353f30997e910f8992f30276ba16f5379852 (saat verifikasi 2026-11-08)
+
+Commit yang relevan:
+- df34505  add .env            -> menambahkan .env berisi flag
+- 62d5640  feat : add main.go  -> .env.example juga berisi flag
+- ea765a9  chore : deleted .env -> menghapus .env dari HEAD
+- 43de7b7  feat : add .gitignore
+- d7909fd  feat : remove config in .env.example
+- 4fe9d80  feat : add decrypt_api.go
+- 1433bb3  feat : add decrypt_service.go (file kosong)
+- c00a353  feat : change decrypt service.go
+
+Isi .env pada df34505:
+  SERVER_HOST=localhost
+  SERVER_PORT=3002
+
+  NFX{OS1NT_DU4R_D34_D0R}
+
+Isi .env.example pada 62d5640 juga memuat flag yang sama.
+
+Kesimpulan: flag tidak ada di file saat ini, tetapi tetap tersimpan di
+history git karena penghapusan file tidak menghapus objek commit lama.

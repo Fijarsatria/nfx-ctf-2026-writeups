@@ -1,0 +1,7 @@
+$ python3 -c "from pwn import *; print(ELF('reverse/Hard_03_Castaway/castaway').checksec())"
+RELRO:      Full RELRO
+Stack:      Canary found
+NX:         NX enabled
+PIE:        PIE enabled
+SHSTK:      Enabled
+IBT:        Enabled

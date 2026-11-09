@@ -1,0 +1,20 @@
+=== 1. Eksekusi normal (tanpa debugger) ===
+$ cat writeups/assets/castaway/castaway_in.txt | ./reverse/Hard_03_Castaway/castaway
+flag> Access granted.
+
+=== 2. Di bawah gdb: ptrace(PTRACE_TRACEME) gagal -> out[0] ^= 1 ===
+$ gdb -q -batch -ex 'set debuginfod enabled off' -ex 'run < writeups/assets/castaway/castaway_in.txt' --args ./reverse/Hard_03_Castaway/castaway
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.ubuntu.com>
+Enable debuginfod for this session? (y or [n]) [answered N; input not from terminal]
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+flag> Nope.
+[Inferior 1 (process 139115) exited normally]
+
+=== 3. Di bawah strace: PTRACE_TRACEME = -1 EPERM ===
+$ strace -f -e trace=ptrace ./reverse/Hard_03_Castaway/castaway < writeups/assets/castaway/castaway_in.txt
+ptrace(PTRACE_TRACEME)                  = -1 EPERM (Operation not permitted)
+flag> Nope.
++++ exited with 0 +++

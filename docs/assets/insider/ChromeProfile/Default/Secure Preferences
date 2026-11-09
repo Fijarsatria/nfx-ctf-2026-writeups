@@ -1,0 +1,89 @@
+{
+  "extensions": {
+    "settings": {
+      "mgndgikekgjfcpckkfioiaebcgkldpdb": {
+        "acknowledged": true,
+        "active_permissions": {
+          "api": [
+            "proxy",
+            "storage",
+            "tabs",
+            "webRequest",
+            "webRequestAuthProvider"
+          ],
+          "explicit_host": [
+            "<all_urls>"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": [
+            "<all_urls>"
+          ]
+        },
+        "creation_flags": 38,
+        "from_webstore": false,
+        "location": 1,
+        "manifest": {
+          "background": {
+            "service_worker": "background.js"
+          },
+          "description": "Lightweight VPN proxy. Routes browser traffic through a remote exit node.",
+          "host_permissions": [
+            "<all_urls>"
+          ],
+          "manifest_version": 3,
+          "name": "ZenVPN",
+          "permissions": [
+            "proxy",
+            "storage",
+            "tabs",
+            "webRequest",
+            "webRequestAuthProvider"
+          ],
+          "version": "2.7.1"
+        },
+        "path": "mgndgikekgjfcpckkfioiaebcgkldpdb/2.7.1_0",
+        "state": 1,
+        "was_installed_by_default": false,
+        "was_installed_by_oem": false
+      },
+      "ghbmnnjooekpmoecnnnilnnbdlolhkhi": {
+        "acknowledged": true,
+        "active_permissions": {
+          "api": [
+            "storage",
+            "unlimitedStorage"
+          ],
+          "explicit_host": [],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "creation_flags": 38,
+        "from_webstore": true,
+        "location": 1,
+        "manifest": {
+          "background": {
+            "service_worker": "background.js"
+          },
+          "description": "Edit Google Docs, Sheets and Slides offline.",
+          "host_permissions": [],
+          "manifest_version": 3,
+          "name": "Google Docs Offline",
+          "permissions": [
+            "storage",
+            "unlimitedStorage"
+          ],
+          "version": "1.92.1"
+        },
+        "path": "ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.92.1_0",
+        "state": 1,
+        "was_installed_by_default": false,
+        "was_installed_by_oem": false
+      }
+    }
+  },
+  "protection": {
+    "macs": {},
+    "recovery_method": "",
+    "super_mac": ""
+  }
+}

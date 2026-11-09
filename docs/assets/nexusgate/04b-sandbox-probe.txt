@@ -1,0 +1,8 @@
+file read: /app/data/bot -> f0f6801a74026cf1
+file read: /app/data/bo -> ERR:ERR_ACCESS_DENIED
+file read: /app/data/b -> ERR:ERR_ACCESS_DENIED
+file read: /app/data/bot1.json -> {"shard":1}
+file read: /app/data/bot1.jso -> ERR:ERR_ACCESS_DENIED
+file read: /app/data/botX -> ERR:ERR_ACCESS_DENIED
+file read: /app/data/bot1.jsonX -> ERR:ERR_ACCESS_DENIED
+file read: /app/data -> ERR:ERR_ACCESS_DENIED

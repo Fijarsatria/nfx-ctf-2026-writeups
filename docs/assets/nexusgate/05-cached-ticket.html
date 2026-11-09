@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" class="dark h-full bg-slate-950">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Service Tickets &middot; NexusGate</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    darkMode: 'class',
+    theme: {
+      extend: {
+        colors: {
+          nexus: {
+            purple: '#8b5cf6',
+            indigo: '#6366f1',
+            dark: '#030712'
+          }
+        }
+      }
+    }
+  }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Inter', sans-serif; }
+  .font-mono { font-family: 'JetBrains Mono', monospace; }
+</style>
+</head>
+<body class="h-full bg-slate-950 text-slate-100 flex flex-col">
+<header class="h-16 border-b border-slate-800/80 px-8 flex items-center justify-between bg-slate-900/60 backdrop-blur-md sticky top-0 z-40">
+  <div class="flex items-center gap-8">
+    <div class="flex items-center gap-3">
+      <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-violet-600 to-indigo-600 flex items-center justify-center font-extrabold text-white text-base shadow-lg shadow-purple-500/30">N</div>
+      <div class="text-lg font-extrabold text-white tracking-tight">Nexus<span class="text-violet-400">Gate</span></div>
+      <div class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-sm shadow-emerald-400" title="Gateway Active"></div>
+    </div>
+    <div class="flex items-center gap-1">
+         <a href="/profile" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">Vault Storage</a>
+         <a href="/audit" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">Audit Journal</a>
+         <a href="/tickets/latest" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all bg-violet-500/15 text-violet-400 border border-violet-500/30">Service Tickets</a>
+       </div>
+  </div>
+  <div class="flex items-center gap-4">
+         <div class="px-3 py-1 rounded-full text-xs font-mono bg-slate-900 border border-slate-800 text-slate-300">admin</div>
+         <a href="/logout" class="text-xs text-slate-400 hover:text-slate-200 font-medium">Sign out</a>
+       </div>
+</header>
+<main class="max-w-5xl w-full mx-auto px-6 py-10 flex-1">
+  
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <h1 class="text-2xl font-extrabold text-white tracking-tight">Service Access Tickets</h1>
+        <p class="text-sm text-slate-400 mt-1">Authorization ticket portal for internal microservices.</p>
+      </div>
+    </div>
+    <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-6 backdrop-blur-sm shadow-xl"><p class="text-sm text-slate-400 mb-4">Master service authorization ticket:</p>
+       <div class="flex items-center gap-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
+         <span class="ticket font-mono text-emerald-400 font-bold text-base tracking-wider">7476476e7700172a2e0951debf0c2e9a</span>
+         <button class="px-4 py-2 rounded-lg text-xs font-extrabold bg-gradient-to-r from-violet-600 to-indigo-600 text-white shadow-lg shadow-purple-500/20 hover:brightness-110 ml-auto" onclick="copyTicket()">Copy Ticket</button>
+       </div>
+       <meta name="nx-ticket" content="7476476e7700172a2e0951debf0c2e9a"></div>
+</main>
+<footer class="border-t border-slate-800/80 px-8 py-5 text-xs text-slate-500 flex justify-between bg-slate-900/30">
+  <span>NXCorp Infrastructure &middot; NexusGate Ingress v2.14.0</span>
+  <span>Operational &bull; Encrypted Storage</span>
+</footer>
+<script>/**
+ * NexusGate Corporate Identity Portal - Client Runtime
+ */
+function showToast(message, type = 'info') {
+  let container = document.getElementById('toast-container');
+  if (!container) {
+    container = document.createElement('div');
+    container.id = 'toast-container';
+    document.body.appendChild(container);
+  }
+
+  const toast = document.createElement('div');
+  toast.className = `toast ${type}`;
+  toast.textContent = message;
+  container.appendChild(toast);
+
+  setTimeout(() => {
+    toast.style.opacity = '0';
+    toast.style.transform = 'translateY(10px)';
+    toast.style.transition = 'all 0.3s ease';
+    setTimeout(() => toast.remove(), 300);
+  }, 3000);
+}
+
+function copyTicket() {
+  const el = document.querySelector('.ticket');
+  if (!el) return;
+  const text = el.innerText.trim();
+  navigator.clipboard.writeText(text).then(() => {
+    showToast('Master ticket copied to clipboard!', 'success');
+  }).catch(() => {
+    showToast('Failed to copy ticket.', 'error');
+  });
+}
+
+function filterAuditLogs() {
+  const input = document.getElementById('audit-search-input');
+  if (!input) return;
+  const query = input.value.toLowerCase();
+  const items = document.querySelectorAll('ul.audit li');
+  let matchCount = 0;
+
+  items.forEach(li => {
+    const text = li.innerText.toLowerCase();
+    if (text.includes(query)) {
+      li.style.display = 'flex';
+      matchCount++;
+    } else {
+      li.style.display = 'none';
+    }
+  });
+
+  const emptyMsg = document.getElementById('audit-empty-filter');
+  if (emptyMsg) {
+    emptyMsg.style.display = matchCount === 0 ? 'block' : 'none';
+  }
+}
+
+function toggleSecret(btn) {
+  const cell = btn.closest('td');
+  if (!cell) return;
+  const masked = cell.querySelector('.masked-secret');
+  const real = cell.querySelector('.real-secret');
+  if (!masked || !real) return;
+
+  const isCurrentlyHidden = real.style.display === 'none' || window.getComputedStyle(real).display === 'none';
+
+  if (isCurrentlyHidden) {
+    real.style.display = 'inline-block';
+    masked.style.display = 'none';
+    btn.textContent = 'Hide';
+  } else {
+    real.style.display = 'none';
+    masked.style.display = 'inline-block';
+    btn.textContent = 'Show';
+  }
+}
+
+function openSecretModal() {
+  const modal = document.getElementById('secret-modal');
+  if (modal) {
+    modal.style.display = 'flex';
+  }
+}
+
+function closeSecretModal() {
+  const modal = document.getElementById('secret-modal');
+  if (modal) {
+    modal.style.display = 'none';
+  }
+}
+
+// Global window assignments for inline event handlers
+window.toggleSecret = toggleSecret;
+window.openSecretModal = openSecretModal;
+window.closeSecretModal = closeSecretModal;
+window.copyTicket = copyTicket;
+window.showToast = showToast;
+window.filterAuditLogs = filterAuditLogs;
+
+document.addEventListener('DOMContentLoaded', () => {
+  const searchInput = document.getElementById('audit-search-input');
+  if (searchInput) {
+    searchInput.addEventListener('input', filterAuditLogs);
+  }
+});
+</script>
+</body>
+</html>

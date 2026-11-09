@@ -1,0 +1,5 @@
+.md-typeset table:not([class]) { font-size: .78rem; }
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td { padding: .35rem .45rem; }
+.md-typeset__table { overflow-x: auto; }
+.md-typeset img { max-width: 100%; height: auto; }

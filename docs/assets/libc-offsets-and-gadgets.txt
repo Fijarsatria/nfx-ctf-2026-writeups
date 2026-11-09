@@ -1,0 +1,72 @@
+### libc convention  /home/bocil/ctf/nfx/work/event/pwn/nfxctf-convention/src/peserta/libc.so.6
+system               0x50d70
+free                 0xa53a0
+printf               0x606f0
+open                 0x114520
+read                 0x114810
+write                0x1148b0
+__libc_start_main    0x29dc0
+gadget ['pop rdi', 'ret']             0x2a3e5
+gadget ['pop rsi', 'ret']             0x2be51
+gadget ['pop rdx', 'pop rbx', 'ret']  0x90469
+gadget ['pop rax', 'ret']             0x45eb0
+gadget ['ret']                        0x29cd6
+"/bin/sh"            0x1d8678
+
+### libc starved  /home/bocil/ctf/nfx/pwn/Starved/peserta/libc.so.6
+system               0x50d70
+free                 0xa53a0
+printf               0x606f0
+open                 0x114630
+read                 0x114920
+write                0x1149c0
+__libc_start_main    0x29dc0
+gadget ['pop rdi', 'ret']             0x2a3e5
+gadget ['pop rsi', 'ret']             0x2be51
+gadget ['pop rdx', 'pop rbx', 'ret']  0x90469
+gadget ['pop rax', 'ret']             0x45eb0
+gadget ['ret']                        0x29cd6
+"/bin/sh"            0x1d8678
+
+### libc talatah  /home/bocil/ctf/nfx/pwn/TalatahTiPeuntas/peserta/libc.so.6
+system               0x5c2e0
+free                 0xb5360
+printf               0x64080
+open                 0x127990
+read                 0x128150
+write                0x128c10
+__libc_start_main    0x2a690
+gadget ['pop rdi', 'ret']             0x11b9fa
+gadget ['pop rsi', 'ret']             0x5c067
+gadget ['pop rax', 'ret']             0xe5b47
+gadget ['ret']                        0x289fe
+"/bin/sh"            0x1db799
+
+### libc state  /home/bocil/ctf/nfx/pwn/TheForgottenState/peserta/libc.so.6
+system               0x5c2e0
+free                 0xb5360
+printf               0x64080
+open                 0x127990
+read                 0x128150
+write                0x128c10
+__libc_start_main    0x2a690
+gadget ['pop rdi', 'ret']             0x11b9fa
+gadget ['pop rsi', 'ret']             0x5c067
+gadget ['pop rax', 'ret']             0xe5b47
+gadget ['ret']                        0x289fe
+"/bin/sh"            0x1db799
+
+### libc narrowgate  /home/bocil/ctf/nfx/pwn/NarrowGate/peserta/libc.so.6
+system               0x50d70
+free                 0xa53a0
+printf               0x606f0
+open                 0x114520
+read                 0x114810
+write                0x1148b0
+__libc_start_main    0x29dc0
+gadget ['pop rdi', 'ret']             0x2a3e5
+gadget ['pop rsi', 'ret']             0x2be51
+gadget ['pop rdx', 'pop rbx', 'ret']  0x90469
+gadget ['pop rax', 'ret']             0x45eb0
+gadget ['ret']                        0x29cd6
+"/bin/sh"            0x1d8678

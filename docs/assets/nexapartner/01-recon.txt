@@ -1,0 +1,189 @@
+=== GET / ===
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 3719
+ETag: W/"e87-1iOENl4eh++aV57QSp32VL4IiVY"
+Date: Sun, 08 Nov 2026 01:19:20 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Partner portal — NexaPartner</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="announcement">NexaPartner · Reseller and partner portal · Settlement runs on the 5th of each month</div>
+  <nav class="navbar">
+    <a class="brand" href="/">Nexa<span>Partner</span></a>
+    <div class="nav-links">
+      
+    </div>
+    <div class="nav-actions">
+      
+        <a href="/login">Partner login</a>
+        <a class="btn btn-primary" href="/login">Open portal</a>
+      
+    </div>
+  </nav>
+
+  <main class="container">
+
+
+<section class="hero">
+  <div class="hero-copy">
+    <span class="eyebrow">Partner program</span>
+    <h1>Grow your business with the NexaCommerce partner network.</h1>
+    <p>NexaPartner gives resellers and channel partners the tools to track referrals, manage commissions, configure webhooks, and integrate with the NexaCommerce platform.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="/login">Sign in to the portal</a>
+      <a class="btn btn-ghost" href="/login">View demo access</a>
+    </div>
+    <div class="hero-stats">
+      <div><strong>3</strong><span>Active partners</span></div>
+      <div><strong>138</strong><span>Referrals this quarter</span></div>
+      <div><strong>$4676.10</strong><span>Commission paid</span></div>
+    </div>
+  </div>
+  <div class="hero-panel">
+    <div class="hero-card">
+      <span class="card-kicker">Partner performance</span>
+      <h2>Gold tier benefits</h2>
+      <p>Priority partner support, co-marketing budget, and an 8% referral commission on qualifying orders.</p>
+      <div class="tier-row">
+        <span>Silver</span>
+        <span>Gold</span>
+        <span>Platinum</span>
+      </div>
+      <div class="tier-meter"><span style="width: 68%"></span></div>
+      <small>68% of the way to Platinum tier.</small>
+    </div>
+    <div class="hero-mini">
+      <div><strong>8%</strong><span>Commission rate</span></div>
+      <div><strong>98.7%</strong><span>Webhook delivery</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="feature-grid">
+  <article class="feature-card">
+    <span class="feature-icon">REF</span>
+    <h3>Referral tracking</h3>
+    <p>See every referred order and the commission it generates, updated as orders settle.</p>
+  </article>
+  <article class="feature-card">
+    <span class="feature-icon">API</span>
+    <h3>Partner API</h3>
+    <p>Integrate order events, commission reports, and catalog data into your own systems.</p>
+  </article>
+  <article class="feature-card">
+    <span class="feature-icon">HOOK</span>
+    <h3>Webhook delivery</h3>
+    <p>Configure endpoints for order, refund, and settlement events with retry visibility.</p>
+  </article>
+</section>
+
+<section class="panel">
+  <div class="panel-head">
+    <div>
+      <span class="eyebrow">Program notice</span>
+      <h2>Q4 partner settlement calendar</h2>
+    </div>
+    <span class="pill pill-info">Finance</span>
+  </div>
+  <p class="muted">September commissions settle on 5 October. Partners with an outstanding tax form will see a hold on the payout until the document is approved.</p>
+</section>
+
+  </main>
+
+=== GET /login ===
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 2499
+ETag: W/"9c3-1+JVsYZhtItnGo39e3J4CQSOfws"
+Date: Sun, 08 Nov 2026 01:19:20 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Partner login — NexaPartner</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="announcement">NexaPartner · Reseller and partner portal · Settlement runs on the 5th of each month</div>
+  <nav class="navbar">
+    <a class="brand" href="/">Nexa<span>Partner</span></a>
+    <div class="nav-links">
+      
+    </div>
+    <div class="nav-actions">
+      
+        <a href="/login">Partner login</a>
+        <a class="btn btn-primary" href="/login">Open portal</a>
+      
+    </div>
+  </nav>
+
+  <main class="container">
+
+
+<section class="auth-grid">
+  <div class="auth-copy">
+    <span class="eyebrow">Partner access</span>
+    <h1>Sign in to your NexaCommerce partner workspace.</h1>
+    <p class="muted">Manage referrals, commissions, API keys, and webhook settings from one portal.</p>
+    <div class="auth-note">
+      <strong>Demo partner account</strong>
+      <p><code>partner@nexapartner.test</code> / <code>partner1234</code></p>
+    </div>
+    <ul class="check-list">
+      <li>Track referrals and commission</li>
+      <li>Manage API keys and webhooks</li>
+      <li>Download settlement reports</li>
+    </ul>
+  </div>
+  <div class="auth-card">
+    <h2>Partner login</h2>
+    <p class="muted">Use the email registered with your partner account.</p>
+    
+    <form method="post" action="/login">
+      <label class="field">
+        <span>Partner email</span>
+        <input type="email" name="email" value="" placeholder="you@partner.example" required>
+      </label>
+      <label class="field">
+        <span>Password</span>
+        <input type="password" name="password" placeholder="••••••••" required>
+      </label>
+      <button class="btn btn-primary btn-block" type="submit">Sign in</button>
+    </form>
+    <p class="auth-foot">Need access? Contact <a href="mailto:partners@nexapartner.test">partners@nexapartner.test</a></p>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>NexaPartner</strong>
+      <p>Partner and reseller operations for the NexaCommerce network.</p>
+    </div>
+    <div class="footer-links">
+      <a href="/">Portal home</a>
+      <a href="/login">Partner login</a>
+      <a href="/api-docs">API documentation</a>
+    </div>
+    <p class="copyright">&copy; 2024 NexaPartner. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+

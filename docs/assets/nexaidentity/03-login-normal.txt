@@ -1,0 +1,94 @@
+=== normal login ===
+HTTP/1.1 302 Found
+X-Powered-By: Express
+Location: /dashboard
+Vary: Accept
+Content-Type: text/plain; charset=utf-8
+Content-Length: 32
+Set-Cookie: connect.sid=s%3Aa7MugPNlpgBeuKGabUSkNRXSHcVwpBo8.aU3hEa0Hnh80zMXlDkgc%2FjcfBUZSRVUOKSprOZGC7Tw; Path=/; HttpOnly; SameSite=Lax
+Date: Sun, 08 Nov 2026 01:18:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+Found. Redirecting to /dashboard
+=== /directory with session ===
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 6657
+ETag: W/"1a01-r5OxWdbh2Z2Q2MjlxNDT7SxHj4w"
+Date: Sun, 08 Nov 2026 01:18:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Directory — NexaIdentity</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="announcement">NexaIdentity · Employee directory · Profile changes sync every 15 minutes</div>
+  <nav class="navbar">
+    <a class="brand" href="/">Nexa<span>Identity</span></a>
+    <div class="nav-links">
+      
+        <a href="/dashboard">Dashboard</a>
+        <a href="/directory">Directory</a>
+        
+      
+    </div>
+    <div class="nav-actions">
+      
+        <span class="nav-user">Raka Pratama · Platform Engineering</span>
+        <a class="btn btn-ghost" href="/logout">Sign out</a>
+      
+    </div>
+  </nav>
+
+  <main class="container">
+
+
+<section class="page-head">
+  <div>
+    <span class="eyebrow">People directory</span>
+    <h1>Find a colleague</h1>
+    <p>Search by name and open a profile to see role, team, and reporting details.</p>
+  </div>
+</section>
+
+<section class="panel">
+  <form class="search-bar" method="get" action="/directory">
+    <input type="search" name="q" value="" placeholder="Search by employee name…" aria-label="Search by employee name">
+    <button class="btn btn-primary" type="submit">Search</button>
+    
+  </form>
+  
+
+  <div class="directory-meta">
+    <span><strong>12</strong> people</span>
+    <span class="muted">11 departments</span>
+  </div>
+
+  
+    <div class="people-grid people-grid-wide">
+      
+        <a class="person-card person-card-lg" href="/directory/1">
+          <span class="avatar">NK</span>
+          <div class="person-body">
+            <strong>Nadia Kusuma</strong>
+            <span>Head of People Operations</span>
+            <small>People Operations · Jakarta</small>
+            <small class="muted">admin@nexaidentity.test</small>
+          </div>
+        </a>
+      
+        <a class="person-card person-card-lg" href="/directory/2">
+          <span class="avatar">RP</span>
+          <div class="person-body">
+            <strong>Raka Pratama</strong>
+            <span>Platform Engineer</span>
+            <small>Platform Engineering · Bandung</small>
+            <small class="muted">employee@nexaidentity.test</small>

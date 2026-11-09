@@ -1,0 +1,46 @@
+=== openssl x509
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            62:7e:63:91:c5:a2:bf:d7:e1:07:81:57:b7:c3:40:50:78:92:a2:e0
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN = tomoyo.local
+        Validity
+            Not Before: Aug 21 06:09:15 2026 GMT
+            Not After : Aug 21 06:09:15 2027 GMT
+        Subject: CN = tomoyo.local
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:85:34:f8:d6:d3:47:e5:96:05:87:a7:13:aa:11:
+                    d4:b0:e5:41:cf:94:b6:5f:a1:62:9a:0d:04:7b:f7:
+                    43:41:10:d8:b7:a9:88:84:47:74:0e:dd:c9:88:fd:
+                    36:06:ae:fb:c0:4e:a2:2d:d1:67:83:39:91:42:c9:
+                    22:74:d3:06:9e:71:55:10:ce:4b:08:81:80:76:0a:
+                    df:fd:28:2f:48:78:49:ef:cc:3d:a5:89:3a:26:c7:
+                    7c:1c:49:38:15:af:b7:31:37:8d:c0:0f:55:f2:08:
+                    63:74:e8:51:15:fd:45:ad:01:b9:d9:bb:32:63:f9:
+                    08:b6:95:31:11:4f:16:38:45
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                39:68:42:81:DD:E1:D7:53:C8:70:76:5A:65:42:A3:FD:18:C6:4F:7E
+            X509v3 Authority Key Identifier: 
+                39:68:42:81:DD:E1:D7:53:C8:70:76:5A:65:42:A3:FD:18:C6:4F:7E
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        56:cd:69:a2:ac:41:1b:fa:c7:34:4d:b9:40:b7:53:da:33:39:
+        22:26:9d:02:82:ff:f2:c6:a0:90:22:09:82:15:e0:ab:70:c4:
+        76:1f:6d:9c:d1:91:52:65:fb:16:16:f2:e6:25:4c:1c:57:ed:
+        9e:f6:c8:ba:ad:a0:01:1e:3a:ef:0b:cb:6f:fa:b7:0b:ed:14:
+        a3:20:c3:f9:16:3e:6a:4d:a7:d9:bf:5e:7b:2c:62:79:8d:d5:
+        fc:ac:a1:8a:e2:47:b7:da:c2:89:06:0d:fb:c8:24:3a:3c:ca:
+        1e:87:8d:6a:45:9f:a7:7f:67:bc:35:92:75:2a:31:e7:2c:0d:
+        7b:14
+
+=== modulus
+Modulus=8534F8D6D347E5960587A713AA11D4B0E541CF94B65FA1629A0D047BF7434110D8B7A9888447740EDDC988FD3606AEFBC04EA22DD16783399142C92274D3069E715510CE4B088180760ADFFD282F487849EFCC3DA5893A26C77C1C493815AFB731378DC00F55F2086374E85115FD45AD01B9D9BB3263F908B69531114F163845

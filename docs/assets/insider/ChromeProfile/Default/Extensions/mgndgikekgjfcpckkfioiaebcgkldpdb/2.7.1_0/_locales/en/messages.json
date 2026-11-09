@@ -1,0 +1,8 @@
+{
+  "extName": {
+    "message": "ZenVPN"
+  },
+  "extDesc": {
+    "message": "Lightweight VPN proxy. Routes browser traffic through a remote exit node."
+  }
+}

@@ -1,0 +1,4 @@
+flag_file : /home/bocil/ctf/nfx/flags/pwn/TheForgottenState.txt
+flag      : NFX{ElC0nloe_Forg0tten_StaticcD42#}
+sha256    : 84f62d52c9aee5a831ebc7d0c157f1f2def1c4e5ce11efcf16b713644b2f3a1d  /home/bocil/ctf/nfx/flags/pwn/TheForgottenState.txt
+status    : VERIFIED platform (writeups/FLAGS.md)

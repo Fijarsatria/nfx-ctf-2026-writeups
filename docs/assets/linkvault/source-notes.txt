@@ -1,0 +1,145 @@
+### handlers.go: blockedHosts + guardedFetch
+var blockedHosts = map[string]bool{
+	"admin.internal": true,
+	"localhost":      true,
+	"127.0.0.1":      true,
+}
+
+var httpClient = &http.Client{Timeout: 8 * time.Second}
+
+func guardedFetch(rawURL string) (string, error) {
+	u, err := url.Parse(rawURL)
+	if err != nil {
+		return "", errors.New("invalid url")
+	}
+	if u.Scheme != "http" && u.Scheme != "https" {
+		return "", errors.New("unsupported scheme")
+	}
+	host := strings.ToLower(u.Hostname())
+	if blockedHosts[host] {
+		return "", errors.New("host is not allowed")
+	}
+	pretty, _ := idna.ToUnicode(host)
+	port := u.Port()
+	if port != "" {
+		u.Host = net.JoinHostPort(pretty, port)
+	} else {
+		u.Host = pretty
+	}
+	resp, err := httpClient.Get(u.String())
+	if err != nil {
+		return "", fmt.Errorf("fetch failed: %v", err)
+	}
+	defer resp.Body.Close()
+	body, _ := io.ReadAll(io.LimitReader(resp.Body, 4096))
+	return string(body), nil
+}
+
+### handlers.go: submit/filter
+	if r.Method == "POST" {
+		r.ParseForm()
+		rawURL := r.FormValue("url")
+		filter := r.FormValue("filter")
+		if !safeFilter.MatchString(filter) {
+			tmplSubmit.ExecuteTemplate(w, "layout.html", PageData{User: user, ActiveTab: "submit", Err: "Content policy tag contains unsupported characters."})
+			return
+		}
+		preview, err := guardedFetch(rawURL)
+		if err != nil {
+			tmplSubmit.ExecuteTemplate(w, "layout.html", PageData{User: user, ActiveTab: "submit", Err: err.Error()})
+			return
+		}
+		title := strings.TrimSpace(preview)
+		if strings.HasPrefix(title, "{") {
+			title = "Ingested Gateway Response"
+		} else if len(title) > 80 {
+			title = title[:80]
+		}
+		if title == "" {
+			title = "Captured Ingestion"
+		}
+		addItem(title, filter, user, rawURL, preview)
+		tmplSubmit.ExecuteTemplate(w, "layout.html", PageData{User: user, ActiveTab: "submit", Preview: preview, Err: "Queued for moderation review."})
+
+### internal.go
+func startInternal() {
+	mux := http.NewServeMux()
+
+	mux.HandleFunc("/internal/import", func(w http.ResponseWriter, r *http.Request) {
+		ip, _, err := net.SplitHostPort(r.RemoteAddr)
+		if err != nil || (ip != "127.0.0.1" && ip != "::1") {
+			http.Error(w, "denied", http.StatusForbidden)
+			return
+		}
+		filter := r.URL.Query().Get("filter")
+		title := r.URL.Query().Get("title")
+		if filter == "" {
+			http.Error(w, `{"err":"filter required"}`, http.StatusBadRequest)
+			return
+		}
+		internalAddItem(title, filter)
+		w.Header().Set("Content-Type", "application/json")
+		fmt.Fprintf(w, `{"ok":true,"queued":true,"source":"crawler"}`)
+	})
+
+	log.Println("[linkvault] internal crawler API on 127.0.0.1:8081")
+	go http.ListenAndServe("127.0.0.1:8081", mux)
+	log.Println("[linkvault] internal crawler API on [::1]:8081")
+	log.Fatal(http.ListenAndServe("[::1]:8081", mux))
+
+### store.go safeFilter
+	adminSID = randHex(16)
+	itemSeq  = 1000
+	itemMu   sync.Mutex
+)
+
+var safeFilter = regexp.MustCompile(`^[a-zA-Z0-9 ._\-*+]{0,64}$`)
+
+func randHex(n int) string {
+	b := make([]byte, n)
+	rand.Read(b)
+	return hex.EncodeToString(b)
+}
+
+### moderation.html script block
+39-
+40-  <div class="max-w-5xl mx-auto px-6 py-10">
+41-    <h1 class="text-xl font-bold text-white mb-1">Moderation Queue</h1>
+42:    <p class="text-sm text-gray-500 mb-6">Content policy prechecks run client-side for each queued item.</p>
+43-
+44-    {{range .Items}}
+45-    <div class="mb-4 rounded-xl bg-gray-900/60 border border-gray-800/60 p-5">
+46-      <h3 class="text-sm font-semibold text-gray-200 mb-1">{{.Title}}</h3>
+47:      <div class="text-xs text-gray-500 mb-2">policy precheck</div>
+48-      <script>if (true) { /{{.Filter}}/g.test("x") }</script>
+49-    </div>
+50-    {{else}}
+
+### bot.go
+func reviewCycle() {
+	log.Printf("[bot] review cycle starting")
+	ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
+	defer cancel()
+
+	allocCtx, allocCancel := chromedp.NewExecAllocator(ctx,
+		chromedp.ExecPath("/usr/bin/chromium"),
+		chromedp.Flag("headless", true),
+		chromedp.Flag("no-sandbox", true),
+		chromedp.Flag("disable-gpu", true),
+		chromedp.Flag("disable-dev-shm-usage", true),
+	)
+	defer allocCancel()
+	cctx, ccancel := chromedp.NewContext(allocCtx,
+		chromedp.WithLogf(func(format string, args ...interface{}) {}),
+	)
+	defer ccancel()
+
+	if err := chromedp.Run(cctx,
+		network.SetCookie("session", adminSID).WithDomain("127.0.0.1").WithPath("/"),
+		chromedp.Navigate("http://127.0.0.1:80/moderation"),
+		chromedp.Sleep(5*time.Second),
+	); err != nil {
+		log.Printf("[bot] review error: %v", err)
+		return
+	}
+	log.Printf("[bot] moderation reviewed")

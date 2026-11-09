@@ -1,0 +1,16 @@
+login 302
+save 302
+test 302
+no ENUM2 capture; latest:
+--- 2026-11-08 01:21:39 SSTI3
+uid=0(root) gid=0(root) groups=0(root)
+
+--- 2026-11-08 01:21:39 SSTI3
+uid=0(root) gid=0(root) groups=0(root)
+
+--- 2026-11-08 01:21:34 SSTI2
+uid=0(root) gid=0(root) groups=0(root)
+
+--- 2026-11-08 01:21:34 SSTI2
+uid=0(root) gid=0(root) groups=0(root)
+

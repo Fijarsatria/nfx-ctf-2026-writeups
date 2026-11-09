@@ -1,0 +1,5 @@
+A (NATO)      : N4T0PH0N3T1C1N1
+B (hex)       : C0mbO_H3X_
+C (float32 BE): fl0At_b4r4ng
+concatenated  : N4T0PH0N3T1C1N1C0mbO_H3X_fl0At_b4r4ng
+with separators: N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng

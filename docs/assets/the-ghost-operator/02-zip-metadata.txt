@@ -1,0 +1,39 @@
+== sha256 ==
+66eb20754ea741fe76909c982977a026b30e5d32d2bb0982e0ea557567dfbf5c  osint/investigation.zip
+
+== file ==
+osint/investigation.zip: Zip archive data, at least v2.0 to extract, compression method=deflate
+
+== zip list ==
+Archive:  osint/investigation.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+      151  2026-10-26 01:48   investigation/IR_MEMO.md
+       58  2026-10-26 01:48   investigation/.git/COMMIT_EDITMSG
+      236  2026-10-26 01:48   investigation/.git/config
+       73  2026-10-26 01:48   investigation/.git/description
+       21  2026-10-26 01:48   investigation/.git/HEAD
+      145  2026-10-26 01:48   investigation/.git/index
+      478  2026-10-26 01:48   investigation/.git/hooks/applypatch-msg.sample
+      896  2026-10-26 01:48   investigation/.git/hooks/commit-msg.sample
+     4726  2026-10-26 01:48   investigation/.git/hooks/fsmonitor-watchman.sample
+      189  2026-10-26 01:48   investigation/.git/hooks/post-update.sample
+      424  2026-10-26 01:48   investigation/.git/hooks/pre-applypatch.sample
+     1649  2026-10-26 01:48   investigation/.git/hooks/pre-commit.sample
+      416  2026-10-26 01:48   investigation/.git/hooks/pre-merge-commit.sample
+     1374  2026-10-26 01:48   investigation/.git/hooks/pre-push.sample
+     4898  2026-10-26 01:48   investigation/.git/hooks/pre-rebase.sample
+      544  2026-10-26 01:48   investigation/.git/hooks/pre-receive.sample
+     1492  2026-10-26 01:48   investigation/.git/hooks/prepare-commit-msg.sample
+     2783  2026-10-26 01:48   investigation/.git/hooks/push-to-checkout.sample
+     2308  2026-10-26 01:48   investigation/.git/hooks/sendemail-validate.sample
+     3650  2026-10-26 01:48   investigation/.git/hooks/update.sample
+      240  2026-10-26 01:48   investigation/.git/info/exclude
+      228  2026-10-26 01:49   investigation/.git/logs/HEAD
+      228  2026-10-26 01:49   investigation/.git/logs/refs/heads/main
+      140  2026-10-26 01:48   investigation/.git/objects/74/27cd4594c9fb7ba2707da31c9268603eaa52c0
+       55  2026-10-26 01:48   investigation/.git/objects/9c/66f5f6c7a0e9d97984a6ee7d14d3aaab7c7922
+      833  2026-10-26 01:49   investigation/.git/objects/d2/627a7e85c19332bf5d36081ac2e05577a2cdba
+       41  2026-10-26 01:49   investigation/.git/refs/heads/main
+---------                     -------
+    28276                     27 files

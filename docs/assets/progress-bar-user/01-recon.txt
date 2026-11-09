@@ -1,0 +1,27 @@
+NFX CTF 2026 — Progress Bar (User)
+Target: 10.10.20.22 (accessed from bastion 10.10.20.10)
+Primary source: flags/b2r/ProgressBar.NOTES.md
+
+[REKONSTRUKSI] Perintah triage awal (raw nmap tidak diarsipkan):
+    nmap -Pn -sV -p- --min-rate 2000 10.10.20.22
+    curl -sS -i http://10.10.20.22/
+    curl -sS -i http://10.10.20.22/upload.php
+
+Stack yang terdokumentasi:
+  - Apache prefork + mod_php
+  - PHP 8.4.26 (rentan CVE-2026-109618 / PHP2Shell; fixed 8.4.27)
+  - display_errors=On
+  - memory_limit=8M
+  - post_max_size=64M
+  - session.upload_progress.enabled=On
+  - satu worker prefork
+  - /upload.php adalah form upload multipart
+  - /out/ dapat diakses via web dan writable oleh www-data
+
+Service loopback (tidak terekspos langsung dari bastion):
+  - 127.0.0.1:3000 watchtower
+  - 127.0.0.1:8080 telephony UCP
+  - 127.0.0.1:9000 automation (berjalan sebagai root)
+
+Catatan: /home/deploy ber-mode 0711 dan user.txt milik deploy:deploy mode 400,
+sehingga www-data tidak dapat membacanya langsung.

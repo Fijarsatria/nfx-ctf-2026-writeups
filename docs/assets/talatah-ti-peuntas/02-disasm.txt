@@ -1,0 +1,480 @@
+===== op_parse =====
+
+/home/bocil/ctf/nfx/pwn/TalatahTiPeuntas/peserta/talatah:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+Disassembly of section .plt:
+
+Disassembly of section .plt.sec:
+
+Disassembly of section .text:
+
+000000000040150d <op_parse>:
+  40150d:	f3 0f 1e fa          	endbr64
+  401511:	55                   	push   rbp
+  401512:	48 89 e5             	mov    rbp,rsp
+  401515:	48 81 ec 60 04 00 00 	sub    rsp,0x460
+  40151c:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+  401523:	00 00 
+  401525:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+  401529:	31 c0                	xor    eax,eax
+  40152b:	8b 05 ef 2b 00 00    	mov    eax,DWORD PTR [rip+0x2bef]        # 404120 <nnodes>
+  401531:	83 f8 0f             	cmp    eax,0xf
+  401534:	7e 14                	jle    40154a <op_parse+0x3d>
+  401536:	48 8d 05 e3 0a 00 00 	lea    rax,[rip+0xae3]        # 402020 <_IO_stdin_used+0x20>
+  40153d:	48 89 c7             	mov    rdi,rax
+  401540:	e8 91 fd ff ff       	call   4012d6 <tulis>
+  401545:	e9 47 03 00 00       	jmp    401891 <op_parse+0x384>
+  40154a:	48 8d 05 e5 0a 00 00 	lea    rax,[rip+0xae5]        # 402036 <_IO_stdin_used+0x36>
+  401551:	48 89 c7             	mov    rdi,rax
+  401554:	b8 00 00 00 00       	mov    eax,0x0
+  401559:	e8 02 fc ff ff       	call   401160 <printf@plt>
+  40155e:	48 8d 85 d0 fb ff ff 	lea    rax,[rbp-0x430]
+  401565:	be 20 00 00 00       	mov    esi,0x20
+  40156a:	48 89 c7             	mov    rdi,rax
+  40156d:	e8 97 fd ff ff       	call   401309 <baca_baris>
+  401572:	48 85 c0             	test   rax,rax
+  401575:	0f 84 15 03 00 00    	je     401890 <op_parse+0x383>
+  40157b:	48 8d 85 d0 fb ff ff 	lea    rax,[rbp-0x430]
+  401582:	48 89 c7             	mov    rdi,rax
+  401585:	e8 46 fc ff ff       	call   4011d0 <atoi@plt>
+  40158a:	89 85 b0 fb ff ff    	mov    DWORD PTR [rbp-0x450],eax
+  401590:	83 bd b0 fb ff ff 17 	cmp    DWORD PTR [rbp-0x450],0x17
+  401597:	7e 0c                	jle    4015a5 <op_parse+0x98>
+  401599:	81 bd b0 fb ff ff 00 	cmp    DWORD PTR [rbp-0x450],0x400
+  4015a0:	04 00 00 
+  4015a3:	7e 1e                	jle    4015c3 <op_parse+0xb6>
+  4015a5:	48 8d 05 9c 0a 00 00 	lea    rax,[rip+0xa9c]        # 402048 <_IO_stdin_used+0x48>
+  4015ac:	be 00 04 00 00       	mov    esi,0x400
+  4015b1:	48 89 c7             	mov    rdi,rax
+  4015b4:	b8 00 00 00 00       	mov    eax,0x0
+  4015b9:	e8 a2 fb ff ff       	call   401160 <printf@plt>
+  4015be:	e9 ce 02 00 00       	jmp    401891 <op_parse+0x384>
+  4015c3:	48 8d 05 a8 0a 00 00 	lea    rax,[rip+0xaa8]        # 402072 <_IO_stdin_used+0x72>
+  4015ca:	48 89 c7             	mov    rdi,rax
+  4015cd:	b8 00 00 00 00       	mov    eax,0x0
+  4015d2:	e8 89 fb ff ff       	call   401160 <printf@plt>
+  4015d7:	8b 85 b0 fb ff ff    	mov    eax,DWORD PTR [rbp-0x450]
+  4015dd:	48 63 d0             	movsxd rdx,eax
+  4015e0:	48 8d 85 f0 fb ff ff 	lea    rax,[rbp-0x410]
+  4015e7:	48 89 d6             	mov    rsi,rdx
+  4015ea:	48 89 c7             	mov    rdi,rax
+  4015ed:	e8 bd fd ff ff       	call   4013af <baca_persis>
+  4015f2:	85 c0                	test   eax,eax
+  4015f4:	75 14                	jne    40160a <op_parse+0xfd>
+  4015f6:	48 8d 05 7e 0a 00 00 	lea    rax,[rip+0xa7e]        # 40207b <_IO_stdin_used+0x7b>
+  4015fd:	48 89 c7             	mov    rdi,rax
+  401600:	e8 d1 fc ff ff       	call   4012d6 <tulis>
+  401605:	e9 87 02 00 00       	jmp    401891 <op_parse+0x384>
+  40160a:	48 8d 0d 88 0a 00 00 	lea    rcx,[rip+0xa88]        # 402099 <_IO_stdin_used+0x99>
+  401611:	48 8d 85 f0 fb ff ff 	lea    rax,[rbp-0x410]
+  401618:	ba 04 00 00 00       	mov    edx,0x4
+  40161d:	48 89 ce             	mov    rsi,rcx
+  401620:	48 89 c7             	mov    rdi,rax
+  401623:	e8 68 fb ff ff       	call   401190 <memcmp@plt>
+  401628:	85 c0                	test   eax,eax
+  40162a:	74 14                	je     401640 <op_parse+0x133>
+  40162c:	48 8d 05 6b 0a 00 00 	lea    rax,[rip+0xa6b]        # 40209e <_IO_stdin_used+0x9e>
+  401633:	48 89 c7             	mov    rdi,rax
+  401636:	e8 9b fc ff ff       	call   4012d6 <tulis>
+  40163b:	e9 51 02 00 00       	jmp    401891 <op_parse+0x384>
+  401640:	48 8d 85 f0 fb ff ff 	lea    rax,[rbp-0x410]
+  401647:	48 83 c0 08          	add    rax,0x8
+  40164b:	48 89 c7             	mov    rdi,rax
+  40164e:	e8 f5 fd ff ff       	call   401448 <be32>
+  401653:	89 85 b4 fb ff ff    	mov    DWORD PTR [rbp-0x44c],eax
+  401659:	8b 85 b0 fb ff ff    	mov    eax,DWORD PTR [rbp-0x450]
+  40165f:	39 85 b4 fb ff ff    	cmp    DWORD PTR [rbp-0x44c],eax
+  401665:	74 27                	je     40168e <op_parse+0x181>
+  401667:	8b 95 b0 fb ff ff    	mov    edx,DWORD PTR [rbp-0x450]
+  40166d:	8b 85 b4 fb ff ff    	mov    eax,DWORD PTR [rbp-0x44c]
+  401673:	48 8d 0d 46 0a 00 00 	lea    rcx,[rip+0xa46]        # 4020c0 <_IO_stdin_used+0xc0>
+  40167a:	89 c6                	mov    esi,eax
+  40167c:	48 89 cf             	mov    rdi,rcx
+  40167f:	b8 00 00 00 00       	mov    eax,0x0
+  401684:	e8 d7 fa ff ff       	call   401160 <printf@plt>
+  401689:	e9 03 02 00 00       	jmp    401891 <op_parse+0x384>
+  40168e:	48 8d 85 f0 fb ff ff 	lea    rax,[rbp-0x410]
+  401695:	48 83 c0 0c          	add    rax,0xc
+  401699:	48 89 c7             	mov    rdi,rax
+  40169c:	e8 a7 fd ff ff       	call   401448 <be32>
+  4016a1:	89 85 b8 fb ff ff    	mov    DWORD PTR [rbp-0x448],eax
+  4016a7:	83 bd b8 fb ff ff 00 	cmp    DWORD PTR [rbp-0x448],0x0
+  4016ae:	74 09                	je     4016b9 <op_parse+0x1ac>
+  4016b0:	83 bd b8 fb ff ff 40 	cmp    DWORD PTR [rbp-0x448],0x40
+  4016b7:	76 1e                	jbe    4016d7 <op_parse+0x1ca>
+  4016b9:	48 8d 05 3a 0a 00 00 	lea    rax,[rip+0xa3a]        # 4020fa <_IO_stdin_used+0xfa>
+  4016c0:	be 40 00 00 00       	mov    esi,0x40
+  4016c5:	48 89 c7             	mov    rdi,rax
+  4016c8:	b8 00 00 00 00       	mov    eax,0x0
+  4016cd:	e8 8e fa ff ff       	call   401160 <printf@plt>
+  4016d2:	e9 ba 01 00 00       	jmp    401891 <op_parse+0x384>
+  4016d7:	48 8d 85 f0 fb ff ff 	lea    rax,[rbp-0x410]
+  4016de:	48 83 c0 10          	add    rax,0x10
+  4016e2:	48 89 c7             	mov    rdi,rax
+  4016e5:	e8 31 fd ff ff       	call   40141b <be16>
+  4016ea:	66 89 85 ac fb ff ff 	mov    WORD PTR [rbp-0x454],ax
+  4016f1:	66 83 bd ac fb ff ff 	cmp    WORD PTR [rbp-0x454],0x1
+  4016f8:	01 
+  4016f9:	74 22                	je     40171d <op_parse+0x210>
+  4016fb:	0f b7 85 ac fb ff ff 	movzx  eax,WORD PTR [rbp-0x454]
+  401702:	48 8d 15 0f 0a 00 00 	lea    rdx,[rip+0xa0f]        # 402118 <_IO_stdin_used+0x118>
+  401709:	89 c6                	mov    esi,eax
+  40170b:	48 89 d7             	mov    rdi,rdx
+  40170e:	b8 00 00 00 00       	mov    eax,0x0
+  401713:	e8 48 fa ff ff       	call   401160 <printf@plt>
+  401718:	e9 74 01 00 00       	jmp    401891 <op_parse+0x384>
+  40171d:	48 8d 85 f0 fb ff ff 	lea    rax,[rbp-0x410]
+  401724:	48 83 c0 12          	add    rax,0x12
+  401728:	48 89 c7             	mov    rdi,rax
+  40172b:	e8 eb fc ff ff       	call   40141b <be16>
+  401730:	66 89 85 ae fb ff ff 	mov    WORD PTR [rbp-0x452],ax
+  401737:	0f b7 85 ae fb ff ff 	movzx  eax,WORD PTR [rbp-0x452]
+  40173e:	83 c0 14             	add    eax,0x14
+  401741:	39 85 b4 fb ff ff    	cmp    DWORD PTR [rbp-0x44c],eax
+  401747:	73 14                	jae    40175d <op_parse+0x250>
+  401749:	48 8d 05 f8 09 00 00 	lea    rax,[rip+0x9f8]        # 402148 <_IO_stdin_used+0x148>
+  401750:	48 89 c7             	mov    rdi,rax
+  401753:	e8 7e fb ff ff       	call   4012d6 <tulis>
+  401758:	e9 34 01 00 00       	jmp    401891 <op_parse+0x384>
+  40175d:	8b 05 bd 29 00 00    	mov    eax,DWORD PTR [rip+0x29bd]        # 404120 <nnodes>
+  401763:	89 85 bc fb ff ff    	mov    DWORD PTR [rbp-0x444],eax
+  401769:	8b 85 b8 fb ff ff    	mov    eax,DWORD PTR [rbp-0x448]
+  40176f:	48 89 c7             	mov    rdi,rax
+  401772:	e8 39 fa ff ff       	call   4011b0 <malloc@plt>
+  401777:	48 89 85 c0 fb ff ff 	mov    QWORD PTR [rbp-0x440],rax
+  40177e:	bf 20 00 00 00       	mov    edi,0x20
+  401783:	e8 28 fa ff ff       	call   4011b0 <malloc@plt>
+  401788:	48 89 85 c8 fb ff ff 	mov    QWORD PTR [rbp-0x438],rax
+  40178f:	48 83 bd c0 fb ff ff 	cmp    QWORD PTR [rbp-0x440],0x0
+  401796:	00 
+  401797:	74 0a                	je     4017a3 <op_parse+0x296>
+  401799:	48 83 bd c8 fb ff ff 	cmp    QWORD PTR [rbp-0x438],0x0
+  4017a0:	00 
+  4017a1:	75 14                	jne    4017b7 <op_parse+0x2aa>
+  4017a3:	48 8d 05 bf 09 00 00 	lea    rax,[rip+0x9bf]        # 402169 <_IO_stdin_used+0x169>
+  4017aa:	48 89 c7             	mov    rdi,rax
+  4017ad:	e8 24 fb ff ff       	call   4012d6 <tulis>
+  4017b2:	e9 da 00 00 00       	jmp    401891 <op_parse+0x384>
+  4017b7:	48 8b 85 c8 fb ff ff 	mov    rax,QWORD PTR [rbp-0x438]
+  4017be:	48 8b 95 c0 fb ff ff 	mov    rdx,QWORD PTR [rbp-0x440]
+  4017c5:	48 89 50 18          	mov    QWORD PTR [rax+0x18],rdx
+  4017c9:	0f b7 95 ae fb ff ff 	movzx  edx,WORD PTR [rbp-0x452]
+  4017d0:	48 8b 85 c8 fb ff ff 	mov    rax,QWORD PTR [rbp-0x438]
+  4017d7:	89 50 10             	mov    DWORD PTR [rax+0x10],edx
+  4017da:	48 8b 85 c8 fb ff ff 	mov    rax,QWORD PTR [rbp-0x438]
+  4017e1:	c7 40 14 00 00 00 00 	mov    DWORD PTR [rax+0x14],0x0
+  4017e8:	48 8b 85 c8 fb ff ff 	mov    rax,QWORD PTR [rbp-0x438]
+  4017ef:	8b 95 bc fb ff ff    	mov    edx,DWORD PTR [rbp-0x444]
+  4017f5:	48 8d 35 80 09 00 00 	lea    rsi,[rip+0x980]        # 40217c <_IO_stdin_used+0x17c>
+  4017fc:	89 d1                	mov    ecx,edx
+  4017fe:	48 89 f2             	mov    rdx,rsi
+  401801:	be 10 00 00 00       	mov    esi,0x10
+  401806:	48 89 c7             	mov    rdi,rax
+  401809:	b8 00 00 00 00       	mov    eax,0x0
+  40180e:	e8 5d f9 ff ff       	call   401170 <snprintf@plt>
+  401813:	8b 85 bc fb ff ff    	mov    eax,DWORD PTR [rbp-0x444]
+  401819:	48 98                	cdqe
+  40181b:	48 8d 0c c5 00 00 00 	lea    rcx,[rax*8+0x0]
+  401822:	00 
+  401823:	48 8d 15 76 28 00 00 	lea    rdx,[rip+0x2876]        # 4040a0 <nodes>
+  40182a:	48 8b 85 c8 fb ff ff 	mov    rax,QWORD PTR [rbp-0x438]
+  401831:	48 89 04 11          	mov    QWORD PTR [rcx+rdx*1],rax
+  401835:	8b 05 e5 28 00 00    	mov    eax,DWORD PTR [rip+0x28e5]        # 404120 <nnodes>
+  40183b:	83 c0 01             	add    eax,0x1
+  40183e:	89 05 dc 28 00 00    	mov    DWORD PTR [rip+0x28dc],eax        # 404120 <nnodes>
+  401844:	0f b7 95 ae fb ff ff 	movzx  edx,WORD PTR [rbp-0x452]
+  40184b:	48 8d 85 f0 fb ff ff 	lea    rax,[rbp-0x410]
+  401852:	48 83 c0 14          	add    rax,0x14
+  401856:	48 8b 8d c0 fb ff ff 	mov    rcx,QWORD PTR [rbp-0x440]
+  40185d:	48 89 c6             	mov    rsi,rax
+  401860:	48 89 cf             	mov    rdi,rcx
+  401863:	e8 38 f9 ff ff       	call   4011a0 <memcpy@plt>
+  401868:	0f b7 8d ae fb ff ff 	movzx  ecx,WORD PTR [rbp-0x452]
+  40186f:	8b 95 b8 fb ff ff    	mov    edx,DWORD PTR [rbp-0x448]
+  401875:	8b 85 bc fb ff ff    	mov    eax,DWORD PTR [rbp-0x444]
+  40187b:	48 8d 3d 06 09 00 00 	lea    rdi,[rip+0x906]        # 402188 <_IO_stdin_used+0x188>
+  401882:	89 c6                	mov    esi,eax
+  401884:	b8 00 00 00 00       	mov    eax,0x0
+  401889:	e8 d2 f8 ff ff       	call   401160 <printf@plt>
+  40188e:	eb 01                	jmp    401891 <op_parse+0x384>
+  401890:	90                   	nop
+  401891:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+  401895:	64 48 2b 04 25 28 00 	sub    rax,QWORD PTR fs:0x28
+  40189c:	00 00 
+  40189e:	74 05                	je     4018a5 <op_parse+0x398>
+  4018a0:	e8 ab f8 ff ff       	call   401150 <__stack_chk_fail@plt>
+  4018a5:	c9                   	leave
+  4018a6:	c3                   	ret
+
+Disassembly of section .fini:
+===== op_view =====
+
+/home/bocil/ctf/nfx/pwn/TalatahTiPeuntas/peserta/talatah:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+Disassembly of section .plt:
+
+Disassembly of section .plt.sec:
+
+Disassembly of section .text:
+
+00000000004018a7 <op_view>:
+  4018a7:	f3 0f 1e fa          	endbr64
+  4018ab:	55                   	push   rbp
+  4018ac:	48 89 e5             	mov    rbp,rsp
+  4018af:	48 83 ec 40          	sub    rsp,0x40
+  4018b3:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+  4018ba:	00 00 
+  4018bc:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+  4018c0:	31 c0                	xor    eax,eax
+  4018c2:	48 8d 05 f8 08 00 00 	lea    rax,[rip+0x8f8]        # 4021c1 <_IO_stdin_used+0x1c1>
+  4018c9:	48 89 c7             	mov    rdi,rax
+  4018cc:	b8 00 00 00 00       	mov    eax,0x0
+  4018d1:	e8 8a f8 ff ff       	call   401160 <printf@plt>
+  4018d6:	48 8d 45 d0          	lea    rax,[rbp-0x30]
+  4018da:	be 20 00 00 00       	mov    esi,0x20
+  4018df:	48 89 c7             	mov    rdi,rax
+  4018e2:	e8 22 fa ff ff       	call   401309 <baca_baris>
+  4018e7:	48 85 c0             	test   rax,rax
+  4018ea:	74 7c                	je     401968 <op_view+0xc1>
+  4018ec:	48 8d 45 d0          	lea    rax,[rbp-0x30]
+  4018f0:	48 89 c7             	mov    rdi,rax
+  4018f3:	e8 d8 f8 ff ff       	call   4011d0 <atoi@plt>
+  4018f8:	89 45 c4             	mov    DWORD PTR [rbp-0x3c],eax
+  4018fb:	8b 45 c4             	mov    eax,DWORD PTR [rbp-0x3c]
+  4018fe:	89 c7                	mov    edi,eax
+  401900:	e8 96 fb ff ff       	call   40149b <cari>
+  401905:	48 89 45 c8          	mov    QWORD PTR [rbp-0x38],rax
+  401909:	48 83 7d c8 00       	cmp    QWORD PTR [rbp-0x38],0x0
+  40190e:	74 5b                	je     40196b <op_view+0xc4>
+  401910:	48 8b 45 c8          	mov    rax,QWORD PTR [rbp-0x38]
+  401914:	8b 48 10             	mov    ecx,DWORD PTR [rax+0x10]
+  401917:	48 8b 55 c8          	mov    rdx,QWORD PTR [rbp-0x38]
+  40191b:	8b 45 c4             	mov    eax,DWORD PTR [rbp-0x3c]
+  40191e:	48 8d 3d ab 08 00 00 	lea    rdi,[rip+0x8ab]        # 4021d0 <_IO_stdin_used+0x1d0>
+  401925:	89 c6                	mov    esi,eax
+  401927:	b8 00 00 00 00       	mov    eax,0x0
+  40192c:	e8 2f f8 ff ff       	call   401160 <printf@plt>
+  401931:	48 8b 15 48 27 00 00 	mov    rdx,QWORD PTR [rip+0x2748]        # 404080 <stdout@GLIBC_2.2.5>
+  401938:	48 8b 45 c8          	mov    rax,QWORD PTR [rbp-0x38]
+  40193c:	8b 40 10             	mov    eax,DWORD PTR [rax+0x10]
+  40193f:	89 c6                	mov    esi,eax
+  401941:	48 8b 45 c8          	mov    rax,QWORD PTR [rbp-0x38]
+  401945:	48 8b 40 18          	mov    rax,QWORD PTR [rax+0x18]
+  401949:	48 89 d1             	mov    rcx,rdx
+  40194c:	48 89 f2             	mov    rdx,rsi
+  40194f:	be 01 00 00 00       	mov    esi,0x1
+  401954:	48 89 c7             	mov    rdi,rax
+  401957:	e8 84 f8 ff ff       	call   4011e0 <fwrite@plt>
+  40195c:	bf 0a 00 00 00       	mov    edi,0xa
+  401961:	e8 ba f7 ff ff       	call   401120 <putchar@plt>
+  401966:	eb 04                	jmp    40196c <op_view+0xc5>
+  401968:	90                   	nop
+  401969:	eb 01                	jmp    40196c <op_view+0xc5>
+  40196b:	90                   	nop
+  40196c:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+  401970:	64 48 2b 04 25 28 00 	sub    rax,QWORD PTR fs:0x28
+  401977:	00 00 
+  401979:	74 05                	je     401980 <op_view+0xd9>
+  40197b:	e8 d0 f7 ff ff       	call   401150 <__stack_chk_fail@plt>
+  401980:	c9                   	leave
+  401981:	c3                   	ret
+
+Disassembly of section .fini:
+===== op_edit =====
+
+/home/bocil/ctf/nfx/pwn/TalatahTiPeuntas/peserta/talatah:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+Disassembly of section .plt:
+
+Disassembly of section .plt.sec:
+
+Disassembly of section .text:
+
+0000000000401982 <op_edit>:
+  401982:	f3 0f 1e fa          	endbr64
+  401986:	55                   	push   rbp
+  401987:	48 89 e5             	mov    rbp,rsp
+  40198a:	48 81 ec 40 04 00 00 	sub    rsp,0x440
+  401991:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+  401998:	00 00 
+  40199a:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+  40199e:	31 c0                	xor    eax,eax
+  4019a0:	48 8d 05 1a 08 00 00 	lea    rax,[rip+0x81a]        # 4021c1 <_IO_stdin_used+0x1c1>
+  4019a7:	48 89 c7             	mov    rdi,rax
+  4019aa:	b8 00 00 00 00       	mov    eax,0x0
+  4019af:	e8 ac f7 ff ff       	call   401160 <printf@plt>
+  4019b4:	48 8d 85 d0 fb ff ff 	lea    rax,[rbp-0x430]
+  4019bb:	be 20 00 00 00       	mov    esi,0x20
+  4019c0:	48 89 c7             	mov    rdi,rax
+  4019c3:	e8 41 f9 ff ff       	call   401309 <baca_baris>
+  4019c8:	48 85 c0             	test   rax,rax
+  4019cb:	0f 84 4e 01 00 00    	je     401b1f <op_edit+0x19d>
+  4019d1:	48 8d 85 d0 fb ff ff 	lea    rax,[rbp-0x430]
+  4019d8:	48 89 c7             	mov    rdi,rax
+  4019db:	e8 f0 f7 ff ff       	call   4011d0 <atoi@plt>
+  4019e0:	89 85 c0 fb ff ff    	mov    DWORD PTR [rbp-0x440],eax
+  4019e6:	8b 85 c0 fb ff ff    	mov    eax,DWORD PTR [rbp-0x440]
+  4019ec:	89 c7                	mov    edi,eax
+  4019ee:	e8 a8 fa ff ff       	call   40149b <cari>
+  4019f3:	48 89 85 c8 fb ff ff 	mov    QWORD PTR [rbp-0x438],rax
+  4019fa:	48 83 bd c8 fb ff ff 	cmp    QWORD PTR [rbp-0x438],0x0
+  401a01:	00 
+  401a02:	0f 84 1a 01 00 00    	je     401b22 <op_edit+0x1a0>
+  401a08:	48 8d 05 e3 07 00 00 	lea    rax,[rip+0x7e3]        # 4021f2 <_IO_stdin_used+0x1f2>
+  401a0f:	48 89 c7             	mov    rdi,rax
+  401a12:	b8 00 00 00 00       	mov    eax,0x0
+  401a17:	e8 44 f7 ff ff       	call   401160 <printf@plt>
+  401a1c:	48 8d 85 d0 fb ff ff 	lea    rax,[rbp-0x430]
+  401a23:	be 20 00 00 00       	mov    esi,0x20
+  401a28:	48 89 c7             	mov    rdi,rax
+  401a2b:	e8 d9 f8 ff ff       	call   401309 <baca_baris>
+  401a30:	48 85 c0             	test   rax,rax
+  401a33:	0f 84 ec 00 00 00    	je     401b25 <op_edit+0x1a3>
+  401a39:	48 8d 85 d0 fb ff ff 	lea    rax,[rbp-0x430]
+  401a40:	48 89 c7             	mov    rdi,rax
+  401a43:	e8 88 f7 ff ff       	call   4011d0 <atoi@plt>
+  401a48:	89 85 c4 fb ff ff    	mov    DWORD PTR [rbp-0x43c],eax
+  401a4e:	83 bd c4 fb ff ff 00 	cmp    DWORD PTR [rbp-0x43c],0x0
+  401a55:	78 0c                	js     401a63 <op_edit+0xe1>
+  401a57:	81 bd c4 fb ff ff 00 	cmp    DWORD PTR [rbp-0x43c],0x400
+  401a5e:	04 00 00 
+  401a61:	7e 1e                	jle    401a81 <op_edit+0xff>
+  401a63:	48 8d 05 98 07 00 00 	lea    rax,[rip+0x798]        # 402202 <_IO_stdin_used+0x202>
+  401a6a:	be 00 04 00 00       	mov    esi,0x400
+  401a6f:	48 89 c7             	mov    rdi,rax
+  401a72:	b8 00 00 00 00       	mov    eax,0x0
+  401a77:	e8 e4 f6 ff ff       	call   401160 <printf@plt>
+  401a7c:	e9 a5 00 00 00       	jmp    401b26 <op_edit+0x1a4>
+  401a81:	48 8d 05 95 07 00 00 	lea    rax,[rip+0x795]        # 40221d <_IO_stdin_used+0x21d>
+  401a88:	48 89 c7             	mov    rdi,rax
+  401a8b:	b8 00 00 00 00       	mov    eax,0x0
+  401a90:	e8 cb f6 ff ff       	call   401160 <printf@plt>
+  401a95:	8b 85 c4 fb ff ff    	mov    eax,DWORD PTR [rbp-0x43c]
+  401a9b:	48 63 d0             	movsxd rdx,eax
+  401a9e:	48 8d 85 f0 fb ff ff 	lea    rax,[rbp-0x410]
+  401aa5:	48 89 d6             	mov    rsi,rdx
+  401aa8:	48 89 c7             	mov    rdi,rax
+  401aab:	e8 ff f8 ff ff       	call   4013af <baca_persis>
+  401ab0:	85 c0                	test   eax,eax
+  401ab2:	75 11                	jne    401ac5 <op_edit+0x143>
+  401ab4:	48 8d 05 6a 07 00 00 	lea    rax,[rip+0x76a]        # 402225 <_IO_stdin_used+0x225>
+  401abb:	48 89 c7             	mov    rdi,rax
+  401abe:	e8 13 f8 ff ff       	call   4012d6 <tulis>
+  401ac3:	eb 61                	jmp    401b26 <op_edit+0x1a4>
+  401ac5:	8b 85 c4 fb ff ff    	mov    eax,DWORD PTR [rbp-0x43c]
+  401acb:	48 63 d0             	movsxd rdx,eax
+  401ace:	48 8b 85 c8 fb ff ff 	mov    rax,QWORD PTR [rbp-0x438]
+  401ad5:	48 8b 40 18          	mov    rax,QWORD PTR [rax+0x18]
+  401ad9:	48 8d 8d f0 fb ff ff 	lea    rcx,[rbp-0x410]
+  401ae0:	48 89 ce             	mov    rsi,rcx
+  401ae3:	48 89 c7             	mov    rdi,rax
+  401ae6:	e8 b5 f6 ff ff       	call   4011a0 <memcpy@plt>
+  401aeb:	8b 95 c4 fb ff ff    	mov    edx,DWORD PTR [rbp-0x43c]
+  401af1:	48 8b 85 c8 fb ff ff 	mov    rax,QWORD PTR [rbp-0x438]
+  401af8:	89 50 10             	mov    DWORD PTR [rax+0x10],edx
+  401afb:	8b 95 c4 fb ff ff    	mov    edx,DWORD PTR [rbp-0x43c]
+  401b01:	8b 85 c0 fb ff ff    	mov    eax,DWORD PTR [rbp-0x440]
+  401b07:	48 8d 0d 32 07 00 00 	lea    rcx,[rip+0x732]        # 402240 <_IO_stdin_used+0x240>
+  401b0e:	89 c6                	mov    esi,eax
+  401b10:	48 89 cf             	mov    rdi,rcx
+  401b13:	b8 00 00 00 00       	mov    eax,0x0
+  401b18:	e8 43 f6 ff ff       	call   401160 <printf@plt>
+  401b1d:	eb 07                	jmp    401b26 <op_edit+0x1a4>
+  401b1f:	90                   	nop
+  401b20:	eb 04                	jmp    401b26 <op_edit+0x1a4>
+  401b22:	90                   	nop
+  401b23:	eb 01                	jmp    401b26 <op_edit+0x1a4>
+  401b25:	90                   	nop
+  401b26:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+  401b2a:	64 48 2b 04 25 28 00 	sub    rax,QWORD PTR fs:0x28
+  401b31:	00 00 
+  401b33:	74 05                	je     401b3a <op_edit+0x1b8>
+  401b35:	e8 16 f6 ff ff       	call   401150 <__stack_chk_fail@plt>
+  401b3a:	c9                   	leave
+  401b3b:	c3                   	ret
+
+Disassembly of section .fini:
+===== op_delete =====
+
+/home/bocil/ctf/nfx/pwn/TalatahTiPeuntas/peserta/talatah:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+Disassembly of section .plt:
+
+Disassembly of section .plt.sec:
+
+Disassembly of section .text:
+
+0000000000401b3c <op_delete>:
+  401b3c:	f3 0f 1e fa          	endbr64
+  401b40:	55                   	push   rbp
+  401b41:	48 89 e5             	mov    rbp,rsp
+  401b44:	48 83 ec 40          	sub    rsp,0x40
+  401b48:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+  401b4f:	00 00 
+  401b51:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+  401b55:	31 c0                	xor    eax,eax
+  401b57:	48 8d 05 63 06 00 00 	lea    rax,[rip+0x663]        # 4021c1 <_IO_stdin_used+0x1c1>
+  401b5e:	48 89 c7             	mov    rdi,rax
+  401b61:	b8 00 00 00 00       	mov    eax,0x0
+  401b66:	e8 f5 f5 ff ff       	call   401160 <printf@plt>
+  401b6b:	48 8d 45 d0          	lea    rax,[rbp-0x30]
+  401b6f:	be 20 00 00 00       	mov    esi,0x20
+  401b74:	48 89 c7             	mov    rdi,rax
+  401b77:	e8 8d f7 ff ff       	call   401309 <baca_baris>
+  401b7c:	48 85 c0             	test   rax,rax
+  401b7f:	74 77                	je     401bf8 <op_delete+0xbc>
+  401b81:	48 8d 45 d0          	lea    rax,[rbp-0x30]
+  401b85:	48 89 c7             	mov    rdi,rax
+  401b88:	e8 43 f6 ff ff       	call   4011d0 <atoi@plt>
+  401b8d:	89 45 c4             	mov    DWORD PTR [rbp-0x3c],eax
+  401b90:	8b 45 c4             	mov    eax,DWORD PTR [rbp-0x3c]
+  401b93:	89 c7                	mov    edi,eax
+  401b95:	e8 01 f9 ff ff       	call   40149b <cari>
+  401b9a:	48 89 45 c8          	mov    QWORD PTR [rbp-0x38],rax
+  401b9e:	48 83 7d c8 00       	cmp    QWORD PTR [rbp-0x38],0x0
+  401ba3:	74 56                	je     401bfb <op_delete+0xbf>
+  401ba5:	48 8b 45 c8          	mov    rax,QWORD PTR [rbp-0x38]
+  401ba9:	48 8b 40 18          	mov    rax,QWORD PTR [rax+0x18]
+  401bad:	48 89 c7             	mov    rdi,rax
+  401bb0:	e8 5b f5 ff ff       	call   401110 <free@plt>
+  401bb5:	48 8b 45 c8          	mov    rax,QWORD PTR [rbp-0x38]
+  401bb9:	48 89 c7             	mov    rdi,rax
+  401bbc:	e8 4f f5 ff ff       	call   401110 <free@plt>
+  401bc1:	8b 45 c4             	mov    eax,DWORD PTR [rbp-0x3c]
+  401bc4:	48 98                	cdqe
+  401bc6:	48 8d 14 c5 00 00 00 	lea    rdx,[rax*8+0x0]
+  401bcd:	00 
+  401bce:	48 8d 05 cb 24 00 00 	lea    rax,[rip+0x24cb]        # 4040a0 <nodes>
+  401bd5:	48 c7 04 02 00 00 00 	mov    QWORD PTR [rdx+rax*1],0x0
+  401bdc:	00 
+  401bdd:	8b 45 c4             	mov    eax,DWORD PTR [rbp-0x3c]
+  401be0:	48 8d 15 78 06 00 00 	lea    rdx,[rip+0x678]        # 40225f <_IO_stdin_used+0x25f>
+  401be7:	89 c6                	mov    esi,eax
+  401be9:	48 89 d7             	mov    rdi,rdx
+  401bec:	b8 00 00 00 00       	mov    eax,0x0
+  401bf1:	e8 6a f5 ff ff       	call   401160 <printf@plt>
+  401bf6:	eb 04                	jmp    401bfc <op_delete+0xc0>
+  401bf8:	90                   	nop
+  401bf9:	eb 01                	jmp    401bfc <op_delete+0xc0>
+  401bfb:	90                   	nop
+  401bfc:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+  401c00:	64 48 2b 04 25 28 00 	sub    rax,QWORD PTR fs:0x28
+  401c07:	00 00 
+  401c09:	74 05                	je     401c10 <op_delete+0xd4>
+  401c0b:	e8 40 f5 ff ff       	call   401150 <__stack_chk_fail@plt>
+  401c10:	c9                   	leave
+  401c11:	c3                   	ret
+
+Disassembly of section .fini:

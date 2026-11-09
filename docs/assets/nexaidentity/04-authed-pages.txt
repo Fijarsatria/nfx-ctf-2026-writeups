@@ -1,0 +1,17 @@
+########## /dashboard
+HTTP 200 size=4963
+########## /directory/1
+HTTP 200 size=2746
+48:        <p class="muted">admin@nexaidentity.test</p>
+55:      <div><dt>Work email</dt><dd>admin@nexaidentity.test</dd></div>
+########## /directory/2
+HTTP 200 size=2725
+########## /admin
+HTTP 403 size=1544
+34:  <p class="muted">The identity admin console is restricted to People Operations administrators.</p>
+########## /admin/users
+HTTP 404 size=1485
+########## /settings
+HTTP 404 size=1485
+########## /profile
+HTTP 404 size=1485

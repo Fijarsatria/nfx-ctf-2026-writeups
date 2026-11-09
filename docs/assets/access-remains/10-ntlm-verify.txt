@@ -1,0 +1,4 @@
+aria   candidate=aria         NT=250a19ea48a88bbc7532f08ecb072844  match=True
+aria   candidate=ariafe006    NT=f545ff727c989c387b9d1be6db74ea1c  match=False
+ariaf  candidate=aria         NT=250a19ea48a88bbc7532f08ecb072844  match=False
+ariaf  candidate=ariafe006    NT=f545ff727c989c387b9d1be6db74ea1c  match=True

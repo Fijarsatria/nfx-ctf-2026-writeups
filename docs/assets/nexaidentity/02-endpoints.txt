@@ -1,0 +1,201 @@
+########## /login
+HTTP 200 type=text/html; charset=utf-8 size=2516
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Employee login — NexaIdentity</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="announcement">NexaIdentity · Employee directory · Profile changes sync every 15 minutes</div>
+  <nav class="navbar">
+    <a class="brand" href="/">Nexa<span>Identity</span></a>
+    <div class="nav-links">
+      
+    </div>
+    <div clas
+########## /directory
+HTTP 302 type=text/plain; charset=utf-8 size=28
+Found. Redirecting to /login
+########## /search
+HTTP 404 type=text/html; charset=utf-8 size=1359
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Not found — NexaIdentity</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="announcement">NexaIdentity · Employee directory · Profile changes sync every 15 minutes</div>
+  <nav class="navbar">
+    <a class="brand" href="/">Nexa<span>Identity</span></a>
+    <div class="nav-links">
+      
+    </div>
+    <div class="na
+########## /api
+HTTP 404 type=text/html; charset=utf-8 size=1359
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Not found — NexaIdentity</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="announcement">NexaIdentity · Employee directory · Profile changes sync every 15 minutes</div>
+  <nav class="navbar">
+    <a class="brand" href="/">Nexa<span>Identity</span></a>
+    <div class="nav-links">
+      
+    </div>
+    <div class="na
+########## /api/employees
+HTTP 404 type=text/html; charset=utf-8 size=1359
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Not found — NexaIdentity</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="announcement">NexaIdentity · Employee directory · Profile changes sync every 15 minutes</div>
+  <nav class="navbar">
+    <a class="brand" href="/">Nexa<span>Identity</span></a>
+    <div class="nav-links">
+      
+    </div>
+    <div class="na
+########## /api/users
+HTTP 404 type=text/html; charset=utf-8 size=1359
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Not found — NexaIdentity</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="announcement">NexaIdentity · Employee directory · Profile changes sync every 15 minutes</div>
+  <nav class="navbar">
+    <a class="brand" href="/">Nexa<span>Identity</span></a>
+    <div class="nav-links">
+      
+    </div>
+    <div class="na
+########## /profile
+HTTP 404 type=text/html; charset=utf-8 size=1359
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Not found — NexaIdentity</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="announcement">NexaIdentity · Employee directory · Profile changes sync every 15 minutes</div>
+  <nav class="navbar">
+    <a class="brand" href="/">Nexa<span>Identity</span></a>
+    <div class="nav-links">
+      
+    </div>
+    <div class="na
+########## /dashboard
+HTTP 302 type=text/plain; charset=utf-8 size=28
+Found. Redirecting to /login
+########## /admin
+HTTP 302 type=text/plain; charset=utf-8 size=28
+Found. Redirecting to /login
+########## /recovery
+HTTP 404 type=text/html; charset=utf-8 size=1359
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Not found — NexaIdentity</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="announcement">NexaIdentity · Employee directory · Profile changes sync every 15 minutes</div>
+  <nav class="navbar">
+    <a class="brand" href="/">Nexa<span>Identity</span></a>
+    <div class="nav-links">
+      
+    </div>
+    <div class="na
+########## /forgot
+HTTP 404 type=text/html; charset=utf-8 size=1359
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Not found — NexaIdentity</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="announcement">NexaIdentity · Employee directory · Profile changes sync every 15 minutes</div>
+  <nav class="navbar">
+    <a class="brand" href="/">Nexa<span>Identity</span></a>
+    <div class="nav-links">
+      
+    </div>
+    <div class="na
+########## /static
+HTTP 404 type=text/html; charset=utf-8 size=1359
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Not found — NexaIdentity</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="announcement">NexaIdentity · Employee directory · Profile changes sync every 15 minutes</div>
+  <nav class="navbar">
+    <a class="brand" href="/">Nexa<span>Identity</span></a>
+    <div class="nav-links">
+      
+    </div>
+    <div class="na
+########## /css/style.css
+HTTP 200 type=text/css; charset=UTF-8 size=13540
+:root {
+  --ink: #1f1b3a;
+  --muted: #6b6885;
+  --brand: #4f46e5;
+  --brand-dark: #3730a3;
+  --accent: #f2a93b;
+  --surface: #ffffff;
+  --canvas: #f5f5fb;
+  --line: #e1e0ef;
+  --danger: #b42318;
+  --success: #067647;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: "Segoe UI", "Inter", Arial, sans-serif;
+  line-height: 1.55;
+}
+
+a { color: var(--brand); }
+h1, h2, h

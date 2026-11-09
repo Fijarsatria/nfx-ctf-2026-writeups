@@ -1,0 +1,51 @@
+=== URL HISTORY (urut last_visit_time) ===
+2025-03-11 20:15:00 UTC | visit=1 | https://www.youtube.com/ | YouTube
+2025-03-11 20:16:00 UTC | visit=1 | https://www.youtube.com/watch?v=dQw4w9WgXcQ | Rick Astley - Never Gonna Give You Up (Official Video)
+2025-03-12 07:45:00 UTC | visit=1 | https://news.ycombinator.com/ | Hacker News
+2025-03-12 07:50:00 UTC | visit=1 | https://www.starlink.com/ | Starlink
+2025-03-12 10:05:00 UTC | visit=2 | https://www.nfx-aero.example/projects/helios | Project Helios - NFX Aerospace
+2025-03-13 11:00:00 UTC | visit=1 | https://github.com/DFIRDiva/DFIR-Challenge-Images | GitHub - DFIRDiva/DFIR-Challenge-Images
+2025-03-14 13:50:00 UTC | visit=3 | https://mail.google.com/mail/u/0/#inbox | Inbox (3) - n.fox@nfx-aero.example - Gmail
+2025-03-14 14:05:12 UTC | visit=1 | https://www.google.com/search?q=windows+uac+bypass+2024 | windows uac bypass 2024 - Google Search
+2025-03-14 14:08:22 UTC | visit=1 | https://github.com/hfiref0x/UACME | GitHub - hfiref0x/UACME: Windows User Account Control bypass
+2025-03-14 14:10:05 UTC | visit=1 | https://nvd.nist.gov/vuln/detail/CVE-2024-21412 | NVD - CVE-2024-21412
+2025-03-14 14:12:40 UTC | visit=1 | https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21412 | Security Update Guide - CVE-2024-21412
+2025-03-14 14:16:00 UTC | visit=1 | https://www.virustotal.com/gui/home/upload | VirusTotal
+2025-03-14 14:17:00 UTC | visit=1 | https://any.run/ | ANY.RUN - Interactive Online Malware Analysis Sandbox
+2025-03-14 14:19:30 UTC | visit=2 | https://0x00sec.org/ | 0x00sec - The Home of the Hacker
+2025-03-14 14:20:10 UTC | visit=1 | https://0x00sec.org/t/windows-uac-bypass-2024/28471 | Windows UAC Bypass 2024 - 0x00sec
+2025-03-15 09:12:00 UTC | visit=1 | https://www.google.com/search?q=singapore+changi+airport+terminal+3+wifi | singapore changi airport terminal 3 wifi - Google Search
+
+=== DOWNLOADS ===
+C:\Users\nfox\Downloads\uacme.zip 184299 2025-03-14 14:18:30 UTC application/zip https://github.com/hfiref0x/UACME
+
+=== DOWNLOAD URL CHAINS ===
+(1, 0, 'https://github.com/hfiref0x/UACME/releases/download/v3.7.0/uacme.zip')
+(1, 1, 'https://objects.githubusercontent.com/github-production-release-asset/uacme.zip')
+
+=== KEYWORD SEARCH TERMS ===
+('windows uac bypass 2024', 1)
+('singapore changi airport terminal 3 wifi', 15)
+
+=== LOGIN DATA (username + ciphertext v10) ===
+https://0x00sec.org/ | user=wraithbyte | len=54 | prefix=b'v10' | created=2025-03-13 09:12:44 UTC | used=2025-03-14 14:20:10 UTC
+  ciphertext: 7631300a2744d840bcd0a797cc692eccd8da86c217b83ba59c2e61c5e06c1393384809e919a1e3f7a75668cdb0801b2b9679fb195ce2
+https://mail.google.com/ | user=n.fox@nfx-aero.example | len=54 | prefix=b'v10' | created=2025-02-02 01:14:30 UTC | used=2025-03-14 13:50:00 UTC
+  ciphertext: 763130422a832dedfd11782f81ac86aa020428319bd173424ee0e138c61c7f15aa05e47f779715c0f777cf561e38a7e6db1ec288f82a
+https://github.com/ | user=nfox-aero | len=54 | prefix=b'v10' | created=2024-11-19 03:22:11 UTC | used=2025-03-13 11:00:00 UTC
+  ciphertext: 76313039fff1df215c16e75981389de23a8c3e2270c11d387e49460ace7f25eb2bbe3c654777e5fa0f970980a3d20d70a8494563ab52
+https://twitter.com/ | user=n_fox | len=54 | prefix=b'v10' | created=2024-12-01 10:03:55 UTC | used=2025-03-12 07:40:00 UTC
+  ciphertext: 76313065d8bef54265309b9f655fd0db585b8291aa2281da01d5a269e4149caf2e1a9731931735b11ef153e59d00aa1bb26664232ee9
+
+=== COOKIES ===
+.0x00sec.org | xf_user | len=54 | 76313063a2acbb9641328bbeff7177c76eb84169cc4bd979bd789b4d61c51918d7628757f9cf82e98f8134658e320397c1b7ecd8472d
+.nvd.nist.gov | _ga | len=0 | 
+.google.com | NID | len=54 | 76313042159f3b2df3e68bdbc879ca8ac02f06cc076c8bfdb8cff8aecbf3b22b34f1a8d0a4c99ebe9084977aff918b2ffe9ddbf9b8b5
+.github.com | logged_in | len=0 | 
+
+=== WEB DATA AUTOFILL ===
+('email', 'n.fox@nfx-aero.example', 9)
+('name', 'Noah Fox', 7)
+('company', 'NFX Aerospace', 4)
+('address', 'Helios Ring 7, Jurong Island', 2)
+('tel', '+65 8123 4471', 2)

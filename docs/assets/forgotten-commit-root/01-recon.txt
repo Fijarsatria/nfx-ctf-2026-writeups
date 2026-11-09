@@ -1,0 +1,21 @@
+NFX CTF 2026 — Forgotten Commit (Root)
+Target: 10.10.20.21 (accessed from bastion 10.10.20.10)
+Primary sources: flags/b2r/ForgottenCommit_SOLVED.md, ForgottenCommit_UNSOLVED.md,
+                 umum/Boot To Root/forgotten-commit-root/{BRIEF.md,challenge.json}
+
+[REKONSTRUKSI] Perintah triage awal (raw output nmap tidak diarsipkan):
+    nmap -Pn -sV -p- --min-rate 2000 10.10.20.21
+    curl -sS -i http://10.10.20.21/
+    curl -sS -i http://10.10.20.21/.git/HEAD
+
+Hasil yang terdokumentasi di notes:
+  - 22/tcp  OpenSSH 8.9p1
+  - 80/tcp  nginx
+  - http://10.10.20.21/ menyajikan situs statis "Nexus Developer Platform"
+  - /.git/ terbuka dan dapat di-dump
+
+Catatan operasional (dari ForgottenCommit_UNSOLVED.md):
+  - Instance NFX/b2r/labs/21 sempat crash-loop. Port 22 hanya hidup ~25-1500 ms
+    lalu container mati; MAC berubah tiap ~60 detik.
+  - nx-up ulang sekitar 11:01 UTC membuat container stabil. Setelah itu port 80
+    (nginx) dan 22 (OpenSSH 8.9p1) tetap terbuka.

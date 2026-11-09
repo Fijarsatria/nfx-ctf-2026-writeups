@@ -1,0 +1,9 @@
+blocks [('0xa', 20000), ('0x5', 20000), ('0xa0', 20000), ('0x50', 20000), ('0xa00', 20000), ('0x500', 20000), ('0xa000', 20000), ('0x5000', 20000), ('0x5000000', 20000), ('0xa000000', 20000), ('0x50000000', 20000), ('0xa0000000', 20000), ('0x770000', 20000), ('0x550000', 20000)]
+N 6 sat
+  subkeys ['0xa383', '0x3abf', '0xd778', '0x7228', '0x9737', '0x7212', '0xfdec'] master 0xfdec721297377228d7783abfa383 match block0 11183 / 20000
+N 7 sat
+  subkeys ['0xa383', '0x3ab5', '0xd728', '0x7222', '0x9737', '0x7212', '0xfdec'] master 0xfdec721297377222d7283ab5a383 match block0 20000 / 20000
+FINAL subkeys ['0xa383', '0x3ab5', '0xd728', '0x7222', '0x9737', '0x7212', '0xfdec']
+FINAL master 0xfdec721297377222d7283ab5a383
+VERIFY total 280000 ok 280000 bad 0
+FLAGPT b'NFXCTF{d1ff3r3nt14l_crypt0_pwn5_f31st3l_45322835}\x03\x03\x03'

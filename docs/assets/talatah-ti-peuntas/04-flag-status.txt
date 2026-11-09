@@ -1,0 +1,4 @@
+flag_file : /home/bocil/ctf/nfx/flags/pwn/TalatahTiPeuntas.txt
+flag      : NFX{HiduPPk1T4AAyangMelawann}
+sha256    : f4a44c573d1903169278446a72c08a6e486928c837c00dfa1c1eb55fbe253541  /home/bocil/ctf/nfx/flags/pwn/TalatahTiPeuntas.txt
+status    : VERIFIED platform (writeups/FLAGS.md)

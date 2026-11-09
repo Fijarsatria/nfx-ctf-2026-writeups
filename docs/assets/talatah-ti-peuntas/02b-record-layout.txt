@@ -1,0 +1,17 @@
+Talatah Ti Peuntas node layout (0x20-byte struct, non-PIE)
+  +0x00 name[16]     snprintf("msg%d")
+  +0x10 uint32 len   = tlv_len
+  +0x14 uint32 flags = 0
+  +0x18 char  *data  = malloc(key_size)
+
+Parser (op_parse):
+  key_size = be32(msg+0x0c)  validated 1..0x40
+  tlv_len  = be16(msg+0x12)  validated total_len >= tlv_len+0x14
+  data = malloc(key_size); node = malloc(0x20);
+  memcpy(data, msg+0x14, tlv_len);      <-- heap overflow if tlv_len > key_size
+
+Chunk arithmetic used:
+  key_size 0x18 -> data chunk 0x20, user data at D
+  node malloc(0x20) -> node chunk 0x30, header at D+0x10, user at D+0x20
+  overflow offsets: 0x10 prev_size, 0x18 size(0x31), 0x20 name,
+                    0x30 len, 0x34 flags, 0x38 data pointer

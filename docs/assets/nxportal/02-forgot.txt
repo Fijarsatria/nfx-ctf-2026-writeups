@@ -1,0 +1,112 @@
+HTTP/1.1 200 OK
+Server: gunicorn
+Date: Sun, 08 Nov 2026 01:26:54 GMT
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Content-Length: 3941
+Vary: Cookie
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Recovery - NXPortal Corporate IAM</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Navbar -->
+    <nav class="navbar">
+        <a href="/" class="brand">
+            ⚡ NXPortal <span>Enterprise IAM</span>
+        </a>
+        <div class="nav-links">
+            <a href="/" class="nav-item ">Home</a>
+            <a href="/about" class="nav-item ">About Us</a>
+            <a href="/services" class="nav-item ">Solutions</a>
+            <a href="/blog" class="nav-item ">Tech Blog</a>
+            <a href="/contact" class="nav-item ">Contact</a>
+
+            
+            <a href="/login" class="nav-btn">Employee Portal</a>
+            
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        
+<div class="container">
+    <div class="card" style="max-width: 480px; margin: 30px auto;">
+        <h2 class="card-title">🔑 Corporate Account Recovery</h2>
+        <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 20px;">
+            Masukkan alamat email corporate resmi Anda (<code>@nxctf.local</code>) untuk menerima instruksi pemulihan kredensial.
+        </p>
+
+        
+
+        
+
+        <form action="/forgot" method="POST">
+            <div class="form-group">
+                <label for="email">Corporate Email Address</label>
+                <input type="text" id="email" name="email" placeholder="user@nxctf.local" required>
+            </div>
+
+            <button type="submit" class="btn-primary">Request Recovery Link</button>
+        </form>
+
+        <div style="margin-top: 20px; text-align: center;">
+            <a href="/login" style="color: var(--accent-cyan); font-size: 0.85rem; text-decoration: none;">← Back to Sign In</a>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Corporate Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div>
+                <div class="footer-brand">⚡ NXPortal Systems</div>
+                <div class="footer-desc">
+                    Centralized zero-trust identity and access governance platform powering <code>@nxctf.local</code> employee workforce authentication and automated credential management.
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Solutions</h4>
+                <ul>
+                    <li><a href="/services">Zero-Trust Access</a></li>
+                    <li><a href="/services">Identity Governance</a></li>
+                    <li><a href="/services">Role Provisioning</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="/blog">Tech Blog</a></li>
+                    <li><a href="/about">Company News</a></li>
+                    <li><a href="/contact">Helpdesk</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Employee Portal</h4>
+                <ul>
+                    <li><a href="/login">Sign In</a></li>
+                    <li><a href="/forgot">Account Recovery</a></li>
+                    <li><a href="/contact">Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>© 2026 NXPortal Systems Inc. All rights reserved.</div>
+            <div style="color: var(--accent-green); font-weight: 600;">● System Status: Operational</div>
+        </div>
+    </footer>
+
+</body>
+</html>

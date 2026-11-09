@@ -1,0 +1,4 @@
+flag_file : /home/bocil/ctf/nfx/flags/pwn/GatewayUnderPressure.txt
+flag      : NFX{Nyoss_Gte3wayy_Pr3ssureee0!}
+sha256    : 15c183235f002d79a2c01736aa8d400705c8a901ef4d45d896950bc0a8e3fc38  /home/bocil/ctf/nfx/flags/pwn/GatewayUnderPressure.txt
+status    : VERIFIED platform (writeups/FLAGS.md)

@@ -1,0 +1,28 @@
+IHDR: 1024x1200, bit_depth=8, color_type=2
+decompressed IDAT bytes: 4720128
+rows actually present  : 1536
+declared rows          : 1200
+hidden rows            : 336
+hidden rows written to : /home/bocil/ctf/nfx/writeups/assets/my-lovely-freya/01-hidden-rows.png
+=== metadata ===
+File Name                       : freya_sayangkuh.png
+File Size                       : 1783 kB
+Image Width                     : 1024
+Image Height                    : 1200
+Secret                          : QXlhbWdHb3Jlbmc0NQ==
+Image Size                      : 1024x1200
+=== base64 decode ===
+QXlhbWdHb3Jlbmc0NQ== -> AyamgGoreng45
+=== sha256 ===
+bcee88ed60894dfc4fd132a00e8947f836615e044929fd7ba4b6d21d18845e1f  /tmp/opencode/nfx/freya/freya_sayangkuh.png
+fb4e197de29c77b83d4478b0172296fabcd3536f043be17853281af0417d50ef  /tmp/opencode/nfx/freya/surat_untuk_freya.enc
+=== ZIP listing ===
+Archive:  /tmp/opencode/nfx/FreyaSayangkuh
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+  1782590  2026-11-01 18:45   freya_sayangkuh.png
+       48  2026-11-01 18:45   surat_untuk_freya.enc
+---------                     -------
+  1782638                     2 files
+=== ZIP hash ===
+42547fc5fefd3b9fc555901b94827cd3131b9c8f082bdcb336bb688ada2721c1  /tmp/opencode/nfx/FreyaSayangkuh

@@ -1,0 +1,11 @@
+=== key schedule (TLS 1.2 + Extended Master Secret)
+[+] cert RSA 1024 bit, e=65537
+[+] Fermat factor i=0: p-q=236
+[+] premaster: 0303a7db81cb42e9cd0156bcb4bd34890a8878ab838684db1fe340b319597ac141a092397cd0ae44aa0529897bf2c729
+[+] master: a5238af33e2e13f0e05f9e29259cd9d9fcf2e883b47b1f72cb86f6c45d2d1f312bf40641a17e327b8b634e1f5e838a83
+[+] server_write_key: 3fda8cda19e2cdd551ca8ff0201946e6
+[+] cert RSA 1024 bit, e=65537
+[+] Fermat factor i=0: p-q=236
+[+] premaster: 0303025e00edd0d15f64e5b9c2b7f7618582df46497af8f4e4e1e2f7b720746dc1147168d13f08125789877ba34c05e6
+[+] master: 151953826976a847c1f4f12e205237f2b575e4d508060e7fa7e3a3c199b9a2b5f740c3d31d9fb759dcd402dec43edef1
+[+] server_write_key: 175295cce7a2ec71273d1191526a5e06

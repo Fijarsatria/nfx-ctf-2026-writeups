@@ -1,0 +1,6 @@
+token 391ed5122926c01beeaa3d682662552c
+audit {"username":"ngt00493","journal":["user account created","vault row: owner=admin secret=391ed5122926c01beeaa3d682662552c","file read: /app/data/bot -> f0f6801a74026cf1"]}
+nonce f0f6801a74026cf1
+GET ticket hdrs {'Accept': 'text/html,application/xhtml+xml'} -> 200 text/html; charset=utf-8 6934
+TICKET 7476476e7700172a2e0951debf0c2e9a
+FLAG RESP 200 {"flag":"NFX{n3xu5_g4t3_0v3r_gr4nt_c4ch3_smuggl3_2026}"}

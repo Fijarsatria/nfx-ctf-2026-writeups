@@ -1,0 +1,60 @@
+########## /dashboard
+HTTP 200 type=text/html; charset=utf-8 size=9587
+50:          class="w-9 h-9 rounded-xl bg-gradient-to-tr from-teal-500 to-emerald-500 flex items-center justify-center font-black text-white text-base shadow-md shadow-teal-500/20 group-hover:scale-105 transition-transform">
+73:            title="admin@changetrack.local">
+74:            👤 admin@changetrack.local
+100:      <p class="text-xs text-slate-500 mt-1">Monitor target URLs for live content changes and trigger YAML notification
+130:        <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Notification Format</div>
+131:        <div class="text-2xl font-black text-slate-900 mt-1">YAML / Jinja2</div>
+143:        <div class="text-xs text-rose-500 font-bold mt-0.5">Admin Access Required</div>
+194:                🔍 View & Test Manifest
+217:      <div>© 2026 ChangeTrack Inc. Open Source Web Page & API Change Monitoring Platform.</div>
+219:        <span class="text-teal-600">YAML Manifest Engine</span>
+########## /watchers/watch-01
+HTTP 200 type=text/html; charset=utf-8 size=7678
+50:          class="w-9 h-9 rounded-xl bg-gradient-to-tr from-teal-500 to-emerald-500 flex items-center justify-center font-black text-white text-base shadow-md shadow-teal-500/20 group-hover:scale-105 transition-transform">
+73:            title="admin@changetrack.local">
+74:            👤 admin@changetrack.local
+121:        <form method="POST" action="/watchers/watch-01/delete"
+127:        </form>
+137:  <!-- YAML Notification Manifest Studio Component -->
+141:        <h3 class="text-xs font-black text-slate-700 uppercase tracking-wider">Notification Manifest (YAML / Jinja2
+146:      <form method="POST" action="/watchers/watch-01/test">
+149:          ⚡ Dispatch Webhook Notification
+151:      </form>
+159:notification:
+161:  format: yaml
+163:    [ChangeTrack Notification]
+177:      <div>© 2026 ChangeTrack Inc. Open Source Web Page & API Change Monitoring Platform.</div>
+179:        <span class="text-teal-600">YAML Manifest Engine</span>
+########## /watchers/watch-01/edit
+HTTP 200 type=text/html; charset=utf-8 size=7261
+50:          class="w-9 h-9 rounded-xl bg-gradient-to-tr from-teal-500 to-emerald-500 flex items-center justify-center font-black text-white text-base shadow-md shadow-teal-500/20 group-hover:scale-105 transition-transform">
+73:            title="admin@changetrack.local">
+74:            👤 admin@changetrack.local
+101:    <h1 class="text-2xl font-black text-slate-900 tracking-tight">Edit Watcher Manifest</h1>
+102:    <p class="text-xs text-slate-500">Configure target URL monitoring and Notification Manifest YAML settings.</p>
+107:  <form method="POST"
+114:        <input type="text" name="name" required
+121:        <input type="url" name="target_url" required
+130:        <label class="block text-xs font-extrabold text-slate-700 uppercase tracking-wider">Notification Manifest YAML
+132:        <span class="text-[11px] font-mono font-bold text-teal-600">watcher_config.yaml</span>
+134:      <textarea name="yaml_manifest" required rows="14"
+139:notification:
+141:  format: yaml
+143:    [ChangeTrack Notification]
+146:    Message: Webpage content change detected at {{ check_time }}.</textarea>
+155:        Save Changes & Test
+159:  </form>
+169:      <div>© 2026 ChangeTrack Inc. Open Source Web Page & API Change Monitoring Platform.</div>
+171:        <span class="text-teal-600">YAML Manifest Engine</span>
+########## /watchers/watch-01/test
+HTTP 405 type=text/html; charset=utf-8 size=153
+########## /admin
+HTTP 404 type=text/html; charset=utf-8 size=207
+########## /notifications
+HTTP 404 type=text/html; charset=utf-8 size=207
+########## /settings
+HTTP 404 type=text/html; charset=utf-8 size=207
+########## /api/watch-01/test
+HTTP 404 type=text/html; charset=utf-8 size=207

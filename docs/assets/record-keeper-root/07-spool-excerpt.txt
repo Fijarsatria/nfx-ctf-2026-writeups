@@ -1,0 +1,37 @@
+===== Console: spool architecture (t23.html) =====
+    <section class="panel" id="spool">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Maintenance</p>
+          <h2>Record spool</h2>
+        </div>
+        <span class="panel-tag">mount: record-spool</span>
+      </div>
+
+      <div class="protocol-grid">
+        <div class="protocol-copy">
+          <p>
+            Archived record jobs are staged on the dedicated <code>record-spool</code>
+            volume at <code>/srv/record-spool</code>. The spool is writable by the
+            <code>ops</code> maintenance group. A root-owned worker consumes
+            <code>*.job</code> files every two seconds and writes archives under
+            <code>/var/backups/records</code>.
+          </p>
+          <div class="code-block">
+            <div class="code-row"><span>queue</span><code>/srv/record-spool/*.job</code></div>
+            <div class="code-row"><span>job</span><code>id=&lt;name&gt;\naction=archive\ntarget=&lt;absolute-path&gt;</code></div>
+            <div class="code-row"><span>output</span><code>/var/backups/records/&lt;id&gt;.tar.gz</code></div>
+            <div class="code-row"><span>api</span><code>GET /v1/jobs  (X-Spool-Token)</code></div>
+          </div>
+        </div>
+
+        <div class="protocol-side">
+          <h3>Access model</h3>
+          <ul class="access-list">
+            <li><span>node</span><p>No spool access. Runtime account only.</p></li>
+            <li><span>ops</span><p>Submit archive jobs and inspect output.</p></li>
+            <li><span>root</span><p>Runs the spooler worker and owns the archive output.</p></li>
+          </ul>
+          <p class="hint">Maintenance credentials are provisioned under <code>/etc/nexus</code>.</p>
+        </div>
+      </div>

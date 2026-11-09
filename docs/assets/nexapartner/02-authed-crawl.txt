@@ -1,0 +1,142 @@
+########## /dashboard
+HTTP 200 type=text/html; charset=utf-8 size=5814
+6:  <title>Dashboard — NexaPartner</title>
+10:  <div class="announcement">NexaPartner · Reseller and partner portal · Settlement runs on the 5th of each month</div>
+12:    <a class="brand" href="/">Nexa<span>Partner</span></a>
+17:        <a href="/api-docs">API docs</a>
+34:    <span class="eyebrow">Partner dashboard</span>
+36:    <p>Maya Anggraini · Channel Partnerships Manager · <span class="pill pill-tier">Gold tier</span></p>
+39:    <a class="btn btn-ghost" href="/api-docs">API docs</a>
+40:    <a class="btn btn-primary" href="/settings">Partner settings</a>
+56:    <span>API calls</span>
+61:    <span>Webhook success</span>
+116:    <div class="panel-head"><h2>Recent webhook events</h2></div>
+145:            <strong>partner.commission</strong>
+########## /api-docs
+HTTP 200 type=text/html; charset=utf-8 size=3081
+6:  <title>API docs — NexaPartner</title>
+10:  <div class="announcement">NexaPartner · Reseller and partner portal · Settlement runs on the 5th of each month</div>
+12:    <a class="brand" href="/">Nexa<span>Partner</span></a>
+17:        <a href="/api-docs">API docs</a>
+35:    <h1>Partner API</h1>
+36:    <p>Integrate NexaCommerce order and settlement events into your partner systems.</p>
+44:    <p class="muted">Include your live API key in the <code>Authorization</code> header.</p>
+50:      <code>/api/partner/referrals</code>
+55:      <code>/api/partner/commissions</code>
+60:      <code>/api/partner/webhooks/test</code>
+61:      <p>Send a test event to the configured webhook endpoint.</p>
+66:  https://api.nexacommerce.test/v2/partner/referrals</pre>
+########## /settings
+HTTP 200 type=text/html; charset=utf-8 size=4312
+6:  <title>Settings — NexaPartner</title>
+10:  <div class="announcement">NexaPartner · Reseller and partner portal · Settlement runs on the 5th of each month</div>
+12:    <a class="brand" href="/">Nexa<span>Partner</span></a>
+17:        <a href="/api-docs">API docs</a>
+34:    <span class="eyebrow">Partner settings</span>
+35:    <h1>Notification and webhook settings</h1>
+36:    <p>Changes are saved to your partner profile and applied to new events immediately.</p>
+44:        <span>Webhook endpoint</span>
+45:        <input type="url" id="webhookUrl" value="https://arunika.example/webhooks/nexa" placeholder="https://partner.example/hooks/nexa">
+74:    <pre id="settings-json" class="code-block">{
+76:  &#34;webhookUrl&#34;: &#34;https://arunika.example/webhooks/nexa&#34;,
+81:      <strong>Webhook signing</strong>
+########## /webhooks
+HTTP 404 type=text/html; charset=utf-8 size=1504
+6:  <title>Not found — NexaPartner</title>
+10:  <div class="announcement">NexaPartner · Reseller and partner portal · Settlement runs on the 5th of each month</div>
+12:    <a class="brand" href="/">Nexa<span>Partner</span></a>
+17:        <a href="/api-docs">API docs</a>
+43:      <strong>NexaPartner</strong>
+44:      <p>Partner and reseller operations for the NexaCommerce network.</p>
+48:      <a href="/login">Partner login</a>
+49:      <a href="/api-docs">API documentation</a>
+51:    <p class="copyright">&copy; 2024 NexaPartner. All rights reserved.</p>
+########## /referrals
+HTTP 404 type=text/html; charset=utf-8 size=1504
+6:  <title>Not found — NexaPartner</title>
+10:  <div class="announcement">NexaPartner · Reseller and partner portal · Settlement runs on the 5th of each month</div>
+12:    <a class="brand" href="/">Nexa<span>Partner</span></a>
+17:        <a href="/api-docs">API docs</a>
+43:      <strong>NexaPartner</strong>
+44:      <p>Partner and reseller operations for the NexaCommerce network.</p>
+48:      <a href="/login">Partner login</a>
+49:      <a href="/api-docs">API documentation</a>
+51:    <p class="copyright">&copy; 2024 NexaPartner. All rights reserved.</p>
+########## /commissions
+HTTP 404 type=text/html; charset=utf-8 size=1504
+6:  <title>Not found — NexaPartner</title>
+10:  <div class="announcement">NexaPartner · Reseller and partner portal · Settlement runs on the 5th of each month</div>
+12:    <a class="brand" href="/">Nexa<span>Partner</span></a>
+17:        <a href="/api-docs">API docs</a>
+43:      <strong>NexaPartner</strong>
+44:      <p>Partner and reseller operations for the NexaCommerce network.</p>
+48:      <a href="/login">Partner login</a>
+49:      <a href="/api-docs">API documentation</a>
+51:    <p class="copyright">&copy; 2024 NexaPartner. All rights reserved.</p>
+########## /api
+HTTP 404 type=text/html; charset=utf-8 size=1504
+6:  <title>Not found — NexaPartner</title>
+10:  <div class="announcement">NexaPartner · Reseller and partner portal · Settlement runs on the 5th of each month</div>
+12:    <a class="brand" href="/">Nexa<span>Partner</span></a>
+17:        <a href="/api-docs">API docs</a>
+43:      <strong>NexaPartner</strong>
+44:      <p>Partner and reseller operations for the NexaCommerce network.</p>
+48:      <a href="/login">Partner login</a>
+49:      <a href="/api-docs">API documentation</a>
+51:    <p class="copyright">&copy; 2024 NexaPartner. All rights reserved.</p>
+########## /api/me
+HTTP 404 type=text/html; charset=utf-8 size=1504
+6:  <title>Not found — NexaPartner</title>
+10:  <div class="announcement">NexaPartner · Reseller and partner portal · Settlement runs on the 5th of each month</div>
+12:    <a class="brand" href="/">Nexa<span>Partner</span></a>
+17:        <a href="/api-docs">API docs</a>
+43:      <strong>NexaPartner</strong>
+44:      <p>Partner and reseller operations for the NexaCommerce network.</p>
+48:      <a href="/login">Partner login</a>
+49:      <a href="/api-docs">API documentation</a>
+51:    <p class="copyright">&copy; 2024 NexaPartner. All rights reserved.</p>
+########## /api/partner
+HTTP 404 type=text/html; charset=utf-8 size=1504
+6:  <title>Not found — NexaPartner</title>
+10:  <div class="announcement">NexaPartner · Reseller and partner portal · Settlement runs on the 5th of each month</div>
+12:    <a class="brand" href="/">Nexa<span>Partner</span></a>
+17:        <a href="/api-docs">API docs</a>
+43:      <strong>NexaPartner</strong>
+44:      <p>Partner and reseller operations for the NexaCommerce network.</p>
+48:      <a href="/login">Partner login</a>
+49:      <a href="/api-docs">API documentation</a>
+51:    <p class="copyright">&copy; 2024 NexaPartner. All rights reserved.</p>
+########## /admin
+HTTP 403 type=text/html; charset=utf-8 size=1566
+6:  <title>Access denied — NexaPartner</title>
+10:  <div class="announcement">NexaPartner · Reseller and partner portal · Settlement runs on the 5th of each month</div>
+12:    <a class="brand" href="/">Nexa<span>Partner</span></a>
+17:        <a href="/api-docs">API docs</a>
+35:  <p class="muted">The partner audit console is restricted to Partner Operations administrators.</p>
+43:      <strong>NexaPartner</strong>
+44:      <p>Partner and reseller operations for the NexaCommerce network.</p>
+48:      <a href="/login">Partner login</a>
+49:      <a href="/api-docs">API documentation</a>
+51:    <p class="copyright">&copy; 2024 NexaPartner. All rights reserved.</p>
+########## /admin/console
+HTTP 404 type=text/html; charset=utf-8 size=1504
+6:  <title>Not found — NexaPartner</title>
+10:  <div class="announcement">NexaPartner · Reseller and partner portal · Settlement runs on the 5th of each month</div>
+12:    <a class="brand" href="/">Nexa<span>Partner</span></a>
+17:        <a href="/api-docs">API docs</a>
+43:      <strong>NexaPartner</strong>
+44:      <p>Partner and reseller operations for the NexaCommerce network.</p>
+48:      <a href="/login">Partner login</a>
+49:      <a href="/api-docs">API documentation</a>
+51:    <p class="copyright">&copy; 2024 NexaPartner. All rights reserved.</p>
+########## /api/admin
+HTTP 404 type=text/html; charset=utf-8 size=1504
+6:  <title>Not found — NexaPartner</title>
+10:  <div class="announcement">NexaPartner · Reseller and partner portal · Settlement runs on the 5th of each month</div>
+12:    <a class="brand" href="/">Nexa<span>Partner</span></a>
+17:        <a href="/api-docs">API docs</a>
+43:      <strong>NexaPartner</strong>
+44:      <p>Partner and reseller operations for the NexaCommerce network.</p>
+48:      <a href="/login">Partner login</a>
+49:      <a href="/api-docs">API documentation</a>
+51:    <p class="copyright">&copy; 2024 NexaPartner. All rights reserved.</p>

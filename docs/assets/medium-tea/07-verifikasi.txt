@@ -1,0 +1,10 @@
+$ ./reverse/Medium_02_TEA/medium_tea 'NFX{wrong}'
+Wrong!
+rc=1
+
+$ ./reverse/Medium_02_TEA/medium_tea 'NFX{t1ny_3ncrypt10n_4lg0r1thm_32_r0und5}'
+Correct! TEA terpecahkan.
+rc=0
+
+$ sha256sum reverse/Medium_02_TEA/medium_tea
+a2b45f299304e0cc64582e0bdc704100b9cb2f4fc4c0f164a8cfd322b01b255a  reverse/Medium_02_TEA/medium_tea

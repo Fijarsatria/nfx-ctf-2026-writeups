@@ -1,0 +1,4 @@
+flag_file : /home/bocil/ctf/nfx/flags/pwn/Starved.txt
+flag      : NFX{st4rv3d_s3cc0mp_fd0_r3us3_r0p_m4st3r}
+sha256    : d2758899054e05e16d367dbc90bf2dc7b4ef7d225245f3c19cc8fc6d1eb48cc8  /home/bocil/ctf/nfx/flags/pwn/Starved.txt
+status    : VERIFIED platform (writeups/FLAGS.md)
