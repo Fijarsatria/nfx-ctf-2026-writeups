@@ -1,5 +1,8 @@
 # The Alchemist's Sandbox
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Misc</span><span class="nx-chip">Medium</span><span class="nx-chip">240 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -13,8 +16,6 @@
 | Status | `VERIFIED` |
 
 [← Kembali ke Index](index.md)
-
-## Ringkasan
 
 ## TL;DR
 
@@ -32,11 +33,15 @@
   memverifikasi hasilnya.
 - Flag: `NFXCTF{pyj41l_4st_4lch3my_vm_pwn_d84f216a}`.
 
+<div class="nx-evidence-preview"><a href="32-the-alchemists-sandbox-05-bukti-evidence.html"><img src="assets/the-alchemists-sandbox/98-terminal-evidence.png" alt="Pratinjau evidence The Alchemist&#x27;s Sandbox" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="32-the-alchemists-sandbox-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](32-the-alchemists-sandbox-01-recon.md)
-- [Analisis](32-the-alchemists-sandbox-02-analisis.md)
-- [Eksploitasi / Solver](32-the-alchemists-sandbox-03-eksploitasi-solver.md)
-- [Flag](32-the-alchemists-sandbox-04-flag.md)
-- [Bukti / Evidence](32-the-alchemists-sandbox-05-bukti-evidence.md)
-- [Referensi](32-the-alchemists-sandbox-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="32-the-alchemists-sandbox-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="32-the-alchemists-sandbox-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="32-the-alchemists-sandbox-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="32-the-alchemists-sandbox-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="32-the-alchemists-sandbox-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="32-the-alchemists-sandbox-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

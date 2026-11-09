@@ -1,11 +1,20 @@
 # Talatah Ti Peuntas — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">1 screenshot</span><span class="nx-chip">8 transkrip / script</span></div>
+
+
 [← Overview](41-talatah-ti-peuntas.md) · [Index](index.md)
 
 
 ## Arsip Evidence
 
 > Semua file di bawah berasal dari folder `assets/talatah-ti-peuntas/`. Screenshot ditempel langsung; file teks/script ditautkan.
+
+### Screenshot
+
+<div class="nx-evidence-grid">
+<figure><a href="assets/talatah-ti-peuntas/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/talatah-ti-peuntas/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

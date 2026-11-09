@@ -1,11 +1,20 @@
 # THE FORGOTTEN STATE — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">1 screenshot</span><span class="nx-chip">8 transkrip / script</span></div>
+
+
 [← Overview](42-the-forgotten-state.md) · [Index](index.md)
 
 
 ## Arsip Evidence
 
 > Semua file di bawah berasal dari folder `assets/the-forgotten-state/`. Screenshot ditempel langsung; file teks/script ditautkan.
+
+### Screenshot
+
+<div class="nx-evidence-grid">
+<figure><a href="assets/the-forgotten-state/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/the-forgotten-state/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

@@ -1,5 +1,8 @@
 # S3rvice K3reta — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">4 transkrip / script</span></div>
+
+
 [← Overview](34-s3rvice-k3reta.md) · [Index](index.md)
 
 
@@ -9,9 +12,11 @@
 
 ### Screenshot
 
-![01-from_train.jpeg](assets/s3rvice-k3reta/01-from_train.jpeg)
-
-![06-crop-top-bottom.png](assets/s3rvice-k3reta/06-crop-top-bottom.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/s3rvice-k3reta/01-from_train.jpeg" target="_blank" rel="noopener"><img src="assets/s3rvice-k3reta/01-from_train.jpeg" alt="01-from_train.jpeg" loading="lazy"></a><figcaption>01-from_train.jpeg</figcaption></figure>
+<figure><a href="assets/s3rvice-k3reta/06-crop-top-bottom.png" target="_blank" rel="noopener"><img src="assets/s3rvice-k3reta/06-crop-top-bottom.png" alt="06-crop-top-bottom.png" loading="lazy"></a><figcaption>06-crop-top-bottom.png</figcaption></figure>
+<figure><a href="assets/s3rvice-k3reta/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/s3rvice-k3reta/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

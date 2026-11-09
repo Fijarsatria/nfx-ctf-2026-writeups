@@ -1,5 +1,8 @@
 # Progress Bar (Root) — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">5 transkrip / script</span></div>
+
+
 [← Overview](14-progress-bar-root.md) · [Index](index.md)
 
 
@@ -9,9 +12,11 @@
 
 ### Screenshot
 
-![05-privesc.png](assets/progress-bar-root/05-privesc.png)
-
-![06-flag.png](assets/progress-bar-root/06-flag.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/progress-bar-root/05-privesc.png" target="_blank" rel="noopener"><img src="assets/progress-bar-root/05-privesc.png" alt="05-privesc.png" loading="lazy"></a><figcaption>05-privesc.png</figcaption></figure>
+<figure><a href="assets/progress-bar-root/06-flag.png" target="_blank" rel="noopener"><img src="assets/progress-bar-root/06-flag.png" alt="06-flag.png" loading="lazy"></a><figcaption>06-flag.png</figcaption></figure>
+<figure><a href="assets/progress-bar-root/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/progress-bar-root/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

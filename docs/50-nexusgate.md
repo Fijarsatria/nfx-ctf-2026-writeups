@@ -1,5 +1,8 @@
 # NexusGate
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Web</span><span class="nx-chip">Hard</span><span class="nx-chip">320 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -14,8 +17,6 @@
 
 [← Kembali ke Index](index.md)
 
-## Ringkasan
-
 ## TL;DR
 
 - **NexusGate** terdiri dari edge reverse proxy Node.js (`:80`) di depan microservice vault (`127.0.0.1:8080`).
@@ -25,11 +26,15 @@
 - Nonce bot adalah `aud` yang dipakai bot admin saat mengambil `/tickets/latest?aud=<nonce>` melalui edge cache (`undici interceptors.cache()`). Cache key tidak memisahkan admin vs anonim, sehingga penyerang mendapatkan HTML admin yang berisi `MASTER_TICKET`.
 - `POST /flag` dengan ticket tersebut mengembalikan flag: `NFX{n3xu5_g4t3_0v3r_gr4nt_c4ch3_smuggl3_2026}`.
 
+<div class="nx-evidence-preview"><a href="50-nexusgate-05-bukti-evidence.html"><img src="assets/nexusgate/98-terminal-evidence.png" alt="Pratinjau evidence NexusGate" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="50-nexusgate-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](50-nexusgate-01-recon.md)
-- [Analisis](50-nexusgate-02-analisis.md)
-- [Eksploitasi / Solver](50-nexusgate-03-eksploitasi-solver.md)
-- [Flag](50-nexusgate-04-flag.md)
-- [Bukti / Evidence](50-nexusgate-05-bukti-evidence.md)
-- [Referensi](50-nexusgate-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="50-nexusgate-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="50-nexusgate-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="50-nexusgate-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="50-nexusgate-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="50-nexusgate-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="50-nexusgate-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

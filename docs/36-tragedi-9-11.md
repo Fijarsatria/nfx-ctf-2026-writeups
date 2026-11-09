@@ -1,5 +1,8 @@
 # Tragedi 9/11
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Osint</span><span class="nx-chip">Hard</span><span class="nx-chip">380 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -14,8 +17,6 @@
 
 [← Kembali ke Index](index.md)
 
-## Ringkasan
-
 ## TL;DR
 
 - Video challenge adalah rekaman 9/11 berdurasi **58,5 detik**, 1920×1080,
@@ -29,11 +30,15 @@
 - Commit `ea765a9` menghapus `.env`, tetapi objek commit lama tetap ada.
 - Flag: `NFX{OS1NT_DU4R_D34_D0R}`.
 
+<div class="nx-evidence-preview"><a href="36-tragedi-9-11-05-bukti-evidence.html"><img src="assets/tragedi-9-11/98-terminal-evidence.png" alt="Pratinjau evidence Tragedi 9/11" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="36-tragedi-9-11-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](36-tragedi-9-11-01-recon.md)
-- [Analisis](36-tragedi-9-11-02-analisis.md)
-- [Eksploitasi / Solver](36-tragedi-9-11-03-eksploitasi-solver.md)
-- [Flag](36-tragedi-9-11-04-flag.md)
-- [Bukti / Evidence](36-tragedi-9-11-05-bukti-evidence.md)
-- [Referensi](36-tragedi-9-11-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="36-tragedi-9-11-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="36-tragedi-9-11-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="36-tragedi-9-11-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="36-tragedi-9-11-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="36-tragedi-9-11-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="36-tragedi-9-11-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

@@ -1,81 +1,143 @@
-# NFX CTF 2026 — Writeup Medium–Hard
+<div class="nx-hero">
+<div class="nx-kicker">NFX CTF 2026 · Writeup Book</div>
+<h1>NFX CTF 2026<br><span class="nx-hero-sub">Medium–Hard, dari recon sampai flag</span></h1>
+<p>Kumpulan writeup 52 challenge NFX CTF 2026, disusun langkah per langkah. Setiap challenge dipecah menjadi Overview, Recon, Analisis, Eksploitasi, Flag, Evidence, dan Referensi, lengkap dengan command, output, serta screenshot.</p>
+<div class="nx-stats">
+<div class="nx-stat"><strong>52</strong><span>Challenge</span></div>
+<div class="nx-stat"><strong>368</strong><span>Halaman</span></div>
+<div class="nx-stat"><strong>504</strong><span>File bukti</span></div>
+<div class="nx-stat"><strong>51</strong><span>Solved</span></div>
+</div>
+</div>
 
-**368 halaman** untuk **52 challenge**. Setiap challenge dipecah menjadi Overview, Recon, Analisis, Eksploitasi, Flag, Evidence, dan Referensi (jika ada).
+<div class="nx-toc-grid">
+<a class="nx-toc-card" href="#daftar-challenge"><b>Daftar challenge</b><span>Filter 52 challenge berdasarkan status, kategori, atau nama.</span></a>
+<a class="nx-toc-card" href="#status"><b>Status flag</b><span>Arti VERIFIED, CANDIDATE, dan OPEN.</span></a>
+<a class="nx-toc-card" href="#cara-pakai"><b>Cara pakai</b><span>Alur membaca dan struktur tiap challenge.</span></a>
+<a class="nx-toc-card" href="#catatan"><b>Catatan</b><span>Challenge OPEN dan hal yang perlu diketahui.</span></a>
+</div>
 
-## Ringkasan
+## Jelajahi kategori
 
-- Challenge: **52** — Medium **33**, Hard **18**, Insane **1** (bonus)
-- Total halaman: **368**
-- Status: **51 verified/candidate**, **1 open** (NXPortal)
-- Format flag: `NFX{...}`
-
-## Cara pakai
-
-1. **GitHub Pages**: pakai folder `writeups/github-pages/` (MkDocs Material, 368 halaman, screenshot ikut ter-build).
-2. **HackMD Book**: import folder ini; `SUMMARY.md` sudah berisi urutan semua halaman.
-3. **Satu note**: `ALL_IN_ONE.md` (backup; ukurannya besar).
+<div class="nx-cats">
+<button type="button" class="nx-cat" data-category-filter="Boot To Root"><span class="nx-cat-name">Boot To Root</span><span class="nx-cat-count">5 challenge · 5 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Crypto"><span class="nx-cat-name">Crypto</span><span class="nx-cat-count">9 challenge · 9 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Forensics"><span class="nx-cat-name">Forensics</span><span class="nx-cat-count">7 challenge · 7 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Misc"><span class="nx-cat-name">Misc</span><span class="nx-cat-count">7 challenge · 7 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Osint"><span class="nx-cat-name">Osint</span><span class="nx-cat-count">5 challenge · 5 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Pwn"><span class="nx-cat-name">Pwn</span><span class="nx-cat-count">7 challenge · 7 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Web"><span class="nx-cat-name">Web</span><span class="nx-cat-count">7 challenge · 6 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Reverse"><span class="nx-cat-name">Reverse</span><span class="nx-cat-count">5 challenge · 5 solved</span></button>
+</div>
 
 ## Daftar challenge
 
-Status: `VERIFIED` = flag diterima platform; `CANDIDATE` = flag dari artefak, cek halaman verifikasi; `OPEN` = belum solved.
+Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategori di atas untuk langsung memfilter tabel.
 
-| No | Challenge | Difficulty | Poin | Status | Halaman |
-|---:|---|---|---:|---|---:|
-| 1 | Forgotten Commit (Root)<br><sub>NF · Boot To Root</sub> | Medium | 100 | VERIFIED | [7](01-forgotten-commit-root.md) |
-| 2 | Black Box Protocol N4T0<br><sub>NF · Crypto</sub> | Medium | 280 | CANDIDATE | [7](02-black-box-protocol-n4t0.md) |
-| 3 | Cihuyyyyyyyyyyyyyyy LWE sikit ahhhh<br><sub>NF · Crypto</sub> | Medium | 200 | VERIFIED | [7](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh.md) |
-| 4 | Feistel Differential<br><sub>NF · Crypto</sub> | Medium | 100 | VERIFIED | [7](04-feistel-differential.md) |
-| 5 | Heker Tersenyum - Art Evidence Secret<br><sub>NF · Forensics</sub> | Medium | 280 | VERIFIED | [7](05-heker-tersenyum-art-evidence-secret.md) |
-| 6 | insider<br><sub>NF · Forensics</sub> | Medium | 100 | VERIFIED | [7](06-insider.md) |
-| 7 | Perimeter Breach<br><sub>NF · Forensics</sub> | Medium | 100 | VERIFIED | [7](07-perimeter-breach.md) |
-| 8 | Frekuensi Sunyi<br><sub>NF · Misc</sub> | Medium | 180 | VERIFIED | [7](08-frekuensi-sunyi.md) |
-| 9 | Career Tempat Belajar<br><sub>NF · Osint</sub> | Medium | 380 | VERIFIED | [7](09-career-tempat-belajar.md) |
-| 10 | NFXCTF Convention<br><sub>NF · Pwn</sub> | Medium | 280 | VERIFIED | [7](10-nfxctf-convention.md) |
-| 11 | NexaIdentity<br><sub>NF · Web</sub> | Medium | 120 | VERIFIED | [7](11-nexaidentity.md) |
-| 12 | NexaPartner<br><sub>NF · Web</sub> | Medium | 200 | VERIFIED | [7](12-nexapartner.md) |
-| 13 | NXPortal<br><sub>NF · Web</sub> | Medium | 480 | OPEN | [8](13-nxportal.md) |
-| 14 | Progress Bar (Root)<br><sub>Extend · Boot To Root</sub> | Hard | 460 | VERIFIED | [7](14-progress-bar-root.md) |
-| 15 | Progress Bar (User)<br><sub>Extend · Boot To Root</sub> | Hard | 460 | CANDIDATE | [7](15-progress-bar-user.md) |
-| 16 | Record Keeper (Root)<br><sub>Extend · Boot To Root</sub> | Medium | 460 | VERIFIED | [7](16-record-keeper-root.md) |
-| 17 | Record Keeper (User)<br><sub>Extend · Boot To Root</sub> | Medium | 460 | VERIFIED | [7](17-record-keeper-user.md) |
-| 18 | Broken Signature Scheme<br><sub>Extend · Crypto</sub> | Hard | 180 | VERIFIED | [7](18-broken-signature-scheme.md) |
-| 19 | ECDSA Nonce Bias<br><sub>Extend · Crypto</sub> | Hard | 260 | VERIFIED | [7](19-ecdsa-nonce-bias.md) |
-| 20 | FlagKeepers<br><sub>Extend · Crypto</sub> | Hard | 440 | VERIFIED | [7](20-flagkeepers.md) |
-| 21 | RSA Coppersmith cihuy<br><sub>Extend · Crypto</sub> | Medium | 120 | VERIFIED | [7](21-rsa-coppersmith-cihuy.md) |
-| 22 | Static IV Offline<br><sub>Extend · Crypto</sub> | Medium | 140 | VERIFIED | [7](22-static-iv-offline.md) |
-| 23 | Unbreakable Delay<br><sub>Extend · Crypto</sub> | Medium | 360 | VERIFIED | [7](23-unbreakable-delay.md) |
-| 24 | Access Remains<br><sub>Extend · Forensics</sub> | Hard | 360 | VERIFIED | [8](24-access-remains.md) |
-| 25 | Bluebird Session<br><sub>Extend · Forensics</sub> | Hard | 420 | VERIFIED | [8](25-bluebird-session.md) |
-| 26 | Panggilan Terakhir<br><sub>Extend · Forensics</sub> | Medium | 380 | VERIFIED | [7](26-panggilan-terakhir.md) |
-| 27 | Weak Handshake<br><sub>Extend · Forensics</sub> | Medium | 360 | VERIFIED | [7](27-weak-handshake.md) |
-| 28 | Dokodemo Door<br><sub>Extend · Misc</sub> | Medium | 160 | VERIFIED | [7](28-dokodemo-door.md) |
-| 29 | My Lovely Freya<br><sub>Extend · Misc</sub> | Hard | 320 | VERIFIED | [7](29-my-lovely-freya.md) |
-| 30 | Stay<br><sub>Extend · Misc</sub> | Medium | 340 | VERIFIED | [7](30-stay.md) |
-| 31 | SymHell<br><sub>Extend · Misc</sub> | Medium | 340 | VERIFIED | [7](31-symhell.md) |
-| 32 | The Alchemist's Sandbox<br><sub>Extend · Misc</sub> | Medium | 240 | VERIFIED | [7](32-the-alchemists-sandbox.md) |
-| 33 | Fresh Arrival<br><sub>Extend · Osint</sub> | Medium | 340 | VERIFIED | [7](33-fresh-arrival.md) |
-| 34 | S3rvice K3reta<br><sub>Extend · Osint</sub> | Hard | 480 | VERIFIED | [7](34-s3rvice-k3reta.md) |
-| 35 | The Ghost Operator<br><sub>Extend · Osint</sub> | Medium | 380 | VERIFIED | [7](35-the-ghost-operator.md) |
-| 36 | Tragedi 9/11<br><sub>Extend · Osint</sub> | Hard | 380 | VERIFIED | [7](36-tragedi-9-11.md) |
-| 37 | Gateway Under Pressure<br><sub>Extend · Pwn</sub> | Medium | 300 | VERIFIED | [7](37-gateway-under-pressure.md) |
-| 38 | NarrowGate<br><sub>Extend · Pwn</sub> | Insane | 380 | VERIFIED | [7](38-narrowgate.md) |
-| 39 | Pipa Nu Kotor<br><sub>Extend · Pwn</sub> | Medium | 300 | VERIFIED | [7](39-pipa-nu-kotor.md) |
-| 40 | Starved<br><sub>Extend · Pwn</sub> | Medium | 380 | VERIFIED | [7](40-starved.md) |
-| 41 | Talatah Ti Peuntas<br><sub>Extend · Pwn</sub> | Hard | 440 | VERIFIED | [7](41-talatah-ti-peuntas.md) |
-| 42 | THE FORGOTTEN STATE<br><sub>Extend · Pwn</sub> | Hard | 340 | VERIFIED | [7](42-the-forgotten-state.md) |
-| 43 | Castaway<br><sub>Extend · Reverse</sub> | Hard | 100 | VERIFIED | [7](43-castaway.md) |
-| 44 | Hard Feistel<br><sub>Extend · Reverse</sub> | Hard | 230 | VERIFIED | [7](44-hard-feistel.md) |
-| 45 | Hard VM Bytecode<br><sub>Extend · Reverse</sub> | Hard | 100 | VERIFIED | [7](45-hard-vm-bytecode.md) |
-| 46 | Medium RC4<br><sub>Extend · Reverse</sub> | Medium | 100 | VERIFIED | [7](46-medium-rc4.md) |
-| 47 | Medium TEA<br><sub>Extend · Reverse</sub> | Medium | 100 | VERIFIED | [7](47-medium-tea.md) |
-| 48 | ChangeTrack<br><sub>Extend · Web</sub> | Medium | 300 | VERIFIED | [7](48-changetrack.md) |
-| 49 | LinkVault<br><sub>Extend · Web</sub> | Hard | 360 | VERIFIED | [7](49-linkvault.md) |
-| 50 | NexusGate<br><sub>Extend · Web</sub> | Hard | 320 | VERIFIED | [7](50-nexusgate.md) |
-| 51 | PageStream<br><sub>Extend · Web</sub> | Hard | 320 | VERIFIED | [7](51-pagestream.md) |
-| 52 | Wujud Aseli Atmin<br><sub>NF · Misc</sub> | Medium | 420 | VERIFIED | [8](52-wujud-aseli-atmin.md) |
+<div class="nx-filters">
+<label class="nx-search"><span>Cari challenge · tekan /</span><input id="nx-search" type="search" placeholder="Nama, kategori, atau difficulty..." autocomplete="off"></label>
+<div class="nx-filter-group" role="group" aria-label="Filter status"><span class="nx-filter-label">Status</span><button type="button" class="nx-filter is-active" data-status-filter="all">Semua</button>
+<button type="button" class="nx-filter" data-status-filter="VERIFIED">VERIFIED (49)</button>
+<button type="button" class="nx-filter" data-status-filter="CANDIDATE">CANDIDATE (2)</button>
+<button type="button" class="nx-filter" data-status-filter="OPEN">OPEN (1)</button>
+</div>
+<div class="nx-filter-group" role="group" aria-label="Filter kategori"><span class="nx-filter-label">Kategori</span><button type="button" class="nx-filter is-active" data-category-filter="all">Semua</button>
+<button type="button" class="nx-filter" data-category-filter="Boot To Root">Boot To Root</button>
+<button type="button" class="nx-filter" data-category-filter="Crypto">Crypto</button>
+<button type="button" class="nx-filter" data-category-filter="Forensics">Forensics</button>
+<button type="button" class="nx-filter" data-category-filter="Misc">Misc</button>
+<button type="button" class="nx-filter" data-category-filter="Osint">Osint</button>
+<button type="button" class="nx-filter" data-category-filter="Pwn">Pwn</button>
+<button type="button" class="nx-filter" data-category-filter="Web">Web</button>
+<button type="button" class="nx-filter" data-category-filter="Reverse">Reverse</button>
+</div>
+</div>
+<div class="nx-result-line"><strong id="nx-count">52 challenge</strong><button type="button" id="nx-reset" class="nx-reset">Reset filter</button></div>
+<div class="nx-table-wrap">
+<table id="nx-challenge-table" class="nx-challenge-table">
+<thead><tr><th>No</th><th>Challenge</th><th>Difficulty</th><th>Poin</th><th>Status</th><th>Halaman</th></tr></thead>
+<tbody>
+<tr data-category="Boot To Root" data-status="VERIFIED" data-difficulty="Medium" data-search="Forgotten Commit (Root) Boot To Root Medium Track Mahasiswa NF"><td>1</td><td><a href="01-forgotten-commit-root.html"><strong>Forgotten Commit (Root)</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Boot To Root</span></td><td>Medium</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="01-forgotten-commit-root.html">7 halaman</a></td></tr>
+<tr data-category="Crypto" data-status="CANDIDATE" data-difficulty="Medium" data-search="Black Box Protocol N4T0 Crypto Medium Track Mahasiswa NF"><td>2</td><td><a href="02-black-box-protocol-n4t0.html"><strong>Black Box Protocol N4T0</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Crypto</span></td><td>Medium</td><td>280</td><td><span class="nx-badge nx-badge-candidate">CANDIDATE</span></td><td><a href="02-black-box-protocol-n4t0.html">7 halaman</a></td></tr>
+<tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Medium" data-search="Cihuyyyyyyyyyyyyyyy LWE sikit ahhhh Crypto Medium Track Mahasiswa NF"><td>3</td><td><a href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh.html"><strong>Cihuyyyyyyyyyyyyyyy LWE sikit ahhhh</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Crypto</span></td><td>Medium</td><td>200</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh.html">7 halaman</a></td></tr>
+<tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Medium" data-search="Feistel Differential Crypto Medium Track Mahasiswa NF"><td>4</td><td><a href="04-feistel-differential.html"><strong>Feistel Differential</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Crypto</span></td><td>Medium</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="04-feistel-differential.html">7 halaman</a></td></tr>
+<tr data-category="Forensics" data-status="VERIFIED" data-difficulty="Medium" data-search="Heker Tersenyum - Art Evidence Secret Forensics Medium Track Mahasiswa NF"><td>5</td><td><a href="05-heker-tersenyum-art-evidence-secret.html"><strong>Heker Tersenyum - Art Evidence Secret</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Forensics</span></td><td>Medium</td><td>280</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="05-heker-tersenyum-art-evidence-secret.html">7 halaman</a></td></tr>
+<tr data-category="Forensics" data-status="VERIFIED" data-difficulty="Medium" data-search="insider Forensics Medium Track Mahasiswa NF"><td>6</td><td><a href="06-insider.html"><strong>insider</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Forensics</span></td><td>Medium</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="06-insider.html">7 halaman</a></td></tr>
+<tr data-category="Forensics" data-status="VERIFIED" data-difficulty="Medium" data-search="Perimeter Breach Forensics Medium Track Mahasiswa NF"><td>7</td><td><a href="07-perimeter-breach.html"><strong>Perimeter Breach</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Forensics</span></td><td>Medium</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="07-perimeter-breach.html">7 halaman</a></td></tr>
+<tr data-category="Misc" data-status="VERIFIED" data-difficulty="Medium" data-search="Frekuensi Sunyi Misc Medium Track Mahasiswa NF"><td>8</td><td><a href="08-frekuensi-sunyi.html"><strong>Frekuensi Sunyi</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Misc</span></td><td>Medium</td><td>180</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="08-frekuensi-sunyi.html">7 halaman</a></td></tr>
+<tr data-category="Osint" data-status="VERIFIED" data-difficulty="Medium" data-search="Career Tempat Belajar Osint Medium Track Mahasiswa NF"><td>9</td><td><a href="09-career-tempat-belajar.html"><strong>Career Tempat Belajar</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Osint</span></td><td>Medium</td><td>380</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="09-career-tempat-belajar.html">7 halaman</a></td></tr>
+<tr data-category="Pwn" data-status="VERIFIED" data-difficulty="Medium" data-search="NFXCTF Convention Pwn Medium Track Mahasiswa NF"><td>10</td><td><a href="10-nfxctf-convention.html"><strong>NFXCTF Convention</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Pwn</span></td><td>Medium</td><td>280</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="10-nfxctf-convention.html">7 halaman</a></td></tr>
+<tr data-category="Web" data-status="VERIFIED" data-difficulty="Medium" data-search="NexaIdentity Web Medium Track Mahasiswa NF"><td>11</td><td><a href="11-nexaidentity.html"><strong>NexaIdentity</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Web</span></td><td>Medium</td><td>120</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="11-nexaidentity.html">7 halaman</a></td></tr>
+<tr data-category="Web" data-status="VERIFIED" data-difficulty="Medium" data-search="NexaPartner Web Medium Track Mahasiswa NF"><td>12</td><td><a href="12-nexapartner.html"><strong>NexaPartner</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Web</span></td><td>Medium</td><td>200</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="12-nexapartner.html">7 halaman</a></td></tr>
+<tr data-category="Web" data-status="OPEN" data-difficulty="Medium" data-search="NXPortal Web Medium Track Mahasiswa NF"><td>13</td><td><a href="13-nxportal.html"><strong>NXPortal</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Web</span></td><td>Medium</td><td>480</td><td><span class="nx-badge nx-badge-open">OPEN</span></td><td><a href="13-nxportal.html">8 halaman</a></td></tr>
+<tr data-category="Boot To Root" data-status="VERIFIED" data-difficulty="Hard" data-search="Progress Bar (Root) Boot To Root Hard Track Umum / Extend"><td>14</td><td><a href="14-progress-bar-root.html"><strong>Progress Bar (Root)</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Boot To Root</span></td><td>Hard</td><td>460</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="14-progress-bar-root.html">7 halaman</a></td></tr>
+<tr data-category="Boot To Root" data-status="CANDIDATE" data-difficulty="Hard" data-search="Progress Bar (User) Boot To Root Hard Track Umum / Extend"><td>15</td><td><a href="15-progress-bar-user.html"><strong>Progress Bar (User)</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Boot To Root</span></td><td>Hard</td><td>460</td><td><span class="nx-badge nx-badge-candidate">CANDIDATE</span></td><td><a href="15-progress-bar-user.html">7 halaman</a></td></tr>
+<tr data-category="Boot To Root" data-status="VERIFIED" data-difficulty="Medium" data-search="Record Keeper (Root) Boot To Root Medium Track Umum / Extend"><td>16</td><td><a href="16-record-keeper-root.html"><strong>Record Keeper (Root)</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Boot To Root</span></td><td>Medium</td><td>460</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="16-record-keeper-root.html">7 halaman</a></td></tr>
+<tr data-category="Boot To Root" data-status="VERIFIED" data-difficulty="Medium" data-search="Record Keeper (User) Boot To Root Medium Track Umum / Extend"><td>17</td><td><a href="17-record-keeper-user.html"><strong>Record Keeper (User)</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Boot To Root</span></td><td>Medium</td><td>460</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="17-record-keeper-user.html">7 halaman</a></td></tr>
+<tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Hard" data-search="Broken Signature Scheme Crypto Hard Track Umum / Extend"><td>18</td><td><a href="18-broken-signature-scheme.html"><strong>Broken Signature Scheme</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Crypto</span></td><td>Hard</td><td>180</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="18-broken-signature-scheme.html">7 halaman</a></td></tr>
+<tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Hard" data-search="ECDSA Nonce Bias Crypto Hard Track Umum / Extend"><td>19</td><td><a href="19-ecdsa-nonce-bias.html"><strong>ECDSA Nonce Bias</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Crypto</span></td><td>Hard</td><td>260</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="19-ecdsa-nonce-bias.html">7 halaman</a></td></tr>
+<tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Hard" data-search="FlagKeepers Crypto Hard Track Umum / Extend"><td>20</td><td><a href="20-flagkeepers.html"><strong>FlagKeepers</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Crypto</span></td><td>Hard</td><td>440</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="20-flagkeepers.html">7 halaman</a></td></tr>
+<tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Medium" data-search="RSA Coppersmith cihuy Crypto Medium Track Umum / Extend"><td>21</td><td><a href="21-rsa-coppersmith-cihuy.html"><strong>RSA Coppersmith cihuy</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Crypto</span></td><td>Medium</td><td>120</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="21-rsa-coppersmith-cihuy.html">7 halaman</a></td></tr>
+<tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Medium" data-search="Static IV Offline Crypto Medium Track Umum / Extend"><td>22</td><td><a href="22-static-iv-offline.html"><strong>Static IV Offline</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Crypto</span></td><td>Medium</td><td>140</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="22-static-iv-offline.html">7 halaman</a></td></tr>
+<tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Medium" data-search="Unbreakable Delay Crypto Medium Track Umum / Extend"><td>23</td><td><a href="23-unbreakable-delay.html"><strong>Unbreakable Delay</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Crypto</span></td><td>Medium</td><td>360</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="23-unbreakable-delay.html">7 halaman</a></td></tr>
+<tr data-category="Forensics" data-status="VERIFIED" data-difficulty="Hard" data-search="Access Remains Forensics Hard Track Umum / Extend"><td>24</td><td><a href="24-access-remains.html"><strong>Access Remains</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Forensics</span></td><td>Hard</td><td>360</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="24-access-remains.html">8 halaman</a></td></tr>
+<tr data-category="Forensics" data-status="VERIFIED" data-difficulty="Hard" data-search="Bluebird Session Forensics Hard Track Umum / Extend"><td>25</td><td><a href="25-bluebird-session.html"><strong>Bluebird Session</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Forensics</span></td><td>Hard</td><td>420</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="25-bluebird-session.html">8 halaman</a></td></tr>
+<tr data-category="Forensics" data-status="VERIFIED" data-difficulty="Medium" data-search="Panggilan Terakhir Forensics Medium Track Umum / Extend"><td>26</td><td><a href="26-panggilan-terakhir.html"><strong>Panggilan Terakhir</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Forensics</span></td><td>Medium</td><td>380</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="26-panggilan-terakhir.html">7 halaman</a></td></tr>
+<tr data-category="Forensics" data-status="VERIFIED" data-difficulty="Medium" data-search="Weak Handshake Forensics Medium Track Umum / Extend"><td>27</td><td><a href="27-weak-handshake.html"><strong>Weak Handshake</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Forensics</span></td><td>Medium</td><td>360</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="27-weak-handshake.html">7 halaman</a></td></tr>
+<tr data-category="Misc" data-status="VERIFIED" data-difficulty="Medium" data-search="Dokodemo Door Misc Medium Track Umum / Extend"><td>28</td><td><a href="28-dokodemo-door.html"><strong>Dokodemo Door</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Misc</span></td><td>Medium</td><td>160</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="28-dokodemo-door.html">7 halaman</a></td></tr>
+<tr data-category="Misc" data-status="VERIFIED" data-difficulty="Hard" data-search="My Lovely Freya Misc Hard Track Umum / Extend"><td>29</td><td><a href="29-my-lovely-freya.html"><strong>My Lovely Freya</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Misc</span></td><td>Hard</td><td>320</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="29-my-lovely-freya.html">7 halaman</a></td></tr>
+<tr data-category="Misc" data-status="VERIFIED" data-difficulty="Medium" data-search="Stay Misc Medium Track Umum / Extend"><td>30</td><td><a href="30-stay.html"><strong>Stay</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Misc</span></td><td>Medium</td><td>340</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="30-stay.html">7 halaman</a></td></tr>
+<tr data-category="Misc" data-status="VERIFIED" data-difficulty="Medium" data-search="SymHell Misc Medium Track Umum / Extend"><td>31</td><td><a href="31-symhell.html"><strong>SymHell</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Misc</span></td><td>Medium</td><td>340</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="31-symhell.html">7 halaman</a></td></tr>
+<tr data-category="Misc" data-status="VERIFIED" data-difficulty="Medium" data-search="The Alchemist&#x27;s Sandbox Misc Medium Track Umum / Extend"><td>32</td><td><a href="32-the-alchemists-sandbox.html"><strong>The Alchemist&#x27;s Sandbox</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Misc</span></td><td>Medium</td><td>240</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="32-the-alchemists-sandbox.html">7 halaman</a></td></tr>
+<tr data-category="Osint" data-status="VERIFIED" data-difficulty="Medium" data-search="Fresh Arrival Osint Medium Track Umum / Extend"><td>33</td><td><a href="33-fresh-arrival.html"><strong>Fresh Arrival</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Osint</span></td><td>Medium</td><td>340</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="33-fresh-arrival.html">7 halaman</a></td></tr>
+<tr data-category="Osint" data-status="VERIFIED" data-difficulty="Hard" data-search="S3rvice K3reta Osint Hard Track Umum / Extend"><td>34</td><td><a href="34-s3rvice-k3reta.html"><strong>S3rvice K3reta</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Osint</span></td><td>Hard</td><td>480</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="34-s3rvice-k3reta.html">7 halaman</a></td></tr>
+<tr data-category="Osint" data-status="VERIFIED" data-difficulty="Medium" data-search="The Ghost Operator Osint Medium Track Umum / Extend"><td>35</td><td><a href="35-the-ghost-operator.html"><strong>The Ghost Operator</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Osint</span></td><td>Medium</td><td>380</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="35-the-ghost-operator.html">7 halaman</a></td></tr>
+<tr data-category="Osint" data-status="VERIFIED" data-difficulty="Hard" data-search="Tragedi 9/11 Osint Hard Track Umum / Extend"><td>36</td><td><a href="36-tragedi-9-11.html"><strong>Tragedi 9/11</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Osint</span></td><td>Hard</td><td>380</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="36-tragedi-9-11.html">7 halaman</a></td></tr>
+<tr data-category="Pwn" data-status="VERIFIED" data-difficulty="Medium" data-search="Gateway Under Pressure Pwn Medium Track Umum / Extend"><td>37</td><td><a href="37-gateway-under-pressure.html"><strong>Gateway Under Pressure</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Pwn</span></td><td>Medium</td><td>300</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="37-gateway-under-pressure.html">7 halaman</a></td></tr>
+<tr data-category="Pwn" data-status="VERIFIED" data-difficulty="Insane" data-search="NarrowGate Pwn Insane Track Umum / Extend"><td>38</td><td><a href="38-narrowgate.html"><strong>NarrowGate</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Pwn</span></td><td>Insane</td><td>380</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="38-narrowgate.html">7 halaman</a></td></tr>
+<tr data-category="Pwn" data-status="VERIFIED" data-difficulty="Medium" data-search="Pipa Nu Kotor Pwn Medium Track Umum / Extend"><td>39</td><td><a href="39-pipa-nu-kotor.html"><strong>Pipa Nu Kotor</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Pwn</span></td><td>Medium</td><td>300</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="39-pipa-nu-kotor.html">7 halaman</a></td></tr>
+<tr data-category="Pwn" data-status="VERIFIED" data-difficulty="Medium" data-search="Starved Pwn Medium Track Umum / Extend"><td>40</td><td><a href="40-starved.html"><strong>Starved</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Pwn</span></td><td>Medium</td><td>380</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="40-starved.html">7 halaman</a></td></tr>
+<tr data-category="Pwn" data-status="VERIFIED" data-difficulty="Hard" data-search="Talatah Ti Peuntas Pwn Hard Track Umum / Extend"><td>41</td><td><a href="41-talatah-ti-peuntas.html"><strong>Talatah Ti Peuntas</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Pwn</span></td><td>Hard</td><td>440</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="41-talatah-ti-peuntas.html">7 halaman</a></td></tr>
+<tr data-category="Pwn" data-status="VERIFIED" data-difficulty="Hard" data-search="THE FORGOTTEN STATE Pwn Hard Track Umum / Extend"><td>42</td><td><a href="42-the-forgotten-state.html"><strong>THE FORGOTTEN STATE</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Pwn</span></td><td>Hard</td><td>340</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="42-the-forgotten-state.html">7 halaman</a></td></tr>
+<tr data-category="Reverse" data-status="VERIFIED" data-difficulty="Hard" data-search="Castaway Reverse Hard Track Umum / Extend"><td>43</td><td><a href="43-castaway.html"><strong>Castaway</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Reverse</span></td><td>Hard</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="43-castaway.html">7 halaman</a></td></tr>
+<tr data-category="Reverse" data-status="VERIFIED" data-difficulty="Hard" data-search="Hard Feistel Reverse Hard Track Umum / Extend"><td>44</td><td><a href="44-hard-feistel.html"><strong>Hard Feistel</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Reverse</span></td><td>Hard</td><td>230</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="44-hard-feistel.html">7 halaman</a></td></tr>
+<tr data-category="Reverse" data-status="VERIFIED" data-difficulty="Hard" data-search="Hard VM Bytecode Reverse Hard Track Umum / Extend"><td>45</td><td><a href="45-hard-vm-bytecode.html"><strong>Hard VM Bytecode</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Reverse</span></td><td>Hard</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="45-hard-vm-bytecode.html">7 halaman</a></td></tr>
+<tr data-category="Reverse" data-status="VERIFIED" data-difficulty="Medium" data-search="Medium RC4 Reverse Medium Track Umum / Extend"><td>46</td><td><a href="46-medium-rc4.html"><strong>Medium RC4</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Reverse</span></td><td>Medium</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="46-medium-rc4.html">7 halaman</a></td></tr>
+<tr data-category="Reverse" data-status="VERIFIED" data-difficulty="Medium" data-search="Medium TEA Reverse Medium Track Umum / Extend"><td>47</td><td><a href="47-medium-tea.html"><strong>Medium TEA</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Reverse</span></td><td>Medium</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="47-medium-tea.html">7 halaman</a></td></tr>
+<tr data-category="Web" data-status="VERIFIED" data-difficulty="Medium" data-search="ChangeTrack Web Medium Track Umum / Extend"><td>48</td><td><a href="48-changetrack.html"><strong>ChangeTrack</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Web</span></td><td>Medium</td><td>300</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="48-changetrack.html">7 halaman</a></td></tr>
+<tr data-category="Web" data-status="VERIFIED" data-difficulty="Hard" data-search="LinkVault Web Hard Track Umum / Extend"><td>49</td><td><a href="49-linkvault.html"><strong>LinkVault</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Web</span></td><td>Hard</td><td>360</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="49-linkvault.html">7 halaman</a></td></tr>
+<tr data-category="Web" data-status="VERIFIED" data-difficulty="Hard" data-search="NexusGate Web Hard Track Umum / Extend"><td>50</td><td><a href="50-nexusgate.html"><strong>NexusGate</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Web</span></td><td>Hard</td><td>320</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="50-nexusgate.html">7 halaman</a></td></tr>
+<tr data-category="Web" data-status="VERIFIED" data-difficulty="Hard" data-search="PageStream Web Hard Track Umum / Extend"><td>51</td><td><a href="51-pagestream.html"><strong>PageStream</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Web</span></td><td>Hard</td><td>320</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="51-pagestream.html">7 halaman</a></td></tr>
+<tr data-category="Misc" data-status="VERIFIED" data-difficulty="Medium" data-search="Wujud Aseli Atmin Misc Medium Track Mahasiswa NF"><td>52</td><td><a href="52-wujud-aseli-atmin.html"><strong>Wujud Aseli Atmin</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Misc</span></td><td>Medium</td><td>420</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="52-wujud-aseli-atmin.html">8 halaman</a></td></tr>
+</tbody></table></div>
+<div id="nx-empty" class="nx-empty" hidden>Tidak ada challenge yang cocok. Coba kata kunci atau filter lain.</div>
+
+## Status flag
+
+<div class="nx-legend-grid">
+<div class="nx-legend"><span class="nx-badge nx-badge-verified">VERIFIED</span><p>Flag sudah diterima platform. Halaman Flag memuat bukti submit.</p></div>
+<div class="nx-legend"><span class="nx-badge nx-badge-candidate">CANDIDATE</span><p>Flag berasal dari artefak atau release map dan belum tentu final. Cek halaman verifikasi.</p></div>
+<div class="nx-legend"><span class="nx-badge nx-badge-open">OPEN</span><p>Flag belum ditemukan. Halaman berisi analisis dan kendala yang ditemui, bukan flag.</p></div>
+</div>
+
+## Cara pakai
+
+<div class="nx-steps">
+<div class="nx-step"><span>01</span><b>Buka Overview</b><p>Mulai dari ringkasan, metadata, dan navigasi halaman challenge.</p></div>
+<div class="nx-step"><span>02</span><b>Ikuti Recon → Analisis</b><p>Pahami target, endpoint, file, dan akar masalahnya.</p></div>
+<div class="nx-step"><span>03</span><b>Jalankan Eksploitasi</b><p>Semua command dan output disertakan agar bisa direproduksi.</p></div>
+<div class="nx-step"><span>04</span><b>Cek Flag & Evidence</b><p>Verifikasi flag dan lihat screenshot, transkrip, serta artefak.</p></div>
+</div>
+
+Setiap halaman juga punya daftar isi di sisi kanan, tombol salin pada blok kode, pencarian global, dan tombol kembali ke atas.
 
 ## Catatan
 
-- **NXPortal** masih OPEN; halaman-halamannya berisi analisis/blocker, bukan flag.
-- **Black Box Protocol N4T0** dan **Progress Bar (User)** berstatus `CANDIDATE`; cek halaman Flag masing-masing.
-- **NarrowGate** adalah bonus Insane dan tetap disertakan.
+!!! info "NXPortal masih OPEN"
+    Halaman NXPortal berisi analisis dan kendala yang ditemui. Tidak ada flag yang dicantumkan untuk challenge ini.
+
+!!! note "Dua flag kandidat"
+    **Black Box Protocol N4T0** dan **Progress Bar (User)** berstatus `CANDIDATE`. Keduanya berasal dari artefak lokal, bukan submit yang diterima platform.
+
+!!! tip "Bonus Insane"
+    **NarrowGate** adalah challenge Insane dan tetap disertakan sebagai bonus.

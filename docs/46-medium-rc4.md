@@ -1,5 +1,8 @@
 # Medium RC4
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Reverse</span><span class="nx-chip">Medium</span><span class="nx-chip">100 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -14,8 +17,6 @@
 
 [← Kembali ke Index](index.md)
 
-## Ringkasan
-
 ## TL;DR
 
 - Binary `medium_rc4` adalah ELF x86-64 PIE, stripped, dan meminta flag lewat `argv[1]`.
@@ -24,11 +25,15 @@
 - Karena RC4 simetris, dekripsi memakai rutin yang sama dengan enkripsi. Cukup ekstrak key + ciphertext, jalankan RC4, selesai.
 - Flag: `NFX{rc4_1s_s1mpl3_but_d34dly_1n_r3v3rs1ng}`.
 
+<div class="nx-evidence-preview"><a href="46-medium-rc4-05-bukti-evidence.html"><img src="assets/medium-rc4/98-terminal-evidence.png" alt="Pratinjau evidence Medium RC4" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="46-medium-rc4-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](46-medium-rc4-01-recon.md)
-- [Analisis](46-medium-rc4-02-analisis.md)
-- [Eksploitasi / Solver](46-medium-rc4-03-eksploitasi-solver.md)
-- [Flag](46-medium-rc4-04-flag.md)
-- [Bukti / Evidence](46-medium-rc4-05-bukti-evidence.md)
-- [Referensi](46-medium-rc4-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="46-medium-rc4-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="46-medium-rc4-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="46-medium-rc4-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="46-medium-rc4-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="46-medium-rc4-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="46-medium-rc4-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

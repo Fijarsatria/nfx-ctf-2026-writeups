@@ -15,7 +15,7 @@ UNSOLVED — NXPortal (web) — recheck 2026-11-08
    stored user email (local mailbox / internal MailHog) or the relay is down.
 ```
 
-Tidak ada flag yang dikarang.
+Tidak ada flag yang dicantumkan.
 
 ## Flag
 
@@ -23,4 +23,4 @@ Tidak ada flag yang dikarang.
 
 **Status:** `OPEN`
 
-> Belum ada flag yang ditemukan. Jangan mengarang flag; lihat halaman Analisis/Evidence untuk blocker.
+> Belum ada flag yang bisa dicantumkan. Lihat halaman Analisis dan Evidence untuk detail kendala.

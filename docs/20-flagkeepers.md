@@ -1,5 +1,8 @@
 # FlagKeepers
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Crypto</span><span class="nx-chip">Hard</span><span class="nx-chip">440 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -13,8 +16,6 @@
 | Status | `VERIFIED` |
 
 [← Kembali ke Index](index.md)
-
-## Ringkasan
 
 ## TL;DR
 
@@ -32,11 +33,15 @@
   `msg[:idx]` memuat `admin = True`.
 - Flag: `NFX{gcm_f0rb1dd3n_4tt4ck_du4l_t4g_c0ll1s10n_m4st3r}`.
 
+<div class="nx-evidence-preview"><a href="20-flagkeepers-05-bukti-evidence.html"><img src="assets/flagkeepers/98-terminal-evidence.png" alt="Pratinjau evidence FlagKeepers" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="20-flagkeepers-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](20-flagkeepers-01-recon.md)
-- [Analisis](20-flagkeepers-02-analisis.md)
-- [Eksploitasi / Solver](20-flagkeepers-03-eksploitasi-solver.md)
-- [Flag](20-flagkeepers-04-flag.md)
-- [Bukti / Evidence](20-flagkeepers-05-bukti-evidence.md)
-- [Referensi](20-flagkeepers-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="20-flagkeepers-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="20-flagkeepers-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="20-flagkeepers-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="20-flagkeepers-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="20-flagkeepers-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="20-flagkeepers-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

@@ -1,5 +1,8 @@
 # Frekuensi Sunyi — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">4 screenshot</span><span class="nx-chip">2 transkrip / script</span></div>
+
+
 [← Overview](08-frekuensi-sunyi.md) · [Index](index.md)
 
 
@@ -9,11 +12,12 @@
 
 ### Screenshot
 
-![00-provided-spectrogram.png](assets/frekuensi-sunyi/00-provided-spectrogram.png)
-
-![01-spectrogram-repro.png](assets/frekuensi-sunyi/01-spectrogram-repro.png)
-
-![04-text-crop.png](assets/frekuensi-sunyi/04-text-crop.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/frekuensi-sunyi/00-provided-spectrogram.png" target="_blank" rel="noopener"><img src="assets/frekuensi-sunyi/00-provided-spectrogram.png" alt="00-provided-spectrogram.png" loading="lazy"></a><figcaption>00-provided-spectrogram.png</figcaption></figure>
+<figure><a href="assets/frekuensi-sunyi/01-spectrogram-repro.png" target="_blank" rel="noopener"><img src="assets/frekuensi-sunyi/01-spectrogram-repro.png" alt="01-spectrogram-repro.png" loading="lazy"></a><figcaption>01-spectrogram-repro.png</figcaption></figure>
+<figure><a href="assets/frekuensi-sunyi/04-text-crop.png" target="_blank" rel="noopener"><img src="assets/frekuensi-sunyi/04-text-crop.png" alt="04-text-crop.png" loading="lazy"></a><figcaption>04-text-crop.png</figcaption></figure>
+<figure><a href="assets/frekuensi-sunyi/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/frekuensi-sunyi/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

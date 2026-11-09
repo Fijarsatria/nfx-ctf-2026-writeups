@@ -1,11 +1,20 @@
 # Gateway Under Pressure — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">1 screenshot</span><span class="nx-chip">7 transkrip / script</span></div>
+
+
 [← Overview](37-gateway-under-pressure.md) · [Index](index.md)
 
 
 ## Arsip Evidence
 
 > Semua file di bawah berasal dari folder `assets/gateway-under-pressure/`. Screenshot ditempel langsung; file teks/script ditautkan.
+
+### Screenshot
+
+<div class="nx-evidence-grid">
+<figure><a href="assets/gateway-under-pressure/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/gateway-under-pressure/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

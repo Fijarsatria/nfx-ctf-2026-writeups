@@ -1,5 +1,8 @@
 # Talatah Ti Peuntas
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Pwn</span><span class="nx-chip">Hard</span><span class="nx-chip">440 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -14,8 +17,6 @@
 
 [← Kembali ke Index](index.md)
 
-## Ringkasan
-
 ## TL;DR
 
 - Service "pengelola talatah" mem-parsing pesan protokol **TLT1**: `magic | total_len | key_size | tag | tlv_len | payload`.
@@ -26,11 +27,15 @@
 - Exploit: leak `printf@got`, hitung libc, tulis `system` ke `free@got`, taruh `/bin/sh` di `.bss`, lalu `delete` node → `free("/bin/sh")` = `system("/bin/sh")`.
 - Flag: `NFX{HiduPPk1T4AAyangMelawann}`.
 
+<div class="nx-evidence-preview"><a href="41-talatah-ti-peuntas-05-bukti-evidence.html"><img src="assets/talatah-ti-peuntas/98-terminal-evidence.png" alt="Pratinjau evidence Talatah Ti Peuntas" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="41-talatah-ti-peuntas-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](41-talatah-ti-peuntas-01-recon.md)
-- [Analisis](41-talatah-ti-peuntas-02-analisis.md)
-- [Eksploitasi](41-talatah-ti-peuntas-03-eksploitasi.md)
-- [Flag](41-talatah-ti-peuntas-04-flag.md)
-- [Bukti / Evidence](41-talatah-ti-peuntas-05-bukti-evidence.md)
-- [Referensi](41-talatah-ti-peuntas-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="41-talatah-ti-peuntas-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="41-talatah-ti-peuntas-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="41-talatah-ti-peuntas-03-eksploitasi.html"><b>Eksploitasi</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="41-talatah-ti-peuntas-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="41-talatah-ti-peuntas-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="41-talatah-ti-peuntas-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

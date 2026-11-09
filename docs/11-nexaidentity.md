@@ -1,5 +1,8 @@
 # NexaIdentity
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Mahasiswa NF · Web</span><span class="nx-chip">Medium</span><span class="nx-chip">120 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum/mahasiswa_nf` |
@@ -14,8 +17,6 @@
 
 [← Kembali ke Index](index.md)
 
-## Ringkasan
-
 ## TL;DR
 
 - **NexaIdentity** adalah direktori karyawan NexaCommerce berbasis Express. Halaman login menyediakan akun demo `employee@nexaidentity.test` / `employee1234` (Raka Pratama, employee biasa).
@@ -24,11 +25,15 @@
 - Payload `email[$ne]=x&password[$ne]=x` membuat query mencocokkan user pertama (admin, Nadia Kusuma) → session admin.
 - `/admin` lalu menampilkan *Emergency recovery token*: `NFX{n0sql_0p3r4t0r_4uth_byp4ss}`.
 
+<div class="nx-evidence-preview"><a href="11-nexaidentity-05-bukti-evidence.html"><img src="assets/nexaidentity/98-terminal-evidence.png" alt="Pratinjau evidence NexaIdentity" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="11-nexaidentity-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](11-nexaidentity-01-recon.md)
-- [Analisis](11-nexaidentity-02-analisis.md)
-- [Eksploitasi / Solver](11-nexaidentity-03-eksploitasi-solver.md)
-- [Flag](11-nexaidentity-04-flag.md)
-- [Bukti / Evidence](11-nexaidentity-05-bukti-evidence.md)
-- [Referensi](11-nexaidentity-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="11-nexaidentity-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="11-nexaidentity-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="11-nexaidentity-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="11-nexaidentity-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="11-nexaidentity-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="11-nexaidentity-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

@@ -1,5 +1,8 @@
 # Career Tempat Belajar — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">4 transkrip / script</span></div>
+
+
 [← Overview](09-career-tempat-belajar.md) · [Index](index.md)
 
 
@@ -9,9 +12,11 @@
 
 ### Screenshot
 
-![01-office.png](assets/career-tempat-belajar/01-office.png)
-
-![04-gravatar-avatar.png](assets/career-tempat-belajar/04-gravatar-avatar.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/career-tempat-belajar/01-office.png" target="_blank" rel="noopener"><img src="assets/career-tempat-belajar/01-office.png" alt="01-office.png" loading="lazy"></a><figcaption>01-office.png</figcaption></figure>
+<figure><a href="assets/career-tempat-belajar/04-gravatar-avatar.png" target="_blank" rel="noopener"><img src="assets/career-tempat-belajar/04-gravatar-avatar.png" alt="04-gravatar-avatar.png" loading="lazy"></a><figcaption>04-gravatar-avatar.png</figcaption></figure>
+<figure><a href="assets/career-tempat-belajar/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/career-tempat-belajar/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

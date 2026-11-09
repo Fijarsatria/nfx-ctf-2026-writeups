@@ -8,7 +8,7 @@ Kandidat yang tersimpan:
 NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}
 ```
 
-### Verifikasi (jujur: GAGAL)
+### Verifikasi (tidak berhasil)
 
 Log submit backend baru `work/bb_submit_agent.jsonl` berisi 53 percobaan.
 Beberapa yang paling relevan:

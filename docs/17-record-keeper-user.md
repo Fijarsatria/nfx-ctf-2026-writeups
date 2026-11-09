@@ -1,5 +1,8 @@
 # Record Keeper (User)
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Boot To Root</span><span class="nx-chip">Medium</span><span class="nx-chip">460 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -16,15 +19,13 @@
 
 ## Ringkasan
 
-## Ringkasan
-
-> **Catatan kejujuran bukti.** Sumber utama adalah
+> **Catatan bukti.** Sumber utama adalah
 > `flags/b2r/NexusRecordTransform.NOTES.md`, halaman console target yang
 > tersimpan di `/tmp/opencode/t23.html`, dan artefak eksploit di
 > `/tmp/opencode/arkango/` + `/tmp/opencode/rce_pkg/`. Raw `nmap` dan stdout
-> penuh exploit tidak diarsipkan; langkah `[REKONSTRUKSI]` adalah rekonstruksi
-> perintah dari temuan yang terdokumentasi, bukan output palsu. Flag dan hash
-> dicek ulang terhadap `flags/b2r/`.
+> penuh exploit tidak diarsipkan; langkah `[REKONSTRUKSI]` disusun dari
+> temuan yang terdokumentasi, jadi bukan salinan transkrip mentah. Flag dan
+> hash dicek ulang terhadap `flags/b2r/`.
 ## TL;DR
 
 - Target `10.10.20.23` mengekspos empat service: console `:8080`,
@@ -45,11 +46,15 @@
 - Submit pertama ditolak karena typo `w1r1t3` (kelebihan `1`); setelah
   dikoreksi menjadi `wr1t3`, platform menerima `+500 points`.
 
+<div class="nx-evidence-preview"><a href="17-record-keeper-user-05-bukti-evidence.html"><img src="assets/record-keeper-user/98-terminal-evidence.png" alt="Pratinjau evidence Record Keeper (User)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="17-record-keeper-user-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](17-record-keeper-user-01-recon.md)
-- [Analisis](17-record-keeper-user-02-analisis.md)
-- [Eksploitasi / Solver](17-record-keeper-user-03-eksploitasi-solver.md)
-- [Flag](17-record-keeper-user-04-flag.md)
-- [Bukti / Evidence](17-record-keeper-user-05-bukti-evidence.md)
-- [Referensi](17-record-keeper-user-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="17-record-keeper-user-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="17-record-keeper-user-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="17-record-keeper-user-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="17-record-keeper-user-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="17-record-keeper-user-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="17-record-keeper-user-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

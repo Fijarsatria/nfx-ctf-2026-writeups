@@ -1,5 +1,8 @@
 # NexusGate — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">2 screenshot</span><span class="nx-chip">9 transkrip / script</span></div>
+
+
 [← Overview](50-nexusgate.md) · [Index](index.md)
 
 
@@ -9,7 +12,10 @@
 
 ### Screenshot
 
-![01-cached-ticket.png](assets/nexusgate/01-cached-ticket.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/nexusgate/01-cached-ticket.png" target="_blank" rel="noopener"><img src="assets/nexusgate/01-cached-ticket.png" alt="01-cached-ticket.png" loading="lazy"></a><figcaption>01-cached-ticket.png</figcaption></figure>
+<figure><a href="assets/nexusgate/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/nexusgate/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

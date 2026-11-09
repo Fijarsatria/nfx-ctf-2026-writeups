@@ -1,5 +1,8 @@
 # SymHell
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Misc</span><span class="nx-chip">Medium</span><span class="nx-chip">340 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -13,8 +16,6 @@
 | Status | `VERIFIED` |
 
 [← Kembali ke Index](index.md)
-
-## Ringkasan
 
 ## TL;DR
 
@@ -34,11 +35,15 @@
   `bash: line 1: NFX{...}: command not found`.
 - Server mengembalikan stderr jika stdout kosong, sehingga flag bocor.
 
+<div class="nx-evidence-preview"><a href="31-symhell-05-bukti-evidence.html"><img src="assets/symhell/98-terminal-evidence.png" alt="Pratinjau evidence SymHell" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="31-symhell-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](31-symhell-01-recon.md)
-- [Analisis](31-symhell-02-analisis.md)
-- [Eksploitasi / Solver](31-symhell-03-eksploitasi-solver.md)
-- [Flag](31-symhell-04-flag.md)
-- [Bukti / Evidence](31-symhell-05-bukti-evidence.md)
-- [Referensi](31-symhell-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="31-symhell-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="31-symhell-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="31-symhell-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="31-symhell-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="31-symhell-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="31-symhell-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

@@ -1,5 +1,8 @@
 # Feistel Differential
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Mahasiswa NF · Crypto</span><span class="nx-chip">Medium</span><span class="nx-chip">100 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum/mahasiswa_nf` |
@@ -13,8 +16,6 @@
 | Status | `VERIFIED` |
 
 [← Kembali ke Index](index.md)
-
-## Ringkasan
 
 ## TL;DR
 
@@ -30,11 +31,15 @@
 - Verifikasi: 280.000/280.000 baris cocok. Dekripsi `flag.enc` menghasilkan
   flag + padding PKCS#7 `03 03 03`.
 
+<div class="nx-evidence-preview"><a href="04-feistel-differential-05-bukti-evidence.html"><img src="assets/feistel-differential/98-terminal-evidence.png" alt="Pratinjau evidence Feistel Differential" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="04-feistel-differential-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](04-feistel-differential-01-recon.md)
-- [Analisis](04-feistel-differential-02-analisis.md)
-- [Eksploitasi / Solver](04-feistel-differential-03-eksploitasi-solver.md)
-- [Flag](04-feistel-differential-04-flag.md)
-- [Bukti / Evidence](04-feistel-differential-05-bukti-evidence.md)
-- [Referensi](04-feistel-differential-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="04-feistel-differential-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="04-feistel-differential-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="04-feistel-differential-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="04-feistel-differential-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="04-feistel-differential-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="04-feistel-differential-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

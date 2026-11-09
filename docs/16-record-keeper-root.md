@@ -1,5 +1,8 @@
 # Record Keeper (Root)
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Boot To Root</span><span class="nx-chip">Medium</span><span class="nx-chip">460 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -16,9 +19,7 @@
 
 ## Ringkasan
 
-## Ringkasan
-
-> **Catatan kejujuran bukti.** Sumber utama adalah
+> **Catatan bukti.** Sumber utama adalah
 > `flags/b2r/NexusRecordTransform.NOTES.md` dan halaman console target
 > `/tmp/opencode/t23.html`. Script eksploitasi tar di §3.2 ditandai
 > `[REKONSTRUKSI]`: notes mencatat aksi dan command intinya, tetapi isi script
@@ -46,11 +47,15 @@
   # NFX{sp00l3r_4rch1v3_r00t_pwn3d}
   ```
 
+<div class="nx-evidence-preview"><a href="16-record-keeper-root-05-bukti-evidence.html"><img src="assets/record-keeper-root/98-terminal-evidence.png" alt="Pratinjau evidence Record Keeper (Root)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="16-record-keeper-root-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](16-record-keeper-root-01-recon.md)
-- [Analisis](16-record-keeper-root-02-analisis.md)
-- [Eksploitasi / Solver](16-record-keeper-root-03-eksploitasi-solver.md)
-- [Flag](16-record-keeper-root-04-flag.md)
-- [Bukti / Evidence](16-record-keeper-root-05-bukti-evidence.md)
-- [Referensi](16-record-keeper-root-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="16-record-keeper-root-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="16-record-keeper-root-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="16-record-keeper-root-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="16-record-keeper-root-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="16-record-keeper-root-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="16-record-keeper-root-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

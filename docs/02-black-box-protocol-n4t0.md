@@ -1,5 +1,8 @@
 # Black Box Protocol N4T0
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Mahasiswa NF · Crypto</span><span class="nx-chip">Medium</span><span class="nx-chip">280 poin</span><span class="nx-badge nx-badge-candidate">CANDIDATE</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum/mahasiswa_nf` |
@@ -15,9 +18,7 @@
 
 ## Ringkasan
 
-## Ringkasan
-
-> **Peringatan kejujuran:** seluruh isi workbook berhasil didekode dan hasilnya
+> **Catatan verifikasi:** seluruh isi workbook berhasil didekode dan hasilnya
 > konsisten secara byte. Namun semua kandidat flag yang masuk akal — termasuk
 > flag yang tersimpan di `flags/crypto/BlackBoxProtocolN4T0.txt` dan flag di
 > `work/release_map.json` — ditolak oleh backend saat diuji. Writeup ini
@@ -41,11 +42,15 @@
   `unverified`; kemungkinan besar flag platform berbeda dari payload workbook
   (mis. salah ketik saat membuat challenge).
 
+<div class="nx-evidence-preview"><a href="02-black-box-protocol-n4t0-05-bukti-evidence.html"><img src="assets/black-box-protocol-n4t0/98-terminal-evidence.png" alt="Pratinjau evidence Black Box Protocol N4T0" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="02-black-box-protocol-n4t0-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](02-black-box-protocol-n4t0-01-recon.md)
-- [Analisis](02-black-box-protocol-n4t0-02-analisis.md)
-- [Eksploitasi / Solver](02-black-box-protocol-n4t0-03-eksploitasi-solver.md)
-- [Flag](02-black-box-protocol-n4t0-04-flag.md)
-- [Bukti / Evidence](02-black-box-protocol-n4t0-05-bukti-evidence.md)
-- [Referensi](02-black-box-protocol-n4t0-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="02-black-box-protocol-n4t0-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="02-black-box-protocol-n4t0-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="02-black-box-protocol-n4t0-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="02-black-box-protocol-n4t0-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="02-black-box-protocol-n4t0-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="02-black-box-protocol-n4t0-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

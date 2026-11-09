@@ -82,7 +82,7 @@ Hanya ditemukan:
 Kesimpulan: target konsisten mengirim nilai di atas. Penolakan platform bukan
 akibat salah baca, typo, atau rotasi flag di target. Nilai yang tersimpan di
 platform berbeda dari `user.txt` yang dikirim oleh image lab. Karena aturan
-writeup melarang submit ulang, status yang jujur adalah **verified local**
+writeup melarang submit ulang, status yang dipakai adalah **verified local**
 dengan catatan platform rejected.
 
 ## Flag

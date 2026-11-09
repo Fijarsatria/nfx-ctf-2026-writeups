@@ -1,5 +1,8 @@
 # Medium RC4 — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">9 transkrip / script</span></div>
+
+
 [← Overview](46-medium-rc4.md) · [Index](index.md)
 
 
@@ -9,9 +12,11 @@
 
 ### Screenshot
 
-![01-solver.png](assets/medium-rc4/01-solver.png)
-
-![02-verifikasi.png](assets/medium-rc4/02-verifikasi.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/medium-rc4/01-solver.png" target="_blank" rel="noopener"><img src="assets/medium-rc4/01-solver.png" alt="01-solver.png" loading="lazy"></a><figcaption>01-solver.png</figcaption></figure>
+<figure><a href="assets/medium-rc4/02-verifikasi.png" target="_blank" rel="noopener"><img src="assets/medium-rc4/02-verifikasi.png" alt="02-verifikasi.png" loading="lazy"></a><figcaption>02-verifikasi.png</figcaption></figure>
+<figure><a href="assets/medium-rc4/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/medium-rc4/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

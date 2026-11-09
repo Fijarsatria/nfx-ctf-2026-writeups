@@ -1,5 +1,8 @@
 # Wujud Aseli Atmin — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">10 transkrip / script</span></div>
+
+
 [← Overview](52-wujud-aseli-atmin.md) · [Index](index.md)
 
 
@@ -9,9 +12,11 @@
 
 ### Screenshot
 
-![01-dokumentasi.png](assets/wujud-aseli-atmin/01-dokumentasi.png)
-
-![06-scan_07_fixed.png](assets/wujud-aseli-atmin/06-scan_07_fixed.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/wujud-aseli-atmin/01-dokumentasi.png" target="_blank" rel="noopener"><img src="assets/wujud-aseli-atmin/01-dokumentasi.png" alt="01-dokumentasi.png" loading="lazy"></a><figcaption>01-dokumentasi.png</figcaption></figure>
+<figure><a href="assets/wujud-aseli-atmin/06-scan_07_fixed.png" target="_blank" rel="noopener"><img src="assets/wujud-aseli-atmin/06-scan_07_fixed.png" alt="06-scan_07_fixed.png" loading="lazy"></a><figcaption>06-scan_07_fixed.png</figcaption></figure>
+<figure><a href="assets/wujud-aseli-atmin/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/wujud-aseli-atmin/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

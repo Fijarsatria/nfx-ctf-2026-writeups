@@ -1,5 +1,8 @@
 # Weak Handshake — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">10 screenshot</span><span class="nx-chip">16 transkrip / script</span></div>
+
+
 [← Overview](27-weak-handshake.md) · [Index](index.md)
 
 
@@ -9,23 +12,18 @@
 
 ### Screenshot
 
-![01-clannad.webp](assets/weak-handshake/01-clannad.webp)
-
-![02-clannad.png](assets/weak-handshake/02-clannad.png)
-
-![05-decrypted-tomoyo1.jpg](assets/weak-handshake/05-decrypted-tomoyo1.jpg)
-
-![06-decrypted-tomoyo2.jpg](assets/weak-handshake/06-decrypted-tomoyo2.jpg)
-
-![07-decrypted-tomoyo2.png](assets/weak-handshake/07-decrypted-tomoyo2.png)
-
-![09-flag-crop.png](assets/weak-handshake/09-flag-crop.png)
-
-![clannad.webp](assets/weak-handshake/clannad.webp)
-
-![tomoyo_s1.jpg](assets/weak-handshake/tomoyo_s1.jpg)
-
-![tomoyo_s2.jpg](assets/weak-handshake/tomoyo_s2.jpg)
+<div class="nx-evidence-grid">
+<figure><a href="assets/weak-handshake/01-clannad.webp" target="_blank" rel="noopener"><img src="assets/weak-handshake/01-clannad.webp" alt="01-clannad.webp" loading="lazy"></a><figcaption>01-clannad.webp</figcaption></figure>
+<figure><a href="assets/weak-handshake/02-clannad.png" target="_blank" rel="noopener"><img src="assets/weak-handshake/02-clannad.png" alt="02-clannad.png" loading="lazy"></a><figcaption>02-clannad.png</figcaption></figure>
+<figure><a href="assets/weak-handshake/05-decrypted-tomoyo1.jpg" target="_blank" rel="noopener"><img src="assets/weak-handshake/05-decrypted-tomoyo1.jpg" alt="05-decrypted-tomoyo1.jpg" loading="lazy"></a><figcaption>05-decrypted-tomoyo1.jpg</figcaption></figure>
+<figure><a href="assets/weak-handshake/06-decrypted-tomoyo2.jpg" target="_blank" rel="noopener"><img src="assets/weak-handshake/06-decrypted-tomoyo2.jpg" alt="06-decrypted-tomoyo2.jpg" loading="lazy"></a><figcaption>06-decrypted-tomoyo2.jpg</figcaption></figure>
+<figure><a href="assets/weak-handshake/07-decrypted-tomoyo2.png" target="_blank" rel="noopener"><img src="assets/weak-handshake/07-decrypted-tomoyo2.png" alt="07-decrypted-tomoyo2.png" loading="lazy"></a><figcaption>07-decrypted-tomoyo2.png</figcaption></figure>
+<figure><a href="assets/weak-handshake/09-flag-crop.png" target="_blank" rel="noopener"><img src="assets/weak-handshake/09-flag-crop.png" alt="09-flag-crop.png" loading="lazy"></a><figcaption>09-flag-crop.png</figcaption></figure>
+<figure><a href="assets/weak-handshake/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/weak-handshake/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+<figure><a href="assets/weak-handshake/clannad.webp" target="_blank" rel="noopener"><img src="assets/weak-handshake/clannad.webp" alt="clannad.webp" loading="lazy"></a><figcaption>clannad.webp</figcaption></figure>
+<figure><a href="assets/weak-handshake/tomoyo_s1.jpg" target="_blank" rel="noopener"><img src="assets/weak-handshake/tomoyo_s1.jpg" alt="tomoyo_s1.jpg" loading="lazy"></a><figcaption>tomoyo_s1.jpg</figcaption></figure>
+<figure><a href="assets/weak-handshake/tomoyo_s2.jpg" target="_blank" rel="noopener"><img src="assets/weak-handshake/tomoyo_s2.jpg" alt="tomoyo_s2.jpg" loading="lazy"></a><figcaption>tomoyo_s2.jpg</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

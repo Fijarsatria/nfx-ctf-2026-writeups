@@ -1,5 +1,8 @@
 # Career Tempat Belajar
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Mahasiswa NF · Osint</span><span class="nx-chip">Medium</span><span class="nx-chip">380 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum/mahasiswa_nf` |
@@ -12,8 +15,6 @@
 | Status | `VERIFIED` |
 
 [← Kembali ke Index](index.md)
-
-## Ringkasan
 
 ## Ringkasan
 
@@ -36,11 +37,15 @@
 - Profil Gravatar live tersebut memuat flag di field `aboutMe`:
   `NFX{Gr4v4t4r_0s1nt_R3cru1t3r_D1hL34Rn}`.
 
+<div class="nx-evidence-preview"><a href="09-career-tempat-belajar-05-bukti-evidence.html"><img src="assets/career-tempat-belajar/98-terminal-evidence.png" alt="Pratinjau evidence Career Tempat Belajar" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="09-career-tempat-belajar-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](09-career-tempat-belajar-01-recon.md)
-- [Analisis](09-career-tempat-belajar-02-analisis.md)
-- [Eksploitasi / Solver](09-career-tempat-belajar-03-eksploitasi-solver.md)
-- [Flag](09-career-tempat-belajar-04-flag.md)
-- [Bukti / Evidence](09-career-tempat-belajar-05-bukti-evidence.md)
-- [Referensi](09-career-tempat-belajar-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="09-career-tempat-belajar-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="09-career-tempat-belajar-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="09-career-tempat-belajar-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="09-career-tempat-belajar-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="09-career-tempat-belajar-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="09-career-tempat-belajar-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

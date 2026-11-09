@@ -1,5 +1,8 @@
 # Progress Bar (User) — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">6 transkrip / script</span></div>
+
+
 [← Overview](15-progress-bar-user.md) · [Index](index.md)
 
 
@@ -9,9 +12,11 @@
 
 ### Screenshot
 
-![06-php2shell.png](assets/progress-bar-user/06-php2shell.png)
-
-![07-flag.png](assets/progress-bar-user/07-flag.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/progress-bar-user/06-php2shell.png" target="_blank" rel="noopener"><img src="assets/progress-bar-user/06-php2shell.png" alt="06-php2shell.png" loading="lazy"></a><figcaption>06-php2shell.png</figcaption></figure>
+<figure><a href="assets/progress-bar-user/07-flag.png" target="_blank" rel="noopener"><img src="assets/progress-bar-user/07-flag.png" alt="07-flag.png" loading="lazy"></a><figcaption>07-flag.png</figcaption></figure>
+<figure><a href="assets/progress-bar-user/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/progress-bar-user/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

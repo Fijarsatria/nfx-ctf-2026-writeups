@@ -1,5 +1,8 @@
 # Record Keeper (Root) — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">5 transkrip / script</span></div>
+
+
 [← Overview](16-record-keeper-root.md) · [Index](index.md)
 
 
@@ -9,9 +12,11 @@
 
 ### Screenshot
 
-![05-tar-checkpoint.png](assets/record-keeper-root/05-tar-checkpoint.png)
-
-![06-flag.png](assets/record-keeper-root/06-flag.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/record-keeper-root/05-tar-checkpoint.png" target="_blank" rel="noopener"><img src="assets/record-keeper-root/05-tar-checkpoint.png" alt="05-tar-checkpoint.png" loading="lazy"></a><figcaption>05-tar-checkpoint.png</figcaption></figure>
+<figure><a href="assets/record-keeper-root/06-flag.png" target="_blank" rel="noopener"><img src="assets/record-keeper-root/06-flag.png" alt="06-flag.png" loading="lazy"></a><figcaption>06-flag.png</figcaption></figure>
+<figure><a href="assets/record-keeper-root/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/record-keeper-root/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

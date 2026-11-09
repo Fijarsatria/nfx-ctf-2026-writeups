@@ -1,5 +1,8 @@
 # My Lovely Freya — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">2 screenshot</span><span class="nx-chip">5 transkrip / script</span></div>
+
+
 [← Overview](29-my-lovely-freya.md) · [Index](index.md)
 
 
@@ -9,7 +12,10 @@
 
 ### Screenshot
 
-![01-hidden-rows.png](assets/my-lovely-freya/01-hidden-rows.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/my-lovely-freya/01-hidden-rows.png" target="_blank" rel="noopener"><img src="assets/my-lovely-freya/01-hidden-rows.png" alt="01-hidden-rows.png" loading="lazy"></a><figcaption>01-hidden-rows.png</figcaption></figure>
+<figure><a href="assets/my-lovely-freya/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/my-lovely-freya/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

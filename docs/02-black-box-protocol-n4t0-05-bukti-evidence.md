@@ -1,11 +1,20 @@
 # Black Box Protocol N4T0 — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">1 screenshot</span><span class="nx-chip">3 transkrip / script</span></div>
+
+
 [← Overview](02-black-box-protocol-n4t0.md) · [Index](index.md)
 
 
 ## Arsip Evidence
 
 > Semua file di bawah berasal dari folder `assets/black-box-protocol-n4t0/`. Screenshot ditempel langsung; file teks/script ditautkan.
+
+### Screenshot
+
+<div class="nx-evidence-grid">
+<figure><a href="assets/black-box-protocol-n4t0/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/black-box-protocol-n4t0/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

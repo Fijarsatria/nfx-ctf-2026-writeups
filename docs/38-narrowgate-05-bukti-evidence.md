@@ -1,11 +1,20 @@
 # NarrowGate — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">1 screenshot</span><span class="nx-chip">11 transkrip / script</span></div>
+
+
 [← Overview](38-narrowgate.md) · [Index](index.md)
 
 
 ## Arsip Evidence
 
 > Semua file di bawah berasal dari folder `assets/narrowgate/`. Screenshot ditempel langsung; file teks/script ditautkan.
+
+### Screenshot
+
+<div class="nx-evidence-grid">
+<figure><a href="assets/narrowgate/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/narrowgate/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

@@ -1,5 +1,8 @@
 # Access Remains
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Forensics</span><span class="nx-chip">Hard</span><span class="nx-chip">360 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -14,8 +17,6 @@
 
 [← Kembali ke Index](index.md)
 
-## Ringkasan
-
 ## TL;DR
 
 - Evidence Windows: `SAM`, `SYSTEM`, `SECURITY`, `NTUSER.DAT`, DPAPI masterkey, Credential Manager, dan `Kumiko.zip`.
@@ -29,12 +30,16 @@
 - Setelah 8/8 Q&A selesai, platform mengembalikan flag final:
   `NFX{The_Real_Access_Was_Kumiko_All_Along}`.
 
+<div class="nx-evidence-preview"><a href="24-access-remains-06-bukti-evidence.html"><img src="assets/access-remains/98-terminal-evidence.png" alt="Pratinjau evidence Access Remains" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="24-access-remains-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](24-access-remains-01-recon.md)
-- [Analisis](24-access-remains-02-analisis.md)
-- [Eksploitasi / Solver](24-access-remains-03-eksploitasi-solver.md)
-- [Alur 8 Sub-Challenge Q&A (verified)](24-access-remains-04-alur-8-sub-challenge-q-a-verified.md)
-- [Flag](24-access-remains-05-flag.md)
-- [Bukti / Evidence](24-access-remains-06-bukti-evidence.md)
-- [Referensi](24-access-remains-07-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="24-access-remains-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="24-access-remains-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="24-access-remains-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="24-access-remains-04-alur-8-sub-challenge-q-a-verified.html"><b>Alur 8 Sub-Challenge Q&amp;A (verified)</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="24-access-remains-05-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="24-access-remains-06-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="24-access-remains-07-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

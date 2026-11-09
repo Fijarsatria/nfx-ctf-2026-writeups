@@ -1,5 +1,8 @@
 # Fresh Arrival — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">4 screenshot</span><span class="nx-chip">4 transkrip / script</span></div>
+
+
 [← Overview](33-fresh-arrival.md) · [Index](index.md)
 
 
@@ -9,11 +12,12 @@
 
 ### Screenshot
 
-![01-spotted.jpg](assets/fresh-arrival/01-spotted.jpg)
-
-![02-jetphotos-11925184-thumb.jpg](assets/fresh-arrival/02-jetphotos-11925184-thumb.jpg)
-
-![03-pixel-diff-x8.png](assets/fresh-arrival/03-pixel-diff-x8.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/fresh-arrival/01-spotted.jpg" target="_blank" rel="noopener"><img src="assets/fresh-arrival/01-spotted.jpg" alt="01-spotted.jpg" loading="lazy"></a><figcaption>01-spotted.jpg</figcaption></figure>
+<figure><a href="assets/fresh-arrival/02-jetphotos-11925184-thumb.jpg" target="_blank" rel="noopener"><img src="assets/fresh-arrival/02-jetphotos-11925184-thumb.jpg" alt="02-jetphotos-11925184-thumb.jpg" loading="lazy"></a><figcaption>02-jetphotos-11925184-thumb.jpg</figcaption></figure>
+<figure><a href="assets/fresh-arrival/03-pixel-diff-x8.png" target="_blank" rel="noopener"><img src="assets/fresh-arrival/03-pixel-diff-x8.png" alt="03-pixel-diff-x8.png" loading="lazy"></a><figcaption>03-pixel-diff-x8.png</figcaption></figure>
+<figure><a href="assets/fresh-arrival/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/fresh-arrival/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

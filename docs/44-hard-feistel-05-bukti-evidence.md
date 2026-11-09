@@ -1,5 +1,8 @@
 # Hard Feistel — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">4 screenshot</span><span class="nx-chip">10 transkrip / script</span></div>
+
+
 [← Overview](44-hard-feistel.md) · [Index](index.md)
 
 
@@ -9,11 +12,12 @@
 
 ### Screenshot
 
-![01-solver.png](assets/hard-feistel/01-solver.png)
-
-![02-verifikasi.png](assets/hard-feistel/02-verifikasi.png)
-
-![03-gdb.png](assets/hard-feistel/03-gdb.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/hard-feistel/01-solver.png" target="_blank" rel="noopener"><img src="assets/hard-feistel/01-solver.png" alt="01-solver.png" loading="lazy"></a><figcaption>01-solver.png</figcaption></figure>
+<figure><a href="assets/hard-feistel/02-verifikasi.png" target="_blank" rel="noopener"><img src="assets/hard-feistel/02-verifikasi.png" alt="02-verifikasi.png" loading="lazy"></a><figcaption>02-verifikasi.png</figcaption></figure>
+<figure><a href="assets/hard-feistel/03-gdb.png" target="_blank" rel="noopener"><img src="assets/hard-feistel/03-gdb.png" alt="03-gdb.png" loading="lazy"></a><figcaption>03-gdb.png</figcaption></figure>
+<figure><a href="assets/hard-feistel/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/hard-feistel/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

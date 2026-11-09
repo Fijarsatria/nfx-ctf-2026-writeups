@@ -1,5 +1,8 @@
 # LinkVault — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">2 screenshot</span><span class="nx-chip">8 transkrip / script</span></div>
+
+
 [← Overview](49-linkvault.md) · [Index](index.md)
 
 
@@ -9,7 +12,10 @@
 
 ### Screenshot
 
-![01-reports-flag.png](assets/linkvault/01-reports-flag.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/linkvault/01-reports-flag.png" target="_blank" rel="noopener"><img src="assets/linkvault/01-reports-flag.png" alt="01-reports-flag.png" loading="lazy"></a><figcaption>01-reports-flag.png</figcaption></figure>
+<figure><a href="assets/linkvault/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/linkvault/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

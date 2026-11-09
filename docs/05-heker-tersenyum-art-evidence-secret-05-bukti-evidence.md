@@ -1,5 +1,8 @@
 # Heker Tersenyum - Art Evidence Secret — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">4 screenshot</span><span class="nx-chip">9 transkrip / script</span></div>
+
+
 [← Overview](05-heker-tersenyum-art-evidence-secret.md) · [Index](index.md)
 
 
@@ -9,11 +12,12 @@
 
 ### Screenshot
 
-![00-original.png](assets/heker-tersenyum-art-evidence-secret/00-original.png)
-
-![04-lsb-R.png](assets/heker-tersenyum-art-evidence-secret/04-lsb-R.png)
-
-![05-lsb-B.png](assets/heker-tersenyum-art-evidence-secret/05-lsb-B.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/heker-tersenyum-art-evidence-secret/00-original.png" target="_blank" rel="noopener"><img src="assets/heker-tersenyum-art-evidence-secret/00-original.png" alt="00-original.png" loading="lazy"></a><figcaption>00-original.png</figcaption></figure>
+<figure><a href="assets/heker-tersenyum-art-evidence-secret/04-lsb-R.png" target="_blank" rel="noopener"><img src="assets/heker-tersenyum-art-evidence-secret/04-lsb-R.png" alt="04-lsb-R.png" loading="lazy"></a><figcaption>04-lsb-R.png</figcaption></figure>
+<figure><a href="assets/heker-tersenyum-art-evidence-secret/05-lsb-B.png" target="_blank" rel="noopener"><img src="assets/heker-tersenyum-art-evidence-secret/05-lsb-B.png" alt="05-lsb-B.png" loading="lazy"></a><figcaption>05-lsb-B.png</figcaption></figure>
+<figure><a href="assets/heker-tersenyum-art-evidence-secret/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/heker-tersenyum-art-evidence-secret/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

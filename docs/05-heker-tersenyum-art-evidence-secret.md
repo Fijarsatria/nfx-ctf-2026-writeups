@@ -1,5 +1,8 @@
 # Heker Tersenyum - Art Evidence Secret
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Mahasiswa NF · Forensics</span><span class="nx-chip">Medium</span><span class="nx-chip">280 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum/mahasiswa_nf` |
@@ -13,8 +16,6 @@
 
 [← Kembali ke Index](index.md)
 
-## Ringkasan
-
 ## TL;DR
 
 - Attachment berupa PNG 1495×2424 yang seluruhnya grayscale, tetapi metadata `tEXt` menyimpan dua petunjuk: komentar “The smallest details matter.” dan `PhotoLocation` berisi base64 bertingkat.
@@ -24,11 +25,15 @@
 - Container R berisi 108 byte payload, container B berisi 53 byte; keduanya high-entropy (tidak langsung terbaca sebagai teks).
 - Flag final yang tercatat untuk challenge ini adalah `NFX{LSB_3ASY_OR_H4RD_IDK}`.
 
+<div class="nx-evidence-preview"><a href="05-heker-tersenyum-art-evidence-secret-05-bukti-evidence.html"><img src="assets/heker-tersenyum-art-evidence-secret/98-terminal-evidence.png" alt="Pratinjau evidence Heker Tersenyum - Art Evidence Secret" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="05-heker-tersenyum-art-evidence-secret-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](05-heker-tersenyum-art-evidence-secret-01-recon.md)
-- [Analisis](05-heker-tersenyum-art-evidence-secret-02-analisis.md)
-- [Eksploitasi / Solver](05-heker-tersenyum-art-evidence-secret-03-eksploitasi-solver.md)
-- [Flag](05-heker-tersenyum-art-evidence-secret-04-flag.md)
-- [Bukti / Evidence](05-heker-tersenyum-art-evidence-secret-05-bukti-evidence.md)
-- [Referensi](05-heker-tersenyum-art-evidence-secret-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="05-heker-tersenyum-art-evidence-secret-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="05-heker-tersenyum-art-evidence-secret-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="05-heker-tersenyum-art-evidence-secret-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="05-heker-tersenyum-art-evidence-secret-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="05-heker-tersenyum-art-evidence-secret-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="05-heker-tersenyum-art-evidence-secret-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

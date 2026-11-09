@@ -1,5 +1,8 @@
 # Tragedi 9/11 — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">2 screenshot</span><span class="nx-chip">4 transkrip / script</span></div>
+
+
 [← Overview](36-tragedi-9-11.md) · [Index](index.md)
 
 
@@ -9,7 +12,10 @@
 
 ### Screenshot
 
-![02-video-frame-30s.png](assets/tragedi-9-11/02-video-frame-30s.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/tragedi-9-11/02-video-frame-30s.png" target="_blank" rel="noopener"><img src="assets/tragedi-9-11/02-video-frame-30s.png" alt="02-video-frame-30s.png" loading="lazy"></a><figcaption>02-video-frame-30s.png</figcaption></figure>
+<figure><a href="assets/tragedi-9-11/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/tragedi-9-11/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

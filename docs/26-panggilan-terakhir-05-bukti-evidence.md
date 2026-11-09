@@ -1,5 +1,8 @@
 # Panggilan Terakhir — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">10 transkrip / script</span></div>
+
+
 [← Overview](26-panggilan-terakhir.md) · [Index](index.md)
 
 
@@ -9,9 +12,11 @@
 
 ### Screenshot
 
-![03-spectrogram-Dina.png](assets/panggilan-terakhir/03-spectrogram-Dina.png)
-
-![04-spectrogram-Raka.png](assets/panggilan-terakhir/04-spectrogram-Raka.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/panggilan-terakhir/03-spectrogram-Dina.png" target="_blank" rel="noopener"><img src="assets/panggilan-terakhir/03-spectrogram-Dina.png" alt="03-spectrogram-Dina.png" loading="lazy"></a><figcaption>03-spectrogram-Dina.png</figcaption></figure>
+<figure><a href="assets/panggilan-terakhir/04-spectrogram-Raka.png" target="_blank" rel="noopener"><img src="assets/panggilan-terakhir/04-spectrogram-Raka.png" alt="04-spectrogram-Raka.png" loading="lazy"></a><figcaption>04-spectrogram-Raka.png</figcaption></figure>
+<figure><a href="assets/panggilan-terakhir/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/panggilan-terakhir/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

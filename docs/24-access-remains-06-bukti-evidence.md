@@ -1,5 +1,8 @@
 # Access Remains — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">11 transkrip / script</span></div>
+
+
 [← Overview](24-access-remains.md) · [Index](index.md)
 
 
@@ -9,9 +12,11 @@
 
 ### Screenshot
 
-![07-kumiko03.jpg](assets/access-remains/07-kumiko03.jpg)
-
-![08-flag-crop.png](assets/access-remains/08-flag-crop.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/access-remains/07-kumiko03.jpg" target="_blank" rel="noopener"><img src="assets/access-remains/07-kumiko03.jpg" alt="07-kumiko03.jpg" loading="lazy"></a><figcaption>07-kumiko03.jpg</figcaption></figure>
+<figure><a href="assets/access-remains/08-flag-crop.png" target="_blank" rel="noopener"><img src="assets/access-remains/08-flag-crop.png" alt="08-flag-crop.png" loading="lazy"></a><figcaption>08-flag-crop.png</figcaption></figure>
+<figure><a href="assets/access-remains/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/access-remains/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

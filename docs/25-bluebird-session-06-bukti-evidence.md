@@ -1,5 +1,8 @@
 # Bluebird Session — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">13 transkrip / script</span></div>
+
+
 [← Overview](25-bluebird-session.md) · [Index](index.md)
 
 
@@ -9,9 +12,11 @@
 
 ### Screenshot
 
-![05-flag-image.jpg](assets/bluebird-session/05-flag-image.jpg)
-
-![06-flag-crop.png](assets/bluebird-session/06-flag-crop.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/bluebird-session/05-flag-image.jpg" target="_blank" rel="noopener"><img src="assets/bluebird-session/05-flag-image.jpg" alt="05-flag-image.jpg" loading="lazy"></a><figcaption>05-flag-image.jpg</figcaption></figure>
+<figure><a href="assets/bluebird-session/06-flag-crop.png" target="_blank" rel="noopener"><img src="assets/bluebird-session/06-flag-crop.png" alt="06-flag-crop.png" loading="lazy"></a><figcaption>06-flag-crop.png</figcaption></figure>
+<figure><a href="assets/bluebird-session/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/bluebird-session/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

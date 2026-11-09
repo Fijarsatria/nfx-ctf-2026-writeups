@@ -1,5 +1,8 @@
 # NXPortal
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Mahasiswa NF · Web</span><span class="nx-chip">Medium</span><span class="nx-chip">480 poin</span><span class="nx-badge nx-badge-open">OPEN</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum/mahasiswa_nf` |
@@ -13,9 +16,7 @@
 
 [← Kembali ke Index](index.md)
 
-> **Status: OPEN.** Halaman ini dokumentasi analisis/blocker, bukan flag.
-
-## Ringkasan
+> **Status: OPEN.** Halaman ini memuat analisis dan kendala yang ditemui; flag belum ditemukan.
 
 ## Ringkasan
 
@@ -45,12 +46,16 @@
   admin tidak dapat diselesaikan.
 - Rencana penyelesaian ada di §7. Status tetap **OPEN**.
 
+<div class="nx-evidence-preview"><a href="13-nxportal-05-bukti-evidence.html"><img src="assets/nxportal/98-terminal-evidence.png" alt="Pratinjau evidence NXPortal" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="13-nxportal-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](13-nxportal-01-recon.md)
-- [Analisis](13-nxportal-02-analisis.md)
-- [Eksploitasi / Solver (sebagian, belum selesai)](13-nxportal-03-eksploitasi-solver-sebagian-belum-selesa.md)
-- [Flag](13-nxportal-04-flag.md)
-- [Bukti / Evidence](13-nxportal-05-bukti-evidence.md)
-- [Rencana Penyelesaian (OPEN)](13-nxportal-06-rencana-penyelesaian-open.md)
-- [Referensi](13-nxportal-07-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="13-nxportal-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="13-nxportal-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="13-nxportal-03-eksploitasi-solver-sebagian-belum-selesa.html"><b>Eksploitasi / Solver (sebagian, belum selesai)</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="13-nxportal-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="13-nxportal-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="13-nxportal-06-rencana-penyelesaian-open.html"><b>Rencana Penyelesaian (OPEN)</b><span>Rencana penyelesaian (OPEN)</span></a>
+<a class="nx-page-card" href="13-nxportal-07-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

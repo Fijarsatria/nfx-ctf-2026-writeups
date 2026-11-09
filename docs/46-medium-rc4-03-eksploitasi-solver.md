@@ -112,4 +112,4 @@ Output asli:
 [*] verifikasi  : stdout='Correct! RC4 memang simetris.' rc=0
 ```
 
-Angka `rc=0` dan pesan `Correct!` berasal dari eksekusi binary yang sama; solver tidak mengarang hasil.
+Angka `rc=0` dan pesan `Correct!` berasal dari eksekusi binary yang sama; solver tidak memalsukan hasil.

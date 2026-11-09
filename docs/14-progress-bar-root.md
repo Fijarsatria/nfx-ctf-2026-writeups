@@ -1,5 +1,8 @@
 # Progress Bar (Root)
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Boot To Root</span><span class="nx-chip">Hard</span><span class="nx-chip">460 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -16,9 +19,7 @@
 
 ## Ringkasan
 
-## Ringkasan
-
-> **Catatan kejujuran bukti.** Sumber utama adalah
+> **Catatan bukti.** Sumber utama adalah
 > `flags/b2r/ProgressBar.NOTES.md` dan source service yang tersimpan di
 > `/tmp/opencode/src22.txt` (hasil enumerasi `/opt/*/app.py` dari target).
 > Raw `nmap` dan stdout exploit tidak diarsipkan; langkah `[REKONSTRUKSI]`
@@ -43,11 +44,15 @@
   `x; id; echo ---CAT---; cat /root/root.txt ... #` memberi eksekusi root.
 - Root flag: `NFX{fr0m_w4tcht0w3r_c0nf1g_t0_r00t_3xp0rt_j0b}`.
 
+<div class="nx-evidence-preview"><a href="14-progress-bar-root-05-bukti-evidence.html"><img src="assets/progress-bar-root/98-terminal-evidence.png" alt="Pratinjau evidence Progress Bar (Root)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="14-progress-bar-root-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](14-progress-bar-root-01-recon.md)
-- [Analisis](14-progress-bar-root-02-analisis.md)
-- [Eksploitasi / Solver](14-progress-bar-root-03-eksploitasi-solver.md)
-- [Flag](14-progress-bar-root-04-flag.md)
-- [Bukti / Evidence](14-progress-bar-root-05-bukti-evidence.md)
-- [Referensi](14-progress-bar-root-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="14-progress-bar-root-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="14-progress-bar-root-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="14-progress-bar-root-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="14-progress-bar-root-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="14-progress-bar-root-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="14-progress-bar-root-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

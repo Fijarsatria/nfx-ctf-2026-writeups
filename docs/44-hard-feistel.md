@@ -1,5 +1,8 @@
 # Hard Feistel
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Reverse</span><span class="nx-chip">Hard</span><span class="nx-chip">230 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -14,8 +17,6 @@
 
 [← Kembali ke Index](index.md)
 
-## Ringkasan
-
 ## TL;DR
 
 - `hard_feistel` memvalidasi flag 39 byte dari `argv[1]` dan memprosesnya sebagai 10 blok 32-bit.
@@ -25,11 +26,15 @@
 - Output tiap blok adalah `big-endian(L16) || big-endian(R16)`, jadi dekripsi cukup membalik urutan ronde tanpa menginversi `F`.
 - Flag: `NFX{f315t3l_n3tw0rk_16_r0und5_r3v3rs3d}`.
 
+<div class="nx-evidence-preview"><a href="44-hard-feistel-05-bukti-evidence.html"><img src="assets/hard-feistel/98-terminal-evidence.png" alt="Pratinjau evidence Hard Feistel" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="44-hard-feistel-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](44-hard-feistel-01-recon.md)
-- [Analisis](44-hard-feistel-02-analisis.md)
-- [Eksploitasi / Solver](44-hard-feistel-03-eksploitasi-solver.md)
-- [Flag](44-hard-feistel-04-flag.md)
-- [Bukti / Evidence](44-hard-feistel-05-bukti-evidence.md)
-- [Referensi](44-hard-feistel-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="44-hard-feistel-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="44-hard-feistel-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="44-hard-feistel-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="44-hard-feistel-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="44-hard-feistel-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="44-hard-feistel-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

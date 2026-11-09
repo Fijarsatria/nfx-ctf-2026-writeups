@@ -1,5 +1,8 @@
 # Forgotten Commit (Root) — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">4 transkrip / script</span></div>
+
+
 [← Overview](01-forgotten-commit-root.md) · [Index](index.md)
 
 
@@ -9,9 +12,11 @@
 
 ### Screenshot
 
-![05-git-fzf.png](assets/forgotten-commit-root/05-git-fzf.png)
-
-![06-flag.png](assets/forgotten-commit-root/06-flag.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/forgotten-commit-root/05-git-fzf.png" target="_blank" rel="noopener"><img src="assets/forgotten-commit-root/05-git-fzf.png" alt="05-git-fzf.png" loading="lazy"></a><figcaption>05-git-fzf.png</figcaption></figure>
+<figure><a href="assets/forgotten-commit-root/06-flag.png" target="_blank" rel="noopener"><img src="assets/forgotten-commit-root/06-flag.png" alt="06-flag.png" loading="lazy"></a><figcaption>06-flag.png</figcaption></figure>
+<figure><a href="assets/forgotten-commit-root/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/forgotten-commit-root/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

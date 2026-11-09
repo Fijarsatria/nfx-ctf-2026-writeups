@@ -1,5 +1,8 @@
 # NexaIdentity — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">2 screenshot</span><span class="nx-chip">10 transkrip / script</span></div>
+
+
 [← Overview](11-nexaidentity.md) · [Index](index.md)
 
 
@@ -9,7 +12,10 @@
 
 ### Screenshot
 
-![01-admin-flag.png](assets/nexaidentity/01-admin-flag.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/nexaidentity/01-admin-flag.png" target="_blank" rel="noopener"><img src="assets/nexaidentity/01-admin-flag.png" alt="01-admin-flag.png" loading="lazy"></a><figcaption>01-admin-flag.png</figcaption></figure>
+<figure><a href="assets/nexaidentity/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/nexaidentity/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

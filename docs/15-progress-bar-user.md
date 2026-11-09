@@ -1,5 +1,8 @@
 # Progress Bar (User)
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Boot To Root</span><span class="nx-chip">Hard</span><span class="nx-chip">460 poin</span><span class="nx-badge nx-badge-candidate">CANDIDATE</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -16,14 +19,12 @@
 
 ## Ringkasan
 
-## Ringkasan
-
-> **Catatan kejujuran bukti.** Sumber utama adalah
+> **Catatan bukti.** Sumber utama adalah
 > `flags/b2r/ProgressBar.NOTES.md`, source service yang tersimpan di
 > `/tmp/opencode/src22.txt`, dan submit log read-only di `work/`. Raw output
 > `nmap` dan stdout exploit tidak diarsipkan; langkah yang ditandai
-> `[REKONSTRUKSI]` adalah rekonstruksi perintah dari temuan yang terdokumentasi,
-> bukan output palsu.
+> `[REKONSTRUKSI]` disusun dari temuan yang terdokumentasi, jadi bukan
+> salinan transkrip mentah.
 ## TL;DR
 
 - Target `10.10.20.22` menjalankan Apache prefork + **mod_php PHP 8.4.26**
@@ -47,11 +48,15 @@
 - Nilai tersebut **byte-identik** dengan `user.txt` di target, tetapi platform
   menolaknya. Instance sudah di-redeploy dan dibaca ulang; hasilnya sama.
 
+<div class="nx-evidence-preview"><a href="15-progress-bar-user-05-bukti-evidence.html"><img src="assets/progress-bar-user/98-terminal-evidence.png" alt="Pratinjau evidence Progress Bar (User)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="15-progress-bar-user-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](15-progress-bar-user-01-recon.md)
-- [Analisis](15-progress-bar-user-02-analisis.md)
-- [Eksploitasi / Solver](15-progress-bar-user-03-eksploitasi-solver.md)
-- [Flag](15-progress-bar-user-04-flag.md)
-- [Bukti / Evidence](15-progress-bar-user-05-bukti-evidence.md)
-- [Referensi](15-progress-bar-user-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="15-progress-bar-user-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="15-progress-bar-user-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="15-progress-bar-user-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="15-progress-bar-user-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="15-progress-bar-user-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="15-progress-bar-user-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

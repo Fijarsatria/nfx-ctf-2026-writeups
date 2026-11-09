@@ -1,11 +1,20 @@
 # NFXCTF Convention — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">1 screenshot</span><span class="nx-chip">9 transkrip / script</span></div>
+
+
 [← Overview](10-nfxctf-convention.md) · [Index](index.md)
 
 
 ## Arsip Evidence
 
 > Semua file di bawah berasal dari folder `assets/nfxctf-convention/`. Screenshot ditempel langsung; file teks/script ditautkan.
+
+### Screenshot
+
+<div class="nx-evidence-grid">
+<figure><a href="assets/nfxctf-convention/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/nfxctf-convention/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

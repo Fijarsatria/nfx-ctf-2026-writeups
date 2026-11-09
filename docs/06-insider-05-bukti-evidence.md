@@ -1,5 +1,8 @@
 # insider — Evidence / Bukti
 
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">23 transkrip / script</span></div>
+
+
 [← Overview](06-insider.md) · [Index](index.md)
 
 
@@ -9,9 +12,11 @@
 
 ### Screenshot
 
-![icon128.png](assets/insider/ChromeProfile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.92.1_0/icon128.png)
-
-![icon128.png](assets/insider/ChromeProfile/Default/Extensions/mgndgikekgjfcpckkfioiaebcgkldpdb/2.7.1_0/icon128.png)
+<div class="nx-evidence-grid">
+<figure><a href="assets/insider/98-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/insider/98-terminal-evidence.png" alt="98-terminal-evidence.png" loading="lazy"></a><figcaption>98-terminal-evidence.png</figcaption></figure>
+<figure><a href="assets/insider/ChromeProfile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.92.1_0/icon128.png" target="_blank" rel="noopener"><img src="assets/insider/ChromeProfile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.92.1_0/icon128.png" alt="icon128.png" loading="lazy"></a><figcaption>icon128.png</figcaption></figure>
+<figure><a href="assets/insider/ChromeProfile/Default/Extensions/mgndgikekgjfcpckkfioiaebcgkldpdb/2.7.1_0/icon128.png" target="_blank" rel="noopener"><img src="assets/insider/ChromeProfile/Default/Extensions/mgndgikekgjfcpckkfioiaebcgkldpdb/2.7.1_0/icon128.png" alt="icon128.png" loading="lazy"></a><figcaption>icon128.png</figcaption></figure>
+</div>
 
 ### Transkrip / file pendukung
 

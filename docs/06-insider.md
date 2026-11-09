@@ -1,5 +1,8 @@
 # insider
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Mahasiswa NF · Forensics</span><span class="nx-chip">Medium</span><span class="nx-chip">100 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum/mahasiswa_nf` |
@@ -13,8 +16,6 @@
 
 [← Kembali ke Index](index.md)
 
-## Ringkasan
-
 ## TL;DR
 
 - Artefak hanya berupa profil Chrome (`ChromeProfile/`), tanpa disk image dan tanpa log server.
@@ -23,11 +24,15 @@
 - Extension non-webstore **ZenVPN 2.7.1** dan timestamp bookmark/search **20250314** melengkapi komponen flag.
 - Flag disusun dari empat artefak: `wraithbyte` + `cve202421412` + `20250314` + `zenvpn271`.
 
+<div class="nx-evidence-preview"><a href="06-insider-05-bukti-evidence.html"><img src="assets/insider/98-terminal-evidence.png" alt="Pratinjau evidence insider" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="06-insider-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](06-insider-01-recon.md)
-- [Analisis](06-insider-02-analisis.md)
-- [Eksploitasi / Solver](06-insider-03-eksploitasi-solver.md)
-- [Flag](06-insider-04-flag.md)
-- [Bukti / Evidence](06-insider-05-bukti-evidence.md)
-- [Referensi](06-insider-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="06-insider-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="06-insider-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="06-insider-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="06-insider-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="06-insider-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="06-insider-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

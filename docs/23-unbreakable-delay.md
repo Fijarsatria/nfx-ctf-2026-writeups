@@ -1,5 +1,8 @@
 # Unbreakable Delay
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Crypto</span><span class="nx-chip">Medium</span><span class="nx-chip">360 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -13,8 +16,6 @@
 | Status | `VERIFIED` |
 
 [← Kembali ke Index](index.md)
-
-## Ringkasan
 
 ## Ringkasan
 
@@ -37,11 +38,15 @@
   `π^l · x^(T mod l) ≡ y (mod N)`.
 - Flag: `NFX{x0r_f4ct0r1ng_4nd_f4st_vdf_byp4ss_m4k3s_1t_h4rd}`.
 
+<div class="nx-evidence-preview"><a href="23-unbreakable-delay-05-bukti-evidence.html"><img src="assets/unbreakable-delay/98-terminal-evidence.png" alt="Pratinjau evidence Unbreakable Delay" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="23-unbreakable-delay-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](23-unbreakable-delay-01-recon.md)
-- [Analisis](23-unbreakable-delay-02-analisis.md)
-- [Eksploitasi / Solver](23-unbreakable-delay-03-eksploitasi-solver.md)
-- [Flag](23-unbreakable-delay-04-flag.md)
-- [Bukti / Evidence](23-unbreakable-delay-05-bukti-evidence.md)
-- [Referensi](23-unbreakable-delay-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="23-unbreakable-delay-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="23-unbreakable-delay-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="23-unbreakable-delay-03-eksploitasi-solver.html"><b>Eksploitasi / Solver</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="23-unbreakable-delay-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="23-unbreakable-delay-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="23-unbreakable-delay-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

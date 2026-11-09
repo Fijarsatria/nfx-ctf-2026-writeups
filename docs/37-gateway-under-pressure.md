@@ -1,5 +1,8 @@
 # Gateway Under Pressure
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Pwn</span><span class="nx-chip">Medium</span><span class="nx-chip">300 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -14,8 +17,6 @@
 
 [← Kembali ke Index](index.md)
 
-## Ringkasan
-
 ## TL;DR
 
 - `gateway` adalah binary PIE dengan menu: register session, **audit memory**, dispatch request.
@@ -25,11 +26,15 @@
 - Exploit: leak canary + PIE base dari audit, lalu ret2win `release_gateway()` dengan satu gadget `ret` untuk alignment.
 - Flag: `NFX{Nyoss_Gte3wayy_Pr3ssureee0!}`.
 
+<div class="nx-evidence-preview"><a href="37-gateway-under-pressure-05-bukti-evidence.html"><img src="assets/gateway-under-pressure/98-terminal-evidence.png" alt="Pratinjau evidence Gateway Under Pressure" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="37-gateway-under-pressure-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](37-gateway-under-pressure-01-recon.md)
-- [Analisis](37-gateway-under-pressure-02-analisis.md)
-- [Eksploitasi](37-gateway-under-pressure-03-eksploitasi.md)
-- [Flag](37-gateway-under-pressure-04-flag.md)
-- [Bukti / Evidence](37-gateway-under-pressure-05-bukti-evidence.md)
-- [Referensi](37-gateway-under-pressure-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="37-gateway-under-pressure-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="37-gateway-under-pressure-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="37-gateway-under-pressure-03-eksploitasi.html"><b>Eksploitasi</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="37-gateway-under-pressure-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="37-gateway-under-pressure-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="37-gateway-under-pressure-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

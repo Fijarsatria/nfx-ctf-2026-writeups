@@ -4,6 +4,19 @@ Situs statis MkDocs Material untuk **368 halaman** (52 challenge).
 Tiap challenge dipecah menjadi Overview, Recon, Analisis, Eksploitasi, Flag,
 Evidence, dan Referensi, lengkap dengan command, output, dan screenshot.
 
+**Live:** <https://fijarsatria.github.io/nfx-ctf-2026-writeups/>
+
+Fitur utama:
+
+- Hero, statistik, kartu kategori, dan tabel challenge yang bisa difilter
+  berdasarkan status, kategori, atau kata kunci.
+- Badge status (`VERIFIED`, `CANDIDATE`, `OPEN`) dan kartu navigasi per
+  challenge.
+- Galeri evidence berbentuk grid, dengan pratinjau screenshot di halaman
+  Overview.
+- Mode gelap/terang, pencarian global, daftar isi per halaman, tombol salin
+  kode, dan tombol kembali ke atas.
+
 ## Preview lokal
 
 ```bash
@@ -38,5 +51,5 @@ build akan gagal dan menampilkan nama file yang bermasalah.
 
 Setiap halaman punya bagian **Evidence / Bukti (arsip)**. Screenshot
 tertanam lewat path `assets/<slug>/...`; transkrip terminal tetap ada di
-langkah exploit. NXPortal berstatus OPEN dan halamannya adalah dokumentasi
-blocker, bukan flag.
+langkah exploit. NXPortal berstatus OPEN dan halamannya memuat analisis
+serta kendala yang ditemui, bukan flag.

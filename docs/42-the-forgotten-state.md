@@ -1,5 +1,8 @@
 # THE FORGOTTEN STATE
 
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Pwn</span><span class="nx-chip">Hard</span><span class="nx-chip">340 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
 | Field | Nilai |
 |---|---|
 | Event | `umum_Extend` |
@@ -14,8 +17,6 @@
 
 [← Kembali ke Index](index.md)
 
-## Ringkasan
-
 ## TL;DR
 
 - Service mengelola 16 record (`create`, `release`, `view`, `edit`, `list`).
@@ -25,11 +26,15 @@
 - `view` → leak `free@got`; `edit` → tulis `system` ke `free@got`; `release` pada record berisi `"/bin/sh"` → `free("/bin/sh")` = `system("/bin/sh")`.
 - Flag: `NFX{ElC0nloe_Forg0tten_StaticcD42#}`.
 
+<div class="nx-evidence-preview"><a href="42-the-forgotten-state-05-bukti-evidence.html"><img src="assets/the-forgotten-state/98-terminal-evidence.png" alt="Pratinjau evidence THE FORGOTTEN STATE" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="42-the-forgotten-state-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
 ## Navigasi Halaman
 
-- [Recon](42-the-forgotten-state-01-recon.md)
-- [Analisis](42-the-forgotten-state-02-analisis.md)
-- [Eksploitasi](42-the-forgotten-state-03-eksploitasi.md)
-- [Flag](42-the-forgotten-state-04-flag.md)
-- [Bukti / Evidence](42-the-forgotten-state-05-bukti-evidence.md)
-- [Referensi](42-the-forgotten-state-06-referensi.md)
+<div class="nx-page-grid">
+<a class="nx-page-card" href="42-the-forgotten-state-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="42-the-forgotten-state-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="42-the-forgotten-state-03-eksploitasi.html"><b>Eksploitasi</b><span>Langkah exploit dan solver</span></a>
+<a class="nx-page-card" href="42-the-forgotten-state-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="42-the-forgotten-state-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="42-the-forgotten-state-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>
