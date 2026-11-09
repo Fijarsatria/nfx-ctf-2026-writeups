@@ -8,6 +8,21 @@
 .md-header {
   background: linear-gradient(110deg, #111827 0%, #1e1b4b 55%, #0f172a 100%);
 }
+html { scroll-behavior: smooth; }
+.nx-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  z-index: 9999;
+  background: linear-gradient(90deg, #6366f1, #22d3ee);
+  transition: width .12s linear;
+}
+@keyframes nx-aurora {
+  from { background-position: 0% 50%; }
+  to { background-position: 100% 50%; }
+}
 .nx-hero {
   margin: 1.2rem 0 1.6rem;
   padding: 2rem 2rem 1.8rem;
@@ -17,6 +32,8 @@
     radial-gradient(900px 220px at 10% -20%, rgba(99,102,241,.38), transparent 60%),
     radial-gradient(700px 220px at 100% 0%, rgba(34,211,238,.18), transparent 55%),
     linear-gradient(145deg, rgba(15,23,42,.92), rgba(2,6,23,.92));
+  background-size: 160% 160%;
+  animation: nx-aurora 16s ease-in-out infinite alternate;
   overflow: hidden;
 }
 .nx-kicker {
@@ -396,4 +413,9 @@ table.nx-challenge-table td:first-child { color: #94a3b8; font-variant-numeric: 
   .nx-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .nx-hero { padding: 1.3rem; }
   .nx-hero-sub { font-size: .62em; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .nx-hero { animation: none; }
+  .nx-progress { transition: none; }
 }

@@ -1,4 +1,19 @@
 (function () {
+  const bar = document.createElement("div");
+  bar.className = "nx-progress";
+  bar.setAttribute("aria-hidden", "true");
+  document.body.appendChild(bar);
+  function update() {
+    const doc = document.documentElement;
+    const max = doc.scrollHeight - doc.clientHeight;
+    bar.style.width = (max > 0 ? (doc.scrollTop / max) * 100 : 0) + "%";
+  }
+  window.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("resize", update);
+  update();
+})();
+
+(function () {
   const table = document.getElementById("nx-challenge-table");
   if (!table) return;
 
