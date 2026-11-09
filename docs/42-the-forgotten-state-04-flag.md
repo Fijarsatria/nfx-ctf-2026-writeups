@@ -20,3 +20,5 @@ Status `verified platform` menurut `writeups/FLAGS.md`.
 `NFX{ElC0nloe_Forg0tten_StaticcD42#}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

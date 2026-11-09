@@ -27,3 +27,5 @@ Flag ini **tidak disubmit** ke platform (sesuai aturan tugas). Status:
 `NFX{XW_CXH_beijing_raihan}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

@@ -20,3 +20,5 @@ Flag yang sama tampil di `/admin` setelah login sebagai Nadia Kusuma. Tidak ada 
 `NFX{n0sql_0p3r4t0r_4uth_byp4ss}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

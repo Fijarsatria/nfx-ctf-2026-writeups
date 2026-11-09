@@ -31,3 +31,5 @@ Flag ini **tidak disubmit** ke platform (sesuai aturan tugas). Status:
 `NFX{OS1NT_DU4R_D34_D0R}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

@@ -1,6 +1,6 @@
 # Progress Bar (User) — Evidence / Bukti
 
-<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">6 transkrip / script</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">7 transkrip / script</span></div>
 
 
 [← Overview](15-progress-bar-user.md) · [Index](index.md)
@@ -26,6 +26,7 @@
 - [`04-user-flag.txt`](assets/progress-bar-user/04-user-flag.txt)
 - [`05-platform-rejection.txt`](assets/progress-bar-user/05-platform-rejection.txt)
 - [`08-src22-excerpt.txt`](assets/progress-bar-user/08-src22-excerpt.txt)
+- [`09-recheck-submit.txt`](assets/progress-bar-user/09-recheck-submit.txt)
 
 ## Tabel Evidence
 
@@ -35,7 +36,8 @@
 | PHP2Shell | `assets/progress-bar-user/02-php2shell.txt` | Chain CVE-2026-109618, upload stage, offset |
 | Loopback leak | `assets/progress-bar-user/03-internal-services.txt` | `/api/config`, UCP inbox, automation `shell=True` |
 | User flag | `assets/progress-bar-user/04-user-flag.txt` | Response root, base64/hex/hash |
-| Penolakan platform | `assets/progress-bar-user/05-platform-rejection.txt` | Submit log read-only + fresh redeploy |
+| Riwayat backend lama | `assets/progress-bar-user/05-platform-rejection.txt` | Submit log read-only + fresh redeploy |
+| Recheck submit | `assets/progress-bar-user/09-recheck-submit.txt` | `Correct, but already solved.` |
 | Source service | `assets/progress-bar-user/08-src22-excerpt.txt` | Kutipan `/opt/*/app.py` + entrypoint |
 | Render exploit | `assets/progress-bar-user/06-php2shell.png` | Render chain + loopback (bukan screenshot live) |
-| Render flag | `assets/progress-bar-user/07-flag.png` | Render flag + catatan penolakan |
+| Render flag | `assets/progress-bar-user/07-flag.png` | Render flag + catatan verifikasi |

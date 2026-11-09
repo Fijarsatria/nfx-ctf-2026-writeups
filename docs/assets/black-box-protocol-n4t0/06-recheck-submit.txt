@@ -1,0 +1,16 @@
+NFX CTF 2026 — recheck submit
+Tanggal : 2026-11-09
+Backend : api.nxctf.my.id
+Challenge: Black Box Protocol N4T0 (f72a1790-01af-4e03-b789-00a949c8c270)
+
+$ python3 - <<'PY'
+import nx2
+print(nx2.submit(
+    "f72a1790-01af-4e03-b789-00a949c8c270",
+    "NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}",
+))
+PY
+HTTP 200 {'success': True, 'message': 'Correct, but already solved.'}
+
+Catatan: respons "Correct" berarti flag cocok dengan challenge_flags.
+"already solved" muncul karena challenge sudah pernah diselesaikan akun ini.

@@ -2,17 +2,18 @@
 <div class="nx-kicker">NFX CTF 2026 · Writeup Book</div>
 <h1>NFX CTF 2026<br><span class="nx-hero-sub">Medium–Hard, dari recon sampai flag</span></h1>
 <p>Kumpulan writeup 52 challenge NFX CTF 2026, disusun langkah per langkah. Setiap challenge dipecah menjadi Overview, Recon, Analisis, Eksploitasi, Flag, Evidence, dan Referensi, lengkap dengan command, output, serta screenshot.</p>
+<div class="nx-byline"><span class="nx-byline-dot"></span>Disusun oleh <strong>B0TCIL</strong></div>
 <div class="nx-stats">
 <div class="nx-stat"><strong>52</strong><span>Challenge</span></div>
 <div class="nx-stat"><strong>368</strong><span>Halaman</span></div>
-<div class="nx-stat"><strong>504</strong><span>File bukti</span></div>
-<div class="nx-stat"><strong>51</strong><span>Solved</span></div>
+<div class="nx-stat"><strong>506</strong><span>File bukti</span></div>
+<div class="nx-stat"><strong>51</strong><span>Terverifikasi</span></div>
 </div>
 </div>
 
 <div class="nx-toc-grid">
 <a class="nx-toc-card" href="#daftar-challenge"><b>Daftar challenge</b><span>Filter 52 challenge berdasarkan status, kategori, atau nama.</span></a>
-<a class="nx-toc-card" href="#status"><b>Status flag</b><span>Arti VERIFIED, CANDIDATE, dan OPEN.</span></a>
+<a class="nx-toc-card" href="#status"><b>Status flag</b><span>Arti VERIFIED dan OPEN.</span></a>
 <a class="nx-toc-card" href="#cara-pakai"><b>Cara pakai</b><span>Alur membaca dan struktur tiap challenge.</span></a>
 <a class="nx-toc-card" href="#catatan"><b>Catatan</b><span>Challenge OPEN dan hal yang perlu diketahui.</span></a>
 </div>
@@ -37,8 +38,7 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 <div class="nx-filters">
 <label class="nx-search"><span>Cari challenge · tekan /</span><input id="nx-search" type="search" placeholder="Nama, kategori, atau difficulty..." autocomplete="off"></label>
 <div class="nx-filter-group" role="group" aria-label="Filter status"><span class="nx-filter-label">Status</span><button type="button" class="nx-filter is-active" data-status-filter="all">Semua</button>
-<button type="button" class="nx-filter" data-status-filter="VERIFIED">VERIFIED (49)</button>
-<button type="button" class="nx-filter" data-status-filter="CANDIDATE">CANDIDATE (2)</button>
+<button type="button" class="nx-filter" data-status-filter="VERIFIED">VERIFIED (51)</button>
 <button type="button" class="nx-filter" data-status-filter="OPEN">OPEN (1)</button>
 </div>
 <div class="nx-filter-group" role="group" aria-label="Filter kategori"><span class="nx-filter-label">Kategori</span><button type="button" class="nx-filter is-active" data-category-filter="all">Semua</button>
@@ -58,7 +58,7 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 <thead><tr><th>No</th><th>Challenge</th><th>Difficulty</th><th>Poin</th><th>Status</th><th>Halaman</th></tr></thead>
 <tbody>
 <tr data-category="Boot To Root" data-status="VERIFIED" data-difficulty="Medium" data-search="Forgotten Commit (Root) Boot To Root Medium Track Mahasiswa NF"><td>1</td><td><a href="01-forgotten-commit-root.html"><strong>Forgotten Commit (Root)</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Boot To Root</span></td><td>Medium</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="01-forgotten-commit-root.html">7 halaman</a></td></tr>
-<tr data-category="Crypto" data-status="CANDIDATE" data-difficulty="Medium" data-search="Black Box Protocol N4T0 Crypto Medium Track Mahasiswa NF"><td>2</td><td><a href="02-black-box-protocol-n4t0.html"><strong>Black Box Protocol N4T0</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Crypto</span></td><td>Medium</td><td>280</td><td><span class="nx-badge nx-badge-candidate">CANDIDATE</span></td><td><a href="02-black-box-protocol-n4t0.html">7 halaman</a></td></tr>
+<tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Medium" data-search="Black Box Protocol N4T0 Crypto Medium Track Mahasiswa NF"><td>2</td><td><a href="02-black-box-protocol-n4t0.html"><strong>Black Box Protocol N4T0</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Crypto</span></td><td>Medium</td><td>280</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="02-black-box-protocol-n4t0.html">7 halaman</a></td></tr>
 <tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Medium" data-search="Cihuyyyyyyyyyyyyyyy LWE sikit ahhhh Crypto Medium Track Mahasiswa NF"><td>3</td><td><a href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh.html"><strong>Cihuyyyyyyyyyyyyyyy LWE sikit ahhhh</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Crypto</span></td><td>Medium</td><td>200</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh.html">7 halaman</a></td></tr>
 <tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Medium" data-search="Feistel Differential Crypto Medium Track Mahasiswa NF"><td>4</td><td><a href="04-feistel-differential.html"><strong>Feistel Differential</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Crypto</span></td><td>Medium</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="04-feistel-differential.html">7 halaman</a></td></tr>
 <tr data-category="Forensics" data-status="VERIFIED" data-difficulty="Medium" data-search="Heker Tersenyum - Art Evidence Secret Forensics Medium Track Mahasiswa NF"><td>5</td><td><a href="05-heker-tersenyum-art-evidence-secret.html"><strong>Heker Tersenyum - Art Evidence Secret</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Forensics</span></td><td>Medium</td><td>280</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="05-heker-tersenyum-art-evidence-secret.html">7 halaman</a></td></tr>
@@ -71,7 +71,7 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 <tr data-category="Web" data-status="VERIFIED" data-difficulty="Medium" data-search="NexaPartner Web Medium Track Mahasiswa NF"><td>12</td><td><a href="12-nexapartner.html"><strong>NexaPartner</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Web</span></td><td>Medium</td><td>200</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="12-nexapartner.html">7 halaman</a></td></tr>
 <tr data-category="Web" data-status="OPEN" data-difficulty="Medium" data-search="NXPortal Web Medium Track Mahasiswa NF"><td>13</td><td><a href="13-nxportal.html"><strong>NXPortal</strong></a><br><span class="nx-row-sub">Track Mahasiswa NF · Web</span></td><td>Medium</td><td>480</td><td><span class="nx-badge nx-badge-open">OPEN</span></td><td><a href="13-nxportal.html">8 halaman</a></td></tr>
 <tr data-category="Boot To Root" data-status="VERIFIED" data-difficulty="Hard" data-search="Progress Bar (Root) Boot To Root Hard Track Umum / Extend"><td>14</td><td><a href="14-progress-bar-root.html"><strong>Progress Bar (Root)</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Boot To Root</span></td><td>Hard</td><td>460</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="14-progress-bar-root.html">7 halaman</a></td></tr>
-<tr data-category="Boot To Root" data-status="CANDIDATE" data-difficulty="Hard" data-search="Progress Bar (User) Boot To Root Hard Track Umum / Extend"><td>15</td><td><a href="15-progress-bar-user.html"><strong>Progress Bar (User)</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Boot To Root</span></td><td>Hard</td><td>460</td><td><span class="nx-badge nx-badge-candidate">CANDIDATE</span></td><td><a href="15-progress-bar-user.html">7 halaman</a></td></tr>
+<tr data-category="Boot To Root" data-status="VERIFIED" data-difficulty="Hard" data-search="Progress Bar (User) Boot To Root Hard Track Umum / Extend"><td>15</td><td><a href="15-progress-bar-user.html"><strong>Progress Bar (User)</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Boot To Root</span></td><td>Hard</td><td>460</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="15-progress-bar-user.html">7 halaman</a></td></tr>
 <tr data-category="Boot To Root" data-status="VERIFIED" data-difficulty="Medium" data-search="Record Keeper (Root) Boot To Root Medium Track Umum / Extend"><td>16</td><td><a href="16-record-keeper-root.html"><strong>Record Keeper (Root)</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Boot To Root</span></td><td>Medium</td><td>460</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="16-record-keeper-root.html">7 halaman</a></td></tr>
 <tr data-category="Boot To Root" data-status="VERIFIED" data-difficulty="Medium" data-search="Record Keeper (User) Boot To Root Medium Track Umum / Extend"><td>17</td><td><a href="17-record-keeper-user.html"><strong>Record Keeper (User)</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Boot To Root</span></td><td>Medium</td><td>460</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="17-record-keeper-user.html">7 halaman</a></td></tr>
 <tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Hard" data-search="Broken Signature Scheme Crypto Hard Track Umum / Extend"><td>18</td><td><a href="18-broken-signature-scheme.html"><strong>Broken Signature Scheme</strong></a><br><span class="nx-row-sub">Track Umum / Extend · Crypto</span></td><td>Hard</td><td>180</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="18-broken-signature-scheme.html">7 halaman</a></td></tr>
@@ -116,9 +116,9 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 
 <div class="nx-legend-grid">
 <div class="nx-legend"><span class="nx-badge nx-badge-verified">VERIFIED</span><p>Flag sudah diterima platform. Halaman Flag memuat bukti submit.</p></div>
-<div class="nx-legend"><span class="nx-badge nx-badge-candidate">CANDIDATE</span><p>Flag berasal dari artefak atau release map dan belum tentu final. Cek halaman verifikasi.</p></div>
 <div class="nx-legend"><span class="nx-badge nx-badge-open">OPEN</span><p>Flag belum ditemukan. Halaman berisi analisis dan kendala yang ditemui, bukan flag.</p></div>
 </div>
+<p class="nx-verified-note"><strong>51/51 flag</strong> sudah dicek ulang ke platform pada 2026-11-09 dan diterima.</p>
 
 ## Cara pakai
 
@@ -131,13 +131,20 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 
 Setiap halaman juga punya daftar isi di sisi kanan, tombol salin pada blok kode, pencarian global, dan tombol kembali ke atas.
 
+## Tentang penulis
+
+<div class="nx-author-card">
+<span class="nx-author-avatar">B0</span>
+<div><b>B0TCIL</b><p>Penyusun seluruh writeup di situs ini.</p></div>
+</div>
+
 ## Catatan
 
 !!! info "NXPortal masih OPEN"
     Halaman NXPortal berisi analisis dan kendala yang ditemui. Tidak ada flag yang dicantumkan untuk challenge ini.
 
-!!! note "Dua flag kandidat"
-    **Black Box Protocol N4T0** dan **Progress Bar (User)** berstatus `CANDIDATE`. Keduanya berasal dari artefak lokal, bukan submit yang diterima platform.
+!!! success "Flag sudah diverifikasi"
+    Seluruh 51 flag challenge yang solved sudah dicek ulang ke platform pada 2026-11-09 dan diterima. NXPortal tetap OPEN karena flag-nya belum ditemukan.
 
 !!! tip "Bonus Insane"
     **NarrowGate** adalah challenge Insane dan tetap disertakan sebagai bonus.

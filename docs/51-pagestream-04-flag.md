@@ -20,3 +20,5 @@ Flag yang sama diperoleh dari `/view` dan dari `/readflag` setelah RCE. Tidak ad
 `NFX{f3w_n_d4y_ch41ns_f0r_w3b_pwn_1s_n0t_th4t_h4rd_7734a1}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

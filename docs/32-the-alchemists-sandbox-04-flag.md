@@ -19,3 +19,5 @@ Verifikasi:
 `NFXCTF{pyj41l_4st_4lch3my_vm_pwn_d84f216a}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

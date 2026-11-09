@@ -39,10 +39,12 @@ ptrace(PTRACE_TRACEME)                  = -1 EPERM (Operation not permitted)
 flag> Nope.
 ```
 
-Isi `flags/reverse/Hard_03_Castaway.txt` identik dengan flag di atas. **Status: `verified local`.** Flag tidak disubmit ke platform; verifikasi dilakukan sepenuhnya terhadap binary dan file flag lokal.
+Isi `flags/reverse/Hard_03_Castaway.txt` identik dengan flag di atas. **Status: `VERIFIED platform`.** Flag sudah dicek ulang ke platform pada 2026-11-09 (`Correct, but already solved.`); verifikasi lokal tetap dilakukan terhadap binary dan file flag.
 
 ## Flag
 
 `NFX{c4st4w4y_0n_4n_0p4qu3_st4t3_m4ch1n3}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

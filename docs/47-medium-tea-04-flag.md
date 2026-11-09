@@ -25,10 +25,12 @@ Wrong!
 rc=1
 ```
 
-Isi `flags/reverse/Medium_02_TEA.txt` juga identik dengan flag di atas. **Status: `verified local`.** Flag tidak disubmit ke platform; verifikasi dilakukan sepenuhnya terhadap binary dan file flag lokal.
+Isi `flags/reverse/Medium_02_TEA.txt` juga identik dengan flag di atas. **Status: `VERIFIED platform`.** Flag sudah dicek ulang ke platform pada 2026-11-09 (`Correct, but already solved.`); verifikasi lokal tetap dilakukan terhadap binary dan file flag.
 
 ## Flag
 
 `NFX{t1ny_3ncrypt10n_4lg0r1thm_32_r0und5}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

@@ -26,13 +26,14 @@ cat /tmp/rootflag
 # NFX{fzf_l1st3n_r00t_sh3ll_pwn3d}
 ```
 
-Status: **verified local**. Manifest platform menandai challenge ini
-`solved=true`. Submit log mentah untuk challenge ini tidak tersimpan di
-`work/`, jadi writeup tidak mengklaim response platform tertentu. Tidak ada
-submit ulang yang dilakukan saat penulisan.
+Status: **VERIFIED platform**. Flag sudah dicek ulang pada 2026-11-09 dan
+diterima (`Correct, but already solved.`). Submit log mentah lama tidak
+tersimpan di `work/`, tetapi recheck platform menjadi bukti verifikasi terbaru.
 
 ## Flag
 
 `NFX{fzf_l1st3n_r00t_sh3ll_pwn3d}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

@@ -20,3 +20,5 @@ Flag yang sama muncul di halaman `/reports` milik user penyerang pada instance l
 `NFX{L1nkV4ult_cve_26_3p1c_!}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

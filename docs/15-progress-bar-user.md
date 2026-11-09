@@ -1,6 +1,6 @@
 # Progress Bar (User)
 
-<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Boot To Root</span><span class="nx-chip">Hard</span><span class="nx-chip">460 poin</span><span class="nx-badge nx-badge-candidate">CANDIDATE</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Boot To Root</span><span class="nx-chip">Hard</span><span class="nx-chip">460 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
 
 
 | Field | Nilai |
@@ -12,8 +12,8 @@
 | Author | `Ariaf` |
 | Solves | `3` |
 | Tools | nmap, curl, python3, sage |
-| Flag | `NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}` *(candidate)* |
-| Status | `CANDIDATE` |
+| Flag | `NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}` |
+| Status | `VERIFIED` |
 
 [← Kembali ke Index](index.md)
 

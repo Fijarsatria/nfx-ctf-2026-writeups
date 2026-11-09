@@ -1,6 +1,6 @@
 # Black Box Protocol N4T0
 
-<div class="nx-challenge-head"><span class="nx-chip">Track Mahasiswa NF · Crypto</span><span class="nx-chip">Medium</span><span class="nx-chip">280 poin</span><span class="nx-badge nx-badge-candidate">CANDIDATE</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">Track Mahasiswa NF · Crypto</span><span class="nx-chip">Medium</span><span class="nx-chip">280 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
 
 
 | Field | Nilai |
@@ -10,20 +10,18 @@
 | Difficulty | `Medium` |
 | Poin | `280` |
 | Author | `Kada` |
-| Tools | python3, strings, git |
-| Flag | `NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}` *(candidate)* |
-| Status | `CANDIDATE` |
+| Tools | python3, strings, sage, git |
+| Flag | `NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}` |
+| Status | `VERIFIED` |
 
 [← Kembali ke Index](index.md)
 
 ## Ringkasan
 
 > **Catatan verifikasi:** seluruh isi workbook berhasil didekode dan hasilnya
-> konsisten secara byte. Namun semua kandidat flag yang masuk akal — termasuk
-> flag yang tersimpan di `flags/crypto/BlackBoxProtocolN4T0.txt` dan flag di
-> `work/release_map.json` — ditolak oleh backend saat diuji. Writeup ini
-> memisahkan dengan jelas **apa yang terbukti dari file** dan **apa yang tidak
-> terverifikasi**.
+> konsisten secara byte. Flag dari payload workbook sudah **diterima platform**
+> saat recheck 2026-11-09 (`Correct, but already solved.`). Catatan lama tentang
+> penolakan tetap disimpan sebagai riwayat pengujian di backend lama.
 ## TL;DR
 
 - Attachment hanya satu file: `flight_recovery_manifest.xlsx` dengan satu sheet
@@ -38,9 +36,8 @@
 - Konkatenasi natural: `N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng`.
 - Tidak ada payload tambahan di XLSX (tidak ada hidden sheet, comment,
   drawing, macro, docProps, atau trailing zip data).
-- Flag kandidat tersebut **ditolak** platform. Status challenge ini tetap
-  `unverified`; kemungkinan besar flag platform berbeda dari payload workbook
-  (mis. salah ketik saat membuat challenge).
+- Flag tersebut **diterima platform** saat recheck 2026-11-09 dengan respons
+  `Correct, but already solved.` Status challenge ini adalah **VERIFIED**.
 
 <div class="nx-evidence-preview"><a href="02-black-box-protocol-n4t0-05-bukti-evidence.html"><img src="assets/black-box-protocol-n4t0/98-terminal-evidence.png" alt="Pratinjau evidence Black Box Protocol N4T0" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="02-black-box-protocol-n4t0-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

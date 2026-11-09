@@ -25,10 +25,12 @@ Wrong!
 rc=1
 ```
 
-Isi `flags/reverse/Hard_01_VM_Bytecode.txt` identik. **Status: `verified local`.** Flag tidak disubmit ke platform; verifikasi dilakukan sepenuhnya terhadap binary dan file flag lokal.
+Isi `flags/reverse/Hard_01_VM_Bytecode.txt` identik. **Status: `VERIFIED platform`.** Flag sudah dicek ulang ke platform pada 2026-11-09 (`Correct, but already solved.`); verifikasi lokal tetap dilakukan terhadap binary dan file flag.
 
 ## Flag
 
 `NFX{vm_byt3c0d3_1s_l1k3_4_puzzl3}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

@@ -21,3 +21,5 @@ Verifikasi (log submit asli):
 `NFXCTF{l4tt1c3_sm4ll_s3cr3t_LWE_7e2a0195}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

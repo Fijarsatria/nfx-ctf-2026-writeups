@@ -1,6 +1,6 @@
 # Black Box Protocol N4T0 — Evidence / Bukti
 
-<div class="nx-challenge-head"><span class="nx-chip">1 screenshot</span><span class="nx-chip">3 transkrip / script</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">1 screenshot</span><span class="nx-chip">4 transkrip / script</span></div>
 
 
 [← Overview](02-black-box-protocol-n4t0.md) · [Index](index.md)
@@ -18,6 +18,7 @@
 
 ### Transkrip / file pendukung
 
+- [`06-recheck-submit.txt`](assets/black-box-protocol-n4t0/06-recheck-submit.txt)
 - [`decode-output.txt`](assets/black-box-protocol-n4t0/decode-output.txt)
 - [`decode_xlsx.py`](assets/black-box-protocol-n4t0/decode_xlsx.py)
 - [`sha256.txt`](assets/black-box-protocol-n4t0/sha256.txt)
@@ -29,5 +30,6 @@
 | Hash attachment | `assets/black-box-protocol-n4t0/sha256.txt` | SHA-256 XLSX |
 | Decoder | `assets/black-box-protocol-n4t0/decode_xlsx.py` | Script decode tiga kolom |
 | Output decoder | `assets/black-box-protocol-n4t0/decode-output.txt` | Output asli |
-| Log submit | `work/bb_submit_agent.jsonl` | 53 percobaan, semuanya gagal |
-| Release map | `work/release_map.json` | Kandidat alternatif, juga gagal |
+| Log submit lama | `work/bb_submit_agent.jsonl` | 53 percobaan di backend lama |
+| Recheck submit | `assets/black-box-protocol-n4t0/06-recheck-submit.txt` | `Correct, but already solved.` |
+| Release map | `work/release_map.json` | Kandidat alternatif |

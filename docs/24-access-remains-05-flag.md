@@ -20,3 +20,5 @@ Status : verified platform
 `NFX{The_Real_Access_Was_Kumiko_All_Along}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

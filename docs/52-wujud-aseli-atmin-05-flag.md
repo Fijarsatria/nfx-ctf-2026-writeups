@@ -18,3 +18,5 @@ HTTP 200
 `NFX{NFCC_Goes_to_NCSC_2026}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

@@ -68,3 +68,5 @@ Status: **verified platform**.
 `NFX{br0tl1_0ob_wr1t3_w0rk3r_r0p_rc3}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

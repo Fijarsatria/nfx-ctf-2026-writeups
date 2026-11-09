@@ -26,22 +26,31 @@ hex:    4e 46 58 7b 70 72 30 67 72 33 73 73 5f 62 34 72
         7d 0a
 ```
 
-### 4.2 Status verifikasi
+### 4.2 Verifikasi platform
 
-Status: **verified local**, bukan `verified platform`.
+Status: **VERIFIED**.
 
 - Nilai di `flags/b2r/ProgressBar_User.txt` cocok byte-per-byte dengan
   `/home/deploy/user.txt` di target (hash, base64, hex, ukuran, mode, owner).
-- Submit platform untuk challenge `73538e96-4f51-4e50-aae6-2ceaf56f9d4a`
-  mengembalikan:
+- Recheck 2026-11-09 memakai backend baru untuk challenge
+  `73538e96-4f51-4e50-aae6-2ceaf56f9d4a`:
 
-  ```json
-  {"success": false, "message": "Incorrect flag"}
+  ```text
+  $ python3 - <<'EOF'
+  import nx2
+  print(nx2.submit(
+      "73538e96-4f51-4e50-aae6-2ceaf56f9d4a",
+      "NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}",
+  ))
+  EOF
+  HTTP 200 {'success': True, 'message': 'Correct, but already solved.'}
   ```
 
-  dengan flag yang sama persis.
+  Respons `Correct` menunjukkan flag cocok dengan `challenge_flags` di
+  platform. Status `already solved` muncul karena challenge sudah pernah
+  diselesaikan oleh akun ini.
 
-### 4.3 Mengapa platform menolak (re-check lengkap)
+### 4.3 Riwayat penolakan di backend lama
 
 Notes mencatat dua kali pemeriksaan:
 
@@ -79,14 +88,15 @@ Hanya ditemukan:
 /root/root.txt:1:NFX{fr0m_w4tcht0w3r_c0nf1g_t0_r00t_3xp0rt_j0b}
 ```
 
-Kesimpulan: target konsisten mengirim nilai di atas. Penolakan platform bukan
-akibat salah baca, typo, atau rotasi flag di target. Nilai yang tersimpan di
-platform berbeda dari `user.txt` yang dikirim oleh image lab. Karena aturan
-writeup melarang submit ulang, status yang dipakai adalah **verified local**
-dengan catatan platform rejected.
+Kesimpulan: target konsisten mengirim nilai di atas. Penolakan di backend
+lama bukan akibat salah baca, typo, atau rotasi flag di target. Setelah backend
+baru diuji ulang, flag yang sama diterima dan status challenge menjadi
+**VERIFIED**.
 
 ## Flag
 
-`NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}` *(candidate)*
+`NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}`
 
-**Status:** `CANDIDATE`
+**Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

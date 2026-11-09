@@ -11,7 +11,7 @@ Verifikasi/status:
 ```text
 Sumber : flags/wave2/Panggilan_Terakhir.txt
 Isi    : NFXCTF{ARSIP_MERAH_204}
-Status : verified local (transkrip audio + flag file cocok)
+Status : VERIFIED platform (recheck 2026-11-09; transkrip audio + flag file cocok)
 ```
 
 ## Flag
@@ -19,3 +19,5 @@ Status : verified local (transkrip audio + flag file cocok)
 `NFXCTF{ARSIP_MERAH_204}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

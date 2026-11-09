@@ -28,3 +28,5 @@ VERIFIED FLAG (accepted by platform, submit log: Correct! +460 points):
 `NFX{b0sC4_Ce01L}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

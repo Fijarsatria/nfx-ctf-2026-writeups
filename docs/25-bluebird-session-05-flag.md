@@ -20,3 +20,5 @@ Status : verified platform (challenge sudah solved)
 `NFX{Mizore_Promise_Never_Forgotten_The_Bluebird_Still_Sings}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

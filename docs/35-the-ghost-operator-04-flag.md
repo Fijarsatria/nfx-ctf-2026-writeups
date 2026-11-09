@@ -27,3 +27,5 @@ Riwayat kandidat:
 `NFX{villa_istana_bunga_lembang}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

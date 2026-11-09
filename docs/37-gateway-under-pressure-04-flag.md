@@ -20,3 +20,5 @@ Status `verified platform` menurut `writeups/FLAGS.md`. Tidak ada submit ulang k
 `NFX{Nyoss_Gte3wayy_Pr3ssureee0!}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

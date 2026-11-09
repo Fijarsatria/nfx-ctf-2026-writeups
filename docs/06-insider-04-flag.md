@@ -11,7 +11,7 @@ Verifikasi/status:
 ```text
 Sumber : flags/forensics/insider.txt
 Isi    : NFX{wraithbyte_cve202421412_20250314_zenvpn271}
-Status : candidate (flag lokal; challenge solved di platform)
+Status : VERIFIED platform (recheck 2026-11-09; flag lokal; challenge solved di platform)
 ```
 
 ## Flag
@@ -19,3 +19,5 @@ Status : candidate (flag lokal; challenge solved di platform)
 `NFX{wraithbyte_cve202421412_20250314_zenvpn271}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

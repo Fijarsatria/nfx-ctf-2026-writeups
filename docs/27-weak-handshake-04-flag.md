@@ -19,7 +19,7 @@ Verifikasi/status:
 ```text
 Sumber : flags/wave2/Weak_Handshake.txt
 Isi    : NFX{D36A64128F80788B60C677EF94FA7157}
-Status : verified local (teks pada gambar hasil dekripsi sama)
+Status : VERIFIED platform (recheck 2026-11-09; teks pada gambar hasil dekripsi sama)
 Catatan: release_map menyimpan varian prefix NFXCTF{D36A...}; flag final yang dipakai adalah NFX{...}
 ```
 
@@ -28,3 +28,5 @@ Catatan: release_map menyimpan varian prefix NFXCTF{D36A...}; flag final yang di
 `NFX{D36A64128F80788B60C677EF94FA7157}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

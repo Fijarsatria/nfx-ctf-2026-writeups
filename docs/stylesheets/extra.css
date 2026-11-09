@@ -51,6 +51,61 @@ html { scroll-behavior: smooth; }
   letter-spacing: -.03em;
 }
 .nx-hero p { color: #cbd5e1; max-width: 62rem; }
+.nx-byline {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  margin-top: .35rem;
+  padding: .28rem .65rem;
+  border: 1px solid rgba(165, 180, 252, .28);
+  border-radius: 999px;
+  background: rgba(99, 102, 241, .12);
+  color: #c7d2fe;
+  font-size: .78rem;
+}
+.nx-byline strong { color: #fff; letter-spacing: .03em; }
+.nx-byline-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #22d3ee;
+  box-shadow: 0 0 0 3px rgba(34, 211, 238, .16);
+}
+.nx-author-card {
+  display: flex;
+  align-items: center;
+  gap: .85rem;
+  margin: .8rem 0 1.4rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--nx-border);
+  border-radius: 14px;
+  background: var(--nx-card);
+  max-width: 34rem;
+}
+.nx-author-avatar {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #6366f1, #22d3ee);
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: .02em;
+}
+.nx-author-card b { display: block; color: #e2e8f0; letter-spacing: .03em; }
+.nx-author-card p { margin: .1rem 0 0; color: #94a3b8; font-size: .8rem; }
+.nx-verified-note {
+  margin: -.4rem 0 1.4rem;
+  padding: .65rem .9rem;
+  border: 1px solid rgba(16, 185, 129, .3);
+  border-radius: 10px;
+  background: rgba(16, 185, 129, .08);
+  color: #a7f3d0;
+  font-size: .8rem;
+}
+.nx-verified-note strong { color: #6ee7b7; }
 .nx-stats {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -347,6 +402,7 @@ table.nx-challenge-table td:first-child { color: #94a3b8; font-variant-numeric: 
 [data-md-color-scheme="default"] .nx-step,
 [data-md-color-scheme="default"] .nx-page-card,
 [data-md-color-scheme="default"] .nx-evidence-preview,
+[data-md-color-scheme="default"] .nx-author-card,
 [data-md-color-scheme="default"] .nx-evidence-grid figure {
   background: rgba(255, 255, 255, .94);
 }
@@ -354,8 +410,12 @@ table.nx-challenge-table td:first-child { color: #94a3b8; font-variant-numeric: 
 [data-md-color-scheme="default"] .nx-cat-name,
 [data-md-color-scheme="default"] .nx-page-card b,
 [data-md-color-scheme="default"] .nx-step b,
+[data-md-color-scheme="default"] .nx-author-card b,
 [data-md-color-scheme="default"] .nx-result-line strong {
   color: #0f172a;
+}
+[data-md-color-scheme="default"] .nx-author-card p {
+  color: #475569;
 }
 [data-md-color-scheme="default"] .nx-toc-card span,
 [data-md-color-scheme="default"] .nx-cat-count,
@@ -405,6 +465,12 @@ table.nx-challenge-table td:first-child { color: #94a3b8; font-variant-numeric: 
   background: rgba(244, 63, 94, .1);
   border-color: rgba(244, 63, 94, .4);
 }
+[data-md-color-scheme="default"] .nx-verified-note {
+  color: #047857;
+  background: rgba(16, 185, 129, .1);
+  border-color: rgba(16, 185, 129, .35);
+}
+[data-md-color-scheme="default"] .nx-verified-note strong { color: #065f46; }
 .md-typeset table:not([class]) { font-size: .78rem; }
 .md-typeset table:not([class]) th,
 .md-typeset table:not([class]) td { padding: .35rem .45rem; }

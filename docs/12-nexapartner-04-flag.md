@@ -20,3 +20,5 @@ Flag yang sama tampil di `/admin/audit` setelah pollution. Tidak ada submit ke p
 `NFX{js0n_pr0t0_p0llut10n_4dm1n_byp4ss}`
 
 **Status:** `VERIFIED`
+
+> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

@@ -1,10 +1,11 @@
 site_name: NFX CTF 2026 — Writeup Medium–Hard
 site_url: https://fijarsatria.github.io/nfx-ctf-2026-writeups/
-site_description: Writeup challenge Medium–Hard NFX CTF 2026, dengan langkah, command, output, dan evidence.
+site_author: B0TCIL
+site_description: Writeup challenge Medium–Hard NFX CTF 2026 oleh B0TCIL, dengan langkah, command, output, dan evidence.
 repo_url: https://github.com/Fijarsatria/nfx-ctf-2026-writeups
 repo_name: GitHub
 edit_uri: ''
-copyright: NFX CTF 2026 · Writeup Medium–Hard
+copyright: NFX CTF 2026 · Writeup Medium–Hard · oleh B0TCIL
 docs_dir: docs
 site_dir: site
 use_directory_urls: false

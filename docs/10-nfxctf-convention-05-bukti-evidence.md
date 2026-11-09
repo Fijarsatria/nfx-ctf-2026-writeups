@@ -40,5 +40,5 @@ Semua file ada di `writeups/assets/nfxctf-convention/`:
 | Leak probe | `03b-leak-probe.py`, `03b-leak-probe.txt` | `%7$p` canary, `%17$p` libc |
 | Exploit | `exploit.py` | Script pwntools lengkap |
 | Output exploit | `03-exploit-run.txt` | Output asli (canary/libc/flag lokal) |
-| Flag & status | `04-flag-status.txt` | Flag dari `flags/pwn/`, sha256, status candidate |
+| Flag & status | `04-flag-status.txt` | Flag dari `flags/pwn/`, sha256, status VERIFIED |
 | Fixture lokal | `flag.txt` | `NFX{LOCAL_TEST_FLAG_CONVENTION}` (bukan flag kompetisi) |

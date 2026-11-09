@@ -4,14 +4,15 @@ Situs statis MkDocs Material untuk **368 halaman** (52 challenge).
 Tiap challenge dipecah menjadi Overview, Recon, Analisis, Eksploitasi, Flag,
 Evidence, dan Referensi, lengkap dengan command, output, dan screenshot.
 
+**Disusun oleh:** **B0TCIL**
+
 **Live:** <https://fijarsatria.github.io/nfx-ctf-2026-writeups/>
 
 Fitur utama:
 
 - Hero, statistik, kartu kategori, dan tabel challenge yang bisa difilter
   berdasarkan status, kategori, atau kata kunci.
-- Badge status (`VERIFIED`, `CANDIDATE`, `OPEN`) dan kartu navigasi per
-  challenge.
+- Badge status (`VERIFIED` dan `OPEN`) serta kartu navigasi per challenge.
 - Galeri evidence berbentuk grid, dengan pratinjau screenshot di halaman
   Overview.
 - Mode gelap/terang, pencarian global, daftar isi per halaman, tombol salin
