@@ -43,4 +43,4 @@ tersimpan di `work/`, tetapi recheck platform menjadi bukti verifikasi terbaru.
 
 ![term-04-live-flag.png](assets/forgotten-commit-root/term-04-live-flag.png)
 
-*Terminal evidence — `04-live-flag.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`04-live-flag.txt`).*

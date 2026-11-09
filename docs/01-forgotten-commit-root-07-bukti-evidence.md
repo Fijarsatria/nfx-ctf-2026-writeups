@@ -30,61 +30,61 @@
 <figure><a href="assets/forgotten-commit-root/term-01-live-recon.png" target="_blank" rel="noopener"><img src="assets/forgotten-commit-root/term-01-live-recon.png" alt="term-01-live-recon.png" loading="lazy"></a><figcaption>term-01-live-recon.png</figcaption></figure>
 </div>
 
-*Terminal evidence — `01-live-recon.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`01-live-recon.txt`).*
 
 <div class="nx-evidence-grid">
 <figure><a href="assets/forgotten-commit-root/term-01b-live-web.png" target="_blank" rel="noopener"><img src="assets/forgotten-commit-root/term-01b-live-web.png" alt="term-01b-live-web.png" loading="lazy"></a><figcaption>term-01b-live-web.png</figcaption></figure>
 </div>
 
-*Terminal evidence — `01b-live-web.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`01b-live-web.txt`).*
 
 <div class="nx-evidence-grid">
 <figure><a href="assets/forgotten-commit-root/term-01c-live-git-head.png" target="_blank" rel="noopener"><img src="assets/forgotten-commit-root/term-01c-live-git-head.png" alt="term-01c-live-git-head.png" loading="lazy"></a><figcaption>term-01c-live-git-head.png</figcaption></figure>
 </div>
 
-*Terminal evidence — `01c-live-git-head.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`01c-live-git-head.txt`).*
 
 <div class="nx-evidence-grid">
 <figure><a href="assets/forgotten-commit-root/term-02-live-dump.png" target="_blank" rel="noopener"><img src="assets/forgotten-commit-root/term-02-live-dump.png" alt="term-02-live-dump.png" loading="lazy"></a><figcaption>term-02-live-dump.png</figcaption></figure>
 </div>
 
-*Terminal evidence — `02-live-dump.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`02-live-dump.txt`).*
 
 <div class="nx-evidence-grid">
 <figure><a href="assets/forgotten-commit-root/term-02b-live-git-log.png" target="_blank" rel="noopener"><img src="assets/forgotten-commit-root/term-02b-live-git-log.png" alt="term-02b-live-git-log.png" loading="lazy"></a><figcaption>term-02b-live-git-log.png</figcaption></figure>
 </div>
 
-*Terminal evidence — `02b-live-git-log.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`02b-live-git-log.txt`).*
 
 <div class="nx-evidence-grid">
 <figure><a href="assets/forgotten-commit-root/term-02c-live-git-show.png" target="_blank" rel="noopener"><img src="assets/forgotten-commit-root/term-02c-live-git-show.png" alt="term-02c-live-git-show.png" loading="lazy"></a><figcaption>term-02c-live-git-show.png</figcaption></figure>
 </div>
 
-*Terminal evidence — `02c-live-git-show.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`02c-live-git-show.txt`).*
 
 <div class="nx-evidence-grid">
 <figure><a href="assets/forgotten-commit-root/term-02d-live-inventory.png" target="_blank" rel="noopener"><img src="assets/forgotten-commit-root/term-02d-live-inventory.png" alt="term-02d-live-inventory.png" loading="lazy"></a><figcaption>term-02d-live-inventory.png</figcaption></figure>
 </div>
 
-*Terminal evidence — `02d-live-inventory.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`02d-live-inventory.txt`).*
 
 <div class="nx-evidence-grid">
 <figure><a href="assets/forgotten-commit-root/term-03-live-user-sudo.png" target="_blank" rel="noopener"><img src="assets/forgotten-commit-root/term-03-live-user-sudo.png" alt="term-03-live-user-sudo.png" loading="lazy"></a><figcaption>term-03-live-user-sudo.png</figcaption></figure>
 </div>
 
-*Terminal evidence — `03-live-user-sudo.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`03-live-user-sudo.txt`).*
 
 <div class="nx-evidence-grid">
 <figure><a href="assets/forgotten-commit-root/term-03b-live-root.png" target="_blank" rel="noopener"><img src="assets/forgotten-commit-root/term-03b-live-root.png" alt="term-03b-live-root.png" loading="lazy"></a><figcaption>term-03b-live-root.png</figcaption></figure>
 </div>
 
-*Terminal evidence — `03b-live-root.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`03b-live-root.txt`).*
 
 <div class="nx-evidence-grid">
 <figure><a href="assets/forgotten-commit-root/term-04-live-flag.png" target="_blank" rel="noopener"><img src="assets/forgotten-commit-root/term-04-live-flag.png" alt="term-04-live-flag.png" loading="lazy"></a><figcaption>term-04-live-flag.png</figcaption></figure>
 </div>
 
-*Terminal evidence — `04-live-flag.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`04-live-flag.txt`).*
 
 ### Transkrip mentah & script
 

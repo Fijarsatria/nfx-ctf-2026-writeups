@@ -71,16 +71,16 @@ foothold berhasil dan prasyarat untuk enumerasi lokal terpenuhi.
 
 ![term-02-live-dump.png](assets/forgotten-commit-root/term-02-live-dump.png)
 
-*Terminal evidence — `02-live-dump.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`02-live-dump.txt`).*
 
 ![term-02b-live-git-log.png](assets/forgotten-commit-root/term-02b-live-git-log.png)
 
-*Terminal evidence — `02b-live-git-log.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`02b-live-git-log.txt`).*
 
 ![term-02c-live-git-show.png](assets/forgotten-commit-root/term-02c-live-git-show.png)
 
-*Terminal evidence — `02c-live-git-show.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`02c-live-git-show.txt`).*
 
 ![term-02d-live-inventory.png](assets/forgotten-commit-root/term-02d-live-inventory.png)
 
-*Terminal evidence — `02d-live-inventory.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`02d-live-inventory.txt`).*

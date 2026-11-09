@@ -80,8 +80,8 @@ NFX{fzf_l1st3n_r00t_sh3ll_pwn3d}
 
 ![term-03-live-user-sudo.png](assets/forgotten-commit-root/term-03-live-user-sudo.png)
 
-*Terminal evidence — `03-live-user-sudo.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`03-live-user-sudo.txt`).*
 
 ![term-03b-live-root.png](assets/forgotten-commit-root/term-03b-live-root.png)
 
-*Terminal evidence — `03b-live-root.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`03b-live-root.txt`).*

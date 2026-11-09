@@ -62,12 +62,12 @@ live rerun; seluruh perintah di bawah dijalankan pada instance tersebut.
 
 ![term-01-live-recon.png](assets/forgotten-commit-root/term-01-live-recon.png)
 
-*Terminal evidence — `01-live-recon.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`01-live-recon.txt`).*
 
 ![term-01b-live-web.png](assets/forgotten-commit-root/term-01b-live-web.png)
 
-*Terminal evidence — `01b-live-web.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`01b-live-web.txt`).*
 
 ![term-01c-live-git-head.png](assets/forgotten-commit-root/term-01c-live-git-head.png)
 
-*Terminal evidence — `01c-live-git-head.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — live rerun 2026-11-09 (`01c-live-git-head.txt`).*
