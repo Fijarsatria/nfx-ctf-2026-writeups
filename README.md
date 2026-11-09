@@ -17,20 +17,33 @@ Buka `http://127.0.0.1:8000/`.
 
 ## Deploy ke GitHub Pages
 
-1. Buat repository GitHub, lalu push **isi folder ini** sebagai root repo.
-2. Buka **Settings → Pages**.
-3. Di **Build and deployment**, pilih **Source: GitHub Actions**.
-4. Push ke branch `main` (atau jalankan workflow manual).
-5. Workflow `.github/workflows/pages.yml` akan build dan deploy.
-6. URL ada di halaman **Actions → Deploy MkDocs to GitHub Pages**.
+Repo ini sudah di-commit. Tinggal tambah remote dan push:
+
+```bash
+git remote add origin https://github.com/USERNAME/REPO.git
+git push -u origin main
+```
+
+Lalu:
+
+1. Buka **Settings → Pages**.
+2. Di **Build and deployment**, pilih **Source: GitHub Actions**.
+3. Workflow `.github/workflows/pages.yml` akan build dan deploy.
+4. URL ada di halaman **Actions → Deploy MkDocs to GitHub Pages**.
 
 Workflow memakai `mkdocs build --strict`; kalau ada link/asset yang hilang,
 build akan gagal dan menampilkan nama file yang bermasalah.
 
+## Opsi instan: Netlify Drop
+
+Folder `site/` sudah dibuild. File `site.zip` siap di-upload ke
+<https://app.netlify.com/drop> (drag & drop) tanpa perlu GitHub.
+`site.zip` berisi `index.html` di root, jadi langsung jalan.
+
 ## Struktur
 
 - `docs/index.md` — cover, status, daftar challenge.
-- `docs/NN-*.md` — halaman per challenge.
+- `docs/NN-*.md` — halaman per bagian (Overview, Recon, Analisis, dst.).
 - `docs/assets/` — screenshot dan file evidence.
 - `mkdocs.yml` — nav per event/kategori.
 
