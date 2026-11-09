@@ -8,6 +8,7 @@
 | Poin | `340` |
 | Author | `Kesatria Baja Ringan` |
 | Solves | `9` |
+| Tools | python3 |
 | Flag | `NFX{st4y_w1th_m3_1n_th3_d4rk}` |
 | Status | `VERIFIED` |
 

@@ -7,6 +7,7 @@
 | Difficulty | `Medium` |
 | Poin | `100` |
 | Author | `Zer0` |
+| Tools | python3, exiftool, git |
 | Flag | `NFX{wraithbyte_cve202421412_20250314_zenvpn271}` |
 | Status | `VERIFIED` |
 

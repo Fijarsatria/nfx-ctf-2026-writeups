@@ -8,6 +8,7 @@
 | Poin | `200` |
 | Author | `Ariaf` |
 | Solves | `16` |
+| Tools | curl, python3 |
 | Flag | `NFX{js0n_pr0t0_p0llut10n_4dm1n_byp4ss}` |
 | Status | `VERIFIED` |
 

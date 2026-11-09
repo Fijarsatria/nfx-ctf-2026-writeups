@@ -8,6 +8,7 @@
 | Poin | `160` |
 | Author | `Kada` |
 | Solves | `18` |
+| Tools | python3, strings |
 | Flag | `NFX{k3tuk_p1ntu_bUk4_d0kum3n_x0r}` |
 | Status | `VERIFIED` |
 

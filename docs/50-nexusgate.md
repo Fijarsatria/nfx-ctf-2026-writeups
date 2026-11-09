@@ -8,6 +8,7 @@
 | Poin | `320` |
 | Author | `Ariaf` |
 | Solves | `10` |
+| Tools | curl, docker |
 | Flag | `NFX{n3xu5_g4t3_0v3r_gr4nt_c4ch3_smuggl3_2026}` |
 | Status | `VERIFIED` |
 

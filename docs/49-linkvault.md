@@ -8,6 +8,7 @@
 | Poin | `360` |
 | Author | `Ariaf` |
 | Solves | `8` |
+| Tools | curl, python3, strings, docker |
 | Flag | `NFX{L1nkV4ult_cve_26_3p1c_!}` |
 | Status | `VERIFIED` |
 

@@ -8,6 +8,7 @@
 | Poin | `360` |
 | Author | `Ariaf` |
 | Solves | `8` |
+| Tools | exiftool, tshark, Wireshark, openssl |
 | Flag | `NFX{D36A64128F80788B60C677EF94FA7157}` |
 | Status | `VERIFIED` |
 

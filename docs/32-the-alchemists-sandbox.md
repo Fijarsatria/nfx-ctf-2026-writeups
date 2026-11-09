@@ -8,6 +8,7 @@
 | Poin | `240` |
 | Author | `Illal` |
 | Solves | `14` |
+| Tools | python3, git |
 | Flag | `NFXCTF{pyj41l_4st_4lch3my_vm_pwn_d84f216a}` |
 | Status | `VERIFIED` |
 

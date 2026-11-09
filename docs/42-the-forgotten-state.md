@@ -8,6 +8,7 @@
 | Poin | `340` |
 | Author | `Amablex` |
 | Solves | `9` |
+| Tools | python3, pwntools, checksec, objdump, readelf, strings |
 | Flag | `NFX{ElC0nloe_Forg0tten_StaticcD42#}` |
 | Status | `VERIFIED` |
 

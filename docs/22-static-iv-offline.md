@@ -8,6 +8,7 @@
 | Poin | `140` |
 | Author | `rio` |
 | Solves | `19` |
+| Tools | python3, sage |
 | Flag | `NXCTF{cbc_1v_r3u53_l34k5_k3y5tr34m_b0fbd4d35f80}` |
 | Status | `VERIFIED` |
 

@@ -8,6 +8,7 @@
 | Poin | `200` |
 | Author | `Illal` |
 | Solves | `16` |
+| Tools | curl, python3, sage, fpylll |
 | Flag | `NFXCTF{l4tt1c3_sm4ll_s3cr3t_LWE_7e2a0195}` |
 | Status | `VERIFIED` |
 

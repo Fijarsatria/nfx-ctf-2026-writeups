@@ -8,6 +8,7 @@
 | Poin | `340` |
 | Author | `Ariaf` |
 | Solves | `9` |
+| Tools | curl, python3, exiftool |
 | Flag | `NFX{XW_CXH_beijing_raihan}` |
 | Status | `VERIFIED` |
 

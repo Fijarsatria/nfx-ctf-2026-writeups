@@ -8,6 +8,7 @@
 | Poin | `100` |
 | Author | `cypera` |
 | Solves | `25` |
+| Tools | python3, pwntools, checksec, gdb, objdump, readelf, strings, sage |
 | Flag | `NFX{t1ny_3ncrypt10n_4lg0r1thm_32_r0und5}` |
 | Status | `VERIFIED` |
 

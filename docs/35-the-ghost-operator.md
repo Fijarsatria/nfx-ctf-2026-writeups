@@ -8,6 +8,7 @@
 | Poin | `380` |
 | Author | `Ariaf` |
 | Solves | `7` |
+| Tools | curl, python3, sage, angr, git, gpg |
 | Flag | `NFX{villa_istana_bunga_lembang}` |
 | Status | `VERIFIED` |
 

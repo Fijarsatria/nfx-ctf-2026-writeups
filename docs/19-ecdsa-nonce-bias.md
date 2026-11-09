@@ -8,6 +8,7 @@
 | Poin | `260` |
 | Author | `rio` |
 | Solves | `13` |
+| Tools | python3, sage, fpylll, git |
 | Flag | `NXCTF{ecds4_hnp_n0nc3_b14s_8b1t_l4tt1c3_a3d2ae498097}` |
 | Status | `VERIFIED` |
 

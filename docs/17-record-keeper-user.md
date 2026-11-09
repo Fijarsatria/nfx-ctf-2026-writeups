@@ -8,6 +8,7 @@
 | Poin | `460` |
 | Author | `Ariaf` |
 | Solves | `3` |
+| Tools | nmap, curl, python3, sage, git |
 | Flag | `NFX{br0tl1_0ob_wr1t3_w0rk3r_r0p_rc3}` |
 | Status | `VERIFIED` |
 

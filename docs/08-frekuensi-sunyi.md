@@ -7,6 +7,7 @@
 | Difficulty | `Medium` |
 | Poin | `180` |
 | Author | `Kesatria Baja Ringan` |
+| Tools | python3 |
 | Flag | `NFX{b0sC4_Ce01L}` |
 | Status | `VERIFIED` |
 

@@ -8,6 +8,7 @@
 | Poin | `420` |
 | Author | `Ariaf` |
 | Solves | `5` |
+| Tools | strings, exiftool |
 | Flag | `NFX{Mizore_Promise_Never_Forgotten_The_Bluebird_Still_Sings}` |
 | Status | `VERIFIED` |
 

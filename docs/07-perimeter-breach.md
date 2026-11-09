@@ -7,6 +7,7 @@
 | Difficulty | `Medium` |
 | Poin | `100` |
 | Author | `Ariaf` |
+| Tools | gobuster, sqlmap, python3, tshark, git |
 | Flag | `NFX{P4th_1nt0_Pr0duct10n}` |
 | Status | `VERIFIED` |
 

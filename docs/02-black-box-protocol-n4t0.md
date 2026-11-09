@@ -7,6 +7,7 @@
 | Difficulty | `Medium` |
 | Poin | `280` |
 | Author | `Kada` |
+| Tools | python3, strings, git |
 | Flag | `NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}` *(candidate)* |
 | Status | `CANDIDATE` |
 

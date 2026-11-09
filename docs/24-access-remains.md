@@ -8,6 +8,7 @@
 | Poin | `360` |
 | Author | `Ariaf` |
 | Solves | `8` |
+| Tools | python3, exiftool, sage |
 | Flag | `NFX{The_Real_Access_Was_Kumiko_All_Along}` |
 | Status | `VERIFIED` |
 

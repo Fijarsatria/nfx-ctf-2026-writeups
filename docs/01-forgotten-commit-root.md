@@ -8,6 +8,7 @@
 | Poin | `100` |
 | Author | `Ariaf` |
 | Solves | `21` |
+| Tools | nmap, curl, git |
 | Flag | `NFX{fzf_l1st3n_r00t_sh3ll_pwn3d}` |
 | Status | `VERIFIED` |
 

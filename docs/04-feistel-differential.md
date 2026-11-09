@@ -8,6 +8,7 @@
 | Poin | `100` |
 | Author | `Illal` |
 | Solves | `23` |
+| Tools | python3, sage, z3 |
 | Flag | `NFXCTF{d1ff3r3nt14l_crypt0_pwn5_f31st3l_45322835}` |
 | Status | `VERIFIED` |
 

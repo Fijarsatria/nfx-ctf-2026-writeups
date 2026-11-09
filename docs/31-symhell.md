@@ -8,6 +8,7 @@
 | Poin | `340` |
 | Author | `Ariaf` |
 | Solves | `9` |
+| Tools | strings, sage, git |
 | Flag | `NFX{5ymH3ll_RUnT1m3_3v4l_53cr3t_PwN!}` |
 | Status | `VERIFIED` |
 

@@ -8,6 +8,7 @@
 | Poin | `320` |
 | Author | `salep88` |
 | Solves | `10` |
+| Tools | python3, exiftool, openssl |
 | Flag | `NFX{FR3Y4_MY_L0V3LY!}` |
 | Status | `VERIFIED` |
 

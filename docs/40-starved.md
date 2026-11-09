@@ -8,6 +8,7 @@
 | Poin | `380` |
 | Author | `Kesatria Baja Ringan` |
 | Solves | `7` |
+| Tools | python3, pwntools, checksec, objdump, strings |
 | Flag | `NFX{st4rv3d_s3cc0mp_fd0_r3us3_r0p_m4st3r}` |
 | Status | `VERIFIED` |
 

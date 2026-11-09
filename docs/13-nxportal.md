@@ -7,6 +7,7 @@
 | Difficulty | `Medium` |
 | Poin | `480` |
 | Author | `Ariaf` |
+| Tools | curl, python3, sage, git, docker |
 | Flag | **OPEN — belum ditemukan** |
 | Status | `OPEN` |
 

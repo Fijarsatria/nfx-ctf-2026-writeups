@@ -8,6 +8,7 @@
 | Poin | `380` |
 | Author | `salep88` |
 | Solves | `7` |
+| Tools | curl, python3, git |
 | Flag | `NFX{OS1NT_DU4R_D34_D0R}` |
 | Status | `VERIFIED` |
 

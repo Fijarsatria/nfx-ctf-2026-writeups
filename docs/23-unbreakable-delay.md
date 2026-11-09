@@ -8,6 +8,7 @@
 | Poin | `360` |
 | Author | `Kad` |
 | Solves | `8` |
+| Tools | python3, sage, git |
 | Flag | `NFX{x0r_f4ct0r1ng_4nd_f4st_vdf_byp4ss_m4k3s_1t_h4rd}` |
 | Status | `VERIFIED` |
 
