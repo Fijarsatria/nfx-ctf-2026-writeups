@@ -78,3 +78,12 @@ symhell▸
 ![term-03-exploit-transcript.png](assets/symhell/term-03-exploit-transcript.png)
 
 *Terminal evidence — `03-exploit-transcript.txt` (arsip transkrip sesi solve).*
+
+![term-exploit_local.png](assets/symhell/term-exploit_local.png)
+
+*Terminal evidence — `exploit_local.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-exploit-transcript.txt`](assets/symhell/03-exploit-transcript.txt)
+- [`exploit_local.txt`](assets/symhell/exploit_local.txt)

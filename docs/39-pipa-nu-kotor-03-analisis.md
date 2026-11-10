@@ -68,3 +68,8 @@ Jadi setiap penulisan sukses menyalakan bit `0x10`.
 ![term-02b-struct.png](assets/pipa-nu-kotor/term-02b-struct.png)
 
 *Terminal evidence — `02b-struct.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-disasm.txt`](assets/pipa-nu-kotor/02-disasm.txt)
+- [`02b-struct.txt`](assets/pipa-nu-kotor/02b-struct.txt)

@@ -67,3 +67,18 @@ L_i = R_{i+1} XOR F(L_{i+1}, K_i)
 ```
 
 Iterasi `i` dari 15 turun ke 0. Tidak perlu menginversi `F` sama sekali—cukup memanggil `F` yang sama.
+
+### Evidence langkah ini
+
+![term-02-readelf.png](assets/hard-feistel/term-02-readelf.png)
+
+*Terminal evidence — `02-readelf.txt` (arsip transkrip sesi solve).*
+
+![term-04-disasm.png](assets/hard-feistel/term-04-disasm.png)
+
+*Terminal evidence — `04-disasm.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-readelf.txt`](assets/hard-feistel/02-readelf.txt)
+- [`04-disasm.txt`](assets/hard-feistel/04-disasm.txt)

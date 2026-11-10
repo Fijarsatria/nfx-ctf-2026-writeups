@@ -16,3 +16,7 @@
 ![term-07-hashes.png](assets/fresh-arrival/term-07-hashes.png)
 
 *Terminal evidence — `07-hashes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`07-hashes.txt`](assets/fresh-arrival/07-hashes.txt)

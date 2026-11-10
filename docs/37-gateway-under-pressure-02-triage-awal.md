@@ -57,3 +57,18 @@ Symbol table:
 ```
 
 **Temuan:** `release_gateway()` adalah target ret2win; `do_audit()` dan `do_dispatch()` adalah kandidat bug.
+
+### Evidence langkah ini
+
+![term-01-file-hash-checksec.png](assets/gateway-under-pressure/term-01-file-hash-checksec.png)
+
+*Terminal evidence — `01-file-hash-checksec.txt` (arsip transkrip sesi solve).*
+
+![term-02-disasm.png](assets/gateway-under-pressure/term-02-disasm.png)
+
+*Terminal evidence — `02-disasm.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-file-hash-checksec.txt`](assets/gateway-under-pressure/01-file-hash-checksec.txt)
+- [`02-disasm.txt`](assets/gateway-under-pressure/02-disasm.txt)

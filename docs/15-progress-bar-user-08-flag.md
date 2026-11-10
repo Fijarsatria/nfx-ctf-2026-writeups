@@ -68,3 +68,8 @@ Status: **VERIFIED**.
 ![term-09-recheck-submit.png](assets/progress-bar-user/term-09-recheck-submit.png)
 
 *Terminal evidence — `09-recheck-submit.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`04-user-flag.txt`](assets/progress-bar-user/04-user-flag.txt)
+- [`09-recheck-submit.txt`](assets/progress-bar-user/09-recheck-submit.txt)

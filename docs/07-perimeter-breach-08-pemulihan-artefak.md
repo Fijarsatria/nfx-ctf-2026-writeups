@@ -57,3 +57,13 @@ Oct 10 14:41:27 web01 sshd[24688]: Accepted publickey for svc_backup from 185.22
 ![term-03b-decoded-webshell.png](assets/perimeter-breach/term-03b-decoded-webshell.png)
 
 *Terminal evidence — `03b-decoded-webshell.txt` (arsip transkrip sesi solve).*
+
+![term-04-auth-timeline.png](assets/perimeter-breach/term-04-auth-timeline.png)
+
+*Terminal evidence — `04-auth-timeline.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-webshell.txt`](assets/perimeter-breach/03-webshell.txt)
+- [`03b-decoded-webshell.txt`](assets/perimeter-breach/03b-decoded-webshell.txt)
+- [`04-auth-timeline.txt`](assets/perimeter-breach/04-auth-timeline.txt)

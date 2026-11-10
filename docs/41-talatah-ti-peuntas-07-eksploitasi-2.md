@@ -41,3 +41,13 @@ END_PWN
 ```
 
 Fixture lokal berisi `NFX{LOCAL_TEST_FLAG_TALATAH}`; flag kompetisi ada di bagian 4.
+
+### Evidence langkah ini
+
+![term-03-exploit-run.png](assets/talatah-ti-peuntas/term-03-exploit-run.png)
+
+*Terminal evidence — `03-exploit-run.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-exploit-run.txt`](assets/talatah-ti-peuntas/03-exploit-run.txt)

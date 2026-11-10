@@ -53,3 +53,13 @@ Enter your feedback:
 ```
 
 **Temuan:** binary tidak stripped, jadi symbol `register_user`, `edit_name`, `view_profile`, `leave_feedback`, `play_game`, `menu`, `main` langsung terbaca.
+
+### Evidence langkah ini
+
+![term-01-file-hash-checksec.png](assets/nfxctf-convention/term-01-file-hash-checksec.png)
+
+*Terminal evidence — `01-file-hash-checksec.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-file-hash-checksec.txt`](assets/nfxctf-convention/01-file-hash-checksec.txt)

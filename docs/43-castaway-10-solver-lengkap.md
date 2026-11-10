@@ -126,3 +126,17 @@ def main() -> int:
 if __name__ == "__main__":
     raise SystemExit(main())
 ```
+
+### Evidence langkah ini
+
+![term-06-solver-output.png](assets/castaway/term-06-solver-output.png)
+
+*Terminal evidence — `06-solver-output.txt` (arsip transkrip sesi solve).*
+
+![03-antidebug.png](assets/castaway/03-antidebug.png)
+
+*Evidence — `03-antidebug.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`06-solver-output.txt`](assets/castaway/06-solver-output.txt)

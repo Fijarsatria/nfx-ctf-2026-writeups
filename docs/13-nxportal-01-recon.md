@@ -56,6 +56,10 @@ Catatan sebelumnya (`flags/web/NXPortal.txt`) menyebut:
 
 ### Evidence langkah ini
 
-![term-01-recon.png](assets/nxportal/term-01-recon.png)
+![term-09-source-fuzz.png](assets/nxportal/term-09-source-fuzz.png)
 
-*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `09-source-fuzz.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`09-source-fuzz.txt`](assets/nxportal/09-source-fuzz.txt)

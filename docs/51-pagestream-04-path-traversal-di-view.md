@@ -23,3 +23,13 @@ router.get('/view', requireAdmin, (req, res) => {
 - `path.resolve('/app/routes', '../uploads', '../../root/flag.txt')` → `/root/flag.txt`.
 - Tidak ada pengecekan `targetPath.startsWith('/app/uploads/')`.
 - Flag `/root/flag.txt` mode 600 root, tetapi proses Node berjalan sebagai root, jadi bisa dibaca.
+
+### Evidence langkah ini
+
+![term-source-notes.png](assets/pagestream/term-source-notes.png)
+
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`source-notes.txt`](assets/pagestream/source-notes.txt)

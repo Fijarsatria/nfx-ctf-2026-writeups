@@ -25,9 +25,3 @@ Platform tidak melampirkan file (`attachments: []`); challenge berupa service TC
 | `.../src/peserta/ld-linux-x86-64.so.2` | 240.936 B | (loader Ubuntu 22.04, lihat `assets/.../01-file-hash-checksec.txt`) |
 
 Bundle zip asli: `work/upstream/qazwsx/pwn/NFXCTFConvention.zip` (berisi `peserta/oscar_convention`, `libc.so.6`, `ld-linux-x86-64.so.2`). Ada juga `oscar_local`, yaitu rebuild lokal untuk uji; writeup ini memakai `oscar_convention` asli.
-
-### Evidence langkah ini
-
-![term-01-file-hash-checksec.png](assets/nfxctf-convention/term-01-file-hash-checksec.png)
-
-*Terminal evidence — `01-file-hash-checksec.txt` (arsip transkrip sesi solve).*

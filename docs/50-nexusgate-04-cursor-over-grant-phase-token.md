@@ -59,3 +59,13 @@ vault row: owner=admin secret=391ed5122926c01beeaa3d682662552c
 ```
 
 `GET /audit` (JSON) mengembalikan journal tersebut. Token ini adalah `PHASE_TOKEN` yang dibutuhkan endpoint file.
+
+### Evidence langkah ini
+
+![term-source-notes.png](assets/nexusgate/term-source-notes.png)
+
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`source-notes.txt`](assets/nexusgate/source-notes.txt)

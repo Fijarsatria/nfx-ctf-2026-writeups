@@ -68,10 +68,8 @@ python3 exploit.py | tee 03-exploit-run.txt
 
 *Terminal evidence — `03b-leak-probe.txt` (arsip transkrip sesi solve).*
 
-![term-03c-maps-rw-path.png](assets/narrowgate/term-03c-maps-rw-path.png)
+**Berkas mentah langkah ini:**
 
-*Terminal evidence — `03c-maps-rw-path.txt` (arsip transkrip sesi solve).*
-
-![term-03c-run-printable.png](assets/narrowgate/term-03c-run-printable.png)
-
-*Terminal evidence — `03c-run-printable.txt` (arsip transkrip sesi solve).*
+- [`03-exploit-run.txt`](assets/narrowgate/03-exploit-run.txt)
+- [`03b-leak-probe.py`](assets/narrowgate/03b-leak-probe.py)
+- [`03b-leak-probe.txt`](assets/narrowgate/03b-leak-probe.txt)

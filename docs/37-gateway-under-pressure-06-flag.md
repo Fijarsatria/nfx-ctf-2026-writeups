@@ -34,4 +34,9 @@ Status `verified platform` menurut `writeups/FLAGS.md`. Tidak ada submit ulang k
 
 *Terminal evidence — `flag.txt` (arsip transkrip sesi solve).*
 
+**Berkas mentah langkah ini:**
+
+- [`04-flag-status.txt`](assets/gateway-under-pressure/04-flag-status.txt)
+- [`flag.txt`](assets/gateway-under-pressure/flag.txt)
+
 > **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

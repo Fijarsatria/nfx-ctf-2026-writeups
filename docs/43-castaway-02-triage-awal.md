@@ -64,3 +64,17 @@ Menjalankan binary:
 $ printf 'NFX{wrong}\n' | ./reverse/Hard_03_Castaway/castaway
 flag> Nope.
 ```
+
+### Evidence langkah ini
+
+![term-01-identitas.png](assets/castaway/term-01-identitas.png)
+
+*Terminal evidence — `01-identitas.txt` (arsip transkrip sesi solve).*
+
+![01-solver.png](assets/castaway/01-solver.png)
+
+*Evidence — `01-solver.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`01-identitas.txt`](assets/castaway/01-identitas.txt)

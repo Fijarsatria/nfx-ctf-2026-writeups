@@ -87,3 +87,8 @@ for m in [50, 60, 80, 100, 120]:
 ![term-verify-output.png](assets/ecdsa-nonce-bias/term-verify-output.png)
 
 *Terminal evidence — `verify-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`solver-output.txt`](assets/ecdsa-nonce-bias/solver-output.txt)
+- [`verify-output.txt`](assets/ecdsa-nonce-bias/verify-output.txt)

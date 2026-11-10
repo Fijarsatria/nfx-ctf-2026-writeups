@@ -58,6 +58,6 @@ print("ROT13                 :", codecs.decode(TRANSCRIPTION, "rot_13"))
 
 *Terminal evidence — `05-audio-analysis.txt` (arsip transkrip sesi solve).*
 
-![04-text-crop.png](assets/frekuensi-sunyi/04-text-crop.png)
+**Berkas mentah langkah ini:**
 
-*Evidence — `04-text-crop.png`.*
+- [`05-audio-analysis.txt`](assets/frekuensi-sunyi/05-audio-analysis.txt)

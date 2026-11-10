@@ -24,3 +24,18 @@ Temuan:
   ```text
   The partner audit console is restricted to Partner Operations administrators.
   ```
+
+### Evidence langkah ini
+
+![term-01-recon.png](assets/nexapartner/term-01-recon.png)
+
+*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+
+![term-02-authed-crawl.png](assets/nexapartner/term-02-authed-crawl.png)
+
+*Terminal evidence — `02-authed-crawl.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon.txt`](assets/nexapartner/01-recon.txt)
+- [`02-authed-crawl.txt`](assets/nexapartner/02-authed-crawl.txt)

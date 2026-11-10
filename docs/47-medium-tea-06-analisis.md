@@ -34,3 +34,18 @@ for 32 kali:
 ```
 
 Semua operasi dilakukan modulo `2^32`. Blok dibaca/ditulis **little-endian** karena binary memakai `mov ecx, edx` (low 32 bit) dan `shr rdx, 0x20` (high 32 bit) dari qword yang dimuat little-endian.
+
+### Evidence langkah ini
+
+![term-02-readelf.png](assets/medium-tea/term-02-readelf.png)
+
+*Terminal evidence — `02-readelf.txt` (arsip transkrip sesi solve).*
+
+![term-05-rodata-data-hexdump.png](assets/medium-tea/term-05-rodata-data-hexdump.png)
+
+*Terminal evidence — `05-rodata-data-hexdump.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-readelf.txt`](assets/medium-tea/02-readelf.txt)
+- [`05-rodata-data-hexdump.txt`](assets/medium-tea/05-rodata-data-hexdump.txt)

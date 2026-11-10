@@ -85,3 +85,8 @@ NFX{fzf_l1st3n_r00t_sh3ll_pwn3d}
 ![term-03b-live-root.png](assets/forgotten-commit-root/term-03b-live-root.png)
 
 *Terminal evidence — live rerun 2026-11-09 (`03b-live-root.txt`).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-live-user-sudo.txt`](assets/forgotten-commit-root/03-live-user-sudo.txt)
+- [`03b-live-root.txt`](assets/forgotten-commit-root/03b-live-root.txt)

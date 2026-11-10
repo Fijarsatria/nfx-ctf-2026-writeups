@@ -56,3 +56,7 @@ $ awk '{print $1}' access.log | sort | uniq -c | sort -rn | head
 ![term-01-recon-summary.png](assets/perimeter-breach/term-01-recon-summary.png)
 
 *Terminal evidence — `01-recon-summary.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon-summary.txt`](assets/perimeter-breach/01-recon-summary.txt)

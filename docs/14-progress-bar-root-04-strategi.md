@@ -14,6 +14,10 @@
 
 ### Evidence langkah ini
 
-![term-03-privesc.png](assets/progress-bar-root/term-03-privesc.png)
+![term-02-foothold.png](assets/progress-bar-root/term-02-foothold.png)
 
-*Terminal evidence — `03-privesc.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `02-foothold.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-foothold.txt`](assets/progress-bar-root/02-foothold.txt)

@@ -46,3 +46,8 @@ Buffer hanya `0x50` byte (dari `rbp-0x50` sampai `rbp`), tetapi `write()` membac
 ![term-02b-stack.png](assets/gateway-under-pressure/term-02b-stack.png)
 
 *Terminal evidence — `02b-stack.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-disasm.txt`](assets/gateway-under-pressure/02-disasm.txt)
+- [`02b-stack.txt`](assets/gateway-under-pressure/02b-stack.txt)

@@ -32,6 +32,6 @@ Catatan operasional: file asli tidak executable; `chmod +x` dilakukan agar bisa 
 
 *Terminal evidence — `01-identitas.txt` (arsip transkrip sesi solve).*
 
-![01-solver.png](assets/hard-feistel/01-solver.png)
+**Berkas mentah langkah ini:**
 
-*Evidence — `01-solver.png`.*
+- [`01-identitas.txt`](assets/hard-feistel/01-identitas.txt)

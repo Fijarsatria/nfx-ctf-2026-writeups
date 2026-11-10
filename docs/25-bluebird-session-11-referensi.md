@@ -12,3 +12,7 @@
 ![term-08-bash-history.png](assets/bluebird-session/term-08-bash-history.png)
 
 *Terminal evidence — `08-bash-history.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`08-bash-history.txt`](assets/bluebird-session/08-bash-history.txt)

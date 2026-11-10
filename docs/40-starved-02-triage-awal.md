@@ -37,3 +37,13 @@ Symbol:
 0000000000000dea t leaker
 0000000000000ecc T main
 ```
+
+### Evidence langkah ini
+
+![term-01-file-hash-checksec.png](assets/starved/term-01-file-hash-checksec.png)
+
+*Terminal evidence — `01-file-hash-checksec.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-file-hash-checksec.txt`](assets/starved/01-file-hash-checksec.txt)

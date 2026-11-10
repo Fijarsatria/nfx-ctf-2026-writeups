@@ -90,3 +90,13 @@ key = i + c - 125 * key
 ```
 
 `key` awal `0xa5`. Perhatikan bahwa update key memakai `c` (output byte), bukan `p`. Artinya urutan key hanya bergantung pada ciphertext, sehingga bisa dipulihkan dari ciphertext saja.
+
+### Evidence langkah ini
+
+![term-04-disasm.png](assets/castaway/term-04-disasm.png)
+
+*Terminal evidence — `04-disasm.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`04-disasm.txt`](assets/castaway/04-disasm.txt)

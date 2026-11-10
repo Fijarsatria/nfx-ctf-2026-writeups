@@ -38,6 +38,6 @@ Format string, tanpa overflow di `leaker`. Indeks yang diverifikasi (`assets/nar
 
 *Terminal evidence — `02-disasm.txt` (arsip transkrip sesi solve).*
 
-![term-02b-seccomp.png](assets/narrowgate/term-02b-seccomp.png)
+**Berkas mentah langkah ini:**
 
-*Terminal evidence — `02b-seccomp.txt` (arsip transkrip sesi solve).*
+- [`02-disasm.txt`](assets/narrowgate/02-disasm.txt)

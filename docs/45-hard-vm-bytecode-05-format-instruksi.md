@@ -39,3 +39,17 @@ Setiap entry adalah offset 32-bit bertanda relatif terhadap `rdi = 0x2060`:
 | 5 | `0xfffff14e` | `0x11ae` | CMP |
 
 Perhitungan contoh: `0xfffff148` sebagai signed = `-0xeb8`; `0x2060 - 0xeb8 = 0x11a8`.
+
+### Evidence langkah ini
+
+![term-04-disasm.png](assets/hard-vm-bytecode/term-04-disasm.png)
+
+*Terminal evidence — `04-disasm.txt` (arsip transkrip sesi solve).*
+
+![02-verifikasi.png](assets/hard-vm-bytecode/02-verifikasi.png)
+
+*Evidence — `02-verifikasi.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`04-disasm.txt`](assets/hard-vm-bytecode/04-disasm.txt)

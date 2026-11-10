@@ -17,3 +17,7 @@
 ![term-03-tar-checkpoint.png](assets/record-keeper-root/term-03-tar-checkpoint.png)
 
 *Terminal evidence — `03-tar-checkpoint.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-tar-checkpoint.txt`](assets/record-keeper-root/03-tar-checkpoint.txt)

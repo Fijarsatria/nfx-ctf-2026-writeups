@@ -24,3 +24,13 @@ Nginx mengonfirmasi:
 185.220.101.47 - - [10/Oct/2026:13:42:06 +0700] "GET /admin/dashboard.php HTTP/1.1" 200 8841
 185.220.101.47 - - [10/Oct/2026:13:42:17 +0700] "GET /admin/upload.php HTTP/1.1" 200 2104
 ```
+
+### Evidence langkah ini
+
+![term-05-webapp.png](assets/perimeter-breach/term-05-webapp.png)
+
+*Terminal evidence — `05-webapp.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`05-webapp.txt`](assets/perimeter-breach/05-webapp.txt)

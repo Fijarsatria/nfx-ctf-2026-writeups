@@ -25,3 +25,13 @@ HTTP/1.0 200 OK
 [+] http_s2.bin: 324224 byte
 [+] tomoyo_s2.jpg: 323711 byte
 ```
+
+### Evidence langkah ini
+
+![term-10-solve-output.png](assets/weak-handshake/term-10-solve-output.png)
+
+*Terminal evidence — `10-solve-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`10-solve-output.txt`](assets/weak-handshake/10-solve-output.txt)

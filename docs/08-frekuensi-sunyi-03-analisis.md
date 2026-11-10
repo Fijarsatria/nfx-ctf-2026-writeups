@@ -67,3 +67,13 @@ channels identical    : True
 STFT                  : (1025, 10321), band 11520-19488 Hz
 STFT time span        : 0.023-29.977 s (relative to residual)
 ```
+
+### Evidence langkah ini
+
+![term-05-audio-analysis.png](assets/frekuensi-sunyi/term-05-audio-analysis.png)
+
+*Terminal evidence — `05-audio-analysis.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`05-audio-analysis.txt`](assets/frekuensi-sunyi/05-audio-analysis.txt)

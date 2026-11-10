@@ -71,3 +71,14 @@ live rerun; seluruh perintah di bawah dijalankan pada instance tersebut.
 ![term-01c-live-git-head.png](assets/forgotten-commit-root/term-01c-live-git-head.png)
 
 *Terminal evidence — live rerun 2026-11-09 (`01c-live-git-head.txt`).*
+
+![term-03b-live-root.png](assets/forgotten-commit-root/term-03b-live-root.png)
+
+*Terminal evidence — live rerun 2026-11-09 (`03b-live-root.txt`).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-live-recon.txt`](assets/forgotten-commit-root/01-live-recon.txt)
+- [`01b-live-web.txt`](assets/forgotten-commit-root/01b-live-web.txt)
+- [`01c-live-git-head.txt`](assets/forgotten-commit-root/01c-live-git-head.txt)
+- [`03b-live-root.txt`](assets/forgotten-commit-root/03b-live-root.txt)

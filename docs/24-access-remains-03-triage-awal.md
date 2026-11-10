@@ -17,3 +17,13 @@ Kumiko.zip:   Zip archive data, at least v2.0 to extract, compression method=def
 ```
 
 `Kumiko.zip` terlihat sebagai ZIP terenkripsi; `kumiko03.jpg` berukuran 98.795 byte dan akan menjadi kunci visual nanti.
+
+### Evidence langkah ini
+
+![term-01-secretsdump.png](assets/access-remains/term-01-secretsdump.png)
+
+*Terminal evidence — `01-secretsdump.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-secretsdump.txt`](assets/access-remains/01-secretsdump.txt)

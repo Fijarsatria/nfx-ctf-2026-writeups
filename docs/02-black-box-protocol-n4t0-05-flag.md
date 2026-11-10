@@ -79,3 +79,7 @@ Kandidat alternatif yang pernah dicoba (tidak dipakai):
 ![term-06-recheck-submit.png](assets/black-box-protocol-n4t0/term-06-recheck-submit.png)
 
 *Terminal evidence — `06-recheck-submit.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`06-recheck-submit.txt`](assets/black-box-protocol-n4t0/06-recheck-submit.txt)

@@ -12,3 +12,7 @@
 ![term-07-zsteg.png](assets/wujud-aseli-atmin/term-07-zsteg.png)
 
 *Terminal evidence — `07-zsteg.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`07-zsteg.txt`](assets/wujud-aseli-atmin/07-zsteg.txt)

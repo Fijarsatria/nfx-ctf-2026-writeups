@@ -13,3 +13,18 @@ NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}
 
 Urutan `cat` adalah `/root/root.txt` lalu `/home/deploy/user.txt`. Root flag
 ada di baris pertama; user flag di baris kedua.
+
+### Evidence langkah ini
+
+![term-03-privesc.png](assets/progress-bar-root/term-03-privesc.png)
+
+*Terminal evidence — `03-privesc.txt` (arsip transkrip sesi solve).*
+
+![term-04-root-flag.png](assets/progress-bar-root/term-04-root-flag.png)
+
+*Terminal evidence — `04-root-flag.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-privesc.txt`](assets/progress-bar-root/03-privesc.txt)
+- [`04-root-flag.txt`](assets/progress-bar-root/04-root-flag.txt)

@@ -68,3 +68,7 @@ else:
 ![term-solver-output.png](assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/term-solver-output.png)
 
 *Terminal evidence — `solver-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`solver-output.txt`](assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solver-output.txt)

@@ -74,6 +74,15 @@ petunjuk lirik ("falling") langsung mengarah ke key tersebut.
 
 ### Evidence langkah ini
 
+![term-00-solve-output.png](assets/stay/term-00-solve-output.png)
+
+*Terminal evidence — `00-solve-output.txt` (arsip transkrip sesi solve).*
+
 ![term-02-bitstream.png](assets/stay/term-02-bitstream.png)
 
 *Terminal evidence — `02-bitstream.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`00-solve-output.txt`](assets/stay/00-solve-output.txt)
+- [`02-bitstream.txt`](assets/stay/02-bitstream.txt)

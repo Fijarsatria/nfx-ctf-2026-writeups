@@ -58,3 +58,13 @@ Dibaca per 3 byte:
 ```
 
 Jumlah instruksi: `498 / 3 = 166`. Karena flag 33 karakter dan tiap karakter memakai 5 instruksi, totalnya `33 × 5 = 165`, ditambah satu instruksi terakhir `ff 00 00` (OK). Ini cocok persis.
+
+### Evidence langkah ini
+
+![term-04-disasm.png](assets/hard-vm-bytecode/term-04-disasm.png)
+
+*Terminal evidence — `04-disasm.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`04-disasm.txt`](assets/hard-vm-bytecode/04-disasm.txt)

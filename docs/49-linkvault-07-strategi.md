@@ -14,6 +14,26 @@
 
 ### Evidence langkah ini
 
+![term-01-recon.png](assets/linkvault/term-01-recon.png)
+
+*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+
+![term-02-exploit-run.png](assets/linkvault/term-02-exploit-run.png)
+
+*Terminal evidence — `02-exploit-run.txt` (arsip transkrip sesi solve).*
+
 ![term-03-ssrf-evidence.png](assets/linkvault/term-03-ssrf-evidence.png)
 
 *Terminal evidence — `03-ssrf-evidence.txt` (arsip transkrip sesi solve).*
+
+![term-source-notes.png](assets/linkvault/term-source-notes.png)
+
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon.txt`](assets/linkvault/01-recon.txt)
+- [`02-exploit-run.txt`](assets/linkvault/02-exploit-run.txt)
+- [`03-ssrf-evidence.py`](assets/linkvault/03-ssrf-evidence.py)
+- [`03-ssrf-evidence.txt`](assets/linkvault/03-ssrf-evidence.txt)
+- [`source-notes.txt`](assets/linkvault/source-notes.txt)

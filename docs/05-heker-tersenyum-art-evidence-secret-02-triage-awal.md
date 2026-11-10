@@ -28,3 +28,18 @@ IEND 0
 Tidak ada data setelah `IEND`; seluruh payload berada di dalam pixel.
 
 **Temuan:** gambar bukan RGB berwarna. Semua pixel yang dominan bernilai `R=G=B` (grayscale), sehingga “baju merah” dan “celana biru” tidak merujuk warna visual, melainkan **kanal bit** yang dipakai untuk menyisipkan data.
+
+### Evidence langkah ini
+
+![term-01-zsteg.png](assets/heker-tersenyum-art-evidence-secret/term-01-zsteg.png)
+
+*Terminal evidence — `01-zsteg.txt` (arsip transkrip sesi solve).*
+
+![term-06-file-exiftool.png](assets/heker-tersenyum-art-evidence-secret/term-06-file-exiftool.png)
+
+*Terminal evidence — `06-file-exiftool.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-zsteg.txt`](assets/heker-tersenyum-art-evidence-secret/01-zsteg.txt)
+- [`06-file-exiftool.txt`](assets/heker-tersenyum-art-evidence-secret/06-file-exiftool.txt)

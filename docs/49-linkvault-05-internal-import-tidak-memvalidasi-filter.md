@@ -52,3 +52,13 @@ func internalAddItem(title, filter string) {
 	queueMu.Unlock()
 }
 ```
+
+### Evidence langkah ini
+
+![term-source-notes.png](assets/linkvault/term-source-notes.png)
+
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`source-notes.txt`](assets/linkvault/source-notes.txt)

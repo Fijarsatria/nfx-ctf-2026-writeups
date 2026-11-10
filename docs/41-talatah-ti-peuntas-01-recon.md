@@ -29,9 +29,3 @@ Service asli: `NFX/PWNNXCTF-2026/TalatahTiPeuntas` (TCP), saat penulisan stopped
   ./ld-linux-x86-64.so.2 --library-path . ./talatah
   ```
 - Tools: `file`, `sha256sum`, `strings`, `objdump`, `nm`, `readelf`, `pwntools`.
-
-### Evidence langkah ini
-
-![term-01-file-hash-checksec.png](assets/talatah-ti-peuntas/term-01-file-hash-checksec.png)
-
-*Terminal evidence — `01-file-hash-checksec.txt` (arsip transkrip sesi solve).*

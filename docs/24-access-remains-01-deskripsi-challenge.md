@@ -17,9 +17,3 @@
 > Note: Kumiko adalah waifu admin. Informasi ini mungkin relevan, mungkin juga tidak.
 >
 > pass: nxctf.id
-
-### Evidence langkah ini
-
-![term-01-secretsdump.png](assets/access-remains/term-01-secretsdump.png)
-
-*Terminal evidence — `01-secretsdump.txt` (arsip transkrip sesi solve).*

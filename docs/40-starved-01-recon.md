@@ -29,9 +29,3 @@ Service asli: `NFX/Starved` (TCP 41825), saat penulisan berstatus stopped. Anali
   ./ld-linux-x86-64.so.2 --library-path . ./chall
   ```
 - Tools: `file`, `sha256sum`, `strings`, `objdump`, `nm`, `pwntools`, `ROP`.
-
-### Evidence langkah ini
-
-![term-01-file-hash-checksec.png](assets/starved/term-01-file-hash-checksec.png)
-
-*Terminal evidence — `01-file-hash-checksec.txt` (arsip transkrip sesi solve).*

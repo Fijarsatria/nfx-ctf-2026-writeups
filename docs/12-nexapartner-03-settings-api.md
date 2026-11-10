@@ -37,6 +37,10 @@ Server menggabungkan body ke objek settings. Karena tidak ada filter key, body d
 
 ### Evidence langkah ini
 
-![term-02-authed-crawl.png](assets/nexapartner/term-02-authed-crawl.png)
+![term-03-exploit-evidence.png](assets/nexapartner/term-03-exploit-evidence.png)
 
-*Terminal evidence — `02-authed-crawl.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `03-exploit-evidence.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-exploit-evidence.txt`](assets/nexapartner/03-exploit-evidence.txt)

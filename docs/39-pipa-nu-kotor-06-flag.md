@@ -34,4 +34,9 @@ Status `verified platform` menurut `writeups/FLAGS.md`.
 
 *Terminal evidence — `flag.txt` (arsip transkrip sesi solve).*
 
+**Berkas mentah langkah ini:**
+
+- [`04-flag-status.txt`](assets/pipa-nu-kotor/04-flag-status.txt)
+- [`flag.txt`](assets/pipa-nu-kotor/flag.txt)
+
 > **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

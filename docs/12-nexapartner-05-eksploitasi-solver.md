@@ -68,3 +68,7 @@ print("FLAG:", m.group(0) if m else "not found")
 ![term-03-exploit-evidence.png](assets/nexapartner/term-03-exploit-evidence.png)
 
 *Terminal evidence — `03-exploit-evidence.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-exploit-evidence.txt`](assets/nexapartner/03-exploit-evidence.txt)

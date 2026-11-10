@@ -56,3 +56,19 @@ Hasil render (konseptual):
 ```
 
 Regex pertama `/./` valid, lalu statement `fetch(...)` dieksekusi, lalu `var q=/./g` melanjutkan sisa template.
+
+### Evidence langkah ini
+
+![term-02-exploit-run.png](assets/linkvault/term-02-exploit-run.png)
+
+*Terminal evidence — `02-exploit-run.txt` (arsip transkrip sesi solve).*
+
+![term-03-ssrf-evidence.png](assets/linkvault/term-03-ssrf-evidence.png)
+
+*Terminal evidence — `03-ssrf-evidence.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-exploit-run.txt`](assets/linkvault/02-exploit-run.txt)
+- [`03-ssrf-evidence.py`](assets/linkvault/03-ssrf-evidence.py)
+- [`03-ssrf-evidence.txt`](assets/linkvault/03-ssrf-evidence.txt)

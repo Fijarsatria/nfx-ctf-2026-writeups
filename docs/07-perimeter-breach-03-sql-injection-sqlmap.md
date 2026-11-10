@@ -17,3 +17,13 @@
 ```
 
 Terlihat UNION-based SQLi, enumerasi `information_schema`, lalu ekstraksi `username,password FROM users`. Setelah itu penyerang melakukan brute-force login admin (60 request `POST /admin/login.php` dalam ~60 detik, 13:41:00–13:42:00).
+
+### Evidence langkah ini
+
+![term-02-attacker-requests.png](assets/perimeter-breach/term-02-attacker-requests.png)
+
+*Terminal evidence — `02-attacker-requests.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-attacker-requests.txt`](assets/perimeter-breach/02-attacker-requests.txt)

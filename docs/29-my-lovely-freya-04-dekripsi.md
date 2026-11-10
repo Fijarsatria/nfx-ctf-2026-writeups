@@ -20,3 +20,13 @@ $ openssl enc -d -aes-256-cbc -md sha256 -pbkdf2 -iter 100000 \
     -in surat_untuk_freya.enc -pass 'pass:AyamgGoreng45'
 bad decrypt
 ```
+
+### Evidence langkah ini
+
+![term-02-hidden-extraction.png](assets/my-lovely-freya/term-02-hidden-extraction.png)
+
+*Terminal evidence — `02-hidden-extraction.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-hidden-extraction.txt`](assets/my-lovely-freya/02-hidden-extraction.txt)

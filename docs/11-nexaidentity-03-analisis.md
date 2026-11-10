@@ -44,6 +44,10 @@ Backend tampaknya menyimpan admin sebagai user pertama. `$ne` tanpa kriteria fie
 
 ### Evidence langkah ini
 
-![term-02-endpoints.png](assets/nexaidentity/term-02-endpoints.png)
+![term-03-login-normal.png](assets/nexaidentity/term-03-login-normal.png)
 
-*Terminal evidence — `02-endpoints.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `03-login-normal.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-login-normal.txt`](assets/nexaidentity/03-login-normal.txt)

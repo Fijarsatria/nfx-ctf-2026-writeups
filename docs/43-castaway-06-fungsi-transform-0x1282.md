@@ -63,3 +63,17 @@ State `0x32` **tidak pernah tercapai** karena untuk semua integer `i`, `i² mod 
 13fc:  jmp    141f
 13fe:  mov    DWORD PTR [rbp-0xc],0x1
 ```
+
+### Evidence langkah ini
+
+![term-04-disasm.png](assets/castaway/term-04-disasm.png)
+
+*Terminal evidence — `04-disasm.txt` (arsip transkrip sesi solve).*
+
+![02-verifikasi.png](assets/castaway/02-verifikasi.png)
+
+*Evidence — `02-verifikasi.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`04-disasm.txt`](assets/castaway/04-disasm.txt)

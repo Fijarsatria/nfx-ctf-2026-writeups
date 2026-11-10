@@ -29,4 +29,8 @@ Status : VERIFIED platform (recheck 2026-11-09; flag lokal; challenge solved di 
 
 *Terminal evidence — `05-timeline-flag.txt` (arsip transkrip sesi solve).*
 
+**Berkas mentah langkah ini:**
+
+- [`05-timeline-flag.txt`](assets/insider/05-timeline-flag.txt)
+
 > **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

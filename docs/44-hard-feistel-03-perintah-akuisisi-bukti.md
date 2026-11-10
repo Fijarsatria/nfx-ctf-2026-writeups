@@ -20,3 +20,18 @@ python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \
 python3 writeups/assets/hard-feistel/solve_feistel.py \
                                              | tee writeups/assets/hard-feistel/06-solver-output.txt
 ```
+
+### Evidence langkah ini
+
+![term-01-identitas.png](assets/hard-feistel/term-01-identitas.png)
+
+*Terminal evidence — `01-identitas.txt` (arsip transkrip sesi solve).*
+
+![term-08-checksec.png](assets/hard-feistel/term-08-checksec.png)
+
+*Terminal evidence — `08-checksec.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-identitas.txt`](assets/hard-feistel/01-identitas.txt)
+- [`08-checksec.txt`](assets/hard-feistel/08-checksec.txt)

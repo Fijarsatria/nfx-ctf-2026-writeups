@@ -18,10 +18,6 @@ Empat komponen yang disebut:
 
 ### Evidence langkah ini
 
-![term-01-recon-acl.png](assets/nexusgate/term-01-recon-acl.png)
-
-*Terminal evidence — `01-recon-acl.txt` (arsip transkrip sesi solve).*
-
 ![01-cached-ticket.png](assets/nexusgate/01-cached-ticket.png)
 
 *Evidence — `01-cached-ticket.png`.*

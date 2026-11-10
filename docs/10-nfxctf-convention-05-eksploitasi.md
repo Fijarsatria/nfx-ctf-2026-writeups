@@ -59,6 +59,6 @@ python3 exploit.py | tee 03-exploit-run.txt
 
 *Terminal evidence — `03-exploit-run.txt` (arsip transkrip sesi solve).*
 
-![term-03b-leak-probe.png](assets/nfxctf-convention/term-03b-leak-probe.png)
+**Berkas mentah langkah ini:**
 
-*Terminal evidence — `03b-leak-probe.txt` (arsip transkrip sesi solve).*
+- [`03-exploit-run.txt`](assets/nfxctf-convention/03-exploit-run.txt)

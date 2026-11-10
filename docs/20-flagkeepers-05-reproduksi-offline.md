@@ -24,3 +24,13 @@ $ python3 offline_sim.py
 
 `H` dan CT berbeda dari run live karena key/nonce acak, tetapi alurnya sama
 dan `decrypt_and_verify` membuktikan tag forgery valid.
+
+### Evidence langkah ini
+
+![term-offline-sim-output.png](assets/flagkeepers/term-offline-sim-output.png)
+
+*Terminal evidence — `offline-sim-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`offline-sim-output.txt`](assets/flagkeepers/offline-sim-output.txt)

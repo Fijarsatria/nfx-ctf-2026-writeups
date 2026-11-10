@@ -19,3 +19,13 @@ $ python3 writeups/assets/unbreakable-delay/sim_vdf.py
 **Label:** output di atas berasal dari **instance sintetis**, bukan dari
 service NFX. Yang dibuktikan adalah kebenaran matematis serangan
 (`factored N = True`, `verify = True`), bukan flag.
+
+### Evidence langkah ini
+
+![term-sim-output.png](assets/unbreakable-delay/term-sim-output.png)
+
+*Terminal evidence — `sim-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`sim-output.txt`](assets/unbreakable-delay/sim-output.txt)

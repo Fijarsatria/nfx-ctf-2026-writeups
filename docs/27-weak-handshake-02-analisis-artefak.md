@@ -79,6 +79,10 @@ Server memilih `0x002f` dan mengaktifkan `extended_master_secret` (`00 17 00 00`
 
 ### Evidence langkah ini
 
-![02-clannad.png](assets/weak-handshake/02-clannad.png)
+![term-12-ftp-control.png](assets/weak-handshake/term-12-ftp-control.png)
 
-*Evidence — `02-clannad.png`.*
+*Terminal evidence — `12-ftp-control.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`12-ftp-control.txt`](assets/weak-handshake/12-ftp-control.txt)

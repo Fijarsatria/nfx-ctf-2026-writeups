@@ -39,6 +39,15 @@ https://0x00sec.org/ | user=wraithbyte | len=54 | prefix=b'v10' | created=2025-0
 
 ### Evidence langkah ini
 
+![term-02-artifact-dump.png](assets/insider/term-02-artifact-dump.png)
+
+*Terminal evidence — `02-artifact-dump.txt` (arsip transkrip sesi solve).*
+
 ![term-03-acquisition-hashes.png](assets/insider/term-03-acquisition-hashes.png)
 
 *Terminal evidence — `03-acquisition-hashes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-artifact-dump.txt`](assets/insider/02-artifact-dump.txt)
+- [`03-acquisition-hashes.txt`](assets/insider/03-acquisition-hashes.txt)

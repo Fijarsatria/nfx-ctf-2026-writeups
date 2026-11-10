@@ -64,3 +64,13 @@ canary        rbp-0x08   -> offset 0x48 (72)
 saved rbp     rbp         -> 0x50
 saved rip     rbp+0x08    -> 0x58
 ```
+
+### Evidence langkah ini
+
+![term-02-disasm.png](assets/narrowgate/term-02-disasm.png)
+
+*Terminal evidence — `02-disasm.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-disasm.txt`](assets/narrowgate/02-disasm.txt)

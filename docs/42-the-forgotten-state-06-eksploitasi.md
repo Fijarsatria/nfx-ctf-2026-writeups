@@ -59,3 +59,7 @@ Fixture lokal berisi `NFX{LOCAL_TEST_FLAG_STATE}`; flag kompetisi ada di bagian 
 ![term-03-exploit-run.png](assets/the-forgotten-state/term-03-exploit-run.png)
 
 *Terminal evidence — `03-exploit-run.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-exploit-run.txt`](assets/the-forgotten-state/03-exploit-run.txt)

@@ -53,3 +53,18 @@ ACL bypass (/./internal)
   -> ambil MASTER_TICKET
   -> POST /flag {"ticket": ...} = flag
 ```
+
+### Evidence langkah ini
+
+![term-02-acl-bypass.png](assets/nexusgate/term-02-acl-bypass.png)
+
+*Terminal evidence — `02-acl-bypass.txt` (arsip transkrip sesi solve).*
+
+![term-source-notes.png](assets/nexusgate/term-source-notes.png)
+
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-acl-bypass.txt`](assets/nexusgate/02-acl-bypass.txt)
+- [`source-notes.txt`](assets/nexusgate/source-notes.txt)

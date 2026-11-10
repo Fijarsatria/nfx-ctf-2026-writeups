@@ -45,3 +45,13 @@ rm -rf for_nozomi_content/
 ```
 
 Root memindahkan `Ensemble.mp4` ke home mizore dan menghapus direktori kerja `for_nozomi_content`, tetapi ZIP sudah dibuat dan tertinggal.
+
+### Evidence langkah ini
+
+![term-08-bash-history.png](assets/bluebird-session/term-08-bash-history.png)
+
+*Terminal evidence — `08-bash-history.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`08-bash-history.txt`](assets/bluebird-session/08-bash-history.txt)

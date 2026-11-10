@@ -70,3 +70,12 @@ sebagai file.
 ![term-01-recon.png](assets/progress-bar-user/term-01-recon.png)
 
 *Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+
+![term-02-php2shell.png](assets/progress-bar-user/term-02-php2shell.png)
+
+*Terminal evidence — `02-php2shell.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon.txt`](assets/progress-bar-user/01-recon.txt)
+- [`02-php2shell.txt`](assets/progress-bar-user/02-php2shell.txt)

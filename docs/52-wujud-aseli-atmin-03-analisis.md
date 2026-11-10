@@ -103,3 +103,9 @@ NFX{NFCC_Goes_to_NCSC_2026}
 ![term-02b-binwalk.png](assets/wujud-aseli-atmin/term-02b-binwalk.png)
 
 *Terminal evidence — `02b-binwalk.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-hashes.txt`](assets/wujud-aseli-atmin/02-hashes.txt)
+- [`02a-exiftool.txt`](assets/wujud-aseli-atmin/02a-exiftool.txt)
+- [`02b-binwalk.txt`](assets/wujud-aseli-atmin/02b-binwalk.txt)

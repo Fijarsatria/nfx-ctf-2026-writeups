@@ -55,3 +55,7 @@ GET  /admin/audit            Audit admin (setelah bypass)
 ![01-admin-audit-flag.png](assets/nexapartner/01-admin-audit-flag.png)
 
 *Evidence — `01-admin-audit-flag.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon.txt`](assets/nexapartner/01-recon.txt)

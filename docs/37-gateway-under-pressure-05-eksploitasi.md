@@ -66,6 +66,15 @@ Fixture lokal berisi `NFX{LOCAL_TEST_FLAG_GATEWAY}`; flag kompetisi ada di bagia
 
 ### Evidence langkah ini
 
+![term-02b-stack.png](assets/gateway-under-pressure/term-02b-stack.png)
+
+*Terminal evidence — `02b-stack.txt` (arsip transkrip sesi solve).*
+
 ![term-03-exploit-run.png](assets/gateway-under-pressure/term-03-exploit-run.png)
 
 *Terminal evidence — `03-exploit-run.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02b-stack.txt`](assets/gateway-under-pressure/02b-stack.txt)
+- [`03-exploit-run.txt`](assets/gateway-under-pressure/03-exploit-run.txt)

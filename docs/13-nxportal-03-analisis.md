@@ -62,6 +62,10 @@ yang benar; ia hanya mencari substring `@nxctf.local` di string mentah.
 
 ### Evidence langkah ini
 
-![term-02-forgot.png](assets/nxportal/term-02-forgot.png)
+![term-05-reset.png](assets/nxportal/term-05-reset.png)
 
-*Terminal evidence — `02-forgot.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `05-reset.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`05-reset.txt`](assets/nxportal/05-reset.txt)

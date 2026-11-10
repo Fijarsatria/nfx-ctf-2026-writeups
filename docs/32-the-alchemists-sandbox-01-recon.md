@@ -36,9 +36,3 @@ Tidak ada service; challenge berupa source yang dijalankan lokal.
 - OS: Linux x86-64.
 - Tools: Python 3.12, `ast`, `struct`.
 - Tidak ada dependency eksternal.
-
-### Evidence langkah ini
-
-![term-01-solve-output.png](assets/the-alchemists-sandbox/term-01-solve-output.png)
-
-*Terminal evidence — `01-solve-output.txt` (arsip transkrip sesi solve).*

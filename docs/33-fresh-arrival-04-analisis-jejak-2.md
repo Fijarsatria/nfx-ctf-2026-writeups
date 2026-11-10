@@ -53,3 +53,17 @@ Format `NFX{IATA_ICAO_kota_namadepan}`, semua huruf kecil, underscore:
 XW + CXH + beijing + raihan
 = NFX{XW_CXH_beijing_raihan}
 ```
+
+### Evidence langkah ini
+
+![term-06-jetphotos-page.png](assets/fresh-arrival/term-06-jetphotos-page.png)
+
+*Terminal evidence — `06-jetphotos-page.txt` (arsip transkrip sesi solve).*
+
+![02-jetphotos-11925184-thumb.jpg](assets/fresh-arrival/02-jetphotos-11925184-thumb.jpg)
+
+*Evidence — `02-jetphotos-11925184-thumb.jpg`.*
+
+**Berkas mentah langkah ini:**
+
+- [`06-jetphotos-page.txt`](assets/fresh-arrival/06-jetphotos-page.txt)

@@ -41,3 +41,13 @@ Angka di atas bukan tebakan: flag diverifikasi langsung oleh platform
 (`work/submit_curl_log.jsonl`). Yang tidak tersedia adalah cara server
 menurunkan keystream dari `s`/`e`; ini ditandai sebagai keterbatasan artefak,
 bukan sebagai langkah solver yang diklaim berhasil.
+
+### Evidence langkah ini
+
+![term-solver-output.png](assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/term-solver-output.png)
+
+*Terminal evidence — `solver-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`solver-output.txt`](assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solver-output.txt)

@@ -38,3 +38,12 @@ Catatan:
 ![term-04-README.png](assets/bluebird-session/term-04-README.png)
 
 *Terminal evidence — `04-README.txt` (arsip transkrip sesi solve).*
+
+![term-11-keyring-parse.png](assets/bluebird-session/term-11-keyring-parse.png)
+
+*Terminal evidence — `11-keyring-parse.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`04-README.txt`](assets/bluebird-session/04-README.txt)
+- [`11-keyring-parse.txt`](assets/bluebird-session/11-keyring-parse.txt)

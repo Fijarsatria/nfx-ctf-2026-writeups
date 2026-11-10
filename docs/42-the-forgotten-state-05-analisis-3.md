@@ -45,3 +45,13 @@ assert len(ov) == 0x50
 | `system` offset | `0x5c2e0` |
 
 `release(rec3)` dipanggil lebih dulu untuk memastikan `free@got` sudah terselesaikan (tidak lagi menunjuk PLT stub) sebelum leak.
+
+### Evidence langkah ini
+
+![term-02c-got.png](assets/the-forgotten-state/term-02c-got.png)
+
+*Terminal evidence — `02c-got.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02c-got.txt`](assets/the-forgotten-state/02c-got.txt)

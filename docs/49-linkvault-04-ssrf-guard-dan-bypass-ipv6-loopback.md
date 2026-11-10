@@ -53,6 +53,10 @@ Jadi `http://[::1]:8081/internal/import?...` melewati denylist dan mencapai API 
 
 ### Evidence langkah ini
 
-![term-02-exploit-run.png](assets/linkvault/term-02-exploit-run.png)
+![term-source-notes.png](assets/linkvault/term-source-notes.png)
 
-*Terminal evidence — `02-exploit-run.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`source-notes.txt`](assets/linkvault/source-notes.txt)

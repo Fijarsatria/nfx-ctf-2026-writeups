@@ -61,6 +61,10 @@ content-type: application/json; charset=utf-8
 
 ### Evidence langkah ini
 
-![term-02-acl-bypass.png](assets/nexusgate/term-02-acl-bypass.png)
+![term-source-notes.png](assets/nexusgate/term-source-notes.png)
 
-*Terminal evidence — `02-acl-bypass.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`source-notes.txt`](assets/nexusgate/source-notes.txt)

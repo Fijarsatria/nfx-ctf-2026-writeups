@@ -30,4 +30,8 @@ Flag yang sama muncul di body webhook dari instance live. Tidak ada submit ke pl
 
 *Terminal evidence — `14-flag-capture.txt` (arsip transkrip sesi solve).*
 
+**Berkas mentah langkah ini:**
+
+- [`14-flag-capture.txt`](assets/changetrack/14-flag-capture.txt)
+
 > **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

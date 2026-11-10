@@ -52,6 +52,10 @@ Ketiganya self-signed, dibuat dalam rentang waktu berdekatan
 
 ### Evidence langkah ini
 
-![term-02-zip-metadata.png](assets/the-ghost-operator/term-02-zip-metadata.png)
+![term-03-git-and-signature.png](assets/the-ghost-operator/term-03-git-and-signature.png)
 
-*Terminal evidence — `02-zip-metadata.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `03-git-and-signature.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-git-and-signature.txt`](assets/the-ghost-operator/03-git-and-signature.txt)

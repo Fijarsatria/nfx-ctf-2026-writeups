@@ -13,6 +13,35 @@
 
 ### Evidence langkah ini
 
+![term-01-recon.png](assets/progress-bar-user/term-01-recon.png)
+
+*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+
+![term-02-php2shell.png](assets/progress-bar-user/term-02-php2shell.png)
+
+*Terminal evidence — `02-php2shell.txt` (arsip transkrip sesi solve).*
+
 ![term-03-internal-services.png](assets/progress-bar-user/term-03-internal-services.png)
 
 *Terminal evidence — `03-internal-services.txt` (arsip transkrip sesi solve).*
+
+![term-05-platform-rejection.png](assets/progress-bar-user/term-05-platform-rejection.png)
+
+*Terminal evidence — `05-platform-rejection.txt` (arsip transkrip sesi solve).*
+
+![term-08-src22-excerpt.png](assets/progress-bar-user/term-08-src22-excerpt.png)
+
+*Terminal evidence — `08-src22-excerpt.txt` (arsip transkrip sesi solve).*
+
+![term-09-recheck-submit.png](assets/progress-bar-user/term-09-recheck-submit.png)
+
+*Terminal evidence — `09-recheck-submit.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon.txt`](assets/progress-bar-user/01-recon.txt)
+- [`02-php2shell.txt`](assets/progress-bar-user/02-php2shell.txt)
+- [`03-internal-services.txt`](assets/progress-bar-user/03-internal-services.txt)
+- [`05-platform-rejection.txt`](assets/progress-bar-user/05-platform-rejection.txt)
+- [`08-src22-excerpt.txt`](assets/progress-bar-user/08-src22-excerpt.txt)
+- [`09-recheck-submit.txt`](assets/progress-bar-user/09-recheck-submit.txt)

@@ -103,3 +103,8 @@ print("not found")
 ![term-verify-output.png](assets/rsa-coppersmith-cihuy/term-verify-output.png)
 
 *Terminal evidence — `verify-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`solver-output.txt`](assets/rsa-coppersmith-cihuy/solver-output.txt)
+- [`verify-output.txt`](assets/rsa-coppersmith-cihuy/verify-output.txt)

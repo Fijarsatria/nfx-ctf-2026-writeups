@@ -59,6 +59,10 @@ NFX{NFCC_Goes_to_NCSC_2026}
 
 ### Evidence langkah ini
 
+![term-02-hashes.png](assets/wujud-aseli-atmin/term-02-hashes.png)
+
+*Terminal evidence — `02-hashes.txt` (arsip transkrip sesi solve).*
+
 ![term-02a-exiftool.png](assets/wujud-aseli-atmin/term-02a-exiftool.png)
 
 *Terminal evidence — `02a-exiftool.txt` (arsip transkrip sesi solve).*
@@ -83,6 +87,11 @@ NFX{NFCC_Goes_to_NCSC_2026}
 
 *Terminal evidence — `10-submit.txt` (arsip transkrip sesi solve).*
 
-![06-scan_07_fixed.png](assets/wujud-aseli-atmin/06-scan_07_fixed.png)
+**Berkas mentah langkah ini:**
 
-*Evidence — `06-scan_07_fixed.png`.*
+- [`02-hashes.txt`](assets/wujud-aseli-atmin/02-hashes.txt)
+- [`02a-exiftool.txt`](assets/wujud-aseli-atmin/02a-exiftool.txt)
+- [`02b-binwalk.txt`](assets/wujud-aseli-atmin/02b-binwalk.txt)
+- [`04-catatan.txt`](assets/wujud-aseli-atmin/04-catatan.txt)
+- [`07-zsteg.txt`](assets/wujud-aseli-atmin/07-zsteg.txt)
+- [`09-base64-decode.txt`](assets/wujud-aseli-atmin/09-base64-decode.txt)

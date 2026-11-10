@@ -68,3 +68,8 @@ print("forged signature valid for:", bytes.fromhex(d["target_msg_hex"]).decode()
 ![term-verify-output.png](assets/broken-signature-scheme/term-verify-output.png)
 
 *Terminal evidence — `verify-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`solver-output.txt`](assets/broken-signature-scheme/solver-output.txt)
+- [`verify-output.txt`](assets/broken-signature-scheme/verify-output.txt)

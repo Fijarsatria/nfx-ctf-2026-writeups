@@ -33,3 +33,18 @@ d5 54 ad a8 41 e3 e6 79 f6 bf 13 d0 1d 31 9d d7
 2d b7 cd 6e a9 c8 e8 a4 95 7b ca cb b5 5f 16 f0
 36 26 81 c3 2c fb 9b 74
 ```
+
+### Evidence langkah ini
+
+![term-02-readelf.png](assets/castaway/term-02-readelf.png)
+
+*Terminal evidence — `02-readelf.txt` (arsip transkrip sesi solve).*
+
+![term-05-rodata-data-hexdump.png](assets/castaway/term-05-rodata-data-hexdump.png)
+
+*Terminal evidence — `05-rodata-data-hexdump.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-readelf.txt`](assets/castaway/02-readelf.txt)
+- [`05-rodata-data-hexdump.txt`](assets/castaway/05-rodata-data-hexdump.txt)

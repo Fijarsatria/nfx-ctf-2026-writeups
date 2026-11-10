@@ -79,3 +79,12 @@ PONG
 ![term-01-recon.png](assets/record-keeper-user/term-01-recon.png)
 
 *Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+
+![term-02-cve-2026-111497.png](assets/record-keeper-user/term-02-cve-2026-111497.png)
+
+*Terminal evidence — `02-cve-2026-111497.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon.txt`](assets/record-keeper-user/01-recon.txt)
+- [`02-cve-2026-111497.txt`](assets/record-keeper-user/02-cve-2026-111497.txt)

@@ -48,3 +48,13 @@ tel     +65 8123 4471
 ```
 
 Alamat “Helios Ring 7, Jurong Island” konsisten dengan narasi Project Helios.
+
+### Evidence langkah ini
+
+![term-02-artifact-dump.png](assets/insider/term-02-artifact-dump.png)
+
+*Terminal evidence — `02-artifact-dump.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-artifact-dump.txt`](assets/insider/02-artifact-dump.txt)

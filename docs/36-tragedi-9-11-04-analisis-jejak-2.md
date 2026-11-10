@@ -59,3 +59,17 @@ tetap menyimpan semuanya.
 | `4fe9d80` | `feat : add decrypt_api.go` | File baru |
 | `1433bb3` | `feat : add decrypt_service.go` | File kosong |
 | `c00a353` | `feat : change decrypt service.go` | File diisi |
+
+### Evidence langkah ini
+
+![term-03-git-history.png](assets/tragedi-9-11/term-03-git-history.png)
+
+*Terminal evidence — `03-git-history.txt` (arsip transkrip sesi solve).*
+
+![02-video-frame-30s.png](assets/tragedi-9-11/02-video-frame-30s.png)
+
+*Evidence — `02-video-frame-30s.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`03-git-history.txt`](assets/tragedi-9-11/03-git-history.txt)

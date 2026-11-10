@@ -62,6 +62,20 @@ openssl enc -d -aes-256-cbc -md sha256 -pbkdf2 -iter 100000 \
 
 ### Evidence langkah ini
 
+![term-02-hidden-extraction.png](assets/my-lovely-freya/term-02-hidden-extraction.png)
+
+*Terminal evidence — `02-hidden-extraction.txt` (arsip transkrip sesi solve).*
+
 ![term-03-surat-decrypted.png](assets/my-lovely-freya/term-03-surat-decrypted.png)
 
 *Terminal evidence — `03-surat-decrypted.txt` (arsip transkrip sesi solve).*
+
+![term-04-decrypt-output.png](assets/my-lovely-freya/term-04-decrypt-output.png)
+
+*Terminal evidence — `04-decrypt-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-hidden-extraction.txt`](assets/my-lovely-freya/02-hidden-extraction.txt)
+- [`03-surat-decrypted.txt`](assets/my-lovely-freya/03-surat-decrypted.txt)
+- [`04-decrypt-output.txt`](assets/my-lovely-freya/04-decrypt-output.txt)

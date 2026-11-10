@@ -14,3 +14,18 @@ NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}
 Baris pertama adalah root flag (challenge Root), baris kedua adalah user flag
 (challenge ini). `user.txt` berukuran 50 byte, mode `400`, owner
 `deploy:deploy`.
+
+### Evidence langkah ini
+
+![term-03-internal-services.png](assets/progress-bar-user/term-03-internal-services.png)
+
+*Terminal evidence — `03-internal-services.txt` (arsip transkrip sesi solve).*
+
+![term-04-user-flag.png](assets/progress-bar-user/term-04-user-flag.png)
+
+*Terminal evidence — `04-user-flag.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-internal-services.txt`](assets/progress-bar-user/03-internal-services.txt)
+- [`04-user-flag.txt`](assets/progress-bar-user/04-user-flag.txt)

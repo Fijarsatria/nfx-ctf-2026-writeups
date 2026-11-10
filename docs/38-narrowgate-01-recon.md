@@ -74,3 +74,7 @@ Symbol:
 ![term-01-file-hash-checksec.png](assets/narrowgate/term-01-file-hash-checksec.png)
 
 *Terminal evidence — `01-file-hash-checksec.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-file-hash-checksec.txt`](assets/narrowgate/01-file-hash-checksec.txt)

@@ -27,3 +27,18 @@ $ python3 verify.py
 [L3] AES-GCM tag         : OK
 [L3] FLAG                : NXCTF{mult1_l4y3r_l4tt1c3_r54_s1gn4tur3_hnp_8c211ad6b5a6}
 ```
+
+### Evidence langkah ini
+
+![term-solver-output.png](assets/broken-signature-scheme/term-solver-output.png)
+
+*Terminal evidence — `solver-output.txt` (arsip transkrip sesi solve).*
+
+![term-verify-output.png](assets/broken-signature-scheme/term-verify-output.png)
+
+*Terminal evidence — `verify-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`solver-output.txt`](assets/broken-signature-scheme/solver-output.txt)
+- [`verify-output.txt`](assets/broken-signature-scheme/verify-output.txt)

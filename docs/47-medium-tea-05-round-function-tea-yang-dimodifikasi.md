@@ -71,3 +71,17 @@ Setelah 32 ronde, binary membandingkan `v0` dan `v1` hasil enkripsi dengan ciphe
 11d9:  cmp    r8,rdi                    ; 5 blok
 11dc:  jne    1156
 ```
+
+### Evidence langkah ini
+
+![term-04-disasm.png](assets/medium-tea/term-04-disasm.png)
+
+*Terminal evidence — `04-disasm.txt` (arsip transkrip sesi solve).*
+
+![02-verifikasi.png](assets/medium-tea/02-verifikasi.png)
+
+*Evidence — `02-verifikasi.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`04-disasm.txt`](assets/medium-tea/04-disasm.txt)

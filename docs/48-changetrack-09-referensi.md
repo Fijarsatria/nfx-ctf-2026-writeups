@@ -13,3 +13,7 @@
 ![term-07-enum2-run.png](assets/changetrack/term-07-enum2-run.png)
 
 *Terminal evidence — `07-enum2-run.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`07-enum2-run.txt`](assets/changetrack/07-enum2-run.txt)

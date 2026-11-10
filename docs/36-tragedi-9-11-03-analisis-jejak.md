@@ -65,6 +65,10 @@ petunjuk “tempat yang tampaknya tidak menyimpan apa-apa”.
 
 ### Evidence langkah ini
 
-![02-video-frame-30s.png](assets/tragedi-9-11/02-video-frame-30s.png)
+![term-04-reddit-post.png](assets/tragedi-9-11/term-04-reddit-post.png)
 
-*Evidence — `02-video-frame-30s.png`.*
+*Terminal evidence — `04-reddit-post.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`04-reddit-post.txt`](assets/tragedi-9-11/04-reddit-post.txt)

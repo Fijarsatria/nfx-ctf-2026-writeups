@@ -31,6 +31,14 @@ Transkrip lengkap: `assets/panggilan-terakhir/06-transcript.txt`.
 
 ### Evidence langkah ini
 
+![term-05-rtp-extract.png](assets/panggilan-terakhir/term-05-rtp-extract.png)
+
+*Terminal evidence — `05-rtp-extract.txt` (arsip transkrip sesi solve).*
+
 ![03-spectrogram-Dina.png](assets/panggilan-terakhir/03-spectrogram-Dina.png)
 
 *Evidence — `03-spectrogram-Dina.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`05-rtp-extract.txt`](assets/panggilan-terakhir/05-rtp-extract.txt)

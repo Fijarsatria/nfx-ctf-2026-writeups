@@ -80,3 +80,7 @@ writeup referensi), sehingga pola ini cukup.
 ![term-02-hashes.png](assets/symhell/term-02-hashes.png)
 
 *Terminal evidence — `02-hashes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-hashes.txt`](assets/symhell/02-hashes.txt)

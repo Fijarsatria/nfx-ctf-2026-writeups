@@ -28,10 +28,10 @@ Tidak ada source atau file pendamping; hanya satu ELF yang membaca flag dari arg
 
 ### Evidence langkah ini
 
-![term-01-identitas.png](assets/medium-tea/term-01-identitas.png)
+![term-08-checksec.png](assets/medium-tea/term-08-checksec.png)
 
-*Terminal evidence — `01-identitas.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `08-checksec.txt` (arsip transkrip sesi solve).*
 
-![01-solver.png](assets/medium-tea/01-solver.png)
+**Berkas mentah langkah ini:**
 
-*Evidence — `01-solver.png`.*
+- [`08-checksec.txt`](assets/medium-tea/08-checksec.txt)

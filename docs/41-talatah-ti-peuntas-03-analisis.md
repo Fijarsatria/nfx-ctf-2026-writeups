@@ -68,6 +68,7 @@ Panjang pesan dibatasi `24..0x400` (`0x18..0x400`).
 
 *Terminal evidence — `02b-record-layout.txt` (arsip transkrip sesi solve).*
 
-![term-02c-got.png](assets/talatah-ti-peuntas/term-02c-got.png)
+**Berkas mentah langkah ini:**
 
-*Terminal evidence — `02c-got.txt` (arsip transkrip sesi solve).*
+- [`02-disasm.txt`](assets/talatah-ti-peuntas/02-disasm.txt)
+- [`02b-record-layout.txt`](assets/talatah-ti-peuntas/02b-record-layout.txt)

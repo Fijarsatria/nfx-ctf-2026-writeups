@@ -21,3 +21,13 @@ login sebagai admin@changetrack.local (password apa pun non-trivial)
   -> worker render + POST ke webhook
   -> flag di body capture
 ```
+
+### Evidence langkah ini
+
+![term-02-dashboard-pages.png](assets/changetrack/term-02-dashboard-pages.png)
+
+*Terminal evidence — `02-dashboard-pages.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-dashboard-pages.txt`](assets/changetrack/02-dashboard-pages.txt)

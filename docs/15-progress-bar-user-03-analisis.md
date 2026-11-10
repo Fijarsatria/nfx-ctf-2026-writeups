@@ -43,3 +43,13 @@ praktisnya **14 byte**. Karena itu notes memakai trik:
 
 Ini juga menunjukkan masalah desain: direktori upload `/out` bukan hanya
 tempat file user, tetapi **web-served** dan writable oleh proses web.
+
+### Evidence langkah ini
+
+![term-02-php2shell.png](assets/progress-bar-user/term-02-php2shell.png)
+
+*Terminal evidence — `02-php2shell.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-php2shell.txt`](assets/progress-bar-user/02-php2shell.txt)

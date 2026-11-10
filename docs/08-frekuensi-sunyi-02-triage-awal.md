@@ -23,3 +23,17 @@ channels identical: True
 difference. RIFF hanya berisi `fmt` + `data` standar; tidak ada trailing
 data. Ini memperkuat dugaan bahwa payload ada di **isi frekuensi**, bukan
 di struktur file.
+
+### Evidence langkah ini
+
+![term-05-audio-analysis.png](assets/frekuensi-sunyi/term-05-audio-analysis.png)
+
+*Terminal evidence — `05-audio-analysis.txt` (arsip transkrip sesi solve).*
+
+![01-spectrogram-repro.png](assets/frekuensi-sunyi/01-spectrogram-repro.png)
+
+*Evidence — `01-spectrogram-repro.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`05-audio-analysis.txt`](assets/frekuensi-sunyi/05-audio-analysis.txt)

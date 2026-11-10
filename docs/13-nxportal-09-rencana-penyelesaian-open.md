@@ -30,3 +30,7 @@ Kriteria selesai: mendapatkan token `/reset` yang valid, mengganti password
 ![term-07-mailtm-injection.png](assets/nxportal/term-07-mailtm-injection.png)
 
 *Terminal evidence — `07-mailtm-injection.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`07-mailtm-injection.txt`](assets/nxportal/07-mailtm-injection.txt)

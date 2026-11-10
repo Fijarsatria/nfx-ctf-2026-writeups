@@ -16,3 +16,13 @@ saved                 : /home/bocil/ctf/nfx/writeups/assets/frekuensi-sunyi/01-s
 manual transcription  : ASK{o0fP4_Pr01Y}
 ROT13                 : NFX{b0sC4_Ce01L}
 ```
+
+### Evidence langkah ini
+
+![term-05-audio-analysis.png](assets/frekuensi-sunyi/term-05-audio-analysis.png)
+
+*Terminal evidence — `05-audio-analysis.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`05-audio-analysis.txt`](assets/frekuensi-sunyi/05-audio-analysis.txt)

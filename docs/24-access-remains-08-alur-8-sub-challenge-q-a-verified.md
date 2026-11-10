@@ -29,3 +29,7 @@ Setelah Q8 benar, `get_sub_challenges` mengembalikan:
 ![term-04-unzip.png](assets/access-remains/term-04-unzip.png)
 
 *Terminal evidence — `04-unzip.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`04-unzip.txt`](assets/access-remains/04-unzip.txt)

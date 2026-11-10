@@ -102,3 +102,17 @@ def main() -> int:
 if __name__ == "__main__":
     raise SystemExit(main())
 ```
+
+### Evidence langkah ini
+
+![term-06-solver-output.png](assets/hard-feistel/term-06-solver-output.png)
+
+*Terminal evidence — `06-solver-output.txt` (arsip transkrip sesi solve).*
+
+![03-gdb.png](assets/hard-feistel/03-gdb.png)
+
+*Evidence — `03-gdb.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`06-solver-output.txt`](assets/hard-feistel/06-solver-output.txt)

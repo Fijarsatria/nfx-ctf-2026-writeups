@@ -42,10 +42,10 @@ Layout stack yang relevan:
 
 ### Evidence langkah ini
 
-![term-02-readelf.png](assets/hard-vm-bytecode/term-02-readelf.png)
+![term-04-disasm.png](assets/hard-vm-bytecode/term-04-disasm.png)
 
-*Terminal evidence — `02-readelf.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `04-disasm.txt` (arsip transkrip sesi solve).*
 
-![02-verifikasi.png](assets/hard-vm-bytecode/02-verifikasi.png)
+**Berkas mentah langkah ini:**
 
-*Evidence — `02-verifikasi.png`.*
+- [`04-disasm.txt`](assets/hard-vm-bytecode/04-disasm.txt)

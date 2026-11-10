@@ -55,6 +55,10 @@ Archive:  FreyaSayangkuh
 
 ### Evidence langkah ini
 
-![01-hidden-rows.png](assets/my-lovely-freya/01-hidden-rows.png)
+![term-02-hidden-extraction.png](assets/my-lovely-freya/term-02-hidden-extraction.png)
 
-*Evidence — `01-hidden-rows.png`.*
+*Terminal evidence — `02-hidden-extraction.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-hidden-extraction.txt`](assets/my-lovely-freya/02-hidden-extraction.txt)

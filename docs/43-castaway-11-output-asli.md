@@ -20,3 +20,18 @@ $ python3 writeups/assets/castaway/solve_castaway.py
 ```
 
 `anti_debug=1` menghasilkan byte non-printable, jadi kandidat itu ditolak. Hanya `anti_debug=0` yang menghasilkan flag valid.
+
+### Evidence langkah ini
+
+![term-03-strings.png](assets/castaway/term-03-strings.png)
+
+*Terminal evidence — `03-strings.txt` (arsip transkrip sesi solve).*
+
+![term-06-solver-output.png](assets/castaway/term-06-solver-output.png)
+
+*Terminal evidence — `06-solver-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-strings.txt`](assets/castaway/03-strings.txt)
+- [`06-solver-output.txt`](assets/castaway/06-solver-output.txt)

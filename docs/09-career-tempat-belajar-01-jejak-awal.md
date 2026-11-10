@@ -46,9 +46,3 @@ f531e041cff71d858f2215ee97bcb2dd40429cf35e3264818c0fde676e2621f9  osint/office.p
   OSINT dari artefak gambar + sumber publik.
 - Endpoint publik yang dipakai: Instagram (login-walled), Gravatar API,
   mesin pencari.
-
-### Evidence langkah ini
-
-![01-office.png](assets/career-tempat-belajar/01-office.png)
-
-*Evidence — `01-office.png`.*

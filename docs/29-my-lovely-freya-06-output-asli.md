@@ -27,3 +27,18 @@ NXCTF{FR3Y4_MY_L0V3LY!}
 00000000: 4e58 4354 467b 4652 3359 345f 4d59 5f4c  NXCTF{FR3Y4_MY_L
 00000010: 3056 334c 5921 7d0a                      0V3LY!}.
 ```
+
+### Evidence langkah ini
+
+![term-03-surat-decrypted.png](assets/my-lovely-freya/term-03-surat-decrypted.png)
+
+*Terminal evidence — `03-surat-decrypted.txt` (arsip transkrip sesi solve).*
+
+![term-04-decrypt-output.png](assets/my-lovely-freya/term-04-decrypt-output.png)
+
+*Terminal evidence — `04-decrypt-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-surat-decrypted.txt`](assets/my-lovely-freya/03-surat-decrypted.txt)
+- [`04-decrypt-output.txt`](assets/my-lovely-freya/04-decrypt-output.txt)

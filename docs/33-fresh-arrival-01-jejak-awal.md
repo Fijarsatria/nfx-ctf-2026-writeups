@@ -47,9 +47,3 @@ $ sha256sum osint/spotted.jpg
   `curl`.
 - Service: tidak ada; seluruh challenge berbasis gambar dan sumber publik.
 - Sumber publik: Yandex Images, JetPhotos, Wikidata, Wikipedia.
-
-### Evidence langkah ini
-
-![01-spotted.jpg](assets/fresh-arrival/01-spotted.jpg)
-
-*Evidence — `01-spotted.jpg`.*

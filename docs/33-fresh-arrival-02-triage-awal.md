@@ -20,3 +20,9 @@ Color Components : 3
 **Temuan:** tidak ada EXIF kamera, GPS, atau timestamp. Yang tersisa hanya
 profil warna sRGB standar. Jadi jalur yang tersedia adalah **reverse image
 search** dan pembacaan livery/registrasi dari gambar.
+
+### Evidence langkah ini
+
+![01-spotted.jpg](assets/fresh-arrival/01-spotted.jpg)
+
+*Evidence — `01-spotted.jpg`.*

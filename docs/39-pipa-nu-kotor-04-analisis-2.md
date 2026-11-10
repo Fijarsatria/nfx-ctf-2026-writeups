@@ -42,3 +42,18 @@ Urutan yang dipakai:
 ```
 
 `cetak_flag()` membuka `flag.txt`, membaca dengan `fgets`, dan `printf("FLAG: %s")`.
+
+### Evidence langkah ini
+
+![term-02-disasm.png](assets/pipa-nu-kotor/term-02-disasm.png)
+
+*Terminal evidence — `02-disasm.txt` (arsip transkrip sesi solve).*
+
+![term-02b-struct.png](assets/pipa-nu-kotor/term-02b-struct.png)
+
+*Terminal evidence — `02b-struct.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-disasm.txt`](assets/pipa-nu-kotor/02-disasm.txt)
+- [`02b-struct.txt`](assets/pipa-nu-kotor/02b-struct.txt)

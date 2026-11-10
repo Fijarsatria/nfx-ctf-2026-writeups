@@ -43,3 +43,17 @@ Correct! Jaringan Feistel berhasil dibalik.
 ```
 
 **Temuan:** panjang input dicek `== 0x27` (39 byte) di `0x111a`. Ciphertext tidak muncul sebagai string; ia berada di `.data` dan diakses lewat `lea rsi,[rip+0x2e3b] # 4020`. Round key berada di `.rodata` `0x2060` dan terlihat sebagai deret nilai 16-bit.
+
+### Evidence langkah ini
+
+![term-01-identitas.png](assets/hard-feistel/term-01-identitas.png)
+
+*Terminal evidence — `01-identitas.txt` (arsip transkrip sesi solve).*
+
+![01-solver.png](assets/hard-feistel/01-solver.png)
+
+*Evidence — `01-solver.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`01-identitas.txt`](assets/hard-feistel/01-identitas.txt)

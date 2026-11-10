@@ -79,3 +79,7 @@ input nama file tidak dipisahkan dengan `--`.
 ![term-02-enum-ops.png](assets/record-keeper-root/term-02-enum-ops.png)
 
 *Terminal evidence — `02-enum-ops.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-enum-ops.txt`](assets/record-keeper-root/02-enum-ops.txt)

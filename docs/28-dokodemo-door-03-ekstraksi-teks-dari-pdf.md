@@ -20,3 +20,13 @@ NFX CLASSIFIED ARCHIVE // STRICTLY CONFIDENTIAL // DO NOT DISTRIBUTE
 ```
 
 Flag muncul sebagai teks biasa di halaman PDF.
+
+### Evidence langkah ini
+
+![term-02-extracted-text.png](assets/dokodemo-door/term-02-extracted-text.png)
+
+*Terminal evidence — `02-extracted-text.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-extracted-text.txt`](assets/dokodemo-door/02-extracted-text.txt)

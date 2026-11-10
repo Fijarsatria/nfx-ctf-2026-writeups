@@ -41,6 +41,10 @@ Dampak yang diberitakan:
 
 ### Evidence langkah ini
 
-![term-02-exif-and-hash.png](assets/s3rvice-k3reta/term-02-exif-and-hash.png)
+![term-03-q1-q8.png](assets/s3rvice-k3reta/term-03-q1-q8.png)
 
-*Terminal evidence — `02-exif-and-hash.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `03-q1-q8.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-q1-q8.txt`](assets/s3rvice-k3reta/03-q1-q8.txt)

@@ -29,3 +29,17 @@ d874dde7f9a849db874f47a2141ab0ed51905cb03d12a833474d471e6888d097  web/LinkVault/
 e3d413fe6e7a1828c8ed0b1e7294de8ec80bcaa153f199606fda4b3c207d42fc  web/LinkVault/src/store.go
 a10853de2d1f65bb112f0368c3cfba0335047eae3859df107fb45471c82bea74  web/LinkVault/src/templates/moderation.html
 ```
+
+### Evidence langkah ini
+
+![term-source-notes.png](assets/linkvault/term-source-notes.png)
+
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+![01-reports-flag.png](assets/linkvault/01-reports-flag.png)
+
+*Evidence — `01-reports-flag.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`source-notes.txt`](assets/linkvault/source-notes.txt)

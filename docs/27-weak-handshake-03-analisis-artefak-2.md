@@ -65,3 +65,13 @@ key = RSA.construct((n, 65537, d, p, q))
 ```
 
 Private key tersimpan di `assets/weak-handshake/04-tomoyo_priv.pem`.
+
+### Evidence langkah ini
+
+![term-13-cert.png](assets/weak-handshake/term-13-cert.png)
+
+*Terminal evidence — `13-cert.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`13-cert.txt`](assets/weak-handshake/13-cert.txt)

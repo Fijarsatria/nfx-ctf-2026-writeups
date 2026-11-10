@@ -35,3 +35,13 @@ merupakan screenshot/AI-generated yang tidak punya sumber langsung. Ini
 membuat Q9 tidak bisa diselesaikan hanya dengan reverse image search;
 harus lewat pencarian kontekstual (video drone di lokasi yang sama) dan
 verifikasi akun media sosial.
+
+### Evidence langkah ini
+
+![term-03-q1-q8.png](assets/s3rvice-k3reta/term-03-q1-q8.png)
+
+*Terminal evidence — `03-q1-q8.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-q1-q8.txt`](assets/s3rvice-k3reta/03-q1-q8.txt)

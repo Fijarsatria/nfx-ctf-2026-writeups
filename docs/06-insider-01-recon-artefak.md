@@ -41,3 +41,13 @@ $ sha256sum ChromeProfile/Default/History
 ```
 
 Hash `History` cocok dengan yang tercatat di `acquisition_note.txt`, jadi artefak tidak berubah.
+
+### Evidence langkah ini
+
+![term-03-acquisition-hashes.png](assets/insider/term-03-acquisition-hashes.png)
+
+*Terminal evidence — `03-acquisition-hashes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-acquisition-hashes.txt`](assets/insider/03-acquisition-hashes.txt)

@@ -55,3 +55,12 @@ menerima flag.
 ![term-03-q1-q8.png](assets/s3rvice-k3reta/term-03-q1-q8.png)
 
 *Terminal evidence — `03-q1-q8.txt` (arsip transkrip sesi solve).*
+
+![term-05-youtube-drone-candidates.png](assets/s3rvice-k3reta/term-05-youtube-drone-candidates.png)
+
+*Terminal evidence — `05-youtube-drone-candidates.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-q1-q8.txt`](assets/s3rvice-k3reta/03-q1-q8.txt)
+- [`05-youtube-drone-candidates.txt`](assets/s3rvice-k3reta/05-youtube-drone-candidates.txt)

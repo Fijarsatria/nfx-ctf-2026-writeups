@@ -41,3 +41,13 @@ Tol Cipularang → Exit Pasteur → Jl. Sersan Bajuri → Parongpong/Lembang →
 Jl. Kolonel Masturi KM 9, safehouse di kompleks villa kaki Gunung
 Burangrang dengan taman bunga tematik, kompleks villa terbesar di
 Parongpong–Lembang.
+
+### Evidence langkah ini
+
+![term-05-telegraph-field-notes.png](assets/the-ghost-operator/term-05-telegraph-field-notes.png)
+
+*Terminal evidence — `05-telegraph-field-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`05-telegraph-field-notes.txt`](assets/the-ghost-operator/05-telegraph-field-notes.txt)

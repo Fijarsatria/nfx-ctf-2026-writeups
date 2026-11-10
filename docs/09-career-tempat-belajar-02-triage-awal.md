@@ -34,3 +34,17 @@ tEXt 16   Title\0Dih Office
 IDAT ...  (banyak)
 IEND 0
 ```
+
+### Evidence langkah ini
+
+![term-02-office-metadata.png](assets/career-tempat-belajar/term-02-office-metadata.png)
+
+*Terminal evidence — `02-office-metadata.txt` (arsip transkrip sesi solve).*
+
+![01-office.png](assets/career-tempat-belajar/01-office.png)
+
+*Evidence — `01-office.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`02-office-metadata.txt`](assets/career-tempat-belajar/02-office-metadata.txt)

@@ -42,3 +42,18 @@ NFX{f3w_n_d4y_ch41ns_f0r_w3b_pwn_1s_n0t_th4t_h4rd_7734a1}
 
 FLAG=NFX{f3w_n_d4y_ch41ns_f0r_w3b_pwn_1s_n0t_th4t_h4rd_7734a1}
 ```
+
+### Evidence langkah ini
+
+![term-02-exploit-run.png](assets/pagestream/term-02-exploit-run.png)
+
+*Terminal evidence — `02-exploit-run.txt` (arsip transkrip sesi solve).*
+
+![term-03-write-proof.png](assets/pagestream/term-03-write-proof.png)
+
+*Terminal evidence — `03-write-proof.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-exploit-run.txt`](assets/pagestream/02-exploit-run.txt)
+- [`03-write-proof.txt`](assets/pagestream/03-write-proof.txt)

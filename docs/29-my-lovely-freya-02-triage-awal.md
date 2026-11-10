@@ -32,3 +32,17 @@ AyamgGoreng45
 Sekilas ini terlihat seperti password. Namun percobaan dekripsi dengan
 `AyamgGoreng45` menghasilkan `bad decrypt`, jadi metadata ini adalah decoy
 (perhatikan: hilang huruf `H` di depan dan `@` di akhir).
+
+### Evidence langkah ini
+
+![term-02-hidden-extraction.png](assets/my-lovely-freya/term-02-hidden-extraction.png)
+
+*Terminal evidence — `02-hidden-extraction.txt` (arsip transkrip sesi solve).*
+
+![01-hidden-rows.png](assets/my-lovely-freya/01-hidden-rows.png)
+
+*Evidence — `01-hidden-rows.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`02-hidden-extraction.txt`](assets/my-lovely-freya/02-hidden-extraction.txt)

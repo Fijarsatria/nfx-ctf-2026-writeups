@@ -52,3 +52,13 @@ Symbol:
 0000000000401982 t op_edit
 0000000000401b3c t op_delete
 ```
+
+### Evidence langkah ini
+
+![term-01-file-hash-checksec.png](assets/talatah-ti-peuntas/term-01-file-hash-checksec.png)
+
+*Terminal evidence — `01-file-hash-checksec.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-file-hash-checksec.txt`](assets/talatah-ti-peuntas/01-file-hash-checksec.txt)

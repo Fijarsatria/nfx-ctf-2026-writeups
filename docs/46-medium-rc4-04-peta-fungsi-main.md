@@ -99,10 +99,14 @@ Dan perbandingan:
 
 ### Evidence langkah ini
 
-![term-02-readelf.png](assets/medium-rc4/term-02-readelf.png)
+![term-04-disasm.png](assets/medium-rc4/term-04-disasm.png)
 
-*Terminal evidence — `02-readelf.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `04-disasm.txt` (arsip transkrip sesi solve).*
 
 ![02-verifikasi.png](assets/medium-rc4/02-verifikasi.png)
 
 *Evidence — `02-verifikasi.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`04-disasm.txt`](assets/medium-rc4/04-disasm.txt)

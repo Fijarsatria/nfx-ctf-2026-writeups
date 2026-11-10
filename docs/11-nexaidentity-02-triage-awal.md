@@ -42,3 +42,18 @@ Setelah login, `/dashboard` menampilkan `Raka Pratama · Platform Engineering`. 
 HTTP/1.1 403 Forbidden
 The identity admin console is restricted to People Operations administrators.
 ```
+
+### Evidence langkah ini
+
+![term-01-recon.png](assets/nexaidentity/term-01-recon.png)
+
+*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+
+![term-03-login-normal.png](assets/nexaidentity/term-03-login-normal.png)
+
+*Terminal evidence — `03-login-normal.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon.txt`](assets/nexaidentity/01-recon.txt)
+- [`03-login-normal.txt`](assets/nexaidentity/03-login-normal.txt)

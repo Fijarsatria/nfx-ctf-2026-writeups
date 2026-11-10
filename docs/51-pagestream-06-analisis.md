@@ -32,3 +32,18 @@ register user
   -> GET /dashboard                    (EJS RCE root)
   -> /readflag $(cat /etc/pagestream.key)
 ```
+
+### Evidence langkah ini
+
+![term-02-exploit-run.png](assets/pagestream/term-02-exploit-run.png)
+
+*Terminal evidence — `02-exploit-run.txt` (arsip transkrip sesi solve).*
+
+![term-source-notes.png](assets/pagestream/term-source-notes.png)
+
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-exploit-run.txt`](assets/pagestream/02-exploit-run.txt)
+- [`source-notes.txt`](assets/pagestream/source-notes.txt)

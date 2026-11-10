@@ -17,3 +17,19 @@ PWNED_END
 ```
 
 Baris terakhir membuktikan ROP `system("/bin/sh")` berjalan dan shell membaca `flag.txt` di direktori kerja. Fixture lokal sengaja berisi `NFX{LOCAL_TEST_FLAG_CONVENTION}`; flag kompetisi adalah yang tercantum di bagian 4.
+
+### Evidence langkah ini
+
+![term-03-exploit-run.png](assets/nfxctf-convention/term-03-exploit-run.png)
+
+*Terminal evidence — `03-exploit-run.txt` (arsip transkrip sesi solve).*
+
+![term-03b-leak-probe.png](assets/nfxctf-convention/term-03b-leak-probe.png)
+
+*Terminal evidence — `03b-leak-probe.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-exploit-run.txt`](assets/nfxctf-convention/03-exploit-run.txt)
+- [`03b-leak-probe.py`](assets/nfxctf-convention/03b-leak-probe.py)
+- [`03b-leak-probe.txt`](assets/nfxctf-convention/03b-leak-probe.txt)

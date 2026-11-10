@@ -60,34 +60,10 @@ for_nozomi.zip -> 5 JPG + README.txt
 
 ### Evidence langkah ini
 
-![term-00-file-tree.png](assets/bluebird-session/term-00-file-tree.png)
-
-*Terminal evidence — `00-file-tree.txt` (arsip transkrip sesi solve).*
-
-![term-04-README.png](assets/bluebird-session/term-04-README.png)
-
-*Terminal evidence — `04-README.txt` (arsip transkrip sesi solve).*
-
-![term-07-account.png](assets/bluebird-session/term-07-account.png)
-
-*Terminal evidence — `07-account.txt` (arsip transkrip sesi solve).*
-
-![term-08-bash-history.png](assets/bluebird-session/term-08-bash-history.png)
-
-*Terminal evidence — `08-bash-history.txt` (arsip transkrip sesi solve).*
-
-![term-10-hashes.png](assets/bluebird-session/term-10-hashes.png)
-
-*Terminal evidence — `10-hashes.txt` (arsip transkrip sesi solve).*
-
 ![term-11-keyring-parse.png](assets/bluebird-session/term-11-keyring-parse.png)
 
 *Terminal evidence — `11-keyring-parse.txt` (arsip transkrip sesi solve).*
 
-![term-12-attribute-md5.png](assets/bluebird-session/term-12-attribute-md5.png)
+**Berkas mentah langkah ini:**
 
-*Terminal evidence — `12-attribute-md5.txt` (arsip transkrip sesi solve).*
-
-![term-13-password-verify.png](assets/bluebird-session/term-13-password-verify.png)
-
-*Terminal evidence — `13-password-verify.txt` (arsip transkrip sesi solve).*
+- [`11-keyring-parse.txt`](assets/bluebird-session/11-keyring-parse.txt)

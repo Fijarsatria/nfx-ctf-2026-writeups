@@ -29,3 +29,18 @@ plaintext (stripped) : NFXCTF{C0pp3rsm1th_p4rt14l_k3y_3xp0sur3_9617eda9}
 `unknown x bits = 208` berarti dari 212 bit yang tidak diketahui, 208 bit
 benar-benar terpakai; empat bit teratas `x` nol. Ini tetap di bawah batas
 `N^{0.25}`.
+
+### Evidence langkah ini
+
+![term-solver-output.png](assets/rsa-coppersmith-cihuy/term-solver-output.png)
+
+*Terminal evidence — `solver-output.txt` (arsip transkrip sesi solve).*
+
+![term-verify-output.png](assets/rsa-coppersmith-cihuy/term-verify-output.png)
+
+*Terminal evidence — `verify-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`solver-output.txt`](assets/rsa-coppersmith-cihuy/solver-output.txt)
+- [`verify-output.txt`](assets/rsa-coppersmith-cihuy/verify-output.txt)

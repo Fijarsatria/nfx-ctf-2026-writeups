@@ -48,3 +48,18 @@ akhir challenge User memanfaatkan automation root untuk membaca file tersebut.
 Dengan kata lain, "User" dan "Root" di lab ini berbagi satu rantai: foothold
 `www-data` lalu eskalasi ke root, dan user flag dibaca setelah berada di
 konteks root.
+
+### Evidence langkah ini
+
+![term-02-php2shell.png](assets/progress-bar-user/term-02-php2shell.png)
+
+*Terminal evidence — `02-php2shell.txt` (arsip transkrip sesi solve).*
+
+![term-03-internal-services.png](assets/progress-bar-user/term-03-internal-services.png)
+
+*Terminal evidence — `03-internal-services.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-php2shell.txt`](assets/progress-bar-user/02-php2shell.txt)
+- [`03-internal-services.txt`](assets/progress-bar-user/03-internal-services.txt)

@@ -14,9 +14,3 @@ Hint:
 - “melewati autentikasi standar” → mass assignment role.
 - “operasi penulisan berkas sembarang” → upload filename traversal.
 - “pengambilalihan kontrol alur eksekusi runtime” → overwrite EJS view → RCE.
-
-### Evidence langkah ini
-
-![term-01-recon.png](assets/pagestream/term-01-recon.png)
-
-*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*

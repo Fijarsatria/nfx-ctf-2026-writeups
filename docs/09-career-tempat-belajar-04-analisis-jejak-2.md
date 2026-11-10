@@ -40,3 +40,18 @@ investigasi sebelumnya comment ini diuji sebagai password Instagram
 `@dihlearn.id` dan `@career.dihlearn.id`; hasilnya “login information
 incorrect”. Jadi comment tersebut adalah **decoy** yang sengaja dipasang
 untuk mengecoh, bukan bagian dari flag.
+
+### Evidence langkah ini
+
+![term-02-office-metadata.png](assets/career-tempat-belajar/term-02-office-metadata.png)
+
+*Terminal evidence — `02-office-metadata.txt` (arsip transkrip sesi solve).*
+
+![term-06-gravatar-http.png](assets/career-tempat-belajar/term-06-gravatar-http.png)
+
+*Terminal evidence — `06-gravatar-http.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-office-metadata.txt`](assets/career-tempat-belajar/02-office-metadata.txt)
+- [`06-gravatar-http.txt`](assets/career-tempat-belajar/06-gravatar-http.txt)

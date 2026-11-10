@@ -30,3 +30,13 @@ Oct 10 14:41:27 web01 sshd[24688]: pam_unix(sshd:session): session opened for us
 ```
 
 Persistence: akun `svc_backup` dengan sudo, password baru, dan **publickey** yang memungkinkan login ulang tanpa password. Fingerprint `SHA256:Zk1pQ0v9` adalah artifact kunci penyerang.
+
+### Evidence langkah ini
+
+![term-04-auth-timeline.png](assets/perimeter-breach/term-04-auth-timeline.png)
+
+*Terminal evidence — `04-auth-timeline.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`04-auth-timeline.txt`](assets/perimeter-breach/04-auth-timeline.txt)

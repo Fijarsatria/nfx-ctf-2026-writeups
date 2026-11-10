@@ -77,10 +77,12 @@ foothold berhasil dan prasyarat untuk enumerasi lokal terpenuhi.
 
 *Terminal evidence — live rerun 2026-11-09 (`02b-live-git-log.txt`).*
 
-![term-02c-live-git-show.png](assets/forgotten-commit-root/term-02c-live-git-show.png)
+![term-03-live-user-sudo.png](assets/forgotten-commit-root/term-03-live-user-sudo.png)
 
-*Terminal evidence — live rerun 2026-11-09 (`02c-live-git-show.txt`).*
+*Terminal evidence — live rerun 2026-11-09 (`03-live-user-sudo.txt`).*
 
-![term-02d-live-inventory.png](assets/forgotten-commit-root/term-02d-live-inventory.png)
+**Berkas mentah langkah ini:**
 
-*Terminal evidence — live rerun 2026-11-09 (`02d-live-inventory.txt`).*
+- [`02-live-dump.txt`](assets/forgotten-commit-root/02-live-dump.txt)
+- [`02b-live-git-log.txt`](assets/forgotten-commit-root/02b-live-git-log.txt)
+- [`03-live-user-sudo.txt`](assets/forgotten-commit-root/03-live-user-sudo.txt)

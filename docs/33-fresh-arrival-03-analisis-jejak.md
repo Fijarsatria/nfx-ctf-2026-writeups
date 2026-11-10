@@ -84,6 +84,10 @@ nama depan **Raihan**.
 
 ### Evidence langkah ini
 
-![02-jetphotos-11925184-thumb.jpg](assets/fresh-arrival/02-jetphotos-11925184-thumb.jpg)
+![term-06-jetphotos-page.png](assets/fresh-arrival/term-06-jetphotos-page.png)
 
-*Evidence — `02-jetphotos-11925184-thumb.jpg`.*
+*Terminal evidence — `06-jetphotos-page.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`06-jetphotos-page.txt`](assets/fresh-arrival/06-jetphotos-page.txt)

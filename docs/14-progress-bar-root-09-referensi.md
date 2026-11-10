@@ -13,3 +13,7 @@
 ![term-07-src22-excerpt.png](assets/progress-bar-root/term-07-src22-excerpt.png)
 
 *Terminal evidence — `07-src22-excerpt.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`07-src22-excerpt.txt`](assets/progress-bar-root/07-src22-excerpt.txt)

@@ -62,3 +62,7 @@ dalam UTF-8 dan bisa diekstrak dengan Python.
 ![term-01-zero-width-sequence.png](assets/stay/term-01-zero-width-sequence.png)
 
 *Terminal evidence — `01-zero-width-sequence.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-zero-width-sequence.txt`](assets/stay/01-zero-width-sequence.txt)

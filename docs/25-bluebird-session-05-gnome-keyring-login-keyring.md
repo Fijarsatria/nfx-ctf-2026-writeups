@@ -60,3 +60,13 @@ Every note we left behind still belongs to the same sky.
 The archive is for you.
 for_nozomi.zip password: MizoreCanFly2077!@
 ```
+
+### Evidence langkah ini
+
+![term-11-keyring-parse.png](assets/bluebird-session/term-11-keyring-parse.png)
+
+*Terminal evidence — `11-keyring-parse.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`11-keyring-parse.txt`](assets/bluebird-session/11-keyring-parse.txt)

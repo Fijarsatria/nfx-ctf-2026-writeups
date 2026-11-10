@@ -73,3 +73,18 @@ Penggabungan:
 ```text
 3E2D6090  E7EEB47D  538FC27A  C2789C02
 ```
+
+### Evidence langkah ini
+
+![term-02-masterkey.png](assets/access-remains/term-02-masterkey.png)
+
+*Terminal evidence — `02-masterkey.txt` (arsip transkrip sesi solve).*
+
+![term-11-note-exiftool.png](assets/access-remains/term-11-note-exiftool.png)
+
+*Terminal evidence — `11-note-exiftool.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-masterkey.txt`](assets/access-remains/02-masterkey.txt)
+- [`11-note-exiftool.txt`](assets/access-remains/11-note-exiftool.txt)

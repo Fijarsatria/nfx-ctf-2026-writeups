@@ -50,3 +50,17 @@ Contents of section .rodata:
 ```
 
 Pola: `K_i = (0x5a + 0x1f * i) mod 0x100`. Ini jadwal sederhana yang disebut di deskripsi. Meskipun disimpan sebagai dword, hanya 16 bit rendah yang dipakai.
+
+### Evidence langkah ini
+
+![term-05-rodata-data-hexdump.png](assets/hard-feistel/term-05-rodata-data-hexdump.png)
+
+*Terminal evidence — `05-rodata-data-hexdump.txt` (arsip transkrip sesi solve).*
+
+![02-verifikasi.png](assets/hard-feistel/02-verifikasi.png)
+
+*Evidence — `02-verifikasi.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`05-rodata-data-hexdump.txt`](assets/hard-feistel/05-rodata-data-hexdump.txt)

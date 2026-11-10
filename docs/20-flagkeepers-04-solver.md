@@ -55,3 +55,13 @@ Log `writeups/assets/flagkeepers/live_run.log`:
 [opt4 tag prompt] Tag: 
 [RESULT] NFX{gcm_f0rb1dd3n_4tt4ck_du4l_t4g_c0ll1s10n_m4st3r}
 ```
+
+### Evidence langkah ini
+
+![term-offline-sim-output.png](assets/flagkeepers/term-offline-sim-output.png)
+
+*Terminal evidence — `offline-sim-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`offline-sim-output.txt`](assets/flagkeepers/offline-sim-output.txt)

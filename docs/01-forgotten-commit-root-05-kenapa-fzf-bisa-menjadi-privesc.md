@@ -16,3 +16,13 @@ UID 0. Jadi kombinasinya berbahaya:
 
 Ini bukan bug memory corruption; ini penyalahgunaan fitur sah fzf yang diberikan
 hak root tanpa pembatasan.
+
+### Evidence langkah ini
+
+![term-03b-live-root.png](assets/forgotten-commit-root/term-03b-live-root.png)
+
+*Terminal evidence — live rerun 2026-11-09 (`03b-live-root.txt`).*
+
+**Berkas mentah langkah ini:**
+
+- [`03b-live-root.txt`](assets/forgotten-commit-root/03b-live-root.txt)

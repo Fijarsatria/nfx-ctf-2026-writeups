@@ -14,3 +14,7 @@
 ![term-07-spool-excerpt.png](assets/record-keeper-root/term-07-spool-excerpt.png)
 
 *Terminal evidence — `07-spool-excerpt.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`07-spool-excerpt.txt`](assets/record-keeper-root/07-spool-excerpt.txt)

@@ -19,3 +19,18 @@ python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \
 python3 writeups/assets/castaway/solve_castaway.py \
                                              | tee writeups/assets/castaway/06-solver-output.txt
 ```
+
+### Evidence langkah ini
+
+![term-01-identitas.png](assets/castaway/term-01-identitas.png)
+
+*Terminal evidence — `01-identitas.txt` (arsip transkrip sesi solve).*
+
+![term-08-checksec.png](assets/castaway/term-08-checksec.png)
+
+*Terminal evidence — `08-checksec.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-identitas.txt`](assets/castaway/01-identitas.txt)
+- [`08-checksec.txt`](assets/castaway/08-checksec.txt)

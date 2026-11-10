@@ -52,3 +52,7 @@ Fixture lokal berisi `NFX{LOCAL_TEST_FLAG_PIPA}`; flag kompetisi ada di bagian 4
 ![term-03-exploit-run.png](assets/pipa-nu-kotor/term-03-exploit-run.png)
 
 *Terminal evidence — `03-exploit-run.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-exploit-run.txt`](assets/pipa-nu-kotor/03-exploit-run.txt)

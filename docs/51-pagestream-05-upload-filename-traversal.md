@@ -44,3 +44,13 @@ RUN chmod -R 555 /app && \
 - `/app` dan file source mode 555, tetapi proses berjalan sebagai **root** (supervisord `user=root`), sehingga root dapat menimpa file meskipun mode 555 (DAC bypass untuk root).
 - `helper.node` memiliki fungsi `pagestream_native_sync` yang memanggil `system(cmd)`, tetapi tidak dipakai di exploit kami. Ini adalah jalur RCE alternatif jika ada route yang memanggilnya.
 - `/readflag` setuid root; `/etc/pagestream.key` dibuat oleh entrypoint dengan mode 644.
+
+### Evidence langkah ini
+
+![term-source-notes.png](assets/pagestream/term-source-notes.png)
+
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`source-notes.txt`](assets/pagestream/source-notes.txt)

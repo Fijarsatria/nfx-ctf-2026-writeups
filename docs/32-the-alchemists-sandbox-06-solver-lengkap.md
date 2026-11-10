@@ -58,3 +58,13 @@ print("Ciphertext extracted:", leaked)
 print("Encryption round-trip: PASS")
 print("Flag:", flag.decode())
 ```
+
+### Evidence langkah ini
+
+![term-01-solve-output.png](assets/the-alchemists-sandbox/term-01-solve-output.png)
+
+*Terminal evidence — `01-solve-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-solve-output.txt`](assets/the-alchemists-sandbox/01-solve-output.txt)

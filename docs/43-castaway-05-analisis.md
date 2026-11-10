@@ -52,3 +52,13 @@ Jadi:
 ```text
 rol8(x, n) = ((x << (n & 7)) | (x >> ((8 - n) & 7))) & 0xff
 ```
+
+### Evidence langkah ini
+
+![term-04-disasm.png](assets/castaway/term-04-disasm.png)
+
+*Terminal evidence — `04-disasm.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`04-disasm.txt`](assets/castaway/04-disasm.txt)

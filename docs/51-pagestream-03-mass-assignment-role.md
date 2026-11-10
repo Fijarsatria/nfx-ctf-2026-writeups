@@ -49,6 +49,10 @@ Setelah `role=admin`, semua route `requireAdmin` (`/post/new`, `/view`) dapat di
 
 ### Evidence langkah ini
 
-![term-02-exploit-run.png](assets/pagestream/term-02-exploit-run.png)
+![term-source-notes.png](assets/pagestream/term-source-notes.png)
 
-*Terminal evidence — `02-exploit-run.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`source-notes.txt`](assets/pagestream/source-notes.txt)

@@ -19,9 +19,3 @@ ChromeProfile/Default/
 ```
 
 Profil atas nama **Noah Fox** (`n.fox@nfx-aero.example`), sesuai acquisition note.
-
-### Evidence langkah ini
-
-![term-02-artifact-dump.png](assets/insider/term-02-artifact-dump.png)
-
-*Terminal evidence — `02-artifact-dump.txt` (arsip transkrip sesi solve).*

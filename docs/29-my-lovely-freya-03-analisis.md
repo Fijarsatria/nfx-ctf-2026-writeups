@@ -72,6 +72,10 @@ pass   : <!HayamGoreng45@/>
 
 ### Evidence langkah ini
 
-![term-02-hidden-extraction.png](assets/my-lovely-freya/term-02-hidden-extraction.png)
+![term-04-decrypt-output.png](assets/my-lovely-freya/term-04-decrypt-output.png)
 
-*Terminal evidence — `02-hidden-extraction.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `04-decrypt-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`04-decrypt-output.txt`](assets/my-lovely-freya/04-decrypt-output.txt)

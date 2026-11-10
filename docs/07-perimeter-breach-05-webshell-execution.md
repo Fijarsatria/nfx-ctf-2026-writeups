@@ -35,3 +35,13 @@ Y3JvbnRhYiAtbA==                  -> crontab -l
 ```
 
 Ukuran respons `cat /home/deploy/.env` = 1037 byte, cukup besar untuk memuat kredensial. Ini menjadi jembatan ke lateral movement.
+
+### Evidence langkah ini
+
+![term-03-webshell.png](assets/perimeter-breach/term-03-webshell.png)
+
+*Terminal evidence — `03-webshell.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-webshell.txt`](assets/perimeter-breach/03-webshell.txt)

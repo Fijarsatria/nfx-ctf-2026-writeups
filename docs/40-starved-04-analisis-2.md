@@ -32,3 +32,18 @@ Detail decode ada di `writeups/assets/starved/02b-seccomp.txt`. Konsekuensinya:
 | `pop rsi ; ret` | `0x2be51` |
 | `pop rdx ; pop rbx ; ret` | `0x90469` |
 | `ret` | `0x29cd6` |
+
+### Evidence langkah ini
+
+![term-02b-seccomp.png](assets/starved/term-02b-seccomp.png)
+
+*Terminal evidence — `02b-seccomp.txt` (arsip transkrip sesi solve).*
+
+![term-02c-records.png](assets/starved/term-02c-records.png)
+
+*Terminal evidence — `02c-records.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02b-seccomp.txt`](assets/starved/02b-seccomp.txt)
+- [`02c-records.txt`](assets/starved/02c-records.txt)

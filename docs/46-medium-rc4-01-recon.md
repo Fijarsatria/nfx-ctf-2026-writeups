@@ -29,10 +29,10 @@ Direktori challenge hanya berisi satu binary; tidak ada source, README, atau ser
 
 ### Evidence langkah ini
 
-![term-01-identitas.png](assets/medium-rc4/term-01-identitas.png)
+![term-08-checksec.png](assets/medium-rc4/term-08-checksec.png)
 
-*Terminal evidence — `01-identitas.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `08-checksec.txt` (arsip transkrip sesi solve).*
 
-![01-solver.png](assets/medium-rc4/01-solver.png)
+**Berkas mentah langkah ini:**
 
-*Evidence — `01-solver.png`.*
+- [`08-checksec.txt`](assets/medium-rc4/08-checksec.txt)

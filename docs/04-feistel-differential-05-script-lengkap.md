@@ -75,3 +75,13 @@ pt = b"".join(decrypt_block(int.from_bytes(ct[i:i+4], "big"), kk).to_bytes(4, "b
               for i in range(0, len(ct), 4))
 print("FLAGPT", repr(pt))
 ```
+
+### Evidence langkah ini
+
+![term-solver-output.png](assets/feistel-differential/term-solver-output.png)
+
+*Terminal evidence — `solver-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`solver-output.txt`](assets/feistel-differential/solver-output.txt)

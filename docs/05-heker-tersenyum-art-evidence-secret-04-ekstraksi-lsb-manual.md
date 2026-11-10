@@ -66,3 +66,13 @@ Kedua payload memiliki entropi tinggi. Beberapa uji yang dilakukan:
 - Single-byte XOR seluruh 256 nilai → tidak ada `NFX`/`flag`.
 
 Jadi container `CTF1` pada gambar ini berfungsi sebagai **bukti penyisipan LSB** (dan kemungkinan payload terenkripsi/decoy). Yang dapat dipastikan dari artefak adalah dua container R/B berhasil dipisahkan; flag final diambil dari ledger challenge.
+
+### Evidence langkah ini
+
+![term-08-payload-hexdump.png](assets/heker-tersenyum-art-evidence-secret/term-08-payload-hexdump.png)
+
+*Terminal evidence — `08-payload-hexdump.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`08-payload-hexdump.txt`](assets/heker-tersenyum-art-evidence-secret/08-payload-hexdump.txt)

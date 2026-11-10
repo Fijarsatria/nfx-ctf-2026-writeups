@@ -29,3 +29,18 @@ NFX{Dr0n3_T3rb41k_T3mp4t_S3rv1c3_T3rb41k_J4uh_B4ng3T_BTW_B4ng_R0f1_K3r3n_S3rb4_b
 
 Diverifikasi lewat `submit_sub_challenges` / `get_sub_challenges` (semua
 Q1–Q13 `true`) dan disubmit ke platform: **`Correct! +480 points.`**
+
+### Evidence langkah ini
+
+![term-02-exif-and-hash.png](assets/s3rvice-k3reta/term-02-exif-and-hash.png)
+
+*Terminal evidence — `02-exif-and-hash.txt` (arsip transkrip sesi solve).*
+
+![term-03-q1-q8.png](assets/s3rvice-k3reta/term-03-q1-q8.png)
+
+*Terminal evidence — `03-q1-q8.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-exif-and-hash.txt`](assets/s3rvice-k3reta/02-exif-and-hash.txt)
+- [`03-q1-q8.txt`](assets/s3rvice-k3reta/03-q1-q8.txt)

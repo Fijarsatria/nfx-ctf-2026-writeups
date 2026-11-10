@@ -74,26 +74,11 @@ pt = AES.new(server_key, AES.MODE_CBC, iv=iv).decrypt(ct)
 
 *Terminal evidence — `14-key-schedule.txt` (arsip transkrip sesi solve).*
 
-![05-decrypted-tomoyo1.jpg](assets/weak-handshake/05-decrypted-tomoyo1.jpg)
+**Berkas mentah langkah ini:**
 
-*Evidence — `05-decrypted-tomoyo1.jpg`.*
-
-![06-decrypted-tomoyo2.jpg](assets/weak-handshake/06-decrypted-tomoyo2.jpg)
-
-*Evidence — `06-decrypted-tomoyo2.jpg`.*
-
-![07-decrypted-tomoyo2.png](assets/weak-handshake/07-decrypted-tomoyo2.png)
-
-*Evidence — `07-decrypted-tomoyo2.png`.*
-
-![clannad.webp](assets/weak-handshake/clannad.webp)
-
-*Evidence — `clannad.webp`.*
-
-![tomoyo_s1.jpg](assets/weak-handshake/tomoyo_s1.jpg)
-
-*Evidence — `tomoyo_s1.jpg`.*
-
-![tomoyo_s2.jpg](assets/weak-handshake/tomoyo_s2.jpg)
-
-*Evidence — `tomoyo_s2.jpg`.*
+- [`00-recon.txt`](assets/weak-handshake/00-recon.txt)
+- [`10-solve-output.txt`](assets/weak-handshake/10-solve-output.txt)
+- [`11-http-response.txt`](assets/weak-handshake/11-http-response.txt)
+- [`12-ftp-control.txt`](assets/weak-handshake/12-ftp-control.txt)
+- [`13-cert.txt`](assets/weak-handshake/13-cert.txt)
+- [`14-key-schedule.txt`](assets/weak-handshake/14-key-schedule.txt)

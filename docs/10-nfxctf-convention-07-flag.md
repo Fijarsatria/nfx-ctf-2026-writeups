@@ -38,3 +38,8 @@ mencatat `solved: true`; eksploit juga diverifikasi lokal (shell + baca flag).
 ![term-flag.png](assets/nfxctf-convention/term-flag.png)
 
 *Terminal evidence — `flag.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`04-flag-status.txt`](assets/nfxctf-convention/04-flag-status.txt)
+- [`flag.txt`](assets/nfxctf-convention/flag.txt)

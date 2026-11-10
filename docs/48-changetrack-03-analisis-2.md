@@ -62,3 +62,13 @@ Setelah `POST /watchers/watch-01/test`, webhook.site menerima:
 ```
 
 IP `116.212.75.209` (Indonesia) dan `User-Agent: python-requests/2.34.2` menunjukkan request berasal dari worker challenge, bukan dari mesin kami.
+
+### Evidence langkah ini
+
+![term-14-flag-capture.png](assets/changetrack/term-14-flag-capture.png)
+
+*Terminal evidence — `14-flag-capture.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`14-flag-capture.txt`](assets/changetrack/14-flag-capture.txt)

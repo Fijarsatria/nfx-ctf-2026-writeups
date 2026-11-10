@@ -26,3 +26,13 @@ Verifikasi akhir: `NFX{villa_istana_bunga_lembang}` diterima platform
 (`Correct! +380 points.`). Kandidat `NFX{villa_istana_bunga}` dan
 `NFX{Villa_Istana_Bunga}` ditolak. Jadi author memakai nama tempat +
 lokasi `lembang`, bukan hanya nama kompleks villa.
+
+### Evidence langkah ini
+
+![term-02-zip-metadata.png](assets/the-ghost-operator/term-02-zip-metadata.png)
+
+*Terminal evidence — `02-zip-metadata.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-zip-metadata.txt`](assets/the-ghost-operator/02-zip-metadata.txt)

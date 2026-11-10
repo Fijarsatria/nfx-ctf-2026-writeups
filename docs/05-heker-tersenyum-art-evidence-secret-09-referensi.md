@@ -11,3 +11,7 @@
 ![term-07-solve-output.png](assets/heker-tersenyum-art-evidence-secret/term-07-solve-output.png)
 
 *Terminal evidence — `07-solve-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`07-solve-output.txt`](assets/heker-tersenyum-art-evidence-secret/07-solve-output.txt)

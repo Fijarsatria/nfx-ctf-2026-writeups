@@ -30,3 +30,18 @@ Private key lengkap:
 ```text
 d = 0xe59b58bbc7a872a170ef684d62f92bbbe511f3bd5d9ec50814435c3666e1fffa
 ```
+
+### Evidence langkah ini
+
+![term-solver-output.png](assets/ecdsa-nonce-bias/term-solver-output.png)
+
+*Terminal evidence — `solver-output.txt` (arsip transkrip sesi solve).*
+
+![term-verify-output.png](assets/ecdsa-nonce-bias/term-verify-output.png)
+
+*Terminal evidence — `verify-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`solver-output.txt`](assets/ecdsa-nonce-bias/solver-output.txt)
+- [`verify-output.txt`](assets/ecdsa-nonce-bias/verify-output.txt)

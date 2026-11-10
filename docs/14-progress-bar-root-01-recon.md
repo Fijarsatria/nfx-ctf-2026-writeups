@@ -65,3 +65,12 @@ satu worker prefork
 ![term-01-recon.png](assets/progress-bar-root/term-01-recon.png)
 
 *Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+
+![term-02-foothold.png](assets/progress-bar-root/term-02-foothold.png)
+
+*Terminal evidence — `02-foothold.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon.txt`](assets/progress-bar-root/01-recon.txt)
+- [`02-foothold.txt`](assets/progress-bar-root/02-foothold.txt)

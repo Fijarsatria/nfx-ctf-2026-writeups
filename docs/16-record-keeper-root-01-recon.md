@@ -42,3 +42,7 @@ root.
 ![term-01-recon.png](assets/record-keeper-root/term-01-recon.png)
 
 *Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon.txt`](assets/record-keeper-root/01-recon.txt)

@@ -26,3 +26,13 @@ Ini adalah deskripsi langsung dari kelas bug:
 Jika field `email` dipakai untuk menyusun header `To:` atau envelope `RCPT TO:`
 tanpa sanitasi newline, penyerang dapat menambahkan recipient lain. Itulah
 “permintaan pemulihan terkirim ke tujuan yang seharusnya tidak menerimanya”.
+
+### Evidence langkah ini
+
+![term-14-blog5-hint.png](assets/nxportal/term-14-blog5-hint.png)
+
+*Terminal evidence — `14-blog5-hint.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`14-blog5-hint.txt`](assets/nxportal/14-blog5-hint.txt)

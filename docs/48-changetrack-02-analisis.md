@@ -59,3 +59,7 @@ Tombol “Dispatch Webhook Notification” melakukan `POST /watchers/watch-01/te
 ![term-02-dashboard-pages.png](assets/changetrack/term-02-dashboard-pages.png)
 
 *Terminal evidence — `02-dashboard-pages.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-dashboard-pages.txt`](assets/changetrack/02-dashboard-pages.txt)

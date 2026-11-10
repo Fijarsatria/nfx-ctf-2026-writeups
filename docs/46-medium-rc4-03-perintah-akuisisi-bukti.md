@@ -19,3 +19,18 @@ python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \
 python3 writeups/assets/medium-rc4/solve_rc4.py \
                                              | tee writeups/assets/medium-rc4/06-solver-output.txt
 ```
+
+### Evidence langkah ini
+
+![term-01-identitas.png](assets/medium-rc4/term-01-identitas.png)
+
+*Terminal evidence — `01-identitas.txt` (arsip transkrip sesi solve).*
+
+![term-08-checksec.png](assets/medium-rc4/term-08-checksec.png)
+
+*Terminal evidence — `08-checksec.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-identitas.txt`](assets/medium-rc4/01-identitas.txt)
+- [`08-checksec.txt`](assets/medium-rc4/08-checksec.txt)

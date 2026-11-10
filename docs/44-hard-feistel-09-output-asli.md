@@ -26,3 +26,13 @@ $ python3 writeups/assets/hard-feistel/solve_feistel.py
 ```
 
 Blok terakhir berisi `3d 7d 00` — `}` diikuti padding nol. Itu sebabnya flag efektif 39 byte, sementara buffer 40 byte.
+
+### Evidence langkah ini
+
+![term-06-solver-output.png](assets/hard-feistel/term-06-solver-output.png)
+
+*Terminal evidence — `06-solver-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`06-solver-output.txt`](assets/hard-feistel/06-solver-output.txt)

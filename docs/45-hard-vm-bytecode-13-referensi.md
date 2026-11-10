@@ -12,3 +12,7 @@
 ![term-07-verifikasi.png](assets/hard-vm-bytecode/term-07-verifikasi.png)
 
 *Terminal evidence — `07-verifikasi.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`07-verifikasi.txt`](assets/hard-vm-bytecode/07-verifikasi.txt)

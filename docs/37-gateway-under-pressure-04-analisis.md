@@ -66,3 +66,18 @@ pie_base = leak_ret - 0x1807
 ```
 
 Hasil exploit selalu page-aligned.
+
+### Evidence langkah ini
+
+![term-02-disasm.png](assets/gateway-under-pressure/term-02-disasm.png)
+
+*Terminal evidence — `02-disasm.txt` (arsip transkrip sesi solve).*
+
+![term-02b-stack.png](assets/gateway-under-pressure/term-02b-stack.png)
+
+*Terminal evidence — `02b-stack.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-disasm.txt`](assets/gateway-under-pressure/02-disasm.txt)
+- [`02b-stack.txt`](assets/gateway-under-pressure/02b-stack.txt)

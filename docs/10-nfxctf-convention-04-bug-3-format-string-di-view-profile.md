@@ -19,3 +19,18 @@ Indeks yang diverifikasi dengan probe (lihat `assets/nfxctf-convention/03b-leak-
 ```
 
 `%17$p - 0x29d90` menghasilkan base libc yang page-aligned (0x719bc3800000).
+
+### Evidence langkah ini
+
+![term-02-disasm.png](assets/nfxctf-convention/term-02-disasm.png)
+
+*Terminal evidence — `02-disasm.txt` (arsip transkrip sesi solve).*
+
+![term-02b-layout.png](assets/nfxctf-convention/term-02b-layout.png)
+
+*Terminal evidence — `02b-layout.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-disasm.txt`](assets/nfxctf-convention/02-disasm.txt)
+- [`02b-layout.txt`](assets/nfxctf-convention/02b-layout.txt)

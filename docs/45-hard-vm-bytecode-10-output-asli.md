@@ -28,3 +28,18 @@ $ python3 writeups/assets/hard-vm-bytecode/solve_vm.py
 [+] FLAG          : NFX{vm_byt3c0d3_1s_l1k3_4_puzzl3}
 [*] verifikasi    : stdout='Correct! Bytecode VM berhasil dibongkar.' rc=0
 ```
+
+### Evidence langkah ini
+
+![term-03-strings.png](assets/hard-vm-bytecode/term-03-strings.png)
+
+*Terminal evidence — `03-strings.txt` (arsip transkrip sesi solve).*
+
+![term-06-solver-output.png](assets/hard-vm-bytecode/term-06-solver-output.png)
+
+*Terminal evidence — `06-solver-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-strings.txt`](assets/hard-vm-bytecode/03-strings.txt)
+- [`06-solver-output.txt`](assets/hard-vm-bytecode/06-solver-output.txt)

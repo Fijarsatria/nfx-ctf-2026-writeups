@@ -44,3 +44,18 @@ node
   -> tar -xOzf ... ./root.txt
   -> root flag
 ```
+
+### Evidence langkah ini
+
+![term-02-enum-ops.png](assets/record-keeper-root/term-02-enum-ops.png)
+
+*Terminal evidence — `02-enum-ops.txt` (arsip transkrip sesi solve).*
+
+![term-03-tar-checkpoint.png](assets/record-keeper-root/term-03-tar-checkpoint.png)
+
+*Terminal evidence — `03-tar-checkpoint.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-enum-ops.txt`](assets/record-keeper-root/02-enum-ops.txt)
+- [`03-tar-checkpoint.txt`](assets/record-keeper-root/03-tar-checkpoint.txt)

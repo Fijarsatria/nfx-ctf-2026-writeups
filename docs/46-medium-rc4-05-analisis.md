@@ -43,3 +43,18 @@ P = C XOR K = (P XOR K) XOR K
 ```
 
 Binary tidak pernah "mendekripsi" secara eksplisit; ia melakukan PRGA lalu XOR dengan input, kemudian membandingkan hasilnya dengan ciphertext. Artinya, jika kita memasukkan **plaintext yang benar**, hasilnya akan sama dengan ciphertext. Untuk mendapatkan plaintext dari ciphertext, kita menjalankan operasi XOR yang sama dengan ciphertext sebagai input.
+
+### Evidence langkah ini
+
+![term-02-readelf.png](assets/medium-rc4/term-02-readelf.png)
+
+*Terminal evidence — `02-readelf.txt` (arsip transkrip sesi solve).*
+
+![term-05-rodata-data-hexdump.png](assets/medium-rc4/term-05-rodata-data-hexdump.png)
+
+*Terminal evidence — `05-rodata-data-hexdump.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-readelf.txt`](assets/medium-rc4/02-readelf.txt)
+- [`05-rodata-data-hexdump.txt`](assets/medium-rc4/05-rodata-data-hexdump.txt)

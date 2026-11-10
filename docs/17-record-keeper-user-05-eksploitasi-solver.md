@@ -81,6 +81,10 @@ cat /home/node/user.txt
 
 ### Evidence langkah ini
 
-![term-03-user-flag.png](assets/record-keeper-user/term-03-user-flag.png)
+![term-02-cve-2026-111497.png](assets/record-keeper-user/term-02-cve-2026-111497.png)
 
-*Terminal evidence — `03-user-flag.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `02-cve-2026-111497.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-cve-2026-111497.txt`](assets/record-keeper-user/02-cve-2026-111497.txt)

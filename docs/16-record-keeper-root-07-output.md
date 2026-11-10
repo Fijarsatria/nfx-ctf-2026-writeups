@@ -16,3 +16,18 @@ untuk langkah akhir):
 ops:0ps#Sp00l2026
 spool token: SPOOL-7f3c9a1e4b2d
 ```
+
+### Evidence langkah ini
+
+![term-03-tar-checkpoint.png](assets/record-keeper-root/term-03-tar-checkpoint.png)
+
+*Terminal evidence — `03-tar-checkpoint.txt` (arsip transkrip sesi solve).*
+
+![term-04-root-flag.png](assets/record-keeper-root/term-04-root-flag.png)
+
+*Terminal evidence — `04-root-flag.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-tar-checkpoint.txt`](assets/record-keeper-root/03-tar-checkpoint.txt)
+- [`04-root-flag.txt`](assets/record-keeper-root/04-root-flag.txt)

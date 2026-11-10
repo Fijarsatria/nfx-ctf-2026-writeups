@@ -68,6 +68,7 @@ Karena `table[idx]` tetap berisi pointer ke chunk yang sudah di-free, dan `op_vi
 
 *Terminal evidence — `02b-record-layout.txt` (arsip transkrip sesi solve).*
 
-![term-02c-got.png](assets/the-forgotten-state/term-02c-got.png)
+**Berkas mentah langkah ini:**
 
-*Terminal evidence — `02c-got.txt` (arsip transkrip sesi solve).*
+- [`02-disasm.txt`](assets/the-forgotten-state/02-disasm.txt)
+- [`02b-record-layout.txt`](assets/the-forgotten-state/02b-record-layout.txt)

@@ -45,6 +45,10 @@ def fake_node(dataptr, name=b'PWN', length=8):
 
 ### Evidence langkah ini
 
-![term-03-exploit-run.png](assets/talatah-ti-peuntas/term-03-exploit-run.png)
+![term-02b-record-layout.png](assets/talatah-ti-peuntas/term-02b-record-layout.png)
 
-*Terminal evidence — `03-exploit-run.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `02b-record-layout.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02b-record-layout.txt`](assets/talatah-ti-peuntas/02b-record-layout.txt)

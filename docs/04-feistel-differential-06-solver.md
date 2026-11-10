@@ -28,3 +28,13 @@ NFXCTF{d1ff3r3nt14l_crypt0_pwn5_f31st3l_45322835}   (49 byte)
 
 Padding 3 byte mengikuti aturan PKCS#7 untuk blok 4-byte (vendor memakai
 "blok" 32-bit), sehingga `03 03 03` dibuang.
+
+### Evidence langkah ini
+
+![term-solver-output.png](assets/feistel-differential/term-solver-output.png)
+
+*Terminal evidence — `solver-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`solver-output.txt`](assets/feistel-differential/solver-output.txt)

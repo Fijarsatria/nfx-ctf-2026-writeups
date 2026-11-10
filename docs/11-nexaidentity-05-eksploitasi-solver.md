@@ -89,3 +89,7 @@ nav-user">Nadia Kusuma · People Operations
 ![term-03-login-normal.png](assets/nexaidentity/term-03-login-normal.png)
 
 *Terminal evidence — `03-login-normal.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-login-normal.txt`](assets/nexaidentity/03-login-normal.txt)

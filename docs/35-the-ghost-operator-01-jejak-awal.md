@@ -63,3 +63,13 @@ Operator: Dimas Wirawan
 Status: RESIGNED
 Audit signed with official GPG key.
 ```
+
+### Evidence langkah ini
+
+![term-03-git-and-signature.png](assets/the-ghost-operator/term-03-git-and-signature.png)
+
+*Terminal evidence — `03-git-and-signature.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-git-and-signature.txt`](assets/the-ghost-operator/03-git-and-signature.txt)

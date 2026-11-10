@@ -62,6 +62,10 @@ info@dihlearn.id               -> 9d23764ce63b9f0f69049da5f9befdf1  (tidak ada p
 
 ### Evidence langkah ini
 
-![term-02-office-metadata.png](assets/career-tempat-belajar/term-02-office-metadata.png)
+![term-05-md5-derivation.png](assets/career-tempat-belajar/term-05-md5-derivation.png)
 
-*Terminal evidence — `02-office-metadata.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `05-md5-derivation.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`05-md5-derivation.txt`](assets/career-tempat-belajar/05-md5-derivation.txt)

@@ -75,3 +75,7 @@ print("[verify] pi^l * x^(T%l) == y mod N :", lhs == y)
 ![term-sim-output.png](assets/unbreakable-delay/term-sim-output.png)
 
 *Terminal evidence — `sim-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`sim-output.txt`](assets/unbreakable-delay/sim-output.txt)

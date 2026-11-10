@@ -21,3 +21,18 @@ Output asli:
 ```
 
 Angka `rc=0` dan pesan `Correct!` berasal dari eksekusi binary yang sama; solver tidak memalsukan hasil.
+
+### Evidence langkah ini
+
+![term-03-strings.png](assets/medium-rc4/term-03-strings.png)
+
+*Terminal evidence — `03-strings.txt` (arsip transkrip sesi solve).*
+
+![term-06-solver-output.png](assets/medium-rc4/term-06-solver-output.png)
+
+*Terminal evidence — `06-solver-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-strings.txt`](assets/medium-rc4/03-strings.txt)
+- [`06-solver-output.txt`](assets/medium-rc4/06-solver-output.txt)

@@ -27,9 +27,3 @@ Tidak ada libc/loader tambahan; binary memakai glibc host. Service asli terdafta
   cd pwn/GatewayUnderPressure/peserta
   ./gateway
   ```
-
-### Evidence langkah ini
-
-![term-01-file-hash-checksec.png](assets/gateway-under-pressure/term-01-file-hash-checksec.png)
-
-*Terminal evidence — `01-file-hash-checksec.txt` (arsip transkrip sesi solve).*

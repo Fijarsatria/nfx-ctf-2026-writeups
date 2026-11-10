@@ -44,3 +44,18 @@ HTTP 200  content-type=application/json; charset=utf-8
 
 FLAG=NFX{n3xu5_g4t3_0v3r_gr4nt_c4ch3_smuggl3_2026}
 ```
+
+### Evidence langkah ini
+
+![term-03-exploit-run.png](assets/nexusgate/term-03-exploit-run.png)
+
+*Terminal evidence — `03-exploit-run.txt` (arsip transkrip sesi solve).*
+
+![term-source-notes.png](assets/nexusgate/term-source-notes.png)
+
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-exploit-run.txt`](assets/nexusgate/03-exploit-run.txt)
+- [`source-notes.txt`](assets/nexusgate/source-notes.txt)

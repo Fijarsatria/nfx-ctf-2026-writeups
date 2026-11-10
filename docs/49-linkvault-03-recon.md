@@ -47,3 +47,13 @@ web/LinkVault/
         ├── admin.html
         └── ...
 ```
+
+### Evidence langkah ini
+
+![term-01-recon.png](assets/linkvault/term-01-recon.png)
+
+*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon.txt`](assets/linkvault/01-recon.txt)

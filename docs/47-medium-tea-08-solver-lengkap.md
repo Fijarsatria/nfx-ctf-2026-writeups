@@ -94,3 +94,13 @@ def main() -> int:
 if __name__ == "__main__":
     raise SystemExit(main())
 ```
+
+### Evidence langkah ini
+
+![term-06-solver-output.png](assets/medium-tea/term-06-solver-output.png)
+
+*Terminal evidence — `06-solver-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`06-solver-output.txt`](assets/medium-tea/06-solver-output.txt)

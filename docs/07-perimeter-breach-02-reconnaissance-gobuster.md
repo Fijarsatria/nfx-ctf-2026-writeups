@@ -16,9 +16,3 @@
 ```
 
 Temuan recon: `/admin`, `/admin/login.php`, `/uploads`, `/robots.txt`, `/.env` (403), `/.git` (403).
-
-### Evidence langkah ini
-
-![term-02-attacker-requests.png](assets/perimeter-breach/term-02-attacker-requests.png)
-
-*Terminal evidence — `02-attacker-requests.txt` (arsip transkrip sesi solve).*

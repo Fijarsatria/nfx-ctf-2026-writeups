@@ -70,10 +70,10 @@ Lalu transformasi dan perbandingan:
 
 ### Evidence langkah ini
 
-![term-02-readelf.png](assets/castaway/term-02-readelf.png)
+![term-04-disasm.png](assets/castaway/term-04-disasm.png)
 
-*Terminal evidence — `02-readelf.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `04-disasm.txt` (arsip transkrip sesi solve).*
 
-![02-verifikasi.png](assets/castaway/02-verifikasi.png)
+**Berkas mentah langkah ini:**
 
-*Evidence — `02-verifikasi.png`.*
+- [`04-disasm.txt`](assets/castaway/04-disasm.txt)

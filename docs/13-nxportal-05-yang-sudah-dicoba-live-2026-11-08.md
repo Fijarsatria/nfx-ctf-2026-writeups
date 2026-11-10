@@ -147,3 +147,18 @@ nxpqwqip2lb5n@fldubai.com, admin@nxctf.local
 Semua diterima aplikasi (`alert-success`, 4090 byte), tetapi setelah 45 detik
 inbox mail.tm tetap **0 pesan**. Artinya relay/mail sink benar-benar tidak
 mengirim keluar pada instance ini, bukan karena filter aplikasi.
+
+### Evidence langkah ini
+
+![term-02-forgot.png](assets/nxportal/term-02-forgot.png)
+
+*Terminal evidence — `02-forgot.txt` (arsip transkrip sesi solve).*
+
+![term-09-source-fuzz.png](assets/nxportal/term-09-source-fuzz.png)
+
+*Terminal evidence — `09-source-fuzz.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-forgot.txt`](assets/nxportal/02-forgot.txt)
+- [`09-source-fuzz.txt`](assets/nxportal/09-source-fuzz.txt)

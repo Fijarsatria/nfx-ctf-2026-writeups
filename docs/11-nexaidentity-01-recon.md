@@ -46,10 +46,14 @@ Struktur halaman yang teramati:
 
 ### Evidence langkah ini
 
-![term-01-recon.png](assets/nexaidentity/term-01-recon.png)
+![term-03-login-normal.png](assets/nexaidentity/term-03-login-normal.png)
 
-*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `03-login-normal.txt` (arsip transkrip sesi solve).*
 
 ![01-admin-flag.png](assets/nexaidentity/01-admin-flag.png)
 
 *Evidence — `01-admin-flag.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`03-login-normal.txt`](assets/nexaidentity/03-login-normal.txt)

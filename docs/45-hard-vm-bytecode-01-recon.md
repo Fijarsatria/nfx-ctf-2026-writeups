@@ -32,6 +32,6 @@ Catatan operasional: file asli tidak memiliki bit executable (`-rw-r--r--`). Aga
 
 *Terminal evidence — `01-identitas.txt` (arsip transkrip sesi solve).*
 
-![01-solver.png](assets/hard-vm-bytecode/01-solver.png)
+**Berkas mentah langkah ini:**
 
-*Evidence — `01-solver.png`.*
+- [`01-identitas.txt`](assets/hard-vm-bytecode/01-identitas.txt)

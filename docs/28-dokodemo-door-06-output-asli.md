@@ -31,3 +31,13 @@ Flag: NFX{k3tuk_p1ntu_bUk4_d0kum3n_x0r}
 Gunakan flag di atas untuk melakukan submission pada platform CTF.
 NFX CLASSIFIED ARCHIVE // STRICTLY CONFIDENTIAL // DO NOT DISTRIBUTE
 ```
+
+### Evidence langkah ini
+
+![term-02-extracted-text.png](assets/dokodemo-door/term-02-extracted-text.png)
+
+*Terminal evidence — `02-extracted-text.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-extracted-text.txt`](assets/dokodemo-door/02-extracted-text.txt)

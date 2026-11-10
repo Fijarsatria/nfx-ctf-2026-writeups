@@ -69,6 +69,10 @@ print(r.text)
 
 ### Evidence langkah ini
 
-![term-03-write-proof.png](assets/pagestream/term-03-write-proof.png)
+![term-02-exploit-run.png](assets/pagestream/term-02-exploit-run.png)
 
-*Terminal evidence — `03-write-proof.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `02-exploit-run.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-exploit-run.txt`](assets/pagestream/02-exploit-run.txt)

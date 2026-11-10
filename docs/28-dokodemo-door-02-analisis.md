@@ -69,6 +69,10 @@ $ sha256sum rahasia.pdf /tmp/opencode/dokodemo_decrypted.pdf
 
 ### Evidence langkah ini
 
-![term-02-extracted-text.png](assets/dokodemo-door/term-02-extracted-text.png)
+![term-01-solve-output.png](assets/dokodemo-door/term-01-solve-output.png)
 
-*Terminal evidence — `02-extracted-text.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `01-solve-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-solve-output.txt`](assets/dokodemo-door/01-solve-output.txt)

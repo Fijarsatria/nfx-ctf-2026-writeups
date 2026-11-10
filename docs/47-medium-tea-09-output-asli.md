@@ -21,3 +21,18 @@ $ python3 writeups/assets/medium-tea/solve_tea.py
 ```
 
 Perhatikan bahwa hasil dekripsi per blok membentuk teks yang dapat dibaca, dan enkripsi ulang menghasilkan ciphertext identik. Ini memastikan implementasi inverse sudah benar, bukan sekadar kebetulan.
+
+### Evidence langkah ini
+
+![term-03-strings.png](assets/medium-tea/term-03-strings.png)
+
+*Terminal evidence — `03-strings.txt` (arsip transkrip sesi solve).*
+
+![term-06-solver-output.png](assets/medium-tea/term-06-solver-output.png)
+
+*Terminal evidence — `06-solver-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-strings.txt`](assets/medium-tea/03-strings.txt)
+- [`06-solver-output.txt`](assets/medium-tea/06-solver-output.txt)

@@ -50,10 +50,10 @@ Round key disimpan sebagai 16 dword di `0x2060`, tetapi nilainya 16-bit. Key per
 
 ### Evidence langkah ini
 
-![term-02-readelf.png](assets/hard-feistel/term-02-readelf.png)
+![term-04-disasm.png](assets/hard-feistel/term-04-disasm.png)
 
-*Terminal evidence — `02-readelf.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `04-disasm.txt` (arsip transkrip sesi solve).*
 
-![02-verifikasi.png](assets/hard-feistel/02-verifikasi.png)
+**Berkas mentah langkah ini:**
 
-*Evidence — `02-verifikasi.png`.*
+- [`04-disasm.txt`](assets/hard-feistel/04-disasm.txt)

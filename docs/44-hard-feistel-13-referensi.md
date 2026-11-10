@@ -13,3 +13,7 @@
 ![term-07-verifikasi.png](assets/hard-feistel/term-07-verifikasi.png)
 
 *Terminal evidence — `07-verifikasi.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`07-verifikasi.txt`](assets/hard-feistel/07-verifikasi.txt)

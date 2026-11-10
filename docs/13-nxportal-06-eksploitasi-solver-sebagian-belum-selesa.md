@@ -58,3 +58,12 @@ token=test      -> Invalid or expired reset token.
 ![term-03-forgot-normal.png](assets/nxportal/term-03-forgot-normal.png)
 
 *Terminal evidence — `03-forgot-normal.txt` (arsip transkrip sesi solve).*
+
+![term-05-reset.png](assets/nxportal/term-05-reset.png)
+
+*Terminal evidence — `05-reset.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-forgot-normal.txt`](assets/nxportal/03-forgot-normal.txt)
+- [`05-reset.txt`](assets/nxportal/05-reset.txt)

@@ -24,3 +24,13 @@ Catatan: `email=admin@nexaidentity.test&password=` (tanpa operator) tetap `401`;
 - `BRIEF.md` menulis flag format `NFCTF{...}`.
 - `challenge.json`/manifest dan flag aktual memakai `NFX{...}`.
 - Flag yang benar adalah `NFX{n0sql_0p3r4t0r_4uth_byp4ss}` (cocok dengan `flags/web/05_nexaidentity.txt`).
+
+### Evidence langkah ini
+
+![term-02-endpoints.png](assets/nexaidentity/term-02-endpoints.png)
+
+*Terminal evidence — `02-endpoints.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-endpoints.txt`](assets/nexaidentity/02-endpoints.txt)

@@ -61,3 +61,7 @@ lalu eliminasi Gaussian di GF(2^128), dan memilih `H` yang membuat
 ![term-offline-sim-output.png](assets/flagkeepers/term-offline-sim-output.png)
 
 *Terminal evidence — `offline-sim-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`offline-sim-output.txt`](assets/flagkeepers/offline-sim-output.txt)

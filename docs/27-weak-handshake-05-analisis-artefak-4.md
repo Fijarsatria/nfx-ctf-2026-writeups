@@ -50,3 +50,17 @@ Keduanya mengirim JPEG. JPEG pertama adalah Tomoyo di koridor sekolah (decoy/awa
 ```text
 {D36A64128F80788B60C677EF94FA7157}
 ```
+
+### Evidence langkah ini
+
+![term-10-solve-output.png](assets/weak-handshake/term-10-solve-output.png)
+
+*Terminal evidence — `10-solve-output.txt` (arsip transkrip sesi solve).*
+
+![02-clannad.png](assets/weak-handshake/02-clannad.png)
+
+*Evidence — `02-clannad.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`10-solve-output.txt`](assets/weak-handshake/10-solve-output.txt)

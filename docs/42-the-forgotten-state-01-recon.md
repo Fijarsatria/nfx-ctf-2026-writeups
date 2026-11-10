@@ -29,9 +29,3 @@ Service asli: `NFX/PWNNXCTF-2026/TheForgottenState` (TCP), saat penulisan stoppe
   ./ld-linux-x86-64.so.2 --library-path . ./state
   ```
 - Tools: `file`, `sha256sum`, `strings`, `objdump`, `nm`, `readelf`, `pwntools`.
-
-### Evidence langkah ini
-
-![term-01-file-hash-checksec.png](assets/the-forgotten-state/term-01-file-hash-checksec.png)
-
-*Terminal evidence — `01-file-hash-checksec.txt` (arsip transkrip sesi solve).*

@@ -60,9 +60,3 @@ f09319de1b54bdae19a4946dee4317710be2d147630b1519dc770d2a1408e3fb  README.txt
 - `crypt` (glibc) untuk verifikasi SHA-512 crypt
 - `exiftool`, `file`, `strings`
 - `secret-tool`/`gnome-keyring-daemon` tersedia, tetapi parser manual lebih deterministik
-
-### Evidence langkah ini
-
-![term-01-unzip.png](assets/bluebird-session/term-01-unzip.png)
-
-*Terminal evidence — `01-unzip.txt` (arsip transkrip sesi solve).*

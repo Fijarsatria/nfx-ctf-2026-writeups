@@ -50,3 +50,13 @@ URL chain:
   https://github.com/hfiref0x/UACME/releases/download/v3.7.0/uacme.zip
   https://objects.githubusercontent.com/github-production-release-asset/uacme.zip
 ```
+
+### Evidence langkah ini
+
+![term-02-artifact-dump.png](assets/insider/term-02-artifact-dump.png)
+
+*Terminal evidence — `02-artifact-dump.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-artifact-dump.txt`](assets/insider/02-artifact-dump.txt)

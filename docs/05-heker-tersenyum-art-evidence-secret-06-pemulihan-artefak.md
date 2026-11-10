@@ -60,22 +60,10 @@ payload[:32]   : 17ee9567e88d5acb6246104c0d8466c79b9db0b93d153fa9f4939f4ce6b2750
 
 ### Evidence langkah ini
 
-![term-06-file-exiftool.png](assets/heker-tersenyum-art-evidence-secret/term-06-file-exiftool.png)
-
-*Terminal evidence — `06-file-exiftool.txt` (arsip transkrip sesi solve).*
-
 ![term-07-solve-output.png](assets/heker-tersenyum-art-evidence-secret/term-07-solve-output.png)
 
 *Terminal evidence — `07-solve-output.txt` (arsip transkrip sesi solve).*
 
-![term-08-payload-hexdump.png](assets/heker-tersenyum-art-evidence-secret/term-08-payload-hexdump.png)
+**Berkas mentah langkah ini:**
 
-*Terminal evidence — `08-payload-hexdump.txt` (arsip transkrip sesi solve).*
-
-![04-lsb-R.png](assets/heker-tersenyum-art-evidence-secret/04-lsb-R.png)
-
-*Evidence — `04-lsb-R.png`.*
-
-![05-lsb-B.png](assets/heker-tersenyum-art-evidence-secret/05-lsb-B.png)
-
-*Evidence — `05-lsb-B.png`.*
+- [`07-solve-output.txt`](assets/heker-tersenyum-art-evidence-secret/07-solve-output.txt)

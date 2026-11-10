@@ -69,6 +69,10 @@ Script lengkap: `assets/changetrack/exploit_changetrack.py`.
 
 ### Evidence langkah ini
 
-![term-03-benign-save.png](assets/changetrack/term-03-benign-save.png)
+![term-02-dashboard-pages.png](assets/changetrack/term-02-dashboard-pages.png)
 
-*Terminal evidence — `03-benign-save.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `02-dashboard-pages.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-dashboard-pages.txt`](assets/changetrack/02-dashboard-pages.txt)

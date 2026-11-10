@@ -26,3 +26,13 @@ Petunjuk penting: timestamp Chrome/WebKit = **microseconds sejak 1601-01-01 UTC*
 
 - SQLite (via Python `sqlite3`, karena binary `sqlite3` tidak tersedia)
 - `file`, `sha256sum`, `exiftool`, Python 3
+
+### Evidence langkah ini
+
+![term-00-acquisition-note.png](assets/insider/term-00-acquisition-note.png)
+
+*Terminal evidence — `00-acquisition-note.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`00-acquisition-note.txt`](assets/insider/00-acquisition-note.txt)

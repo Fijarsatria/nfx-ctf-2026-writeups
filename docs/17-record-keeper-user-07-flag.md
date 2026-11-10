@@ -78,4 +78,8 @@ Status: **verified platform**.
 
 *Terminal evidence — `03-user-flag.txt` (arsip transkrip sesi solve).*
 
+**Berkas mentah langkah ini:**
+
+- [`03-user-flag.txt`](assets/record-keeper-user/03-user-flag.txt)
+
 > **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

@@ -73,3 +73,17 @@ Menjalankan dengan input asal:
 $ ./reverse/Medium_01_RC4/medium_rc4 'NFX{wrong}'
 Wrong!
 ```
+
+### Evidence langkah ini
+
+![term-01-identitas.png](assets/medium-rc4/term-01-identitas.png)
+
+*Terminal evidence — `01-identitas.txt` (arsip transkrip sesi solve).*
+
+![01-solver.png](assets/medium-rc4/01-solver.png)
+
+*Evidence — `01-solver.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`01-identitas.txt`](assets/medium-rc4/01-identitas.txt)

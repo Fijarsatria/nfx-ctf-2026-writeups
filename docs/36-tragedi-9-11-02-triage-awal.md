@@ -20,3 +20,13 @@ encoder=Lavf62.12.102
 **Temuan:** video adalah rekaman asli berdurasi 58,5 detik, bukan slideshow
 atau file rusak. Tidak ada metadata lokasi/timestamp yang bisa dipakai
 langsung; pivot harus dilakukan dari isi video dan jejak unggahan.
+
+### Evidence langkah ini
+
+![term-01-video-metadata.png](assets/tragedi-9-11/term-01-video-metadata.png)
+
+*Terminal evidence — `01-video-metadata.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-video-metadata.txt`](assets/tragedi-9-11/01-video-metadata.txt)

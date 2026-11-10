@@ -79,10 +79,11 @@ saved rip     rbp+0x08    -> 0x1a8
 
 *Terminal evidence — `02-disasm.txt` (arsip transkrip sesi solve).*
 
-![term-02b-seccomp.png](assets/starved/term-02b-seccomp.png)
-
-*Terminal evidence — `02b-seccomp.txt` (arsip transkrip sesi solve).*
-
 ![term-02c-records.png](assets/starved/term-02c-records.png)
 
 *Terminal evidence — `02c-records.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-disasm.txt`](assets/starved/02-disasm.txt)
+- [`02c-records.txt`](assets/starved/02c-records.txt)

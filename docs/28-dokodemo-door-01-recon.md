@@ -62,3 +62,7 @@ rendah dan pola berulang.
 ![term-01-solve-output.png](assets/dokodemo-door/term-01-solve-output.png)
 
 *Terminal evidence — `01-solve-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-solve-output.txt`](assets/dokodemo-door/01-solve-output.txt)

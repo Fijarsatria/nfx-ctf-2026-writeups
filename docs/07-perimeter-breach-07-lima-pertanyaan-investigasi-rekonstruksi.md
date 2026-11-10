@@ -15,3 +15,13 @@ Platform tidak menampilkan teks pertanyaan di artefak lokal. Jawaban berikut dir
 | 5 | Akun persistence yang dibuat? | `svc_backup` (UID 1002, group `sudo`), login publickey 14:41:27 |
 
 Flag `NFX{P4th_1nt0_Pr0duct10n}` konsisten dengan narasi “path into production” — dari recon sampai persistence di server produksi.
+
+### Evidence langkah ini
+
+![term-02-attacker-requests.png](assets/perimeter-breach/term-02-attacker-requests.png)
+
+*Terminal evidence — `02-attacker-requests.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-attacker-requests.txt`](assets/perimeter-breach/02-attacker-requests.txt)

@@ -52,3 +52,8 @@ FLAG = NXCTF{cbc_1v_r3u53_l34k5_k3y5tr34m_b0fbd4d35f80}
 ![term-verify-output.png](assets/static-iv-offline/term-verify-output.png)
 
 *Terminal evidence — `verify-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`solver-output.txt`](assets/static-iv-offline/solver-output.txt)
+- [`verify-output.txt`](assets/static-iv-offline/verify-output.txt)

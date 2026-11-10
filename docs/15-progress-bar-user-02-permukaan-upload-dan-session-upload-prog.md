@@ -27,3 +27,7 @@ Kondisi target sangat mendukung:
 ![term-02-php2shell.png](assets/progress-bar-user/term-02-php2shell.png)
 
 *Terminal evidence — `02-php2shell.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-php2shell.txt`](assets/progress-bar-user/02-php2shell.txt)

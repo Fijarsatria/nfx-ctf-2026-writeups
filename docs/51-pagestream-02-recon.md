@@ -51,3 +51,18 @@ curl -sS -i http://s1.nfx.my.id:43659/dashboard
 - `/` → landing PageStream.
 - `/dashboard` tanpa session → `302 /login`.
 - Tidak ada registrasi tertutup; `POST /register` membuat user role `user`.
+
+### Evidence langkah ini
+
+![term-01-recon.png](assets/pagestream/term-01-recon.png)
+
+*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+
+![term-source-notes.png](assets/pagestream/term-source-notes.png)
+
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon.txt`](assets/pagestream/01-recon.txt)
+- [`source-notes.txt`](assets/pagestream/source-notes.txt)

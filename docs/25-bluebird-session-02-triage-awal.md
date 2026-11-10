@@ -24,3 +24,13 @@ aria:x:1000:1000:aria:/home/aria:/bin/bash
 mizore:x:1001:1001::/home/mizore:/bin/bash
 nozomi:x:1002:1002::/home/nozomi:/bin/bash
 ```
+
+### Evidence langkah ini
+
+![term-01-unzip.png](assets/bluebird-session/term-01-unzip.png)
+
+*Terminal evidence — `01-unzip.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-unzip.txt`](assets/bluebird-session/01-unzip.txt)

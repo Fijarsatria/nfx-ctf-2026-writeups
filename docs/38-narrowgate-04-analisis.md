@@ -46,3 +46,13 @@ RW_OUT  = libc + 0x224100     # buffer output
 ```
 
 Pada proses uji, `libc+0x224000` jatuh di mapping `rw-p` anonim tepat setelah segmen RW libc (dikonfirmasi `/proc/<pid>/maps`), sehingga aman untuk `read`/`write` ROP.
+
+### Evidence langkah ini
+
+![term-02b-seccomp.png](assets/narrowgate/term-02b-seccomp.png)
+
+*Terminal evidence — `02b-seccomp.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02b-seccomp.txt`](assets/narrowgate/02b-seccomp.txt)

@@ -64,4 +64,9 @@ baru diuji ulang, flag yang sama diterima dan status challenge menjadi
 
 *Terminal evidence — `09-recheck-submit.txt` (arsip transkrip sesi solve).*
 
+**Berkas mentah langkah ini:**
+
+- [`04-user-flag.txt`](assets/progress-bar-user/04-user-flag.txt)
+- [`09-recheck-submit.txt`](assets/progress-bar-user/09-recheck-submit.txt)
+
 > **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

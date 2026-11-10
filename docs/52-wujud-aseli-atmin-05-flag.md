@@ -28,4 +28,8 @@ HTTP 200
 
 *Terminal evidence — `10-submit.txt` (arsip transkrip sesi solve).*
 
+**Berkas mentah langkah ini:**
+
+- [`10-submit.txt`](assets/wujud-aseli-atmin/10-submit.txt)
+
 > **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`

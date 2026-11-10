@@ -53,3 +53,12 @@ uid:Dimas Wirawan (rentry.co/ghost-route-0914) ...
 ![term-03-git-and-signature.png](assets/the-ghost-operator/term-03-git-and-signature.png)
 
 *Terminal evidence — `03-git-and-signature.txt` (arsip transkrip sesi solve).*
+
+![term-08-attempt-log.png](assets/the-ghost-operator/term-08-attempt-log.png)
+
+*Terminal evidence — `08-attempt-log.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-git-and-signature.txt`](assets/the-ghost-operator/03-git-and-signature.txt)
+- [`08-attempt-log.txt`](assets/the-ghost-operator/08-attempt-log.txt)

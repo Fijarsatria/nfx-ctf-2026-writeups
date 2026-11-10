@@ -65,10 +65,6 @@ python3 exploit.py | tee 03-exploit-run.txt
 
 *Terminal evidence — `03-exploit-run.txt` (arsip transkrip sesi solve).*
 
-![term-03b-leak-probe.png](assets/starved/term-03b-leak-probe.png)
+**Berkas mentah langkah ini:**
 
-*Terminal evidence — `03b-leak-probe.txt` (arsip transkrip sesi solve).*
-
-![term-03c-run-printable.png](assets/starved/term-03c-run-printable.png)
-
-*Terminal evidence — `03c-run-printable.txt` (arsip transkrip sesi solve).*
+- [`03-exploit-run.txt`](assets/starved/03-exploit-run.txt)

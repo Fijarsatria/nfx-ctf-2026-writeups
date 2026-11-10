@@ -64,3 +64,12 @@ Temuan:
 ![term-01-recon.png](assets/changetrack/term-01-recon.png)
 
 *Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+
+![term-02-dashboard-pages.png](assets/changetrack/term-02-dashboard-pages.png)
+
+*Terminal evidence — `02-dashboard-pages.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon.txt`](assets/changetrack/01-recon.txt)
+- [`02-dashboard-pages.txt`](assets/changetrack/02-dashboard-pages.txt)

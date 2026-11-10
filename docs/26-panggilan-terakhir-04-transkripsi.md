@@ -51,3 +51,13 @@ Rangkaian yang diucapkan Dina:
 ```text
 NFXCTF { ARSIP _ MERAH _ 204 }
 ```
+
+### Evidence langkah ini
+
+![term-06-transcript.png](assets/panggilan-terakhir/term-06-transcript.png)
+
+*Terminal evidence — `06-transcript.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`06-transcript.txt`](assets/panggilan-terakhir/06-transcript.txt)

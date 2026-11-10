@@ -70,6 +70,14 @@ Jadi lokasi harus dibaca dari **isi visual** dan konteks challenge.
 
 ### Evidence langkah ini
 
+![term-02-exif-and-hash.png](assets/s3rvice-k3reta/term-02-exif-and-hash.png)
+
+*Terminal evidence — `02-exif-and-hash.txt` (arsip transkrip sesi solve).*
+
 ![01-from_train.jpeg](assets/s3rvice-k3reta/01-from_train.jpeg)
 
 *Evidence — `01-from_train.jpeg`.*
+
+**Berkas mentah langkah ini:**
+
+- [`02-exif-and-hash.txt`](assets/s3rvice-k3reta/02-exif-and-hash.txt)

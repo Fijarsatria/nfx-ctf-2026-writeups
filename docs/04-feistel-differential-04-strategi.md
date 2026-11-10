@@ -16,3 +16,7 @@
 ![term-solver-output.png](assets/feistel-differential/term-solver-output.png)
 
 *Terminal evidence — `solver-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`solver-output.txt`](assets/feistel-differential/solver-output.txt)

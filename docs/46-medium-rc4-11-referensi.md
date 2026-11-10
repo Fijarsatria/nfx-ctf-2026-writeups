@@ -12,3 +12,7 @@
 ![term-07-verifikasi.png](assets/medium-rc4/term-07-verifikasi.png)
 
 *Terminal evidence — `07-verifikasi.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`07-verifikasi.txt`](assets/medium-rc4/07-verifikasi.txt)

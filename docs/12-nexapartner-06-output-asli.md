@@ -31,3 +31,18 @@ Location: /admin/audit
   <p>NFX{js0n_pr0t0_p0llut10n_4dm1n_byp4ss}</p>
 </div>
 ```
+
+### Evidence langkah ini
+
+![term-02-authed-crawl.png](assets/nexapartner/term-02-authed-crawl.png)
+
+*Terminal evidence — `02-authed-crawl.txt` (arsip transkrip sesi solve).*
+
+![term-03-exploit-evidence.png](assets/nexapartner/term-03-exploit-evidence.png)
+
+*Terminal evidence — `03-exploit-evidence.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-authed-crawl.txt`](assets/nexapartner/02-authed-crawl.txt)
+- [`03-exploit-evidence.txt`](assets/nexapartner/03-exploit-evidence.txt)

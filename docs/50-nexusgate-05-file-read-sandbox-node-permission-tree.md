@@ -101,3 +101,13 @@ file read: /app/data/botX -> ERR:ERR_ACCESS_DENIED
 file read: /app/data/bot1.jsonX -> ERR:ERR_ACCESS_DENIED
 file read: /app/data -> ERR:ERR_ACCESS_DENIED
 ```
+
+### Evidence langkah ini
+
+![term-source-notes.png](assets/nexusgate/term-source-notes.png)
+
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`source-notes.txt`](assets/nexusgate/source-notes.txt)

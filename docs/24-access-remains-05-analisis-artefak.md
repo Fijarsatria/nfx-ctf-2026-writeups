@@ -62,3 +62,13 @@ Unknown     : KumikoOumae2107!@
 ```
 
 Credential lokal adalah `WindowsLive:target=virtualapp/didlogical` (tidak relevan). Credential roaming memberi password **`KumikoOumae2107!@`** untuk target `AccessRemains:WaifuVault`.
+
+### Evidence langkah ini
+
+![term-03-credentials.png](assets/access-remains/term-03-credentials.png)
+
+*Terminal evidence — `03-credentials.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-credentials.txt`](assets/access-remains/03-credentials.txt)

@@ -32,3 +32,13 @@ char[0] = ror8(0x6a, 1) - 0x21 ^ 0x5a
         = 0x14 ^ 0x5a
         = 0x4e = 'N'
 ```
+
+### Evidence langkah ini
+
+![term-02-readelf.png](assets/hard-vm-bytecode/term-02-readelf.png)
+
+*Terminal evidence — `02-readelf.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-readelf.txt`](assets/hard-vm-bytecode/02-readelf.txt)

@@ -49,3 +49,13 @@ Dua operasi yang perlu dibalik:
 Kunci pembalikan: proses `i` dari **20 turun ke 0**, karena `mix(i)`
 bergantung pada `w[i-1]` yang harus sudah dikembalikan ke nilai sebelumnya.
 Untuk `i=0`, `w[20]` sudah diproses lebih dulu.
+
+### Evidence langkah ini
+
+![term-01-solve-output.png](assets/the-alchemists-sandbox/term-01-solve-output.png)
+
+*Terminal evidence — `01-solve-output.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-solve-output.txt`](assets/the-alchemists-sandbox/01-solve-output.txt)

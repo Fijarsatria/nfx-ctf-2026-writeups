@@ -50,3 +50,12 @@ NFX{OS1NT_DU4R_D34_D0R}
 ![term-03-git-history.png](assets/tragedi-9-11/term-03-git-history.png)
 
 *Terminal evidence — `03-git-history.txt` (arsip transkrip sesi solve).*
+
+![term-05-github-repo.png](assets/tragedi-9-11/term-05-github-repo.png)
+
+*Terminal evidence — `05-github-repo.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-git-history.txt`](assets/tragedi-9-11/03-git-history.txt)
+- [`05-github-repo.txt`](assets/tragedi-9-11/05-github-repo.txt)

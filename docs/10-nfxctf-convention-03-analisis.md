@@ -71,3 +71,8 @@ Offset ke canary: `rbp - 0x70` → `rbp - 0x8` = **0x68 = 104 byte**. Setelah ca
 ![term-02b-layout.png](assets/nfxctf-convention/term-02b-layout.png)
 
 *Terminal evidence — `02b-layout.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-disasm.txt`](assets/nfxctf-convention/02-disasm.txt)
+- [`02b-layout.txt`](assets/nfxctf-convention/02b-layout.txt)

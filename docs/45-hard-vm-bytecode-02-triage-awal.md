@@ -50,3 +50,17 @@ Menjalankan binary:
 $ ./reverse/Hard_01_VM_Bytecode/hard_vm 'NFX{wrong}'
 Wrong!
 ```
+
+### Evidence langkah ini
+
+![term-01-identitas.png](assets/hard-vm-bytecode/term-01-identitas.png)
+
+*Terminal evidence — `01-identitas.txt` (arsip transkrip sesi solve).*
+
+![01-solver.png](assets/hard-vm-bytecode/01-solver.png)
+
+*Evidence — `01-solver.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`01-identitas.txt`](assets/hard-vm-bytecode/01-identitas.txt)

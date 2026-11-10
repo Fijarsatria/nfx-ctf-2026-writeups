@@ -49,3 +49,13 @@ Kesimpulan:
 |---|---|---|---|
 | Raka → Dina | `10.24.8.31:4000` → `10.24.8.24:4002` | 204 | PCMU/8000, SDP `a=sendrecv` |
 | Dina → Raka | `10.24.8.24:4002` → `10.24.8.31:4000` | 231 | PCMU/8000 |
+
+### Evidence langkah ini
+
+![term-01-sip-dialog.png](assets/panggilan-terakhir/term-01-sip-dialog.png)
+
+*Terminal evidence — `01-sip-dialog.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-sip-dialog.txt`](assets/panggilan-terakhir/01-sip-dialog.txt)

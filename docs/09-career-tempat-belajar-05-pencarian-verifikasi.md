@@ -46,14 +46,10 @@ aboutMe    : NFX{Gr4v4t4r_0s1nt_R3cru1t3r_D1hL34Rn}
 
 ### Evidence langkah ini
 
-![term-05-md5-derivation.png](assets/career-tempat-belajar/term-05-md5-derivation.png)
-
-*Terminal evidence — `05-md5-derivation.txt` (arsip transkrip sesi solve).*
-
 ![term-06-gravatar-http.png](assets/career-tempat-belajar/term-06-gravatar-http.png)
 
 *Terminal evidence — `06-gravatar-http.txt` (arsip transkrip sesi solve).*
 
-![04-gravatar-avatar.png](assets/career-tempat-belajar/04-gravatar-avatar.png)
+**Berkas mentah langkah ini:**
 
-*Evidence — `04-gravatar-avatar.png`.*
+- [`06-gravatar-http.txt`](assets/career-tempat-belajar/06-gravatar-http.txt)

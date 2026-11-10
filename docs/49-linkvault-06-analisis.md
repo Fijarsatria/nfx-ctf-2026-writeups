@@ -43,3 +43,18 @@ Catatan penting: escaper JS `html/template` meng-escape `>` menjadi `\u003e` pad
 5. Browser bot merender `<script>` dengan payload; XSS berjalan sebagai admin di `http://127.0.0.1:80`.
 6. Payload memanggil `fetch('/flag')` (cookie admin otomatis dikirim, same-origin), lalu mengirim body flag ke `/api/share?to=<username>&d=<flag>`.
 7. `/api/share` menulis ke `inbox[to]`; penyerang membuka `/reports` dan membaca flag.
+
+### Evidence langkah ini
+
+![term-02-exploit-run.png](assets/linkvault/term-02-exploit-run.png)
+
+*Terminal evidence — `02-exploit-run.txt` (arsip transkrip sesi solve).*
+
+![term-source-notes.png](assets/linkvault/term-source-notes.png)
+
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-exploit-run.txt`](assets/linkvault/02-exploit-run.txt)
+- [`source-notes.txt`](assets/linkvault/source-notes.txt)

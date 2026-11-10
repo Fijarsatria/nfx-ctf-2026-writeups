@@ -27,9 +27,3 @@ Tidak ada libc tambahan; binary non-PIE dan statically addressed. Service asli t
   cd pwn/PipaNuKotor/peserta
   ./pipa
   ```
-
-### Evidence langkah ini
-
-![term-01-file-hash-checksec.png](assets/pipa-nu-kotor/term-01-file-hash-checksec.png)
-
-*Terminal evidence — `01-file-hash-checksec.txt` (arsip transkrip sesi solve).*

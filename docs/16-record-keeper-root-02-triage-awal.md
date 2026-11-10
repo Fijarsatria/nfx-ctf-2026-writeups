@@ -34,3 +34,18 @@ Access  : node = runtime only
           ops  = submit archive jobs and inspect output
           root = runs spooler and owns archive output
 ```
+
+### Evidence langkah ini
+
+![term-01-recon.png](assets/record-keeper-root/term-01-recon.png)
+
+*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+
+![term-07-spool-excerpt.png](assets/record-keeper-root/term-07-spool-excerpt.png)
+
+*Terminal evidence — `07-spool-excerpt.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon.txt`](assets/record-keeper-root/01-recon.txt)
+- [`07-spool-excerpt.txt`](assets/record-keeper-root/07-spool-excerpt.txt)

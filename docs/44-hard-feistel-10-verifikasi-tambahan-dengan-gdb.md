@@ -23,3 +23,18 @@ input mentah di stack (rsp):
 ```
 
 Output buffer identik dengan ciphertext, dan input mentah adalah flag. Ini mengonfirmasi model enkripsi/dekripsi.
+
+### Evidence langkah ini
+
+![term-03-strings.png](assets/hard-feistel/term-03-strings.png)
+
+*Terminal evidence — `03-strings.txt` (arsip transkrip sesi solve).*
+
+![term-08-gdb-output-buffer.png](assets/hard-feistel/term-08-gdb-output-buffer.png)
+
+*Terminal evidence — `08-gdb-output-buffer.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-strings.txt`](assets/hard-feistel/03-strings.txt)
+- [`08-gdb-output-buffer.txt`](assets/hard-feistel/08-gdb-output-buffer.txt)

@@ -40,10 +40,10 @@ Input 40 byte disalin ke `[rsp]`, lalu diproses 5 blok × 8 byte. Setiap blok di
 
 ### Evidence langkah ini
 
-![term-02-readelf.png](assets/medium-tea/term-02-readelf.png)
+![term-04-disasm.png](assets/medium-tea/term-04-disasm.png)
 
-*Terminal evidence — `02-readelf.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `04-disasm.txt` (arsip transkrip sesi solve).*
 
-![02-verifikasi.png](assets/medium-tea/02-verifikasi.png)
+**Berkas mentah langkah ini:**
 
-*Evidence — `02-verifikasi.png`.*
+- [`04-disasm.txt`](assets/medium-tea/04-disasm.txt)

@@ -53,3 +53,17 @@ Wrong!
 $ ./reverse/Medium_02_TEA/medium_tea
 Pemakaian: reverse/Medium_02_TEA/medium_tea <flag>
 ```
+
+### Evidence langkah ini
+
+![term-01-identitas.png](assets/medium-tea/term-01-identitas.png)
+
+*Terminal evidence — `01-identitas.txt` (arsip transkrip sesi solve).*
+
+![01-solver.png](assets/medium-tea/01-solver.png)
+
+*Evidence — `01-solver.png`.*
+
+**Berkas mentah langkah ini:**
+
+- [`01-identitas.txt`](assets/medium-tea/01-identitas.txt)

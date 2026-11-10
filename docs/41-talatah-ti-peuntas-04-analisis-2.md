@@ -59,3 +59,18 @@ Payload `tlv_len = 0x40`, `key_size = 0x18`, `total_len = 0x54` cukup untuk meng
 ```
 
 Setelah overflow, `node->data` dan `node->len` sepenuhnya dikendalikan → read/write ke alamat mana pun.
+
+### Evidence langkah ini
+
+![term-02-disasm.png](assets/talatah-ti-peuntas/term-02-disasm.png)
+
+*Terminal evidence — `02-disasm.txt` (arsip transkrip sesi solve).*
+
+![term-02b-record-layout.png](assets/talatah-ti-peuntas/term-02b-record-layout.png)
+
+*Terminal evidence — `02b-record-layout.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-disasm.txt`](assets/talatah-ti-peuntas/02-disasm.txt)
+- [`02b-record-layout.txt`](assets/talatah-ti-peuntas/02b-record-layout.txt)

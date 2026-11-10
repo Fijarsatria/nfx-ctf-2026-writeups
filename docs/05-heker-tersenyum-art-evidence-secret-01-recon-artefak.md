@@ -61,6 +61,10 @@ $ sha256sum file
 
 ### Evidence langkah ini
 
-![term-01-zsteg.png](assets/heker-tersenyum-art-evidence-secret/term-01-zsteg.png)
+![term-06-file-exiftool.png](assets/heker-tersenyum-art-evidence-secret/term-06-file-exiftool.png)
 
-*Terminal evidence — `01-zsteg.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `06-file-exiftool.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`06-file-exiftool.txt`](assets/heker-tersenyum-art-evidence-secret/06-file-exiftool.txt)

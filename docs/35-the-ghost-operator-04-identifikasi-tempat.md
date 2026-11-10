@@ -27,3 +27,13 @@ Sumber publik yang cocok:
 Belum ditemukan kandidat lain di KM 9 yang memenuhi keempat elemen
 sekaligus. Jadi safehouse yang dimaksud paling mungkin adalah
 **Villa Istana Bunga (VIB)**.
+
+### Evidence langkah ini
+
+![term-06-rentry-snapshot.png](assets/the-ghost-operator/term-06-rentry-snapshot.png)
+
+*Terminal evidence — `06-rentry-snapshot.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`06-rentry-snapshot.txt`](assets/the-ghost-operator/06-rentry-snapshot.txt)

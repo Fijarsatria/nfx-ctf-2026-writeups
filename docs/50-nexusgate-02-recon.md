@@ -59,3 +59,18 @@ HTTP/1.1 400 Bad Request
 ```
 
 `curl` biasa menormalisasi `/./` sebelum mengirim. Untuk mengirim path mentah perlu `--path-as-is` atau raw socket.
+
+### Evidence langkah ini
+
+![term-01-recon-acl.png](assets/nexusgate/term-01-recon-acl.png)
+
+*Terminal evidence — `01-recon-acl.txt` (arsip transkrip sesi solve).*
+
+![term-source-notes.png](assets/nexusgate/term-source-notes.png)
+
+*Terminal evidence — `source-notes.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon-acl.txt`](assets/nexusgate/01-recon-acl.txt)
+- [`source-notes.txt`](assets/nexusgate/source-notes.txt)

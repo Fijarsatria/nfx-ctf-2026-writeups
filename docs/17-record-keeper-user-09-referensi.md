@@ -14,3 +14,7 @@
 ![term-07-console-excerpt.png](assets/record-keeper-user/term-07-console-excerpt.png)
 
 *Terminal evidence — `07-console-excerpt.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`07-console-excerpt.txt`](assets/record-keeper-user/07-console-excerpt.txt)

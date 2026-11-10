@@ -51,6 +51,15 @@ Durasi panggilan ≈ 71 detik (01:18:00–01:19:11).
 
 ### Evidence langkah ini
 
+![term-00-pcap-summary.png](assets/panggilan-terakhir/term-00-pcap-summary.png)
+
+*Terminal evidence — `00-pcap-summary.txt` (arsip transkrip sesi solve).*
+
 ![term-01-sip-dialog.png](assets/panggilan-terakhir/term-01-sip-dialog.png)
 
 *Terminal evidence — `01-sip-dialog.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`00-pcap-summary.txt`](assets/panggilan-terakhir/00-pcap-summary.txt)
+- [`01-sip-dialog.txt`](assets/panggilan-terakhir/01-sip-dialog.txt)

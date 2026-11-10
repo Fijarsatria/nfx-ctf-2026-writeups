@@ -20,3 +20,13 @@ Temuan:
 - `/register` → `404` (tidak ada registrasi).
 - `/dashboard` tanpa session → `302 /login`.
 - `/blog/5` → artikel “Hardening Header Parsing & Mail Notification Engines”.
+
+### Evidence langkah ini
+
+![term-01-recon.png](assets/nxportal/term-01-recon.png)
+
+*Terminal evidence — `01-recon.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-recon.txt`](assets/nxportal/01-recon.txt)

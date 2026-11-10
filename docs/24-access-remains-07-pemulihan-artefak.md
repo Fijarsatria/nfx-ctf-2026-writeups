@@ -51,3 +51,7 @@ kumiko03.jpg -> {3E2D6090E7EEB47D5
 ![term-03-credentials.png](assets/access-remains/term-03-credentials.png)
 
 *Terminal evidence — `03-credentials.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`03-credentials.txt`](assets/access-remains/03-credentials.txt)

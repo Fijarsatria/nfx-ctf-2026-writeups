@@ -62,6 +62,14 @@ Flow utama:
 
 ### Evidence langkah ini
 
+![term-00-recon.png](assets/weak-handshake/term-00-recon.png)
+
+*Terminal evidence — `00-recon.txt` (arsip transkrip sesi solve).*
+
 ![01-clannad.webp](assets/weak-handshake/01-clannad.webp)
 
 *Evidence — `01-clannad.webp`.*
+
+**Berkas mentah langkah ini:**
+
+- [`00-recon.txt`](assets/weak-handshake/00-recon.txt)

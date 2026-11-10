@@ -50,3 +50,18 @@ Symbol penting:
 0000000000401910 t op_tulis
 0000000000401b3d t op_login
 ```
+
+### Evidence langkah ini
+
+![term-01-file-hash-checksec.png](assets/pipa-nu-kotor/term-01-file-hash-checksec.png)
+
+*Terminal evidence — `01-file-hash-checksec.txt` (arsip transkrip sesi solve).*
+
+![term-02-disasm.png](assets/pipa-nu-kotor/term-02-disasm.png)
+
+*Terminal evidence — `02-disasm.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-file-hash-checksec.txt`](assets/pipa-nu-kotor/01-file-hash-checksec.txt)
+- [`02-disasm.txt`](assets/pipa-nu-kotor/02-disasm.txt)

@@ -57,3 +57,18 @@ Symbol:
 000000000040190f t op_edit
 0000000000401a00 t op_list
 ```
+
+### Evidence langkah ini
+
+![term-01-file-hash-checksec.png](assets/the-forgotten-state/term-01-file-hash-checksec.png)
+
+*Terminal evidence — `01-file-hash-checksec.txt` (arsip transkrip sesi solve).*
+
+![term-02-disasm.png](assets/the-forgotten-state/term-02-disasm.png)
+
+*Terminal evidence — `02-disasm.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-file-hash-checksec.txt`](assets/the-forgotten-state/01-file-hash-checksec.txt)
+- [`02-disasm.txt`](assets/the-forgotten-state/02-disasm.txt)

@@ -36,3 +36,18 @@ Jika field `rec->len` dan `rec->data` bisa dikendalikan, `view` menjadi **arbitr
 ```
 
 Tidak ada perbandingan `new_len` dengan `malloc` asli. Jika `rec` dibuat dengan `size = 0x20` (chunk data 0x30), `edit` dengan `new_len = 0x50` menulis melewati chunk data ke chunk record berikutnya.
+
+### Evidence langkah ini
+
+![term-02-disasm.png](assets/the-forgotten-state/term-02-disasm.png)
+
+*Terminal evidence — `02-disasm.txt` (arsip transkrip sesi solve).*
+
+![term-02b-record-layout.png](assets/the-forgotten-state/term-02b-record-layout.png)
+
+*Terminal evidence — `02b-record-layout.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`02-disasm.txt`](assets/the-forgotten-state/02-disasm.txt)
+- [`02b-record-layout.txt`](assets/the-forgotten-state/02b-record-layout.txt)

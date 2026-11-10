@@ -68,6 +68,15 @@ assertion             : PASS
 
 ### Evidence langkah ini
 
+![term-00-solve-output.png](assets/stay/term-00-solve-output.png)
+
+*Terminal evidence — `00-solve-output.txt` (arsip transkrip sesi solve).*
+
 ![term-03-plaintext.png](assets/stay/term-03-plaintext.png)
 
 *Terminal evidence — `03-plaintext.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`00-solve-output.txt`](assets/stay/00-solve-output.txt)
+- [`03-plaintext.txt`](assets/stay/03-plaintext.txt)

@@ -51,6 +51,10 @@ Jadi:
 
 ### Evidence langkah ini
 
-![term-02-masterkey.png](assets/access-remains/term-02-masterkey.png)
+![term-01-secretsdump.png](assets/access-remains/term-01-secretsdump.png)
 
-*Terminal evidence — `02-masterkey.txt` (arsip transkrip sesi solve).*
+*Terminal evidence — `01-secretsdump.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-secretsdump.txt`](assets/access-remains/01-secretsdump.txt)

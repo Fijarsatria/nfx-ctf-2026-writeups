@@ -52,3 +52,13 @@ Artefak audio:
 - `assets/panggilan-terakhir/01-Raka-204.wav` (21,02 detik)
 - `assets/panggilan-terakhir/02-Dina-231.wav` (47,48 detik)
 - Spectrogram: `03-spectrogram-Dina.png`, `04-spectrogram-Raka.png`
+
+### Evidence langkah ini
+
+![term-05-rtp-extract.png](assets/panggilan-terakhir/term-05-rtp-extract.png)
+
+*Terminal evidence — `05-rtp-extract.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`05-rtp-extract.txt`](assets/panggilan-terakhir/05-rtp-extract.txt)
