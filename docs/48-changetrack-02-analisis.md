@@ -2,6 +2,12 @@
 
 [← Overview](48-changetrack.md) · [Index](index.md)
 
+> **Langkah 2/9 — Analisis.** Selain itu, email acak yang mengandung @ (mis.
+>
+> **Titik penting:** https://api.github.com/events · curl -sS -o /dev/null -w "$pw -> %{http_code} %{redirect_url}\n" \ · http://s1.nfx.my.id:40359/dashboard
+>
+> **Berikutnya:** [Analisis](48-changetrack-03-analisis-2.md)
+
 ## 2.1 Login yang rusak
 
 Uji kredensial:

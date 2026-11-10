@@ -5,6 +5,12 @@
 
 [← Overview](15-progress-bar-user.md) · [Index](index.md)
 
+> **Langkah 10/11 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](15-progress-bar-user-11-referensi.md)
+
 
 ## Arsip Evidence
 

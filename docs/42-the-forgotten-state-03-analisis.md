@@ -2,6 +2,12 @@
 
 [← Overview](42-the-forgotten-state.md) · [Index](index.md)
 
+> **Langkah 3/10 — Analisis.** Record (malloc 0x20 → chunk 0x30):
+>
+> **Titik penting:** Record (malloc 0x20 → chunk 0x30):
+>
+> **Berikutnya:** [Analisis](42-the-forgotten-state-04-analisis-2.md)
+
 ## 2.1 Layout global
 
 ```text

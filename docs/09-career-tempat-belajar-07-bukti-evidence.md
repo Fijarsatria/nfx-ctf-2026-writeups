@@ -5,6 +5,12 @@
 
 [← Overview](09-career-tempat-belajar.md) · [Index](index.md)
 
+> **Langkah 7/8 — Bukti / Evidence.** Semua bukti berada di writeups/assets/career-tempat-belajar/.
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](09-career-tempat-belajar-08-referensi.md)
+
 
 ## Arsip Evidence
 

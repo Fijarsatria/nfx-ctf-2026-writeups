@@ -2,6 +2,12 @@
 
 [← Overview](25-bluebird-session.md) · [Index](index.md)
 
+> **Langkah 8/11 — Alur 11 Sub-Challenge Q&A (verified).** Platform Bluebird Session memakai 11 pertanyaan berantai.
+>
+> **Titik penting:** NFX{Mizore_Promise_Never_Forgotten_The_Bluebird_Still_Sings} · 192.168.56.21
+>
+> **Berikutnya:** [Flag](25-bluebird-session-09-flag.md)
+
 Platform Bluebird Session memakai 11 pertanyaan berantai. Teks di bawah adalah
 teks asli dari `get_sub_challenges`, dan semua jawaban sudah diverifikasi
 `true` sampai `completed: true`.

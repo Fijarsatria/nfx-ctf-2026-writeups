@@ -2,6 +2,12 @@
 
 [← Overview](10-nfxctf-convention.md) · [Index](index.md)
 
+> **Langkah 5/9 — Eksploitasi.** Tersimpan lengkap di writeups/assets/nfxctf-convention/exploit.py.
+>
+> **Titik penting:** python3 exploit.py \| tee 03-exploit-run.txt · NFX{LOCAL_TEST_FLAG_CONVENTION}
+>
+> **Berikutnya:** [Output asli](10-nfxctf-convention-06-output-asli.md)
+
 ## 3.1 Strategi
 
 1. Register nama apa saja.

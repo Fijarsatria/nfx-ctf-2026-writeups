@@ -2,6 +2,12 @@
 
 [← Overview](36-tragedi-9-11.md) · [Index](index.md)
 
+> **Langkah 5/8 — Pencarian & Verifikasi.** Pencarian & Verifikasi
+>
+> **Titik penting:** git clone https://github.com/PigParkerPt2/xor-operation.git · git log --all --oneline --stat · git log --all --oneline -- .env
+>
+> **Berikutnya:** [Flag](36-tragedi-9-11-06-flag.md)
+
 ### 3.1 Strategi
 
 1. Identifikasi video → cari unggahan asli di Reddit.

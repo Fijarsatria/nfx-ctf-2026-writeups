@@ -2,6 +2,12 @@
 
 [← Overview](31-symhell.md) · [Index](index.md)
 
+> **Langkah 5/7 — Flag.** Flag
+>
+> **Titik penting:** NFX{5ymH3ll_RUnT1m3_3v4l_53cr3t_PwN!}
+>
+> **Berikutnya:** [Bukti / Evidence](31-symhell-06-bukti-evidence.md)
+
 > **Flag:** `NFX{5ymH3ll_RUnT1m3_3v4l_53cr3t_PwN!}`
 > **Status:** `VERIFIED`
 

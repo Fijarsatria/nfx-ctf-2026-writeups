@@ -23,6 +23,24 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | NFX{...} | [Buka](44-hard-feistel-01-recon.md) |
+| 2 | Triage awal | file reverse/Hard_02_Feistel/hard_feistel | [Buka](44-hard-feistel-02-triage-awal.md) |
+| 3 | Perintah akuisisi bukti | python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ | [Buka](44-hard-feistel-03-perintah-akuisisi-bukti.md) |
+| 4 | Analisis | Input 39 byte disalin ke [rsp], sisa buffer sudah di-zero, sehingga blok terakhir (byte ke-40) bernilai 0x00. | [Buka](44-hard-feistel-04-analisis.md) |
+| 5 | Analisis | K 257 sama dengan K + (K << 8), yaitu menduplikasi byte rendah key ke dua byte (karena key hanya 8-bit). | [Buka](44-hard-feistel-05-analisis-2.md) |
+| 6 | Analisis | Setelah 16 ronde, register berisi: | [Buka](44-hard-feistel-06-analisis-3.md) |
+| 7 | Strategi | — | [Buka](44-hard-feistel-07-strategi.md) |
+| 8 | Solver lengkap | File: writeups/assets/hard-feistel/solvefeistel.py | [Buka](44-hard-feistel-08-solver-lengkap.md) |
+| 9 | Output asli | python3 writeups/assets/hard-feistel/solve_feistel.py | [Buka](44-hard-feistel-09-output-asli.md) |
+| 10 | Verifikasi tambahan dengan gdb | Untuk memastikan pemahaman serialisasi output benar, binary dijalankan di gdb dengan flag yang benar. | [Buka](44-hard-feistel-10-verifikasi-tambahan-dengan-gdb.md) |
+| 11 | Flag | NFX{f315t3l_n3tw0rk_16_r0und5_r3v3rs3d} | [Buka](44-hard-feistel-11-flag.md) |
+| 12 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](44-hard-feistel-12-bukti-evidence.md) |
+| 13 | Referensi | — | [Buka](44-hard-feistel-13-referensi.md) |
+
 ## TL;DR
 
 - `hard_feistel` memvalidasi flag 39 byte dari `argv[1]` dan memprosesnya sebagai 10 blok 32-bit.

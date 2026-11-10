@@ -2,6 +2,12 @@
 
 [← Overview](24-access-remains.md) · [Index](index.md)
 
+> **Langkah 9/11 — Flag.** Flag
+>
+> **Titik penting:** NFX{The_Real_Access_Was_Kumiko_All_Along}
+>
+> **Berikutnya:** [Bukti / Evidence](24-access-remains-10-bukti-evidence.md)
+
 > **Flag:** `NFX{The_Real_Access_Was_Kumiko_All_Along}`
 > **Status:** `VERIFIED`
 

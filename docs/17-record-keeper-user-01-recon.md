@@ -2,6 +2,12 @@
 
 [← Overview](17-record-keeper-user.md) · [Index](index.md)
 
+> **Langkah 1/9 — Recon.** Fokus challenge User adalah mendapatkan code execution pada service record-transform dan membaca /home/node/user.txt.
+>
+> **Titik penting:** nmap -Pn -sV -p- --min-rate 2000 10.10.20.23 · curl -sS -i http://10.10.20.23:8080/ · printf '\x00\x00\x00\x00' \| nc 127.0.0.1 3000
+>
+> **Berikutnya:** [Analisis](17-record-keeper-user-02-analisis.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: Ariaf

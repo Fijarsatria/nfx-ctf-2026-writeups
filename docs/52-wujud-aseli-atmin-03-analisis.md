@@ -2,6 +2,12 @@
 
 [← Overview](52-wujud-aseli-atmin.md) · [Index](index.md)
 
+> **Langkah 3/7 — Analisis.** Cari IEND lalu PK\x03\x04 pertama setelahnya:
+>
+> **Titik penting:** NFX{NFCC_Goes_to_NCSC_2026}
+>
+> **Berikutnya:** [Penyelesaian](52-wujud-aseli-atmin-04-penyelesaian.md)
+
 ### 2.1 Ekstrak trailer ZIP
 
 Cari `IEND` lalu `PK\x03\x04` pertama setelahnya:

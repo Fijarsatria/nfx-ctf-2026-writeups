@@ -2,6 +2,12 @@
 
 [← Overview](01-forgotten-commit-root.md) · [Index](index.md)
 
+> **Langkah 3/8 — Enumerasi sudo.** Langkah pertama setelah mendapat shell user adalah membaca hak sudo tanpa password:
+>
+> **Titik penting:** sudo -n -l · (root) NOPASSWD: /usr/local/bin/fzf --listen 1337
+>
+> **Berikutnya:** [Eksploitasi / Solver](01-forgotten-commit-root-04-eksploitasi-solver.md)
+
 ## 2.4 Enumerasi sudo
 
 Langkah pertama setelah mendapat shell user adalah membaca hak sudo tanpa

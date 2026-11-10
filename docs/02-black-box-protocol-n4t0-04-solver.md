@@ -2,6 +2,12 @@
 
 [← Overview](02-black-box-protocol-n4t0.md) · [Index](index.md)
 
+> **Langkah 4/7 — Solver.** Tersimpan di writeups/assets/black-box-protocol-n4t0/decodexlsx.py:
+>
+> **Titik penting:** python3 writeups/assets/black-box-protocol-n4t0/decode_xlsx.py
+>
+> **Berikutnya:** [Flag](02-black-box-protocol-n4t0-05-flag.md)
+
 ### 3.1 Strategi
 
 1. Baca `sheet1.xml` dan `sharedStrings.xml` untuk mendapatkan nilai sel apa

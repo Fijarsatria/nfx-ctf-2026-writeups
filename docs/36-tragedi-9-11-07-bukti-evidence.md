@@ -5,6 +5,12 @@
 
 [← Overview](36-tragedi-9-11.md) · [Index](index.md)
 
+> **Langkah 7/8 — Bukti / Evidence.** Semua bukti berada di writeups/assets/tragedi-9-11/.
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](36-tragedi-9-11-08-referensi.md)
+
 
 ## Arsip Evidence
 

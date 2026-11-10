@@ -5,6 +5,12 @@
 
 [← Overview](07-perimeter-breach.md) · [Index](index.md)
 
+> **Langkah 10/11 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](07-perimeter-breach-11-referensi.md)
+
 
 ## Arsip Evidence
 

@@ -2,6 +2,12 @@
 
 [← Overview](22-static-iv-offline.md) · [Index](index.md)
 
+> **Langkah 4/7 — Solver.** Tersimpan di writeups/assets/static-iv-offline/solve.py (sama dengan crypto/StaticIVOffline/solve.py):
+>
+> **Titik penting:** python3 solve.py · python3 verify.py · cd crypto/Static_IV_Offline
+>
+> **Berikutnya:** [Flag](22-static-iv-offline-05-flag.md)
+
 ### 3.1 Script lengkap
 
 Tersimpan di `writeups/assets/static-iv-offline/solve.py` (sama dengan

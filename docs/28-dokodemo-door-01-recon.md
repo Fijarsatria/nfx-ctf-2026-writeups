@@ -2,6 +2,12 @@
 
 [← Overview](28-dokodemo-door.md) · [Index](index.md)
 
+> **Langkah 1/9 — Recon.** Tidak ada service, source, atau hint tambahan.
+>
+> **Titik penting:** file rahasia.pdf · ls -l rahasia.pdf · xxd rahasia.pdf \| head -4
+>
+> **Berikutnya:** [Analisis](28-dokodemo-door-02-analisis.md)
+
 ### 1.1 Deskripsi challenge
 
 > **Author: Kada**

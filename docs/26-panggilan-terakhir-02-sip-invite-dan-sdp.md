@@ -2,6 +2,12 @@
 
 [← Overview](26-panggilan-terakhir.md) · [Index](index.md)
 
+> **Langkah 2/8 — SIP INVITE dan SDP.** SIP INVITE dan SDP
+>
+> **Titik penting:** tcpdump -nn -r korban.pcap 'udp port 5060' -A · 10.24.8.31 · 10.24.8.24
+>
+> **Berikutnya:** [Ekstraksi RTP](26-panggilan-terakhir-03-ekstraksi-rtp.md)
+
 ## 2.1 SIP INVITE dan SDP
 
 ```bash

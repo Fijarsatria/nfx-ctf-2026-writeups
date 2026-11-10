@@ -2,6 +2,12 @@
 
 [← Overview](09-career-tempat-belajar.md) · [Index](index.md)
 
+> **Langkah 3/8 — Analisis Jejak.** Poster menampilkan sekelompok orang belajar di tepi kolam, dengan teks besar:
+>
+> **Titik penting:** python3 - <<'EOF'
+>
+> **Berikutnya:** [Analisis Jejak](09-career-tempat-belajar-04-analisis-jejak-2.md)
+
 ## 2.1 Membaca poster
 
 Poster menampilkan sekelompok orang belajar di tepi kolam, dengan teks besar:

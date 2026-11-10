@@ -2,6 +2,12 @@
 
 [← Overview](22-static-iv-offline.md) · [Index](index.md)
 
+> **Langkah 3/7 — Analisis.** Dengan IV statis dan key yang sama, dua plaintext yang berbeda tetapi berbagi blok pertama yang sama akan menghasilkan blok ciphertext pertama yang sama.
+>
+> **Titik penting:** Dengan IV statis dan key yang sama, dua plaintext yang berbeda tetapi berbagi blok pertama yang sama akan menghasilkan blok ciphertext pertama yang sama.
+>
+> **Berikutnya:** [Solver](22-static-iv-offline-04-solver.md)
+
 ### 2.1 Key derivation
 
 ```text

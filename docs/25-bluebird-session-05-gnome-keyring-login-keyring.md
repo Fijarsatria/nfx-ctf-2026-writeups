@@ -2,6 +2,12 @@
 
 [← Overview](25-bluebird-session.md) · [Index](index.md)
 
+> **Langkah 5/11 — GNOME Keyring `login.keyring`.** Atribut adalah MD5 dari nilai:
+>
+> **Titik penting:** Atribut adalah MD5 dari nilai:
+>
+> **Berikutnya:** [Analisis Artefak](25-bluebird-session-06-analisis-artefak.md)
+
 ## 2.3 GNOME Keyring `login.keyring`
 
 Header:

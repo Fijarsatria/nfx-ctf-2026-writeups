@@ -2,6 +2,12 @@
 
 [← Overview](21-rsa-coppersmith-cihuy.md) · [Index](index.md)
 
+> **Langkah 2/7 — Analisis.** Faktor p dapat ditulis:
+>
+> **Titik penting:** Faktor p dapat ditulis:
+>
+> **Berikutnya:** [Script lengkap](21-rsa-coppersmith-cihuy-03-script-lengkap.md)
+
 ### 2.1 Persamaan partial key exposure
 
 Faktor `p` dapat ditulis:

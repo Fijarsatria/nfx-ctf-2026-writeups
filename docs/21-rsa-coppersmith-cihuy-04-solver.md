@@ -2,6 +2,12 @@
 
 [← Overview](21-rsa-coppersmith-cihuy.md) · [Index](index.md)
 
+> **Langkah 4/7 — Solver.** Script writeups/assets/rsa-coppersmith-cihuy/verify.py mengecek ulang:
+>
+> **Titik penting:** python3 writeups/assets/rsa-coppersmith-cihuy/solve.py · python3 verify.py · NFXCTF{C0pp3rsm1th_p4rt14l_k3y_3xp0sur3_9617eda9}
+>
+> **Berikutnya:** [Flag](21-rsa-coppersmith-cihuy-05-flag.md)
+
 ## 3.2 Output asli
 
 ```text

@@ -2,6 +2,12 @@
 
 [← Overview](06-insider.md) · [Index](index.md)
 
+> **Langkah 7/10 — Pemulihan Artefak.** Script lengkap: assets/insider/dumpinsider.py.
+>
+> **Titik penting:** python3 dump_insider.py · https://github.com/hfiref0x/UACME · https://0x00sec.org/
+>
+> **Berikutnya:** [Flag](06-insider-08-flag.md)
+
 ### 3.1 Strategi
 
 1. Ekstrak tar.gz.

@@ -23,6 +23,20 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | file rahasia.pdf | [Buka](28-dokodemo-door-01-recon.md) |
+| 2 | Analisis | python3 solve_dokodemo.py | [Buka](28-dokodemo-door-02-analisis.md) |
+| 3 | Ekstraksi teks dari PDF | NFX{k3tuk_p1ntu_bUk4_d0kum3n_x0r} | [Buka](28-dokodemo-door-03-ekstraksi-teks-dari-pdf.md) |
+| 4 | Strategi | — | [Buka](28-dokodemo-door-04-strategi.md) |
+| 5 | Solver | — | [Buka](28-dokodemo-door-05-solver.md) |
+| 6 | Output asli | python3 solve_dokodemo.py | [Buka](28-dokodemo-door-06-output-asli.md) |
+| 7 | Flag | NFX{k3tuk_p1ntu_bUk4_d0kum3n_x0r} | [Buka](28-dokodemo-door-07-flag.md) |
+| 8 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](28-dokodemo-door-08-bukti-evidence.md) |
+| 9 | Referensi | ASCII85Decode + FlateDecode. | [Buka](28-dokodemo-door-09-referensi.md) |
+
 ## TL;DR
 
 - `rahasia.pdf` bukan PDF lagi: seluruh byte di-XOR dengan **repeating key**

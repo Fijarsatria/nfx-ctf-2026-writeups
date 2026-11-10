@@ -2,6 +2,12 @@
 
 [← Overview](47-medium-tea.md) · [Index](index.md)
 
+> **Langkah 1/12 — Recon.** Petunjuknya sangat langsung: TEA, 32 ronde, key 128-bit tertanam, padding nol ke kelipatan 8 byte.
+>
+> **Titik penting:** NFX{...}
+>
+> **Berikutnya:** [Triage awal](47-medium-tea-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: cypera**

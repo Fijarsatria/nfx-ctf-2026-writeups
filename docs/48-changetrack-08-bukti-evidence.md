@@ -5,6 +5,12 @@
 
 [← Overview](48-changetrack.md) · [Index](index.md)
 
+> **Langkah 8/9 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](48-changetrack-09-referensi.md)
+
 
 ## Arsip Evidence
 

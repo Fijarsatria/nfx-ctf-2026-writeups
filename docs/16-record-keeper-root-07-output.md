@@ -2,6 +2,12 @@
 
 [← Overview](16-record-keeper-root.md) · [Index](index.md)
 
+> **Langkah 7/10 — Output.** Kredensial ops yang berhasil dicuri (dikonfirmasi di notes, tidak diperlukan untuk langkah akhir):
+>
+> **Titik penting:** tar -xOzf /tmp/opsexfil/rootarc.tar.gz ./root.txt · NFX{sp00l3r_4rch1v3_r00t_pwn3d}
+>
+> **Berikutnya:** [Flag](16-record-keeper-root-08-flag.md)
+
 ## 3.3 Output
 
 ```text

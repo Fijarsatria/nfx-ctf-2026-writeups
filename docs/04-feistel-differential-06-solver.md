@@ -2,6 +2,12 @@
 
 [← Overview](04-feistel-differential.md) · [Index](index.md)
 
+> **Langkah 6/9 — Solver.** Catatan: output pairs 6 adalah model underdetermined yang salah; sengaja ditampilkan untuk menunjukkan mengapa 7 pasangan dipakai.
+>
+> **Titik penting:** python3 writeups/assets/feistel-differential/solve.py · NFXCTF{d1ff3r3nt14l_crypt0_pwn5_f31st3l_45322835} · NFXCTF{d1ff3r3nt14l_crypt0_pwn5_f31st3l_45322835} (49 byte)
+>
+> **Berikutnya:** [Flag](04-feistel-differential-07-flag.md)
+
 ## 3.3 Output asli
 
 ```text

@@ -23,6 +23,19 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | tcp://s1.nfx.my.id:43210 | [Buka](20-flagkeepers-01-recon.md) |
+| 2 | Analisis | Untuk nonce 12 byte: | [Buka](20-flagkeepers-02-analisis.md) |
+| 3 | Helper GF(2^128) / GHASH | Tersimpan di writeups/assets/flagkeepers/gcmtool.py. | [Buka](20-flagkeepers-03-helper-gf-2-128-ghash.md) |
+| 4 | Solver | NFX{gcm_f0rb1dd3n_4tt4ck_du4l_t4g_c0ll1s10n_m4st3r} | [Buka](20-flagkeepers-04-solver.md) |
+| 5 | Reproduksi offline | python3 offline_sim.py | [Buka](20-flagkeepers-05-reproduksi-offline.md) |
+| 6 | Flag | NFX{gcm_f0rb1dd3n_4tt4ck_du4l_t4g_c0ll1s10n_m4st3r} | [Buka](20-flagkeepers-06-flag.md) |
+| 7 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](20-flagkeepers-07-bukti-evidence.md) |
+| 8 | Referensi | — | [Buka](20-flagkeepers-08-referensi.md) |
+
 ## TL;DR
 
 - `app.py` memakai **satu nonce GCM global** untuk dua key berbeda

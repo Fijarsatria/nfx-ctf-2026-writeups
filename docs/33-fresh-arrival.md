@@ -23,6 +23,19 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Jejak Awal | sha256sum osint/spotted.jpg | [Buka](33-fresh-arrival-01-jejak-awal.md) |
+| 2 | Triage awal | file osint/spotted.jpg | [Buka](33-fresh-arrival-02-triage-awal.md) |
+| 3 | Analisis Jejak | https://www.jetphotos.com/photo/11925184 | [Buka](33-fresh-arrival-03-analisis-jejak.md) |
+| 4 | Analisis Jejak | NFX{IATA_ICAO_kota_namadepan} | [Buka](33-fresh-arrival-04-analisis-jejak-2.md) |
+| 5 | Pencarian & Verifikasi | — | [Buka](33-fresh-arrival-05-pencarian-verifikasi.md) |
+| 6 | Flag | NFX{XW_CXH_beijing_raihan} | [Buka](33-fresh-arrival-06-flag.md) |
+| 7 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](33-fresh-arrival-07-bukti-evidence.md) |
+| 8 | Referensi | https://www.jetphotos.com/photo/11925184 | [Buka](33-fresh-arrival-08-referensi.md) |
+
 ## TL;DR
 
 - Foto challenge adalah **Boeing 737-341(SF)**, registrasi **PK-ADL**,

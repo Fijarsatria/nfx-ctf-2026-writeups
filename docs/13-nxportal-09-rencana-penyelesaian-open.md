@@ -2,6 +2,12 @@
 
 [← Overview](13-nxportal.md) · [Index](index.md)
 
+> **Langkah 9/10 — Rencana Penyelesaian (OPEN).** Kriteria selesai: mendapatkan token /reset yang valid, mengganti password admin@nxctf.local, login, dan membaca flag NFX{...} dari dashboard/console.
+>
+> **Titik penting:** NFX{...}
+>
+> **Berikutnya:** [Referensi](13-nxportal-10-referensi.md)
+
 Prioritas:
 
 1. **Akses mailbox internal.** Cari MailHog/Mailpit API (`/api/v2/messages`)

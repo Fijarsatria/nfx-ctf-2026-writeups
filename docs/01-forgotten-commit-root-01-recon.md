@@ -2,6 +2,12 @@
 
 [← Overview](01-forgotten-commit-root.md) · [Index](index.md)
 
+> **Langkah 1/8 — Recon.** Challenge ini adalah tahap Root dari rangkaian Forgotten Commit.
+>
+> **Titik penting:** nmap -Pn -sV -p 22,80 10.10.20.21 · curl -sS -i http://10.10.20.21/ · curl -sS -i http://10.10.20.21/.git/HEAD
+>
+> **Berikutnya:** [Analisis](01-forgotten-commit-root-02-analisis.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: Ariaf

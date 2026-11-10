@@ -2,6 +2,12 @@
 
 [← Overview](20-flagkeepers.md) · [Index](index.md)
 
+> **Langkah 5/8 — Reproduksi offline.** Karena oracle sudah tidak selalu hidup, serangan juga direproduksi offline dengan app.py semantics dan flag placeholder.
+>
+> **Titik penting:** python3 offline_sim.py · NFX{placeholder_offline_demo}
+>
+> **Berikutnya:** [Flag](20-flagkeepers-06-flag.md)
+
 ## 3.4 Reproduksi offline
 
 Karena oracle sudah tidak selalu hidup, serangan juga direproduksi offline

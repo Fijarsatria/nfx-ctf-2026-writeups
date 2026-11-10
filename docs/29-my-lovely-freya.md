@@ -23,6 +23,20 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | unzip -l FreyaSayangkuh | [Buka](29-my-lovely-freya-01-recon.md) |
+| 2 | Triage awal | file FreyaSayangkuh | [Buka](29-my-lovely-freya-02-triage-awal.md) |
+| 3 | Analisis | python3 extract_hidden.py | [Buka](29-my-lovely-freya-03-analisis.md) |
+| 4 | Dekripsi | openssl enc -d -aes-256-cbc -md sha256 -pbkdf2 -iter 100000 \ | [Buka](29-my-lovely-freya-04-dekripsi.md) |
+| 5 | Penyelesaian | openssl enc -d -aes-256-cbc -md sha256 -pbkdf2 -iter 100000 \ | [Buka](29-my-lovely-freya-05-penyelesaian.md) |
+| 6 | Output asli | python3 extract_hidden.py | [Buka](29-my-lovely-freya-06-output-asli.md) |
+| 7 | Flag | NFX{FR3Y4_MY_L0V3LY!} | [Buka](29-my-lovely-freya-07-flag.md) |
+| 8 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](29-my-lovely-freya-08-bukti-evidence.md) |
+| 9 | Referensi | — | [Buka](29-my-lovely-freya-09-referensi.md) |
+
 ## TL;DR
 
 - Attachment `FreyaSayangkuh` adalah **ZIP** berisi `freya_sayangkuh.png`

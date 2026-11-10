@@ -2,6 +2,12 @@
 
 [← Overview](01-forgotten-commit-root.md) · [Index](index.md)
 
+> **Langkah 8/8 — Referensi.** Referensi
+>
+> **Titik penting:** —
+>
+> **Selesai.** Kembali ke [Overview](01-forgotten-commit-root.md).
+
 - `git-dumper` — tool untuk mengambil repository dari `.git` yang terekspos.
 - Git object model: `git show <commit>:<path>` untuk membaca file di commit lama.
 - fzf man page: `--listen[=[ADDR:]PORT]` dan action `execute(...)`.

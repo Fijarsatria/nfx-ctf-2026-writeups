@@ -2,6 +2,12 @@
 
 [← Overview](46-medium-rc4.md) · [Index](index.md)
 
+> **Langkah 7/11 — Solver lengkap.** File: writeups/assets/medium-rc4/solverc4.py
+>
+> **Titik penting:** File: writeups/assets/medium-rc4/solverc4.py
+>
+> **Berikutnya:** [Menjalankan solver](46-medium-rc4-08-menjalankan-solver.md)
+
 ## 3.2 Solver lengkap
 
 File: `writeups/assets/medium-rc4/solve_rc4.py`

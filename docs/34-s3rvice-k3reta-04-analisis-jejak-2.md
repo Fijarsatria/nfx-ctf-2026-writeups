@@ -2,6 +2,12 @@
 
 [← Overview](34-s3rvice-k3reta.md) · [Index](index.md)
 
+> **Langkah 4/9 — Analisis Jejak.** Dua jawaban ini berasal dari sesi Q&A yang sudah dijawab benar.
+>
+> **Titik penting:** Dua jawaban ini berasal dari sesi Q&A yang sudah dijawab benar.
+>
+> **Berikutnya:** [Q9–Q13: dari post TikTok ke Plus Code](34-s3rvice-k3reta-05-q9-q13-dari-post-tiktok-ke-plus-code.md)
+
 ## 2.4 Q7 “Atlas” dan Q8 “6007”
 
 Dua jawaban ini berasal dari sesi Q&A yang sudah dijawab benar. Padanan

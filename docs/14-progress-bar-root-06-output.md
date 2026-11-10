@@ -2,6 +2,12 @@
 
 [← Overview](14-progress-bar-root.md) · [Index](index.md)
 
+> **Langkah 6/9 — Output.** Urutan cat adalah /root/root.txt lalu /home/deploy/user.txt.
+>
+> **Titik penting:** NFX{fr0m_w4tcht0w3r_c0nf1g_t0_r00t_3xp0rt_j0b} · NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4} · uid=0(root) gid=0(root) groups=0(root)
+>
+> **Berikutnya:** [Flag](14-progress-bar-root-07-flag.md)
+
 ## 3.3 Output
 
 ```text

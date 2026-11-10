@@ -2,6 +2,12 @@
 
 [← Overview](07-perimeter-breach.md) · [Index](index.md)
 
+> **Langkah 9/11 — Flag.** Flag
+>
+> **Titik penting:** NFX{P4th_1nt0_Pr0duct10n}
+>
+> **Berikutnya:** [Bukti / Evidence](07-perimeter-breach-10-bukti-evidence.md)
+
 > **Flag:** `NFX{P4th_1nt0_Pr0duct10n}`
 > **Status:** `VERIFIED`
 

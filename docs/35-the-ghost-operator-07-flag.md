@@ -2,6 +2,12 @@
 
 [← Overview](35-the-ghost-operator.md) · [Index](index.md)
 
+> **Langkah 7/9 — Flag.** Verifikasi platform (2026-11-08):
+>
+> **Titik penting:** NFX{villa_istana_bunga_lembang}
+>
+> **Berikutnya:** [Bukti / Evidence](35-the-ghost-operator-08-bukti-evidence.md)
+
 > **Flag:** `NFX{villa_istana_bunga_lembang}`
 > **Status:** `VERIFIED`
 

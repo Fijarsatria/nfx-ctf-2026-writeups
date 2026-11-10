@@ -2,6 +2,12 @@
 
 [← Overview](49-linkvault.md) · [Index](index.md)
 
+> **Langkah 7/12 — Strategi.** Strategi
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Langkah exploit (live)](49-linkvault-08-langkah-exploit-live.md)
+
 ## 3.1 Strategi
 
 - Gunakan IPv6 loopback `[::1]` untuk SSRF.

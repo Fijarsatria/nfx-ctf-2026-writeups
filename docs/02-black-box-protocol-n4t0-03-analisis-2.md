@@ -2,6 +2,12 @@
 
 [← Overview](02-black-box-protocol-n4t0.md) · [Index](index.md)
 
+> **Langkah 3/7 — Analisis.** Tiga nilai di kolom C, jika di-struct.pack(">f", v), menghasilkan byte ASCII:
+>
+> **Titik penting:** NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}
+>
+> **Berikutnya:** [Solver](02-black-box-protocol-n4t0-04-solver.md)
+
 ## 2.4 Kolom C — float32 big-endian
 
 Tiga nilai di kolom C, jika di-`struct.pack(">f", v)`, menghasilkan byte ASCII:

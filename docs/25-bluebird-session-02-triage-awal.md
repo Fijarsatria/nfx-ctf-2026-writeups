@@ -2,6 +2,12 @@
 
 [← Overview](25-bluebird-session.md) · [Index](index.md)
 
+> **Langkah 2/11 — Triage awal.** /etc/passwd (user manusia):
+>
+> **Titik penting:** file for_nozomi.zip login.keyring 423261422632617826.jpg
+>
+> **Berikutnya:** [Identitas dua user](25-bluebird-session-03-identitas-dua-user.md)
+
 ## 1.4 Triage awal
 
 ```bash

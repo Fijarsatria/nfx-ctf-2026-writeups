@@ -2,6 +2,12 @@
 
 [← Overview](40-starved.md) · [Index](index.md)
 
+> **Langkah 5/9 — Eksploitasi.** Tersimpan di writeups/assets/starved/exploit.py:
+>
+> **Titik penting:** python3 exploit.py \| tee 03-exploit-run.txt · NFX{LOCAL_TEST_FLAG_STARVED}
+>
+> **Berikutnya:** [Output asli](40-starved-06-output-asli.md)
+
 ## 3.1 Strategi
 
 1. Kirim nickname `%27$p|%29$p|%85$p` → canary, PIE, libc.

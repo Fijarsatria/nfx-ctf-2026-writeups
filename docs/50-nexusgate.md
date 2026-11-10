@@ -23,6 +23,23 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Deskripsi challenge | Empat komponen yang disebut: 1. | [Buka](50-nexusgate-01-deskripsi-challenge.md) |
+| 2 | Recon | curl -sS http://s1.nfx.my.id:49535/health | [Buka](50-nexusgate-02-recon.md) |
+| 3 | ACL bypass: raw `req.url` vs `new URL()` | http://127.0.0.1:8080' | [Buka](50-nexusgate-03-acl-bypass-raw-req-url-vs-new-url.md) |
+| 4 | Cursor over-grant → PHASE_TOKEN | Audit user <user> sekarang berisi: | [Buka](50-nexusgate-04-cursor-over-grant-phase-token.md) |
+| 5 | File-read sandbox: Node permission tree | 127.0.0.1 | [Buka](50-nexusgate-05-file-read-sandbox-node-permission-tree.md) |
+| 6 | Analisis | — | [Buka](50-nexusgate-06-analisis.md) |
+| 7 | Strategi | — | [Buka](50-nexusgate-07-strategi.md) |
+| 8 | Langkah exploit (live) | curl -sS -c cj -X POST -d 'username=ng123456&password=pw' "$BASE/register" | [Buka](50-nexusgate-08-langkah-exploit-live.md) |
+| 9 | Output asli | NFX{n3xu5_g4t3_0v3r_gr4nt_c4ch3_smuggl3_2026} | [Buka](50-nexusgate-09-output-asli.md) |
+| 10 | Flag | NFX{n3xu5_g4t3_0v3r_gr4nt_c4ch3_smuggl3_2026} | [Buka](50-nexusgate-10-flag.md) |
+| 11 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](50-nexusgate-11-bukti-evidence.md) |
+| 12 | Referensi | — | [Buka](50-nexusgate-12-referensi.md) |
+
 ## TL;DR
 
 - **NexusGate** terdiri dari edge reverse proxy Node.js (`:80`) di depan microservice vault (`127.0.0.1:8080`).

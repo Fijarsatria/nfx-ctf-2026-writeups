@@ -2,6 +2,12 @@
 
 [← Overview](07-perimeter-breach.md) · [Index](index.md)
 
+> **Langkah 4/11 — Initial access — admin login.** Login admin pertama pukul 08:30 dari 36.80.14.22 adalah admin sah.
+>
+> **Titik penting:** 36.80.14.22 · 185.220.101.47
+>
+> **Berikutnya:** [Webshell execution](07-perimeter-breach-05-webshell-execution.md)
+
 ## 2.3 Initial access — admin login
 
 `webapp.log`:

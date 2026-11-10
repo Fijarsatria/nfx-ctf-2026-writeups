@@ -2,6 +2,12 @@
 
 [← Overview](35-the-ghost-operator.md) · [Index](index.md)
 
+> **Langkah 3/9 — Analisis Jejak.** Dua URL telegra.ph dapat diakses langsung.
+>
+> **Titik penting:** Dua URL telegra.ph dapat diakses langsung.
+>
+> **Berikutnya:** [Identifikasi tempat](35-the-ghost-operator-04-identifikasi-tempat.md)
+
 ## 2.3 Field notes di telegra.ph
 
 Dua URL telegra.ph dapat diakses langsung. Ternyata ada juga varian `-3`

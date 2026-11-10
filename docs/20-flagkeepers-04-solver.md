@@ -2,6 +2,12 @@
 
 [← Overview](20-flagkeepers.md) · [Index](index.md)
 
+> **Langkah 4/8 — Solver.** Tersimpan di writeups/assets/flagkeepers/exploitlive.py (ringkas):
+>
+> **Titik penting:** NFX{gcm_f0rb1dd3n_4tt4ck_du4l_t4g_c0ll1s10n_m4st3r}
+>
+> **Berikutnya:** [Reproduksi offline](20-flagkeepers-05-reproduksi-offline.md)
+
 ## 3.2 Exploit live
 
 Tersimpan di `writeups/assets/flagkeepers/exploit_live.py` (ringkas):

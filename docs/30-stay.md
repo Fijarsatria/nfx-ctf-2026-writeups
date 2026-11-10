@@ -23,6 +23,17 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | cat -v stay_zw_raw.txt \| head -2 | [Buka](30-stay-01-recon.md) |
+| 2 | Analisis | Kita hanya mengambil karakter yang ada di tabel mapping, sesuai urutan kemunculannya di teks. | [Buka](30-stay-02-analisis.md) |
+| 3 | Penyelesaian | python3 solve_stay.py | [Buka](30-stay-03-penyelesaian.md) |
+| 4 | Flag | NFX{st4y_w1th_m3_1n_th3_d4rk} | [Buka](30-stay-04-flag.md) |
+| 5 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](30-stay-05-bukti-evidence.md) |
+| 6 | Referensi | — | [Buka](30-stay-06-referensi.md) |
+
 ## TL;DR
 
 - Tidak ada attachment: payload ada di **teks lirik pada deskripsi challenge**.

@@ -5,6 +5,12 @@
 
 [← Overview](25-bluebird-session.md) · [Index](index.md)
 
+> **Langkah 10/11 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](25-bluebird-session-11-referensi.md)
+
 
 ## Arsip Evidence
 

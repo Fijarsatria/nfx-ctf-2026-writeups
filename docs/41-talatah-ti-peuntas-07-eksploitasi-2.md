@@ -2,6 +2,12 @@
 
 [← Overview](41-talatah-ti-peuntas.md) · [Index](index.md)
 
+> **Langkah 7/10 — Eksploitasi.** Tersimpan di writeups/assets/talatah-ti-peuntas/exploit.py:
+>
+> **Titik penting:** python3 exploit.py \| tee 03-exploit-run.txt · NFX{LOCAL_TEST_FLAG_TALATAH}
+>
+> **Berikutnya:** [Flag](41-talatah-ti-peuntas-08-flag.md)
+
 ## 3.4 Script lengkap
 
 Tersimpan di `writeups/assets/talatah-ti-peuntas/exploit.py`:

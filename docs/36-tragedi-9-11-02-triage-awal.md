@@ -2,6 +2,12 @@
 
 [← Overview](36-tragedi-9-11.md) · [Index](index.md)
 
+> **Langkah 2/8 — Triage awal.** Triage awal
+>
+> **Titik penting:** file drive/view.mp4 · ffprobe -v error -show_format -show_streams drive/view.mp4
+>
+> **Berikutnya:** [Analisis Jejak](36-tragedi-9-11-03-analisis-jejak.md)
+
 ## 1.4 Triage awal
 
 ```bash

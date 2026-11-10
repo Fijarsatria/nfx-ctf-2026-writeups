@@ -2,6 +2,12 @@
 
 [← Overview](27-weak-handshake.md) · [Index](index.md)
 
+> **Langkah 3/10 — Analisis Artefak.** Ambil Certificate handshake:
+>
+> **Titik penting:** openssl x509 -inform DER -in tomoyo_cert.der -noout -text
+>
+> **Berikutnya:** [Analisis Artefak](27-weak-handshake-04-analisis-artefak-3.md)
+
 ## 2.3 Sertifikat RSA 1024-bit
 
 Ambil Certificate handshake:

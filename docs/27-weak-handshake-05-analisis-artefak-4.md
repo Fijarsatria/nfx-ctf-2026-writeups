@@ -2,6 +2,12 @@
 
 [← Overview](27-weak-handshake.md) · [Index](index.md)
 
+> **Langkah 5/10 — Analisis Artefak.** Setiap record setelah ChangeCipherSpec memiliki bentuk:
+>
+> **Titik penting:** Setiap record setelah ChangeCipherSpec memiliki bentuk:
+>
+> **Berikutnya:** [Pemulihan Artefak](27-weak-handshake-06-pemulihan-artefak.md)
+
 ## 2.7 Format record ciphertext
 
 Setiap record setelah ChangeCipherSpec memiliki bentuk:

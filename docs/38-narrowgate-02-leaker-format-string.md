@@ -2,6 +2,12 @@
 
 [← Overview](38-narrowgate.md) · [Index](index.md)
 
+> **Langkah 2/9 — `leaker()` — format string.** Format string, tanpa overflow di leaker.
+>
+> **Titik penting:** Format string, tanpa overflow di leaker.
+>
+> **Berikutnya:** [`main()` — validasi 16-bit](38-narrowgate-03-main-validasi-16-bit.md)
+
 ## 2.1 `leaker()` — format string
 
 ```asm

@@ -2,6 +2,12 @@
 
 [← Overview](16-record-keeper-root.md) · [Index](index.md)
 
+> **Langkah 5/10 — Strategi.** Strategi
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Langkah exploit](16-record-keeper-root-06-langkah-exploit.md)
+
 ## 3.1 Strategi
 
 1. Dapatkan shell `node` lewat Node2Shell.

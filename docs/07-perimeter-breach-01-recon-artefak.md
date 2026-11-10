@@ -2,6 +2,12 @@
 
 [← Overview](07-perimeter-breach.md) · [Index](index.md)
 
+> **Langkah 1/11 — Recon Artefak.** Distribusi source IP:
+>
+> **Titik penting:** sha256sum access.log auth.log webapp.log · awk '{print $1}' access.log \| sort \| uniq -c \| sort -rn \| head · 185.220.101.47
+>
+> **Berikutnya:** [Reconnaissance — gobuster](07-perimeter-breach-02-reconnaissance-gobuster.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: Ariaf

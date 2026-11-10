@@ -2,6 +2,12 @@
 
 [← Overview](45-hard-vm-bytecode.md) · [Index](index.md)
 
+> **Langkah 2/13 — Triage awal.** Triage awal
+>
+> **Titik penting:** file reverse/Hard_01_VM_Bytecode/hard_vm · sha256sum reverse/Hard_01_VM_Bytecode/hard_vm · md5sum reverse/Hard_01_VM_Bytecode/hard_vm
+>
+> **Berikutnya:** [Perintah akuisisi bukti](45-hard-vm-bytecode-03-perintah-akuisisi-bukti.md)
+
 ## 1.4 Triage awal
 
 ```text

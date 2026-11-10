@@ -2,6 +2,12 @@
 
 [← Overview](15-progress-bar-user.md) · [Index](index.md)
 
+> **Langkah 8/11 — Flag.** Byte-exact dari target:
+>
+> **Titik penting:** NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}
+>
+> **Berikutnya:** [Riwayat penolakan di backend lama](15-progress-bar-user-09-riwayat-penolakan-di-backend-lama.md)
+
 > **Flag:** `NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}`
 > **Status:** `VERIFIED`
 

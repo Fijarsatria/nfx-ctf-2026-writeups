@@ -2,6 +2,12 @@
 
 [← Overview](28-dokodemo-door.md) · [Index](index.md)
 
+> **Langkah 7/9 — Flag.** Flag
+>
+> **Titik penting:** NFX{k3tuk_p1ntu_bUk4_d0kum3n_x0r}
+>
+> **Berikutnya:** [Bukti / Evidence](28-dokodemo-door-08-bukti-evidence.md)
+
 > **Flag:** `NFX{k3tuk_p1ntu_bUk4_d0kum3n_x0r}`
 > **Status:** `VERIFIED`
 

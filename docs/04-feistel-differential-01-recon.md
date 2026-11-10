@@ -2,6 +2,12 @@
 
 [← Overview](04-feistel-differential.md) · [Index](index.md)
 
+> **Langkah 1/9 — Recon.** flag.enc adalah 104 karakter hex + newline = 52 byte ciphertext (13 blok 4-byte).
+>
+> **Titik penting:** xxd flag.enc \| head · head -5 pairs.txt · wc -l pairs.txt
+>
+> **Berikutnya:** [Analisis](04-feistel-differential-02-analisis.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: Illal

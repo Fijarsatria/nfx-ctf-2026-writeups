@@ -23,6 +23,19 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | python3 challenge.py | [Buka](18-broken-signature-scheme-01-recon.md) |
+| 2 | Layer 1 — RSA signature multiplicatif | Skema menandatangani pesan mentah: | [Buka](18-broken-signature-scheme-02-layer-1-rsa-signature-multiplicatif.md) |
+| 3 | Analisis | Karena p+q integer, δ² + 4N harus kuadrat sempurna. | [Buka](18-broken-signature-scheme-03-analisis.md) |
+| 4 | Solver | Tersimpan di writeups/assets/broken-signature-scheme/solve.py: | [Buka](18-broken-signature-scheme-04-solver.md) |
+| 5 | Solver | python3 solve.py | [Buka](18-broken-signature-scheme-05-solver-2.md) |
+| 6 | Flag | NXCTF{mult1_l4y3r_l4tt1c3_r54_s1gn4tur3_hnp_8c211ad6b5a6} | [Buka](18-broken-signature-scheme-06-flag.md) |
+| 7 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](18-broken-signature-scheme-07-bukti-evidence.md) |
+| 8 | Referensi | — | [Buka](18-broken-signature-scheme-08-referensi.md) |
+
 ## TL;DR
 
 Challenge punya tiga lapisan:

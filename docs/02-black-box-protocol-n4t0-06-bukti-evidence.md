@@ -5,6 +5,12 @@
 
 [← Overview](02-black-box-protocol-n4t0.md) · [Index](index.md)
 
+> **Langkah 6/7 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](02-black-box-protocol-n4t0-07-referensi.md)
+
 
 ## Arsip Evidence
 

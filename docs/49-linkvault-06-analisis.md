@@ -2,6 +2,12 @@
 
 [← Overview](49-linkvault.md) · [Index](index.md)
 
+> **Langkah 6/12 — Analisis.** Bot berjalan setiap 25 detik (setelah sleep 15 detik pertama), memakai cookie adminSID, dan membuka /moderation.
+>
+> **Titik penting:** http://127.0.0.1:80/moderation" · http://[::1 · http://127.0.0.1:80
+>
+> **Berikutnya:** [Strategi](49-linkvault-07-strategi.md)
+
 ## 2.3 Admin bot dan template moderasi
 
 `bot.go`:

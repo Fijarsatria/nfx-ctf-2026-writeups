@@ -2,6 +2,12 @@
 
 [← Overview](37-gateway-under-pressure.md) · [Index](index.md)
 
+> **Langkah 2/8 — Triage awal.** strings langsung menunjukkan fungsi win dan path flag:
+>
+> **Titik penting:** file gateway · checksec (pwntools)
+>
+> **Berikutnya:** [`do_audit()` — arbitrary-length stack read](37-gateway-under-pressure-03-do-audit-arbitrary-length-stack-read.md)
+
 ## 1.4 Triage awal
 
 ```text

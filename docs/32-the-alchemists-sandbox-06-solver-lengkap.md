@@ -2,6 +2,12 @@
 
 [← Overview](32-the-alchemists-sandbox.md) · [Index](index.md)
 
+> **Langkah 6/10 — Solver lengkap.** Solver lengkap
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Output asli](32-the-alchemists-sandbox-07-output-asli.md)
+
 ## 3.2 Solver lengkap
 
 ```python

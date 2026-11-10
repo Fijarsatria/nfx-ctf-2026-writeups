@@ -5,6 +5,12 @@
 
 [← Overview](20-flagkeepers.md) · [Index](index.md)
 
+> **Langkah 7/8 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](20-flagkeepers-08-referensi.md)
+
 
 ## Arsip Evidence
 

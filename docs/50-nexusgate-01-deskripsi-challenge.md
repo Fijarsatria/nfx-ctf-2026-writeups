@@ -2,6 +2,12 @@
 
 [← Overview](50-nexusgate.md) · [Index](index.md)
 
+> **Langkah 1/12 — Deskripsi challenge.** Empat komponen yang disebut: 1.
+>
+> **Titik penting:** Empat komponen yang disebut: 1.
+>
+> **Berikutnya:** [Recon](50-nexusgate-02-recon.md)
+
 ## 1.1 Deskripsi challenge
 
 > Author: Ariaf

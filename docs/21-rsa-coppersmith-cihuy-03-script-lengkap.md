@@ -2,6 +2,12 @@
 
 [← Overview](21-rsa-coppersmith-cihuy.md) · [Index](index.md)
 
+> **Langkah 3/7 — Script lengkap.** Tersimpan di writeups/assets/rsa-coppersmith-cihuy/solve.py:
+>
+> **Titik penting:** Tersimpan di writeups/assets/rsa-coppersmith-cihuy/solve.py:
+>
+> **Berikutnya:** [Solver](21-rsa-coppersmith-cihuy-04-solver.md)
+
 ## 3.1 Script lengkap
 
 Tersimpan di `writeups/assets/rsa-coppersmith-cihuy/solve.py`:

@@ -5,6 +5,12 @@
 
 [← Overview](21-rsa-coppersmith-cihuy.md) · [Index](index.md)
 
+> **Langkah 6/7 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](21-rsa-coppersmith-cihuy-07-referensi.md)
+
 
 ## Arsip Evidence
 

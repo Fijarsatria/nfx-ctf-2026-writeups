@@ -2,6 +2,12 @@
 
 [← Overview](17-record-keeper-user.md) · [Index](index.md)
 
+> **Langkah 4/9 — Setelah RCE.** Shell berjalan sebagai node.
+>
+> **Titik penting:** Shell berjalan sebagai node.
+>
+> **Berikutnya:** [Eksploitasi / Solver](17-record-keeper-user-05-eksploitasi-solver.md)
+
 ## 2.5 Setelah RCE
 
 Shell berjalan sebagai `node`. File flag:

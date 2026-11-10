@@ -2,6 +2,12 @@
 
 [← Overview](11-nexaidentity.md) · [Index](index.md)
 
+> **Langkah 4/9 — Analisis.** Kami menguji beberapa bentuk pada instance live:
+>
+> **Titik penting:** NFX{...} · NFX{n0sql_0p3r4t0r_4uth_byp4ss}
+>
+> **Berikutnya:** [Eksploitasi / Solver](11-nexaidentity-05-eksploitasi-solver.md)
+
 ## 2.3 Variasi payload
 
 Kami menguji beberapa bentuk pada instance live:

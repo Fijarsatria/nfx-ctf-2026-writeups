@@ -23,6 +23,21 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | Tidak ada service; challenge berupa source yang dijalankan lokal. | [Buka](32-the-alchemists-sandbox-01-recon.md) |
+| 2 | Triage awal | — | [Buka](32-the-alchemists-sandbox-02-triage-awal.md) |
+| 3 | Analisis | Filter memiliki beberapa lapis: | [Buka](32-the-alchemists-sandbox-03-analisis.md) |
+| 4 | Analisis | Payload adalah sebuah tuple berisi assignment-assignment dan ekspresi terakhir. | [Buka](32-the-alchemists-sandbox-04-analisis-2.md) |
+| 5 | Payload | — | [Buka](32-the-alchemists-sandbox-05-payload.md) |
+| 6 | Solver lengkap | — | [Buka](32-the-alchemists-sandbox-06-solver-lengkap.md) |
+| 7 | Output asli | python3 solve_alchemist.py | [Buka](32-the-alchemists-sandbox-07-output-asli.md) |
+| 8 | Flag | NFXCTF{pyj41l_4st_4lch3my_vm_pwn_d84f216a} | [Buka](32-the-alchemists-sandbox-08-flag.md) |
+| 9 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](32-the-alchemists-sandbox-09-bukti-evidence.md) |
+| 10 | Referensi | — | [Buka](32-the-alchemists-sandbox-10-referensi.md) |
+
 ## TL;DR
 
 - `chall.py` mengevaluasi ekspresi Python di sandbox AST yang melarang

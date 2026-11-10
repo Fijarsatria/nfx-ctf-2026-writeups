@@ -2,6 +2,12 @@
 
 [← Overview](44-hard-feistel.md) · [Index](index.md)
 
+> **Langkah 10/13 — Verifikasi tambahan dengan gdb.** Untuk memastikan pemahaman serialisasi output benar, binary dijalankan di gdb dengan flag yang benar.
+>
+> **Titik penting:** Untuk memastikan pemahaman serialisasi output benar, binary dijalankan di gdb dengan flag yang benar.
+>
+> **Berikutnya:** [Flag](44-hard-feistel-11-flag.md)
+
 ## 3.4 Verifikasi tambahan dengan gdb
 
 Untuk memastikan pemahaman serialisasi output benar, binary dijalankan di gdb dengan flag yang benar. Breakpoint dipasang tepat sebelum `memcmp` (setelah loop transformasi, `0x11d9`). Buffer hasil transformasi dibandingkan dengan ciphertext di `.data`:

@@ -2,6 +2,12 @@
 
 [← Overview](24-access-remains.md) · [Index](index.md)
 
+> **Langkah 5/11 — Analisis Artefak.** Masterkey user ariaf:
+>
+> **Titik penting:** python3 /usr/share/doc/python3-impacket/examples/dpapi.py masterkey \ · python3 /usr/share/doc/python3-impacket/examples/dpapi.py credential \
+>
+> **Berikutnya:** [Analisis Artefak](24-access-remains-06-analisis-artefak-2.md)
+
 ## 2.2 DPAPI masterkey
 
 Masterkey user `ariaf`:

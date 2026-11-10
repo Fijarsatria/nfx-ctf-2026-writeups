@@ -131,6 +131,12 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 
 Setiap halaman juga punya daftar isi di sisi kanan, tombol salin pada blok kode, pencarian global, dan tombol kembali ke atas.
 
+!!! info "Cara membaca tiap langkah"
+    - **Langkah X/Y** menunjukkan posisi langkah dan tujuan singkatnya.
+    - **Titik penting** merangkum command, output, endpoint, atau flag.
+    - **Evidence langkah ini** menampilkan screenshot dan link berkas mentah.
+    - **Berikutnya** mengarah ke langkah selanjutnya.
+
 ## Tentang penulis
 
 <div class="nx-author-card">

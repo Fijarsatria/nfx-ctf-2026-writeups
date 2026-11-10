@@ -2,6 +2,12 @@
 
 [← Overview](41-talatah-ti-peuntas.md) · [Index](index.md)
 
+> **Langkah 3/10 — Analisis.** Panjang pesan dibatasi 24..0x400 (0x18..0x400).
+>
+> **Titik penting:** Panjang pesan dibatasi 24..0x400 (0x18..0x400).
+>
+> **Berikutnya:** [Analisis](41-talatah-ti-peuntas-04-analisis-2.md)
+
 ## 2.1 Format pesan TLT1
 
 Dari `op_parse`:

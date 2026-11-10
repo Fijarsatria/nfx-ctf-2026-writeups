@@ -2,6 +2,12 @@
 
 [← Overview](27-weak-handshake.md) · [Index](index.md)
 
+> **Langkah 2/10 — Analisis Artefak.** Data stream port 42345 di-reassemble menjadi clannad.webp:
+>
+> **Titik penting:** file clannad.webp · sha256sum clannad.webp
+>
+> **Berikutnya:** [Analisis Artefak](27-weak-handshake-03-analisis-artefak-2.md)
+
 ## 2.1 FTP: “kenangan yang mudah terlihat”
 
 FTP control:

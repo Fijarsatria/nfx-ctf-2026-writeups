@@ -2,6 +2,12 @@
 
 [← Overview](07-perimeter-breach.md) · [Index](index.md)
 
+> **Langkah 3/11 — SQL injection — sqlmap.** Terlihat UNION-based SQLi, enumerasi informationschema, lalu ekstraksi username,password FROM users.
+>
+> **Titik penting:** https://sqlmap.org · 185.220.101.47
+>
+> **Berikutnya:** [Initial access — admin login](07-perimeter-breach-04-initial-access-admin-login.md)
+
 ## 2.2 SQL injection — sqlmap
 
 ```text

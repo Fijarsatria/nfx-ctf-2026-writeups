@@ -2,6 +2,12 @@
 
 [← Overview](43-castaway.md) · [Index](index.md)
 
+> **Langkah 4/14 — Fungsi `main`.** Lalu transformasi dan perbandingan:
+>
+> **Titik penting:** Lalu transformasi dan perbandingan:
+>
+> **Berikutnya:** [Analisis](43-castaway-05-analisis.md)
+
 ## 2.1 Fungsi `main`
 
 Main ada di `0x142d`. Bagian penting:

@@ -2,6 +2,12 @@
 
 [← Overview](50-nexusgate.md) · [Index](index.md)
 
+> **Langkah 10/12 — Flag.** Flag yang sama dikembalikan POST /flag pada instance live.
+>
+> **Titik penting:** NFX{n3xu5_g4t3_0v3r_gr4nt_c4ch3_smuggl3_2026}
+>
+> **Berikutnya:** [Bukti / Evidence](50-nexusgate-11-bukti-evidence.md)
+
 > **Flag:** `NFX{n3xu5_g4t3_0v3r_gr4nt_c4ch3_smuggl3_2026}`
 > **Status:** `VERIFIED`
 

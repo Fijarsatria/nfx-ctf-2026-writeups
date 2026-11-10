@@ -2,6 +2,12 @@
 
 [← Overview](49-linkvault.md) · [Index](index.md)
 
+> **Langkah 5/12 — Internal import tidak memvalidasi `filter`.** tetapi validasi itu tidak berlaku di jalur internal.
+>
+> **Titik penting:** 127.0.0.1
+>
+> **Berikutnya:** [Analisis](49-linkvault-06-analisis.md)
+
 ## 2.2 Internal import tidak memvalidasi `filter`
 
 `internal.go`:

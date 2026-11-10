@@ -2,6 +2,12 @@
 
 [← Overview](15-progress-bar-user.md) · [Index](index.md)
 
+> **Langkah 3/11 — Analisis.** CVE-2026-109618 adalah RCE via OOM corruption di PHP; fixed di 8.4.27 (8.5.12 / 8.3.36 / 8.2.35 untuk branch lain).
+>
+> **Titik penting:** CVE-2026-109618 adalah RCE via OOM corruption di PHP; fixed di 8.4.27 (8.5.12 / 8.3.36 / 8.2.35 untuk branch lain).
+>
+> **Berikutnya:** [Analisis](15-progress-bar-user-04-analisis-2.md)
+
 ## 2.2 CVE-2026-109618 / PHP2Shell
 
 CVE-2026-109618 adalah RCE via OOM corruption di PHP; fixed di 8.4.27

@@ -2,6 +2,12 @@
 
 [← Overview](05-heker-tersenyum-art-evidence-secret.md) · [Index](index.md)
 
+> **Langkah 7/9 — Flag.** Flag ini konsisten dengan tema challenge: LSB dan “3ASY OR H4RD” — apakah LSB mudah atau sulit, tergantung apakah payload-nya hanya container biasa atau terenkripsi.
+>
+> **Titik penting:** NFX{LSB_3ASY_OR_H4RD_IDK}
+>
+> **Berikutnya:** [Bukti / Evidence](05-heker-tersenyum-art-evidence-secret-08-bukti-evidence.md)
+
 > **Flag:** `NFX{LSB_3ASY_OR_H4RD_IDK}`
 > **Status:** `VERIFIED`
 

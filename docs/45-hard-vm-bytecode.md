@@ -23,6 +23,24 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | NFX{...} | [Buka](45-hard-vm-bytecode-01-recon.md) |
+| 2 | Triage awal | file reverse/Hard_01_VM_Bytecode/hard_vm | [Buka](45-hard-vm-bytecode-02-triage-awal.md) |
+| 3 | Perintah akuisisi bukti | python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ | [Buka](45-hard-vm-bytecode-03-perintah-akuisisi-bukti.md) |
+| 4 | Main dan layout | Layout stack yang relevan: | [Buka](45-hard-vm-bytecode-04-main-dan-layout.md) |
+| 5 | Format instruksi | Loop mengambil 3 byte per instruksi: | [Buka](45-hard-vm-bytecode-05-format-instruksi.md) |
+| 6 | Analisis | Catatan penting: pada LOAD, byte ketiga instruksi adalah index input, sedangkan pada opcode lain byte ketiga adalah immediate. | [Buka](45-hard-vm-bytecode-06-analisis.md) |
+| 7 | Membalik transformasi | Untuk karakter ke-i, bytecode melakukan: | [Buka](45-hard-vm-bytecode-07-membalik-transformasi.md) |
+| 8 | Strategi | — | [Buka](45-hard-vm-bytecode-08-strategi.md) |
+| 9 | Solver lengkap | File: writeups/assets/hard-vm-bytecode/solvevm.py | [Buka](45-hard-vm-bytecode-09-solver-lengkap.md) |
+| 10 | Output asli | python3 writeups/assets/hard-vm-bytecode/solve_vm.py | [Buka](45-hard-vm-bytecode-10-output-asli.md) |
+| 11 | Flag | NFX{vm_byt3c0d3_1s_l1k3_4_puzzl3} | [Buka](45-hard-vm-bytecode-11-flag.md) |
+| 12 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](45-hard-vm-bytecode-12-bukti-evidence.md) |
+| 13 | Referensi | — | [Buka](45-hard-vm-bytecode-13-referensi.md) |
+
 ## TL;DR
 
 - `hard_vm` bukan validator biasa: ia adalah **interpreter bytecode** mini dengan 498 byte program di `.rodata` `0x2080`.

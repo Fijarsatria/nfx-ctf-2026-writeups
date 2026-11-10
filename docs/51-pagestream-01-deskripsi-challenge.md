@@ -2,6 +2,12 @@
 
 [← Overview](51-pagestream.md) · [Index](index.md)
 
+> **Langkah 1/11 — Deskripsi challenge.** Deskripsi challenge
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Recon](51-pagestream-02-recon.md)
+
 ## 1.1 Deskripsi challenge
 
 > Author: Ariaf

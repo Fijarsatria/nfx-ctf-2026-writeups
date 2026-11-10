@@ -23,6 +23,20 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | nmap -Pn -sV -p- --min-rate 2000 10.10.20.22 | [Buka](14-progress-bar-root-01-recon.md) |
+| 2 | Foothold: PHP2Shell CVE-2026-109618 | session.uploadprogress membuat PHP memproses multipart session sebelum kode aplikasi. | [Buka](14-progress-bar-root-02-foothold-php2shell-cve-2026-109618.md) |
+| 3 | Analisis | python3 -u /opt/automation/app.py & | [Buka](14-progress-bar-root-03-analisis.md) |
+| 4 | Strategi | — | [Buka](14-progress-bar-root-04-strategi.md) |
+| 5 | Langkah exploit | curl -sS -F 'PHP_SESSION_UPLOAD_PROGRESS=x' \ | [Buka](14-progress-bar-root-05-langkah-exploit.md) |
+| 6 | Output | NFX{fr0m_w4tcht0w3r_c0nf1g_t0_r00t_3xp0rt_j0b} | [Buka](14-progress-bar-root-06-output.md) |
+| 7 | Flag | NFX{fr0m_w4tcht0w3r_c0nf1g_t0_r00t_3xp0rt_j0b} | [Buka](14-progress-bar-root-07-flag.md) |
+| 8 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](14-progress-bar-root-08-bukti-evidence.md) |
+| 9 | Referensi | 8.4.27 / 8.5.12 / 8.3.36 / 8.2.35. | [Buka](14-progress-bar-root-09-referensi.md) |
+
 ## Ringkasan
 
 > **Catatan bukti.** Sumber utama adalah

@@ -2,6 +2,12 @@
 
 [← Overview](45-hard-vm-bytecode.md) · [Index](index.md)
 
+> **Langkah 5/13 — Format instruksi.** Loop mengambil 3 byte per instruksi:
+>
+> **Titik penting:** Loop mengambil 3 byte per instruksi:
+>
+> **Berikutnya:** [Analisis](45-hard-vm-bytecode-06-analisis.md)
+
 ## 2.2 Format instruksi
 
 Loop mengambil **3 byte** per instruksi:

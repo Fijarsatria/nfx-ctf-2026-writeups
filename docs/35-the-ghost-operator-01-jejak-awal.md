@@ -2,6 +2,12 @@
 
 [← Overview](35-the-ghost-operator.md) · [Index](index.md)
 
+> **Langkah 1/9 — Jejak Awal.** Jejak Awal
+>
+> **Titik penting:** sha256sum osint/investigation.zip · file osint/investigation.zip · unzip -l osint/investigation.zip
+>
+> **Berikutnya:** [Analisis Jejak](35-the-ghost-operator-02-analisis-jejak.md)
+
 ### 1.1 Deskripsi challenge
 
 > **Author: Ariaf**

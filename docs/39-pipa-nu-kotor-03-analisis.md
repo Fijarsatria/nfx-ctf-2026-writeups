@@ -2,6 +2,12 @@
 
 [← Overview](39-pipa-nu-kotor.md) · [Index](index.md)
 
+> **Langkah 3/8 — Analisis.** opbuka() mengalokasikan malloc(0x18) untuk struct, lalu mengisi:
+>
+> **Titik penting:** opbuka() mengalokasikan malloc(0x18) untuk struct, lalu mengisi:
+>
+> **Berikutnya:** [Analisis](39-pipa-nu-kotor-04-analisis-2.md)
+
 ## 2.1 Struct pipa
 
 `op_buka()` mengalokasikan `malloc(0x18)` untuk struct, lalu mengisi:

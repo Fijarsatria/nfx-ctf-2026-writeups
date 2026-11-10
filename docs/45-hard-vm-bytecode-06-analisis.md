@@ -2,6 +2,12 @@
 
 [← Overview](45-hard-vm-bytecode.md) · [Index](index.md)
 
+> **Langkah 6/13 — Analisis.** Catatan penting: pada LOAD, byte ketiga instruksi adalah index input, sedangkan pada opcode lain byte ketiga adalah immediate.
+>
+> **Titik penting:** Catatan penting: pada LOAD, byte ketiga instruksi adalah index input, sedangkan pada opcode lain byte ketiga adalah immediate.
+>
+> **Berikutnya:** [Membalik transformasi](45-hard-vm-bytecode-07-membalik-transformasi.md)
+
 ## 2.3 Semantik tiap opcode
 
 ```asm

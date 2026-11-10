@@ -2,6 +2,12 @@
 
 [← Overview](31-symhell.md) · [Index](index.md)
 
+> **Langkah 4/7 — Penyelesaian.** Penyelesaian
+>
+> **Titik penting:** NFX{5ymH3ll_RUnT1m3_3v4l_53cr3t_PwN!} · 127.0.0.1
+>
+> **Berikutnya:** [Flag](31-symhell-05-flag.md)
+
 ### 3.1 Strategi
 
 1. Jalankan service lokal.

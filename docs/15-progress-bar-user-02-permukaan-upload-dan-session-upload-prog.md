@@ -2,6 +2,12 @@
 
 [← Overview](15-progress-bar-user.md) · [Index](index.md)
 
+> **Langkah 2/11 — Permukaan upload dan `session.upload_progress`.** PHP memiliki fitur session.uploadprogress: ketika sebuah multipart POST mengandung field PHPSESSIONUPLOADPROGRESS, PHP memproses progres upload dan session sebelum kode aplikasi (RINIT) dij…
+>
+> **Titik penting:** PHP memiliki fitur session.uploadprogress: ketika sebuah multipart POST mengandung field PHPSESSIONUPLOADPROGRESS, PHP memproses progres upload dan session sebelum kode aplikasi (RINIT) dij…
+>
+> **Berikutnya:** [Analisis](15-progress-bar-user-03-analisis.md)
+
 ## 2.1 Permukaan upload dan `session.upload_progress`
 
 PHP memiliki fitur `session.upload_progress`: ketika sebuah multipart POST

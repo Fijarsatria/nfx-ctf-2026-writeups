@@ -23,6 +23,19 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | Kata kunci dari deskripsi: "bagian ... | [Buka](39-pipa-nu-kotor-01-recon.md) |
+| 2 | Triage awal | file pipa | [Buka](39-pipa-nu-kotor-02-triage-awal.md) |
+| 3 | Analisis | opbuka() mengalokasikan malloc(0x18) untuk struct, lalu mengisi: | [Buka](39-pipa-nu-kotor-03-analisis.md) |
+| 4 | Analisis | Saat free(struct) pada chunk 0x20, glibc menulis tcache->next di offset 0 dan tcache key di offset 8. | [Buka](39-pipa-nu-kotor-04-analisis-2.md) |
+| 5 | Eksploitasi | python3 exploit.py \| tee 03-exploit-run.txt | [Buka](39-pipa-nu-kotor-05-eksploitasi.md) |
+| 6 | Flag | NFX{Si44aTehKuduSadarDip4lakSave3Jari1} | [Buka](39-pipa-nu-kotor-06-flag.md) |
+| 7 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](39-pipa-nu-kotor-07-bukti-evidence.md) |
+| 8 | Referensi | — | [Buka](39-pipa-nu-kotor-08-referensi.md) |
+
 ## TL;DR
 
 - Service mengelola "pipa" (pipe) dengan operasi buka/tutup/tulis/baca/login.

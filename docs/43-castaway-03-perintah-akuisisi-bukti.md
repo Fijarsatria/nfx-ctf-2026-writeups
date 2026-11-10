@@ -2,6 +2,12 @@
 
 [← Overview](43-castaway.md) · [Index](index.md)
 
+> **Langkah 3/14 — Perintah akuisisi bukti.** Perintah akuisisi bukti
+>
+> **Titik penting:** python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ · python3 writeups/assets/castaway/solve_castaway.py \
+>
+> **Berikutnya:** [Fungsi `main`](43-castaway-04-fungsi-main.md)
+
 ## 1.5 Perintah akuisisi bukti
 
 ```bash

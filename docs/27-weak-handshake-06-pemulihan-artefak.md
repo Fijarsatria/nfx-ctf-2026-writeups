@@ -2,6 +2,12 @@
 
 [← Overview](27-weak-handshake.md) · [Index](index.md)
 
+> **Langkah 6/10 — Pemulihan Artefak.** Script lengkap: assets/weak-handshake/solveweak.py.
+>
+> **Titik penting:** Script lengkap: assets/weak-handshake/solveweak.py.
+>
+> **Berikutnya:** [Output](27-weak-handshake-07-output.md)
+
 ## 3.1 Strategi
 
 1. Reassemble TCP streams dari pcap (linktype Linux SLL2).

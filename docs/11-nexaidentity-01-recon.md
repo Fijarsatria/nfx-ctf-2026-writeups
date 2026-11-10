@@ -2,6 +2,12 @@
 
 [← Overview](11-nexaidentity.md) · [Index](index.md)
 
+> **Langkah 1/9 — Recon.** Tidak ada attachment.
+>
+> **Titik penting:** http://s1.nfx.my.id:41270 · NFX/web/05_nexaidentity key: NFXCTF-NFCC-NXCTF-2026
+>
+> **Berikutnya:** [Triage awal](11-nexaidentity-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > Author: Ariaf

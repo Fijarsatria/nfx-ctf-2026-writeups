@@ -2,6 +2,12 @@
 
 [← Overview](15-progress-bar-user.md) · [Index](index.md)
 
+> **Langkah 5/11 — Strategi.** Strategi
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Langkah exploit](15-progress-bar-user-06-langkah-exploit.md)
+
 ## 3.1 Strategi
 
 1. Fingerprint PHP 8.4.26 mod_php dan form upload.

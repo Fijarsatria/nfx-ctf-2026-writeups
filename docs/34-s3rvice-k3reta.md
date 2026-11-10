@@ -22,6 +22,20 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Jejak Awal | sha256sum osint/from_train.jpeg | [Buka](34-s3rvice-k3reta-01-jejak-awal.md) |
+| 2 | Analisis Jejak | Elemen visual utama: | [Buka](34-s3rvice-k3reta-02-analisis-jejak.md) |
+| 3 | Q1–Q13: jawaban dan verifikasi | Kutipan sumber penting: | [Buka](34-s3rvice-k3reta-03-q1-q13-jawaban-dan-verifikasi.md) |
+| 4 | Analisis Jejak | Dua jawaban ini berasal dari sesi Q&A yang sudah dijawab benar. | [Buka](34-s3rvice-k3reta-04-analisis-jejak-2.md) |
+| 5 | Q9–Q13: dari post TikTok ke Plus Code | NFX{Dr0n3_T3rb41k_T3mp4t_S3rv1c3_T3rb41k_J4uh_B4ng3T_BTW_B4ng_R0f1_K3r3n_S3rb4_b1s4} | [Buka](34-s3rvice-k3reta-05-q9-q13-dari-post-tiktok-ke-plus-code.md) |
+| 6 | Pencarian & Verifikasi | python3 - <<'EOF' | [Buka](34-s3rvice-k3reta-06-pencarian-verifikasi.md) |
+| 7 | Flag | NFX{Dr0n3_T3rb41k_T3mp4t_S3rv1c3_T3rb41k_J4uh_B4ng3T_BTW_B4ng_R0f1_K3r3n_S3rb4_b1s4} | [Buka](34-s3rvice-k3reta-07-flag.md) |
+| 8 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](34-s3rvice-k3reta-08-bukti-evidence.md) |
+| 9 | Referensi | NFX{Padalarang} | [Buka](34-s3rvice-k3reta-09-referensi.md) |
+
 ## Ringkasan
 
 > Catatan penting: `flags/wave2/S3rvice_K3reta.NOTES.md` dan

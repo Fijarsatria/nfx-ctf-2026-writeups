@@ -5,6 +5,12 @@
 
 [← Overview](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh.md) · [Index](index.md)
 
+> **Langkah 6/7 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-07-referensi.md)
+
 
 ## Arsip Evidence
 

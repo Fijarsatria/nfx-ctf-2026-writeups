@@ -2,6 +2,12 @@
 
 [← Overview](18-broken-signature-scheme.md) · [Index](index.md)
 
+> **Langkah 6/8 — Flag.** Verifikasi (log submit asli):
+>
+> **Titik penting:** NXCTF{mult1_l4y3r_l4tt1c3_r54_s1gn4tur3_hnp_8c211ad6b5a6}
+>
+> **Berikutnya:** [Bukti / Evidence](18-broken-signature-scheme-07-bukti-evidence.md)
+
 > **Flag:** `NXCTF{mult1_l4y3r_l4tt1c3_r54_s1gn4tur3_hnp_8c211ad6b5a6}`
 > **Status:** `VERIFIED`
 

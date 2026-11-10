@@ -2,6 +2,12 @@
 
 [← Overview](07-perimeter-breach.md) · [Index](index.md)
 
+> **Langkah 11/11 — Referensi.** Referensi
+>
+> **Titik penting:** —
+>
+> **Selesai.** Kembali ke [Overview](07-perimeter-breach.md).
+
 - Nginx combined log format.
 - `sqlmap` UNION-based SQL injection.
 - Linux `auth.log` / `sudo` / `useradd` / `chpasswd`.

@@ -2,6 +2,12 @@
 
 [← Overview](09-career-tempat-belajar.md) · [Index](index.md)
 
+> **Langkah 5/8 — Pencarian & Verifikasi.** Pencarian & Verifikasi
+>
+> **Titik penting:** python3 gravatar_check.py · NFX{Gr4v4t4r_0s1nt_R3cru1t3r_D1hL34Rn} · https://gravatar.com/{h}.json",
+>
+> **Berikutnya:** [Flag](09-career-tempat-belajar-06-flag.md)
+
 ### 3.1 Strategi
 
 1. Baca metadata PNG untuk mendapatkan nama perusahaan (“Dih Office”).

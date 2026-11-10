@@ -2,6 +2,12 @@
 
 [← Overview](50-nexusgate.md) · [Index](index.md)
 
+> **Langkah 12/12 — Referensi.** Referensi
+>
+> **Titik penting:** —
+>
+> **Selesai.** Kembali ke [Overview](50-nexusgate.md).
+
 - Node.js `http` server `req.url`, WHATWG `URL` normalization.
 - Node.js Permission Model (`--permission`, `--allow-fs-read`).
 - `node:sqlite` (`DatabaseSync`, tagged template store).

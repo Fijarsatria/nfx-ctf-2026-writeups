@@ -2,6 +2,12 @@
 
 [← Overview](26-panggilan-terakhir.md) · [Index](index.md)
 
+> **Langkah 6/8 — Flag.** Flag
+>
+> **Titik penting:** NFXCTF{ARSIP_MERAH_204}
+>
+> **Berikutnya:** [Bukti / Evidence](26-panggilan-terakhir-07-bukti-evidence.md)
+
 > **Flag:** `NFXCTF{ARSIP_MERAH_204}`
 > **Status:** `VERIFIED`
 

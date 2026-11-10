@@ -23,6 +23,19 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon Artefak | sha256sum korban.pcap | [Buka](26-panggilan-terakhir-01-recon-artefak.md) |
+| 2 | SIP INVITE dan SDP | tcpdump -nn -r korban.pcap 'udp port 5060' -A | [Buka](26-panggilan-terakhir-02-sip-invite-dan-sdp.md) |
+| 3 | Ekstraksi RTP | RTP header 12 byte, payload 160 byte (20 ms @ 8 kHz), total UDP payload 172 byte. | [Buka](26-panggilan-terakhir-03-ekstraksi-rtp.md) |
+| 4 | Transkripsi | NFXCTF { ARSIP _ MERAH _ 204 } | [Buka](26-panggilan-terakhir-04-transkripsi.md) |
+| 5 | Pemulihan Artefak | python3 solve_panggilan.py | [Buka](26-panggilan-terakhir-05-pemulihan-artefak.md) |
+| 6 | Flag | NFXCTF{ARSIP_MERAH_204} | [Buka](26-panggilan-terakhir-06-flag.md) |
+| 7 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](26-panggilan-terakhir-07-bukti-evidence.md) |
+| 8 | Referensi | — | [Buka](26-panggilan-terakhir-08-referensi.md) |
+
 ## TL;DR
 
 - `korban.pcap` berisi satu panggilan SIP antara Raka (ext 204, `10.24.8.31`) dan Dina (ext 231, `10.24.8.24`).

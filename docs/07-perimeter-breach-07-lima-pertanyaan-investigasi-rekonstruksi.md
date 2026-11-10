@@ -2,6 +2,12 @@
 
 [← Overview](07-perimeter-breach.md) · [Index](index.md)
 
+> **Langkah 7/11 — Lima pertanyaan investigasi (rekonstruksi).** Platform tidak menampilkan teks pertanyaan di artefak lokal.
+>
+> **Titik penting:** NFX{P4th_1nt0_Pr0duct10n} · 185.220.101.47
+>
+> **Berikutnya:** [Pemulihan Artefak](07-perimeter-breach-08-pemulihan-artefak.md)
+
 ## 2.7 Lima pertanyaan investigasi (rekonstruksi)
 
 Platform tidak menampilkan teks pertanyaan di artefak lokal. Jawaban berikut direkonstruksi dari urutan lima fase yang disebut deskripsi (recon, initial access, webshell, lateral movement, persistence). Tandai sebagai **[REKONSTRUKSI PERTANYAAN]**, sedangkan **jawaban** berasal dari log.

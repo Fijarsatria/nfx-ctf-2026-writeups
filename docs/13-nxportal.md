@@ -24,6 +24,21 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | python3 nxapi.py nx-up "NFX/NXPortal" "NFXCTF-NFCC-NXCTF-2026" | [Buka](13-nxportal-01-recon.md) |
+| 2 | Triage awal | curl -sS -i "$BASE/" | [Buka](13-nxportal-02-triage-awal.md) |
+| 3 | Analisis | Respons /forgot selalu uniform untuk email yang lolos filter: | [Buka](13-nxportal-03-analisis.md) |
+| 4 | Hint blog: header parsing / multi-line payload | Ini adalah deskripsi langsung dari kelas bug: | [Buka](13-nxportal-04-hint-blog-header-parsing-multi-line-payl.md) |
+| 5 | Yang sudah dicoba (live, 2026-11-08) | curl -sS -D - -o /dev/null -c ck "$BASE/forgot" | [Buka](13-nxportal-05-yang-sudah-dicoba-live-2026-11-08.md) |
+| 6 | Eksploitasi / Solver (sebagian, belum selesai) | Semua payload di atas diterima dengan pesan sukses, tetapi tidak ada email yang sampai ke inbox eksternal. | [Buka](13-nxportal-06-eksploitasi-solver-sebagian-belum-selesa.md) |
+| 7 | Flag | flag belum ditemukan | [Buka](13-nxportal-07-flag.md) |
+| 8 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](13-nxportal-08-bukti-evidence.md) |
+| 9 | Rencana Penyelesaian (OPEN) | NFX{...} | [Buka](13-nxportal-09-rencana-penyelesaian-open.md) |
+| 10 | Referensi | Password Recovery Mechanism). | [Buka](13-nxportal-10-referensi.md) |
+
 ## Ringkasan
 
 > Catatan: `flags/web/NXPortal.txt` **bukan flag challenge**, melainkan catatan investigasi

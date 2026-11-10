@@ -2,6 +2,12 @@
 
 [← Overview](12-nexapartner.md) · [Index](index.md)
 
+> **Langkah 6/9 — Output asli.** Status sebelum/sesudah:
+>
+> **Titik penting:** NFX{js0n_pr0t0_p0llut10n_4dm1n_byp4ss} · https://x.example/h","digest":"daily","theme":"dark"}}
+>
+> **Berikutnya:** [Flag](12-nexapartner-07-flag.md)
+
 ## 3.3 Output asli
 
 Status sebelum/sesudah:

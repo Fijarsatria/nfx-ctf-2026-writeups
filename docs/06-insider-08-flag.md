@@ -2,6 +2,12 @@
 
 [← Overview](06-insider.md) · [Index](index.md)
 
+> **Langkah 8/10 — Flag.** Flag
+>
+> **Titik penting:** NFX{wraithbyte_cve202421412_20250314_zenvpn271}
+>
+> **Berikutnya:** [Bukti / Evidence](06-insider-09-bukti-evidence.md)
+
 > **Flag:** `NFX{wraithbyte_cve202421412_20250314_zenvpn271}`
 > **Status:** `VERIFIED`
 

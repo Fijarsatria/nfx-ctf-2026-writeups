@@ -2,6 +2,12 @@
 
 [← Overview](29-my-lovely-freya.md) · [Index](index.md)
 
+> **Langkah 4/9 — Dekripsi.** Verifikasi silang: password decoy gagal.
+>
+> **Titik penting:** openssl enc -d -aes-256-cbc -md sha256 -pbkdf2 -iter 100000 \ · cat surat-decrypted.txt
+>
+> **Berikutnya:** [Penyelesaian](29-my-lovely-freya-05-penyelesaian.md)
+
 ## 2.4 Dekripsi
 
 ```bash

@@ -2,6 +2,12 @@
 
 [← Overview](29-my-lovely-freya.md) · [Index](index.md)
 
+> **Langkah 5/9 — Penyelesaian.** unfilter() mengimplementasikan lima tipe filter PNG (None, Sub, Up, Average, Paeth), sama seperti decoder PNG standar.
+>
+> **Titik penting:** openssl enc -d -aes-256-cbc -md sha256 -pbkdf2 -iter 100000 \
+>
+> **Berikutnya:** [Output asli](29-my-lovely-freya-06-output-asli.md)
+
 ## 3.1 Strategi
 
 1. Ekstrak ZIP.

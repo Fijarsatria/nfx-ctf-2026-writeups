@@ -2,6 +2,12 @@
 
 [← Overview](07-perimeter-breach.md) · [Index](index.md)
 
+> **Langkah 6/11 — Analisis Artefak.** Password deploy tidak terlihat di log, tetapi sangat mungkin berasal dari /home/deploy/.env yang dibaca webshell.
+>
+> **Titik penting:** 185.220.101.47
+>
+> **Berikutnya:** [Lima pertanyaan investigasi (rekonstruksi)](07-perimeter-breach-07-lima-pertanyaan-investigasi-rekonstruksi.md)
+
 ## 2.5 Lateral movement — SSH sebagai deploy
 
 `auth.log`:

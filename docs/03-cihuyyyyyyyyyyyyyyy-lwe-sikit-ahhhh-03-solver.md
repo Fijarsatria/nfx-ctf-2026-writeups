@@ -2,6 +2,12 @@
 
 [← Overview](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh.md) · [Index](index.md)
 
+> **Langkah 3/7 — Solver.** Tersimpan di writeups/assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solvelwe.py:
+>
+> **Titik penting:** Tersimpan di writeups/assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solvelwe.py:
+>
+> **Berikutnya:** [Solver](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-04-solver-2.md)
+
 ## 3.1 Strategi
 
 1. Load `A`, `b`, `q` dari `lwe.py`.

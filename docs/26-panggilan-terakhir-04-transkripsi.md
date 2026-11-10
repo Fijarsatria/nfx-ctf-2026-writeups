@@ -2,6 +2,12 @@
 
 [← Overview](26-panggilan-terakhir.md) · [Index](index.md)
 
+> **Langkah 4/8 — Transkripsi.** Audio di-upsample ke 16 kHz, lalu ditranskripsi dengan faster-whisper (tiny, language=id, vadfilter=True).
+>
+> **Titik penting:** NFXCTF { ARSIP _ MERAH _ 204 }
+>
+> **Berikutnya:** [Pemulihan Artefak](26-panggilan-terakhir-05-pemulihan-artefak.md)
+
 ## 2.3 Transkripsi
 
 Audio di-upsample ke 16 kHz, lalu ditranskripsi dengan faster-whisper (`tiny`, `language=id`, `vad_filter=True`). Output mentah Dina (stream 4002 → 4000):

@@ -2,6 +2,12 @@
 
 [← Overview](39-pipa-nu-kotor.md) · [Index](index.md)
 
+> **Langkah 1/8 — Recon.** Kata kunci dari deskripsi: "bagian ...
+>
+> **Titik penting:** Kata kunci dari deskripsi: "bagian ...
+>
+> **Berikutnya:** [Triage awal](39-pipa-nu-kotor-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: Amablex**

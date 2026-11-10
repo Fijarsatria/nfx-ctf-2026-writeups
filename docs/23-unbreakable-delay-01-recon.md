@@ -2,6 +2,12 @@
 
 [← Overview](23-unbreakable-delay.md) · [Index](index.md)
 
+> **Langkah 1/8 — Recon.** Tidak ada source server.py, vdf.py, atau output instance.
+>
+> **Titik penting:** timeout 5 bash -c 'echo \| nc -v s1.nfx.my.id 43206' · cat flags/misc/UnbreakableDelay.txt · NFX{your_flag_here}
+>
+> **Berikutnya:** [Analisis](23-unbreakable-delay-02-analisis.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: Kad

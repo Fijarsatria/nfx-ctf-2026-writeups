@@ -2,6 +2,12 @@
 
 [← Overview](21-rsa-coppersmith-cihuy.md) · [Index](index.md)
 
+> **Langkah 5/7 — Flag.** Verifikasi (log submit asli):
+>
+> **Titik penting:** NFXCTF{C0pp3rsm1th_p4rt14l_k3y_3xp0sur3_9617eda9}
+>
+> **Berikutnya:** [Bukti / Evidence](21-rsa-coppersmith-cihuy-06-bukti-evidence.md)
+
 > **Flag:** `NFXCTF{C0pp3rsm1th_p4rt14l_k3y_3xp0sur3_9617eda9}`
 > **Status:** `VERIFIED`
 

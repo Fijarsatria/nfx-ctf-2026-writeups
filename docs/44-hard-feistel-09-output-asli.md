@@ -2,6 +2,12 @@
 
 [← Overview](44-hard-feistel.md) · [Index](index.md)
 
+> **Langkah 9/13 — Output asli.** Blok terakhir berisi 3d 7d 00 — } diikuti padding nol.
+>
+> **Titik penting:** python3 writeups/assets/hard-feistel/solve_feistel.py · NFX{f315t3l_n3tw0rk_16_r0und5_r3v3rs3d}
+>
+> **Berikutnya:** [Verifikasi tambahan dengan gdb](44-hard-feistel-10-verifikasi-tambahan-dengan-gdb.md)
+
 ## 3.3 Output asli
 
 ```text

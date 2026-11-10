@@ -2,6 +2,12 @@
 
 [← Overview](23-unbreakable-delay.md) · [Index](index.md)
 
+> **Langkah 2/8 — Analisis.** Verifiable Delay Function memungkinkan pihak lain memverifikasi bahwa suatu fungsi dievaluasi selama T langkah berurutan yang tidak dapat diparalelkan.
+>
+> **Titik penting:** Verifiable Delay Function memungkinkan pihak lain memverifikasi bahwa suatu fungsi dievaluasi selama T langkah berurutan yang tidak dapat diparalelkan.
+>
+> **Berikutnya:** [Analisis](23-unbreakable-delay-03-analisis-2.md)
+
 ## 2.1 Apa itu VDF
 
 Verifiable Delay Function memungkinkan pihak lain memverifikasi bahwa suatu

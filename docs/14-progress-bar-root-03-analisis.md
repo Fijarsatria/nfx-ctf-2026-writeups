@@ -2,6 +2,12 @@
 
 [← Overview](14-progress-bar-root.md) · [Index](index.md)
 
+> **Langkah 3/9 — Analisis.** Dari www-data, file /opt//app.py dibaca.
+>
+> **Titik penting:** python3 -u /opt/automation/app.py & · 127.0.0.1:3000 · 127.0.0.1:8080
+>
+> **Berikutnya:** [Strategi](14-progress-bar-root-04-strategi.md)
+
 ## 2.2 Enumerasi sumber service
 
 Dari `www-data`, file `/opt/*/app.py` dibaca. Tiga service menjadi rantai:

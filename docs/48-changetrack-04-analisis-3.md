@@ -2,6 +2,12 @@
 
 [← Overview](48-changetrack.md) · [Index](index.md)
 
+> **Langkah 4/9 — Analisis.** Analisis
+>
+> **Titik penting:** https://api.github.com/zen · https://httpbin.org/uuid · https://webhook.site/<token>
+>
+> **Berikutnya:** [Eksploitasi / Solver](48-changetrack-05-eksploitasi-solver.md)
+
 ## 2.5 Catatan saat enumerasi
 
 - `cat /flag.txt` berhasil dan mengembalikan flag.

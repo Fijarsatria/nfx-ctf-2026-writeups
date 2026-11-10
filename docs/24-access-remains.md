@@ -23,6 +23,22 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Deskripsi challenge | — | [Buka](24-access-remains-01-deskripsi-challenge.md) |
+| 2 | Recon Artefak | sha256sum Evidence/Windows/System32/config/SAM \ | [Buka](24-access-remains-02-recon-artefak.md) |
+| 3 | Triage awal | file menunjukkan registry hive dan file DPAPI: | [Buka](24-access-remains-03-triage-awal.md) |
+| 4 | SAM + SYSTEM + SECURITY → NTLM | impacket-secretsdump -sam SAM -system SYSTEM -security SECURITY local | [Buka](24-access-remains-04-sam-system-security-ntlm.md) |
+| 5 | Analisis Artefak | python3 /usr/share/doc/python3-impacket/examples/dpapi.py masterkey \ | [Buka](24-access-remains-05-analisis-artefak.md) |
+| 6 | Analisis Artefak | 7z x -y -p'KumikoOumae2107!@' Kumiko.zip | [Buka](24-access-remains-06-analisis-artefak-2.md) |
+| 7 | Pemulihan Artefak | python3 /usr/share/doc/python3-impacket/examples/dpapi.py masterkey \ | [Buka](24-access-remains-07-pemulihan-artefak.md) |
+| 8 | Alur 8 Sub-Challenge Q&A (verified) | NFX{The_Real_Access_Was_Kumiko_All_Along} | [Buka](24-access-remains-08-alur-8-sub-challenge-q-a-verified.md) |
+| 9 | Flag | NFX{The_Real_Access_Was_Kumiko_All_Along} | [Buka](24-access-remains-09-flag.md) |
+| 10 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](24-access-remains-10-bukti-evidence.md) |
+| 11 | Referensi | — | [Buka](24-access-remains-11-referensi.md) |
+
 ## TL;DR
 
 - Evidence Windows: `SAM`, `SYSTEM`, `SECURITY`, `NTUSER.DAT`, DPAPI masterkey, Credential Manager, dan `Kumiko.zip`.

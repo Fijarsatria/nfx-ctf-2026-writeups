@@ -2,6 +2,12 @@
 
 [← Overview](44-hard-feistel.md) · [Index](index.md)
 
+> **Langkah 11/13 — Flag.** Cek file flag lokal:
+>
+> **Titik penting:** NFX{f315t3l_n3tw0rk_16_r0und5_r3v3rs3d}
+>
+> **Berikutnya:** [Bukti / Evidence](44-hard-feistel-12-bukti-evidence.md)
+
 > **Flag:** `NFX{f315t3l_n3tw0rk_16_r0und5_r3v3rs3d}`
 > **Status:** `VERIFIED`
 

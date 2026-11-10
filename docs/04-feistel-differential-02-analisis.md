@@ -2,6 +2,12 @@
 
 [← Overview](04-feistel-differential.md) · [Index](index.md)
 
+> **Langkah 2/9 — Analisis.** File berisi 14 blok, masing-masing 20.000 baris, dengan header:
+>
+> **Titik penting:** File berisi 14 blok, masing-masing 20.000 baris, dengan header:
+>
+> **Berikutnya:** [Analisis](04-feistel-differential-03-analisis-2.md)
+
 ## 2.1 Cipher
 
 `cipher.py`:

@@ -2,6 +2,12 @@
 
 [← Overview](38-narrowgate.md) · [Index](index.md)
 
+> **Langkah 3/9 — `main()` — validasi 16-bit.** Pengecekan cmp ax, 0x3f hanya melihat 16 bit rendah dari (blocks64)-1; nilai penuh size dipakai untuk read.
+>
+> **Titik penting:** Pengecekan cmp ax, 0x3f hanya melihat 16 bit rendah dari (blocks64)-1; nilai penuh size dipakai untuk read.
+>
+> **Berikutnya:** [Analisis](38-narrowgate-04-analisis.md)
+
 ## 2.2 `main()` — validasi 16-bit
 
 ```asm

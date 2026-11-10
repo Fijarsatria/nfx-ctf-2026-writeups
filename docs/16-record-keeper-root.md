@@ -23,6 +23,21 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | 10.10.20.23 | [Buka](16-record-keeper-root-01-recon.md) |
+| 2 | Triage awal | nmap -Pn -sV -p- --min-rate 2000 10.10.20.23 | [Buka](16-record-keeper-root-02-triage-awal.md) |
+| 3 | Analisis | python3 exploit/rce_worker.py --target 10.10.20.23 --port 3000 \ | [Buka](16-record-keeper-root-03-analisis.md) |
+| 4 | Analisis | node tidak bisa membacanya, tetapi ops bisa. | [Buka](16-record-keeper-root-04-analisis-2.md) |
+| 5 | Strategi | — | [Buka](16-record-keeper-root-05-strategi.md) |
+| 6 | Langkah exploit | sudo -n -l | [Buka](16-record-keeper-root-06-langkah-exploit.md) |
+| 7 | Output | tar -xOzf /tmp/opsexfil/rootarc.tar.gz ./root.txt | [Buka](16-record-keeper-root-07-output.md) |
+| 8 | Flag | NFX{sp00l3r_4rch1v3_r00t_pwn3d} | [Buka](16-record-keeper-root-08-flag.md) |
+| 9 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](16-record-keeper-root-09-bukti-evidence.md) |
+| 10 | Referensi | pemisahan opsi dengan --. | [Buka](16-record-keeper-root-10-referensi.md) |
+
 ## Ringkasan
 
 > **Catatan bukti.** Sumber utama adalah

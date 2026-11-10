@@ -2,6 +2,12 @@
 
 [← Overview](50-nexusgate.md) · [Index](index.md)
 
+> **Langkah 5/12 — File-read sandbox: Node permission tree.** Allow-list hanya tiga file.
+>
+> **Titik penting:** 127.0.0.1
+>
+> **Berikutnya:** [Analisis](50-nexusgate-06-analisis.md)
+
 ## 2.3 File-read sandbox: Node permission tree
 
 `routes.js`:

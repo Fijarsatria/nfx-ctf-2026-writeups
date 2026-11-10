@@ -2,6 +2,12 @@
 
 [← Overview](45-hard-vm-bytecode.md) · [Index](index.md)
 
+> **Langkah 4/13 — Main dan layout.** Layout stack yang relevan:
+>
+> **Titik penting:** Layout stack yang relevan:
+>
+> **Berikutnya:** [Format instruksi](45-hard-vm-bytecode-05-format-instruksi.md)
+
 ## 2.1 Main dan layout
 
 Main ada di `0x10c0`. Bagian awal:

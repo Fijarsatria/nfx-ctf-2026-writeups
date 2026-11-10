@@ -2,6 +2,12 @@
 
 [← Overview](44-hard-feistel.md) · [Index](index.md)
 
+> **Langkah 3/13 — Perintah akuisisi bukti.** Perintah akuisisi bukti
+>
+> **Titik penting:** python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ · python3 writeups/assets/hard-feistel/solve_feistel.py \
+>
+> **Berikutnya:** [Analisis](44-hard-feistel-04-analisis.md)
+
 ## 1.5 Perintah akuisisi bukti
 
 ```bash

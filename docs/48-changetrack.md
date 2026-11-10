@@ -23,6 +23,20 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | curl -sS -i "$BASE/" | [Buka](48-changetrack-01-recon.md) |
+| 2 | Analisis | https://api.github.com/events | [Buka](48-changetrack-02-analisis.md) |
+| 3 | Analisis | https://api.github.com/events | [Buka](48-changetrack-03-analisis-2.md) |
+| 4 | Analisis | https://api.github.com/zen | [Buka](48-changetrack-04-analisis-3.md) |
+| 5 | Eksploitasi / Solver | curl -sS -c cj -X POST \ | [Buka](48-changetrack-05-eksploitasi-solver.md) |
+| 6 | Output asli | NFX{ch4ng3_d3t3ct10n_j1nj4_sst1_oob_cve_2024_32651_2026} | [Buka](48-changetrack-06-output-asli.md) |
+| 7 | Flag | NFX{ch4ng3_d3t3ct10n_j1nj4_sst1_oob_cve_2024_32651_2026} | [Buka](48-changetrack-07-flag.md) |
+| 8 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](48-changetrack-08-bukti-evidence.md) |
+| 9 | Referensi | — | [Buka](48-changetrack-09-referensi.md) |
+
 ## TL;DR
 
 - **ChangeTrack** adalah Flask/gunicorn yang meniru `changedetection.io`: user membuat watcher, mengedit manifest YAML, dan worker mengirim notifikasi ke `webhook_url`.

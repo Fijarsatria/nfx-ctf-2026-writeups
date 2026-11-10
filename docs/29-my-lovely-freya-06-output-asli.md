@@ -2,6 +2,12 @@
 
 [← Overview](29-my-lovely-freya.md) · [Index](index.md)
 
+> **Langkah 6/9 — Output asli.** Output asli
+>
+> **Titik penting:** python3 extract_hidden.py · ./decrypt_surat.sh
+>
+> **Berikutnya:** [Flag](29-my-lovely-freya-07-flag.md)
+
 ## 3.4 Output asli
 
 ```text

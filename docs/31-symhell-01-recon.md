@@ -2,6 +2,12 @@
 
 [← Overview](31-symhell.md) · [Index](index.md)
 
+> **Langkah 1/7 — Recon.** sudah diketahui dari flags/forensics/symhell.txt, service dijalankan di 127.0.0.1:1337, lalu /flag.txt dihapus kembali.
+>
+> **Titik penting:** sha256sum forensics/symhell/app.py · 0.0.0.0:1337 · 127.0.0.1:1337
+>
+> **Berikutnya:** [Triage awal](31-symhell-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: Ariaf**

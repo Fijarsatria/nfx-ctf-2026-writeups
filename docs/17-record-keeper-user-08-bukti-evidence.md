@@ -5,6 +5,12 @@
 
 [← Overview](17-record-keeper-user.md) · [Index](index.md)
 
+> **Langkah 8/9 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](17-record-keeper-user-09-referensi.md)
+
 
 ## Arsip Evidence
 

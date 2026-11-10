@@ -2,6 +2,12 @@
 
 [← Overview](07-perimeter-breach.md) · [Index](index.md)
 
+> **Langkah 5/11 — Webshell execution.** Webshell bernama cachethumb.php, disamarkan sebagai gambar (mime="image/jpeg"), tetapi berisi kode PHP.
+>
+> **Titik penting:** https://aromacraft.example/admin/upload.php" · 185.220.101.47
+>
+> **Berikutnya:** [Analisis Artefak](07-perimeter-breach-06-analisis-artefak.md)
+
 ## 2.4 Webshell execution
 
 Upload:

@@ -2,6 +2,12 @@
 
 [← Overview](09-career-tempat-belajar.md) · [Index](index.md)
 
+> **Langkah 1/8 — Jejak Awal.** dipakai untuk menyamarkan sebuah platform belajar.
+>
+> **Titik penting:** sha256sum osint/office.png · NFX{your_flag_here}
+>
+> **Berikutnya:** [Triage awal](09-career-tempat-belajar-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: Kada**

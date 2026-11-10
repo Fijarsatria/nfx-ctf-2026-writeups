@@ -2,6 +2,12 @@
 
 [← Overview](52-wujud-aseli-atmin.md) · [Index](index.md)
 
+> **Langkah 2/7 — Recon.** exiftool langsung memberi petunjuk:
+>
+> **Titik penting:** exiftool dokumentasi.png · https://drive.google.com/file/d/1UHvCZ3Wpk2mneOxIfPJN-_oVCeEnNVwT/view
+>
+> **Berikutnya:** [Analisis](52-wujud-aseli-atmin-03-analisis.md)
+
 ### 1.1 Deskripsi challenge
 
 > **Author: Syahril**

@@ -2,6 +2,12 @@
 
 [← Overview](14-progress-bar-root.md) · [Index](index.md)
 
+> **Langkah 1/9 — Recon.** Challenge Root dimulai dari asumsi sudah punya akses user.
+>
+> **Titik penting:** nmap -Pn -sV -p- --min-rate 2000 10.10.20.22 · curl -sS -i http://10.10.20.22/ · curl -sS -i http://10.10.20.22/upload.php
+>
+> **Berikutnya:** [Foothold: PHP2Shell CVE-2026-109618](14-progress-bar-root-02-foothold-php2shell-cve-2026-109618.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: Ariaf

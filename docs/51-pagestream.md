@@ -23,6 +23,22 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Deskripsi challenge | — | [Buka](51-pagestream-01-deskripsi-challenge.md) |
+| 2 | Recon | curl -sS -i http://s1.nfx.my.id:43659/health | [Buka](51-pagestream-02-recon.md) |
+| 3 | Mass assignment role | Setelah role=admin, semua route requireAdmin (/post/new, /view) dapat diakses. | [Buka](51-pagestream-03-mass-assignment-role.md) |
+| 4 | Path traversal di `/view` | — | [Buka](51-pagestream-04-path-traversal-di-view.md) |
+| 5 | Upload filename traversal | NFX{dummy_flag_for_local_testing} | [Buka](51-pagestream-05-upload-filename-traversal.md) |
+| 6 | Analisis | EJS dirender oleh Express: | [Buka](51-pagestream-06-analisis.md) |
+| 7 | Eksploitasi / Solver | curl -sS -c cj -X POST -d "username=$USER&password=pw12345" "$BASE/register" | [Buka](51-pagestream-07-eksploitasi-solver.md) |
+| 8 | Output asli | NFX{f3w_n_d4y_ch41ns_f0r_w3b_pwn_1s_n0t_th4t_h4rd_7734a1} | [Buka](51-pagestream-08-output-asli.md) |
+| 9 | Flag | NFX{f3w_n_d4y_ch41ns_f0r_w3b_pwn_1s_n0t_th4t_h4rd_7734a1} | [Buka](51-pagestream-09-flag.md) |
+| 10 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](51-pagestream-10-bukti-evidence.md) |
+| 11 | Referensi | — | [Buka](51-pagestream-11-referensi.md) |
+
 ## TL;DR
 
 - **PageStream** adalah aplikasi Express/EJS + MySQL untuk komunitas pembaca. Role `user`/`verified`/`admin` disimpan di session.

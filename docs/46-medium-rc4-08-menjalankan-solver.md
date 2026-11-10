@@ -2,6 +2,12 @@
 
 [← Overview](46-medium-rc4.md) · [Index](index.md)
 
+> **Langkah 8/11 — Menjalankan solver.** Angka rc=0 dan pesan Correct!
+>
+> **Titik penting:** python3 writeups/assets/medium-rc4/solve_rc4.py · NFX{rc4_1s_s1mpl3_but_d34dly_1n_r3v3rs1ng}
+>
+> **Berikutnya:** [Flag](46-medium-rc4-09-flag.md)
+
 ## 3.3 Menjalankan solver
 
 ```bash

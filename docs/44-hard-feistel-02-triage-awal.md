@@ -2,6 +2,12 @@
 
 [← Overview](44-hard-feistel.md) · [Index](index.md)
 
+> **Langkah 2/13 — Triage awal.** Triage awal
+>
+> **Titik penting:** file reverse/Hard_02_Feistel/hard_feistel · sha256sum reverse/Hard_02_Feistel/hard_feistel · md5sum reverse/Hard_02_Feistel/hard_feistel
+>
+> **Berikutnya:** [Perintah akuisisi bukti](44-hard-feistel-03-perintah-akuisisi-bukti.md)
+
 ## 1.4 Triage awal
 
 ```text

@@ -2,6 +2,12 @@
 
 [← Overview](41-talatah-ti-peuntas.md) · [Index](index.md)
 
+> **Langkah 4/10 — Analisis.** Dengan keysize = 0x18, chunk data berukuran 0x20; node chunk 0x30 tepat setelahnya.
+>
+> **Titik penting:** Dengan keysize = 0x18, chunk data berukuran 0x20; node chunk 0x30 tepat setelahnya.
+>
+> **Berikutnya:** [Alamat penting](41-talatah-ti-peuntas-05-alamat-penting.md)
+
 ## 2.3 Struktur node dan chunk
 
 ```text

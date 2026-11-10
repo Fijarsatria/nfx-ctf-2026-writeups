@@ -2,6 +2,12 @@
 
 [← Overview](25-bluebird-session.md) · [Index](index.md)
 
+> **Langkah 6/11 — Analisis Artefak.** Petunjuk: “performance, pictures, sound” — Ensemble.mp4 adalah performance/audio, tetapi gambar juga memuat pesan.
+>
+> **Titik penting:** 7z x -y -p'MizoreCanFly2077!@' for_nozomi.zip
+>
+> **Berikutnya:** [Pemulihan Artefak](25-bluebird-session-07-pemulihan-artefak.md)
+
 ## 2.4 Membuka `for_nozomi.zip`
 
 ```bash

@@ -2,6 +2,12 @@
 
 [← Overview](40-starved.md) · [Index](index.md)
 
+> **Langkah 1/9 — Recon.** Dua petunjuk: "kode sapaan terlalu percaya pada input pengguna" (format string di leaker) dan "jalur upload memakai ukuran yang dikirim klien" (stack overflow di main).
+>
+> **Titik penting:** Dua petunjuk: "kode sapaan terlalu percaya pada input pengguna" (format string di leaker) dan "jalur upload memakai ukuran yang dikirim klien" (stack overflow di main).
+>
+> **Berikutnya:** [Triage awal](40-starved-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: Kesatria Baja Ringan**

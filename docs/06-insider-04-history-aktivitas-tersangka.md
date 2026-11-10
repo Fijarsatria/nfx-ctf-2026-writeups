@@ -2,6 +2,12 @@
 
 [← Overview](06-insider.md) · [Index](index.md)
 
+> **Langkah 4/10 — History: aktivitas tersangka.** Output (timestamp dikonversi):
+>
+> **Titik penting:** https://www.youtube.com/watch?v=dQw4w9WgXcQ · https://news.ycombinator.com/ · https://www.starlink.com/
+>
+> **Berikutnya:** [Analisis Artefak](06-insider-05-analisis-artefak.md)
+
 ## 2.2 History: aktivitas tersangka
 
 Query:

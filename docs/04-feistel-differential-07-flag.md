@@ -2,6 +2,12 @@
 
 [← Overview](04-feistel-differential.md) · [Index](index.md)
 
+> **Langkah 7/9 — Flag.** Verifikasi (log submit asli):
+>
+> **Titik penting:** NFXCTF{d1ff3r3nt14l_crypt0_pwn5_f31st3l_45322835}
+>
+> **Berikutnya:** [Bukti / Evidence](04-feistel-differential-08-bukti-evidence.md)
+
 > **Flag:** `NFXCTF{d1ff3r3nt14l_crypt0_pwn5_f31st3l_45322835}`
 > **Status:** `VERIFIED`
 

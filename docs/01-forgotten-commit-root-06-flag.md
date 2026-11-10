@@ -2,6 +2,12 @@
 
 [← Overview](01-forgotten-commit-root.md) · [Index](index.md)
 
+> **Langkah 6/8 — Flag.** Flag dibaca ulang sebagai root lewat listener fzf:
+>
+> **Titik penting:** NFX{fzf_l1st3n_r00t_sh3ll_pwn3d}
+>
+> **Berikutnya:** [Bukti / Evidence](01-forgotten-commit-root-07-bukti-evidence.md)
+
 > **Flag:** `NFX{fzf_l1st3n_r00t_sh3ll_pwn3d}`
 > **Status:** `VERIFIED`
 

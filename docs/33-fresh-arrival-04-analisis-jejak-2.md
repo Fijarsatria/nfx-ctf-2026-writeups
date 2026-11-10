@@ -2,6 +2,12 @@
 
 [← Overview](33-fresh-arrival.md) · [Index](index.md)
 
+> **Langkah 4/8 — Analisis Jejak.** MSN 26854, Boeing 737-341, first flight 28 Mei 1992 (usia >30 tahun saat foto 2025).
+>
+> **Titik penting:** NFX{IATA_ICAO_kota_namadepan} · NFX{XW_CXH_beijing_raihan}
+>
+> **Berikutnya:** [Pencarian & Verifikasi](33-fresh-arrival-05-pencarian-verifikasi.md)
+
 ## 2.4 Riwayat airframe dan operator pertama
 
 MSN 26854, Boeing 737-341, first flight **28 Mei 1992** (usia >30 tahun saat

@@ -5,6 +5,12 @@
 
 [← Overview](41-talatah-ti-peuntas.md) · [Index](index.md)
 
+> **Langkah 9/10 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](41-talatah-ti-peuntas-10-referensi.md)
+
 
 ## Arsip Evidence
 

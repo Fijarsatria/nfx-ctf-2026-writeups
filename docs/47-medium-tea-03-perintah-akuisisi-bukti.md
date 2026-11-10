@@ -2,6 +2,12 @@
 
 [← Overview](47-medium-tea.md) · [Index](index.md)
 
+> **Langkah 3/12 — Perintah akuisisi bukti.** Perintah akuisisi bukti
+>
+> **Titik penting:** python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ · python3 writeups/assets/medium-tea/solve_tea.py \
+>
+> **Berikutnya:** [Alur utama](47-medium-tea-04-alur-utama.md)
+
 ## 1.5 Perintah akuisisi bukti
 
 ```bash

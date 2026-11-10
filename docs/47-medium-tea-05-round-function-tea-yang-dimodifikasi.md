@@ -2,6 +2,12 @@
 
 [← Overview](47-medium-tea.md) · [Index](index.md)
 
+> **Langkah 5/12 — Round function TEA yang dimodifikasi.** Binary melakukan hal yang sama, tetapi dengan konstanta berbeda:
+>
+> **Titik penting:** Binary melakukan hal yang sama, tetapi dengan konstanta berbeda:
+>
+> **Berikutnya:** [Analisis](47-medium-tea-06-analisis.md)
+
 ## 2.2 Round function TEA yang dimodifikasi
 
 TEA standar:

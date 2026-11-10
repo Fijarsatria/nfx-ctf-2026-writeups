@@ -2,6 +2,12 @@
 
 [← Overview](50-nexusgate.md) · [Index](index.md)
 
+> **Langkah 9/12 — Output asli.** Output asli
+>
+> **Titik penting:** NFX{n3xu5_g4t3_0v3r_gr4nt_c4ch3_smuggl3_2026} · http://s1.nfx.my.id:49535/register · http://s1.nfx.my.id:49535/./internal/console/cursor?id=c1&owner=admin
+>
+> **Berikutnya:** [Flag](50-nexusgate-10-flag.md)
+
 ## 3.3 Output asli
 
 ```text

@@ -2,6 +2,12 @@
 
 [← Overview](04-feistel-differential.md) · [Index](index.md)
 
+> **Langkah 3/9 — Analisis.** Total unknown = 7 × 16 = 112 bit.
+>
+> **Titik penting:** Total unknown = 7 × 16 = 112 bit.
+>
+> **Berikutnya:** [Strategi](04-feistel-differential-04-strategi.md)
+
 ## 2.3 Mengapa 7 pasangan cukup
 
 Total unknown = 7 × 16 = 112 bit. Satu pasangan `(p, c1)` memberi 32 bit

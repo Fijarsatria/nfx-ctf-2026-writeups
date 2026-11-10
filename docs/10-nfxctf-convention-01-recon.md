@@ -2,6 +2,12 @@
 
 [← Overview](10-nfxctf-convention.md) · [Index](index.md)
 
+> **Langkah 1/9 — Recon.** Metadata platform (writeups/challenges.json) mencatat challenge ini sebagai Pwn Medium, 280 poin, 12 solves, author Kada.
+>
+> **Titik penting:** NFX{your_flag_here}
+>
+> **Berikutnya:** [Recon](10-nfxctf-convention-02-recon-2.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: Kada**

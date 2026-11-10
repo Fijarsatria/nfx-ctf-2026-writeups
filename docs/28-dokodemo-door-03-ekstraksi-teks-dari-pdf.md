@@ -2,6 +2,12 @@
 
 [← Overview](28-dokodemo-door.md) · [Index](index.md)
 
+> **Langkah 3/9 — Ekstraksi teks dari PDF.** PDF dibuat dengan ReportLab.
+>
+> **Titik penting:** NFX{k3tuk_p1ntu_bUk4_d0kum3n_x0r} · NFX CLASSIFIED ARCHIVE // STRICTLY CONFIDENTIAL // DO NOT DISTRIBUTE
+>
+> **Berikutnya:** [Strategi](28-dokodemo-door-04-strategi.md)
+
 ## 2.4 Ekstraksi teks dari PDF
 
 PDF dibuat dengan ReportLab. Content stream halaman memakai filter

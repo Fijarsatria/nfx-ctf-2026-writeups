@@ -2,6 +2,12 @@
 
 [← Overview](45-hard-vm-bytecode.md) · [Index](index.md)
 
+> **Langkah 10/13 — Output asli.** Output asli
+>
+> **Titik penting:** python3 writeups/assets/hard-vm-bytecode/solve_vm.py · NFX{vm_byt3c0d3_1s_l1k3_4_puzzl3}
+>
+> **Berikutnya:** [Flag](45-hard-vm-bytecode-11-flag.md)
+
 ## 3.3 Output asli
 
 ```text

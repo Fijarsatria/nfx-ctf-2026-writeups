@@ -2,6 +2,12 @@
 
 [← Overview](40-starved.md) · [Index](index.md)
 
+> **Langkah 3/9 — Analisis.** Karena fgets hanya 0xa0 ke buffer 0xb0, tidak ada overflow di sini; yang bisa dieksploitasi adalah format string.
+>
+> **Titik penting:** Karena fgets hanya 0xa0 ke buffer 0xb0, tidak ada overflow di sini; yang bisa dieksploitasi adalah format string.
+>
+> **Berikutnya:** [Analisis](40-starved-04-analisis-2.md)
+
 ## 2.1 `leaker()` — format string
 
 ```asm

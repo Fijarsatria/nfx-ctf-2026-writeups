@@ -2,6 +2,12 @@
 
 [← Overview](01-forgotten-commit-root.md) · [Index](index.md)
 
+> **Langkah 4/8 — Eksploitasi / Solver.** Di dalam sesi SSH, jalankan fzf sebagai root.
+>
+> **Titik penting:** sudo -n /usr/local/bin/fzf --listen 1337 · fzf 0.74.3 · NFX{fzf_l1st3n_r00t_sh3ll_pwn3d}
+>
+> **Berikutnya:** [Kenapa fzf bisa menjadi privesc](01-forgotten-commit-root-05-kenapa-fzf-bisa-menjadi-privesc.md)
+
 ## 3.1 Strategi
 
 1. Dump `.git` dari webroot.

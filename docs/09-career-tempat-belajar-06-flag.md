@@ -2,6 +2,12 @@
 
 [← Overview](09-career-tempat-belajar.md) · [Index](index.md)
 
+> **Langkah 6/8 — Flag.** Flag ini sudah dicek ulang ke platform pada 2026-11-09 dan diterima (Correct, but already solved.).
+>
+> **Titik penting:** NFX{Gr4v4t4r_0s1nt_R3cru1t3r_D1hL34Rn}
+>
+> **Berikutnya:** [Bukti / Evidence](09-career-tempat-belajar-07-bukti-evidence.md)
+
 > **Flag:** `NFX{Gr4v4t4r_0s1nt_R3cru1t3r_D1hL34Rn}`
 > **Status:** `VERIFIED`
 

@@ -5,6 +5,12 @@
 
 [← Overview](31-symhell.md) · [Index](index.md)
 
+> **Langkah 6/7 — Bukti / Evidence.** Semua bukti berada di writeups/assets/symhell/.
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](31-symhell-07-referensi.md)
+
 
 ## Arsip Evidence
 

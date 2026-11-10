@@ -2,6 +2,12 @@
 
 [← Overview](22-static-iv-offline.md) · [Index](index.md)
 
+> **Langkah 1/7 — Recon.** Recon
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Triage awal](22-static-iv-offline-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > Author: rio

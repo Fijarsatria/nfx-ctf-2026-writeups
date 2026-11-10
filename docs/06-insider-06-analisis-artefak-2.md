@@ -2,6 +2,12 @@
 
 [← Overview](06-insider.md) · [Index](index.md)
 
+> **Langkah 6/10 — Analisis Artefak.** Preferences dan Secure Preferences mencatat extension non-webstore:
+>
+> **Titik penting:** 127.0.0.1
+>
+> **Berikutnya:** [Pemulihan Artefak](06-insider-07-pemulihan-artefak.md)
+
 ## 2.5 Extension ZenVPN 2.7.1
 
 `Preferences` dan `Secure Preferences` mencatat extension non-webstore:

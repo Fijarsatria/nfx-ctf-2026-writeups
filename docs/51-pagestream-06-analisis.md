@@ -2,6 +2,12 @@
 
 [← Overview](51-pagestream.md) · [Index](index.md)
 
+> **Langkah 6/11 — Analisis.** EJS dirender oleh Express:
+>
+> **Titik penting:** EJS dirender oleh Express:
+>
+> **Berikutnya:** [Eksploitasi / Solver](51-pagestream-07-eksploitasi-solver.md)
+
 ## 2.4 RCE via overwrite EJS view
 
 EJS dirender oleh Express:

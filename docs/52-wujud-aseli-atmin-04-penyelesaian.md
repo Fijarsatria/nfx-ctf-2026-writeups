@@ -2,6 +2,12 @@
 
 [← Overview](52-wujud-aseli-atmin.md) · [Index](index.md)
 
+> **Langkah 4/7 — Penyelesaian.** Penyelesaian
+>
+> **Titik penting:** NFX{NFCC_Goes_to_NCSC_2026}
+>
+> **Berikutnya:** [Flag](52-wujud-aseli-atmin-05-flag.md)
+
 ### 3.1 Script reproduksi
 
 ```python

@@ -5,6 +5,12 @@
 
 [← Overview](05-heker-tersenyum-art-evidence-secret.md) · [Index](index.md)
 
+> **Langkah 8/9 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](05-heker-tersenyum-art-evidence-secret-09-referensi.md)
+
 
 ## Arsip Evidence
 

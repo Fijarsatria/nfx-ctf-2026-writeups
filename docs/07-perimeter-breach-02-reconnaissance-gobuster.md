@@ -2,6 +2,12 @@
 
 [← Overview](07-perimeter-breach.md) · [Index](index.md)
 
+> **Langkah 2/11 — Reconnaissance — gobuster.** Temuan recon: /admin, /admin/login.php, /uploads, /robots.txt, /.env (403), /.git (403).
+>
+> **Titik penting:** 185.220.101.47
+>
+> **Berikutnya:** [SQL injection — sqlmap](07-perimeter-breach-03-sql-injection-sqlmap.md)
+
 ## 2.1 Reconnaissance — gobuster
 
 ```text

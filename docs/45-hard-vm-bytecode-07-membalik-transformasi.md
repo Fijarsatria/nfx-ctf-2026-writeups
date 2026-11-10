@@ -2,6 +2,12 @@
 
 [← Overview](45-hard-vm-bytecode.md) · [Index](index.md)
 
+> **Langkah 7/13 — Membalik transformasi.** Untuk karakter ke-i, bytecode melakukan:
+>
+> **Titik penting:** Untuk karakter ke-i, bytecode melakukan:
+>
+> **Berikutnya:** [Strategi](45-hard-vm-bytecode-08-strategi.md)
+
 ## 2.5 Membalik transformasi
 
 Untuk karakter ke-`i`, bytecode melakukan:

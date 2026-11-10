@@ -2,6 +2,12 @@
 
 [← Overview](18-broken-signature-scheme.md) · [Index](index.md)
 
+> **Langkah 1/8 — Recon.** challenge.py hanya mencetak ringkasan:
+>
+> **Titik penting:** python3 challenge.py
+>
+> **Berikutnya:** [Layer 1 — RSA signature multiplicatif](18-broken-signature-scheme-02-layer-1-rsa-signature-multiplicatif.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: rio

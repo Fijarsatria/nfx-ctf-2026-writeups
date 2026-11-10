@@ -2,6 +2,12 @@
 
 [← Overview](49-linkvault.md) · [Index](index.md)
 
+> **Langkah 1/12 — Deskripsi challenge.** Deskripsi challenge
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [File / service yang diberikan](49-linkvault-02-file-service-yang-diberikan.md)
+
 ## 1.1 Deskripsi challenge
 
 > Author: Ariaf

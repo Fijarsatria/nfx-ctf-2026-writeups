@@ -2,6 +2,12 @@
 
 [← Overview](32-the-alchemists-sandbox.md) · [Index](index.md)
 
+> **Langkah 4/10 — Analisis.** Payload adalah sebuah tuple berisi assignment-assignment dan ekspresi terakhir.
+>
+> **Titik penting:** Payload adalah sebuah tuple berisi assignment-assignment dan ekspresi terakhir.
+>
+> **Berikutnya:** [Payload](32-the-alchemists-sandbox-05-payload.md)
+
 ## 2.4 Bentuk payload
 
 Payload adalah sebuah **tuple** berisi assignment-assignment dan ekspresi

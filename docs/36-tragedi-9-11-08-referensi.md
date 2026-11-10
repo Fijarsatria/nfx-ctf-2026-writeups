@@ -2,6 +2,12 @@
 
 [← Overview](36-tragedi-9-11.md) · [Index](index.md)
 
+> **Langkah 8/8 — Referensi.** Referensi
+>
+> **Titik penting:** https://www.reddit.com/r/PublicFreakout/comments/pmgkqi/shop_owner_saves_womans_life_from_wall_of_dust_on/ · https://v.redd.it/tf2es5z87ym71 · https://github.com/PigParkerPt2/xor-operation
+>
+> **Selesai.** Kembali ke [Overview](36-tragedi-9-11.md).
+
 - Video: `drive/view.mp4` (hash `c617b4d7...`).
 - Reddit post: `https://www.reddit.com/r/PublicFreakout/comments/pmgkqi/shop_owner_saves_womans_life_from_wall_of_dust_on/`
 - Video Reddit: `https://v.redd.it/tf2es5z87ym71`

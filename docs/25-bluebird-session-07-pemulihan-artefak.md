@@ -2,6 +2,12 @@
 
 [← Overview](25-bluebird-session.md) · [Index](index.md)
 
+> **Langkah 7/11 — Pemulihan Artefak.** Parser keyring lengkap: assets/bluebird-session/solvebluebird.py.
+>
+> **Titik penting:** Parser keyring lengkap: assets/bluebird-session/solvebluebird.py.
+>
+> **Berikutnya:** [Alur 11 Sub-Challenge Q&A (verified)](25-bluebird-session-08-alur-11-sub-challenge-q-a-verified.md)
+
 ### 3.1 Strategi
 
 1. Baca passwd/shadow/group → identifikasi mizore/nozomi.

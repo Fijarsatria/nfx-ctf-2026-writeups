@@ -2,6 +2,12 @@
 
 [← Overview](33-fresh-arrival.md) · [Index](index.md)
 
+> **Langkah 6/8 — Flag.** Flag ini tidak disubmit ke platform (sesuai aturan tugas).
+>
+> **Titik penting:** NFX{XW_CXH_beijing_raihan}
+>
+> **Berikutnya:** [Bukti / Evidence](33-fresh-arrival-07-bukti-evidence.md)
+
 > **Flag:** `NFX{XW_CXH_beijing_raihan}`
 > **Status:** `VERIFIED`
 

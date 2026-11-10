@@ -2,6 +2,12 @@
 
 [← Overview](02-black-box-protocol-n4t0.md) · [Index](index.md)
 
+> **Langkah 2/7 — Analisis.** xl/workbook.xml hanya mendefinisikan satu sheet:
+>
+> **Titik penting:** xl/workbook.xml hanya mendefinisikan satu sheet:
+>
+> **Berikutnya:** [Analisis](02-black-box-protocol-n4t0-03-analisis-2.md)
+
 ## 2.1 Struktur sheet
 
 `xl/workbook.xml` hanya mendefinisikan satu sheet:

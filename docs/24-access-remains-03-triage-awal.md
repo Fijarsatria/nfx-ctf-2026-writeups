@@ -2,6 +2,12 @@
 
 [← Overview](24-access-remains.md) · [Index](index.md)
 
+> **Langkah 3/11 — Triage awal.** file menunjukkan registry hive dan file DPAPI:
+>
+> **Titik penting:** file menunjukkan registry hive dan file DPAPI:
+>
+> **Berikutnya:** [SAM + SYSTEM + SECURITY → NTLM](24-access-remains-04-sam-system-security-ntlm.md)
+
 ## 1.4 Triage awal
 
 `file` menunjukkan registry hive dan file DPAPI:

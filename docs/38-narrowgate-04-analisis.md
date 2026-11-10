@@ -2,6 +2,12 @@
 
 [← Overview](38-narrowgate.md) · [Index](index.md)
 
+> **Langkah 4/9 — Analisis.** setupseccomp() membangun BPF secara manual dan memanggil:
+>
+> **Titik penting:** setupseccomp() membangun BPF secara manual dan memanggil:
+>
+> **Berikutnya:** [Eksploitasi](38-narrowgate-05-eksploitasi.md)
+
 ## 2.3 Seccomp — ORW only
 
 `setup_seccomp()` membangun BPF secara manual dan memanggil:

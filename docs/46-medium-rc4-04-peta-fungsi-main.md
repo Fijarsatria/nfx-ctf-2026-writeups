@@ -2,6 +2,12 @@
 
 [← Overview](46-medium-rc4.md) · [Index](index.md)
 
+> **Langkah 4/11 — Peta fungsi `main`.** Karena binary stripped, kita mulai dari entry point 0x12a0, yang memanggil libcstartmain dengan main di 0x10e0.
+>
+> **Titik penting:** Karena binary stripped, kita mulai dari entry point 0x12a0, yang memanggil libcstartmain dengan main di 0x10e0.
+>
+> **Berikutnya:** [Analisis](46-medium-rc4-05-analisis.md)
+
 ## 2.1 Peta fungsi `main`
 
 Karena binary stripped, kita mulai dari entry point `0x12a0`, yang memanggil `__libc_start_main` dengan `main` di `0x10e0`. Alur `main`:

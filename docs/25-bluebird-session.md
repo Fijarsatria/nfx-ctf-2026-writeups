@@ -23,6 +23,22 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon Artefak | sha256sum login.keyring 423261422632617826.jpg for_nozomi.zip README.txt | [Buka](25-bluebird-session-01-recon-artefak.md) |
+| 2 | Triage awal | file for_nozomi.zip login.keyring 423261422632617826.jpg | [Buka](25-bluebird-session-02-triage-awal.md) |
+| 3 | Identitas dua user | Verifikasi password mizore: | [Buka](25-bluebird-session-03-identitas-dua-user.md) |
+| 4 | Bash history | sudo bash -c 'cat > /home/nozomi/Documents/for_nozomi_content/README.txt' << 'EOF' | [Buka](25-bluebird-session-04-bash-history.md) |
+| 5 | GNOME Keyring `login.keyring` | Atribut adalah MD5 dari nilai: | [Buka](25-bluebird-session-05-gnome-keyring-login-keyring.md) |
+| 6 | Analisis Artefak | 7z x -y -p'MizoreCanFly2077!@' for_nozomi.zip | [Buka](25-bluebird-session-06-analisis-artefak.md) |
+| 7 | Pemulihan Artefak | Parser keyring lengkap: assets/bluebird-session/solvebluebird.py. | [Buka](25-bluebird-session-07-pemulihan-artefak.md) |
+| 8 | Alur 11 Sub-Challenge Q&A (verified) | NFX{Mizore_Promise_Never_Forgotten_The_Bluebird_Still_Sings} | [Buka](25-bluebird-session-08-alur-11-sub-challenge-q-a-verified.md) |
+| 9 | Flag | NFX{Mizore_Promise_Never_Forgotten_The_Bluebird_Still_Sings} | [Buka](25-bluebird-session-09-flag.md) |
+| 10 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](25-bluebird-session-10-bukti-evidence.md) |
+| 11 | Referensi | — | [Buka](25-bluebird-session-11-referensi.md) |
+
 ## TL;DR
 
 - Evidence Linux: `/etc/passwd`, `/etc/shadow`, `/etc/group`, dua home (`mizore`, `nozomi`), keyring GNOME, `for_nozomi.zip`, `Ensemble.mp4`, dan log.

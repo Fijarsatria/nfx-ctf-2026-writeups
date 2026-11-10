@@ -2,6 +2,12 @@
 
 [← Overview](34-s3rvice-k3reta.md) · [Index](index.md)
 
+> **Langkah 9/9 — Referensi.** https://www.youtube.com/watch?v=Z5IssEliM
+>
+> **Titik penting:** NFX{Padalarang} · https://dephub.go.id/post/read/krl-harus-hatihati-lintasi-km-45-15414 · https://investor.id/infrastructure/49324/pt-kai-santuni-korban-longsor-cilebut
+>
+> **Selesai.** Kembali ke [Overview](34-s3rvice-k3reta.md).
+
 - `osint/from_train.jpeg` — gambar challenge.
 - `flags/wave2/S3rvice_K3reta.NOTES.md` — analisis wave 1 (Whoosh/Padalarang).
 - `flags/extend/from_train.candidate.txt` — `NFX{Padalarang}` (wave 1).

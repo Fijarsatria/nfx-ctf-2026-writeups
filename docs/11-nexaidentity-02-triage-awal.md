@@ -2,6 +2,12 @@
 
 [← Overview](11-nexaidentity.md) · [Index](index.md)
 
+> **Langkah 2/9 — Triage awal.** Setelah login, /dashboard menampilkan Raka Pratama · Platform Engineering.
+>
+> **Titik penting:** curl -sS -i "$BASE/" · curl -sS -i "$BASE/login" · curl -sS -i "$BASE/robots.txt"
+>
+> **Berikutnya:** [Analisis](11-nexaidentity-03-analisis.md)
+
 ## 1.4 Triage awal
 
 ```bash

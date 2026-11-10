@@ -2,6 +2,12 @@
 
 [← Overview](08-frekuensi-sunyi.md) · [Index](index.md)
 
+> **Langkah 5/9 — Penyelesaian.** Penyelesaian
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Output asli](08-frekuensi-sunyi-06-output-asli.md)
+
 ## 3.1 Strategi
 
 1. Baca WAV dan pastikan channel identik.

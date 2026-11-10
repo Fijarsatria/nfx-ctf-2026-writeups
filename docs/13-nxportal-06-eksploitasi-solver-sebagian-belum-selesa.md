@@ -2,6 +2,12 @@
 
 [← Overview](13-nxportal.md) · [Index](index.md)
 
+> **Langkah 6/10 — Eksploitasi / Solver (sebagian, belum selesai).** Semua payload di atas diterima dengan pesan sukses, tetapi tidak ada email yang sampai ke inbox eksternal.
+>
+> **Titik penting:** Semua payload di atas diterima dengan pesan sukses, tetapi tidak ada email yang sampai ke inbox eksternal.
+>
+> **Berikutnya:** [Flag](13-nxportal-07-flag.md)
+
 ### 3.1 Strategi yang dituju
 
 1. Bypass filter domain dengan display-name/double-`@`/CRLF.

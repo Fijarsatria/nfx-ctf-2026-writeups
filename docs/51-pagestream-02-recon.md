@@ -2,6 +2,12 @@
 
 [← Overview](51-pagestream.md) · [Index](index.md)
 
+> **Langkah 2/11 — Recon.** Recon
+>
+> **Titik penting:** curl -sS -i http://s1.nfx.my.id:43659/health · curl -sS -i http://s1.nfx.my.id:43659/ · curl -sS -i http://s1.nfx.my.id:43659/dashboard
+>
+> **Berikutnya:** [Mass assignment role](51-pagestream-03-mass-assignment-role.md)
+
 ## 1.2 File / service yang diberikan
 
 | File/Service | Ukuran/Endpoint | Keterangan |

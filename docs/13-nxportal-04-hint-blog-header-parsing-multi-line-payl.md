@@ -2,6 +2,12 @@
 
 [← Overview](13-nxportal.md) · [Index](index.md)
 
+> **Langkah 4/10 — Hint blog: header parsing / multi-line payload.** Ini adalah deskripsi langsung dari kelas bug:
+>
+> **Titik penting:** Ini adalah deskripsi langsung dari kelas bug:
+>
+> **Berikutnya:** [Yang sudah dicoba (live, 2026-11-08)](13-nxportal-05-yang-sudah-dicoba-live-2026-11-08.md)
+
 ## 2.3 Hint blog: header parsing / multi-line payload
 
 `/blog/5`:

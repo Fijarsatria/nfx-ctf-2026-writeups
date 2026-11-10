@@ -2,6 +2,12 @@
 
 [← Overview](42-the-forgotten-state.md) · [Index](index.md)
 
+> **Langkah 2/10 — Triage awal.** Triage awal
+>
+> **Titik penting:** file state · checksec (pwntools)
+>
+> **Berikutnya:** [Analisis](42-the-forgotten-state-03-analisis.md)
+
 ## 1.4 Triage awal
 
 ```text

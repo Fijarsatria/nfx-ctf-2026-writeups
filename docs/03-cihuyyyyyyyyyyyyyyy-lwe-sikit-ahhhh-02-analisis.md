@@ -2,6 +2,12 @@
 
 [← Overview](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh.md) · [Index](index.md)
 
+> **Langkah 2/7 — Analisis.** Data cocok dengan LWE public key / transkrip satu sisi:
+>
+> **Titik penting:** Data cocok dengan LWE public key / transkrip satu sisi:
+>
+> **Berikutnya:** [Solver](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-03-solver.md)
+
 ### 2.1 Bentuk matematis
 
 Data cocok dengan LWE *public key* / transkrip satu sisi:

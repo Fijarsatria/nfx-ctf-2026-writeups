@@ -2,6 +2,12 @@
 
 [← Overview](27-weak-handshake.md) · [Index](index.md)
 
+> **Langkah 7/10 — Output.** Output
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Flag](27-weak-handshake-08-flag.md)
+
 ## 3.3 Output
 
 ```text

@@ -2,6 +2,12 @@
 
 [← Overview](06-insider.md) · [Index](index.md)
 
+> **Langkah 3/10 — Struktur profil.** Profil atas nama Noah Fox (n.fox@nfx-aero.example), sesuai acquisition note.
+>
+> **Titik penting:** Profil atas nama Noah Fox (n.fox@nfx-aero.example), sesuai acquisition note.
+>
+> **Berikutnya:** [History: aktivitas tersangka](06-insider-04-history-aktivitas-tersangka.md)
+
 ## 2.1 Struktur profil
 
 ```text

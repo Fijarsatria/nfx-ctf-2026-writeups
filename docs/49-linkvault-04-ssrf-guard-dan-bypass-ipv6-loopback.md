@@ -2,6 +2,12 @@
 
 [← Overview](49-linkvault.md) · [Index](index.md)
 
+> **Langkah 4/12 — SSRF guard dan bypass IPv6 loopback.** Jadi http://[::1]:8081/internal/import?...
+>
+> **Titik penting:** http://[::1 · 127.0.0.1 · 127.0.0.1:8081
+>
+> **Berikutnya:** [Internal import tidak memvalidasi `filter`](49-linkvault-05-internal-import-tidak-memvalidasi-filter.md)
+
 ## 2.1 SSRF guard dan bypass IPv6 loopback
 
 `handlers.go`:

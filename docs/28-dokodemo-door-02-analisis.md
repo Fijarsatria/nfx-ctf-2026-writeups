@@ -2,6 +2,12 @@
 
 [← Overview](28-dokodemo-door.md) · [Index](index.md)
 
+> **Langkah 2/9 — Analisis.** Untuk ciphertext C[i] dan key K dengan panjang L:
+>
+> **Titik penting:** python3 solve_dokodemo.py · file /tmp/opencode/dokodemo_decrypted.pdf · sha256sum rahasia.pdf /tmp/opencode/dokodemo_decrypted.pdf
+>
+> **Berikutnya:** [Ekstraksi teks dari PDF](28-dokodemo-door-03-ekstraksi-teks-dari-pdf.md)
+
 ## 2.1 Sifat repeating-key XOR
 
 Untuk ciphertext `C[i]` dan key `K` dengan panjang `L`:

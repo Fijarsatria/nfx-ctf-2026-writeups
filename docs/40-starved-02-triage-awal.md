@@ -2,6 +2,12 @@
 
 [← Overview](40-starved.md) · [Index](index.md)
 
+> **Langkah 2/9 — Triage awal.** strings memperlihatkan decoy flag yang sengaja dipasang di .data:
+>
+> **Titik penting:** file chall · checksec (pwntools)
+>
+> **Berikutnya:** [Analisis](40-starved-03-analisis.md)
+
 ## 1.4 Triage awal
 
 ```text

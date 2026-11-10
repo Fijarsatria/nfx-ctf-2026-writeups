@@ -2,6 +2,12 @@
 
 [← Overview](46-medium-rc4.md) · [Index](index.md)
 
+> **Langkah 5/11 — Analisis.** Dari instruksi lea di atas:
+>
+> **Titik penting:** Dari instruksi lea di atas:
+>
+> **Berikutnya:** [Strategi](46-medium-rc4-06-strategi.md)
+
 ## 2.2 Ekstraksi konstanta
 
 Dari instruksi `lea` di atas:

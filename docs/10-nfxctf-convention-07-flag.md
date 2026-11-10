@@ -2,6 +2,12 @@
 
 [← Overview](10-nfxctf-convention.md) · [Index](index.md)
 
+> **Langkah 7/9 — Flag.** 2026-11-09 dan diterima (Correct, but already solved.).
+>
+> **Titik penting:** NFX{h4ck3r_c0nv3nt10n_m4st3r_pwn3r_9988776655}
+>
+> **Berikutnya:** [Bukti / Evidence](10-nfxctf-convention-08-bukti-evidence.md)
+
 > **Flag:** `NFX{h4ck3r_c0nv3nt10n_m4st3r_pwn3r_9988776655}`
 > **Status:** `VERIFIED`
 

@@ -23,6 +23,19 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Jejak Awal | sha256sum drive/view.mp4 | [Buka](36-tragedi-9-11-01-jejak-awal.md) |
+| 2 | Triage awal | file drive/view.mp4 | [Buka](36-tragedi-9-11-02-triage-awal.md) |
+| 3 | Analisis Jejak | https://github.com/PigParkerPt2/xor-operation | [Buka](36-tragedi-9-11-03-analisis-jejak.md) |
+| 4 | Analisis Jejak | git log --all --oneline --stat | [Buka](36-tragedi-9-11-04-analisis-jejak-2.md) |
+| 5 | Pencarian & Verifikasi | git clone https://github.com/PigParkerPt2/xor-operation.git | [Buka](36-tragedi-9-11-05-pencarian-verifikasi.md) |
+| 6 | Flag | NFX{OS1NT_DU4R_D34_D0R} | [Buka](36-tragedi-9-11-06-flag.md) |
+| 7 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](36-tragedi-9-11-07-bukti-evidence.md) |
+| 8 | Referensi | https://www.reddit.com/r/PublicFreakout/comments/pmgkqi/shop_owner_saves_womans_life_from_wall_of_dust_on/ | [Buka](36-tragedi-9-11-08-referensi.md) |
+
 ## TL;DR
 
 - Video challenge adalah rekaman 9/11 berdurasi **58,5 detik**, 1920×1080,

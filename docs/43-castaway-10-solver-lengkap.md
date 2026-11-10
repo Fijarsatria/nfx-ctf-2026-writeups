@@ -2,6 +2,12 @@
 
 [← Overview](43-castaway.md) · [Index](index.md)
 
+> **Langkah 10/14 — Solver lengkap.** File: writeups/assets/castaway/solvecastaway.py
+>
+> **Titik penting:** File: writeups/assets/castaway/solvecastaway.py
+>
+> **Berikutnya:** [Output asli](43-castaway-11-output-asli.md)
+
 ## 3.2 Solver lengkap
 
 File: `writeups/assets/castaway/solve_castaway.py`

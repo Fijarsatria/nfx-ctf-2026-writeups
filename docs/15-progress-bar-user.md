@@ -23,6 +23,22 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | nmap -Pn -sV -p- --min-rate 2000 10.10.20.22 | [Buka](15-progress-bar-user-01-recon.md) |
+| 2 | Permukaan upload dan `session.upload_progress` | PHP memiliki fitur session.uploadprogress: ketika sebuah multipart POST mengandung field PHPSESSIONUPLOADPROGRESS, PHP memproses progres upload dan session sebelum kode aplikasi (RINIT) dij… | [Buka](15-progress-bar-user-02-permukaan-upload-dan-session-upload-prog.md) |
+| 3 | Analisis | CVE-2026-109618 adalah RCE via OOM corruption di PHP; fixed di 8.4.27 (8.5.12 / 8.3.36 / 8.2.35 untuk branch lain). | [Buka](15-progress-bar-user-03-analisis.md) |
+| 4 | Analisis | Dari shell www-data, source service di /opt dibaca. | [Buka](15-progress-bar-user-04-analisis-2.md) |
+| 5 | Strategi | — | [Buka](15-progress-bar-user-05-strategi.md) |
+| 6 | Langkah exploit | curl -sS -F 'PHP_SESSION_UPLOAD_PROGRESS=x' \ | [Buka](15-progress-bar-user-06-langkah-exploit.md) |
+| 7 | Output | NFX{fr0m_w4tcht0w3r_c0nf1g_t0_r00t_3xp0rt_j0b} | [Buka](15-progress-bar-user-07-output.md) |
+| 8 | Flag | NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4} | [Buka](15-progress-bar-user-08-flag.md) |
+| 9 | Riwayat penolakan di backend lama | NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4} | [Buka](15-progress-bar-user-09-riwayat-penolakan-di-backend-lama.md) |
+| 10 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](15-progress-bar-user-10-bukti-evidence.md) |
+| 11 | Referensi | 8.4.27 / 8.5.12 / 8.3.36 / 8.2.35. | [Buka](15-progress-bar-user-11-referensi.md) |
+
 ## Ringkasan
 
 > **Catatan bukti.** Sumber utama adalah

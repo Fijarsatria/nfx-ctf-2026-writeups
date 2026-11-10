@@ -2,6 +2,12 @@
 
 [← Overview](31-symhell.md) · [Index](index.md)
 
+> **Langkah 2/7 — Triage awal.** Bagian penting app.py:
+>
+> **Titik penting:** { } [ ] ( ) ~ ! - _ . / \ \| & ; < > = + , : " ' @ % ^  spasi tab
+>
+> **Berikutnya:** [Analisis](31-symhell-03-analisis.md)
+
 ## 1.4 Triage awal
 
 Bagian penting `app.py`:

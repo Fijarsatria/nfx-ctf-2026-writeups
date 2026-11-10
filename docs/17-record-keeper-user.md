@@ -23,6 +23,20 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | nmap -Pn -sV -p- --min-rate 2000 10.10.20.23 | [Buka](17-record-keeper-user-01-recon.md) |
+| 2 | Analisis | Dari dokumentasi console: | [Buka](17-record-keeper-user-02-analisis.md) |
+| 3 | Analisis | 10.10.20.10 | [Buka](17-record-keeper-user-03-analisis-2.md) |
+| 4 | Setelah RCE | Shell berjalan sebagai node. | [Buka](17-record-keeper-user-04-setelah-rce.md) |
+| 5 | Eksploitasi / Solver | python3 /tmp/opencode/probe23.py 10.10.20.23 3000 | [Buka](17-record-keeper-user-05-eksploitasi-solver.md) |
+| 6 | Output | cat /home/node/user.txt | [Buka](17-record-keeper-user-06-output.md) |
+| 7 | Flag | NFX{br0tl1_0ob_wr1t3_w0rk3r_r0p_rc3} | [Buka](17-record-keeper-user-07-flag.md) |
+| 8 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](17-record-keeper-user-08-bukti-evidence.md) |
+| 9 | Referensi | — | [Buka](17-record-keeper-user-09-referensi.md) |
+
 ## Ringkasan
 
 > **Catatan bukti.** Sumber utama adalah

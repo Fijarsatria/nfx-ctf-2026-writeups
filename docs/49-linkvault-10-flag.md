@@ -2,6 +2,12 @@
 
 [← Overview](49-linkvault.md) · [Index](index.md)
 
+> **Langkah 10/12 — Flag.** Flag yang sama muncul di halaman /reports milik user penyerang pada instance live.
+>
+> **Titik penting:** NFX{L1nkV4ult_cve_26_3p1c_!}
+>
+> **Berikutnya:** [Bukti / Evidence](49-linkvault-11-bukti-evidence.md)
+
 > **Flag:** `NFX{L1nkV4ult_cve_26_3p1c_!}`
 > **Status:** `VERIFIED`
 

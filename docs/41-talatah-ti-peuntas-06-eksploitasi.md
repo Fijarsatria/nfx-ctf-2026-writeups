@@ -2,6 +2,12 @@
 
 [← Overview](41-talatah-ti-peuntas.md) · [Index](index.md)
 
+> **Langkah 6/10 — Eksploitasi.** (lihat assets/libc-offsets-and-gadgets.txt)
+>
+> **Titik penting:** (lihat assets/libc-offsets-and-gadgets.txt)
+>
+> **Berikutnya:** [Eksploitasi](41-talatah-ti-peuntas-07-eksploitasi-2.md)
+
 ## 3.1 Strategi
 
 1. **Node 0** (`key_size=0x18`, `tlv_len=0x40`): overflow node header sehingga `node0->data = printf@got`, `node0->len = 8`.

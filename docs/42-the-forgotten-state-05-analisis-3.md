@@ -2,6 +2,12 @@
 
 [← Overview](42-the-forgotten-state.md) · [Index](index.md)
 
+> **Langkah 5/10 — Analisis.** edit(rec0, 0x50) menulis dari user data B0:
+>
+> **Titik penting:** edit(rec0, 0x50) menulis dari user data B0:
+>
+> **Berikutnya:** [Eksploitasi](42-the-forgotten-state-06-eksploitasi.md)
+
 ## 2.6 Aritmetika overflow
 
 Urutan `create`:

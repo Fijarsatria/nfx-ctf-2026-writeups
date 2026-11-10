@@ -2,6 +2,12 @@
 
 [← Overview](50-nexusgate.md) · [Index](index.md)
 
+> **Langkah 6/12 — Analisis.** Analisis
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Strategi](50-nexusgate-07-strategi.md)
+
 ## 2.4 Shared cache → MASTER_TICKET
 
 `proxy.js`:

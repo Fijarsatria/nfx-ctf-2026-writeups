@@ -2,6 +2,12 @@
 
 [← Overview](05-heker-tersenyum-art-evidence-secret.md) · [Index](index.md)
 
+> **Langkah 3/9 — Analisis Artefak.** Kukuriuk99 adalah kandidat password/petunjuk tambahan.
+>
+> **Titik penting:** python3 - <<'PY'
+>
+> **Berikutnya:** [Ekstraksi LSB manual](05-heker-tersenyum-art-evidence-secret-04-ekstraksi-lsb-manual.md)
+
 ## 2.1 Metadata `PhotoLocation`
 
 ```bash

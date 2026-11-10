@@ -2,6 +2,12 @@
 
 [← Overview](20-flagkeepers.md) · [Index](index.md)
 
+> **Langkah 2/8 — Analisis.** Untuk nonce 12 byte:
+>
+> **Titik penting:** Untuk nonce 12 byte:
+>
+> **Berikutnya:** [Helper GF(2^128) / GHASH](20-flagkeepers-03-helper-gf-2-128-ghash.md)
+
 ### 2.1 GCM dalam satu paragraf
 
 Untuk nonce 12 byte:

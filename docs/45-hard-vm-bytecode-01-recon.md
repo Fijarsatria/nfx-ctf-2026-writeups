@@ -2,6 +2,12 @@
 
 [← Overview](45-hard-vm-bytecode.md) · [Index](index.md)
 
+> **Langkah 1/13 — Recon.** Deskripsi memberi tahu urutan operasi per karakter.
+>
+> **Titik penting:** NFX{...}
+>
+> **Berikutnya:** [Triage awal](45-hard-vm-bytecode-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: cypera**

@@ -5,6 +5,12 @@
 
 [← Overview](06-insider.md) · [Index](index.md)
 
+> **Langkah 9/10 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](06-insider-10-referensi.md)
+
 
 ## Arsip Evidence
 

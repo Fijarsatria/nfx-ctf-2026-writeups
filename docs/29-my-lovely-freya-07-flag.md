@@ -2,6 +2,12 @@
 
 [← Overview](29-my-lovely-freya.md) · [Index](index.md)
 
+> **Langkah 7/9 — Flag.** Plaintext asli di surat:
+>
+> **Titik penting:** NFX{FR3Y4_MY_L0V3LY!}
+>
+> **Berikutnya:** [Bukti / Evidence](29-my-lovely-freya-08-bukti-evidence.md)
+
 > **Flag:** `NFX{FR3Y4_MY_L0V3LY!}`
 > **Status:** `VERIFIED`
 

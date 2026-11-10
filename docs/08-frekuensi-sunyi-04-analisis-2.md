@@ -2,6 +2,12 @@
 
 [← Overview](08-frekuensi-sunyi.md) · [Index](index.md)
 
+> **Langkah 4/9 — Analisis.** Hasil gambar (lihat 04-text-crop.png) menunjukkan deretan karakter:
+>
+> **Titik penting:** NFX{b0sC4_Ce01L}
+>
+> **Berikutnya:** [Penyelesaian](08-frekuensi-sunyi-05-penyelesaian.md)
+
 ## 2.3 Membaca glyph
 
 Hasil gambar (lihat `04-text-crop.png`) menunjukkan deretan karakter:

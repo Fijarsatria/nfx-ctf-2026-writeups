@@ -2,6 +2,12 @@
 
 [← Overview](30-stay.md) · [Index](index.md)
 
+> **Langkah 1/6 — Recon.** Tidak ada attachment file.
+>
+> **Titik penting:** cat -v stay_zw_raw.txt \| head -2 · NFX{your_flag_here}
+>
+> **Berikutnya:** [Analisis](30-stay-02-analisis.md)
+
 ### 1.1 Deskripsi challenge
 
 > **Author: Kesatria Baja Ringan**

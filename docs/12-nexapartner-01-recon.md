@@ -2,6 +2,12 @@
 
 [← Overview](12-nexapartner.md) · [Index](index.md)
 
+> **Langkah 1/9 — Recon.** Tidak ada attachment.
+>
+> **Titik penting:** http://s1.nfx.my.id:43965 · NFX/web/07_nexapartner key: NFXCTF-NFCC-NXCTF-2026
+>
+> **Berikutnya:** [Triage awal](12-nexapartner-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > Author: Ariaf

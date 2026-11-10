@@ -2,6 +2,12 @@
 
 [← Overview](13-nxportal.md) · [Index](index.md)
 
+> **Langkah 7/10 — Flag.** flags/web/NXPortal.txt berisi catatan investigasi, bukan flag challenge:
+>
+> **Titik penting:** flag belum ditemukan
+>
+> **Berikutnya:** [Bukti / Evidence](13-nxportal-08-bukti-evidence.md)
+
 > **Flag:** **OPEN — belum ditemukan**
 > **Status:** `OPEN`
 

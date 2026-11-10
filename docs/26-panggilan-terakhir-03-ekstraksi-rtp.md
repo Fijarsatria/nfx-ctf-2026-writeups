@@ -2,6 +2,12 @@
 
 [← Overview](26-panggilan-terakhir.md) · [Index](index.md)
 
+> **Langkah 3/8 — Ekstraksi RTP.** RTP header 12 byte, payload 160 byte (20 ms @ 8 kHz), total UDP payload 172 byte.
+>
+> **Titik penting:** RTP header 12 byte, payload 160 byte (20 ms @ 8 kHz), total UDP payload 172 byte.
+>
+> **Berikutnya:** [Transkripsi](26-panggilan-terakhir-04-transkripsi.md)
+
 ## 2.2 Ekstraksi RTP
 
 RTP header 12 byte, payload 160 byte (20 ms @ 8 kHz), total UDP payload 172 byte. Ekstraksi dilakukan per `(sport,dport,ssrc)`, urut sequence, lalu payload μ-law di-decode.

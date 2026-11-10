@@ -2,6 +2,12 @@
 
 [← Overview](01-forgotten-commit-root.md) · [Index](index.md)
 
+> **Langkah 2/8 — Analisis.** Situs utama hanya halaman statis, tetapi response untuk /.git/HEAD tidak 404.
+>
+> **Titik penting:** git-dumper http://10.10.20.21/ /tmp/nexus_repo · git -C /tmp/nexus_repo show 8acfc1f:ansible/inventory.ini · ssh leonardo@10.10.20.21
+>
+> **Berikutnya:** [Enumerasi sudo](01-forgotten-commit-root-03-enumerasi-sudo.md)
+
 ## 2.1 Webroot dan eksposur `.git`
 
 Situs utama hanya halaman statis, tetapi response untuk `/.git/HEAD` tidak 404.

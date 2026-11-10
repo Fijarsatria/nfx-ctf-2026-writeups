@@ -2,6 +2,12 @@
 
 [← Overview](43-castaway.md) · [Index](index.md)
 
+> **Langkah 2/14 — Triage awal.** Triage awal
+>
+> **Titik penting:** file reverse/Hard_03_Castaway/castaway · sha256sum reverse/Hard_03_Castaway/castaway · md5sum reverse/Hard_03_Castaway/castaway
+>
+> **Berikutnya:** [Perintah akuisisi bukti](43-castaway-03-perintah-akuisisi-bukti.md)
+
 ## 1.4 Triage awal
 
 ```text

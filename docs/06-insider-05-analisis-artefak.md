@@ -2,6 +2,12 @@
 
 [← Overview](06-insider.md) · [Index](index.md)
 
+> **Langkah 5/10 — Analisis Artefak.** Format v10 Chrome (Windows) = v10 + 12-byte nonce + ciphertext + 16-byte GCM tag, dengan key yang dibungkus DPAPI di Local State:
+>
+> **Titik penting:** https://github.com/ · https://0x00sec.org/ · https://mail.google.com/
+>
+> **Berikutnya:** [Analisis Artefak](06-insider-06-analisis-artefak-2.md)
+
 ## 2.3 Login Data: username dan password `v10`
 
 ```sql

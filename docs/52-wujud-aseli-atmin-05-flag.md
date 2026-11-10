@@ -2,6 +2,12 @@
 
 [← Overview](52-wujud-aseli-atmin.md) · [Index](index.md)
 
+> **Langkah 5/7 — Flag.** Verifikasi platform:
+>
+> **Titik penting:** NFX{NFCC_Goes_to_NCSC_2026}
+>
+> **Berikutnya:** [Bukti / Evidence](52-wujud-aseli-atmin-06-bukti-evidence.md)
+
 > **Flag:** `NFX{NFCC_Goes_to_NCSC_2026}`
 > **Status:** `VERIFIED`
 

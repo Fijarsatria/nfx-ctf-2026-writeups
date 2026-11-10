@@ -2,6 +2,12 @@
 
 [← Overview](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh.md) · [Index](index.md)
 
+> **Langkah 5/7 — Flag.** Verifikasi (log submit asli):
+>
+> **Titik penting:** NFXCTF{l4tt1c3_sm4ll_s3cr3t_LWE_7e2a0195}
+>
+> **Berikutnya:** [Bukti / Evidence](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-06-bukti-evidence.md)
+
 > **Flag:** `NFXCTF{l4tt1c3_sm4ll_s3cr3t_LWE_7e2a0195}`
 > **Status:** `VERIFIED`
 

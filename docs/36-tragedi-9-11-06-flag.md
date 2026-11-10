@@ -2,6 +2,12 @@
 
 [← Overview](36-tragedi-9-11.md) · [Index](index.md)
 
+> **Langkah 6/8 — Flag.** Flag ini tidak disubmit ke platform (sesuai aturan tugas).
+>
+> **Titik penting:** NFX{OS1NT_DU4R_D34_D0R}
+>
+> **Berikutnya:** [Bukti / Evidence](36-tragedi-9-11-07-bukti-evidence.md)
+
 > **Flag:** `NFX{OS1NT_DU4R_D34_D0R}`
 > **Status:** `VERIFIED`
 

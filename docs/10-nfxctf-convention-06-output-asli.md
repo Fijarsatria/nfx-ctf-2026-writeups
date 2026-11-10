@@ -2,6 +2,12 @@
 
 [← Overview](10-nfxctf-convention.md) · [Index](index.md)
 
+> **Langkah 6/9 — Output asli.** Baris terakhir membuktikan ROP system("/bin/sh") berjalan dan shell membaca flag.txt di direktori kerja.
+>
+> **Titik penting:** NFX{LOCAL_TEST_FLAG_CONVENTION}
+>
+> **Berikutnya:** [Flag](10-nfxctf-convention-07-flag.md)
+
 ## 3.4 Output asli
 
 ```text

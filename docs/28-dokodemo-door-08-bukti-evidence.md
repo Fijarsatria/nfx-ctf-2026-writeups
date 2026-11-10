@@ -5,6 +5,12 @@
 
 [← Overview](28-dokodemo-door.md) · [Index](index.md)
 
+> **Langkah 8/9 — Bukti / Evidence.** Semua bukti berada di writeups/assets/dokodemo-door/.
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](28-dokodemo-door-09-referensi.md)
+
 
 ## Arsip Evidence
 

@@ -5,6 +5,12 @@
 
 [← Overview](18-broken-signature-scheme.md) · [Index](index.md)
 
+> **Langkah 7/8 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](18-broken-signature-scheme-08-referensi.md)
+
 
 ## Arsip Evidence
 

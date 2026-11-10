@@ -2,6 +2,12 @@
 
 [← Overview](32-the-alchemists-sandbox.md) · [Index](index.md)
 
+> **Langkah 8/10 — Flag.** Flag
+>
+> **Titik penting:** NFXCTF{pyj41l_4st_4lch3my_vm_pwn_d84f216a}
+>
+> **Berikutnya:** [Bukti / Evidence](32-the-alchemists-sandbox-09-bukti-evidence.md)
+
 > **Flag:** `NFXCTF{pyj41l_4st_4lch3my_vm_pwn_d84f216a}`
 > **Status:** `VERIFIED`
 

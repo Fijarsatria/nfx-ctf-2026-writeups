@@ -5,6 +5,12 @@
 
 [← Overview](44-hard-feistel.md) · [Index](index.md)
 
+> **Langkah 12/13 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](44-hard-feistel-13-referensi.md)
+
 
 ## Arsip Evidence
 

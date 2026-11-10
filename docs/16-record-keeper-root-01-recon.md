@@ -2,6 +2,12 @@
 
 [← Overview](16-record-keeper-root.md) · [Index](index.md)
 
+> **Langkah 1/10 — Recon.** Challenge Root melanjutkan akses node dari challenge User.
+>
+> **Titik penting:** 10.10.20.23 · 10.10.20.10
+>
+> **Berikutnya:** [Triage awal](16-record-keeper-root-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > Author: Ariaf

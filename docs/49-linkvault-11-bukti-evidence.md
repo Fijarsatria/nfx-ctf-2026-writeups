@@ -5,6 +5,12 @@
 
 [← Overview](49-linkvault.md) · [Index](index.md)
 
+> **Langkah 11/12 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](49-linkvault-12-referensi.md)
+
 
 ## Arsip Evidence
 

@@ -2,6 +2,12 @@
 
 [← Overview](11-nexaidentity.md) · [Index](index.md)
 
+> **Langkah 3/9 — Analisis.** Form login menggunakan application/x-www-form-urlencoded.
+>
+> **Titik penting:** Form login menggunakan application/x-www-form-urlencoded.
+>
+> **Berikutnya:** [Analisis](11-nexaidentity-04-analisis-2.md)
+
 ## 2.1 Express + qs: bracket notation menjadi objek
 
 Form login menggunakan `application/x-www-form-urlencoded`. Express dengan `extended: true` memakai `qs`, yang mengubah:

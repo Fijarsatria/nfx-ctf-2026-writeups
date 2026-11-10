@@ -2,6 +2,12 @@
 
 [← Overview](46-medium-rc4.md) · [Index](index.md)
 
+> **Langkah 6/11 — Strategi.** Solver membaca binary lewat program header PTLOAD, bukan hardcode offset file, sehingga tetap benar meskipun layout section berubah.
+>
+> **Titik penting:** Solver membaca binary lewat program header PTLOAD, bukan hardcode offset file, sehingga tetap benar meskipun layout section berubah.
+>
+> **Berikutnya:** [Solver lengkap](46-medium-rc4-07-solver-lengkap.md)
+
 ## 3.1 Strategi
 
 1. Ekstrak key 19 byte dari `.rodata` `0x2021`.

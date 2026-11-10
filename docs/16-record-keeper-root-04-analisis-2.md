@@ -2,6 +2,12 @@
 
 [← Overview](16-record-keeper-root.md) · [Index](index.md)
 
+> **Langkah 4/10 — Analisis.** node tidak bisa membacanya, tetapi ops bisa.
+>
+> **Titik penting:** node tidak bisa membacanya, tetapi ops bisa.
+>
+> **Berikutnya:** [Strategi](16-record-keeper-root-05-strategi.md)
+
 ## 2.4 Permission `/etc/nexus` dan spool
 
 Notes mencatat:

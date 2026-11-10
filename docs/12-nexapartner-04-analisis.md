@@ -2,6 +2,12 @@
 
 [← Overview](12-nexapartner.md) · [Index](index.md)
 
+> **Langkah 4/9 — Analisis.** Dikirim ke POST /api/settings:
+>
+> **Titik penting:** curl -sS -i -b cookies.txt \ · curl -sS -i -b cookies.txt "$BASE/admin" · NFX{js0n_pr0t0_p0llut10n_4dm1n_byp4ss}
+>
+> **Berikutnya:** [Eksploitasi / Solver](12-nexapartner-05-eksploitasi-solver.md)
+
 ## 2.2 Prototype pollution
 
 Payload:

@@ -23,6 +23,18 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Cerita Singkat | NFX{NFCC_Goes_to_NCSC_2026} | [Buka](52-wujud-aseli-atmin-01-cerita-singkat.md) |
+| 2 | Recon | exiftool dokumentasi.png | [Buka](52-wujud-aseli-atmin-02-recon.md) |
+| 3 | Analisis | NFX{NFCC_Goes_to_NCSC_2026} | [Buka](52-wujud-aseli-atmin-03-analisis.md) |
+| 4 | Penyelesaian | NFX{NFCC_Goes_to_NCSC_2026} | [Buka](52-wujud-aseli-atmin-04-penyelesaian.md) |
+| 5 | Flag | NFX{NFCC_Goes_to_NCSC_2026} | [Buka](52-wujud-aseli-atmin-05-flag.md) |
+| 6 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](52-wujud-aseli-atmin-06-bukti-evidence.md) |
+| 7 | Referensi | — | [Buka](52-wujud-aseli-atmin-07-referensi.md) |
+
 ## Ringkasan
 
 > Challenge baru di event umum (bukan extend), dibuat 2026-11-07 23:51.

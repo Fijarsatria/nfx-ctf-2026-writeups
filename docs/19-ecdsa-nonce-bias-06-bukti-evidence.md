@@ -5,6 +5,12 @@
 
 [← Overview](19-ecdsa-nonce-bias.md) · [Index](index.md)
 
+> **Langkah 6/7 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](19-ecdsa-nonce-bias-07-referensi.md)
+
 
 ## Arsip Evidence
 

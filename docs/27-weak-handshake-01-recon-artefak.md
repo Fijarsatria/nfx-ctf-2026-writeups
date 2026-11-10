@@ -2,6 +2,12 @@
 
 [← Overview](27-weak-handshake.md) · [Index](index.md)
 
+> **Langkah 1/10 — Recon Artefak.** Recon Artefak
+>
+> **Titik penting:** sha256sum capture.pcapng · file capture.pcapng · tcpdump -nn -r capture.pcapng \| head
+>
+> **Berikutnya:** [Analisis Artefak](27-weak-handshake-02-analisis-artefak.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: Ariaf

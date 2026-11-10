@@ -2,6 +2,12 @@
 
 [← Overview](29-my-lovely-freya.md) · [Index](index.md)
 
+> **Langkah 2/9 — Triage awal.** Sekilas ini terlihat seperti password.
+>
+> **Titik penting:** file FreyaSayangkuh · file freya_sayangkuh.png · exiftool freya_sayangkuh.png
+>
+> **Berikutnya:** [Analisis](29-my-lovely-freya-03-analisis.md)
+
 ## 1.4 Triage awal
 
 ```bash

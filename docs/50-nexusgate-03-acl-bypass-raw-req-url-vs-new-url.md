@@ -2,6 +2,12 @@
 
 [← Overview](50-nexusgate.md) · [Index](index.md)
 
+> **Langkah 3/12 — ACL bypass: raw `req.url` vs `new URL()`.** Respons mentah (chunked):
+>
+> **Titik penting:** http://127.0.0.1:8080' · 127.0.0.1:8080
+>
+> **Berikutnya:** [Cursor over-grant → PHASE_TOKEN](50-nexusgate-04-cursor-over-grant-phase-token.md)
+
 ## 2.1 ACL bypass: raw `req.url` vs `new URL()`
 
 `proxy.js`:

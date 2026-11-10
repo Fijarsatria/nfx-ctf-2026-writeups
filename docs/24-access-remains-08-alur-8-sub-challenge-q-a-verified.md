@@ -2,6 +2,12 @@
 
 [← Overview](24-access-remains.md) · [Index](index.md)
 
+> **Langkah 8/11 — Alur 8 Sub-Challenge Q&A (verified).** Platform Access Remains memakai 8 pertanyaan berantai.
+>
+> **Titik penting:** NFX{The_Real_Access_Was_Kumiko_All_Along}
+>
+> **Berikutnya:** [Flag](24-access-remains-09-flag.md)
+
 Platform Access Remains memakai 8 pertanyaan berantai. Teks di bawah adalah
 teks asli dari `get_sub_challenges`; semua jawaban sudah diverifikasi
 `true` sampai `completed: true`.

@@ -5,6 +5,12 @@
 
 [← Overview](35-the-ghost-operator.md) · [Index](index.md)
 
+> **Langkah 8/9 — Bukti / Evidence.** Semua bukti berada di writeups/assets/the-ghost-operator/.
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](35-the-ghost-operator-09-referensi.md)
+
 
 ## Arsip Evidence
 

@@ -2,6 +2,12 @@
 
 [← Overview](12-nexapartner.md) · [Index](index.md)
 
+> **Langkah 5/9 — Eksploitasi / Solver.** Eksploitasi / Solver
+>
+> **Titik penting:** curl -sS -c cookies.txt -X POST \ · curl -sS -o /dev/null -w '%{http_code}\n' -b cookies.txt "$BASE/admin" · curl -sS -b cookies.txt -H 'Content-Type: application/json' \
+>
+> **Berikutnya:** [Output asli](12-nexapartner-06-output-asli.md)
+
 ## 3.1 Strategi
 
 - Login sebagai partner demo.

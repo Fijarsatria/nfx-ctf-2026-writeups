@@ -2,6 +2,12 @@
 
 [← Overview](28-dokodemo-door.md) · [Index](index.md)
 
+> **Langkah 4/9 — Strategi.** Strategi
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Solver](28-dokodemo-door-05-solver.md)
+
 ## 3.1 Strategi
 
 1. Baca ciphertext.

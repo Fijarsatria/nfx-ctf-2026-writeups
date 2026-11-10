@@ -2,6 +2,12 @@
 
 [← Overview](08-frekuensi-sunyi.md) · [Index](index.md)
 
+> **Langkah 2/9 — Triage awal.** Triage awal
+>
+> **Titik penting:** file work/event/misc/frekuensi-sunyi/rekaman_lobi.wav · python3 - <<'EOF'
+>
+> **Berikutnya:** [Analisis](08-frekuensi-sunyi-03-analisis.md)
+
 ## 1.4 Triage awal
 
 ```bash

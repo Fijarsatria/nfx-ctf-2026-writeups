@@ -2,6 +2,12 @@
 
 [← Overview](39-pipa-nu-kotor.md) · [Index](index.md)
 
+> **Langkah 4/8 — Analisis.** Saat free(struct) pada chunk 0x20, glibc menulis tcache->next di offset 0 dan tcache key di offset 8.
+>
+> **Titik penting:** Saat free(struct) pada chunk 0x20, glibc menulis tcache->next di offset 0 dan tcache key di offset 8.
+>
+> **Berikutnya:** [Eksploitasi](39-pipa-nu-kotor-05-eksploitasi.md)
+
 ## 2.3 `op_tutup()` — chunk kembali ke tcache
 
 ```asm

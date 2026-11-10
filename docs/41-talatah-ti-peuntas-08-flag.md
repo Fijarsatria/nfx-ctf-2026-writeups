@@ -2,6 +2,12 @@
 
 [← Overview](41-talatah-ti-peuntas.md) · [Index](index.md)
 
+> **Langkah 8/10 — Flag.** Status verified platform menurut writeups/FLAGS.md.
+>
+> **Titik penting:** NFX{HiduPPk1T4AAyangMelawann}
+>
+> **Berikutnya:** [Bukti / Evidence](41-talatah-ti-peuntas-09-bukti-evidence.md)
+
 > **Flag:** `NFX{HiduPPk1T4AAyangMelawann}`
 > **Status:** `VERIFIED`
 

@@ -2,6 +2,12 @@
 
 [← Overview](43-castaway.md) · [Index](index.md)
 
+> **Langkah 9/14 — Strategi.** Karena S-box 256 byte belum tentu permutasi, brute force 256 kandidat lebih aman daripada mencoba menginversi S-box secara langsung.
+>
+> **Titik penting:** Karena S-box 256 byte belum tentu permutasi, brute force 256 kandidat lebih aman daripada mencoba menginversi S-box secara langsung.
+>
+> **Berikutnya:** [Solver lengkap](43-castaway-10-solver-lengkap.md)
+
 ## 3.1 Strategi
 
 1. Ekstrak `sbox256` (256 byte), `sbox16` (16 byte), dan ciphertext (40 byte) dari `.rodata`.

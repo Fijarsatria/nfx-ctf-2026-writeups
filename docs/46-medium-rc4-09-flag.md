@@ -2,6 +2,12 @@
 
 [← Overview](46-medium-rc4.md) · [Index](index.md)
 
+> **Langkah 9/11 — Flag.** Cek file flag lokal:
+>
+> **Titik penting:** NFX{rc4_1s_s1mpl3_but_d34dly_1n_r3v3rs1ng}
+>
+> **Berikutnya:** [Bukti / Evidence](46-medium-rc4-10-bukti-evidence.md)
+
 > **Flag:** `NFX{rc4_1s_s1mpl3_but_d34dly_1n_r3v3rs1ng}`
 > **Status:** `VERIFIED`
 

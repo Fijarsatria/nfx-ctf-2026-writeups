@@ -2,6 +2,12 @@
 
 [← Overview](05-heker-tersenyum-art-evidence-secret.md) · [Index](index.md)
 
+> **Langkah 2/9 — Triage awal.** Tidak ada data setelah IEND; seluruh payload berada di dalam pixel.
+>
+> **Titik penting:** file file · exiftool -a -u -g1 file
+>
+> **Berikutnya:** [Analisis Artefak](05-heker-tersenyum-art-evidence-secret-03-analisis-artefak.md)
+
 ## 1.4 Triage awal
 
 ```bash

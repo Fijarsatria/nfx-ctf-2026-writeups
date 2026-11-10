@@ -2,6 +2,12 @@
 
 [← Overview](43-castaway.md) · [Index](index.md)
 
+> **Langkah 11/14 — Output asli.** antidebug=1 menghasilkan byte non-printable, jadi kandidat itu ditolak.
+>
+> **Titik penting:** python3 writeups/assets/castaway/solve_castaway.py · NFX{c4st4w4y_0n_4n_0p4qu3_st4t3_m4ch1n3}
+>
+> **Berikutnya:** [Flag](43-castaway-12-flag.md)
+
 ## 3.3 Output asli
 
 ```text

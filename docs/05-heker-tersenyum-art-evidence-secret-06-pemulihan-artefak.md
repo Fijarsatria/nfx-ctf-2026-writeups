@@ -2,6 +2,12 @@
 
 [← Overview](05-heker-tersenyum-art-evidence-secret.md) · [Index](index.md)
 
+> **Langkah 6/9 — Pemulihan Artefak.** Script lengkap ada di assets/heker-tersenyum-art-evidence-secret/solveheker.py:
+>
+> **Titik penting:** Script lengkap ada di assets/heker-tersenyum-art-evidence-secret/solveheker.py:
+>
+> **Berikutnya:** [Flag](05-heker-tersenyum-art-evidence-secret-07-flag.md)
+
 ### 3.1 Strategi
 
 1. Baca PNG sebagai RGB.

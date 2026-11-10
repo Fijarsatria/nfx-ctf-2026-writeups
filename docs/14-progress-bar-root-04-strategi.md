@@ -2,6 +2,12 @@
 
 [← Overview](14-progress-bar-root.md) · [Index](index.md)
 
+> **Langkah 4/9 — Strategi.** Strategi
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Langkah exploit](14-progress-bar-root-05-langkah-exploit.md)
+
 ## 3.1 Strategi
 
 1. Dapatkan RCE `www-data` lewat PHP2Shell.

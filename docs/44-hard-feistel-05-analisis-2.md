@@ -2,6 +2,12 @@
 
 [← Overview](44-hard-feistel.md) · [Index](index.md)
 
+> **Langkah 5/13 — Analisis.** K 257 sama dengan K + (K << 8), yaitu menduplikasi byte rendah key ke dua byte (karena key hanya 8-bit).
+>
+> **Titik penting:** K 257 sama dengan K + (K << 8), yaitu menduplikasi byte rendah key ke dua byte (karena key hanya 8-bit).
+>
+> **Berikutnya:** [Analisis](44-hard-feistel-06-analisis-3.md)
+
 ## 2.3 Fungsi ronde
 
 ```asm

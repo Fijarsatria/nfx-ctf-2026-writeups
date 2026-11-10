@@ -2,6 +2,12 @@
 
 [← Overview](47-medium-tea.md) · [Index](index.md)
 
+> **Langkah 2/12 — Triage awal.** Triage awal
+>
+> **Titik penting:** file reverse/Medium_02_TEA/medium_tea · sha256sum reverse/Medium_02_TEA/medium_tea · md5sum reverse/Medium_02_TEA/medium_tea
+>
+> **Berikutnya:** [Perintah akuisisi bukti](47-medium-tea-03-perintah-akuisisi-bukti.md)
+
 ## 1.4 Triage awal
 
 ```text

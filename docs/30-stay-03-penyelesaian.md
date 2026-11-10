@@ -2,6 +2,12 @@
 
 [← Overview](30-stay.md) · [Index](index.md)
 
+> **Langkah 3/6 — Penyelesaian.** Penyelesaian
+>
+> **Titik penting:** python3 solve_stay.py
+>
+> **Berikutnya:** [Flag](30-stay-04-flag.md)
+
 ### 3.1 Strategi
 
 1. Ambil code block lirik dari deskripsi.

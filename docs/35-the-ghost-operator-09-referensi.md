@@ -2,6 +2,12 @@
 
 [← Overview](35-the-ghost-operator.md) · [Index](index.md)
 
+> **Langkah 9/9 — Referensi.** Referensi
+>
+> **Titik penting:** NFX{Villa_Istana_Bunga} · https://keyserver.ubuntu.com/pks/lookup?op=index&search=veloxphantom.net&options=mr · https://telegra.ph/Field-Notes-0914-Escape-Route-10-25
+>
+> **Selesai.** Kembali ke [Overview](35-the-ghost-operator.md).
+
 - `osint/investigation.zip` — artefak challenge.
 - Keyserver Ubuntu: `https://keyserver.ubuntu.com/pks/lookup?op=index&search=veloxphantom.net&options=mr`
 - Telegra.ph: `https://telegra.ph/Field-Notes-0914-Escape-Route-10-25`

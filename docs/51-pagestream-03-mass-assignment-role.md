@@ -2,6 +2,12 @@
 
 [← Overview](51-pagestream.md) · [Index](index.md)
 
+> **Langkah 3/11 — Mass assignment role.** Setelah role=admin, semua route requireAdmin (/post/new, /view) dapat diakses.
+>
+> **Titik penting:** Setelah role=admin, semua route requireAdmin (/post/new, /view) dapat diakses.
+>
+> **Berikutnya:** [Path traversal di `/view`](51-pagestream-04-path-traversal-di-view.md)
+
 ## 2.1 Mass assignment role
 
 `routes/auth.js`:

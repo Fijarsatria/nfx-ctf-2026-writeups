@@ -2,6 +2,12 @@
 
 [← Overview](39-pipa-nu-kotor.md) · [Index](index.md)
 
+> **Langkah 6/8 — Flag.** Status verified platform menurut writeups/FLAGS.md.
+>
+> **Titik penting:** NFX{Si44aTehKuduSadarDip4lakSave3Jari1}
+>
+> **Berikutnya:** [Bukti / Evidence](39-pipa-nu-kotor-07-bukti-evidence.md)
+
 > **Flag:** `NFX{Si44aTehKuduSadarDip4lakSave3Jari1}`
 > **Status:** `VERIFIED`
 

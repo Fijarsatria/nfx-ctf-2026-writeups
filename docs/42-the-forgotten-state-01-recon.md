@@ -2,6 +2,12 @@
 
 [← Overview](42-the-forgotten-state.md) · [Index](index.md)
 
+> **Langkah 1/10 — Recon.** Kata kunci: "pengelolaan objek dan state internal" dan judul "THE FORGOTTEN STATE" → state active[]/table[] yang tidak konsisten.
+>
+> **Titik penting:** Kata kunci: "pengelolaan objek dan state internal" dan judul "THE FORGOTTEN STATE" → state active[]/table[] yang tidak konsisten.
+>
+> **Berikutnya:** [Triage awal](42-the-forgotten-state-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: Amablex**

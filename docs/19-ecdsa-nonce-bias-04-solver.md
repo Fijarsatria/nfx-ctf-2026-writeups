@@ -2,6 +2,12 @@
 
 [← Overview](19-ecdsa-nonce-bias.md) · [Index](index.md)
 
+> **Langkah 4/7 — Solver.** Script writeups/assets/ecdsa-nonce-bias/verify.py:
+>
+> **Titik penting:** python3 writeups/assets/ecdsa-nonce-bias/solve.py · python3 verify.py
+>
+> **Berikutnya:** [Flag](19-ecdsa-nonce-bias-05-flag.md)
+
 ## 3.2 Output asli
 
 ```text

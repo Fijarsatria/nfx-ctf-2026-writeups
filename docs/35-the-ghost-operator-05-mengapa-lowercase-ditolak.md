@@ -2,6 +2,12 @@
 
 [← Overview](35-the-ghost-operator.md) · [Index](index.md)
 
+> **Langkah 5/9 — Mengapa lowercase ditolak?.** Deskripsi challenge meminta “huruf kecil semua, spasi diganti underscore”, sehingga secara logis jawabannya:
+>
+> **Titik penting:** NFX{villa_istana_bunga} · NFX{Villa_Istana_Bunga} · NFX{istana_bunga}
+>
+> **Berikutnya:** [Pencarian & Verifikasi](35-the-ghost-operator-06-pencarian-verifikasi.md)
+
 ## 2.6 Mengapa lowercase ditolak?
 
 Deskripsi challenge meminta “huruf kecil semua, spasi diganti underscore”,

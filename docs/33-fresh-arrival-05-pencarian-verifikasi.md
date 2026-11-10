@@ -2,6 +2,12 @@
 
 [← Overview](33-fresh-arrival.md) · [Index](index.md)
 
+> **Langkah 5/8 — Pencarian & Verifikasi.** Pencarian & Verifikasi
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Flag](33-fresh-arrival-06-flag.md)
+
 ### 3.1 Strategi
 
 1. Baca registrasi dari gambar (`PK-ADL`).

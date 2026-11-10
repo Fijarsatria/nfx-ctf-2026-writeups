@@ -2,6 +2,12 @@
 
 [← Overview](48-changetrack.md) · [Index](index.md)
 
+> **Langkah 1/9 — Recon.** Tidak ada source lokal di workspace.
+>
+> **Titik penting:** curl -sS -i "$BASE/" · curl -sS -i "$BASE/login" · python3 nxapi.py nx-up "NFX/ChangeTrack" "NFXCTF-NFCC-NXCTF-2026"
+>
+> **Berikutnya:** [Analisis](48-changetrack-02-analisis.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: Ariaf

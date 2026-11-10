@@ -2,6 +2,12 @@
 
 [← Overview](49-linkvault.md) · [Index](index.md)
 
+> **Langkah 9/12 — Eksploitasi / Solver.** Catatan: script awal mengecek string "Queued for moderation review.", sedangkan UI live memakai "Link successfully queued for moderation".
+>
+> **Titik penting:** NFX{L1nkV4ult_cve_26_3p1c_!} · http://s1.nfx.my.id:49191/register · http://s1.nfx.my.id:49191/submit
+>
+> **Berikutnya:** [Flag](49-linkvault-10-flag.md)
+
 ## 3.3 Output asli
 
 ```text

@@ -2,6 +2,12 @@
 
 [← Overview](44-hard-feistel.md) · [Index](index.md)
 
+> **Langkah 1/13 — Recon.** Deskripsi sudah memberi struktur lengkap: 16 ronde, blok 32-bit, key 16-bit.
+>
+> **Titik penting:** NFX{...}
+>
+> **Berikutnya:** [Triage awal](44-hard-feistel-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: cypera**

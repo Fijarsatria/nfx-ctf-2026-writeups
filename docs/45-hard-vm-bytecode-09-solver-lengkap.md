@@ -2,6 +2,12 @@
 
 [← Overview](45-hard-vm-bytecode.md) · [Index](index.md)
 
+> **Langkah 9/13 — Solver lengkap.** File: writeups/assets/hard-vm-bytecode/solvevm.py
+>
+> **Titik penting:** File: writeups/assets/hard-vm-bytecode/solvevm.py
+>
+> **Berikutnya:** [Output asli](45-hard-vm-bytecode-10-output-asli.md)
+
 ## 3.2 Solver lengkap
 
 File: `writeups/assets/hard-vm-bytecode/solve_vm.py`

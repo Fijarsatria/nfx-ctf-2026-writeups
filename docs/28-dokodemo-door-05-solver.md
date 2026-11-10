@@ -2,6 +2,12 @@
 
 [← Overview](28-dokodemo-door.md) · [Index](index.md)
 
+> **Langkah 5/9 — Solver.** Solver
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Output asli](28-dokodemo-door-06-output-asli.md)
+
 ## 3.2 Solver
 
 ```python

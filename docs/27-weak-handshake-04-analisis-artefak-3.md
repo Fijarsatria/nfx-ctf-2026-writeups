@@ -2,6 +2,12 @@
 
 [← Overview](27-weak-handshake.md) · [Index](index.md)
 
+> **Langkah 4/10 — Analisis Artefak.** Decrypt dengan private key (PKCS#1 v1.5):
+>
+> **Titik penting:** Decrypt dengan private key (PKCS#1 v1.5):
+>
+> **Berikutnya:** [Analisis Artefak](27-weak-handshake-05-analisis-artefak-4.md)
+
 ## 2.5 ClientKeyExchange dan premaster
 
 ClientKeyExchange:

@@ -2,6 +2,12 @@
 
 [← Overview](08-frekuensi-sunyi.md) · [Index](index.md)
 
+> **Langkah 6/9 — Output asli.** Output asli
+>
+> **Titik penting:** python3 solve_frekuensi.py · NFX{b0sC4_Ce01L}
+>
+> **Berikutnya:** [Flag](08-frekuensi-sunyi-07-flag.md)
+
 ## 3.3 Output asli
 
 ```text

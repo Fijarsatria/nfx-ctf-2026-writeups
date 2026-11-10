@@ -2,6 +2,12 @@
 
 [← Overview](48-changetrack.md) · [Index](index.md)
 
+> **Langkah 9/9 — Referensi.** Referensi
+>
+> **Titik penting:** —
+>
+> **Selesai.** Kembali ke [Overview](48-changetrack.md).
+
 - CVE-2024-32651 — changedetection.io notification template SSTI.
 - Jinja2 `SandboxedEnvironment`, `cycler`, `__globals__`.
 - OWASP: Server-Side Template Injection.

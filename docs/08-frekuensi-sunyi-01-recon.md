@@ -2,6 +2,12 @@
 
 [← Overview](08-frekuensi-sunyi.md) · [Index](index.md)
 
+> **Langkah 1/9 — Recon.** Petunjuk "tidak untuk didengar" mengarah kuat ke spektrogram: pesan tidak dimaksudkan untuk telinga, tetapi untuk mata yang melihat domain frekuensi.
+>
+> **Titik penting:** sha256sum work/event/misc/frekuensi-sunyi/rekaman_lobi.wav · sha256sum umum/Misc/frekuensi-sunyi/view
+>
+> **Berikutnya:** [Triage awal](08-frekuensi-sunyi-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: Kesatria Baja Ringan**

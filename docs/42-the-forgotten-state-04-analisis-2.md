@@ -2,6 +2,12 @@
 
 [← Overview](42-the-forgotten-state.md) · [Index](index.md)
 
+> **Langkah 4/10 — Analisis.** Jika field rec->len dan rec->data bisa dikendalikan, view menjadi arbitrary read (dibatasi 0x400 byte).
+>
+> **Titik penting:** Jika field rec->len dan rec->data bisa dikendalikan, view menjadi arbitrary read (dibatasi 0x400 byte).
+>
+> **Berikutnya:** [Analisis](42-the-forgotten-state-05-analisis-3.md)
+
 ## 2.4 `op_view()` — read memakai field record
 
 ```asm

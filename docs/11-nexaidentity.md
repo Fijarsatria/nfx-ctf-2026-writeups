@@ -23,6 +23,20 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | http://s1.nfx.my.id:41270 | [Buka](11-nexaidentity-01-recon.md) |
+| 2 | Triage awal | curl -sS -i "$BASE/" | [Buka](11-nexaidentity-02-triage-awal.md) |
+| 3 | Analisis | Form login menggunakan application/x-www-form-urlencoded. | [Buka](11-nexaidentity-03-analisis.md) |
+| 4 | Analisis | NFX{...} | [Buka](11-nexaidentity-04-analisis-2.md) |
+| 5 | Eksploitasi / Solver | curl -sS -i -c admin.cookies \ | [Buka](11-nexaidentity-05-eksploitasi-solver.md) |
+| 6 | Script minimal | http://s1.nfx.my.id:41270" | [Buka](11-nexaidentity-06-script-minimal.md) |
+| 7 | Flag | NFX{n0sql_0p3r4t0r_4uth_byp4ss} | [Buka](11-nexaidentity-07-flag.md) |
+| 8 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](11-nexaidentity-08-bukti-evidence.md) |
+| 9 | Referensi | — | [Buka](11-nexaidentity-09-referensi.md) |
+
 ## TL;DR
 
 - **NexaIdentity** adalah direktori karyawan NexaCommerce berbasis Express. Halaman login menyediakan akun demo `employee@nexaidentity.test` / `employee1234` (Raka Pratama, employee biasa).

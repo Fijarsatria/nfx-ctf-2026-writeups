@@ -23,6 +23,20 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | file narrowgate | [Buka](38-narrowgate-01-recon.md) |
+| 2 | `leaker()` — format string | Format string, tanpa overflow di leaker. | [Buka](38-narrowgate-02-leaker-format-string.md) |
+| 3 | `main()` — validasi 16-bit | Pengecekan cmp ax, 0x3f hanya melihat 16 bit rendah dari (blocks64)-1; nilai penuh size dipakai untuk read. | [Buka](38-narrowgate-03-main-validasi-16-bit.md) |
+| 4 | Analisis | setupseccomp() membangun BPF secara manual dan memanggil: | [Buka](38-narrowgate-04-analisis.md) |
+| 5 | Eksploitasi | python3 exploit.py \| tee 03-exploit-run.txt | [Buka](38-narrowgate-05-eksploitasi.md) |
+| 6 | Output asli | NFX{LOCAL_TEST_FLAG_NARROWGATE} | [Buka](38-narrowgate-06-output-asli.md) |
+| 7 | Flag | NFX{ex3cve_d3ni3d_but_0pen_r34d_writ3_s4v3d_th3_day} | [Buka](38-narrowgate-07-flag.md) |
+| 8 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](38-narrowgate-08-bukti-evidence.md) |
+| 9 | Referensi | — | [Buka](38-narrowgate-09-referensi.md) |
+
 ## TL;DR
 
 - `leaker()` memakai `printf(nickname)` → **format string** (canary, PIE, libc).

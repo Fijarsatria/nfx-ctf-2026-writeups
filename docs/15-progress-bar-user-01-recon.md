@@ -2,6 +2,12 @@
 
 [← Overview](15-progress-bar-user.md) · [Index](index.md)
 
+> **Langkah 1/11 — Recon.** Fokus challenge User adalah foothold ke server dan membaca /home/deploy/user.txt.
+>
+> **Titik penting:** nmap -Pn -sV -p- --min-rate 2000 10.10.20.22 · curl -sS -i http://10.10.20.22/ · curl -sS -i http://10.10.20.22/upload.php
+>
+> **Berikutnya:** [Permukaan upload dan `session.upload_progress`](15-progress-bar-user-02-permukaan-upload-dan-session-upload-prog.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: Ariaf

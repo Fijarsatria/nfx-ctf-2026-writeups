@@ -2,6 +2,12 @@
 
 [← Overview](19-ecdsa-nonce-bias.md) · [Index](index.md)
 
+> **Langkah 1/7 — Recon.** output.txt memuat n (orde secp256k1), 200 objek {msg, r, s, h, top8k, KBITS}, dan flagciphertext.
+>
+> **Titik penting:** python3 challenge.py
+>
+> **Berikutnya:** [Analisis](19-ecdsa-nonce-bias-02-analisis.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: rio

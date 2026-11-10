@@ -2,6 +2,12 @@
 
 [← Overview](24-access-remains.md) · [Index](index.md)
 
+> **Langkah 7/11 — Pemulihan Artefak.** Script reproduksi: assets/access-remains/solveaccess.sh.
+>
+> **Titik penting:** python3 /usr/share/doc/python3-impacket/examples/dpapi.py masterkey \ · python3 /usr/share/doc/python3-impacket/examples/dpapi.py credential \
+>
+> **Berikutnya:** [Alur 8 Sub-Challenge Q&A (verified)](24-access-remains-08-alur-8-sub-challenge-q-a-verified.md)
+
 ### 3.1 Strategi
 
 1. `secretsdump` dari SAM/SYSTEM/SECURITY.

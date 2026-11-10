@@ -2,6 +2,12 @@
 
 [← Overview](52-wujud-aseli-atmin.md) · [Index](index.md)
 
+> **Langkah 7/7 — Referensi.** Referensi
+>
+> **Titik penting:** —
+>
+> **Selesai.** Kembali ke [Overview](52-wujud-aseli-atmin.md).
+
 - PNG specification: signature, IHDR, IEND.
 - ZIP local file header format.
 - `zsteg` LSB extraction.

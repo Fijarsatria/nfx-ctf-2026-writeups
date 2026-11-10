@@ -2,6 +2,12 @@
 
 [← Overview](13-nxportal.md) · [Index](index.md)
 
+> **Langkah 3/10 — Analisis.** Respons /forgot selalu uniform untuk email yang lolos filter:
+>
+> **Titik penting:** Respons /forgot selalu uniform untuk email yang lolos filter:
+>
+> **Berikutnya:** [Hint blog: header parsing / multi-line payload](13-nxportal-04-hint-blog-header-parsing-multi-line-payl.md)
+
 ## 2.1 Alur recovery
 
 1. `POST /forgot` dengan `email`.

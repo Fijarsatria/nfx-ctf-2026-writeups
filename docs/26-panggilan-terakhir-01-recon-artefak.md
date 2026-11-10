@@ -2,6 +2,12 @@
 
 [← Overview](26-panggilan-terakhir.md) · [Index](index.md)
 
+> **Langkah 1/8 — Recon Artefak.** Durasi panggilan ≈ 71 detik (01:18:00–01:19:11).
+>
+> **Titik penting:** sha256sum korban.pcap · file korban.pcap · tcpdump -nn -r korban.pcap \| head
+>
+> **Berikutnya:** [SIP INVITE dan SDP](26-panggilan-terakhir-02-sip-invite-dan-sdp.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: Candelena

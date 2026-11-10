@@ -2,6 +2,12 @@
 
 [← Overview](38-narrowgate.md) · [Index](index.md)
 
+> **Langkah 6/9 — Output asli.** Sisa output adalah padding 0x100 byte dari write(1, RWOUT, 0x100); versi cat -v ada di 03c-run-printable.txt.
+>
+> **Titik penting:** NFX{LOCAL_TEST_FLAG_NARROWGATE}
+>
+> **Berikutnya:** [Flag](38-narrowgate-07-flag.md)
+
 ## 3.3 Output asli
 
 ```text

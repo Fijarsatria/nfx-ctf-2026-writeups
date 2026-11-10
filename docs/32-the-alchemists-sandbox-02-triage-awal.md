@@ -2,6 +2,12 @@
 
 [← Overview](32-the-alchemists-sandbox.md) · [Index](index.md)
 
+> **Langkah 2/10 — Triage awal.** Triage awal
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Analisis](32-the-alchemists-sandbox-03-analisis.md)
+
 ## 1.4 Triage awal
 
 Source lengkap:

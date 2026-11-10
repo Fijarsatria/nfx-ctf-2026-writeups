@@ -2,6 +2,12 @@
 
 [← Overview](52-wujud-aseli-atmin.md) · [Index](index.md)
 
+> **Langkah 1/7 — Cerita Singkat.** Jadi ceritanya gini.
+>
+> **Titik penting:** NFX{NFCC_Goes_to_NCSC_2026}
+>
+> **Berikutnya:** [Recon](52-wujud-aseli-atmin-02-recon.md)
+
 Jadi ceritanya gini. Kita dikasih satu foto dokumentasi event **National
 Cybersecurity Connect 2026**. Sekilas biasa aja — foto orang-orang, banner,
 selesai. Tapi deskripsinya bilang “jangan berhenti di situ doang”, jadi kita

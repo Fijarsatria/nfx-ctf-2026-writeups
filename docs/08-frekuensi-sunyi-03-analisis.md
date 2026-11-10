@@ -2,6 +2,12 @@
 
 [← Overview](08-frekuensi-sunyi.md) · [Index](index.md)
 
+> **Langkah 3/9 — Analisis.** Musik latar berulang.
+>
+> **Titik penting:** Musik latar berulang.
+>
+> **Berikutnya:** [Analisis](08-frekuensi-sunyi-04-analisis-2.md)
+
 ## 2.1 Mencari periode pengulangan
 
 Musik latar berulang. Dengan membandingkan dua segmen yang sama panjang,

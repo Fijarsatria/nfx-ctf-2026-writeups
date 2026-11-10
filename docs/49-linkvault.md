@@ -23,6 +23,23 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Deskripsi challenge | — | [Buka](49-linkvault-01-deskripsi-challenge.md) |
+| 2 | File / service yang diberikan | http://s1.nfx.my.id:49191 | [Buka](49-linkvault-02-file-service-yang-diberikan.md) |
+| 3 | Recon | curl -sS -i http://s1.nfx.my.id:49191/ | [Buka](49-linkvault-03-recon.md) |
+| 4 | SSRF guard dan bypass IPv6 loopback | http://[::1 | [Buka](49-linkvault-04-ssrf-guard-dan-bypass-ipv6-loopback.md) |
+| 5 | Internal import tidak memvalidasi `filter` | 127.0.0.1 | [Buka](49-linkvault-05-internal-import-tidak-memvalidasi-filter.md) |
+| 6 | Analisis | http://127.0.0.1:80/moderation" | [Buka](49-linkvault-06-analisis.md) |
+| 7 | Strategi | — | [Buka](49-linkvault-07-strategi.md) |
+| 8 | Langkah exploit (live) | curl -sS -c cj -X POST -d 'username=lvr123456&password=pw12345' "$BASE/register" | [Buka](49-linkvault-08-langkah-exploit-live.md) |
+| 9 | Eksploitasi / Solver | NFX{L1nkV4ult_cve_26_3p1c_!} | [Buka](49-linkvault-09-eksploitasi-solver.md) |
+| 10 | Flag | NFX{L1nkV4ult_cve_26_3p1c_!} | [Buka](49-linkvault-10-flag.md) |
+| 11 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](49-linkvault-11-bukti-evidence.md) |
+| 12 | Referensi | — | [Buka](49-linkvault-12-referensi.md) |
+
 ## TL;DR
 
 - **LinkVault** adalah aplikasi Go 1.26.0 untuk submit URL, fetch preview di server, lalu admin bot meninjau queue moderasi dengan Chromium.

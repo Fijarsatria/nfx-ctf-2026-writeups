@@ -2,6 +2,12 @@
 
 [← Overview](09-career-tempat-belajar.md) · [Index](index.md)
 
+> **Langkah 4/8 — Analisis Jejak.** Endpoint profil Gravatar:
+>
+> **Titik penting:** curl -sL 'https://gravatar.com/7149a84591149f4933058779e485a3c9.json' · NFX{Gr4v4t4r_0s1nt_R3cru1t3r_D1hL34Rn} · https://gravatar.com/7149a84591149f4933058779e485a3c9.json'
+>
+> **Berikutnya:** [Pencarian & Verifikasi](09-career-tempat-belajar-05-pencarian-verifikasi.md)
+
 ## 2.4 Membaca profil Gravatar
 
 Endpoint profil Gravatar:

@@ -5,6 +5,12 @@
 
 [← Overview](13-nxportal.md) · [Index](index.md)
 
+> **Langkah 8/10 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Rencana Penyelesaian (OPEN)](13-nxportal-09-rencana-penyelesaian-open.md)
+
 
 ## Arsip Evidence
 

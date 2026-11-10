@@ -2,6 +2,12 @@
 
 [← Overview](29-my-lovely-freya.md) · [Index](index.md)
 
+> **Langkah 3/9 — Analisis.** PNG menyimpan tinggi gambar di chunk IHDR.
+>
+> **Titik penting:** python3 extract_hidden.py · xxd surat_untuk_freya.enc
+>
+> **Berikutnya:** [Dekripsi](29-my-lovely-freya-04-dekripsi.md)
+
 ## 2.1 Struktur PNG: tinggi deklarasi vs tinggi nyata
 
 PNG menyimpan tinggi gambar di chunk `IHDR`. Viewer normal berhenti di

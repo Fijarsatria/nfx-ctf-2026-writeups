@@ -2,6 +2,12 @@
 
 [← Overview](47-medium-tea.md) · [Index](index.md)
 
+> **Langkah 8/12 — Solver lengkap.** File: writeups/assets/medium-tea/solvetea.py
+>
+> **Titik penting:** File: writeups/assets/medium-tea/solvetea.py
+>
+> **Berikutnya:** [Output asli](47-medium-tea-09-output-asli.md)
+
 ## 3.2 Solver lengkap
 
 File: `writeups/assets/medium-tea/solve_tea.py`

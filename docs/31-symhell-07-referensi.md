@@ -2,6 +2,12 @@
 
 [← Overview](31-symhell.md) · [Index](index.md)
 
+> **Langkah 7/7 — Referensi.** Referensi
+>
+> **Titik penting:** —
+>
+> **Selesai.** Kembali ke [Overview](31-symhell.md).
+
 - `forensics/symhell/app.py` — source service.
 - `flags/forensics/symhell.txt` — flag terverifikasi.
 - Bash manual: command substitution `$(<file)`, pathname expansion, bracket

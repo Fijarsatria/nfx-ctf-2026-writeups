@@ -2,6 +2,12 @@
 
 [← Overview](40-starved.md) · [Index](index.md)
 
+> **Langkah 6/9 — Output asli.** Setelah baris flag, ROP memang menulis 0x100 byte dari BUF; sisa byte adalah padding/NUL dan metadata heap.
+>
+> **Titik penting:** NFX{LOCAL_TEST_FLAG_STARVED}
+>
+> **Berikutnya:** [Flag](40-starved-07-flag.md)
+
 ## 3.3 Output asli
 
 ```text

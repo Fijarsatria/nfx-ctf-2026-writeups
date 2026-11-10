@@ -2,6 +2,12 @@
 
 [← Overview](50-nexusgate.md) · [Index](index.md)
 
+> **Langkah 7/12 — Strategi.** Strategi
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Langkah exploit (live)](50-nexusgate-08-langkah-exploit-live.md)
+
 ## 3.1 Strategi
 
 - Gunakan `requests` lalu set `PreparedRequest.url` mentah agar `/./` tidak dinormalisasi.

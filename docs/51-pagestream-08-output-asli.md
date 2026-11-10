@@ -2,6 +2,12 @@
 
 [← Overview](51-pagestream.md) · [Index](index.md)
 
+> **Langkah 8/11 — Output asli.** Mass assignment + LFI:
+>
+> **Titik penting:** NFX{f3w_n_d4y_ch41ns_f0r_w3b_pwn_1s_n0t_th4t_h4rd_7734a1} · http://s1.nfx.my.id:43659/profile · http://s1.nfx.my.id:43659/dashboard
+>
+> **Berikutnya:** [Flag](51-pagestream-09-flag.md)
+
 ## 3.3 Output asli
 
 Mass assignment + LFI:

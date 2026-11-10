@@ -2,6 +2,12 @@
 
 [← Overview](46-medium-rc4.md) · [Index](index.md)
 
+> **Langkah 2/11 — Triage awal.** Menjalankan binary tanpa argumen:
+>
+> **Titik penting:** file reverse/Medium_01_RC4/medium_rc4 · sha256sum reverse/Medium_01_RC4/medium_rc4 · md5sum reverse/Medium_01_RC4/medium_rc4
+>
+> **Berikutnya:** [Perintah akuisisi bukti](46-medium-rc4-03-perintah-akuisisi-bukti.md)
+
 ## 1.4 Triage awal
 
 ```bash

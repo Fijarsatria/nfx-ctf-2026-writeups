@@ -2,6 +2,12 @@
 
 [← Overview](50-nexusgate.md) · [Index](index.md)
 
+> **Langkah 2/12 — Recon.** curl biasa menormalisasi /./ sebelum mengirim.
+>
+> **Titik penting:** curl -sS http://s1.nfx.my.id:49535/health · curl -sS -i "$BASE/" · curl -sS -i "$BASE/internal/console/cursor?id=x"
+>
+> **Berikutnya:** [ACL bypass: raw `req.url` vs `new URL()`](50-nexusgate-03-acl-bypass-raw-req-url-vs-new-url.md)
+
 ## 1.2 File / service yang diberikan
 
 | File/Service | Ukuran/Endpoint | Keterangan |

@@ -2,6 +2,12 @@
 
 [← Overview](38-narrowgate.md) · [Index](index.md)
 
+> **Langkah 1/9 — Recon.** Deskripsi hampir memberi seluruh solusi: format string, validasi 16-bit, buffer stack tetap, dan sandbox ketat (seccomp).
+>
+> **Titik penting:** file narrowgate · checksec (pwntools)
+>
+> **Berikutnya:** [`leaker()` — format string](38-narrowgate-02-leaker-format-string.md)
+
 ### 1.1 Deskripsi challenge
 
 > **Author: Kesatria Baja Ringan**

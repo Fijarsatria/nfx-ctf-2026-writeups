@@ -2,6 +2,12 @@
 
 [← Overview](33-fresh-arrival.md) · [Index](index.md)
 
+> **Langkah 1/8 — Jejak Awal.** Jejak Awal
+>
+> **Titik penting:** sha256sum osint/spotted.jpg · NFX{IATA_ICAO_kota_namadepan}
+>
+> **Berikutnya:** [Triage awal](33-fresh-arrival-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: Ariaf**

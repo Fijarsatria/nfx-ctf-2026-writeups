@@ -2,6 +2,12 @@
 
 [← Overview](49-linkvault.md) · [Index](index.md)
 
+> **Langkah 2/12 — File / service yang diberikan.** Hash source yang dianalisis:
+>
+> **Titik penting:** http://s1.nfx.my.id:49191 · 127.0.0.1:8081
+>
+> **Berikutnya:** [Recon](49-linkvault-03-recon.md)
+
 ## 1.2 File / service yang diberikan
 
 | File/Service | Ukuran/Endpoint | Keterangan |

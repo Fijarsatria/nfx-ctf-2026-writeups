@@ -2,6 +2,12 @@
 
 [← Overview](42-the-forgotten-state.md) · [Index](index.md)
 
+> **Langkah 6/10 — Eksploitasi.** Tersimpan di writeups/assets/the-forgotten-state/exploit.py:
+>
+> **Titik penting:** python3 exploit.py \| tee 03-exploit-run.txt · NFX{LOCAL_TEST_FLAG_STATE}
+>
+> **Berikutnya:** [Catatan jalur UAF](42-the-forgotten-state-07-catatan-jalur-uaf.md)
+
 ## 3.1 Strategi
 
 1. Buat `rec0`..`rec3` (masing-masing data 0x20 byte; `rec2` berisi `"/bin/sh\0"`).

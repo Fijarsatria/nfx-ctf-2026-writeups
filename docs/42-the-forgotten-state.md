@@ -23,6 +23,21 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | Kata kunci: "pengelolaan objek dan state internal" dan judul "THE FORGOTTEN STATE" → state active[]/table[] yang tidak konsisten. | [Buka](42-the-forgotten-state-01-recon.md) |
+| 2 | Triage awal | file state | [Buka](42-the-forgotten-state-02-triage-awal.md) |
+| 3 | Analisis | Record (malloc 0x20 → chunk 0x30): | [Buka](42-the-forgotten-state-03-analisis.md) |
+| 4 | Analisis | Jika field rec->len dan rec->data bisa dikendalikan, view menjadi arbitrary read (dibatasi 0x400 byte). | [Buka](42-the-forgotten-state-04-analisis-2.md) |
+| 5 | Analisis | edit(rec0, 0x50) menulis dari user data B0: | [Buka](42-the-forgotten-state-05-analisis-3.md) |
+| 6 | Eksploitasi | python3 exploit.py \| tee 03-exploit-run.txt | [Buka](42-the-forgotten-state-06-eksploitasi.md) |
+| 7 | Catatan jalur UAF | Selain overflow di atas, binary ini juga meninggalkan dangling pointer (table[idx] tidak di-null-kan) dan view/edit tidak memeriksa active[idx]. | [Buka](42-the-forgotten-state-07-catatan-jalur-uaf.md) |
+| 8 | Flag | NFX{ElC0nloe_Forg0tten_StaticcD42#} | [Buka](42-the-forgotten-state-08-flag.md) |
+| 9 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](42-the-forgotten-state-09-bukti-evidence.md) |
+| 10 | Referensi | — | [Buka](42-the-forgotten-state-10-referensi.md) |
+
 ## TL;DR
 
 - Service mengelola 16 record (`create`, `release`, `view`, `edit`, `list`).

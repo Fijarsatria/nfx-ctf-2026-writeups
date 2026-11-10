@@ -2,6 +2,12 @@
 
 [← Overview](40-starved.md) · [Index](index.md)
 
+> **Langkah 4/9 — Analisis.** setupseccomp() memakai seccompinit(KILL) lalu seccompruleadd() untuk:
+>
+> **Titik penting:** setupseccomp() memakai seccompinit(KILL) lalu seccompruleadd() untuk:
+>
+> **Berikutnya:** [Eksploitasi](40-starved-05-eksploitasi.md)
+
 ## 2.3 Seccomp — `read` hanya fd 0
 
 `setup_seccomp()` memakai `seccomp_init(KILL)` lalu `seccomp_rule_add()` untuk:

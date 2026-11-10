@@ -2,6 +2,12 @@
 
 [← Overview](06-insider.md) · [Index](index.md)
 
+> **Langkah 1/10 — Recon Artefak.** Attachment: evidencenfxphantominsider.tar.gz (14.130 byte).
+>
+> **Titik penting:** file evidence_nfx_phantom_insider.tar.gz · tar tzvf evidence_nfx_phantom_insider.tar.gz · sha256sum evidence_nfx_phantom_insider.tar.gz
+>
+> **Berikutnya:** [Recon Artefak](06-insider-02-recon-artefak-2.md)
+
 ## 1.1 Deskripsi challenge
 
 > Author: Zer0

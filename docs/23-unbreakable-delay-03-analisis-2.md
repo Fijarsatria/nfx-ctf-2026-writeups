@@ -2,6 +2,12 @@
 
 [← Overview](23-unbreakable-delay.md) · [Index](index.md)
 
+> **Langkah 3/8 — Analisis.** Setelah p,q diketahui:
+>
+> **Titik penting:** Setelah p,q diketahui:
+>
+> **Berikutnya:** [Solver](23-unbreakable-delay-04-solver.md)
+
 ## 2.4 Bug: `φ(N)` membunuh delay
 
 Setelah `p,q` diketahui:

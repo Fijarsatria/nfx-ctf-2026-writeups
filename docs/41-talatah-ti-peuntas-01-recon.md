@@ -2,6 +2,12 @@
 
 [← Overview](41-talatah-ti-peuntas.md) · [Index](index.md)
 
+> **Langkah 1/10 — Recon.** Petunjuk utama: "calepatan dina prosés ngatur ukuran data" — panjang TLV vs ukuran alokasi.
+>
+> **Titik penting:** Petunjuk utama: "calepatan dina prosés ngatur ukuran data" — panjang TLV vs ukuran alokasi.
+>
+> **Berikutnya:** [Triage awal](41-talatah-ti-peuntas-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: Amablex**

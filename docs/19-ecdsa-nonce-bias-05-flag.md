@@ -2,6 +2,12 @@
 
 [← Overview](19-ecdsa-nonce-bias.md) · [Index](index.md)
 
+> **Langkah 5/7 — Flag.** Verifikasi (log submit asli):
+>
+> **Titik penting:** NXCTF{ecds4_hnp_n0nc3_b14s_8b1t_l4tt1c3_a3d2ae498097}
+>
+> **Berikutnya:** [Bukti / Evidence](19-ecdsa-nonce-bias-06-bukti-evidence.md)
+
 > **Flag:** `NXCTF{ecds4_hnp_n0nc3_b14s_8b1t_l4tt1c3_a3d2ae498097}`
 > **Status:** `VERIFIED`
 

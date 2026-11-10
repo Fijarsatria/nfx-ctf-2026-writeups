@@ -5,6 +5,12 @@
 
 [← Overview](27-weak-handshake.md) · [Index](index.md)
 
+> **Langkah 9/10 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](27-weak-handshake-10-referensi.md)
+
 
 ## Arsip Evidence
 

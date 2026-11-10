@@ -2,6 +2,12 @@
 
 [← Overview](36-tragedi-9-11.md) · [Index](index.md)
 
+> **Langkah 4/8 — Analisis Jejak.** Commit df34505 (“add .env”) menambahkan .env dan .env.example.
+>
+> **Titik penting:** git log --all --oneline --stat · git show df34505:.env · git show 62d5640:.env.example
+>
+> **Berikutnya:** [Pencarian & Verifikasi](36-tragedi-9-11-05-pencarian-verifikasi.md)
+
 ## 2.4 Melihat history, bukan HEAD
 
 ```bash

@@ -2,6 +2,12 @@
 
 [← Overview](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh.md) · [Index](index.md)
 
+> **Langkah 4/7 — Solver.** Panjang ini tepat sama dengan panjang flag yang terverifikasi (41 byte), jadi ct hampir pasti merupakan stream cipher / XOR keystream, bukan ciphertext blok.
+>
+> **Titik penting:** python3 writeups/assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solve_lwe.py lwe.py · NFXCTF{l4tt1c3_sm4ll_s3cr3t_LWE_7e2a0195}
+>
+> **Berikutnya:** [Flag](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-05-flag.md)
+
 ## 3.3 Output asli
 
 ```text

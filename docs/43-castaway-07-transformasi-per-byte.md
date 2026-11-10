@@ -2,6 +2,12 @@
 
 [← Overview](43-castaway.md) · [Index](index.md)
 
+> **Langkah 7/14 — Transformasi per byte.** Saat state 1 dan i < len:
+>
+> **Titik penting:** Saat state 1 dan i < len:
+>
+> **Berikutnya:** [Data di `.rodata`](43-castaway-08-data-di-rodata.md)
+
 ## 2.5 Transformasi per byte
 
 Saat state 1 dan `i < len`:

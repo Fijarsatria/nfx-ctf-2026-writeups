@@ -2,6 +2,12 @@
 
 [← Overview](35-the-ghost-operator.md) · [Index](index.md)
 
+> **Langkah 6/9 — Pencarian & Verifikasi.** Pencarian & Verifikasi
+>
+> **Titik penting:** curl -s 'https://keyserver.ubuntu.com/pks/lookup?op=index&search=veloxphantom.net&options=mr' · curl -s 'https://api.telegra.ph/getPage/Field-Notes-0914-Escape-Route-10-25?return_content=true' · curl -sL 'https://web.archive.org/web/20261025190602id_/https://rentry.co/ghost-route-0914'
+>
+> **Berikutnya:** [Flag](35-the-ghost-operator-07-flag.md)
+
 ### 3.1 Strategi
 
 1. Ekstrak zip, baca commit dan tanda tangan GPG.

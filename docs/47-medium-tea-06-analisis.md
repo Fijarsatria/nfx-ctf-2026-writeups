@@ -2,6 +2,12 @@
 
 [← Overview](47-medium-tea.md) · [Index](index.md)
 
+> **Langkah 6/12 — Analisis.** Dari lea r10,[rip+0xef9] # 2040 dan panjang 40 byte:
+>
+> **Titik penting:** Dari lea r10,[rip+0xef9] # 2040 dan panjang 40 byte:
+>
+> **Berikutnya:** [Strategi](47-medium-tea-07-strategi.md)
+
 ## 2.3 Ciphertext
 
 Dari `lea r10,[rip+0xef9] # 2040` dan panjang 40 byte:

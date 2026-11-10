@@ -23,6 +23,21 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon Artefak | sha256sum capture.pcapng | [Buka](27-weak-handshake-01-recon-artefak.md) |
+| 2 | Analisis Artefak | file clannad.webp | [Buka](27-weak-handshake-02-analisis-artefak.md) |
+| 3 | Analisis Artefak | openssl x509 -inform DER -in tomoyo_cert.der -noout -text | [Buka](27-weak-handshake-03-analisis-artefak-2.md) |
+| 4 | Analisis Artefak | Decrypt dengan private key (PKCS#1 v1.5): | [Buka](27-weak-handshake-04-analisis-artefak-3.md) |
+| 5 | Analisis Artefak | Setiap record setelah ChangeCipherSpec memiliki bentuk: | [Buka](27-weak-handshake-05-analisis-artefak-4.md) |
+| 6 | Pemulihan Artefak | Script lengkap: assets/weak-handshake/solveweak.py. | [Buka](27-weak-handshake-06-pemulihan-artefak.md) |
+| 7 | Output | — | [Buka](27-weak-handshake-07-output.md) |
+| 8 | Flag | NFX{D36A64128F80788B60C677EF94FA7157} | [Buka](27-weak-handshake-08-flag.md) |
+| 9 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](27-weak-handshake-09-bukti-evidence.md) |
+| 10 | Referensi | — | [Buka](27-weak-handshake-10-referensi.md) |
+
 ## TL;DR
 
 - `capture.pcapng` adalah capture loopback dengan FTP (port 2121/42345) dan dua sesi HTTPS ke port 8443.

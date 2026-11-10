@@ -2,6 +2,12 @@
 
 [← Overview](49-linkvault.md) · [Index](index.md)
 
+> **Langkah 12/12 — Referensi.** Referensi
+>
+> **Titik penting:** —
+>
+> **Selesai.** Kembali ke [Overview](49-linkvault.md).
+
 - Go `net/url`, `net.SplitHostPort`, `net.IP.IsLoopback`.
 - Go `html/template` contextual escaping.
 - `golang.org/x/net/idna`.

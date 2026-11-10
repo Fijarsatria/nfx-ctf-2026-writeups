@@ -2,6 +2,12 @@
 
 [← Overview](16-record-keeper-root.md) · [Index](index.md)
 
+> **Langkah 10/10 — Referensi.** pemisahan opsi dengan --.
+>
+> **Titik penting:** pemisahan opsi dengan --.
+>
+> **Selesai.** Kembali ke [Overview](16-record-keeper-root.md).
+
 - GNU tar manual — `--checkpoint`, `--checkpoint-action=exec=...`, dan
   pemisahan opsi dengan `--`.
 - GTFOBins — `tar` sebagai jalur privilege escalation.

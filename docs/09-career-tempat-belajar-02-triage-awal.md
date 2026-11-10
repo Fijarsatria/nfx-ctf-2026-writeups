@@ -2,6 +2,12 @@
 
 [← Overview](09-career-tempat-belajar.md) · [Index](index.md)
 
+> **Langkah 2/8 — Triage awal.** dan bukan password Instagram.
+>
+> **Titik penting:** file osint/office.png · exiftool osint/office.png
+>
+> **Berikutnya:** [Analisis Jejak](09-career-tempat-belajar-03-analisis-jejak.md)
+
 ## 1.4 Triage awal
 
 ```bash

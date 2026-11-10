@@ -2,6 +2,12 @@
 
 [← Overview](05-heker-tersenyum-art-evidence-secret.md) · [Index](index.md)
 
+> **Langkah 4/9 — Ekstraksi LSB manual.** Urutan bit yang benar adalah row-major: for y in range(h): for x in range(w), lalu 8 bit per byte, MSB-first.
+>
+> **Titik penting:** Urutan bit yang benar adalah row-major: for y in range(h): for x in range(w), lalu 8 bit per byte, MSB-first.
+>
+> **Berikutnya:** [Bitplane LSB](05-heker-tersenyum-art-evidence-secret-05-bitplane-lsb.md)
+
 ## 2.3 Ekstraksi LSB manual
 
 Urutan bit yang benar adalah **row-major**: `for y in range(h): for x in range(w)`, lalu 8 bit per byte, MSB-first.

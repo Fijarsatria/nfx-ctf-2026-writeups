@@ -2,6 +2,12 @@
 
 [← Overview](34-s3rvice-k3reta.md) · [Index](index.md)
 
+> **Langkah 2/9 — Analisis Jejak.** Elemen visual utama:
+>
+> **Titik penting:** Elemen visual utama:
+>
+> **Berikutnya:** [Q1–Q13: jawaban dan verifikasi](34-s3rvice-k3reta-03-q1-q13-jawaban-dan-verifikasi.md)
+
 ## 2.1 Membaca gambar
 
 Elemen visual utama:

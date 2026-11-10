@@ -23,6 +23,20 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | xxd flag.enc \| head | [Buka](04-feistel-differential-01-recon.md) |
+| 2 | Analisis | File berisi 14 blok, masing-masing 20.000 baris, dengan header: | [Buka](04-feistel-differential-02-analisis.md) |
+| 3 | Analisis | Total unknown = 7 × 16 = 112 bit. | [Buka](04-feistel-differential-03-analisis-2.md) |
+| 4 | Strategi | — | [Buka](04-feistel-differential-04-strategi.md) |
+| 5 | Script lengkap | Tersimpan di writeups/assets/feistel-differential/solve.py: | [Buka](04-feistel-differential-05-script-lengkap.md) |
+| 6 | Solver | python3 writeups/assets/feistel-differential/solve.py | [Buka](04-feistel-differential-06-solver.md) |
+| 7 | Flag | NFXCTF{d1ff3r3nt14l_crypt0_pwn5_f31st3l_45322835} | [Buka](04-feistel-differential-07-flag.md) |
+| 8 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](04-feistel-differential-08-bukti-evidence.md) |
+| 9 | Referensi | — | [Buka](04-feistel-differential-09-referensi.md) |
+
 ## TL;DR
 
 - Cipher adalah Feistel 7 ronde pada blok 32-bit (dua half 16-bit), dengan

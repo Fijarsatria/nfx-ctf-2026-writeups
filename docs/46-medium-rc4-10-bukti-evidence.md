@@ -5,6 +5,12 @@
 
 [← Overview](46-medium-rc4.md) · [Index](index.md)
 
+> **Langkah 10/11 — Bukti / Evidence.** Semua bukti berada di writeups/assets/medium-rc4/.
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](46-medium-rc4-11-referensi.md)
+
 
 ## Arsip Evidence
 

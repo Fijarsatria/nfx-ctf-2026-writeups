@@ -2,6 +2,12 @@
 
 [← Overview](37-gateway-under-pressure.md) · [Index](index.md)
 
+> **Langkah 4/8 — Analisis.** readexact membaca persis len byte (loop sampai terpenuhi) ke buffer 0x50.
+>
+> **Titik penting:** readexact membaca persis len byte (loop sampai terpenuhi) ke buffer 0x50.
+>
+> **Berikutnya:** [Eksploitasi](37-gateway-under-pressure-05-eksploitasi.md)
+
 ## 2.2 `do_dispatch()` — stack overflow
 
 ```asm

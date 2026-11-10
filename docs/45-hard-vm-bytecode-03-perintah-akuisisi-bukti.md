@@ -2,6 +2,12 @@
 
 [← Overview](45-hard-vm-bytecode.md) · [Index](index.md)
 
+> **Langkah 3/13 — Perintah akuisisi bukti.** Perintah akuisisi bukti
+>
+> **Titik penting:** python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ · python3 writeups/assets/hard-vm-bytecode/solve_vm.py \
+>
+> **Berikutnya:** [Main dan layout](45-hard-vm-bytecode-04-main-dan-layout.md)
+
 ## 1.5 Perintah akuisisi bukti
 
 ```bash

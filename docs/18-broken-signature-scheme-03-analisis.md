@@ -2,6 +2,12 @@
 
 [← Overview](18-broken-signature-scheme.md) · [Index](index.md)
 
+> **Langkah 3/8 — Analisis.** Karena p+q integer, δ² + 4N harus kuadrat sempurna.
+>
+> **Titik penting:** Karena p+q integer, δ² + 4N harus kuadrat sempurna.
+>
+> **Berikutnya:** [Solver](18-broken-signature-scheme-04-solver.md)
+
 ## 2.2 Layer 2 — close-prime RSA
 
 Diketahui:

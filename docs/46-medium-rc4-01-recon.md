@@ -2,6 +2,12 @@
 
 [← Overview](46-medium-rc4.md) · [Index](index.md)
 
+> **Langkah 1/11 — Recon.** Deskripsi sudah memberi petunjuk besar: algoritmanya RC4, key tertanam, ciphertext berupa array byte.
+>
+> **Titik penting:** NFX{...}
+>
+> **Berikutnya:** [Triage awal](46-medium-rc4-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: cypera**

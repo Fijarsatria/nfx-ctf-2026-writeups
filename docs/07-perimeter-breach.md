@@ -22,6 +22,22 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon Artefak | sha256sum access.log auth.log webapp.log | [Buka](07-perimeter-breach-01-recon-artefak.md) |
+| 2 | Reconnaissance — gobuster | 185.220.101.47 | [Buka](07-perimeter-breach-02-reconnaissance-gobuster.md) |
+| 3 | SQL injection — sqlmap | https://sqlmap.org | [Buka](07-perimeter-breach-03-sql-injection-sqlmap.md) |
+| 4 | Initial access — admin login | 36.80.14.22 | [Buka](07-perimeter-breach-04-initial-access-admin-login.md) |
+| 5 | Webshell execution | https://aromacraft.example/admin/upload.php" | [Buka](07-perimeter-breach-05-webshell-execution.md) |
+| 6 | Analisis Artefak | 185.220.101.47 | [Buka](07-perimeter-breach-06-analisis-artefak.md) |
+| 7 | Lima pertanyaan investigasi (rekonstruksi) | NFX{P4th_1nt0_Pr0duct10n} | [Buka](07-perimeter-breach-07-lima-pertanyaan-investigasi-rekonstruksi.md) |
+| 8 | Pemulihan Artefak | python3 - <<'PY' | [Buka](07-perimeter-breach-08-pemulihan-artefak.md) |
+| 9 | Flag | NFX{P4th_1nt0_Pr0duct10n} | [Buka](07-perimeter-breach-09-flag.md) |
+| 10 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](07-perimeter-breach-10-bukti-evidence.md) |
+| 11 | Referensi | — | [Buka](07-perimeter-breach-11-referensi.md) |
+
 ## TL;DR
 
 - Tiga log (`access.log` Nginx, `auth.log` syslog, `webapp.log`) merekam satu kampanye serangan dari **185.220.101.47** pada 10 Oktober 2026.

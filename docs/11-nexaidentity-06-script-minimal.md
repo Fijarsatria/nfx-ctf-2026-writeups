@@ -2,6 +2,12 @@
 
 [← Overview](11-nexaidentity.md) · [Index](index.md)
 
+> **Langkah 6/9 — Script minimal.** Catatan: requests dengan dict {"email[$ne]": "x"} akan meng-encode bracket sebagai %5B%24ne%5D; Express/qs tetap mem-parse-nya menjadi operator.
+>
+> **Titik penting:** http://s1.nfx.my.id:41270"
+>
+> **Berikutnya:** [Flag](11-nexaidentity-07-flag.md)
+
 ## 3.4 Script minimal
 
 ```python

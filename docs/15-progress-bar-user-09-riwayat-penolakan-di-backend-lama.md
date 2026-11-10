@@ -2,6 +2,12 @@
 
 [← Overview](15-progress-bar-user.md) · [Index](index.md)
 
+> **Langkah 9/11 — Riwayat penolakan di backend lama.** Notes mencatat dua kali pemeriksaan:
+>
+> **Titik penting:** NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}
+>
+> **Berikutnya:** [Bukti / Evidence](15-progress-bar-user-10-bukti-evidence.md)
+
 > **Flag:** `NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}`
 > **Status:** `VERIFIED`
 

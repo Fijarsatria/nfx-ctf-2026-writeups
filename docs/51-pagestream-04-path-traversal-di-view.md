@@ -2,6 +2,12 @@
 
 [← Overview](51-pagestream.md) · [Index](index.md)
 
+> **Langkah 4/11 — Path traversal di `/view`.** Path traversal di `/view`
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Upload filename traversal](51-pagestream-05-upload-filename-traversal.md)
+
 ## 2.2 Path traversal di `/view`
 
 `routes/posts.js`:

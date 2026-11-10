@@ -2,6 +2,12 @@
 
 [← Overview](32-the-alchemists-sandbox.md) · [Index](index.md)
 
+> **Langkah 5/10 — Payload.** Payload
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Solver lengkap](32-the-alchemists-sandbox-06-solver-lengkap.md)
+
 ## 3.1 Payload
 
 ```python

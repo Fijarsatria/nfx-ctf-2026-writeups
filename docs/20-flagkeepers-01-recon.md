@@ -2,6 +2,12 @@
 
 [← Overview](20-flagkeepers.md) · [Index](index.md)
 
+> **Langkah 1/8 — Recon.** Petunjuk sangat eksplisit: nonce reuse + GHASH + dual valid payload.
+>
+> **Titik penting:** tcp://s1.nfx.my.id:43210
+>
+> **Berikutnya:** [Analisis](20-flagkeepers-02-analisis.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: Ariaf

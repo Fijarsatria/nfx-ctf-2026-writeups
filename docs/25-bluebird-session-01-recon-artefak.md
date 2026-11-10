@@ -2,6 +2,12 @@
 
 [← Overview](25-bluebird-session.md) · [Index](index.md)
 
+> **Langkah 1/11 — Recon Artefak.** Attachment: BluebirdSession.zip (password nxctf.id) → Evidence.zip → Evidence/.
+>
+> **Titik penting:** sha256sum login.keyring 423261422632617826.jpg for_nozomi.zip README.txt
+>
+> **Berikutnya:** [Triage awal](25-bluebird-session-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > Author: Ariaf

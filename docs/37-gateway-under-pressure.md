@@ -23,6 +23,19 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | Petunjuk "fungsi yang tidak tersedia pada alur normal" sangat sesuai dengan fungsi releasegateway() yang ada di symbol table tetapi tidak dipanggil dari main(). | [Buka](37-gateway-under-pressure-01-recon.md) |
+| 2 | Triage awal | file gateway | [Buka](37-gateway-under-pressure-02-triage-awal.md) |
+| 3 | `do_audit()` — arbitrary-length stack read | Buffer hanya 0x50 byte (dari rbp-0x50 sampai rbp), tetapi write() membaca sampai 0x1000 byte. | [Buka](37-gateway-under-pressure-03-do-audit-arbitrary-length-stack-read.md) |
+| 4 | Analisis | readexact membaca persis len byte (loop sampai terpenuhi) ke buffer 0x50. | [Buka](37-gateway-under-pressure-04-analisis.md) |
+| 5 | Eksploitasi | python3 exploit.py \| tee 03-exploit-run.txt | [Buka](37-gateway-under-pressure-05-eksploitasi.md) |
+| 6 | Flag | NFX{Nyoss_Gte3wayy_Pr3ssureee0!} | [Buka](37-gateway-under-pressure-06-flag.md) |
+| 7 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](37-gateway-under-pressure-07-bukti-evidence.md) |
+| 8 | Referensi | — | [Buka](37-gateway-under-pressure-08-referensi.md) |
+
 ## TL;DR
 
 - `gateway` adalah binary PIE dengan menu: register session, **audit memory**, dispatch request.

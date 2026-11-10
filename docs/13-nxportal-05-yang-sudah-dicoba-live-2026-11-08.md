@@ -2,6 +2,12 @@
 
 [← Overview](13-nxportal.md) · [Index](index.md)
 
+> **Langkah 5/10 — Yang sudah dicoba (live, 2026-11-08).** Inbox dibuat via API mail.tm:
+>
+> **Titik penting:** curl -sS -D - -o /dev/null -c ck "$BASE/forgot" · curl -sS -D - -o /dev/null -b ck -c ck -X POST -d 'email=employee@nxctf.local' "$BASE/forgot"
+>
+> **Berikutnya:** [Eksploitasi / Solver (sebagian, belum selesai)](13-nxportal-06-eksploitasi-solver-sebagian-belum-selesa.md)
+
 ## 2.4 Yang sudah dicoba (live, 2026-11-08)
 
 #### A. Bypass filter + external inbox (mail.tm)

@@ -2,6 +2,12 @@
 
 [← Overview](25-bluebird-session.md) · [Index](index.md)
 
+> **Langkah 9/11 — Flag.** Flag
+>
+> **Titik penting:** NFX{Mizore_Promise_Never_Forgotten_The_Bluebird_Still_Sings}
+>
+> **Berikutnya:** [Bukti / Evidence](25-bluebird-session-10-bukti-evidence.md)
+
 > **Flag:** `NFX{Mizore_Promise_Never_Forgotten_The_Bluebird_Still_Sings}`
 > **Status:** `VERIFIED`
 

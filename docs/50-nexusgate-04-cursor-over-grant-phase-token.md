@@ -2,6 +2,12 @@
 
 [← Overview](50-nexusgate.md) · [Index](index.md)
 
+> **Langkah 4/12 — Cursor over-grant → PHASE_TOKEN.** Audit user <user> sekarang berisi:
+>
+> **Titik penting:** Audit user <user> sekarang berisi:
+>
+> **Berikutnya:** [File-read sandbox: Node permission tree](50-nexusgate-05-file-read-sandbox-node-permission-tree.md)
+
 ## 2.2 Cursor over-grant → PHASE_TOKEN
 
 `routes.js`:

@@ -2,6 +2,12 @@
 
 [← Overview](44-hard-feistel.md) · [Index](index.md)
 
+> **Langkah 4/13 — Analisis.** Input 39 byte disalin ke [rsp], sisa buffer sudah di-zero, sehingga blok terakhir (byte ke-40) bernilai 0x00.
+>
+> **Titik penting:** Input 39 byte disalin ke [rsp], sisa buffer sudah di-zero, sehingga blok terakhir (byte ke-40) bernilai 0x00.
+>
+> **Berikutnya:** [Analisis](44-hard-feistel-05-analisis-2.md)
+
 ## 2.1 Main dan layout
 
 Main ada di `0x10e0`.

@@ -2,6 +2,12 @@
 
 [← Overview](06-insider.md) · [Index](index.md)
 
+> **Langkah 2/10 — Recon Artefak.** Petunjuk penting: timestamp Chrome/WebKit = microseconds sejak 1601-01-01 UTC.
+>
+> **Titik penting:** Petunjuk penting: timestamp Chrome/WebKit = microseconds sejak 1601-01-01 UTC.
+>
+> **Berikutnya:** [Struktur profil](06-insider-03-struktur-profil.md)
+
 ## 1.3 Acquisition note
 
 ```text

@@ -2,6 +2,12 @@
 
 [← Overview](32-the-alchemists-sandbox.md) · [Index](index.md)
 
+> **Langkah 7/10 — Output asli.** Output asli
+>
+> **Titik penting:** python3 solve_alchemist.py · NFXCTF{pyj41l_4st_4lch3my_vm_pwn_d84f216a}
+>
+> **Berikutnya:** [Flag](32-the-alchemists-sandbox-08-flag.md)
+
 ## 3.3 Output asli
 
 ```text

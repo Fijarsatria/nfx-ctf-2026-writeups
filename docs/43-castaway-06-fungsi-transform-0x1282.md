@@ -2,6 +2,12 @@
 
 [← Overview](43-castaway.md) · [Index](index.md)
 
+> **Langkah 6/14 — Fungsi transform `0x1282`.** Fungsi ini menerima (input, len, output) dan menjalankan state machine.
+>
+> **Titik penting:** Fungsi ini menerima (input, len, output) dan menjalankan state machine.
+>
+> **Berikutnya:** [Transformasi per byte](43-castaway-07-transformasi-per-byte.md)
+
 ## 2.4 Fungsi transform `0x1282`
 
 Fungsi ini menerima `(input, len, output)` dan menjalankan state machine. Variabel lokal:

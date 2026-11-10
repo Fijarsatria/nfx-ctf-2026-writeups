@@ -2,6 +2,12 @@
 
 [← Overview](43-castaway.md) · [Index](index.md)
 
+> **Langkah 8/14 — Data di `.rodata`.** Alamat yang dipakai:
+>
+> **Titik penting:** Alamat yang dipakai:
+>
+> **Berikutnya:** [Strategi](43-castaway-09-strategi.md)
+
 ## 2.6 Data di `.rodata`
 
 ```text

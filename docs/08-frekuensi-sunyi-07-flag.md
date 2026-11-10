@@ -2,6 +2,12 @@
 
 [← Overview](08-frekuensi-sunyi.md) · [Index](index.md)
 
+> **Langkah 7/9 — Flag.** Report submit (flags/misc/FrekuensiSunyi.report.txt) mencatat:
+>
+> **Titik penting:** NFX{b0sC4_Ce01L}
+>
+> **Berikutnya:** [Bukti / Evidence](08-frekuensi-sunyi-08-bukti-evidence.md)
+
 > **Flag:** `NFX{b0sC4_Ce01L}`
 > **Status:** `VERIFIED`
 

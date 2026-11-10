@@ -2,6 +2,12 @@
 
 [← Overview](23-unbreakable-delay.md) · [Index](index.md)
 
+> **Langkah 5/8 — Output asli simulasi.** Output asli simulasi
+>
+> **Titik penting:** python3 writeups/assets/unbreakable-delay/sim_vdf.py
+>
+> **Berikutnya:** [Flag](23-unbreakable-delay-06-flag.md)
+
 ## 3.3 Output asli simulasi
 
 ```text

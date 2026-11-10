@@ -2,6 +2,12 @@
 
 [← Overview](38-narrowgate.md) · [Index](index.md)
 
+> **Langkah 5/9 — Eksploitasi.** Tersimpan di writeups/assets/narrowgate/exploit.py.
+>
+> **Titik penting:** python3 exploit.py \| tee 03-exploit-run.txt · NFX{LOCAL_TEST_FLAG_NARROWGATE}
+>
+> **Berikutnya:** [Output asli](38-narrowgate-06-output-asli.md)
+
 ## 3.1 Strategi
 
 1. Kirim nickname `%27$p|%29$p|%43$p` → canary, PIE, libc.

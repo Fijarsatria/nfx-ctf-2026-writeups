@@ -2,6 +2,12 @@
 
 [← Overview](34-s3rvice-k3reta.md) · [Index](index.md)
 
+> **Langkah 1/9 — Jejak Awal.** Tidak ada attachment resmi di platform; gambar yang dipakai adalah:
+>
+> **Titik penting:** sha256sum osint/from_train.jpeg · file osint/from_train.jpeg · exiftool osint/from_train.jpeg
+>
+> **Berikutnya:** [Analisis Jejak](34-s3rvice-k3reta-02-analisis-jejak.md)
+
 ### 1.1 Deskripsi challenge
 
 > **Author: Kada**

@@ -2,6 +2,12 @@
 
 [← Overview](17-record-keeper-user.md) · [Index](index.md)
 
+> **Langkah 2/9 — Analisis.** Dari dokumentasi console:
+>
+> **Titik penting:** Dari dokumentasi console:
+>
+> **Berikutnya:** [Analisis](17-record-keeper-user-03-analisis-2.md)
+
 ## 2.1 Wire protocol `record-transform`
 
 Dari dokumentasi console:

@@ -2,6 +2,12 @@
 
 [← Overview](37-gateway-under-pressure.md) · [Index](index.md)
 
+> **Langkah 5/8 — Eksploitasi.** Tersimpan di writeups/assets/gateway-under-pressure/exploit.py:
+>
+> **Titik penting:** python3 exploit.py \| tee 03-exploit-run.txt · NFX{LOCAL_TEST_FLAG_GATEWAY}
+>
+> **Berikutnya:** [Flag](37-gateway-under-pressure-06-flag.md)
+
 ### 3.1 Strategi
 
 1. Pilih `[2] Audit memory`, kirim length `4096`, baca 4096 byte.

@@ -23,6 +23,19 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | nmap -Pn -sV -p 22,80 10.10.20.21 | [Buka](01-forgotten-commit-root-01-recon.md) |
+| 2 | Analisis | git-dumper http://10.10.20.21/ /tmp/nexus_repo | [Buka](01-forgotten-commit-root-02-analisis.md) |
+| 3 | Enumerasi sudo | sudo -n -l | [Buka](01-forgotten-commit-root-03-enumerasi-sudo.md) |
+| 4 | Eksploitasi / Solver | sudo -n /usr/local/bin/fzf --listen 1337 | [Buka](01-forgotten-commit-root-04-eksploitasi-solver.md) |
+| 5 | Kenapa fzf bisa menjadi privesc | fzf dijalankan dengan sudo, seluruh action execute(...) dieksekusi dengan | [Buka](01-forgotten-commit-root-05-kenapa-fzf-bisa-menjadi-privesc.md) |
+| 6 | Flag | NFX{fzf_l1st3n_r00t_sh3ll_pwn3d} | [Buka](01-forgotten-commit-root-06-flag.md) |
+| 7 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](01-forgotten-commit-root-07-bukti-evidence.md) |
+| 8 | Referensi | — | [Buka](01-forgotten-commit-root-08-referensi.md) |
+
 ## Ringkasan
 
 > **Catatan bukti.** Writeup ini memakai hasil **live rerun 2026-11-09** di

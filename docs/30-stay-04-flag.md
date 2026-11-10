@@ -2,6 +2,12 @@
 
 [← Overview](30-stay.md) · [Index](index.md)
 
+> **Langkah 4/6 — Flag.** Plaintext hasil decode:
+>
+> **Titik penting:** NFX{st4y_w1th_m3_1n_th3_d4rk}
+>
+> **Berikutnya:** [Bukti / Evidence](30-stay-05-bukti-evidence.md)
+
 > **Flag:** `NFX{st4y_w1th_m3_1n_th3_d4rk}`
 > **Status:** `VERIFIED`
 

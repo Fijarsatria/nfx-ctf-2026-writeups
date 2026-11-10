@@ -2,6 +2,12 @@
 
 [← Overview](19-ecdsa-nonce-bias.md) · [Index](index.md)
 
+> **Langkah 2/7 — Analisis.** Untuk setiap signature:
+>
+> **Titik penting:** Untuk setiap signature:
+>
+> **Berikutnya:** [Script lengkap](19-ecdsa-nonce-bias-03-script-lengkap.md)
+
 ### 2.1 Persamaan ECDSA
 
 Untuk setiap signature:

@@ -2,6 +2,12 @@
 
 [← Overview](43-castaway.md) · [Index](index.md)
 
+> **Langkah 12/14 — Flag.** Cek file flag lokal:
+>
+> **Titik penting:** NFX{c4st4w4y_0n_4n_0p4qu3_st4t3_m4ch1n3}
+>
+> **Berikutnya:** [Bukti / Evidence](43-castaway-13-bukti-evidence.md)
+
 > **Flag:** `NFX{c4st4w4y_0n_4n_0p4qu3_st4t3_m4ch1n3}`
 > **Status:** `VERIFIED`
 

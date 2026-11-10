@@ -2,6 +2,12 @@
 
 [← Overview](47-medium-tea.md) · [Index](index.md)
 
+> **Langkah 10/12 — Flag.** Cek file flag lokal:
+>
+> **Titik penting:** NFX{t1ny_3ncrypt10n_4lg0r1thm_32_r0und5}
+>
+> **Berikutnya:** [Bukti / Evidence](47-medium-tea-11-bukti-evidence.md)
+
 > **Flag:** `NFX{t1ny_3ncrypt10n_4lg0r1thm_32_r0und5}`
 > **Status:** `VERIFIED`
 

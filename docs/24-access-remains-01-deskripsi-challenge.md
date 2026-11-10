@@ -2,6 +2,12 @@
 
 [← Overview](24-access-remains.md) · [Index](index.md)
 
+> **Langkah 1/11 — Deskripsi challenge.** Deskripsi challenge
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Recon Artefak](24-access-remains-02-recon-artefak.md)
+
 ## 1.1 Deskripsi challenge
 
 > Author: Ariaf

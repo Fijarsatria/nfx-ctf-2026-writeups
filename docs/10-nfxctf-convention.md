@@ -23,6 +23,20 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | NFX{your_flag_here} | [Buka](10-nfxctf-convention-01-recon.md) |
+| 2 | Recon | file oscar_convention | [Buka](10-nfxctf-convention-02-recon-2.md) |
+| 3 | Analisis | Dari symbol table dan instruksi lea: | [Buka](10-nfxctf-convention-03-analisis.md) |
+| 4 | Bug #3 — format string di `view_profile()` | Feedback disimpan lebih dulu dengan snprintf(logbuf, 0x100, "%s", buf), jadi isi feedback tidak diformat saat disimpan; tetapi saat viewprofile() dipanggil, logbuf dipakai sebagai format st… | [Buka](10-nfxctf-convention-04-bug-3-format-string-di-view-profile.md) |
+| 5 | Eksploitasi | python3 exploit.py \| tee 03-exploit-run.txt | [Buka](10-nfxctf-convention-05-eksploitasi.md) |
+| 6 | Output asli | NFX{LOCAL_TEST_FLAG_CONVENTION} | [Buka](10-nfxctf-convention-06-output-asli.md) |
+| 7 | Flag | NFX{h4ck3r_c0nv3nt10n_m4st3r_pwn3r_9988776655} | [Buka](10-nfxctf-convention-07-flag.md) |
+| 8 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](10-nfxctf-convention-08-bukti-evidence.md) |
+| 9 | Referensi | https://docs.pwntools.com/> | [Buka](10-nfxctf-convention-09-referensi.md) |
+
 ## TL;DR
 
 - Service adalah simulator konvensi: register, main mini-game untuk naik rank, edit nama, dan (hanya VIP rank 20+) meninggalkan feedback.

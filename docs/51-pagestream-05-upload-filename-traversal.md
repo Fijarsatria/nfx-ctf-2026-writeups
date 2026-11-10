@@ -2,6 +2,12 @@
 
 [← Overview](51-pagestream.md) · [Index](index.md)
 
+> **Langkah 5/11 — Upload filename traversal.** Upload filename traversal
+>
+> **Titik penting:** NFX{dummy_flag_for_local_testing}
+>
+> **Berikutnya:** [Analisis](51-pagestream-06-analisis.md)
+
 ## 2.3 Upload filename traversal
 
 `routes/posts.js`:

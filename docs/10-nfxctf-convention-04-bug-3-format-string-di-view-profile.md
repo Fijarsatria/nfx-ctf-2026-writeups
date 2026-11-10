@@ -2,6 +2,12 @@
 
 [← Overview](10-nfxctf-convention.md) · [Index](index.md)
 
+> **Langkah 4/9 — Bug #3 — format string di `view_profile()`.** Feedback disimpan lebih dulu dengan snprintf(logbuf, 0x100, "%s", buf), jadi isi feedback tidak diformat saat disimpan; tetapi saat viewprofile() dipanggil, logbuf dipakai sebagai format st…
+>
+> **Titik penting:** Feedback disimpan lebih dulu dengan snprintf(logbuf, 0x100, "%s", buf), jadi isi feedback tidak diformat saat disimpan; tetapi saat viewprofile() dipanggil, logbuf dipakai sebagai format st…
+>
+> **Berikutnya:** [Eksploitasi](10-nfxctf-convention-05-eksploitasi.md)
+
 ## 2.4 Bug #3 — format string di `view_profile()`
 
 ```asm

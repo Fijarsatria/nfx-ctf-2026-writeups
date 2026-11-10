@@ -2,6 +2,12 @@
 
 [← Overview](43-castaway.md) · [Index](index.md)
 
+> **Langkah 5/14 — Analisis.** ptrace(PTRACETRACEME, 0, 1, 0) normalnya mengembalikan 0.
+>
+> **Titik penting:** strace -f -e trace=ptrace ./reverse/Hard_03_Castaway/castaway < writeups/assets/castaway/castaway_in.txt · cat writeups/assets/castaway/castaway_in.txt \| ./reverse/Hard_03_Castaway/castaway
+>
+> **Berikutnya:** [Fungsi transform `0x1282`](43-castaway-06-fungsi-transform-0x1282.md)
+
 ## 2.2 Anti-debug
 
 `ptrace(PTRACE_TRACEME, 0, 1, 0)` normalnya mengembalikan `0`. Jika proses sudah di-trace (gdb, strace), syscall gagal dan mengembalikan `-1` (`EPERM`). Bool `anti_debug` menjadi 1, lalu **hanya byte pertama** output di-XOR dengan 1. Akibatnya flag yang benar pun ditolak saat dianalisis dengan debugger.

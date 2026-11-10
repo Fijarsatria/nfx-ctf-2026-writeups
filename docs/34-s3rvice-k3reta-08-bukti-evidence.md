@@ -5,6 +5,12 @@
 
 [← Overview](34-s3rvice-k3reta.md) · [Index](index.md)
 
+> **Langkah 8/9 — Bukti / Evidence.** Semua bukti berada di writeups/assets/s3rvice-k3reta/.
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](34-s3rvice-k3reta-09-referensi.md)
+
 
 ## Arsip Evidence
 

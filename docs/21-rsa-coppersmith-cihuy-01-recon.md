@@ -2,6 +2,12 @@
 
 [← Overview](21-rsa-coppersmith-cihuy.md) · [Index](index.md)
 
+> **Langkah 1/7 — Recon.** Isi chall.py hanya konstanta:
+>
+> **Titik penting:** Isi chall.py hanya konstanta:
+>
+> **Berikutnya:** [Analisis](21-rsa-coppersmith-cihuy-02-analisis.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: Illal

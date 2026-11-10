@@ -5,6 +5,12 @@
 
 [← Overview](33-fresh-arrival.md) · [Index](index.md)
 
+> **Langkah 7/8 — Bukti / Evidence.** Semua bukti berada di writeups/assets/fresh-arrival/.
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](33-fresh-arrival-08-referensi.md)
+
 
 ## Arsip Evidence
 

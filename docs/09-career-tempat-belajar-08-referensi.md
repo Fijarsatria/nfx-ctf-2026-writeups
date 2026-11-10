@@ -2,6 +2,12 @@
 
 [← Overview](09-career-tempat-belajar.md) · [Index](index.md)
 
+> **Langkah 8/8 — Referensi.** (email dihlearn.id@gmail.com → flag Career).
+>
+> **Titik penting:** https://gravatar.com/<md5>.json · https://gravatar.com/7149a84591149f4933058779e485a3c9
+>
+> **Selesai.** Kembali ke [Overview](09-career-tempat-belajar.md).
+
 - `osint/office.png` — poster challenge.
 - `umum/Osint/career-tempat-belajar/BRIEF.md` — deskripsi challenge.
 - Gravatar profile API: `https://gravatar.com/<md5>.json`

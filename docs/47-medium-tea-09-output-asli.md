@@ -2,6 +2,12 @@
 
 [← Overview](47-medium-tea.md) · [Index](index.md)
 
+> **Langkah 9/12 — Output asli.** Perhatikan bahwa hasil dekripsi per blok membentuk teks yang dapat dibaca, dan enkripsi ulang menghasilkan ciphertext identik.
+>
+> **Titik penting:** python3 writeups/assets/medium-tea/solve_tea.py · NFX{t1ny_3ncrypt10n_4lg0r1thm_32_r0und5}
+>
+> **Berikutnya:** [Flag](47-medium-tea-10-flag.md)
+
 ## 3.3 Output asli
 
 ```text

@@ -2,6 +2,12 @@
 
 [← Overview](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh.md) · [Index](index.md)
 
+> **Langkah 1/7 — Recon.** Petunjuk utama ada di judul: LWE dan "small secret".
+>
+> **Titik penting:** head -5 lwe.py · tail -5 lwe.py
+>
+> **Berikutnya:** [Analisis](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-02-analisis.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: Illal

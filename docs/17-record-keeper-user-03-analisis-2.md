@@ -2,6 +2,12 @@
 
 [← Overview](17-record-keeper-user.md) · [Index](index.md)
 
+> **Langkah 3/9 — Analisis.** Notes mencatat service :3000 adalah fixture "worker record transform" yang sama dengan lab publik:
+>
+> **Titik penting:** 10.10.20.10
+>
+> **Berikutnya:** [Setelah RCE](17-record-keeper-user-04-setelah-rce.md)
+
 ## 2.3 Kenapa lab ini cocok dengan profile publik
 
 Notes mencatat service `:3000` adalah fixture "worker record transform" yang

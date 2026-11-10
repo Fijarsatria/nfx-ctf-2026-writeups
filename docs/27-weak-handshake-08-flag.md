@@ -2,6 +2,12 @@
 
 [← Overview](27-weak-handshake.md) · [Index](index.md)
 
+> **Langkah 8/10 — Flag.** Overlay pada JPEG kedua:
+>
+> **Titik penting:** NFX{D36A64128F80788B60C677EF94FA7157}
+>
+> **Berikutnya:** [Bukti / Evidence](27-weak-handshake-09-bukti-evidence.md)
+
 > **Flag:** `NFX{D36A64128F80788B60C677EF94FA7157}`
 > **Status:** `VERIFIED`
 

@@ -2,6 +2,12 @@
 
 [← Overview](17-record-keeper-user.md) · [Index](index.md)
 
+> **Langkah 7/9 — Flag.** Byte-exact dari target:
+>
+> **Titik penting:** NFX{br0tl1_0ob_wr1t3_w0rk3r_r0p_rc3}
+>
+> **Berikutnya:** [Bukti / Evidence](17-record-keeper-user-08-bukti-evidence.md)
+
 > **Flag:** `NFX{br0tl1_0ob_wr1t3_w0rk3r_r0p_rc3}`
 > **Status:** `VERIFIED`
 

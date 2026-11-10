@@ -2,6 +2,12 @@
 
 [← Overview](44-hard-feistel.md) · [Index](index.md)
 
+> **Langkah 8/13 — Solver lengkap.** File: writeups/assets/hard-feistel/solvefeistel.py
+>
+> **Titik penting:** File: writeups/assets/hard-feistel/solvefeistel.py
+>
+> **Berikutnya:** [Output asli](44-hard-feistel-09-output-asli.md)
+
 ## 3.2 Solver lengkap
 
 File: `writeups/assets/hard-feistel/solve_feistel.py`

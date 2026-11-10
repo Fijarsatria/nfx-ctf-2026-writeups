@@ -2,6 +2,12 @@
 
 [← Overview](24-access-remains.md) · [Index](index.md)
 
+> **Langkah 6/11 — Analisis Artefak.** Petunjuk: “one still carries the echo” / “one that remembers” → satu gambar menyimpan pesan.
+>
+> **Titik penting:** 7z x -y -p'KumikoOumae2107!@' Kumiko.zip
+>
+> **Berikutnya:** [Pemulihan Artefak](24-access-remains-07-pemulihan-artefak.md)
+
 ## 2.4 Membuka Kumiko.zip
 
 ```bash

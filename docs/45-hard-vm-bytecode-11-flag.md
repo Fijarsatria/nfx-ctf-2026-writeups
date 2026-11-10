@@ -2,6 +2,12 @@
 
 [← Overview](45-hard-vm-bytecode.md) · [Index](index.md)
 
+> **Langkah 11/13 — Flag.** Cek file flag lokal:
+>
+> **Titik penting:** NFX{vm_byt3c0d3_1s_l1k3_4_puzzl3}
+>
+> **Berikutnya:** [Bukti / Evidence](45-hard-vm-bytecode-12-bukti-evidence.md)
+
 > **Flag:** `NFX{vm_byt3c0d3_1s_l1k3_4_puzzl3}`
 > **Status:** `VERIFIED`
 

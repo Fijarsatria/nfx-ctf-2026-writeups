@@ -2,6 +2,12 @@
 
 [← Overview](17-record-keeper-user.md) · [Index](index.md)
 
+> **Langkah 5/9 — Eksploitasi / Solver.** Patch yang diperlukan (dijelaskan di notes):
+>
+> **Titik penting:** python3 /tmp/opencode/probe23.py 10.10.20.23 3000 · python3 exploit/rce_worker.py --target 10.10.20.23 --port 3000 \ · git clone https://github.com/Arkango/CVE-2026-111497
+>
+> **Berikutnya:** [Output](17-record-keeper-user-06-output.md)
+
 ## 3.1 Strategi
 
 1. Fingerprint Node.js 24.9.0 dan protokol frame.

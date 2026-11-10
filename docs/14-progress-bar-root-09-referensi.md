@@ -2,6 +2,12 @@
 
 [← Overview](14-progress-bar-root.md) · [Index](index.md)
 
+> **Langkah 9/9 — Referensi.** 8.4.27 / 8.5.12 / 8.3.36 / 8.2.35.
+>
+> **Titik penting:** 8.4.27 / 8.5.12 / 8.3.36 / 8.2.35.
+>
+> **Selesai.** Kembali ke [Overview](14-progress-bar-root.md).
+
 - PHP advisory CVE-2026-109618 / CVE-2026-109619 (PHP2Shell), fixed
   8.4.27 / 8.5.12 / 8.3.36 / 8.2.35.
 - 9bie / 3em0, `php2shell` — PoC dan penjelasan chain.

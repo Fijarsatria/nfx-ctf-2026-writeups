@@ -2,6 +2,12 @@
 
 [← Overview](37-gateway-under-pressure.md) · [Index](index.md)
 
+> **Langkah 3/8 — `do_audit()` — arbitrary-length stack read.** Buffer hanya 0x50 byte (dari rbp-0x50 sampai rbp), tetapi write() membaca sampai 0x1000 byte.
+>
+> **Titik penting:** Buffer hanya 0x50 byte (dari rbp-0x50 sampai rbp), tetapi write() membaca sampai 0x1000 byte.
+>
+> **Berikutnya:** [Analisis](37-gateway-under-pressure-04-analisis.md)
+
 ## 2.1 `do_audit()` — arbitrary-length stack read
 
 ```asm

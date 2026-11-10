@@ -2,6 +2,12 @@
 
 [← Overview](18-broken-signature-scheme.md) · [Index](index.md)
 
+> **Langkah 2/8 — Layer 1 — RSA signature multiplicatif.** Skema menandatangani pesan mentah:
+>
+> **Titik penting:** Skema menandatangani pesan mentah:
+>
+> **Berikutnya:** [Analisis](18-broken-signature-scheme-03-analisis.md)
+
 ## 2.1 Layer 1 — RSA signature multiplicatif
 
 Skema menandatangani pesan mentah:

@@ -2,6 +2,12 @@
 
 [← Overview](34-s3rvice-k3reta.md) · [Index](index.md)
 
+> **Langkah 6/9 — Pencarian & Verifikasi.** Semua jawaban diverifikasi lewat oracle sub-challenge (true) dan platform menerima flag.
+>
+> **Titik penting:** python3 - <<'EOF' · https://www.youtube.com/results?search_query="
+>
+> **Berikutnya:** [Flag](34-s3rvice-k3reta-07-flag.md)
+
 ### 3.1 Strategi
 
 1. Baca gambar, tentukan lokasi (Cilebut–Bojong Gede).

@@ -2,6 +2,12 @@
 
 [← Overview](33-fresh-arrival.md) · [Index](index.md)
 
+> **Langkah 2/8 — Triage awal.** profil warna sRGB standar.
+>
+> **Titik penting:** file osint/spotted.jpg · exiftool osint/spotted.jpg
+>
+> **Berikutnya:** [Analisis Jejak](33-fresh-arrival-03-analisis-jejak.md)
+
 ## 1.4 Triage awal
 
 ```bash

@@ -2,6 +2,12 @@
 
 [← Overview](16-record-keeper-root.md) · [Index](index.md)
 
+> **Langkah 8/10 — Flag.** Verifikasi platform (submit log read-only, bukan submit baru):
+>
+> **Titik penting:** NFX{sp00l3r_4rch1v3_r00t_pwn3d}
+>
+> **Berikutnya:** [Bukti / Evidence](16-record-keeper-root-09-bukti-evidence.md)
+
 > **Flag:** `NFX{sp00l3r_4rch1v3_r00t_pwn3d}`
 > **Status:** `VERIFIED`
 

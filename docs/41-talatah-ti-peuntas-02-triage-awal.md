@@ -2,6 +2,12 @@
 
 [← Overview](41-talatah-ti-peuntas.md) · [Index](index.md)
 
+> **Langkah 2/10 — Triage awal.** Partial RELRO + non-PIE = GOT writable dan alamat statis.
+>
+> **Titik penting:** file talatah · checksec (pwntools)
+>
+> **Berikutnya:** [Analisis](41-talatah-ti-peuntas-03-analisis.md)
+
 ## 1.4 Triage awal
 
 ```text

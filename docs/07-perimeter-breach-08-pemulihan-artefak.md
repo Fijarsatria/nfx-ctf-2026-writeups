@@ -2,6 +2,12 @@
 
 [← Overview](07-perimeter-breach.md) · [Index](index.md)
 
+> **Langkah 8/11 — Pemulihan Artefak.** Tidak ada eksploitasi aktif.
+>
+> **Titik penting:** python3 - <<'PY' · 185.220.101.47
+>
+> **Berikutnya:** [Flag](07-perimeter-breach-09-flag.md)
+
 ### 3.1 Strategi
 
 Tidak ada eksploitasi aktif. Solver adalah pipeline analisis log:

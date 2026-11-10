@@ -2,6 +2,12 @@
 
 [← Overview](24-access-remains.md) · [Index](index.md)
 
+> **Langkah 2/11 — Recon Artefak.** Attachment: AccessRemains.zip (password zip nxctf.id) → Evidence/.
+>
+> **Titik penting:** sha256sum Evidence/Windows/System32/config/SAM \
+>
+> **Berikutnya:** [Triage awal](24-access-remains-03-triage-awal.md)
+
 ## 1.2 File yang diberikan
 
 Attachment: `Access_Remains.zip` (password zip `nxctf.id`) → `Evidence/`.

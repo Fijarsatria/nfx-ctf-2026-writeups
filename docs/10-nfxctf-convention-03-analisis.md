@@ -2,6 +2,12 @@
 
 [← Overview](10-nfxctf-convention.md) · [Index](index.md)
 
+> **Langkah 3/9 — Analisis.** Dari symbol table dan instruksi lea:
+>
+> **Titik penting:** Dari symbol table dan instruksi lea:
+>
+> **Berikutnya:** [Bug #3 — format string di `view_profile()`](10-nfxctf-convention-04-bug-3-format-string-di-view-profile.md)
+
 ## 2.1 Layout data global
 
 Dari symbol table dan instruksi `lea`:

@@ -5,6 +5,12 @@
 
 [← Overview](52-wujud-aseli-atmin.md) · [Index](index.md)
 
+> **Langkah 6/7 — Bukti / Evidence.** Semua di writeups/assets/wujud-aseli-atmin/:
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](52-wujud-aseli-atmin-07-referensi.md)
+
 
 ## Arsip Evidence
 

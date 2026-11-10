@@ -2,6 +2,12 @@
 
 [← Overview](16-record-keeper-root.md) · [Index](index.md)
 
+> **Langkah 2/10 — Triage awal.** [REKONSTRUKSI] Dari bastion:
+>
+> **Titik penting:** nmap -Pn -sV -p- --min-rate 2000 10.10.20.23 · curl -sS http://10.10.20.23:8080/ · http://10.10.20.23:8080/
+>
+> **Berikutnya:** [Analisis](16-record-keeper-root-03-analisis.md)
+
 ## 1.4 Triage awal
 
 `[REKONSTRUKSI]` Dari bastion:

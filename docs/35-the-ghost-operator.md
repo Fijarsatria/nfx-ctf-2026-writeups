@@ -23,6 +23,20 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Jejak Awal | sha256sum osint/investigation.zip | [Buka](35-the-ghost-operator-01-jejak-awal.md) |
+| 2 | Analisis Jejak | git log --all --oneline --decorate | [Buka](35-the-ghost-operator-02-analisis-jejak.md) |
+| 3 | Analisis Jejak | Dua URL telegra.ph dapat diakses langsung. | [Buka](35-the-ghost-operator-03-analisis-jejak-2.md) |
+| 4 | Identifikasi tempat | Sumber publik yang cocok: | [Buka](35-the-ghost-operator-04-identifikasi-tempat.md) |
+| 5 | Mengapa lowercase ditolak? | NFX{villa_istana_bunga} | [Buka](35-the-ghost-operator-05-mengapa-lowercase-ditolak.md) |
+| 6 | Pencarian & Verifikasi | curl -s 'https://keyserver.ubuntu.com/pks/lookup?op=index&search=veloxphantom.net&options=mr' | [Buka](35-the-ghost-operator-06-pencarian-verifikasi.md) |
+| 7 | Flag | NFX{villa_istana_bunga_lembang} | [Buka](35-the-ghost-operator-07-flag.md) |
+| 8 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](35-the-ghost-operator-08-bukti-evidence.md) |
+| 9 | Referensi | NFX{Villa_Istana_Bunga} | [Buka](35-the-ghost-operator-09-referensi.md) |
+
 ## Ringkasan
 
 > Catatan verifikasi: kandidat `NFX{villa_istana_bunga}` dan

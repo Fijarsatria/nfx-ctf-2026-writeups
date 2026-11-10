@@ -2,6 +2,12 @@
 
 [← Overview](30-stay.md) · [Index](index.md)
 
+> **Langkah 2/6 — Analisis.** Kita hanya mengambil karakter yang ada di tabel mapping, sesuai urutan kemunculannya di teks.
+>
+> **Titik penting:** Kita hanya mengambil karakter yang ada di tabel mapping, sesuai urutan kemunculannya di teks.
+>
+> **Berikutnya:** [Penyelesaian](30-stay-03-penyelesaian.md)
+
 ### 2.1 Ekstraksi bitstream
 
 Kita hanya mengambil karakter yang ada di tabel mapping, sesuai urutan

@@ -2,6 +2,12 @@
 
 [← Overview](25-bluebird-session.md) · [Index](index.md)
 
+> **Langkah 4/11 — Bash history.** mizore/.bashhistory:
+>
+> **Titik penting:** sudo bash -c 'cat > /home/nozomi/Documents/for_nozomi_content/README.txt' << 'EOF' · sudo chown nozomi:nozomi /home/nozomi/Documents/for_nozomi.zip · sudo chown -R mizore:mizore /home/mizore/Documents/Ensemble.mp4
+>
+> **Berikutnya:** [GNOME Keyring `login.keyring`](25-bluebird-session-05-gnome-keyring-login-keyring.md)
+
 ## 2.2 Bash history
 
 `mizore/.bash_history`:

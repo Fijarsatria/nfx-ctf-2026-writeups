@@ -2,6 +2,12 @@
 
 [← Overview](33-fresh-arrival.md) · [Index](index.md)
 
+> **Langkah 3/8 — Analisis Jejak.** Detail yang bisa dibaca:
+>
+> **Titik penting:** https://www.jetphotos.com/photo/11925184 · https://cdn.jetphotos.com/400/5/477464_1765274878.jpg
+>
+> **Berikutnya:** [Analisis Jejak](33-fresh-arrival-04-analisis-jejak-2.md)
+
 ## 2.1 Identifikasi pesawat dari gambar
 
 Detail yang bisa dibaca:

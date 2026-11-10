@@ -2,6 +2,12 @@
 
 [← Overview](39-pipa-nu-kotor.md) · [Index](index.md)
 
+> **Langkah 2/8 — Triage awal.** strings memperlihatkan pesan yang menjadi petunjuk utama:
+>
+> **Titik penting:** file pipa · checksec (pwntools)
+>
+> **Berikutnya:** [Analisis](39-pipa-nu-kotor-03-analisis.md)
+
 ## 1.4 Triage awal
 
 ```text

@@ -5,6 +5,12 @@
 
 [← Overview](43-castaway.md) · [Index](index.md)
 
+> **Langkah 13/14 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](43-castaway-14-referensi.md)
+
 
 ## Arsip Evidence
 

@@ -23,6 +23,22 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | NFX{...} | [Buka](46-medium-rc4-01-recon.md) |
+| 2 | Triage awal | file reverse/Medium_01_RC4/medium_rc4 | [Buka](46-medium-rc4-02-triage-awal.md) |
+| 3 | Perintah akuisisi bukti | python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ | [Buka](46-medium-rc4-03-perintah-akuisisi-bukti.md) |
+| 4 | Peta fungsi `main` | Karena binary stripped, kita mulai dari entry point 0x12a0, yang memanggil libcstartmain dengan main di 0x10e0. | [Buka](46-medium-rc4-04-peta-fungsi-main.md) |
+| 5 | Analisis | Dari instruksi lea di atas: | [Buka](46-medium-rc4-05-analisis.md) |
+| 6 | Strategi | Solver membaca binary lewat program header PTLOAD, bukan hardcode offset file, sehingga tetap benar meskipun layout section berubah. | [Buka](46-medium-rc4-06-strategi.md) |
+| 7 | Solver lengkap | File: writeups/assets/medium-rc4/solverc4.py | [Buka](46-medium-rc4-07-solver-lengkap.md) |
+| 8 | Menjalankan solver | python3 writeups/assets/medium-rc4/solve_rc4.py | [Buka](46-medium-rc4-08-menjalankan-solver.md) |
+| 9 | Flag | NFX{rc4_1s_s1mpl3_but_d34dly_1n_r3v3rs1ng} | [Buka](46-medium-rc4-09-flag.md) |
+| 10 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](46-medium-rc4-10-bukti-evidence.md) |
+| 11 | Referensi | — | [Buka](46-medium-rc4-11-referensi.md) |
+
 ## TL;DR
 
 - Binary `medium_rc4` adalah ELF x86-64 PIE, stripped, dan meminta flag lewat `argv[1]`.

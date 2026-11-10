@@ -2,6 +2,12 @@
 
 [← Overview](46-medium-rc4.md) · [Index](index.md)
 
+> **Langkah 3/11 — Perintah akuisisi bukti.** Perintah akuisisi bukti
+>
+> **Titik penting:** python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ · python3 writeups/assets/medium-rc4/solve_rc4.py \
+>
+> **Berikutnya:** [Peta fungsi `main`](46-medium-rc4-04-peta-fungsi-main.md)
+
 ## 1.5 Perintah akuisisi bukti
 
 ```bash

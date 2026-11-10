@@ -22,6 +22,18 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | file flight_recovery_manifest.xlsx | [Buka](02-black-box-protocol-n4t0-01-recon.md) |
+| 2 | Analisis | xl/workbook.xml hanya mendefinisikan satu sheet: | [Buka](02-black-box-protocol-n4t0-02-analisis.md) |
+| 3 | Analisis | NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng} | [Buka](02-black-box-protocol-n4t0-03-analisis-2.md) |
+| 4 | Solver | python3 writeups/assets/black-box-protocol-n4t0/decode_xlsx.py | [Buka](02-black-box-protocol-n4t0-04-solver.md) |
+| 5 | Flag | NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng} | [Buka](02-black-box-protocol-n4t0-05-flag.md) |
+| 6 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](02-black-box-protocol-n4t0-06-bukti-evidence.md) |
+| 7 | Referensi | sebelumnya, kesimpulan sama: payload habis, flag platform tidak cocok). | [Buka](02-black-box-protocol-n4t0-07-referensi.md) |
+
 ## Ringkasan
 
 > **Catatan verifikasi:** seluruh isi workbook berhasil didekode dan hasilnya

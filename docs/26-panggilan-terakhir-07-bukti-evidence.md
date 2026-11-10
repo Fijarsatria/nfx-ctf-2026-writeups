@@ -5,6 +5,12 @@
 
 [← Overview](26-panggilan-terakhir.md) · [Index](index.md)
 
+> **Langkah 7/8 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](26-panggilan-terakhir-08-referensi.md)
+
 
 ## Arsip Evidence
 

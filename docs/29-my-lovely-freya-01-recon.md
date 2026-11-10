@@ -2,6 +2,12 @@
 
 [← Overview](29-my-lovely-freya.md) · [Index](index.md)
 
+> **Langkah 1/9 — Recon.** Petunjuk angka penting:
+>
+> **Titik penting:** unzip -l FreyaSayangkuh · NFX{your_flag_here}
+>
+> **Berikutnya:** [Triage awal](29-my-lovely-freya-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: salep88**

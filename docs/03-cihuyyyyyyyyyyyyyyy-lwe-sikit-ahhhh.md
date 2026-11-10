@@ -23,6 +23,18 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | head -5 lwe.py | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-01-recon.md) |
+| 2 | Analisis | Data cocok dengan LWE public key / transkrip satu sisi: | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-02-analisis.md) |
+| 3 | Solver | Tersimpan di writeups/assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solvelwe.py: | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-03-solver.md) |
+| 4 | Solver | python3 writeups/assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solve_lwe.py lwe.py | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-04-solver-2.md) |
+| 5 | Flag | NFXCTF{l4tt1c3_sm4ll_s3cr3t_LWE_7e2a0195} | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-05-flag.md) |
+| 6 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-06-bukti-evidence.md) |
+| 7 | Referensi | Cryptography (2005). | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-07-referensi.md) |
+
 ## TL;DR
 
 - Attachment `lwe.py` bukan kode challenge, melainkan **transkrip LWE**:

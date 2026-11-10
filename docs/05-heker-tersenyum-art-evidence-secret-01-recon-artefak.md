@@ -2,6 +2,12 @@
 
 [← Overview](05-heker-tersenyum-art-evidence-secret.md) · [Index](index.md)
 
+> **Langkah 1/9 — Recon Artefak.** Petunjuk yang benar-benar dipakai:
+>
+> **Titik penting:** file view · file file · sha256sum file
+>
+> **Berikutnya:** [Triage awal](05-heker-tersenyum-art-evidence-secret-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > Author: salep88

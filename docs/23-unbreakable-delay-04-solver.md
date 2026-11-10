@@ -2,6 +2,12 @@
 
 [← Overview](23-unbreakable-delay.md) · [Index](index.md)
 
+> **Langkah 4/8 — Solver.** Karena instance asli tidak tersedia, dibuat instance sintetis dengan p XOR q = 2^300 untuk mendemonstrasikan seluruh matematika.
+>
+> **Titik penting:** Karena instance asli tidak tersedia, dibuat instance sintetis dengan p XOR q = 2^300 untuk mendemonstrasikan seluruh matematika.
+>
+> **Berikutnya:** [Output asli simulasi](23-unbreakable-delay-05-output-asli-simulasi.md)
+
 ## 3.1 Strategi **[REKONSTRUKSI]**
 
 1. Terima `N` dari service (dan `x=2`, `T=2^256`).

@@ -2,6 +2,12 @@
 
 [← Overview](02-black-box-protocol-n4t0.md) · [Index](index.md)
 
+> **Langkah 1/7 — Recon.** Tidak ada hint tambahan.
+>
+> **Titik penting:** file flight_recovery_manifest.xlsx · mkdir -p /tmp/opencode/bb && cd /tmp/opencode/bb · cp /home/bocil/ctf/nfx/umum/Crypto/black-box-protocol-n4t0/flight_recovery_manifest.xlsx .
+>
+> **Berikutnya:** [Analisis](02-black-box-protocol-n4t0-02-analisis.md)
+
 ### 1.1 Deskripsi challenge
 
 > Author: Kada

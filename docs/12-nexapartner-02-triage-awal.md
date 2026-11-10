@@ -2,6 +2,12 @@
 
 [← Overview](12-nexapartner.md) · [Index](index.md)
 
+> **Langkah 2/9 — Triage awal.** Triage awal
+>
+> **Titik penting:** curl -sS -i "$BASE/" · curl -sS -i "$BASE/login" · curl -sS -i -c cookies.txt \
+>
+> **Berikutnya:** [Settings API](12-nexapartner-03-settings-api.md)
+
 ## 1.4 Triage awal
 
 ```bash

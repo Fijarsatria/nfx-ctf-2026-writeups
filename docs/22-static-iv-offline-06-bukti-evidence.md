@@ -5,6 +5,12 @@
 
 [← Overview](22-static-iv-offline.md) · [Index](index.md)
 
+> **Langkah 6/7 — Bukti / Evidence.** Bukti / Evidence
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](22-static-iv-offline-07-referensi.md)
+
 
 ## Arsip Evidence
 

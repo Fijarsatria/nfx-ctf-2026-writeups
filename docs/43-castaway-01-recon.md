@@ -2,6 +2,12 @@
 
 [← Overview](43-castaway.md) · [Index](index.md)
 
+> **Langkah 1/14 — Recon.** Deskripsi menyebut semua komponen penting: stdin, state machine, opaque predicate, S-box, key, dan ptrace.
+>
+> **Titik penting:** NFX{...}
+>
+> **Berikutnya:** [Triage awal](43-castaway-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: Kesatria Baja Ringan**

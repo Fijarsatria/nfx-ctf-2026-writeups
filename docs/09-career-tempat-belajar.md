@@ -22,6 +22,19 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Jejak Awal | sha256sum osint/office.png | [Buka](09-career-tempat-belajar-01-jejak-awal.md) |
+| 2 | Triage awal | file osint/office.png | [Buka](09-career-tempat-belajar-02-triage-awal.md) |
+| 3 | Analisis Jejak | python3 - <<'EOF' | [Buka](09-career-tempat-belajar-03-analisis-jejak.md) |
+| 4 | Analisis Jejak | curl -sL 'https://gravatar.com/7149a84591149f4933058779e485a3c9.json' | [Buka](09-career-tempat-belajar-04-analisis-jejak-2.md) |
+| 5 | Pencarian & Verifikasi | python3 gravatar_check.py | [Buka](09-career-tempat-belajar-05-pencarian-verifikasi.md) |
+| 6 | Flag | NFX{Gr4v4t4r_0s1nt_R3cru1t3r_D1hL34Rn} | [Buka](09-career-tempat-belajar-06-flag.md) |
+| 7 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](09-career-tempat-belajar-07-bukti-evidence.md) |
+| 8 | Referensi | https://gravatar.com/<md5>.json | [Buka](09-career-tempat-belajar-08-referensi.md) |
+
 ## Ringkasan
 
 > Catatan metadata: `writeups/_manifest.json` mencatat 380 poin / 7 solves,

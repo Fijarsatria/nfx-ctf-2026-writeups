@@ -2,6 +2,12 @@
 
 [← Overview](45-hard-vm-bytecode.md) · [Index](index.md)
 
+> **Langkah 8/13 — Strategi.** Strategi
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Solver lengkap](45-hard-vm-bytecode-09-solver-lengkap.md)
+
 ## 3.1 Strategi
 
 1. Ekstrak bytecode 498 byte dari `.rodata` `0x2080`.

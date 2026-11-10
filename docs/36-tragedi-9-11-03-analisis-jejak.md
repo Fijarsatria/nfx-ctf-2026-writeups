@@ -2,6 +2,12 @@
 
 [← Overview](36-tragedi-9-11.md) · [Index](index.md)
 
+> **Langkah 3/8 — Analisis Jejak.** Isi video: kamera merekam kepulan debu setelah runtuhnya menara; seorang pria (pemilik toko) menarik/mengarahkan seorang wanita masuk ke dalam toko; debu menutup jalan di luar.
+>
+> **Titik penting:** https://github.com/PigParkerPt2/xor-operation · https://v.redd.it/tf2es5z87ym71 · https://www.reddit.com/r/PublicFreakout/comments/pmgkqi/shop_owner_saves_womans_life_from_wall_of_dust_on/
+>
+> **Berikutnya:** [Analisis Jejak](36-tragedi-9-11-04-analisis-jejak-2.md)
+
 ## 2.1 Mengenali video
 
 Isi video: kamera merekam kepulan debu setelah runtuhnya menara; seorang

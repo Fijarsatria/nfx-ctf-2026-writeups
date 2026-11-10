@@ -23,6 +23,18 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | Isi chall.py hanya konstanta: | [Buka](21-rsa-coppersmith-cihuy-01-recon.md) |
+| 2 | Analisis | Faktor p dapat ditulis: | [Buka](21-rsa-coppersmith-cihuy-02-analisis.md) |
+| 3 | Script lengkap | Tersimpan di writeups/assets/rsa-coppersmith-cihuy/solve.py: | [Buka](21-rsa-coppersmith-cihuy-03-script-lengkap.md) |
+| 4 | Solver | python3 writeups/assets/rsa-coppersmith-cihuy/solve.py | [Buka](21-rsa-coppersmith-cihuy-04-solver.md) |
+| 5 | Flag | NFXCTF{C0pp3rsm1th_p4rt14l_k3y_3xp0sur3_9617eda9} | [Buka](21-rsa-coppersmith-cihuy-05-flag.md) |
+| 6 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](21-rsa-coppersmith-cihuy-06-bukti-evidence.md) |
+| 7 | Referensi | vulnerabilities (1997). | [Buka](21-rsa-coppersmith-cihuy-07-referensi.md) |
+
 ## TL;DR
 
 - RSA 1024-bit dengan `e=65537`; hanya `chall.py` yang diberikan.

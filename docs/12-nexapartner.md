@@ -23,6 +23,20 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | http://s1.nfx.my.id:43965 | [Buka](12-nexapartner-01-recon.md) |
+| 2 | Triage awal | curl -sS -i "$BASE/" | [Buka](12-nexapartner-02-triage-awal.md) |
+| 3 | Settings API | curl -sS -b cookies.txt -H 'Content-Type: application/json' \ | [Buka](12-nexapartner-03-settings-api.md) |
+| 4 | Analisis | curl -sS -i -b cookies.txt \ | [Buka](12-nexapartner-04-analisis.md) |
+| 5 | Eksploitasi / Solver | curl -sS -c cookies.txt -X POST \ | [Buka](12-nexapartner-05-eksploitasi-solver.md) |
+| 6 | Output asli | NFX{js0n_pr0t0_p0llut10n_4dm1n_byp4ss} | [Buka](12-nexapartner-06-output-asli.md) |
+| 7 | Flag | NFX{js0n_pr0t0_p0llut10n_4dm1n_byp4ss} | [Buka](12-nexapartner-07-flag.md) |
+| 8 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](12-nexapartner-08-bukti-evidence.md) |
+| 9 | Referensi | — | [Buka](12-nexapartner-09-referensi.md) |
+
 ## TL;DR
 
 - **NexaPartner** adalah portal partner/reseller NexaCommerce berbasis Express. Halaman login menyediakan akun demo `partner@nexapartner.test` / `partner1234` (Arunika Retail Group).

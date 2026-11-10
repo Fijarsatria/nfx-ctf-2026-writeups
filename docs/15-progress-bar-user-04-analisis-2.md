@@ -2,6 +2,12 @@
 
 [← Overview](15-progress-bar-user.md) · [Index](index.md)
 
+> **Langkah 4/11 — Analisis.** Dari shell www-data, source service di /opt dibaca.
+>
+> **Titik penting:** Dari shell www-data, source service di /opt dibaca.
+>
+> **Berikutnya:** [Strategi](15-progress-bar-user-05-strategi.md)
+
 ## 2.4 Enumerasi pasca-foothold
 
 Dari shell `www-data`, source service di `/opt` dibaca. Tiga service loopback

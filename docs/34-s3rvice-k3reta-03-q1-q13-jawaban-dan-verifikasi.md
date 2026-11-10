@@ -2,6 +2,12 @@
 
 [← Overview](34-s3rvice-k3reta.md) · [Index](index.md)
 
+> **Langkah 3/9 — Q1–Q13: jawaban dan verifikasi.** Kutipan sumber penting:
+>
+> **Titik penting:** Kutipan sumber penting:
+>
+> **Berikutnya:** [Analisis Jejak](34-s3rvice-k3reta-04-analisis-jejak-2.md)
+
 ## 2.3 Q1–Q13: jawaban dan verifikasi
 
 | No | Pertanyaan (inti) | Jawaban | Sumber / status |

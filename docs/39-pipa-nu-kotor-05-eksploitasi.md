@@ -2,6 +2,12 @@
 
 [← Overview](39-pipa-nu-kotor.md) · [Index](index.md)
 
+> **Langkah 5/8 — Eksploitasi.** Tidak perlu leak/libc/ROP; ini murni logika state dan tcache reuse.
+>
+> **Titik penting:** python3 exploit.py \| tee 03-exploit-run.txt · NFX{LOCAL_TEST_FLAG_PIPA}
+>
+> **Berikutnya:** [Flag](39-pipa-nu-kotor-06-flag.md)
+
 ### 3.1 Strategi
 
 1. Buka pipa `rw` (`#0`).

@@ -2,6 +2,12 @@
 
 [← Overview](35-the-ghost-operator.md) · [Index](index.md)
 
+> **Langkah 2/9 — Analisis Jejak.** git config juga menyimpan signingkey = E6BE71CA2BD84A4E.
+>
+> **Titik penting:** git log --all --oneline --decorate · git log --show-signature -1 · cd investigation/investigation
+>
+> **Berikutnya:** [Analisis Jejak](35-the-ghost-operator-03-analisis-jejak-2.md)
+
 ## 2.1 Commit dan tanda tangan GPG
 
 ```bash

@@ -2,6 +2,12 @@
 
 [← Overview](14-progress-bar-root.md) · [Index](index.md)
 
+> **Langkah 7/9 — Flag.** Verifikasi platform (submit log read-only, bukan submit baru):
+>
+> **Titik penting:** NFX{fr0m_w4tcht0w3r_c0nf1g_t0_r00t_3xp0rt_j0b}
+>
+> **Berikutnya:** [Bukti / Evidence](14-progress-bar-root-08-bukti-evidence.md)
+
 > **Flag:** `NFX{fr0m_w4tcht0w3r_c0nf1g_t0_r00t_3xp0rt_j0b}`
 > **Status:** `VERIFIED`
 

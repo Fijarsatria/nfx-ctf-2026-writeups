@@ -2,6 +2,12 @@
 
 [← Overview](10-nfxctf-convention.md) · [Index](index.md)
 
+> **Langkah 2/9 — Recon.** strings memperlihatkan seluruh alur menu dan pesan validasi:
+>
+> **Titik penting:** file oscar_convention · checksec (pwntools ELF.checksec) · Correct! You have reached rank 5.
+>
+> **Berikutnya:** [Analisis](10-nfxctf-convention-03-analisis.md)
+
 ## 1.3 Environment
 
 - Linux x86-64, glibc host 2.39; untuk reproduksi dipakai loader + libc bawaan challenge (Ubuntu GLIBC 2.35).

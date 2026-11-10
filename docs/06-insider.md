@@ -22,6 +22,21 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon Artefak | file evidence_nfx_phantom_insider.tar.gz | [Buka](06-insider-01-recon-artefak.md) |
+| 2 | Recon Artefak | Petunjuk penting: timestamp Chrome/WebKit = microseconds sejak 1601-01-01 UTC. | [Buka](06-insider-02-recon-artefak-2.md) |
+| 3 | Struktur profil | Profil atas nama Noah Fox (n.fox@nfx-aero.example), sesuai acquisition note. | [Buka](06-insider-03-struktur-profil.md) |
+| 4 | History: aktivitas tersangka | https://www.youtube.com/watch?v=dQw4w9WgXcQ | [Buka](06-insider-04-history-aktivitas-tersangka.md) |
+| 5 | Analisis Artefak | https://github.com/ | [Buka](06-insider-05-analisis-artefak.md) |
+| 6 | Analisis Artefak | 127.0.0.1 | [Buka](06-insider-06-analisis-artefak-2.md) |
+| 7 | Pemulihan Artefak | python3 dump_insider.py | [Buka](06-insider-07-pemulihan-artefak.md) |
+| 8 | Flag | NFX{wraithbyte_cve202421412_20250314_zenvpn271} | [Buka](06-insider-08-flag.md) |
+| 9 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](06-insider-09-bukti-evidence.md) |
+| 10 | Referensi | — | [Buka](06-insider-10-referensi.md) |
+
 ## TL;DR
 
 - Artefak hanya berupa profil Chrome (`ChromeProfile/`), tanpa disk image dan tanpa log server.

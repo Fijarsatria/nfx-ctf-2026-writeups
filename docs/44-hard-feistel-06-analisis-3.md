@@ -2,6 +2,12 @@
 
 [← Overview](44-hard-feistel.md) · [Index](index.md)
 
+> **Langkah 6/13 — Analisis.** Setelah 16 ronde, register berisi:
+>
+> **Titik penting:** Setelah 16 ronde, register berisi:
+>
+> **Berikutnya:** [Strategi](44-hard-feistel-07-strategi.md)
+
 ## 2.5 Serialisasi output
 
 Setelah 16 ronde, register berisi:

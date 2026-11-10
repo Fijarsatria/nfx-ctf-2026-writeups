@@ -2,6 +2,12 @@
 
 [← Overview](32-the-alchemists-sandbox.md) · [Index](index.md)
 
+> **Langkah 3/10 — Analisis.** Filter memiliki beberapa lapis:
+>
+> **Titik penting:** Filter memiliki beberapa lapis:
+>
+> **Berikutnya:** [Analisis](32-the-alchemists-sandbox-04-analisis-2.md)
+
 ## 2.1 Filter AST
 
 Filter memiliki beberapa lapis:

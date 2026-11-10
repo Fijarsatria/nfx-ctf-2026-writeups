@@ -2,6 +2,12 @@
 
 [← Overview](04-feistel-differential.md) · [Index](index.md)
 
+> **Langkah 4/9 — Strategi.** Strategi
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Script lengkap](04-feistel-differential-05-script-lengkap.md)
+
 ## 3.1 Strategi
 
 1. Parse `pairs.txt` menjadi 14 blok `(Δ, [(p,c1,c2), ...])`.

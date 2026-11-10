@@ -2,6 +2,12 @@
 
 [← Overview](20-flagkeepers.md) · [Index](index.md)
 
+> **Langkah 3/8 — Helper GF(2^128) / GHASH.** Tersimpan di writeups/assets/flagkeepers/gcmtool.py.
+>
+> **Titik penting:** Tersimpan di writeups/assets/flagkeepers/gcmtool.py.
+>
+> **Berikutnya:** [Solver](20-flagkeepers-04-solver.md)
+
 ## 3.1 Helper GF(2^128) / GHASH
 
 Tersimpan di `writeups/assets/flagkeepers/gcmtool.py`. Fungsi inti:

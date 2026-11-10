@@ -2,6 +2,12 @@
 
 [← Overview](22-static-iv-offline.md) · [Index](index.md)
 
+> **Langkah 2/7 — Triage awal.** Panjang ciphertext: 80 byte = 5 blok AES (kelipatan 16).
+>
+> **Titik penting:** cat challenge.py · cat output.txt
+>
+> **Berikutnya:** [Analisis](22-static-iv-offline-03-analisis.md)
+
 ## 1.4 Triage awal
 
 ```bash

@@ -2,6 +2,12 @@
 
 [← Overview](36-tragedi-9-11.md) · [Index](index.md)
 
+> **Langkah 1/8 — Jejak Awal.** Jejak Awal
+>
+> **Titik penting:** sha256sum drive/view.mp4 · NFX{your_flag_here}
+>
+> **Berikutnya:** [Triage awal](36-tragedi-9-11-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: salep88**

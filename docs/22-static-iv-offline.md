@@ -23,6 +23,18 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | — | [Buka](22-static-iv-offline-01-recon.md) |
+| 2 | Triage awal | cat challenge.py | [Buka](22-static-iv-offline-02-triage-awal.md) |
+| 3 | Analisis | Dengan IV statis dan key yang sama, dua plaintext yang berbeda tetapi berbagi blok pertama yang sama akan menghasilkan blok ciphertext pertama yang sama. | [Buka](22-static-iv-offline-03-analisis.md) |
+| 4 | Solver | python3 solve.py | [Buka](22-static-iv-offline-04-solver.md) |
+| 5 | Flag | NXCTF{cbc_1v_r3u53_l34k5_k3y5tr34m_b0fbd4d35f80} | [Buka](22-static-iv-offline-05-flag.md) |
+| 6 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](22-static-iv-offline-06-bukti-evidence.md) |
+| 7 | Referensi | — | [Buka](22-static-iv-offline-07-referensi.md) |
+
 ## TL;DR
 
 - `challenge.py` membocorkan `MASTER = b"\x13\x37" * 16` di source.

@@ -2,6 +2,12 @@
 
 [← Overview](23-unbreakable-delay.md) · [Index](index.md)
 
+> **Langkah 6/8 — Flag.** Verifikasi (log submit asli):
+>
+> **Titik penting:** NFX{x0r_f4ct0r1ng_4nd_f4st_vdf_byp4ss_m4k3s_1t_h4rd}
+>
+> **Berikutnya:** [Bukti / Evidence](23-unbreakable-delay-07-bukti-evidence.md)
+
 > **Flag:** `NFX{x0r_f4ct0r1ng_4nd_f4st_vdf_byp4ss_m4k3s_1t_h4rd}`
 > **Status:** `VERIFIED`
 

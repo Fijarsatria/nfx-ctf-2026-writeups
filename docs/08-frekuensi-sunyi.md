@@ -22,6 +22,20 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | sha256sum work/event/misc/frekuensi-sunyi/rekaman_lobi.wav | [Buka](08-frekuensi-sunyi-01-recon.md) |
+| 2 | Triage awal | file work/event/misc/frekuensi-sunyi/rekaman_lobi.wav | [Buka](08-frekuensi-sunyi-02-triage-awal.md) |
+| 3 | Analisis | Musik latar berulang. | [Buka](08-frekuensi-sunyi-03-analisis.md) |
+| 4 | Analisis | NFX{b0sC4_Ce01L} | [Buka](08-frekuensi-sunyi-04-analisis-2.md) |
+| 5 | Penyelesaian | — | [Buka](08-frekuensi-sunyi-05-penyelesaian.md) |
+| 6 | Output asli | python3 solve_frekuensi.py | [Buka](08-frekuensi-sunyi-06-output-asli.md) |
+| 7 | Flag | NFX{b0sC4_Ce01L} | [Buka](08-frekuensi-sunyi-07-flag.md) |
+| 8 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](08-frekuensi-sunyi-08-bukti-evidence.md) |
+| 9 | Referensi | — | [Buka](08-frekuensi-sunyi-09-referensi.md) |
+
 ## Ringkasan
 
 > Catatan metadata: `writeups/_manifest.json` mencatat 180 poin / 17 solves /

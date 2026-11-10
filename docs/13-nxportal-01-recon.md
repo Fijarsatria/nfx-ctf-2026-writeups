@@ -2,6 +2,12 @@
 
 [← Overview](13-nxportal.md) · [Index](index.md)
 
+> **Langkah 1/10 — Recon.** Tidak ada source lokal (umum/Web/nxportal hanya BRIEF.md + challenge.json).
+>
+> **Titik penting:** python3 nxapi.py nx-up "NFX/NXPortal" "NFXCTF-NFCC-NXCTF-2026" · http://s1.nfx.my.id:40001
+>
+> **Berikutnya:** [Triage awal](13-nxportal-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > Author: Ariaf

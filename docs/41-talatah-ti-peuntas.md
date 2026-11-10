@@ -23,6 +23,21 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon | Petunjuk utama: "calepatan dina prosés ngatur ukuran data" — panjang TLV vs ukuran alokasi. | [Buka](41-talatah-ti-peuntas-01-recon.md) |
+| 2 | Triage awal | file talatah | [Buka](41-talatah-ti-peuntas-02-triage-awal.md) |
+| 3 | Analisis | Panjang pesan dibatasi 24..0x400 (0x18..0x400). | [Buka](41-talatah-ti-peuntas-03-analisis.md) |
+| 4 | Analisis | Dengan keysize = 0x18, chunk data berukuran 0x20; node chunk 0x30 tepat setelahnya. | [Buka](41-talatah-ti-peuntas-04-analisis-2.md) |
+| 5 | Alamat penting | printf@got dipakai untuk leak karena printf sudah pasti terselesaikan oleh menu; free@got bisa jadi masih menunjuk PLT stub kalau free belum pernah dipanggil. | [Buka](41-talatah-ti-peuntas-05-alamat-penting.md) |
+| 6 | Eksploitasi | (lihat assets/libc-offsets-and-gadgets.txt) | [Buka](41-talatah-ti-peuntas-06-eksploitasi.md) |
+| 7 | Eksploitasi | python3 exploit.py \| tee 03-exploit-run.txt | [Buka](41-talatah-ti-peuntas-07-eksploitasi-2.md) |
+| 8 | Flag | NFX{HiduPPk1T4AAyangMelawann} | [Buka](41-talatah-ti-peuntas-08-flag.md) |
+| 9 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](41-talatah-ti-peuntas-09-bukti-evidence.md) |
+| 10 | Referensi | — | [Buka](41-talatah-ti-peuntas-10-referensi.md) |
+
 ## TL;DR
 
 - Service "pengelola talatah" mem-parsing pesan protokol **TLT1**: `magic | total_len | key_size | tag | tlv_len | payload`.

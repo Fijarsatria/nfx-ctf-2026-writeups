@@ -2,6 +2,12 @@
 
 [← Overview](48-changetrack.md) · [Index](index.md)
 
+> **Langkah 6/9 — Output asli.** Output asli
+>
+> **Titik penting:** NFX{ch4ng3_d3t3ct10n_j1nj4_sst1_oob_cve_2024_32651_2026} · https://api.github.com/events · https://webhook.site/8509b71c-b1c7-4a12-baf7-26428e5b36a1",
+>
+> **Berikutnya:** [Flag](48-changetrack-07-flag.md)
+
 ## 3.3 Output asli
 
 Benign SSTI:

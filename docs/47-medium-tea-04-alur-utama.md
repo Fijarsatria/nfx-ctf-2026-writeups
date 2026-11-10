@@ -2,6 +2,12 @@
 
 [← Overview](47-medium-tea.md) · [Index](index.md)
 
+> **Langkah 4/12 — Alur utama.** Input 40 byte disalin ke [rsp], lalu diproses 5 blok × 8 byte.
+>
+> **Titik penting:** Input 40 byte disalin ke [rsp], lalu diproses 5 blok × 8 byte.
+>
+> **Berikutnya:** [Round function TEA yang dimodifikasi](47-medium-tea-05-round-function-tea-yang-dimodifikasi.md)
+
 ## 2.1 Alur utama
 
 Main ada di `0x10c0`. Bagian pentingnya:

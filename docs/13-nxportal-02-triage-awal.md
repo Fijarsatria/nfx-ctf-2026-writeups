@@ -2,6 +2,12 @@
 
 [← Overview](13-nxportal.md) · [Index](index.md)
 
+> **Langkah 2/10 — Triage awal.** Triage awal
+>
+> **Titik penting:** curl -sS -i "$BASE/" · curl -sS -i "$BASE/login" · curl -sS -i "$BASE/forgot"
+>
+> **Berikutnya:** [Analisis](13-nxportal-03-analisis.md)
+
 ## 1.4 Triage awal
 
 ```bash

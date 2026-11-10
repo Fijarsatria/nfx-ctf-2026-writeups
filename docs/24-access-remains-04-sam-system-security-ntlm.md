@@ -2,6 +2,12 @@
 
 [← Overview](24-access-remains.md) · [Index](index.md)
 
+> **Langkah 4/11 — SAM + SYSTEM + SECURITY → NTLM.** NTLM adalah MD4 dari UTF-16LE password.
+>
+> **Titik penting:** impacket-secretsdump -sam SAM -system SYSTEM -security SECURITY local
+>
+> **Berikutnya:** [Analisis Artefak](24-access-remains-05-analisis-artefak.md)
+
 ## 2.1 SAM + SYSTEM + SECURITY → NTLM
 
 ```bash

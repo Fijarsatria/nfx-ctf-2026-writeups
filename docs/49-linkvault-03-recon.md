@@ -2,6 +2,12 @@
 
 [← Overview](49-linkvault.md) · [Index](index.md)
 
+> **Langkah 3/12 — Recon.** Recon
+>
+> **Titik penting:** curl -sS -i http://s1.nfx.my.id:49191/ · curl -sS -i http://s1.nfx.my.id:49191/login · curl -sS -i http://s1.nfx.my.id:49191/health
+>
+> **Berikutnya:** [SSRF guard dan bypass IPv6 loopback](49-linkvault-04-ssrf-guard-dan-bypass-ipv6-loopback.md)
+
 ## 1.3 Environment
 
 - OS/tools: Linux, `curl`, `python3` + `requests`, Go 1.26.0 (di container).

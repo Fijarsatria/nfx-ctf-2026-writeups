@@ -2,6 +2,12 @@
 
 [← Overview](25-bluebird-session.md) · [Index](index.md)
 
+> **Langkah 3/11 — Identitas dua user.** Verifikasi password mizore:
+>
+> **Titik penting:** Verifikasi password mizore:
+>
+> **Berikutnya:** [Bash history](25-bluebird-session-04-bash-history.md)
+
 ## 2.1 Identitas dua user
 
 | User | UID | Peran | Petunjuk |

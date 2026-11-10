@@ -5,6 +5,12 @@
 
 [← Overview](30-stay.md) · [Index](index.md)
 
+> **Langkah 5/6 — Bukti / Evidence.** Semua bukti berada di writeups/assets/stay/.
+>
+> **Titik penting:** arsip screenshot dan transkrip
+>
+> **Berikutnya:** [Referensi](30-stay-06-referensi.md)
+
 
 ## Arsip Evidence
 

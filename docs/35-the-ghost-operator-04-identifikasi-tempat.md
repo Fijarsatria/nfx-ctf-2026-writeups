@@ -2,6 +2,12 @@
 
 [← Overview](35-the-ghost-operator.md) · [Index](index.md)
 
+> **Langkah 4/9 — Identifikasi tempat.** Sumber publik yang cocok:
+>
+> **Titik penting:** Sumber publik yang cocok:
+>
+> **Berikutnya:** [Mengapa lowercase ditolak?](35-the-ghost-operator-05-mengapa-lowercase-ditolak.md)
+
 ## 2.5 Identifikasi tempat
 
 Empat elemen kunci:

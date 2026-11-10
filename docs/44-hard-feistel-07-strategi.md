@@ -2,6 +2,12 @@
 
 [← Overview](44-hard-feistel.md) · [Index](index.md)
 
+> **Langkah 7/13 — Strategi.** Strategi
+>
+> **Titik penting:** —
+>
+> **Berikutnya:** [Solver lengkap](44-hard-feistel-08-solver-lengkap.md)
+
 ## 3.1 Strategi
 
 1. Ekstrak 16 round key dari `.rodata` `0x2060`.

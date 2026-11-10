@@ -2,6 +2,12 @@
 
 [← Overview](37-gateway-under-pressure.md) · [Index](index.md)
 
+> **Langkah 1/8 — Recon.** Petunjuk "fungsi yang tidak tersedia pada alur normal" sangat sesuai dengan fungsi releasegateway() yang ada di symbol table tetapi tidak dipanggil dari main().
+>
+> **Titik penting:** Petunjuk "fungsi yang tidak tersedia pada alur normal" sangat sesuai dengan fungsi releasegateway() yang ada di symbol table tetapi tidak dipanggil dari main().
+>
+> **Berikutnya:** [Triage awal](37-gateway-under-pressure-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: Amablex**

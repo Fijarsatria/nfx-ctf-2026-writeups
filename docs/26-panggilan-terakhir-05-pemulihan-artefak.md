@@ -2,6 +2,12 @@
 
 [← Overview](26-panggilan-terakhir.md) · [Index](index.md)
 
+> **Langkah 5/8 — Pemulihan Artefak.** Script lengkap: assets/panggilan-terakhir/solvepanggilan.py.
+>
+> **Titik penting:** python3 solve_panggilan.py
+>
+> **Berikutnya:** [Flag](26-panggilan-terakhir-06-flag.md)
+
 ### 3.1 Strategi
 
 1. Baca SIP/SDP untuk mendapatkan codec dan port RTP.

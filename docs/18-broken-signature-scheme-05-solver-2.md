@@ -2,6 +2,12 @@
 
 [← Overview](18-broken-signature-scheme.md) · [Index](index.md)
 
+> **Langkah 5/8 — Solver.** Script writeups/assets/broken-signature-scheme/verify.py:
+>
+> **Titik penting:** python3 solve.py · python3 verify.py · cd crypto/Broken_Signature_Scheme_Multi_Layer
+>
+> **Berikutnya:** [Flag](18-broken-signature-scheme-06-flag.md)
+
 ## 3.3 Output asli
 
 ```text

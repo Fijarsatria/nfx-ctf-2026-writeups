@@ -2,6 +2,12 @@
 
 [← Overview](32-the-alchemists-sandbox.md) · [Index](index.md)
 
+> **Langkah 1/10 — Recon.** Tidak ada service; challenge berupa source yang dijalankan lokal.
+>
+> **Titik penting:** Tidak ada service; challenge berupa source yang dijalankan lokal.
+>
+> **Berikutnya:** [Triage awal](32-the-alchemists-sandbox-02-triage-awal.md)
+
 ## 1.1 Deskripsi challenge
 
 > **Author: Illal**
