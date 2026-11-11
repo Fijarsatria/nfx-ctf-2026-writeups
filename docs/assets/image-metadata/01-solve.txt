@@ -1,0 +1,35 @@
+$ file evidence.png
+evidence.png: PNG image data, 600 x 300, 8-bit/color RGB, non-interlaced
+
+$ python3 - <<"EOF"
+data = open("evidence.png", "rb").read()
+print("ZIP offset:", data.find(b"PK\\x03\\x04"))
+EOF
+ZIP offset: 31197
+
+$ dd if=evidence.png of=/tmp/metadata-trailer.zip bs=1 skip=31197 status=none
+$ unzip -l /tmp/metadata-trailer.zip
+Archive:  /tmp/metadata-trailer.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+    13610  2023-06-28 09:25   passwords.txt
+       42  2023-06-28 09:25   flag.txt
+---------                     -------
+    13652                     2 files
+
+$ python3 - <<"EOF"
+import zipfile
+z = zipfile.ZipFile("/tmp/metadata-trailer.zip")
+words = z.read("passwords.txt").decode().splitlines()
+for w in words:
+    try:
+        out = z.read("flag.txt", pwd=w.encode())
+        print("password:", w)
+        print(out.decode())
+        break
+    except Exception:
+        pass
+EOF
+password: cyber_shield_2026
+NFXCTF{h4shc4t_cr4ck1ng_z1p_succ3ssfu11y}
+

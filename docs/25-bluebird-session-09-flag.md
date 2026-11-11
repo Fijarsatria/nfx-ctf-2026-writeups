@@ -30,14 +30,4 @@ Status : verified platform (challenge sudah solved)
 
 *Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
 
-### Evidence langkah ini
-
-![05-flag-image.jpg](assets/bluebird-session/05-flag-image.jpg)
-
-*Evidence — `05-flag-image.jpg`.*
-
-![06-flag-crop.png](assets/bluebird-session/06-flag-crop.png)
-
-*Evidence — `06-flag-crop.png`.*
-
-> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`
+> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`

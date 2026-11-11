@@ -4,7 +4,7 @@
 
 > **Langkah 3/12 — Perintah akuisisi bukti.** Perintah akuisisi bukti
 >
-> **Titik penting:** python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ · python3 writeups/assets/medium-tea/solve_tea.py \
+> **Titik penting:** file "$BIN" > writeups/assets/medium-tea/01-identitas.txt · strings -n 4 "$BIN" > writeups/assets/medium-tea/03-strings.txt · objdump -d -Mintel "$BIN" > writeups/assets/medium-tea/04-disasm.txt
 >
 > **Berikutnya:** [Alur utama](47-medium-tea-04-alur-utama.md)
 

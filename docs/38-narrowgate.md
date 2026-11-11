@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. `leaker()` memakai `printf(nickname)` → **format string** (canary, PIE, libc). Terus, `main()` membaca `blocks` (uint32), menghitung `size = blocks * 64`, lalu memvalidasi **hanya 16 bit bawah** dari `size - 1` (`cmp ax, 0x3f`), tetapi `read(0, buf, size)` tetap memakai `size` 32-bit penuh. Lalu, `blocks = 1025` → `size = 65600 = 0x10040`, `(size-1) & 0xffff = 0x003f` → lolos, lalu read besar ke buffer stack `0x50` → **stack overflow** (canary di offset `0x48`). Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

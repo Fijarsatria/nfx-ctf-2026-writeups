@@ -1,0 +1,22 @@
+$ objdump -s -j .rodata baby_xor | tail -4
+ 2030 20584f52 206b6563 696c2c20 70656c61   XOR kecil, pela
+ 2040 6a617261 6e206265 7361722e 00000000  jaran besar.....
+ 2050 141c0221 226a2805 6b29053c 2f340538  ...!"j(.k).</4.8
+ 2060 2f2e0534 6a2e0529 69392f28 6927      /..4j..)i9/(i'  
+
+$ python3 - <<"EOF"
+data = bytes.fromhex(
+  "14 1c 02 21 22 6a 28 05 6b 29 05 3c 2f 34 05 38"
+  " 2f 2e 05 34 6a 2e 05 29 69 39 2f 28 69 27"
+)
+for key in range(256):
+    plain = bytes(b ^ key for b in data)
+    if plain.startswith(b"NFX{"):
+        print("key =", key)
+        print(plain.decode())
+EOF
+key = 90
+NFX{x0r_1s_fun_but_n0t_s3cur3}
+
+$ ./baby_xor 'NFX{x0r_1s_fun_but_n0t_s3cur3}'
+Correct! XOR kecil, pelajaran besar.

@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. service mengelola 16 record (`create`, `release`, `view`, `edit`, `list`). Terus, `op_release()` melakukan `free(record->data)` lalu `free(record)`, mengosongkan `active[idx]`, tetapi **tidak mengosongkan `table[idx]`** → dangling pointer. `op_view`/`op_edit`/`op_list` **tidak memeriksa `active[]`**, jadi pointer basi masih bisa dipakai (use-after-free). Lalu, `op_edit()` memvalidasi `new_len` hanya pada rentang `1..0x400`, bukan terhadap ukuran alokasi asli → **heap overflow** ke record berikutnya. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

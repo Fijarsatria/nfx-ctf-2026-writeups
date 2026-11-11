@@ -4,7 +4,7 @@
 
 > **Langkah 1/9 — Recon.** Tidak ada service, source, atau hint tambahan.
 >
-> **Titik penting:** file rahasia.pdf · ls -l rahasia.pdf · xxd rahasia.pdf \| head -4
+> **Titik penting:** file. · file rahasia.pdf · ls -l rahasia.pdf
 >
 > **Berikutnya:** [Analisis](28-dokodemo-door-02-analisis.md)
 

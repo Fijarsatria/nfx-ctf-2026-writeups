@@ -22,6 +22,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. attachment aslinya adalah `rekaman_lobi.wav`: PCM 16-bit, 44.100 Hz, stereo, durasi 120,09 detik, dan kedua kanal identik (mono duplikat). Terus, musik lobi berulang dengan periode **2.268.000 sampel** (±51,43 detik). Dua periode yang dikurangkan saling menghilangkan sebagian besar musik. Lalu, pada band **±11–20 kHz** terdapat teks yang "tidak untuk didengar": `ASK{o0fP4_Pr01Y}`. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

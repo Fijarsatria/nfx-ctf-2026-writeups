@@ -23,13 +23,17 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. service menjalankan input pengguna dengan `subprocess.run(line, shell=True, executable=bash)` setelah memblokir huruf, angka, `?`, `*`, `#`, dan `<<<`. Terus, filter hanya memeriksa **karakter mentah input**, bukan hasil ekspansi shell. Lalu, dengan hanya simbol, kita bisa memakai:. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
 | 1 | Recon | sha256sum forensics/symhell/app.py | [Buka](31-symhell-01-recon.md) |
 | 2 | Triage awal | { } [ ] ( ) ~ ! - _ . / \ \| & ; < > = + , : " ' @ % ^  spasi tab | [Buka](31-symhell-02-triage-awal.md) |
-| 3 | Analisis | NFX{5ymH3ll_RUnT1m3_3v4l_53cr3t_PwN!} | [Buka](31-symhell-03-analisis.md) |
+| 3 | Analisis | bash: line 1: NFX{5ymH3ll_RUnT1m3_3v4l_53cr3t_PwN!}: command not found | [Buka](31-symhell-03-analisis.md) |
 | 4 | Penyelesaian | NFX{5ymH3ll_RUnT1m3_3v4l_53cr3t_PwN!} | [Buka](31-symhell-04-penyelesaian.md) |
 | 5 | Flag | NFX{5ymH3ll_RUnT1m3_3v4l_53cr3t_PwN!} | [Buka](31-symhell-05-flag.md) |
 | 6 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](31-symhell-06-bukti-evidence.md) |

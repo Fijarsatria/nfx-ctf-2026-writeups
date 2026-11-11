@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. service "pengelola talatah" mem-parsing pesan protokol **TLT1**: `magic | total_len | key_size | tag | tlv_len | payload`. Terus, validasi memeriksa `key_size` (1..0x40) dan `total_len >= tlv_len + 0x14`, tetapi **tidak pernah membandingkan `tlv_len` dengan `key_size`**. Lalu, parser melakukan `data = malloc(key_size)` lalu `memcpy(data, msg+0x14, tlv_len)` → **heap overflow** dari chunk data ke chunk node yang berdekatan. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

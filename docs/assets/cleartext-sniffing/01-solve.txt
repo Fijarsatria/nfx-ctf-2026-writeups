@@ -1,0 +1,7 @@
+$ file traffic.pcap
+traffic.pcap: pcap capture file, microsecond ts (little-endian) - version 2.4 (Ethernet, capture length 65535)
+
+$ strings -a traffic.pcap | grep -E "PASS|NFX|USER"
+USER backup
+PASS NFXCTF{cl34rt3xt_pr0t0c0ls_l34k_s3cr3ts}
+NFX Router Console

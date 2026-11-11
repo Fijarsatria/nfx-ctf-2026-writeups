@@ -30,10 +30,4 @@ Status : verified platform
 
 *Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
 
-### Evidence langkah ini
-
-![08-flag-crop.png](assets/access-remains/08-flag-crop.png)
-
-*Evidence — `08-flag-crop.png`.*
-
-> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`
+> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`

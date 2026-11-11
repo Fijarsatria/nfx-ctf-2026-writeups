@@ -23,13 +23,17 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. `castaway` membaca calon flag dari **stdin** (`fgets`), bukan dari argumen. Terus, panjang harus tepat **40 byte**. Program menjalankan transformasi per byte dengan **state machine**, **rolling key**, **S-box 256 byte**, dan **S-box 16 byte**. Lalu, ada **opaque predicate** `(i*i) & 3 == 2` yang selalu false, sehingga state `0x32` (yang akan menulis `0xff`) adalah dead code. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
 | 1 | Recon | NFX{...} | [Buka](43-castaway-01-recon.md) |
 | 2 | Triage awal | file reverse/Hard_03_Castaway/castaway | [Buka](43-castaway-02-triage-awal.md) |
-| 3 | Perintah akuisisi bukti | python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ | [Buka](43-castaway-03-perintah-akuisisi-bukti.md) |
+| 3 | Perintah akuisisi bukti | file "$BIN" > writeups/assets/castaway/01-identitas.txt | [Buka](43-castaway-03-perintah-akuisisi-bukti.md) |
 | 4 | Fungsi `main` | Lalu transformasi dan perbandingan: | [Buka](43-castaway-04-fungsi-main.md) |
 | 5 | Analisis | strace -f -e trace=ptrace ./reverse/Hard_03_Castaway/castaway < writeups/assets/castaway/castaway_in.txt | [Buka](43-castaway-05-analisis.md) |
 | 6 | Fungsi transform `0x1282` | Fungsi ini menerima (input, len, output) dan menjalankan state machine. | [Buka](43-castaway-06-fungsi-transform-0x1282.md) |

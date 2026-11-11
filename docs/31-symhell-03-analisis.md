@@ -4,7 +4,7 @@
 
 > **Langkah 3/7 — Analisis.** Bash mendukung command substitution khusus:
 >
-> **Titik penting:** NFX{5ymH3ll_RUnT1m3_3v4l_53cr3t_PwN!}
+> **Titik penting:** bash: line 1: NFX{5ymH3ll_RUnT1m3_3v4l_53cr3t_PwN!}: command not found · NFX{5ymH3ll_RUnT1m3_3v4l_53cr3t_PwN!}
 >
 > **Berikutnya:** [Penyelesaian](31-symhell-04-penyelesaian.md)
 

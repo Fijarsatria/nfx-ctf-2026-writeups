@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. Kita mulai dari brief challenge, cek target atau file yang dikasih, lalu ikuti langkahnya satu per satu sampai ketemu flag.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

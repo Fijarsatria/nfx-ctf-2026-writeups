@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. `app.py` memakai **satu nonce GCM global** untuk dua key berbeda (`key_a` untuk AUDIT, `key_b` untuk RECOVERY). Terus, opsi `[2]` mencetak plaintext RECOVERY secara verbatim, sehingga keystream CTR untuk `key_b` dapat dihitung: `KS = CT XOR PT`. Lalu, semua pesan RECOVERY panjangnya sama (51 byte = 4 blok), jadi blok panjang GHASH saling menghilangkan pada selisih tag. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

@@ -23,11 +23,15 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. `rahasia.pdf` bukan PDF lagi: seluruh byte di-XOR dengan **repeating key** sepanjang 16 byte. Terus, karena PDF punya magic header `%PDF-1.4\n` dan trailer `%%EOF\n`, keduanya bisa dipakai sebagai *known plaintext* untuk menurunkan key. Lalu, key yang diperoleh: `nfx_k3tuk_p1ntu!`. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | file rahasia.pdf | [Buka](28-dokodemo-door-01-recon.md) |
+| 1 | Recon | file. | [Buka](28-dokodemo-door-01-recon.md) |
 | 2 | Analisis | python3 solve_dokodemo.py | [Buka](28-dokodemo-door-02-analisis.md) |
 | 3 | Ekstraksi teks dari PDF | NFX{k3tuk_p1ntu_bUk4_d0kum3n_x0r} | [Buka](28-dokodemo-door-03-ekstraksi-teks-dari-pdf.md) |
 | 4 | Strategi | — | [Buka](28-dokodemo-door-04-strategi.md) |

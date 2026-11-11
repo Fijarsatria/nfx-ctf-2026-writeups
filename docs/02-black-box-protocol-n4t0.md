@@ -10,7 +10,7 @@
 | Difficulty | `Medium` |
 | Poin | `280` |
 | Author | `Kada` |
-| Tools | python3, strings, sage, git |
+| Tools | python3, strings, git |
 | Flag | `NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}` |
 | Status | `VERIFIED` |
 
@@ -21,6 +21,10 @@
 ![00-challenge-platform.png](assets/black-box-protocol-n4t0/00-challenge-platform.png)
 
 *Challenge brief asli di platform NFX CTF 2026.*
+
+## Cerita singkat
+
+Jadi ceritanya gini. attachment hanya satu file: `flight_recovery_manifest.xlsx` dengan satu sheet `Mail_Black_Box`. Terus, tiga kolom memakai tiga encoding berbeda:. Lalu, **A – Kode Pesawat**: kata NATO + kata angka → `N4T0PH0N3T1C1N1` (dibaca `N4T0 PH0N3T1C 1N1`, "NATO phonetic ini"). Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
 
 ## Alur & Titik Penting
 
@@ -38,8 +42,7 @@
 
 > **Catatan verifikasi:** seluruh isi workbook berhasil didekode dan hasilnya
 > konsisten secara byte. Flag dari payload workbook sudah **diterima platform**
-> saat recheck 2026-11-09 (`Correct, but already solved.`). Catatan lama tentang
-> penolakan tetap disimpan sebagai riwayat pengujian di backend lama.
+> lewat form submit web; screenshot-nya ada di halaman Flag.
 ## TL;DR
 
 - Attachment hanya satu file: `flight_recovery_manifest.xlsx` dengan satu sheet
@@ -54,8 +57,8 @@
 - Konkatenasi natural: `N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng`.
 - Tidak ada payload tambahan di XLSX (tidak ada hidden sheet, comment,
   drawing, macro, docProps, atau trailing zip data).
-- Flag tersebut **diterima platform** saat recheck 2026-11-09 dengan respons
-  `Correct, but already solved.` Status challenge ini adalah **VERIFIED**.
+- Flag tersebut **diterima platform** lewat form submit web
+  (`CORRECT, BUT ALREADY SOLVED.`). Status challenge ini adalah **VERIFIED**.
 
 <div class="nx-evidence-preview"><a href="02-black-box-protocol-n4t0-06-bukti-evidence.html"><img src="assets/black-box-protocol-n4t0/00b-submit-platform.png" alt="Pratinjau evidence Black Box Protocol N4T0" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="02-black-box-protocol-n4t0-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

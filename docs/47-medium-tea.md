@@ -23,13 +23,17 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. binary `medium_tea` memvalidasi flag 40 byte dari `argv[1]`. Terus, algoritmanya **TEA 32 ronde**, tetapi empat round key-nya diganti konstanta “lucu”: `0x1337beef`, `0xcafebabe`, `0xdeadc0de`, `0x0badf00d`. Lalu, flag diproses per blok 64-bit (little-endian), dienkripsi, lalu dibandingkan dengan 5 blok ciphertext di `.rodata` `0x2040`. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
 | 1 | Recon | NFX{...} | [Buka](47-medium-tea-01-recon.md) |
 | 2 | Triage awal | file reverse/Medium_02_TEA/medium_tea | [Buka](47-medium-tea-02-triage-awal.md) |
-| 3 | Perintah akuisisi bukti | python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ | [Buka](47-medium-tea-03-perintah-akuisisi-bukti.md) |
+| 3 | Perintah akuisisi bukti | file "$BIN" > writeups/assets/medium-tea/01-identitas.txt | [Buka](47-medium-tea-03-perintah-akuisisi-bukti.md) |
 | 4 | Alur utama | Input 40 byte disalin ke [rsp], lalu diproses 5 blok × 8 byte. | [Buka](47-medium-tea-04-alur-utama.md) |
 | 5 | Round function TEA yang dimodifikasi | Binary melakukan hal yang sama, tetapi dengan konstanta berbeda: | [Buka](47-medium-tea-05-round-function-tea-yang-dimodifikasi.md) |
 | 6 | Analisis | Dari lea r10,[rip+0xef9] # 2040 dan panjang 40 byte: | [Buka](47-medium-tea-06-analisis.md) |

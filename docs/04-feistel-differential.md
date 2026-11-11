@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. cipher adalah Feistel 7 ronde pada blok 32-bit (dua half 16-bit), dengan round function `F(x,k) = permute(SBOX_4nibble(x XOR k))`. Terus, `pairs.txt` berisi **280.000 pasangan diferensial**: 14 nilai input difference × 20.000 baris, masing-masing `(p, E(p), E(p XOR Δ))`. Lalu, walaupun datanya "differential", serangan paling bersih adalah **known-plaintext key recovery**: modelkan cipher di z3, minta 7 pasangan pertama, dan seluruh 112 bit round key langsung terpaku. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

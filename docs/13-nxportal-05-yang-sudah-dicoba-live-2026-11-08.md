@@ -4,7 +4,7 @@
 
 > **Langkah 5/10 — Yang sudah dicoba (live, 2026-11-08).** Inbox dibuat via API mail.tm:
 >
-> **Titik penting:** curl -sS -D - -o /dev/null -c ck "$BASE/forgot" · curl -sS -D - -o /dev/null -b ck -c ck -X POST -d 'email=employee@nxctf.local' "$BASE/forgot"
+> **Titik penting:** curl -sS -D - -o /dev/null -c ck "$BASE/forgot" · curl -sS -D - -o /dev/null -b ck -c ck -X POST -d 'email=employee@nxctf.local' "$BASE/forgot" · base64(admin@nxctf.local) YWRtaW5AbnhjdGYubG9jYWw=
 >
 > **Berikutnya:** [Eksploitasi / Solver (sebagian, belum selesai)](13-nxportal-06-eksploitasi-solver-sebagian-belum-selesa.md)
 

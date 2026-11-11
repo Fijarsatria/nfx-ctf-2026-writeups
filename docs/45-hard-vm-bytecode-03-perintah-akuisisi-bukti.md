@@ -4,7 +4,7 @@
 
 > **Langkah 3/13 — Perintah akuisisi bukti.** Perintah akuisisi bukti
 >
-> **Titik penting:** python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ · python3 writeups/assets/hard-vm-bytecode/solve_vm.py \
+> **Titik penting:** file "$BIN" > writeups/assets/hard-vm-bytecode/01-identitas.txt · strings -n 4 "$BIN" > writeups/assets/hard-vm-bytecode/03-strings.txt · objdump -d -Mintel "$BIN" > writeups/assets/hard-vm-bytecode/04-disasm.txt
 >
 > **Berikutnya:** [Main dan layout](45-hard-vm-bytecode-04-main-dan-layout.md)
 

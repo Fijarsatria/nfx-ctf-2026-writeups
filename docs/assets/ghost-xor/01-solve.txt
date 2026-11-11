@@ -1,0 +1,32 @@
+$ sed -n "1,40p" chall.py
+# chall.py
+# Challenge: Ghost XOR
+# Category: Crypto (Easy)
+# Format Flag: NFXCTF{...}
+
+def xor(data: bytes, key: bytes) -> bytes:
+    return bytes([data[i] ^ key[i % len(key)] for i in range(len(data))])
+
+# Kunci rahasia 4 karakter
+# KEY = b"????"
+
+# Flag asli dienkripsi menggunakan fungsi xor di atas:
+# ciphertext = xor(FLAG, KEY)
+
+# Hasil ciphertext yang berhasil didapatkan (format hexadecimal):
+ciphertext_hex = "02091b08180938337c3d1c7a3f10303e3c7c31147f7b3032133d722c243b1c2a74297a287e32"
+
+if __name__ == "__main__":
+    print("[*] Challenge: Ghost XOR")
+    print(f"[*] Ciphertext (hex): {ciphertext_hex}")
+    print("[*] Good luck decoding the flag!")
+
+$ python3 - <<"EOF"
+ct = bytes.fromhex("02091b08180938337c3d1c7a3f10303e3c7c31147f7b3032133d722c243b1c2a74297a287e32")
+known = b"NFXC"
+key = bytes(ct[i] ^ known[i] for i in range(4))
+print("key =", key)
+print(bytes(b ^ key[i % 4] for i, b in enumerate(ct)).decode())
+EOF
+key = b'LOCK'
+NFXCTF{x0r_1s_sup3r_34sy_r1ght_a8f9c2}

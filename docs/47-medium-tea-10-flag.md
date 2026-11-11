@@ -34,10 +34,12 @@ Wrong!
 rc=1
 ```
 
-Isi `flags/reverse/Medium_02_TEA.txt` juga identik dengan flag di atas. **Status: `VERIFIED platform`.** Flag sudah dicek ulang ke platform pada 2026-11-09 (`Correct, but already solved.`); verifikasi lokal tetap dilakukan terhadap binary dan file flag.
+Isi `flags/reverse/Medium_02_TEA.txt` juga identik dengan flag di atas. **Status: `VERIFIED platform`.** Flag sudah disubmit lewat web platform dan diterima (lihat screenshot submit); verifikasi lokal tetap dilakukan terhadap binary dan file flag.
 
 ### Bukti submit di platform
 
 ![00b-submit-platform.png](assets/medium-tea/00b-submit-platform.png)
 
 *Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+
+> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`

@@ -30,4 +30,4 @@ Flag yang sama dikembalikan `POST /flag` pada instance live. Tidak ada submit ke
 
 *Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
 
-> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`
+> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`

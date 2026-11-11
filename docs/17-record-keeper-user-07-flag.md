@@ -78,14 +78,4 @@ Status: **verified platform**.
 
 *Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
 
-### Evidence langkah ini
-
-![term-03-user-flag.png](assets/record-keeper-user/term-03-user-flag.png)
-
-*Terminal evidence — `03-user-flag.txt` (arsip transkrip sesi solve).*
-
-**Berkas mentah langkah ini:**
-
-- [`03-user-flag.txt`](assets/record-keeper-user/03-user-flag.txt)
-
-> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`
+> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`

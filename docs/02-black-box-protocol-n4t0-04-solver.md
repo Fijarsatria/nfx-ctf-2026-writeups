@@ -60,10 +60,6 @@ with separators: N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng
 
 ### Evidence langkah ini
 
-![term-06-recheck-submit.png](assets/black-box-protocol-n4t0/term-06-recheck-submit.png)
-
-*Terminal evidence — `06-recheck-submit.txt` (arsip transkrip sesi solve).*
-
 ![term-decode-output.png](assets/black-box-protocol-n4t0/term-decode-output.png)
 
 *Terminal evidence — `decode-output.txt` (arsip transkrip sesi solve).*
@@ -74,6 +70,5 @@ with separators: N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng
 
 **Berkas mentah langkah ini:**
 
-- [`06-recheck-submit.txt`](assets/black-box-protocol-n4t0/06-recheck-submit.txt)
 - [`decode-output.txt`](assets/black-box-protocol-n4t0/decode-output.txt)
 - [`sha256.txt`](assets/black-box-protocol-n4t0/sha256.txt)

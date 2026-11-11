@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. **NexusGate** terdiri dari edge reverse proxy Node.js (`:80`) di depan microservice vault (`127.0.0.1:8080`). Terus, aCL edge hanya memblokir `req.url.startsWith('/internal/')`. Path `/./internal/...` lolos dari string check, lalu dinormalisasi oleh `new URL()` di backend menjadi `/internal/...` → **ACL bypass**. Lalu, endpoint `/internal/console/cursor` membuat iterator SQL dari parameter `owner` yang dikendalikan user. `owner=admin` menghasilkan cursor atas vault admin; endpoint GET dengan parameter `journal=<user>` menulis isi row (`secret=PHASE_TOKEN`) ke audit journal penyerang. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |
@@ -31,7 +35,7 @@
 | 2 | Recon | curl -sS http://s1.nfx.my.id:49535/health | [Buka](50-nexusgate-02-recon.md) |
 | 3 | ACL bypass: raw `req.url` vs `new URL()` | http://127.0.0.1:8080' | [Buka](50-nexusgate-03-acl-bypass-raw-req-url-vs-new-url.md) |
 | 4 | Cursor over-grant → PHASE_TOKEN | Audit user <user> sekarang berisi: | [Buka](50-nexusgate-04-cursor-over-grant-phase-token.md) |
-| 5 | File-read sandbox: Node permission tree | 127.0.0.1 | [Buka](50-nexusgate-05-file-read-sandbox-node-permission-tree.md) |
+| 5 | File-read sandbox: Node permission tree | file read: /app/data/bot -> f0f6801a74026cf1 | [Buka](50-nexusgate-05-file-read-sandbox-node-permission-tree.md) |
 | 6 | Analisis | — | [Buka](50-nexusgate-06-analisis.md) |
 | 7 | Strategi | — | [Buka](50-nexusgate-07-strategi.md) |
 | 8 | Langkah exploit (live) | curl -sS -c cj -X POST -d 'username=ng123456&password=pw' "$BASE/register" | [Buka](50-nexusgate-08-langkah-exploit-live.md) |

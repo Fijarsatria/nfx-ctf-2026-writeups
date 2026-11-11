@@ -30,19 +30,4 @@ Status `verified platform` menurut `writeups/FLAGS.md`.
 
 *Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
 
-### Evidence langkah ini
-
-![term-04-flag-status.png](assets/the-forgotten-state/term-04-flag-status.png)
-
-*Terminal evidence — `04-flag-status.txt` (arsip transkrip sesi solve).*
-
-![term-flag.png](assets/the-forgotten-state/term-flag.png)
-
-*Terminal evidence — `flag.txt` (arsip transkrip sesi solve).*
-
-**Berkas mentah langkah ini:**
-
-- [`04-flag-status.txt`](assets/the-forgotten-state/04-flag-status.txt)
-- [`flag.txt`](assets/the-forgotten-state/flag.txt)
-
-> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`
+> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`

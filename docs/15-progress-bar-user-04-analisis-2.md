@@ -2,7 +2,7 @@
 
 [← Overview](15-progress-bar-user.md) · [Index](index.md)
 
-> **Langkah 4/11 — Analisis.** Dari shell www-data, source service di /opt dibaca.
+> **Langkah 4/10 — Analisis.** Dari shell www-data, source service di /opt dibaca.
 >
 > **Titik penting:** Dari shell www-data, source service di /opt dibaca.
 >

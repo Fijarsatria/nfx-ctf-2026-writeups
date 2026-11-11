@@ -22,6 +22,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. tiga log (`access.log` Nginx, `auth.log` syslog, `webapp.log`) merekam satu kampanye serangan dari **185.220.101.47** pada 10 Oktober 2026. Terus, rekon: `gobuster/3.6` (13:02), SQL injection `sqlmap/1.7.2` pada `products.php?id=` (13:15), dump tabel `users`. Lalu, initial access: login admin berhasil pada **13:42:02** dengan password `Aroma#Craft2026`. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

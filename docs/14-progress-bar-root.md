@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. Target `10.10.20.22` adalah Apache prefork + mod_php **PHP 8.4.26** dengan `session.upload_progress` aktif, `memory_limit=8M`, `display_errors=On`, dan satu worker. Terus, PHP 8.4.26 rentan **CVE-2026-109618 (PHP2Shell)**. Chain 9bie/3em0 memakai OOM + dangling session pointer untuk membocorkan Zend MM chunk base dan libphp base via `Set-Cookie`, lalu memalsukan `HashTable` dengan `pDestructor = zif_system` → RCE sebagai `www-data`. Lalu, command RCE dibatasi 14 byte, jadi script enumerasi di-upload ke `/out/c` lewat `/upload.php` dan dijalankan dengan `sh</out/c`; hasilnya ditulis ke `/out/*.txt` yang web-served. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

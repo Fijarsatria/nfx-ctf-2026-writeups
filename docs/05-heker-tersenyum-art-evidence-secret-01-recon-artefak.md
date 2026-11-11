@@ -4,7 +4,7 @@
 
 > **Langkah 1/9 — Recon Artefak.** Petunjuk yang benar-benar dipakai:
 >
-> **Titik penting:** file view · file file · sha256sum file
+> **Titik penting:** file view · file file · file: PNG image data, 1495 x 2424, 8-bit/color RGB, non-interlaced
 >
 > **Berikutnya:** [Triage awal](05-heker-tersenyum-art-evidence-secret-02-triage-awal.md)
 

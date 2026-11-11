@@ -4,7 +4,7 @@
 
 > **Langkah 3/13 — Perintah akuisisi bukti.** Perintah akuisisi bukti
 >
-> **Titik penting:** python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ · python3 writeups/assets/hard-feistel/solve_feistel.py \
+> **Titik penting:** file "$BIN" > writeups/assets/hard-feistel/01-identitas.txt · strings -n 4 "$BIN" > writeups/assets/hard-feistel/03-strings.txt · objdump -d -Mintel "$BIN" > writeups/assets/hard-feistel/04-disasm.txt
 >
 > **Berikutnya:** [Analisis](44-hard-feistel-04-analisis.md)
 

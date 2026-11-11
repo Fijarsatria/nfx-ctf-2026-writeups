@@ -30,10 +30,4 @@ Flag yang sama muncul di halaman `/reports` milik user penyerang pada instance l
 
 *Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
 
-### Evidence langkah ini
-
-![01-reports-flag.png](assets/linkvault/01-reports-flag.png)
-
-*Evidence — `01-reports-flag.png`.*
-
-> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`
+> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`

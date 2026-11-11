@@ -1,0 +1,12 @@
+$ file baby_strings
+baby_strings: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=dc3dc8f6730b2ce87242119a1934335e7fc02162, for GNU/Linux 3.2.0, stripped
+
+$ strings -a baby_strings | grep NFX
+NFX{str1ngs_4r3_y0ur_b3st_fr13nd}
+
+$ chmod +x baby_strings
+$ ./baby_strings 'NFX{str1ngs_4r3_y0ur_b3st_fr13nd}'
+Correct! Selamat datang di reverse engineering.
+
+$ ./baby_strings wrongflag
+Wrong!

@@ -4,7 +4,7 @@
 
 > **Langkah 3/11 — Perintah akuisisi bukti.** Perintah akuisisi bukti
 >
-> **Titik penting:** python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ · python3 writeups/assets/medium-rc4/solve_rc4.py \
+> **Titik penting:** file "$BIN" > writeups/assets/medium-rc4/01-identitas.txt · strings -n 4 "$BIN" > writeups/assets/medium-rc4/03-strings.txt · objdump -d -Mintel "$BIN" > writeups/assets/medium-rc4/04-disasm.txt
 >
 > **Berikutnya:** [Peta fungsi `main`](46-medium-rc4-04-peta-fungsi-main.md)
 

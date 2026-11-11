@@ -2,7 +2,7 @@
 
 [← Overview](10-nfxctf-convention.md) · [Index](index.md)
 
-> **Langkah 7/9 — Flag.** 2026-11-09 dan diterima (Correct, but already solved.).
+> **Langkah 7/9 — Flag.** Flag
 >
 > **Titik penting:** NFX{h4ck3r_c0nv3nt10n_m4st3r_pwn3r_9988776655}
 >
@@ -25,9 +25,9 @@ $ sha256sum flags/pwn/NFXCTF_Convention.txt
 (lihat assets/nfxctf-convention/04-flag-status.txt)
 ```
 
-**Status:** `VERIFIED platform`. Flag sudah dicek ulang ke platform pada
-2026-11-09 dan diterima (`Correct, but already solved.`). `_manifest.json`
-mencatat `solved: true`; eksploit juga diverifikasi lokal (shell + baca flag).
+**Status:** `VERIFIED platform`. Flag sudah di-submit lewat form web platform
+dan diterima. Screenshot submit ada di halaman Flag. Eksploit juga diverifikasi
+lokal (shell + baca flag).
 
 ### Bukti submit di platform
 
@@ -35,17 +35,4 @@ mencatat `solved: true`; eksploit juga diverifikasi lokal (shell + baca flag).
 
 *Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
 
-### Evidence langkah ini
-
-![term-04-flag-status.png](assets/nfxctf-convention/term-04-flag-status.png)
-
-*Terminal evidence — `04-flag-status.txt` (arsip transkrip sesi solve).*
-
-![term-flag.png](assets/nfxctf-convention/term-flag.png)
-
-*Terminal evidence — `flag.txt` (arsip transkrip sesi solve).*
-
-**Berkas mentah langkah ini:**
-
-- [`04-flag-status.txt`](assets/nfxctf-convention/04-flag-status.txt)
-- [`flag.txt`](assets/nfxctf-convention/flag.txt)
+> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`

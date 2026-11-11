@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. **NexaIdentity** adalah direktori karyawan NexaCommerce berbasis Express. Halaman login menyediakan akun demo `employee@nexaidentity.test` / `employee1234` (Raka Pratama, employee biasa). Terus, endpoint admin `/admin` mengembalikan `403` untuk Raka. Lalu, login memakai query bergaya Mongo/NoSQL dengan objek dari body form. Karena `express.urlencoded({ extended: true })` memakai `qs`, field `password[$ne]=x` menjadi objek `{ $ne: "x" }`. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

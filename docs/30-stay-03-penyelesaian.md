@@ -4,7 +4,7 @@
 
 > **Langkah 3/6 — Penyelesaian.** Penyelesaian
 >
-> **Titik penting:** python3 solve_stay.py
+> **Titik penting:** python3 solve_stay.py · base64 text : KDkvOC8VFBJVFTMeXxMOPgFfNl8JORUEXzYKUxQKEQ==
 >
 > **Berikutnya:** [Flag](30-stay-04-flag.md)
 

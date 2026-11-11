@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. tidak ada attachment: payload ada di **teks lirik pada deskripsi challenge**. Terus, di antara huruf-huruf lirik disisipkan **176 karakter zero-width** dari empat jenis code point. Lalu, setiap karakter membawa **2 bit**; 176 × 2 = 352 bit = **44 byte**. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

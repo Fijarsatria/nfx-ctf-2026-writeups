@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. foto challenge adalah **Boeing 737-341(SF)**, registrasi **PK-ADL**, MSN **26854**, milik **Aero Nusantara Cargo**. Terus, foto aslinya ada di JetPhotos, photo ID **11925184**, diambil **26 November 2025** di **Jakarta Halim Perdanakusuma (WIHH)** oleh **Raihan Al Faris**. Lalu, thumbnail JetPhotos 400×225 dibandingkan piksel-per-piksel dengan `spotted.jpg`: ukuran sama, **MAE ≈ 2,2/255** — hanya re-encoding CDN. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

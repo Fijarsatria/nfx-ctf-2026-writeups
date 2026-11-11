@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. Target `10.10.20.23` mengekspos empat service: console `:8080`, framed-TCP Brotli record transform `:3000`, OpenSSH `:22`, dan spool API `:9090`. Terus, service `:3000` berjalan di **Node.js 24.9.0**, memakai `zlib.createBrotliDecompress({chunkSize: 0x330})`, `Buffer.allocUnsafeSlow(0x330)`, satu Worker per koneksi, dan `UV_THREADPOOL_SIZE=1`. Lalu, node.js 24.9.0 rentan **CVE-2026-111497 (Node2Shell)**: malformed Brotli stream memicu out-of-bounds write di decoder. Fixed di Node.js 24.22.1. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

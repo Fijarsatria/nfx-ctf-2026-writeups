@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. 200 signature ECDSA pada `secp256k1`; nonce `k` selalu `< 2^248` (8 bit teratas nol). Terus, ini **Hidden Number Problem (HNP)**: dari `s = k^{-1}(h + d·r) mod n`, nonce kecil memberi `k_i = a_i + b_i·d mod n` dengan `a_i = h_i s_i^{-1}`, `b_i = r_i s_i^{-1}`, dan `k_i < B = 2^248`. Lalu, lattice HNP dengan 50 signature + LLL memulihkan private key `d`. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

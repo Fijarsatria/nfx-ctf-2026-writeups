@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. `leaker()` mencetak nickname dengan `printf(nickname)` → **format string leak** (canary, PIE, libc). Terus, `main()` membaca 8 byte: `[len:u32][magic:u32]`; jika magic `0xdead`, ia memanggil `read(0, rbp-0x1a0, len)` dengan `len` 32-bit dari klien → **stack overflow** (offset canary `0x198`). Lalu, ada **seccomp** yang mengizinkan `write/open/openat/pread64/close/lseek/fstat/newfstatat/brk/exit/exit_group`, tetapi `read` hanya boleh dengan **fd 0**. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

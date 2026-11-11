@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. `challenge.py` membocorkan `MASTER = b"\x13\x37" * 16` di source. Terus, key AES-256-CBC diturunkan sebagai `SHA256(MASTER || counter.to_bytes(4, "little"))[:32]`. Lalu, `output.txt` memberi `counter=11`, IV statis `aa...aa`, dan ciphertext. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

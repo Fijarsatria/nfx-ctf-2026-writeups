@@ -30,10 +30,4 @@ Flag yang sama tampil di `/admin/audit` setelah pollution. Tidak ada submit ke p
 
 *Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
 
-### Evidence langkah ini
-
-![01-admin-audit-flag.png](assets/nexapartner/01-admin-audit-flag.png)
-
-*Evidence — `01-admin-audit-flag.png`.*
-
-> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`
+> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`

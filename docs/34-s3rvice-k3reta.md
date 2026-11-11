@@ -22,6 +22,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. gambar `from_train.jpeg` adalah foto dari jendela KRL yang melintas di petak **Cilebut–Bojong Gede**, memperlihatkan sawah, atap rumah, kompleks perumahan di kejauhan, dan tower transmisi. Terus, kejadian yang menjadi titik awal adalah **tanah longsor tebingan rel** di **KM 45+4/5**, antara **Stasiun Cilebut dan Bojong Gede**, pada **21 November 2012**. Lalu, q1–Q8 sudah terjawab: `longsor`, `45+4/5`, `Cilebut - Bojong Gede`, `21/11/2012`, `98`, `200 M`, `Atlas`, `6007`. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

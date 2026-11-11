@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. service mengelola "pipa" (pipe) dengan operasi buka/tutup/tulis/baca/login. Terus, struct pipa `malloc(0x18)` hanya menginisialisasi `data`, `capacity`, dan `readonly`; field `flags` di offset `0x14` **tidak diinisialisasi**. Lalu, setelah menulis ke pipa `rw`, `flags |= 0x10`. Saat pipa ditutup, chunk struct masuk tcache. Membuka pipa baru dengan mode `ro` mengalokasikan ulang chunk yang sama dan **flags basi 0x10 masih ada**. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

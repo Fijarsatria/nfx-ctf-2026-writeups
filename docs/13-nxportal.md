@@ -24,6 +24,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. **NXPortal** adalah gerbang identitas Flask/gunicorn dengan alur login dan **account recovery** (`/forgot` → email berisi token → `/reset`). Terus, deskripsi challenge: data yang dikendalikan user memengaruhi lebih dari isi pesan, dan dalam kondisi tertentu permintaan recovery bisa terkirim ke tujuan yang seharusnya tidak menerimanya. Lalu, blog internal `/blog/5` memberi hint eksplisit: **“Hardening Header Parsing & Mail Notification Engines”**, “RFC822 mail header sanitization”, “preventing multi-line payload abuse”, dan “unauthorized header parameter pollution”. Ini mengarah ke **email header injection / recipient confusion** pada notification dispatcher. Nah, dari situ kita bisa lihat sejauh mana progres dan di mana kendalanya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

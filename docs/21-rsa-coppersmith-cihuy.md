@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. RSA 1024-bit dengan `e=65537`; hanya `chall.py` yang diberikan. Terus, 300 bit atas dari faktor `p` bocor (`p_msb`), 212 bit bawah tidak diketahui. Lalu, ini **partial key exposure**: `p = p_msb·2^212 + x`, `|x| < 2^212`. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

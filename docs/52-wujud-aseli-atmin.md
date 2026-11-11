@@ -27,29 +27,53 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Cerita Singkat | NFX{NFCC_Goes_to_NCSC_2026} | [Buka](52-wujud-aseli-atmin-01-cerita-singkat.md) |
-| 2 | Recon | exiftool dokumentasi.png | [Buka](52-wujud-aseli-atmin-02-recon.md) |
-| 3 | Analisis | NFX{NFCC_Goes_to_NCSC_2026} | [Buka](52-wujud-aseli-atmin-03-analisis.md) |
-| 4 | Penyelesaian | NFX{NFCC_Goes_to_NCSC_2026} | [Buka](52-wujud-aseli-atmin-04-penyelesaian.md) |
-| 5 | Flag | NFX{NFCC_Goes_to_NCSC_2026} | [Buka](52-wujud-aseli-atmin-05-flag.md) |
-| 6 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](52-wujud-aseli-atmin-06-bukti-evidence.md) |
-| 7 | Referensi | — | [Buka](52-wujud-aseli-atmin-07-referensi.md) |
+| 1 | Recon | file dokumentasi.png | [Buka](52-wujud-aseli-atmin-01-recon.md) |
+| 2 | Analisis | file scan_07.dat | [Buka](52-wujud-aseli-atmin-02-analisis.md) |
+| 3 | Penyelesaian | tr = d[start:] | [Buka](52-wujud-aseli-atmin-03-penyelesaian.md) |
+| 4 | Flag | NFX{NFCC_Goes_to_NCSC_2026} | [Buka](52-wujud-aseli-atmin-04-flag.md) |
+| 5 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](52-wujud-aseli-atmin-05-bukti-evidence.md) |
+| 6 | Referensi | — | [Buka](52-wujud-aseli-atmin-06-referensi.md) |
 
 ## Ringkasan
 
 > Challenge baru di event umum (bukan extend), dibuat 2026-11-07 23:51.
 > Attachment: `dokumentasi.png`.
+## Cerita Singkat
 
-<div class="nx-evidence-preview"><a href="52-wujud-aseli-atmin-06-bukti-evidence.html"><img src="assets/wujud-aseli-atmin/00b-submit-platform.png" alt="Pratinjau evidence Wujud Aseli Atmin" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="52-wujud-aseli-atmin-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+Jadi ceritanya gini. Kita dikasih satu foto dokumentasi event **National
+Cybersecurity Connect 2026**. Sekilas biasa aja — foto orang-orang, banner,
+selesai. Tapi deskripsinya bilang “jangan berhenti di situ doang”, jadi kita
+cek lebih dalam.
+
+Pertama, foto ini dibuka pakai `exiftool`. Eh, muncul warning: ada **data
+tambahan setelah akhir file PNG** (trailer). Dari situ kita curiga. Ternyata
+trailer-nya adalah **ZIP** berisi dua file: `catatan.txt` yang isinya cuma
+godaan (“Tidak ada apa-apa di sini”), dan `scan_07.dat`.
+
+Nah, `scan_07.dat` ini jahil. Dia sebenarnya **PNG 400×300**, tapi 8 byte
+pertama (signature PNG) sengaja dinolkan. Begitu signature-nya kita balikin,
+file-nya langsung bisa dibuka. Dari situ kita pakai `zsteg`, dan ketemu
+base64 di **LSB kanal merah**. Decode base64-nya, keluar deh flag-nya.
+
+Alur besarnya:
+
+1. Lihat foto → cek metadata.
+2. Ketemu trailer ZIP di belakang `IEND`.
+3. Ekstrak ZIP → dapat `scan_07.dat`.
+4. Perbaiki signature PNG yang dihapus.
+5. Ambil LSB kanal R → base64 → decode.
+6. Flag: `NFX{NFCC_Goes_to_NCSC_2026}`.
+7. Submit → **`Correct! +460 points.`**
+
+<div class="nx-evidence-preview"><a href="52-wujud-aseli-atmin-05-bukti-evidence.html"><img src="assets/wujud-aseli-atmin/00b-submit-platform.png" alt="Pratinjau evidence Wujud Aseli Atmin" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="52-wujud-aseli-atmin-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
 <div class="nx-page-grid">
-<a class="nx-page-card" href="52-wujud-aseli-atmin-01-cerita-singkat.html"><b>Cerita Singkat</b><span>Konteks dan cerita challenge</span></a>
-<a class="nx-page-card" href="52-wujud-aseli-atmin-02-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
-<a class="nx-page-card" href="52-wujud-aseli-atmin-03-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
-<a class="nx-page-card" href="52-wujud-aseli-atmin-04-penyelesaian.html"><b>Penyelesaian</b><span>Baca bagian ini</span></a>
-<a class="nx-page-card" href="52-wujud-aseli-atmin-05-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
-<a class="nx-page-card" href="52-wujud-aseli-atmin-06-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
-<a class="nx-page-card" href="52-wujud-aseli-atmin-07-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+<a class="nx-page-card" href="52-wujud-aseli-atmin-01-recon.html"><b>Recon</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="52-wujud-aseli-atmin-02-analisis.html"><b>Analisis</b><span>Membaca alur dan akar masalah</span></a>
+<a class="nx-page-card" href="52-wujud-aseli-atmin-03-penyelesaian.html"><b>Penyelesaian</b><span>Baca bagian ini</span></a>
+<a class="nx-page-card" href="52-wujud-aseli-atmin-04-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="52-wujud-aseli-atmin-05-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="52-wujud-aseli-atmin-06-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. `investigation.zip` berisi repo git dengan satu commit yang **ditandatangani GPG**. Terus, `git log --show-signature` membuka identitas key: `Dimas Wirawan (rentry.co/ghost-route-0914)`. Lalu, enumerasi keyserver `veloxphantom.net` menemukan **tiga key**:. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

@@ -4,7 +4,7 @@
 
 > **Langkah 3/14 — Perintah akuisisi bukti.** Perintah akuisisi bukti
 >
-> **Titik penting:** python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ · python3 writeups/assets/castaway/solve_castaway.py \
+> **Titik penting:** file "$BIN" > writeups/assets/castaway/01-identitas.txt · strings -n 4 "$BIN" > writeups/assets/castaway/03-strings.txt · objdump -d -Mintel "$BIN" > writeups/assets/castaway/04-disasm.txt
 >
 > **Berikutnya:** [Fungsi `main`](43-castaway-04-fungsi-main.md)
 

@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. attachment `FreyaSayangkuh` adalah **ZIP** berisi `freya_sayangkuh.png` dan `surat_untuk_freya.enc`. Terus, pNG mendeklarasikan tinggi **1200** baris, tetapi IDAT sebenarnya berisi **1536** baris. Ada **336 baris tersembunyi** di bawah gambar yang tidak pernah ditampilkan viewer PNG normal. Lalu, baris tersembunyi berisi gambar teks password: `<!HayamGoreng45@/>`. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

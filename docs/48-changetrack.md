@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. **ChangeTrack** adalah Flask/gunicorn yang meniru `changedetection.io`: user membuat watcher, mengedit manifest YAML, dan worker mengirim notifikasi ke `webhook_url`. Terus, login-nya rusak: `admin@changetrack.local` dengan password `anything` (non-trivial) langsung menghasilkan session admin. Password 1 karakter ditolak, tetapi ini tetap auth bypass yang memudahkan. Lalu, field `notification.template` di manifest YAML dirender oleh **Jinja2 tanpa sandbox**. Payload `{{ 7*7 }}` terbukti menghasilkan `49` di body webhook. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

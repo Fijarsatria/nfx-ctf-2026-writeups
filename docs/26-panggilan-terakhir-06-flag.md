@@ -20,7 +20,7 @@ Verifikasi/status:
 ```text
 Sumber : flags/wave2/Panggilan_Terakhir.txt
 Isi    : NFXCTF{ARSIP_MERAH_204}
-Status : VERIFIED platform (recheck 2026-11-09; transkrip audio + flag file cocok)
+Status : VERIFIED platform (submit via web; transkrip audio + flag file cocok)
 ```
 
 ### Bukti submit di platform
@@ -29,4 +29,4 @@ Status : VERIFIED platform (recheck 2026-11-09; transkrip audio + flag file coco
 
 *Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
 
-> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`
+> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`

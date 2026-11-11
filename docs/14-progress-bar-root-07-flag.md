@@ -49,14 +49,4 @@ Sebagai konteks, user flag yang ikut terbaca adalah
 
 *Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
 
-### Evidence langkah ini
-
-![term-04-root-flag.png](assets/progress-bar-root/term-04-root-flag.png)
-
-*Terminal evidence — `04-root-flag.txt` (arsip transkrip sesi solve).*
-
-**Berkas mentah langkah ini:**
-
-- [`04-root-flag.txt`](assets/progress-bar-root/04-root-flag.txt)
-
-> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`
+> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`

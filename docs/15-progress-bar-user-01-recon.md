@@ -2,7 +2,7 @@
 
 [← Overview](15-progress-bar-user.md) · [Index](index.md)
 
-> **Langkah 1/11 — Recon.** Fokus challenge User adalah foothold ke server dan membaca /home/deploy/user.txt.
+> **Langkah 1/10 — Recon.** Fokus challenge User adalah foothold ke server dan membaca /home/deploy/user.txt.
 >
 > **Titik penting:** nmap -Pn -sV -p- --min-rate 2000 10.10.20.22 · curl -sS -i http://10.10.20.22/ · curl -sS -i http://10.10.20.22/upload.php
 >

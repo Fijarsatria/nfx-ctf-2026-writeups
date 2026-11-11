@@ -23,13 +23,17 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. `hard_vm` bukan validator biasa: ia adalah **interpreter bytecode** mini dengan 498 byte program di `.rodata` `0x2080`. Terus, dispatch table di `0x2060` memetakan opcode: `1=LOAD`, `2=XOR`, `3=ADD`, `4=ROL`, `5=CMP`, `0xff=OK`, `0=HALT/gagal`. Lalu, setiap karakter flag diproses dengan pola 5 instruksi: `LOAD`, `XOR`, `ADD`, `ROL`, `CMP`. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
 | 1 | Recon | NFX{...} | [Buka](45-hard-vm-bytecode-01-recon.md) |
 | 2 | Triage awal | file reverse/Hard_01_VM_Bytecode/hard_vm | [Buka](45-hard-vm-bytecode-02-triage-awal.md) |
-| 3 | Perintah akuisisi bukti | python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ | [Buka](45-hard-vm-bytecode-03-perintah-akuisisi-bukti.md) |
+| 3 | Perintah akuisisi bukti | file "$BIN" > writeups/assets/hard-vm-bytecode/01-identitas.txt | [Buka](45-hard-vm-bytecode-03-perintah-akuisisi-bukti.md) |
 | 4 | Main dan layout | Layout stack yang relevan: | [Buka](45-hard-vm-bytecode-04-main-dan-layout.md) |
 | 5 | Format instruksi | Loop mengambil 3 byte per instruksi: | [Buka](45-hard-vm-bytecode-05-format-instruksi.md) |
 | 6 | Analisis | Catatan penting: pada LOAD, byte ketiga instruksi adalah index input, sedangkan pada opcode lain byte ketiga adalah immediate. | [Buka](45-hard-vm-bytecode-06-analisis.md) |

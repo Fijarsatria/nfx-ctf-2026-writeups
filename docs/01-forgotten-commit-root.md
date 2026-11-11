@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. Target `10.10.20.21` menjalankan nginx (port 80) dan OpenSSH 8.9p1 (port 22). Terus, webroot mengekspos `/.git/`; `git-dumper` memulihkan 5 commit. Lalu, commit `5c65d99` ("Remove Ansible inventory") menghapus `ansible/inventory.ini`, tetapi commit induknya (`8acfc1f`) masih menyimpan kredensial Ansible plaintext: `leonardo:Dev0pment#2026!`. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |
@@ -41,8 +45,8 @@
 > **Catatan bukti.** Writeup ini memakai hasil **live rerun 2026-11-09** di
 > instance platform. Transkrip asli ada di `assets/forgotten-commit-root/`
 > (`01-live-*` sampai `04-live-*`), screenshot challenge dan submit ada di
-> `00-challenge-platform.png` dan `00b-submit-platform.png`. Flag dicek ulang
-> ke platform dan diterima (`Correct, but already solved.`).
+> `00-challenge-platform.png` dan `00b-submit-platform.png`. Flag di-submit
+> lewat form web platform; screenshot hasilnya ada di halaman Flag.
 ## TL;DR
 
 - Target `10.10.20.21` menjalankan nginx (port 80) dan OpenSSH 8.9p1 (port 22).

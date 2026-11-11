@@ -1,6 +1,6 @@
 # Black Box Protocol N4T0 — Evidence / Bukti
 
-<div class="nx-challenge-head"><span class="nx-chip">5 screenshot</span><span class="nx-chip">4 transkrip / script</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">4 screenshot</span><span class="nx-chip">3 transkrip / script</span></div>
 
 
 [← Overview](02-black-box-protocol-n4t0.md) · [Index](index.md)
@@ -33,12 +33,6 @@
 ### Terminal (arsip sesi)
 
 <div class="nx-evidence-grid">
-<figure><a href="assets/black-box-protocol-n4t0/term-06-recheck-submit.png" target="_blank" rel="noopener"><img src="assets/black-box-protocol-n4t0/term-06-recheck-submit.png" alt="term-06-recheck-submit.png" loading="lazy"></a><figcaption>term-06-recheck-submit.png</figcaption></figure>
-</div>
-
-*Terminal evidence — `06-recheck-submit.txt` (arsip transkrip sesi solve).*
-
-<div class="nx-evidence-grid">
 <figure><a href="assets/black-box-protocol-n4t0/term-decode-output.png" target="_blank" rel="noopener"><img src="assets/black-box-protocol-n4t0/term-decode-output.png" alt="term-decode-output.png" loading="lazy"></a><figcaption>term-decode-output.png</figcaption></figure>
 </div>
 
@@ -52,7 +46,6 @@
 
 ### Transkrip mentah & script
 
-- [`06-recheck-submit.txt`](assets/black-box-protocol-n4t0/06-recheck-submit.txt)
 - [`decode-output.txt`](assets/black-box-protocol-n4t0/decode-output.txt)
 - [`decode_xlsx.py`](assets/black-box-protocol-n4t0/decode_xlsx.py)
 - [`sha256.txt`](assets/black-box-protocol-n4t0/sha256.txt)
@@ -65,5 +58,5 @@
 | Decoder | `assets/black-box-protocol-n4t0/decode_xlsx.py` | Script decode tiga kolom |
 | Output decoder | `assets/black-box-protocol-n4t0/decode-output.txt` | Output asli |
 | Log submit lama | `work/bb_submit_agent.jsonl` | 53 percobaan di backend lama |
-| Recheck submit | `assets/black-box-protocol-n4t0/06-recheck-submit.txt` | `Correct, but already solved.` |
+| Submit web | `assets/black-box-protocol-n4t0/00b-submit-platform.png` | Screenshot form platform |
 | Release map | `work/release_map.json` | Kandidat alternatif |

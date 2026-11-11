@@ -20,7 +20,7 @@ Verifikasi/status:
 ```text
 Sumber : flags/forensics/Perimeter_Breach.txt
 Isi    : NFX{P4th_1nt0_Pr0duct10n}
-Status : VERIFIED platform (recheck 2026-11-09; flag lokal; challenge solved di platform)
+Status : VERIFIED platform (submit via web; flag lokal; challenge solved di platform)
 ```
 
 ### Bukti submit di platform
@@ -29,4 +29,4 @@ Status : VERIFIED platform (recheck 2026-11-09; flag lokal; challenge solved di 
 
 *Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
 
-> **Verifikasi platform:** flag sudah diterima. Recheck 2026-11-09 mengembalikan `Correct, but already solved.`
+> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`

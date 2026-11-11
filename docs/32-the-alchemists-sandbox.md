@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. `chall.py` mengevaluasi ekspresi Python di sandbox AST yang melarang angka, tanda kutip, import, lambda, comprehension, f-string, dan atribut yang diawali `_`. Terus, namun `getattr(als, "__globals__")` bisa dipanggil jika nama atributnya dibangun secara dinamis. `als` adalah fungsi `_encrypt_vault`, sehingga `als.__globals__["_VAULT_STATE"]` membocorkan ciphertext. Lalu, payload 315 karakter tanpa angka/kutip membangun `__globals__` dan `_VAULT_STATE` dari `True` (1), bit shift, dan `chr`. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

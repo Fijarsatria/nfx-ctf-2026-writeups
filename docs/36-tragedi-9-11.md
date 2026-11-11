@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. video challenge adalah rekaman 9/11 berdurasi **58,5 detik**, 1920×1080, H.264 + AAC. Ini video “shop owner saves woman's life from wall of dust on 9/11”. Terus, video itu dibagikan di **r/PublicFreakout** oleh **u/PigParkerPt2** pada 11 September 2021. Username ini menjadi pivot. Lalu, di GitHub ada user **PigParkerPt2** dengan repo **`xor-operation`**. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

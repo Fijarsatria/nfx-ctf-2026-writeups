@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. evidence Linux: `/etc/passwd`, `/etc/shadow`, `/etc/group`, dua home (`mizore`, `nozomi`), keyring GNOME, `for_nozomi.zip`, `Ensemble.mp4`, dan log. Terus, dua user utama: **mizore** (UID 1001, “Liz”) dan **nozomi** (UID 1002, “blue bird”). Lalu, hash SHA-512 crypt mizore (`$6$bluebird$...`) di-crack/verifikasi menjadi **`Bluebirds1927!`**. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

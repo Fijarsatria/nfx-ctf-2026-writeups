@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. attachment `lwe.py` bukan kode challenge, melainkan **transkrip LWE**: `q=257`, `n=40`, `m=64`, matriks `A` 64×40, vektor `b` 64, dan `ct` 41 byte. Terus, relasinya adalah LWE standar `b = A·s + e (mod 257)` dengan **secret ternary** `s ∈ {-1,0,1}` dan error `e ∈ [-2,2]`. Lalu, karena dimensi kecil dan secret/error sama-sama pendek, instance dapat dipecahkan dengan **Kannan embedding** + LLL/BKZ. Diperoleh `s` dan `e` yang memenuhi 64/64 persamaan. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

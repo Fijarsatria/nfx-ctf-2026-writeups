@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. challenge meminta **bukti Fiat–Shamir** untuk VDF `y = 2^(2^256) mod N`. Evaluasi naif membutuhkan `2^256` squaring berurutan — tidak mungkin. Terus, kunci bypass ada di nama flag: **XOR factoring** + **fast VDF bypass**. Lalu, jika `N` dapat difaktorkan (karena `p` dan `q` punya relasi XOR yang terstruktur), maka `φ(N)` diketahui. Dengan `φ(N)`, eksponen `2^256` dapat direduksi modulo `φ(N)`, dan `y` dihitung seketika. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

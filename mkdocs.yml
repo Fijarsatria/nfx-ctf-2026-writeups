@@ -101,6 +101,14 @@ nav:
     - Flag & Verifikasi: 04-feistel-differential-07-flag.md
     - Evidence / Bukti: 04-feistel-differential-08-bukti-evidence.md
     - Referensi: 04-feistel-differential-09-referensi.md
+  - 56. Ghost XOR:
+    - 56-ghost-xor.md
+    - Recon: 56-ghost-xor-01-recon.md
+    - Analisis: 56-ghost-xor-02-analisis.md
+    - Solver: 56-ghost-xor-03-solver.md
+    - Flag & Verifikasi: 56-ghost-xor-04-flag.md
+    - Evidence / Bukti: 56-ghost-xor-05-bukti-evidence.md
+    - Referensi: 56-ghost-xor-06-referensi.md
 - NF · Forensics:
   - 05. Heker Tersenyum - Art Evidence Secret:
     - 05-heker-tersenyum-art-evidence-secret.md
@@ -138,6 +146,22 @@ nav:
     - Flag & Verifikasi: 07-perimeter-breach-09-flag.md
     - Evidence / Bukti: 07-perimeter-breach-10-bukti-evidence.md
     - Referensi: 07-perimeter-breach-11-referensi.md
+  - 57. Image Metadata:
+    - 57-image-metadata.md
+    - Recon Artefak: 57-image-metadata-01-recon-artefak.md
+    - Analisis Artefak: 57-image-metadata-02-analisis-artefak.md
+    - Pemulihan Artefak: 57-image-metadata-03-pemulihan-artefak.md
+    - Flag & Verifikasi: 57-image-metadata-04-flag.md
+    - Evidence / Bukti: 57-image-metadata-05-bukti-evidence.md
+    - Referensi: 57-image-metadata-06-referensi.md
+  - 58. Cleartext Sniffing:
+    - 58-cleartext-sniffing.md
+    - Recon Artefak: 58-cleartext-sniffing-01-recon-artefak.md
+    - Analisis Artefak: 58-cleartext-sniffing-02-analisis-artefak.md
+    - Pemulihan Artefak: 58-cleartext-sniffing-03-pemulihan-artefak.md
+    - Flag & Verifikasi: 58-cleartext-sniffing-04-flag.md
+    - Evidence / Bukti: 58-cleartext-sniffing-05-bukti-evidence.md
+    - Referensi: 58-cleartext-sniffing-06-referensi.md
 - NF · Misc:
   - 08. Frekuensi Sunyi:
     - 08-frekuensi-sunyi.md
@@ -152,13 +176,12 @@ nav:
     - Referensi: 08-frekuensi-sunyi-09-referensi.md
   - 52. Wujud Aseli Atmin:
     - 52-wujud-aseli-atmin.md
-    - Cerita Singkat: 52-wujud-aseli-atmin-01-cerita-singkat.md
-    - Recon: 52-wujud-aseli-atmin-02-recon.md
-    - Analisis: 52-wujud-aseli-atmin-03-analisis.md
-    - Penyelesaian: 52-wujud-aseli-atmin-04-penyelesaian.md
-    - Flag & Verifikasi: 52-wujud-aseli-atmin-05-flag.md
-    - Evidence / Bukti: 52-wujud-aseli-atmin-06-bukti-evidence.md
-    - Referensi: 52-wujud-aseli-atmin-07-referensi.md
+    - Recon: 52-wujud-aseli-atmin-01-recon.md
+    - Analisis: 52-wujud-aseli-atmin-02-analisis.md
+    - Penyelesaian: 52-wujud-aseli-atmin-03-penyelesaian.md
+    - Flag & Verifikasi: 52-wujud-aseli-atmin-04-flag.md
+    - Evidence / Bukti: 52-wujud-aseli-atmin-05-bukti-evidence.md
+    - Referensi: 52-wujud-aseli-atmin-06-referensi.md
 - NF · Osint:
   - 09. Career Tempat Belajar:
     - 09-career-tempat-belajar.md
@@ -239,9 +262,8 @@ nav:
     - Langkah exploit: 15-progress-bar-user-06-langkah-exploit.md
     - Output: 15-progress-bar-user-07-output.md
     - Flag & Verifikasi: 15-progress-bar-user-08-flag.md
-    - Flag & Verifikasi: 15-progress-bar-user-09-riwayat-penolakan-di-backend-lama.md
-    - Evidence / Bukti: 15-progress-bar-user-10-bukti-evidence.md
-    - Referensi: 15-progress-bar-user-11-referensi.md
+    - Evidence / Bukti: 15-progress-bar-user-09-bukti-evidence.md
+    - Referensi: 15-progress-bar-user-10-referensi.md
   - 16. Record Keeper (Root):
     - 16-record-keeper-root.md
     - Recon: 16-record-keeper-root-01-recon.md
@@ -661,3 +683,28 @@ nav:
     - Flag & Verifikasi: 51-pagestream-09-flag.md
     - Evidence / Bukti: 51-pagestream-10-bukti-evidence.md
     - Referensi: 51-pagestream-11-referensi.md
+- NF · Reverse:
+  - 53. Baby Strings:
+    - 53-baby-strings.md
+    - Recon: 53-baby-strings-01-recon.md
+    - Analisis: 53-baby-strings-02-analisis.md
+    - Solver: 53-baby-strings-03-solver.md
+    - Flag & Verifikasi: 53-baby-strings-04-flag.md
+    - Evidence / Bukti: 53-baby-strings-05-bukti-evidence.md
+    - Referensi: 53-baby-strings-06-referensi.md
+  - 54. Baby XOR:
+    - 54-baby-xor.md
+    - Recon: 54-baby-xor-01-recon.md
+    - Analisis: 54-baby-xor-02-analisis.md
+    - Solver: 54-baby-xor-03-solver.md
+    - Flag & Verifikasi: 54-baby-xor-04-flag.md
+    - Evidence / Bukti: 54-baby-xor-05-bukti-evidence.md
+    - Referensi: 54-baby-xor-06-referensi.md
+  - 55. Baby Python:
+    - 55-baby-python.md
+    - Recon: 55-baby-python-01-recon.md
+    - Analisis: 55-baby-python-02-analisis.md
+    - Solver: 55-baby-python-03-solver.md
+    - Flag & Verifikasi: 55-baby-python-04-flag.md
+    - Evidence / Bukti: 55-baby-python-05-bukti-evidence.md
+    - Referensi: 55-baby-python-06-referensi.md

@@ -23,13 +23,17 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. `hard_feistel` memvalidasi flag 39 byte dari `argv[1]` dan memprosesnya sebagai 10 blok 32-bit. Terus, setiap blok dipecah menjadi `L` dan `R` 16-bit, lalu melewati **16 ronde Feistel**. Lalu, fungsi ronde: `F(R,K) = (((R * 0x9e3779b1) mod 2^32) >> 5) XOR ((K * 257) & 0xffff)`. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
 | 1 | Recon | NFX{...} | [Buka](44-hard-feistel-01-recon.md) |
 | 2 | Triage awal | file reverse/Hard_02_Feistel/hard_feistel | [Buka](44-hard-feistel-02-triage-awal.md) |
-| 3 | Perintah akuisisi bukti | python3 -c "from pwn import *; print(ELF('$BIN').checksec())" \ | [Buka](44-hard-feistel-03-perintah-akuisisi-bukti.md) |
+| 3 | Perintah akuisisi bukti | file "$BIN" > writeups/assets/hard-feistel/01-identitas.txt | [Buka](44-hard-feistel-03-perintah-akuisisi-bukti.md) |
 | 4 | Analisis | Input 39 byte disalin ke [rsp], sisa buffer sudah di-zero, sehingga blok terakhir (byte ke-40) bernilai 0x00. | [Buka](44-hard-feistel-04-analisis.md) |
 | 5 | Analisis | K 257 sama dengan K + (K << 8), yaitu menduplikasi byte rendah key ke dua byte (karena key hanya 8-bit). | [Buka](44-hard-feistel-05-analisis-2.md) |
 | 6 | Analisis | Setelah 16 ronde, register berisi: | [Buka](44-hard-feistel-06-analisis-3.md) |

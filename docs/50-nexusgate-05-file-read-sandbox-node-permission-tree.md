@@ -4,7 +4,7 @@
 
 > **Langkah 5/12 — File-read sandbox: Node permission tree.** Allow-list hanya tiga file.
 >
-> **Titik penting:** 127.0.0.1
+> **Titik penting:** file read: /app/data/bot -> f0f6801a74026cf1 · file read: /app/data/bo -> ERR:ERR_ACCESS_DENIED · file read: /app/data/b -> ERR:ERR_ACCESS_DENIED
 >
 > **Berikutnya:** [Analisis](50-nexusgate-06-analisis.md)
 

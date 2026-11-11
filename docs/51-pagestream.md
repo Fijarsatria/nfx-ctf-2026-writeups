@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. **PageStream** adalah aplikasi Express/EJS + MySQL untuk komunitas pembaca. Role `user`/`verified`/`admin` disimpan di session. Terus, **Mass assignment**: `POST /profile` melakukan `Object.assign({}, req.session.user, req.body)`, sehingga user biasa dapat mengubah `role` menjadi `admin` (dan `id`/field lain). Lalu, setelah role menjadi admin, `requireAdmin` lolos. Endpoint `/view?file=` memakai `path.resolve(__dirname, '../uploads', fileParam)` tanpa pengecekan containment → **path traversal file read**, cukup dengan `../../root/flag.txt`. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

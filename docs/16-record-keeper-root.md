@@ -23,6 +23,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. foothold dimulai dari RCE **CVE-2026-111497 (Node2Shell)** di service `:3000`, memberi shell sebagai `uid=1000(node)`. Terus, `sudo -n -l` mengizinkan `(ops) NOPASSWD: /usr/local/bin/record-archive`. Lalu, `record-archive` menjalankan `cd "$target"; tar -czf "$out" *` sebagai `ops`. Karena `tar` membaca nama file yang diawali `--` sebagai opsi, isi direktori target bisa menyuntikkan opsi `tar`. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |

@@ -22,6 +22,10 @@
 
 *Challenge brief asli di platform NFX CTF 2026.*
 
+## Cerita singkat
+
+Jadi ceritanya gini. challenge memberi sebuah poster AI berjudul **“DIGITAL HOUR LEARNING”**. Metadata PNG-nya membocorkan nama perusahaan: `Title: Dih Office`, `Author: Kada`, dan `Comment: 3%4TD'aPBA*Z,QPN` (decoy, bukan password). Terus, nama perusahaan adalah **Digital Hour Learning / Dihlearn**. Jejak publiknya ada di Instagram `@dihlearn.id` dan akun karier `@career.dihlearn.id`. Lalu, jejak publik akun karier mengarah ke alamat email rekrutmen **`dihlearn.id@gmail.com`**. Nah, dari situ kita bisa sampai ke flag dan bukti submit-nya.
+
 ## Alur & Titik Penting
 
 | # | Langkah | Titik penting | Buka |
