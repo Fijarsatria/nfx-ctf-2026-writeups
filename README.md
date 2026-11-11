@@ -1,6 +1,6 @@
 # NFX CTF 2026 — Writeup Medium–Hard (GitHub Pages)
 
-Situs statis MkDocs Material untuk **574 halaman** (58 challenge).
+Situs statis MkDocs Material untuk **595 halaman** (61 challenge).
 Tiap challenge dipecah menjadi Overview, Recon, Analisis, Eksploitasi, Flag,
 Evidence, dan Referensi, lengkap dengan command, output, dan screenshot.
 

@@ -1,0 +1,19 @@
+$ file easy_config
+easy_config: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=900912591780d540c9a352e5231fb239e3e2a092, for GNU/Linux 3.2.0, stripped
+
+$ objdump -s -j .rodata easy_config | head -12
+
+easy_config:     file format elf64-x86-64
+
+Contents of section .rodata:
+ 2000 01000200 00000000 4e46587b 63306e66  ........NFX{c0nf
+ 2010 31675f00 64336330 795f0070 34727473  1g_.d3c0y_.p4rts
+ 2020 5f003472 335f6675 6e7d004e 46587b74  _.4r3_fun}.NFX{t
+ 2030 6831735f 31735f6e 30745f74 68335f66  h1s_1s_n0t_th3_f
+ 2040 6c34677d 004e4658 7b63325f 62333463  l4g}.NFX{c2_b34c
+ 2050 306e5f70 3472745f 31735f66 346b337d  0n_p4rt_1s_f4k3}
+ 2060 0050656d 616b6169 616e3a20 2573203c  .Pemakaian: %s <
+ 2070 666c6167 3e0a0000 436f7272 65637421  flag>...Correct!
+
+$ ./easy_config 'NFX{c0nf1g_d3c0y_p4rts_4r3_fun}'
+Correct! Konfigurasi asli berhasil dirangkai.

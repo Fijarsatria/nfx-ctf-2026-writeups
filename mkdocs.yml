@@ -708,3 +708,27 @@ nav:
     - Flag & Verifikasi: 55-baby-python-04-flag.md
     - Evidence / Bukti: 55-baby-python-05-bukti-evidence.md
     - Referensi: 55-baby-python-06-referensi.md
+  - 59. Easy Bash Layers:
+    - 59-easy-bash-layers.md
+    - Recon: 59-easy-bash-layers-01-recon.md
+    - Analisis: 59-easy-bash-layers-02-analisis.md
+    - Solver: 59-easy-bash-layers-03-solver.md
+    - Flag & Verifikasi: 59-easy-bash-layers-04-flag.md
+    - Evidence / Bukti: 59-easy-bash-layers-05-bukti-evidence.md
+    - Referensi: 59-easy-bash-layers-06-referensi.md
+  - 60. Easy JS Obfuscation:
+    - 60-easy-js-obfuscation.md
+    - Recon: 60-easy-js-obfuscation-01-recon.md
+    - Analisis: 60-easy-js-obfuscation-02-analisis.md
+    - Solver: 60-easy-js-obfuscation-03-solver.md
+    - Flag & Verifikasi: 60-easy-js-obfuscation-04-flag.md
+    - Evidence / Bukti: 60-easy-js-obfuscation-05-bukti-evidence.md
+    - Referensi: 60-easy-js-obfuscation-06-referensi.md
+  - 61. Easy Config Decoy:
+    - 61-easy-config-decoy.md
+    - Recon: 61-easy-config-decoy-01-recon.md
+    - Analisis: 61-easy-config-decoy-02-analisis.md
+    - Solver: 61-easy-config-decoy-03-solver.md
+    - Flag & Verifikasi: 61-easy-config-decoy-04-flag.md
+    - Evidence / Bukti: 61-easy-config-decoy-05-bukti-evidence.md
+    - Referensi: 61-easy-config-decoy-06-referensi.md

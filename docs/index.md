@@ -1,18 +1,18 @@
 <div class="nx-hero">
 <div class="nx-kicker">NFX CTF 2026 · Writeup Book</div>
 <h1>NFX CTF 2026<br><span class="nx-hero-sub">Medium–Hard, dari recon sampai flag</span></h1>
-<p>Kumpulan writeup 58 challenge NFX CTF 2026, disusun langkah per langkah. Setiap challenge dipecah menjadi bagian yang mengikuti isinya, lengkap dengan command, output, serta screenshot.</p>
+<p>Kumpulan writeup 61 challenge NFX CTF 2026, disusun langkah per langkah. Setiap challenge dipecah menjadi bagian yang mengikuti isinya, lengkap dengan command, output, serta screenshot.</p>
 <div class="nx-byline"><span class="nx-byline-dot"></span>Disusun oleh <strong>B0TCIL</strong></div>
 <div class="nx-stats">
-<div class="nx-stat"><strong>58</strong><span>Challenge</span></div>
-<div class="nx-stat"><strong>574</strong><span>Halaman</span></div>
-<div class="nx-stat"><strong>850</strong><span>File bukti</span></div>
-<div class="nx-stat"><strong>57</strong><span>Verified</span></div>
+<div class="nx-stat"><strong>61</strong><span>Challenge</span></div>
+<div class="nx-stat"><strong>595</strong><span>Halaman</span></div>
+<div class="nx-stat"><strong>862</strong><span>File bukti</span></div>
+<div class="nx-stat"><strong>60</strong><span>Verified</span></div>
 </div>
 </div>
 
 <div class="nx-toc-grid">
-<a class="nx-toc-card" href="#daftar-challenge"><b>Daftar challenge</b><span>Filter 58 challenge berdasarkan status, kategori, atau nama.</span></a>
+<a class="nx-toc-card" href="#daftar-challenge"><b>Daftar challenge</b><span>Filter 61 challenge berdasarkan status, kategori, atau nama.</span></a>
 <a class="nx-toc-card" href="#status"><b>Status flag</b><span>Arti VERIFIED dan OPEN.</span></a>
 <a class="nx-toc-card" href="#cara-pakai"><b>Cara pakai</b><span>Alur membaca dan struktur tiap challenge.</span></a>
 <a class="nx-toc-card" href="#catatan"><b>Catatan</b><span>Challenge OPEN dan hal yang perlu diketahui.</span></a>
@@ -28,7 +28,7 @@
 <button type="button" class="nx-cat" data-category-filter="Osint"><span class="nx-cat-name">Osint</span><span class="nx-cat-count">5 challenge · 5 solved</span></button>
 <button type="button" class="nx-cat" data-category-filter="Pwn"><span class="nx-cat-name">Pwn</span><span class="nx-cat-count">7 challenge · 7 solved</span></button>
 <button type="button" class="nx-cat" data-category-filter="Web"><span class="nx-cat-name">Web</span><span class="nx-cat-count">7 challenge · 6 solved</span></button>
-<button type="button" class="nx-cat" data-category-filter="Reverse"><span class="nx-cat-name">Reverse</span><span class="nx-cat-count">8 challenge · 8 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Reverse"><span class="nx-cat-name">Reverse</span><span class="nx-cat-count">11 challenge · 11 solved</span></button>
 </div>
 
 ## Daftar challenge
@@ -38,7 +38,7 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 <div class="nx-filters">
 <label class="nx-search"><span>Cari challenge · tekan /</span><input id="nx-search" type="search" placeholder="Nama, kategori, atau difficulty..." autocomplete="off"></label>
 <div class="nx-filter-group" role="group" aria-label="Filter status"><span class="nx-filter-label">Status</span><button type="button" class="nx-filter is-active" data-status-filter="all">Semua</button>
-<button type="button" class="nx-filter" data-status-filter="VERIFIED">VERIFIED (57)</button>
+<button type="button" class="nx-filter" data-status-filter="VERIFIED">VERIFIED (60)</button>
 <button type="button" class="nx-filter" data-status-filter="OPEN">OPEN (1)</button>
 </div>
 <div class="nx-filter-group" role="group" aria-label="Filter kategori"><span class="nx-filter-label">Kategori</span><button type="button" class="nx-filter is-active" data-category-filter="all">Semua</button>
@@ -52,7 +52,7 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 <button type="button" class="nx-filter" data-category-filter="Reverse">Reverse</button>
 </div>
 </div>
-<div class="nx-result-line"><strong id="nx-count">58 challenge</strong><button type="button" id="nx-reset" class="nx-reset">Reset filter</button></div>
+<div class="nx-result-line"><strong id="nx-count">61 challenge</strong><button type="button" id="nx-reset" class="nx-reset">Reset filter</button></div>
 <div class="nx-table-wrap">
 <table id="nx-challenge-table" class="nx-challenge-table">
 <thead><tr><th>No</th><th>Challenge</th><th>Difficulty</th><th>Poin</th><th>Status</th><th>Halaman</th></tr></thead>
@@ -115,6 +115,9 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 <tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Baby" data-search="Ghost XOR Crypto Baby Track Mahasiswa NF"><td>56</td><td><a href="56-ghost-xor.html"><strong>Ghost XOR</strong></a><br><span class="nx-row-sub">NF · Crypto</span></td><td>Baby</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="56-ghost-xor.html">7 halaman</a></td></tr>
 <tr data-category="Forensics" data-status="VERIFIED" data-difficulty="Easy" data-search="Image Metadata Forensics Easy Track Mahasiswa NF"><td>57</td><td><a href="57-image-metadata.html"><strong>Image Metadata</strong></a><br><span class="nx-row-sub">NF · Forensics</span></td><td>Easy</td><td>220</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="57-image-metadata.html">7 halaman</a></td></tr>
 <tr data-category="Forensics" data-status="VERIFIED" data-difficulty="Baby" data-search="Cleartext Sniffing Forensics Baby Track Mahasiswa NF"><td>58</td><td><a href="58-cleartext-sniffing.html"><strong>Cleartext Sniffing</strong></a><br><span class="nx-row-sub">NF · Forensics</span></td><td>Baby</td><td>180</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="58-cleartext-sniffing.html">7 halaman</a></td></tr>
+<tr data-category="Reverse" data-status="VERIFIED" data-difficulty="Easy" data-search="Easy Bash Layers Reverse Easy Track Mahasiswa NF"><td>59</td><td><a href="59-easy-bash-layers.html"><strong>Easy Bash Layers</strong></a><br><span class="nx-row-sub">NF · Reverse</span></td><td>Easy</td><td>260</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="59-easy-bash-layers.html">7 halaman</a></td></tr>
+<tr data-category="Reverse" data-status="VERIFIED" data-difficulty="Easy" data-search="Easy JS Obfuscation Reverse Easy Track Mahasiswa NF"><td>60</td><td><a href="60-easy-js-obfuscation.html"><strong>Easy JS Obfuscation</strong></a><br><span class="nx-row-sub">NF · Reverse</span></td><td>Easy</td><td>260</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="60-easy-js-obfuscation.html">7 halaman</a></td></tr>
+<tr data-category="Reverse" data-status="VERIFIED" data-difficulty="Easy" data-search="Easy Config Decoy Reverse Easy Track Mahasiswa NF"><td>61</td><td><a href="61-easy-config-decoy.html"><strong>Easy Config Decoy</strong></a><br><span class="nx-row-sub">NF · Reverse</span></td><td>Easy</td><td>260</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="61-easy-config-decoy.html">7 halaman</a></td></tr>
 </tbody></table></div>
 <div id="nx-empty" class="nx-empty" hidden>Tidak ada challenge yang cocok. Coba kata kunci atau filter lain.</div>
 
@@ -124,7 +127,7 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 <div class="nx-legend"><span class="nx-badge nx-badge-verified">VERIFIED</span><p>Flag sudah diterima platform. Halaman Flag memuat bukti submit.</p></div>
 <div class="nx-legend"><span class="nx-badge nx-badge-open">OPEN</span><p>Flag belum ditemukan. Halaman berisi analisis dan kendala yang ditemui, bukan flag.</p></div>
 </div>
-<p class="nx-verified-note"><strong>57/57 flag</strong> sudah disubmit lewat web platform dan diterima (screenshot submit di tiap halaman Flag).</p>
+<p class="nx-verified-note"><strong>60/60 flag</strong> sudah disubmit lewat web platform dan diterima (screenshot submit di tiap halaman Flag).</p>
 
 ## Cara pakai
 
@@ -156,7 +159,7 @@ Setiap halaman juga punya daftar isi di sisi kanan, tombol salin pada blok kode,
     Halaman NXPortal berisi analisis dan kendala yang ditemui. Tidak ada flag yang dicantumkan untuk challenge ini.
 
 !!! success "Flag sudah diverifikasi"
-    Seluruh 57 flag challenge yang solved sudah disubmit lewat web platform dan diterima. NXPortal tetap OPEN karena flag-nya belum ditemukan.
+    Seluruh 60 flag challenge yang solved sudah disubmit lewat web platform dan diterima. NXPortal tetap OPEN karena flag-nya belum ditemukan.
 
 !!! tip "Bonus Insane"
     **NarrowGate** adalah challenge Insane dan tetap disertakan sebagai bonus.
