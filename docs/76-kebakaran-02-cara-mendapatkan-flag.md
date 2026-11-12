@@ -1,24 +1,27 @@
-# Kebakaran — Flag & Verifikasi
+# Kebakaran — Cara mendapatkan flag
 
 [← Overview](76-kebakaran.md) · [Index](index.md)
 
-> **Langkah 2/5 — Cara Mendapatkan Flag.** Cara Mendapatkan Flag
->
-> **Titik penting:** NXCTF{GLORIA_SETIABAKTI_SINARHARAPAN}
+> **Langkah 2/5.** Tiga nama ada di flag yang diterima. Frame Street View belum diarsipkan.
 >
 > **Berikutnya:** [Flag](76-kebakaran-03-flag.md)
 
-> **Flag:** `NXCTF{GLORIA_SETIABAKTI_SINARHARAPAN}`
-> **Status:** `VERIFIED`
+Aturan brief:
 
-1. Cari lokasi kejadian dari foto/berita.
-2. Identifikasi gedung dan perusahaan di dalamnya.
-3. Rangkai nama perusahaan/entitas menjadi flag.
+```text
+NXCTF{NAMA1_NAMA2_NAMA3}
+```
 
-### Terminal evidence (real)
+Flag yang diterima:
 
-![Terminal evidence (real)](assets/kebakaran/00b-terminal-evidence.png)
+```text
+NXCTF{GLORIA_SETIABAKTI_SINARHARAPAN}
+```
 
-*Terminal evidence (real).*
+Jadi tiga usahanya, sudah terurut:
 
-> **Bukti:** terminal evidence (real).
+1. Gloria
+2. Setiabakti
+3. Sinarharapan
+
+Yang belum ada di evidence: gang mana, koordinatnya, dan tangkapan Street View ketiga papan itu. Jangan mengarang lokasi. Tambahkan frame itu ke halaman ini sebelum mengklaim metode geolokasi lengkap.

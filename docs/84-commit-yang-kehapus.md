@@ -25,15 +25,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Jejak Awal | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](84-commit-yang-kehapus-01-jejak-awal.md) |
-| 2 | Cara Mendapatkan Flag | NFXCTF{g1t_d4ngl1ng_bl0b_h4v0c_5c8a19d4} | [Buka](84-commit-yang-kehapus-02-cara-mendapatkan-flag.md) |
+| 1 | Jejak Awal | Dangling blob `21d5a194`. | [Buka](84-commit-yang-kehapus-01-jejak-awal.md) |
+| 2 | Cara Mendapatkan Flag | Keystream SHA256, bukan XOR polos. | [Buka](84-commit-yang-kehapus-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFXCTF{g1t_d4ngl1ng_bl0b_h4v0c_5c8a19d4} | [Buka](84-commit-yang-kehapus-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](84-commit-yang-kehapus-04-bukti-evidence.md) |
 | 5 | Referensi | Git dangling object, deleted commit. | [Buka](84-commit-yang-kehapus-05-referensi.md) |
 
 ## Cerita singkat
 
-Ada repo publik dengan commit yang dihapus. Object dangling masih bisa ditemukan lewat `git fsck`, lalu isinya didekripsi.
+Commit penghapus meninggalkan dangling blob. Key dekripsi disusun dari email author, AWS key yang dihapus, dan fingerprint PGP di blob itu.
 
 <div class="nx-evidence-preview"><a href="84-commit-yang-kehapus-04-bukti-evidence.html"><img src="assets/commit-yang-kehapus/00b-terminal-evidence.png" alt="Pratinjau evidence Commit yang kehapus" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="84-commit-yang-kehapus-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

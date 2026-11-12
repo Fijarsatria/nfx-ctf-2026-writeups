@@ -2,7 +2,7 @@
 
 [← Overview](41-talatah-ti-peuntas.md) · [Index](index.md)
 
-> **Langkah 8/10 — Flag.** Status verified platform menurut writeups/FLAGS.md.
+> **Langkah 8/10 — Flag.** Status tercatat accepted di platform. Buktinya terminal evidence di halaman ini.
 >
 > **Titik penting:** NFX{HiduPPk1T4AAyangMelawann}
 >
@@ -22,7 +22,7 @@ $ cat flags/pwn/TalatahTiPeuntas.txt
 NFX{HiduPPk1T4AAyangMelawann}
 ```
 
-Status `verified platform` menurut `writeups/FLAGS.md`.
+Status `VERIFIED`: flag tercatat accepted di platform. File `writeups/FLAGS.md` tidak ada di repo ini.
 
 ### Terminal evidence (real)
 

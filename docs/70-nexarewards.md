@@ -24,15 +24,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](70-nexarewards-01-recon.md) |
-| 2 | Cara Mendapatkan Flag | NFX{r4c3_c0nd1t10n_g1ft_c4rd_d0ubl3_sp3nd} | [Buka](70-nexarewards-02-cara-mendapatkan-flag.md) |
+| 1 | Recon | Login + kode `NEXA-RACE-60`. | [Buka](70-nexarewards-01-recon.md) |
+| 2 | Cara Mendapatkan Flag | Race di `/redeem`, lalu beli `audit-report`. | [Buka](70-nexarewards-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{r4c3_c0nd1t10n_g1ft_c4rd_d0ubl3_sp3nd} | [Buka](70-nexarewards-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](70-nexarewards-04-bukti-evidence.md) |
 | 5 | Referensi | Race condition, double spend, parallel requests. | [Buka](70-nexarewards-05-referensi.md) |
 
 ## Cerita singkat
 
-Gift card di NexaRewards bisa dipakai dua kali kalau request dikirim bersamaan. Ini race condition pada pengecekan saldo/redeem.
+Login `employee@nexarewards.test`, redeem `NEXA-RACE-60` sepuluh kali secara paralel, lalu beli item `audit-report`.
 
 <div class="nx-evidence-preview"><a href="70-nexarewards-04-bukti-evidence.html"><img src="assets/nexarewards/00b-terminal-evidence.png" alt="Pratinjau evidence NexaRewards" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="70-nexarewards-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

@@ -25,15 +25,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](68-titipan-akhir-tahun-01-recon.md) |
-| 2 | Cara Mendapatkan Flag | NFX{D3C0D3_D4ND3C0D3_L4G1} | [Buka](68-titipan-akhir-tahun-02-cara-mendapatkan-flag.md) |
+| 1 | Recon | `pdfdetach -list` menemukan `doksli.txt`. | [Buka](68-titipan-akhir-tahun-01-recon.md) |
+| 2 | Cara Mendapatkan Flag | Base64 sekali. | [Buka](68-titipan-akhir-tahun-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{D3C0D3_D4ND3C0D3_L4G1} | [Buka](68-titipan-akhir-tahun-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](68-titipan-akhir-tahun-04-bukti-evidence.md) |
 | 5 | Referensi | PDF attachment, embedded object, encoding. | [Buka](68-titipan-akhir-tahun-05-referensi.md) |
 
 ## Cerita singkat
 
-PDF laporan Desember punya barang tambahan yang belum dibuka dari bungkusnya. Artinya ada attachment/objek yang masih ter-encode di dalam PDF.
+PDF Desember membawa `doksli.txt`. Isinya satu baris base64. Decode sekali.
 
 <div class="nx-evidence-preview"><a href="68-titipan-akhir-tahun-04-bukti-evidence.html"><img src="assets/titipan-akhir-tahun/00b-terminal-evidence.png" alt="Pratinjau evidence Titipan Akhir Tahun" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="68-titipan-akhir-tahun-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

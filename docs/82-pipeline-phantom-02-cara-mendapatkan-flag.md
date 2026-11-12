@@ -1,24 +1,27 @@
-# Pipeline Phantom — Flag & Verifikasi
+# Pipeline Phantom — Cara mendapatkan flag
 
 [← Overview](82-pipeline-phantom.md) · [Index](index.md)
 
-> **Langkah 2/5 — Cara Mendapatkan Flag.** Cara Mendapatkan Flag
->
-> **Titik penting:** NFX{gh_4ct10ns_m4sk_byp4ss_4nd_0rph4n_c0mm1t_l34k_9f82}
+> **Langkah 2/5.** Prefix dari log Actions yang dicetak dengan spasi. Sufiks dari commit yang di-revert.
 >
 > **Berikutnya:** [Flag](82-pipeline-phantom-03-flag.md)
 
-> **Flag:** `NFX{gh_4ct10ns_m4sk_byp4ss_4nd_0rph4n_c0mm1t_l34k_9f82}`
-> **Status:** `VERIFIED`
+1. Actions log, run `40221200390`, job `121252951677`, baris 273:
 
-1. Unduh log Actions.
-2. Cari baris `DEBUG_PAYLOAD`.
-3. Cocokkan dengan orphan commit untuk melengkapi flag.
+```text
+[DEBUG_PAYLOAD]: N F X { g h _ 4 c t 1 0 n s _ m 4 s k _ b y p 4 s s _
+```
 
-### Terminal evidence (real)
+Masking CI gagal karena secret dicetak dengan spasi. Gabungkan tanpa spasi:
 
-![Terminal evidence (real)](assets/pipeline-phantom/00b-terminal-evidence.png)
+```text
+NFX{gh_4ct10ns_m4sk_byp4ss_
+```
 
-*Terminal evidence (real).*
+2. Issue publik menunjuk commit yang di-revert `62d3ad55d0cd1d95c64fc0168e317b928b0b4d95`. File `config/c2_endpoint.json` di commit itu berisi fragmen `4nd_0rph4n_c0mm1t_l34k_9f82}`.
 
-> **Bukti:** terminal evidence (real).
+```text
+NFX{gh_4ct10ns_m4sk_byp4ss_4nd_0rph4n_c0mm1t_l34k_9f82}
+```
+
+Log Actions mentah tidak ada di folder evidence. Halaman ini mengikuti report arsip.

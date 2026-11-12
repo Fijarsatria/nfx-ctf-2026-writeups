@@ -25,7 +25,7 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](77-13-is-not-enough-01-recon.md) |
+| 1 | Recon | p5J9Y9\R;XJRF9^RG>LR5H;JJ;TR;XJR\;J:J>HRE>AvF^L | [Buka](77-13-is-not-enough-01-recon.md) |
 | 2 | Cara Mendapatkan Flag | NFX{Y0U_R0T4T3D_TH3_L3TT3R5_N0W_F1X_TH3_D1G1T5} | [Buka](77-13-is-not-enough-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{Y0U_R0T4T3D_TH3_L3TT3R5_N0W_F1X_TH3_D1G1T5} | [Buka](77-13-is-not-enough-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](77-13-is-not-enough-04-bukti-evidence.md) |

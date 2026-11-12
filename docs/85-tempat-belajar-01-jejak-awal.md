@@ -2,13 +2,17 @@
 
 [← Overview](85-tempat-belajar.md) · [Index](index.md)
 
-> **Langkah 1/5 — Jejak Awal.** Baca brief challenge dan cek attachment/service yang diberikan.
+> **Langkah 1/5 — Jejak Awal.** Poster `office.png` membocorkan nama Dih dan komentar yang bukan flag.
 >
-> **Titik penting:** Baca brief challenge dan cek attachment/service yang diberikan.
+> **Titik penting:** Author `Kada`, Title `Dih Office`, Comment `3%4TD'aPBA*Z,QPN`.
 >
 > **Berikutnya:** [Cara Mendapatkan Flag](85-tempat-belajar-02-cara-mendapatkan-flag.md)
 
-Baca brief challenge dan cek attachment/service yang diberikan. Catat endpoint, file, atau petunjuk awal sebelum masuk ke langkah berikutnya.
+```bash
+exiftool -Author -Title -Comment office.png
+```
+
+Nama "Dih" mengarah ke Instagram `@dihlearn.id` dan `@career.dihlearn.id`. Base64 di post karier ada di halaman berikutnya, dan platform menolak hasil decode-nya.
 
 ### Evidence langkah ini
 

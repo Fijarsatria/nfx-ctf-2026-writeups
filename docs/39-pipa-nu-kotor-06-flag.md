@@ -2,7 +2,7 @@
 
 [← Overview](39-pipa-nu-kotor.md) · [Index](index.md)
 
-> **Langkah 6/8 — Flag.** Status verified platform menurut writeups/FLAGS.md.
+> **Langkah 6/8 — Flag.** Status tercatat accepted di platform. Buktinya terminal evidence di halaman ini.
 >
 > **Titik penting:** NFX{Si44aTehKuduSadarDip4lakSave3Jari1}
 >
@@ -22,7 +22,7 @@ $ cat flags/pwn/PipaNuKotor.txt
 NFX{Si44aTehKuduSadarDip4lakSave3Jari1}
 ```
 
-Status `verified platform` menurut `writeups/FLAGS.md`.
+Status `VERIFIED`: flag tercatat accepted di platform. File `writeups/FLAGS.md` tidak ada di repo ini.
 
 ### Terminal evidence (real)
 

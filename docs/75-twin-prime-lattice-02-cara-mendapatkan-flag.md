@@ -1,24 +1,29 @@
-# Twin Prime Lattice — Flag & Verifikasi
+# Twin Prime Lattice — Cara mendapatkan flag
 
 [← Overview](75-twin-prime-lattice.md) · [Index](index.md)
 
-> **Langkah 2/5 — Cara Mendapatkan Flag.** Cara Mendapatkan Flag
->
-> **Titik penting:** NXCTF{tw1n_pr1m3s_m33t_l4tt1c3_c0pp3r5m1th_af6854ba29a3}
+> **Langkah 2/5.** Fermat: `a = isqrt(N)+1`, `b = isqrt(a*a-N)`, lalu `p=a-b` dan `q=a+b`.
 >
 > **Berikutnya:** [Flag](75-twin-prime-lattice-03-flag.md)
 
-> **Flag:** `NXCTF{tw1n_pr1m3s_m33t_l4tt1c3_c0pp3r5m1th_af6854ba29a3}`
-> **Status:** `VERIFIED`
+```python
+from math import isqrt
+from Crypto.Util.number import long_to_bytes, inverse
 
-1. Baca `output.txt` (n, e, ciphertext).
-2. Fermat factorization untuk mencari p dan q yang berdekatan.
-3. Hitung d, dekripsi ciphertext, konversi ke flag.
+text = open("output.txt").read()
+N = int(text.split("N = ", 1)[1].split()[0])
+c = int(text.split("c = ", 1)[1].split()[0])
+e = 65537
+a = isqrt(N) + 1
+b = isqrt(a * a - N)
+p, q = a - b, a + b
+assert p * q == N
+d = inverse(e, (p - 1) * (q - 1))
+print(long_to_bytes(pow(c, d, N)).decode())
+```
 
-### Terminal evidence (real)
+```text
+NXCTF{tw1n_pr1m3s_m33t_l4tt1c3_c0pp3r5m1th_af6854ba29a3}
+```
 
-![Terminal evidence (real)](assets/twin-prime-lattice/00b-terminal-evidence.png)
-
-*Terminal evidence (real).*
-
-> **Bukti:** terminal evidence (real).
+Skrip ini dijalankan ulang terhadap `output.txt` asli. Judul menyebut lattice, tetapi faktor yang berdekatan selesai dengan Fermat. Prefix flag adalah `NXCTF`.

@@ -24,7 +24,7 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](78-kunci-sudo-sing-kesasar-01-recon.md) |
+| 1 | Recon | peserta/kunci`, rule harus diawali `ALL`. | [Buka](78-kunci-sudo-sing-kesasar-01-recon.md) |
 | 2 | Cara Mendapatkan Flag | NFX{Wh33W0kTh3Tok-k} | [Buka](78-kunci-sudo-sing-kesasar-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{Wh33W0kTh3Tok-k} | [Buka](78-kunci-sudo-sing-kesasar-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](78-kunci-sudo-sing-kesasar-04-bukti-evidence.md) |

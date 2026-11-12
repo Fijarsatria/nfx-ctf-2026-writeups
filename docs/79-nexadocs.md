@@ -24,15 +24,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](79-nexadocs-01-recon.md) |
-| 2 | Cara Mendapatkan Flag | NFX{j1nja2_sstI_rce_v1a_gl0bals} | [Buka](79-nexadocs-02-cara-mendapatkan-flag.md) |
+| 1 | Recon | `/register` lalu `/studio`. | [Buka](79-nexadocs-01-recon.md) |
+| 2 | Cara Mendapatkan Flag | `{{7*7}}` lalu `os.popen('cat /flag.txt')`. | [Buka](79-nexadocs-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{j1nja2_sstI_rce_v1a_gl0bals} | [Buka](79-nexadocs-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](79-nexadocs-04-bukti-evidence.md) |
 | 5 | Referensi | Jinja2 SSTI, globals, RCE. | [Buka](79-nexadocs-05-referensi.md) |
 
 ## Cerita singkat
 
-Brand Studio memakai template Jinja2. Kalau input user masuk ke template, kita bisa SSTI dan mengeksekusi command.
+Daftar akun, kirim `{{7*7}}` ke `company_name` di `/studio`. Setelah hasilnya 49, baca `/flag.txt` lewat `cycler.__init__.__globals__.os.popen`.
 
 <div class="nx-evidence-preview"><a href="79-nexadocs-04-bukti-evidence.html"><img src="assets/nexadocs/00b-terminal-evidence.png" alt="Pratinjau evidence NexaDocs" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="79-nexadocs-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

@@ -24,7 +24,7 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](83-follow-jarvis-01-recon.md) |
+| 1 | Recon | follow minimal dua akun Jarvis, lalu buka ticket Discord. | [Buka](83-follow-jarvis-01-recon.md) |
 | 2 | Cara Mendapatkan Flag | NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis} | [Buka](83-follow-jarvis-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis} | [Buka](83-follow-jarvis-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](83-follow-jarvis-04-bukti-evidence.md) |

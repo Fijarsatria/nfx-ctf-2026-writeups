@@ -24,15 +24,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](65-the-broken-resource-parser-01-recon.md) |
-| 2 | Cara Mendapatkan Flag | NFX{Ad1o0Ssss_Br0k3nnn_fl3gg} | [Buka](65-the-broken-resource-parser-02-cara-mendapatkan-flag.md) |
+| 1 | Recon | ELF non-PIE, `win` di `0x4012ae`. | [Buka](65-the-broken-resource-parser-01-recon.md) |
+| 2 | Cara Mendapatkan Flag | Overflow nama, offset `0x38`, ret2win. | [Buka](65-the-broken-resource-parser-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{Ad1o0Ssss_Br0k3nnn_fl3gg} | [Buka](65-the-broken-resource-parser-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](65-the-broken-resource-parser-04-bukti-evidence.md) |
 | 5 | Referensi | Parser bug, memory corruption. | [Buka](65-the-broken-resource-parser-05-referensi.md) |
 
 ## Cerita singkat
 
-Parser resource-nya punya bug. Kita perlu cari input yang membuat parser membaca di luar batas atau menimpa struktur internal.
+Binary non-PIE tanpa canary. `parse_resource` menyalin nama ke buffer 0x30 byte. Padding `0x38` lalu alamat `win` (`0x4012ae`) membaca `flag.txt`.
 
 <div class="nx-evidence-preview"><a href="65-the-broken-resource-parser-04-bukti-evidence.html"><img src="assets/the-broken-resource-parser/00b-terminal-evidence.png" alt="Pratinjau evidence THE BROKEN RESOURCE PARSER" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="65-the-broken-resource-parser-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

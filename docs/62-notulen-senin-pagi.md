@@ -25,15 +25,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](62-notulen-senin-pagi-01-recon.md) |
-| 2 | Cara Mendapatkan Flag | NFX{M4kHLuK_T4k_K4s4T_M4T4} | [Buka](62-notulen-senin-pagi-02-cara-mendapatkan-flag.md) |
+| 1 | Recon | PDF satu halaman, metadata bersih. | [Buka](62-notulen-senin-pagi-01-recon.md) |
+| 2 | Cara Mendapatkan Flag | `pdftotext` membaca teks putih. | [Buka](62-notulen-senin-pagi-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{M4kHLuK_T4k_K4s4T_M4T4} | [Buka](62-notulen-senin-pagi-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](62-notulen-senin-pagi-04-bukti-evidence.md) |
 | 5 | Referensi | PDF text layer, metadata, hidden text. | [Buka](62-notulen-senin-pagi-05-referensi.md) |
 
 ## Cerita singkat
 
-Kita dikasih PDF laporan kegiatan. Katanya semua sudah ditulis, tapi bos bilang tidak lihat apa-apa. Biasanya clue-nya ada di lapisan teks yang tidak terlihat, metadata, atau objek tersembunyi di PDF.
+Flag tertulis di PDF dengan warna yang tidak kelihatan. `pdftotext` tetap membacanya; mata tidak.
 
 <div class="nx-evidence-preview"><a href="62-notulen-senin-pagi-04-bukti-evidence.html"><img src="assets/notulen-senin-pagi/00b-terminal-evidence.png" alt="Pratinjau evidence Notulen Senin Pagi" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="62-notulen-senin-pagi-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

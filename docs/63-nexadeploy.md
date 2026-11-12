@@ -24,15 +24,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](63-nexadeploy-01-recon.md) |
-| 2 | Cara Mendapatkan Flag | NFX{y4ml_unS4f3_l04d3r_t0_rce} | [Buka](63-nexadeploy-02-cara-mendapatkan-flag.md) |
+| 1 | Recon | Login + endpoint `/pipelines/validate`. | [Buka](63-nexadeploy-01-recon.md) |
+| 2 | Cara Mendapatkan Flag | YAML `!!python/object/apply` lalu base64-decode. | [Buka](63-nexadeploy-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{y4ml_unS4f3_l04d3r_t0_rce} | [Buka](63-nexadeploy-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](63-nexadeploy-04-bukti-evidence.md) |
 | 5 | Referensi | Unsafe YAML deserialization, yaml.load vs safeload. | [Buka](63-nexadeploy-05-referensi.md) |
 
 ## Cerita singkat
 
-NexaDeploy punya fitur deploy berbasis YAML. Kalau YAML-nya di-load pakai loader tidak aman, kita bisa menyisipkan objek yang mengeksekusi command.
+Login `devops@nexadeploy.test:deploy1234`, kirim YAML `!!python/object/apply:subprocess.check_output` ke `/pipelines/validate`, lalu decode base64 di response.
 
 <div class="nx-evidence-preview"><a href="63-nexadeploy-04-bukti-evidence.html"><img src="assets/nexadeploy/00b-terminal-evidence.png" alt="Pratinjau evidence NexaDeploy" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="63-nexadeploy-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

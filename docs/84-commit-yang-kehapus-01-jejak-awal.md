@@ -1,21 +1,24 @@
-# Commit yang kehapus — Jejak Awal
+# Commit yang kehapus — Jejak awal
 
 [← Overview](84-commit-yang-kehapus.md) · [Index](index.md)
 
-> **Langkah 1/5 — Jejak Awal.** Baca brief challenge dan cek attachment/service yang diberikan.
->
-> **Titik penting:** Baca brief challenge dan cek attachment/service yang diberikan.
+> **Langkah 1/5.** Commit `a9e13b2` menghapus key. Blob `21d5a194` masih dangling.
 >
 > **Berikutnya:** [Cara Mendapatkan Flag](84-commit-yang-kehapus-02-cara-mendapatkan-flag.md)
 
-Baca brief challenge dan cek attachment/service yang diberikan. Catat endpoint, file, atau petunjuk awal sebelum masuk ke langkah berikutnya.
+```bash
+tar -xzf shadow_repo.tar.gz
+cd shadow_repo
+git log --oneline --all
+git show 706f270:.env.staging
+git fsck --lost-found
+```
 
-### Evidence langkah ini
+```text
+706f270 Initial staging configuration
+a9e13b2 Remove sensitive staging key before public release
+dangling blob 21d5a194fb6a627b1702cbf74b51589789988b72
+AWS_ACCESS_KEY_ID=AKIA-NFX-99204811
+```
 
-![term-01-solve.png](assets/commit-yang-kehapus/term-01-solve.png)
-
-*Terminal evidence — `01-solve.txt` (arsip transkrip sesi solve).*
-
-**Berkas mentah langkah ini:**
-
-- [`01-solve.txt`](assets/commit-yang-kehapus/01-solve.txt)
+Author kedua commit: `k.vance@ops-shadow-nfx.internal`.

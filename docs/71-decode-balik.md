@@ -24,7 +24,7 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](71-decode-balik-01-recon.md) |
+| 1 | Recon | To Base64` → `Zlib Deflate` → `To Base64` → `Generate Image`. | [Buka](71-decode-balik-01-recon.md) |
 | 2 | Cara Mendapatkan Flag | NFX{CuM4_D3c0D3_B4L!k_Aj4_H4Ru5Ny4_G4mP4nG} | [Buka](71-decode-balik-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{CuM4_D3c0D3_B4L!k_Aj4_H4Ru5Ny4_G4mP4nG} | [Buka](71-decode-balik-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](71-decode-balik-04-bukti-evidence.md) |

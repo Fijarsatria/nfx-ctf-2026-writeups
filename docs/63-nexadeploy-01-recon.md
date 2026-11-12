@@ -1,21 +1,16 @@
-# NexaDeploy — Recon
+# NexaDeploy — Jejak awal
 
 [← Overview](63-nexadeploy.md) · [Index](index.md)
 
-> **Langkah 1/5 — Recon.** Baca brief challenge dan cek attachment/service yang diberikan.
->
-> **Titik penting:** Baca brief challenge dan cek attachment/service yang diberikan.
+> **Langkah 1/5.** Login devops, lalu kirim YAML berbahaya ke `/pipelines/validate`.
 >
 > **Berikutnya:** [Cara Mendapatkan Flag](63-nexadeploy-02-cara-mendapatkan-flag.md)
 
-Baca brief challenge dan cek attachment/service yang diberikan. Catat endpoint, file, atau petunjuk awal sebelum masuk ke langkah berikutnya.
+Host di transkrip adalah tunnel sesi (`*.trycloudflare.com`) dan tidak permanen. Ganti `$HOST` dengan URL service yang sedang hidup.
 
-### Evidence langkah ini
+```bash
+curl -sS -c cookies -d 'email=devops@nexadeploy.test&password=deploy1234' \
+  "$HOST/login"
+```
 
-![term-01-solve.png](assets/nexadeploy/term-01-solve.png)
-
-*Terminal evidence — `01-solve.txt` (arsip transkrip sesi solve).*
-
-**Berkas mentah langkah ini:**
-
-- [`01-solve.txt`](assets/nexadeploy/01-solve.txt)
+Kredensial itu tertulis di halaman login challenge. Response yang diharapkan: `302` ke `/dashboard`.

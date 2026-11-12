@@ -25,15 +25,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](82-pipeline-phantom-01-recon.md) |
-| 2 | Cara Mendapatkan Flag | NFX{gh_4ct10ns_m4sk_byp4ss_4nd_0rph4n_c0mm1t_l34k_9f82} | [Buka](82-pipeline-phantom-02-cara-mendapatkan-flag.md) |
+| 1 | Recon | Repo `c2-deploy-pipeline`. | [Buka](82-pipeline-phantom-01-recon.md) |
+| 2 | Cara Mendapatkan Flag | Log berspasi + commit yang di-revert. | [Buka](82-pipeline-phantom-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{gh_4ct10ns_m4sk_byp4ss_4nd_0rph4n_c0mm1t_l34k_9f82} | [Buka](82-pipeline-phantom-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](82-pipeline-phantom-04-bukti-evidence.md) |
 | 5 | Referensi | GitHub Actions log, orphan commit. | [Buka](82-pipeline-phantom-05-referensi.md) |
 
 ## Cerita singkat
 
-Pipeline GitHub Actions punya log yang membocorkan payload. Flag dirangkai dari dua sumber: log Actions dan orphan commit.
+CI menyembunyikan secret, tetapi log mencetaknya dengan spasi. Separuh flag ada di situ; separuh lagi ada di commit yang sudah di-revert.
 
 <div class="nx-evidence-preview"><a href="82-pipeline-phantom-04-bukti-evidence.html"><img src="assets/pipeline-phantom/00b-terminal-evidence.png" alt="Pratinjau evidence Pipeline Phantom" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="82-pipeline-phantom-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

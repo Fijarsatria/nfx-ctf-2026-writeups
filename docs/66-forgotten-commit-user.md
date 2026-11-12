@@ -25,7 +25,7 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](66-forgotten-commit-user-01-recon.md) |
+| 1 | Recon | http://10.10.20.21/.git/HEAD | [Buka](66-forgotten-commit-user-01-recon.md) |
 | 2 | Cara Mendapatkan Flag | NFX{g1t_h1story_s3cr3ts_l34d_t0_ssh} | [Buka](66-forgotten-commit-user-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{g1t_h1story_s3cr3ts_l34d_t0_ssh} | [Buka](66-forgotten-commit-user-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](66-forgotten-commit-user-04-bukti-evidence.md) |

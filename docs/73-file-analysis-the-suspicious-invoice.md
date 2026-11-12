@@ -25,15 +25,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon Artefak | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](73-file-analysis-the-suspicious-invoice-01-recon-artefak.md) |
-| 2 | Cara Mendapatkan Flag | NFX{zip_t1221_cdn-jarvis-update.example_jarvis-ir-case-2026-0211} | [Buka](73-file-analysis-the-suspicious-invoice-02-cara-mendapatkan-flag.md) |
+| 1 | Recon Artefak | DOCX = ZIP, ada `attachedTemplate`. | [Buka](73-file-analysis-the-suspicious-invoice-01-recon-artefak.md) |
+| 2 | Cara Mendapatkan Flag | T1221 + domain + case ID. | [Buka](73-file-analysis-the-suspicious-invoice-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{zip_t1221_cdn-jarvis-update.example_jarvis-ir-case-2026-0211} | [Buka](73-file-analysis-the-suspicious-invoice-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](73-file-analysis-the-suspicious-invoice-04-bukti-evidence.md) |
 | 5 | Referensi | File carving, ZIP extraction, IOC. | [Buka](73-file-analysis-the-suspicious-invoice-05-referensi.md) |
 
 ## Cerita singkat
 
-Invoice-nya bukan dokumen biasa. Ada ZIP/attachment yang menyimpan domain C2 dan case ID; flag dirangkai dari temuan itu.
+DOCX adalah ZIP. `settings.xml.rels` menunjuk template eksternal (T1221). Flag disusun dari tipe file, teknik, domain, dan case ID di metadata.
 
 <div class="nx-evidence-preview"><a href="73-file-analysis-the-suspicious-invoice-04-bukti-evidence.html"><img src="assets/file-analysis-the-suspicious-invoice/00b-terminal-evidence.png" alt="Pratinjau evidence File Analysis: The Suspicious Invoice" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="73-file-analysis-the-suspicious-invoice-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

@@ -1,21 +1,18 @@
-# Kebakaran — Jejak Awal
+# Kebakaran — Jejak awal
 
 [← Overview](76-kebakaran.md) · [Index](index.md)
 
-> **Langkah 1/5 — Jejak Awal.** Baca brief challenge dan cek attachment/service yang diberikan.
->
-> **Titik penting:** Baca brief challenge dan cek attachment/service yang diberikan.
+> **Langkah 1/5.** Foto malam 25 Oktober 2026 03:59. Papan toko tidak terbaca.
 >
 > **Berikutnya:** [Cara Mendapatkan Flag](76-kebakaran-02-cara-mendapatkan-flag.md)
 
-Baca brief challenge dan cek attachment/service yang diberikan. Catat endpoint, file, atau petunjuk awal sebelum masuk ke langkah berikutnya.
+```bash
+exiftool kebakaran.jpeg
+```
 
-### Evidence langkah ini
+```text
+Date/Time Original : 2026:10:25 03:59:00
+Offset Time        : +07:00
+```
 
-![term-01-solve.png](assets/kebakaran/term-01-solve.png)
-
-*Terminal evidence — `01-solve.txt` (arsip transkrip sesi solve).*
-
-**Berkas mentah langkah ini:**
-
-- [`01-solve.txt`](assets/kebakaran/01-solve.txt)
+Brief meminta tiga nama usaha dari Google Street View sebelum kejadian: urut alfabet, tanpa kata "Toko", tanpa spasi, huruf kapital, dipisah `_`. Foto sendiri hanya gang malam, tembok bergrafiti, dan api di ujung gang.

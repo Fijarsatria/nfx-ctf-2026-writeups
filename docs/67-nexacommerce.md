@@ -24,15 +24,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](67-nexacommerce-01-recon.md) |
-| 2 | Cara Mendapatkan Flag | NFX{sql1_un10n_bas3d_4uth_byp4ss} | [Buka](67-nexacommerce-02-cara-mendapatkan-flag.md) |
+| 1 | Recon | Form login, parameter `email`. | [Buka](67-nexacommerce-01-recon.md) |
+| 2 | Cara Mendapatkan Flag | `' OR 1=1-- -` lalu buka `/account`. | [Buka](67-nexacommerce-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{sql1_un10n_bas3d_4uth_byp4ss} | [Buka](67-nexacommerce-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](67-nexacommerce-04-bukti-evidence.md) |
 | 5 | Referensi | SQL injection, UNION-based auth bypass. | [Buka](67-nexacommerce-05-referensi.md) |
 
 ## Cerita singkat
 
-Login NexaCommerce bisa dilewati lewat SQL injection. Kita susun payload UNION supaya query login mengembalikan user admin.
+Login bypass dengan `email=' OR 1=1-- -`. Session yang dihasilkan membuka `/account`, dan flag tertulis di halaman itu.
 
 <div class="nx-evidence-preview"><a href="67-nexacommerce-04-bukti-evidence.html"><img src="assets/nexacommerce/00b-terminal-evidence.png" alt="Pratinjau evidence NexaCommerce" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="67-nexacommerce-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

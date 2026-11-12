@@ -2,7 +2,7 @@
 
 [← Overview](40-starved.md) · [Index](index.md)
 
-> **Langkah 7/9 — Flag.** Status verified platform menurut writeups/FLAGS.md.
+> **Langkah 7/9 — Flag.** Status tercatat accepted di platform. Buktinya terminal evidence di halaman ini.
 >
 > **Titik penting:** NFX{st4rv3d_s3cc0mp_fd0_r3us3_r0p_m4st3r}
 >
@@ -22,7 +22,7 @@ $ cat flags/pwn/Starved.txt
 NFX{st4rv3d_s3cc0mp_fd0_r3us3_r0p_m4st3r}
 ```
 
-Status `verified platform` menurut `writeups/FLAGS.md`.
+Status `VERIFIED`: flag tercatat accepted di platform. File `writeups/FLAGS.md` tidak ada di repo ini.
 
 ### Terminal evidence (real)
 

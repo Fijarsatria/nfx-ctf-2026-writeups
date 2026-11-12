@@ -25,15 +25,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Jejak Awal | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](86-left-behind-in-the-metadata-01-jejak-awal.md) |
-| 2 | Cara Mendapatkan Flag | NFXCTF{3x1f_gp5_m3t4_tr4c3_9f41c8b2e70d} | [Buka](86-left-behind-in-the-metadata-02-cara-mendapatkan-flag.md) |
+| 1 | Jejak Awal | EXIF + GPS Monas `-6.1753,106.8269`. | [Buka](86-left-behind-in-the-metadata-01-jejak-awal.md) |
+| 2 | Cara Mendapatkan Flag | Key lima field, keystream SHA256. | [Buka](86-left-behind-in-the-metadata-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFXCTF{3x1f_gp5_m3t4_tr4c3_9f41c8b2e70d} | [Buka](86-left-behind-in-the-metadata-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](86-left-behind-in-the-metadata-04-bukti-evidence.md) |
 | 5 | Referensi | EXIF metadata, GPS, custom SHA256 stream cipher. | [Buka](86-left-behind-in-the-metadata-05-referensi.md) |
 
 ## Cerita singkat
 
-Foto `drop_point.jpg` menyimpan EXIF lengkap: kamera, artis, serial, GPS, dan cipher. EXIF itu jadi key untuk mendekripsi pesan.
+Lima field EXIF digabung menjadi key. Ciphertext di-XOR dengan keystream `SHA256(SHA256(key) || counter)`.
 
 <div class="nx-evidence-preview"><a href="86-left-behind-in-the-metadata-04-bukti-evidence.html"><img src="assets/left-behind-in-the-metadata/00b-terminal-evidence.png" alt="Pratinjau evidence Left Behind in the Metadata" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="86-left-behind-in-the-metadata-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

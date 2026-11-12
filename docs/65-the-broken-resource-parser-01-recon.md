@@ -1,21 +1,19 @@
-# THE BROKEN RESOURCE PARSER — Recon
+# THE BROKEN RESOURCE PARSER — Jejak awal
 
 [← Overview](65-the-broken-resource-parser.md) · [Index](index.md)
 
-> **Langkah 1/5 — Recon.** Baca brief challenge dan cek attachment/service yang diberikan.
->
-> **Titik penting:** Baca brief challenge dan cek attachment/service yang diberikan.
+> **Langkah 1/5.** ELF non-PIE, tanpa canary. Fungsi `win` ada di `0x4012ae`.
 >
 > **Berikutnya:** [Cara Mendapatkan Flag](65-the-broken-resource-parser-02-cara-mendapatkan-flag.md)
 
-Baca brief challenge dan cek attachment/service yang diberikan. Catat endpoint, file, atau petunjuk awal sebelum masuk ke langkah berikutnya.
+```bash
+unzip TheBrokenResourceParser.zip
+file peserta/resparser
+nm peserta/resparser | grep ' win$'
+```
 
-### Evidence langkah ini
+```text
+00000000004012ae t win
+```
 
-![term-01-solve.png](assets/the-broken-resource-parser/term-01-solve.png)
-
-*Terminal evidence — `01-solve.txt` (arsip transkrip sesi solve).*
-
-**Berkas mentah langkah ini:**
-
-- [`01-solve.txt`](assets/the-broken-resource-parser/01-solve.txt)
+`main` membaca panjang, lalu blob. `parse_resource` menyalin field nama ke buffer di `rbp-0x30`. Panjang nama boleh sampai `0x100`, jadi return address bisa ditimpa.

@@ -1,21 +1,15 @@
-# NexaDocs — Recon
+# NexaDocs — Jejak awal
 
 [← Overview](79-nexadocs.md) · [Index](index.md)
 
-> **Langkah 1/5 — Recon.** Baca brief challenge dan cek attachment/service yang diberikan.
->
-> **Titik penting:** Baca brief challenge dan cek attachment/service yang diberikan.
+> **Langkah 1/5.** Daftar akun, lalu uji Brand Studio lewat field `company_name`.
 >
 > **Berikutnya:** [Cara Mendapatkan Flag](79-nexadocs-02-cara-mendapatkan-flag.md)
 
-Baca brief challenge dan cek attachment/service yang diberikan. Catat endpoint, file, atau petunjuk awal sebelum masuk ke langkah berikutnya.
+```bash
+curl -sS -c cookies -H 'ngrok-skip-browser-warning: 1' \
+  -d 'full_name=Test&company=TestCo&email=test@example.com&password=password123' \
+  "$HOST/register"
+```
 
-### Evidence langkah ini
-
-![term-01-solve.png](assets/nexadocs/term-01-solve.png)
-
-*Terminal evidence — `01-solve.txt` (arsip transkrip sesi solve).*
-
-**Berkas mentah langkah ini:**
-
-- [`01-solve.txt`](assets/nexadocs/01-solve.txt)
+Response: `302` ke `/dashboard`. Field yang masuk template adalah `company_name` di `POST /studio`.

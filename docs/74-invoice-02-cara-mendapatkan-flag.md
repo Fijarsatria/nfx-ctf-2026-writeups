@@ -1,24 +1,19 @@
-# Invoice — Flag & Verifikasi
+# Invoice — Cara mendapatkan flag
 
 [← Overview](74-invoice.md) · [Index](index.md)
 
-> **Langkah 2/5 — Cara Mendapatkan Flag.** Cara Mendapatkan Flag
->
-> **Titik penting:** NFXCTF{l5b_l04d5_th3_p4yl04d}
+> **Langkah 2/5.** Base64 itu langsung berisi C2, key, dan flag.
 >
 > **Berikutnya:** [Flag](74-invoice-03-flag.md)
 
-> **Flag:** `NFXCTF{l5b_l04d5_th3_p4yl04d}`
-> **Status:** `VERIFIED`
+```python
+import base64
+s = "QzI9MTg1LjIyMC4xMDEuNDU6NDQ0NDtLRVk9YTFiMmMzO05YQ1RGe2w1Yl9sMDRkNV90aDNfcDR5bDA0ZH0K"
+print(base64.b64decode(s).decode())
+```
 
-1. Cek gambar dengan `file`, `exiftool`, dan `zsteg`.
-2. Ekstrak LSB dari kanal yang mengandung teks.
-3. Decode payload untuk mendapatkan flag.
+```text
+C2=185.220.101.45:4444;KEY=a1b2c3;NXCTF{l5b_l04d5_th3_p4yl04d}
+```
 
-### Terminal evidence (real)
-
-![Terminal evidence (real)](assets/invoice/00b-terminal-evidence.png)
-
-*Terminal evidence (real).*
-
-> **Bukti:** terminal evidence (real).
+Prefix flag adalah `NXCTF`, bukan `NFX`.

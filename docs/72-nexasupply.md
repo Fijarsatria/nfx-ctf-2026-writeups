@@ -24,15 +24,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](72-nexasupply-01-recon.md) |
-| 2 | Cara Mendapatkan Flag | NFX{xxe_supply_f33d_l0c4l_f1l3_r34d} | [Buka](72-nexasupply-02-cara-mendapatkan-flag.md) |
+| 1 | Recon | Login supplier + `POST /import`. | [Buka](72-nexasupply-01-recon.md) |
+| 2 | Cara Mendapatkan Flag | XXE `file:///flag.txt` di `<sku>`. | [Buka](72-nexasupply-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{xxe_supply_f33d_l0c4l_f1l3_r34d} | [Buka](72-nexasupply-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](72-nexasupply-04-bukti-evidence.md) |
 | 5 | Referensi | XXE, external entity, local file read. | [Buka](72-nexasupply-05-referensi.md) |
 
 ## Cerita singkat
 
-Fitur supply feed menerima XML. Kalau parser XML mengizinkan entity eksternal, kita bisa membaca file lokal lewat XXE.
+Login supplier, kirim XML dengan entity `file:///flag.txt` ke `/import`, dan taruh entity itu di `<sku>` supaya muncul di response.
 
 <div class="nx-evidence-preview"><a href="72-nexasupply-04-bukti-evidence.html"><img src="assets/nexasupply/00b-terminal-evidence.png" alt="Pratinjau evidence NexaSupply" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="72-nexasupply-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

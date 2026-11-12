@@ -2,13 +2,13 @@
 
 [← Overview](71-decode-balik.md) · [Index](index.md)
 
-> **Langkah 1/5 — Recon.** Baca brief challenge dan cek attachment/service yang diberikan.
+> **Langkah 1/5 — Recon.** File `recipe` yang diunduh bukan recipe. Recipe asli ada sebagai URL di `challenge.json`.
 >
-> **Titik penting:** Baca brief challenge dan cek attachment/service yang diberikan.
+> **Titik penting:** `To Base64` → `Zlib Deflate` → `To Base64` → `Generate Image`.
 >
 > **Berikutnya:** [Cara Mendapatkan Flag](71-decode-balik-02-cara-mendapatkan-flag.md)
 
-Baca brief challenge dan cek attachment/service yang diberikan. Catat endpoint, file, atau petunjuk awal sebelum masuk ke langkah berikutnya.
+Jangan membuka file `recipe` di editor dan mengira isinya langkah decode. Itu halaman aplikasi CyberChef. URL recipe dan urutan baliknya ada di halaman berikutnya.
 
 ### Evidence langkah ini
 

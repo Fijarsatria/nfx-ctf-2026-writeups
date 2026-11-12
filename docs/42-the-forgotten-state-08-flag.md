@@ -2,7 +2,7 @@
 
 [← Overview](42-the-forgotten-state.md) · [Index](index.md)
 
-> **Langkah 8/10 — Flag.** Status verified platform menurut writeups/FLAGS.md.
+> **Langkah 8/10 — Flag.** Status tercatat accepted di platform. Buktinya terminal evidence di halaman ini.
 >
 > **Titik penting:** NFX{ElC0nloe_Forg0tten_StaticcD42#}
 >
@@ -22,7 +22,7 @@ $ cat flags/pwn/TheForgottenState.txt
 NFX{ElC0nloe_Forg0tten_StaticcD42#}
 ```
 
-Status `verified platform` menurut `writeups/FLAGS.md`.
+Status `VERIFIED`: flag tercatat accepted di platform. File `writeups/FLAGS.md` tidak ada di repo ini.
 
 ### Terminal evidence (real)
 

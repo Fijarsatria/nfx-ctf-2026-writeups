@@ -2,7 +2,7 @@
 
 [← Overview](38-narrowgate.md) · [Index](index.md)
 
-> **Langkah 7/9 — Flag.** Status verified platform menurut writeups/FLAGS.md.
+> **Langkah 7/9 — Flag.** Status tercatat accepted di platform. Buktinya terminal evidence di halaman ini.
 >
 > **Titik penting:** NFX{ex3cve_d3ni3d_but_0pen_r34d_writ3_s4v3d_th3_day}
 >
@@ -22,7 +22,7 @@ $ cat flags/pwn/NarrowGate.txt
 NFX{ex3cve_d3ni3d_but_0pen_r34d_writ3_s4v3d_th3_day}
 ```
 
-Status `verified platform` menurut `writeups/FLAGS.md`.
+Status `VERIFIED`: flag tercatat accepted di platform. File `writeups/FLAGS.md` tidak ada di repo ini.
 
 ### Terminal evidence (real)
 

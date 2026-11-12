@@ -25,15 +25,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon Artefak | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](81-dead-drop-01-recon-artefak.md) |
-| 2 | Cara Mendapatkan Flag | NFX{g1t_c0nf1g_h34d3r_l34k_h1dd3n_br4nch_9c1e7a} | [Buka](81-dead-drop-02-cara-mendapatkan-flag.md) |
+| 1 | Recon Artefak | `.git/config` extraheader, bukan commit `main`. | [Buka](81-dead-drop-01-recon-artefak.md) |
+| 2 | Cara Mendapatkan Flag | Decode header. Branch remote belum diarsipkan. | [Buka](81-dead-drop-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{g1t_c0nf1g_h34d3r_l34k_h1dd3n_br4nch_9c1e7a} | [Buka](81-dead-drop-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](81-dead-drop-04-bukti-evidence.md) |
 | 5 | Referensi | Git hidden branch, config leak. | [Buka](81-dead-drop-05-referensi.md) |
 
 ## Cerita singkat
 
-Arsip infra-runbooks menyimpan repo Git. Ada branch tersembunyi yang berisi config dengan kredensial/flag.
+`.git/config` menyimpan `http.extraheader` berisi Authorization basic. Decode-nya adalah token GitHub. Branch tersembunyi ada di remote, bukan di zip, dan transkripnya belum diarsipkan.
 
 <div class="nx-evidence-preview"><a href="81-dead-drop-04-bukti-evidence.html"><img src="assets/dead-drop/00b-terminal-evidence.png" alt="Pratinjau evidence Dead Drop" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="81-dead-drop-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

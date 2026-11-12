@@ -1,28 +1,20 @@
-# Notulen Senin Pagi — Flag & Verifikasi
+# Notulen Senin Pagi — Cara mendapatkan flag
 
 [← Overview](62-notulen-senin-pagi.md) · [Index](index.md)
 
-> **Langkah 2/5 — Cara Mendapatkan Flag.** Cara Mendapatkan Flag
->
-> **Titik penting:** NFX{M4kHLuK_T4k_K4s4T_M4T4}
+> **Langkah 2/5.** `pdftotext` membaca baris putih yang tidak kelihatan di viewer.
 >
 > **Berikutnya:** [Flag](62-notulen-senin-pagi-03-flag.md)
 
-> **Flag:** `NFX{M4kHLuK_T4k_K4s4T_M4T4}`
-> **Status:** `VERIFIED`
+Akhir teks yang diekstrak:
 
-1. Cek metadata dan teks PDF:
-```bash
-exiftool laporan_kegiatan_bulan_november.pdf
-pdftotext laporan_kegiatan_bulan_november.pdf -
+```text
+4. Rencana Bulan Berikutnya
+- Menyelesaikan pengadaan perlengkapan yang tertunda
+- Menyusun anggaran kegiatan tahun depan
+- Mengadakan evaluasi internal akhir tahun
+
+NFX{M4kHLuK_T4k_K4s4T_M4T4}
 ```
-2. Cari teks putih/transparan, komentar, atau objek di luar halaman.
-3. Flag muncul dari teks tersembunyi di laporan.
 
-### Terminal evidence (real)
-
-![Terminal evidence (real)](assets/notulen-senin-pagi/00b-terminal-evidence.png)
-
-*Terminal evidence (real).*
-
-> **Bukti:** terminal evidence (real).
+Di viewer, baris flag berwarna putih di atas putih. Itu sebabnya bos "tidak melihat apa-apa". Jangan berhenti di metadata.

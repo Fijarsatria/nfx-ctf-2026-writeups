@@ -1,21 +1,19 @@
-# Invoice — Recon Artefak
+# Invoice — Jejak awal
 
 [← Overview](74-invoice.md) · [Index](index.md)
 
-> **Langkah 1/5 — Recon Artefak.** Baca brief challenge dan cek attachment/service yang diberikan.
->
-> **Titik penting:** Baca brief challenge dan cek attachment/service yang diberikan.
+> **Langkah 1/5.** `zsteg` pada `b1,rgb,lsb,xy` mengeluarkan satu string base64.
 >
 > **Berikutnya:** [Cara Mendapatkan Flag](74-invoice-02-cara-mendapatkan-flag.md)
 
-Baca brief challenge dan cek attachment/service yang diberikan. Catat endpoint, file, atau petunjuk awal sebelum masuk ke langkah berikutnya.
+```bash
+zsteg invoice.png | head
+```
 
-### Evidence langkah ini
+Baris yang dipakai:
 
-![term-01-solve.png](assets/invoice/term-01-solve.png)
+```text
+b1,rgb,lsb,xy .. text: "QzI9MTg1LjIyMC4xMDEuNDU6NDQ0NDtLRVk9YTFiMmMzO05YQ1RGe2w1Yl9sMDRkNV90aDNfcDR5bDA0ZH0K"
+```
 
-*Terminal evidence — `01-solve.txt` (arsip transkrip sesi solve).*
-
-**Berkas mentah langkah ini:**
-
-- [`01-solve.txt`](assets/invoice/01-solve.txt)
+Baris kanal lain adalah noise. Jangan mengikuti semuanya.

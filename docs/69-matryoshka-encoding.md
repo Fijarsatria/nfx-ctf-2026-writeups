@@ -24,7 +24,7 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](69-matryoshka-encoding-01-recon.md) |
+| 1 | Recon | capsule.dat`, panjang genap. | [Buka](69-matryoshka-encoding-01-recon.md) |
 | 2 | Cara Mendapatkan Flag | NFXCTF{m4try0shk4_0n10n_p33l3d_c309b71e} | [Buka](69-matryoshka-encoding-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFXCTF{m4try0shk4_0n10n_p33l3d_c309b71e} | [Buka](69-matryoshka-encoding-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](69-matryoshka-encoding-04-bukti-evidence.md) |

@@ -24,15 +24,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Jejak Awal | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](76-kebakaran-01-jejak-awal.md) |
-| 2 | Cara Mendapatkan Flag | NXCTF{GLORIA_SETIABAKTI_SINARHARAPAN} | [Buka](76-kebakaran-02-cara-mendapatkan-flag.md) |
+| 1 | Jejak Awal | Foto 25/10/2026 03:59. Nama toko tidak terbaca. | [Buka](76-kebakaran-01-jejak-awal.md) |
+| 2 | Cara Mendapatkan Flag | Tiga nama ada. Trail Street View belum diarsipkan. | [Buka](76-kebakaran-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NXCTF{GLORIA_SETIABAKTI_SINARHARAPAN} | [Buka](76-kebakaran-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](76-kebakaran-04-bukti-evidence.md) |
 | 5 | Referensi | OSINT geolocation, news search. | [Buka](76-kebakaran-05-referensi.md) |
 
 ## Cerita singkat
 
-Kebakaran di sebuah lokasi. Dari foto/berita kita cari nama gedung, lalu nama perusahaan/pemilik yang terkait.
+Foto tidak memuat nama toko. Flag yang diterima memecah menjadi Gloria, Setiabakti, dan Sinarharapan, tetapi tangkapan Street View-nya belum diarsipkan.
 
 <div class="nx-evidence-preview"><a href="76-kebakaran-04-bukti-evidence.html"><img src="assets/kebakaran/00b-terminal-evidence.png" alt="Pratinjau evidence Kebakaran" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="76-kebakaran-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

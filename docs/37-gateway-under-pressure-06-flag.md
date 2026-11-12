@@ -2,7 +2,7 @@
 
 [← Overview](37-gateway-under-pressure.md) · [Index](index.md)
 
-> **Langkah 6/8 — Flag.** Status verified platform menurut writeups/FLAGS.md.
+> **Langkah 6/8 — Flag.** Status tercatat accepted di platform. Buktinya terminal evidence di halaman ini.
 >
 > **Titik penting:** NFX{Nyoss_Gte3wayy_Pr3ssureee0!}
 >
@@ -22,7 +22,7 @@ $ cat flags/pwn/GatewayUnderPressure.txt
 NFX{Nyoss_Gte3wayy_Pr3ssureee0!}
 ```
 
-Status `verified platform` menurut `writeups/FLAGS.md`. Tidak ada submit ulang ke platform pada tugas ini.
+Status `VERIFIED`: flag tercatat accepted di platform. File `writeups/FLAGS.md` tidak ada di repo ini.
 
 ### Terminal evidence (real)
 

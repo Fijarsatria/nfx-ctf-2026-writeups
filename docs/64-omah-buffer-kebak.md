@@ -25,15 +25,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](64-omah-buffer-kebak-01-recon.md) |
-| 2 | Cara Mendapatkan Flag | NFX{OmahhKUuD0Ndoll_Uw0nggG} | [Buka](64-omah-buffer-kebak-02-cara-mendapatkan-flag.md) |
+| 1 | Recon | `gets()` dan `obong` di `0x40125f`. | [Buka](64-omah-buffer-kebak-01-recon.md) |
+| 2 | Cara Mendapatkan Flag | Padding `0x48`, lalu ret2win. | [Buka](64-omah-buffer-kebak-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{OmahhKUuD0Ndoll_Uw0nggG} | [Buka](64-omah-buffer-kebak-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](64-omah-buffer-kebak-04-bukti-evidence.md) |
 | 5 | Referensi | Buffer overflow, checksec, pwntools cyclic. | [Buka](64-omah-buffer-kebak-05-referensi.md) |
 
 ## Cerita singkat
 
-Binary pwn klasik: input kita bisa menimpa return address. Kita cek proteksi, cari offset, lalu susun payload untuk membuka shell atau memanggil fungsi flag.
+`gets()` tanpa batas. Offset ke return address adalah `0x48`. Panggil `obong` di `0x40125f` untuk membaca `flag.txt`.
 
 <div class="nx-evidence-preview"><a href="64-omah-buffer-kebak-04-bukti-evidence.html"><img src="assets/omah-buffer-kebak/00b-terminal-evidence.png" alt="Pratinjau evidence Omah Buffer Kebak" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="64-omah-buffer-kebak-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

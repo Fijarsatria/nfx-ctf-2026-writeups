@@ -24,15 +24,15 @@
 
 | # | Langkah | Titik penting | Buka |
 |---:|---|---|---|
-| 1 | Recon | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](75-twin-prime-lattice-01-recon.md) |
-| 2 | Cara Mendapatkan Flag | NXCTF{tw1n_pr1m3s_m33t_l4tt1c3_c0pp3r5m1th_af6854ba29a3} | [Buka](75-twin-prime-lattice-02-cara-mendapatkan-flag.md) |
+| 1 | Recon | `output.txt`: N, e, c. | [Buka](75-twin-prime-lattice-01-recon.md) |
+| 2 | Cara Mendapatkan Flag | Fermat factorization, bukan lattice. | [Buka](75-twin-prime-lattice-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NXCTF{tw1n_pr1m3s_m33t_l4tt1c3_c0pp3r5m1th_af6854ba29a3} | [Buka](75-twin-prime-lattice-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](75-twin-prime-lattice-04-bukti-evidence.md) |
 | 5 | Referensi | Fermat factorization, RSA twin primes. | [Buka](75-twin-prime-lattice-05-referensi.md) |
 
 ## Cerita singkat
 
-RSA dengan dua prima yang sangat berdekatan. Selisih kecil bisa ditemukan dengan Fermat factorization, lalu private key dihitung.
+Dua faktor RSA berdekatan. Fermat dari `isqrt(N)` memulihkan `p` dan `q`, lalu ciphertext didekripsi biasa. Prefix flag `NXCTF`.
 
 <div class="nx-evidence-preview"><a href="75-twin-prime-lattice-04-bukti-evidence.html"><img src="assets/twin-prime-lattice/00b-terminal-evidence.png" alt="Pratinjau evidence Twin Prime Lattice" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="75-twin-prime-lattice-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

@@ -1,21 +1,18 @@
-# Titipan Akhir Tahun — Recon
+# Titipan Akhir Tahun — Jejak awal
 
 [← Overview](68-titipan-akhir-tahun.md) · [Index](index.md)
 
-> **Langkah 1/5 — Recon.** Baca brief challenge dan cek attachment/service yang diberikan.
->
-> **Titik penting:** Baca brief challenge dan cek attachment/service yang diberikan.
+> **Langkah 1/5.** PDF 2.4 KB membawa embedded file `doksli.txt`.
 >
 > **Berikutnya:** [Cara Mendapatkan Flag](68-titipan-akhir-tahun-02-cara-mendapatkan-flag.md)
 
-Baca brief challenge dan cek attachment/service yang diberikan. Catat endpoint, file, atau petunjuk awal sebelum masuk ke langkah berikutnya.
+```bash
+pdfdetach -list laporan_kegiatan_bulan_desember.pdf
+```
 
-### Evidence langkah ini
+```text
+1 embedded files
+1: doksli.txt
+```
 
-![term-01-solve.png](assets/titipan-akhir-tahun/term-01-solve.png)
-
-*Terminal evidence — `01-solve.txt` (arsip transkrip sesi solve).*
-
-**Berkas mentah langkah ini:**
-
-- [`01-solve.txt`](assets/titipan-akhir-tahun/01-solve.txt)
+Teks halaman hanya laporan rutin. Barang yang "belum dibuka" adalah file tertanam, bukan teks tersembunyi.
