@@ -15,10 +15,10 @@
 2. Buka repo Git, cek semua branch dan commit.
 3. Baca config di branch tersembunyi.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/dead-drop/00b-submit-platform.png)
+![Terminal evidence (real)](assets/dead-drop/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

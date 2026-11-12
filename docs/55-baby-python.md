@@ -37,7 +37,7 @@
 
 Jadi ceritanya gini. Kita dikasih script Python yang “mengamankan” flag dengan cara membalik urutan karakter, lalu meng-encode hasilnya ke base64. Karena prosesnya reversibel, kita tinggal decode base64 lalu balik lagi urutannya.
 
-<div class="nx-evidence-preview"><a href="55-baby-python-05-bukti-evidence.html"><img src="assets/baby-python/00b-submit-platform.png" alt="Pratinjau evidence Baby Python" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="55-baby-python-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="55-baby-python-05-bukti-evidence.html"><img src="assets/baby-python/00b-terminal-evidence.png" alt="Pratinjau evidence Baby Python" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="55-baby-python-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

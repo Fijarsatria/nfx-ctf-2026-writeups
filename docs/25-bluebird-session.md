@@ -54,7 +54,7 @@ Jadi ceritanya gini. evidence Linux: `/etc/passwd`, `/etc/shadow`, `/etc/group`,
 - Setelah 11/11 Q&A selesai, platform mengembalikan flag final:
   `NFX{Mizore_Promise_Never_Forgotten_The_Bluebird_Still_Sings}`.
 
-<div class="nx-evidence-preview"><a href="25-bluebird-session-10-bukti-evidence.html"><img src="assets/bluebird-session/00b-submit-platform.png" alt="Pratinjau evidence Bluebird Session" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="25-bluebird-session-10-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="25-bluebird-session-10-bukti-evidence.html"><img src="assets/bluebird-session/00b-terminal-evidence.png" alt="Pratinjau evidence Bluebird Session" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="25-bluebird-session-10-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

@@ -35,7 +35,7 @@
 
 PDF laporan Desember punya barang tambahan yang belum dibuka dari bungkusnya. Artinya ada attachment/objek yang masih ter-encode di dalam PDF.
 
-<div class="nx-evidence-preview"><a href="68-titipan-akhir-tahun-04-bukti-evidence.html"><img src="assets/titipan-akhir-tahun/00b-submit-platform.png" alt="Pratinjau evidence Titipan Akhir Tahun" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="68-titipan-akhir-tahun-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="68-titipan-akhir-tahun-04-bukti-evidence.html"><img src="assets/titipan-akhir-tahun/00b-terminal-evidence.png" alt="Pratinjau evidence Titipan Akhir Tahun" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="68-titipan-akhir-tahun-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

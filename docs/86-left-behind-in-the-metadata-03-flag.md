@@ -15,10 +15,10 @@
 NFXCTF{3x1f_gp5_m3t4_tr4c3_9f41c8b2e70d}
 ```
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/left-behind-in-the-metadata/00b-submit-platform.png)
+![Terminal evidence (real)](assets/left-behind-in-the-metadata/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

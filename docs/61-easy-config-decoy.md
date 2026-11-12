@@ -37,7 +37,7 @@
 
 Jadi ceritanya gini. Binary ini menyimpan flag dalam beberapa potongan string di `.rodata`, bukan satu string utuh. Di sebelahnya ada dua flag palsu (decoy). Kita harus lihat potongan mana yang benar-benar dirangkai oleh program.
 
-<div class="nx-evidence-preview"><a href="61-easy-config-decoy-05-bukti-evidence.html"><img src="assets/easy-config-decoy/00b-submit-platform.png" alt="Pratinjau evidence Easy Config Decoy" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="61-easy-config-decoy-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="61-easy-config-decoy-05-bukti-evidence.html"><img src="assets/easy-config-decoy/00b-terminal-evidence.png" alt="Pratinjau evidence Easy Config Decoy" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="61-easy-config-decoy-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

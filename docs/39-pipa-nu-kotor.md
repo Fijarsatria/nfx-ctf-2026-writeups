@@ -49,7 +49,7 @@ Jadi ceritanya gini. service mengelola "pipa" (pipe) dengan operasi buka/tutup/t
 - Login dengan password baru → `cetak_flag()` membaca `flag.txt`.
 - Flag: `NFX{Si44aTehKuduSadarDip4lakSave3Jari1}`.
 
-<div class="nx-evidence-preview"><a href="39-pipa-nu-kotor-07-bukti-evidence.html"><img src="assets/pipa-nu-kotor/00b-submit-platform.png" alt="Pratinjau evidence Pipa Nu Kotor" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="39-pipa-nu-kotor-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="39-pipa-nu-kotor-07-bukti-evidence.html"><img src="assets/pipa-nu-kotor/00b-terminal-evidence.png" alt="Pratinjau evidence Pipa Nu Kotor" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="39-pipa-nu-kotor-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

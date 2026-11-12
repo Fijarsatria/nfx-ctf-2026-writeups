@@ -54,7 +54,7 @@ Jadi ceritanya gini. `hard_feistel` memvalidasi flag 39 byte dari `argv[1]` dan 
 - Output tiap blok adalah `big-endian(L16) || big-endian(R16)`, jadi dekripsi cukup membalik urutan ronde tanpa menginversi `F`.
 - Flag: `NFX{f315t3l_n3tw0rk_16_r0und5_r3v3rs3d}`.
 
-<div class="nx-evidence-preview"><a href="44-hard-feistel-03-perintah-akuisisi-bukti.html"><img src="assets/hard-feistel/00b-submit-platform.png" alt="Pratinjau evidence Hard Feistel" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="44-hard-feistel-03-perintah-akuisisi-bukti.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="44-hard-feistel-03-perintah-akuisisi-bukti.html"><img src="assets/hard-feistel/00b-terminal-evidence.png" alt="Pratinjau evidence Hard Feistel" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="44-hard-feistel-03-perintah-akuisisi-bukti.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

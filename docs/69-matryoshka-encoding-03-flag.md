@@ -15,10 +15,10 @@
 NFXCTF{m4try0shk4_0n10n_p33l3d_c309b71e}
 ```
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/matryoshka-encoding/00b-submit-platform.png)
+![Terminal evidence (real)](assets/matryoshka-encoding/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

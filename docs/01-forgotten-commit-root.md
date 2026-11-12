@@ -45,7 +45,7 @@ Jadi ceritanya gini. Target `10.10.20.21` menjalankan nginx (port 80) dan OpenSS
 > **Catatan bukti.** Writeup ini memakai hasil **live rerun 2026-11-09** di
 > instance platform. Transkrip asli ada di `assets/forgotten-commit-root/`
 > (`01-live-*` sampai `04-live-*`), screenshot challenge dan submit ada di
-> `00-challenge-platform.png` dan `00b-submit-platform.png`. Flag di-submit
+> `00-challenge-platform.png` dan `00b-terminal-evidence.png`. Flag di-submit
 > lewat form web platform; screenshot hasilnya ada di halaman Flag.
 ## TL;DR
 
@@ -61,7 +61,7 @@ Jadi ceritanya gini. Target `10.10.20.21` menjalankan nginx (port 80) dan OpenSS
   `execute(cp /root/root.txt /tmp/rootflag; chmod 644 /tmp/rootflag)`.
 - Root flag: `NFX{fzf_l1st3n_r00t_sh3ll_pwn3d}`.
 
-<div class="nx-evidence-preview"><a href="01-forgotten-commit-root-07-bukti-evidence.html"><img src="assets/forgotten-commit-root/00b-submit-platform.png" alt="Pratinjau evidence Forgotten Commit (Root)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="01-forgotten-commit-root-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="01-forgotten-commit-root-07-bukti-evidence.html"><img src="assets/forgotten-commit-root/00b-terminal-evidence.png" alt="Pratinjau evidence Forgotten Commit (Root)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="01-forgotten-commit-root-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

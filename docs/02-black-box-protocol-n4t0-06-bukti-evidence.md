@@ -1,62 +1,46 @@
-# Black Box Protocol N4T0 — Evidence / Bukti
-
-<div class="nx-challenge-head"><span class="nx-chip">4 screenshot</span><span class="nx-chip">3 transkrip / script</span></div>
-
+# Black Box Protocol N4T0 — Bukti / Evidence
 
 [← Overview](02-black-box-protocol-n4t0.md) · [Index](index.md)
 
-> **Langkah 6/7 — Bukti / Evidence.** Bukti / Evidence
+> **Langkah 6/7 — Bukti / Evidence.**
 >
-> **Titik penting:** arsip screenshot dan transkrip
->
-> **Berikutnya:** [Referensi](02-black-box-protocol-n4t0-07-referensi.md)
+> **Titik penting:** screenshot `00b-terminal-evidence.png` adalah mockup;
+> bukti asli adalah log API yang menunjukkan `Incorrect flag`.
 
+## Bukti decode
 
-## Arsip Evidence
+```text
+A: N4T0PH0N3T1C1N1
+B: C0mbO_H3X_
+C: fl0At_b4r4ng
+```
 
-> Semua file berasal dari `assets/black-box-protocol-n4t0/`. Screenshot platform dan terminal adalah bukti asli dari sesi solve; transkrip mentah tetap ditautkan di bagian bawah.
+## Bukti submit asli (log API)
 
-### Platform
+```json
+{"time":1794038881.9467971,
+ "name":"BlackBox",
+ "id":"f72a1790-01af-4e03-b789-00a949c8c270",
+ "flag":"NFX{N4T0PH0N3T1C1N1_C0mbO_H3X}",
+ "http":200,
+ "result":{"success":false,"message":"Incorrect flag"}}
+```
 
-<div class="nx-evidence-grid">
-<figure><a href="assets/black-box-protocol-n4t0/00-challenge-platform.png" target="_blank" rel="noopener"><img src="assets/black-box-protocol-n4t0/00-challenge-platform.png" alt="00-challenge-platform.png" loading="lazy"></a><figcaption>00-challenge-platform.png</figcaption></figure>
-</div>
+Kandidat lengkap juga ditolak. `total_solves = 0`.
 
-*Challenge brief asli di platform NFX CTF 2026.*
+## Terminal evidence (real)
 
-<div class="nx-evidence-grid">
-<figure><a href="assets/black-box-protocol-n4t0/00b-submit-platform.png" target="_blank" rel="noopener"><img src="assets/black-box-protocol-n4t0/00b-submit-platform.png" alt="00b-submit-platform.png" loading="lazy"></a><figcaption>00b-submit-platform.png</figcaption></figure>
-</div>
+`00b-terminal-evidence.png` sekarang adalah **capture terminal asli** dari API:
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+```text
+$ python3 submit_curl.py f72a1790... 'NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}'
+(200, {'success': False, 'message': 'Incorrect flag'})
+```
 
-### Terminal (arsip sesi)
+Mockup lama yang menampilkan input dummy `XXX{...}`, `20 solves`, `120 pts`,
+dan `CORRECT, BUT ALREADY SOLVED` sudah **dihapus**. Statistik platform asli:
+`0 solves`, 500 pts dynamic.
 
-<div class="nx-evidence-grid">
-<figure><a href="assets/black-box-protocol-n4t0/term-decode-output.png" target="_blank" rel="noopener"><img src="assets/black-box-protocol-n4t0/term-decode-output.png" alt="term-decode-output.png" loading="lazy"></a><figcaption>term-decode-output.png</figcaption></figure>
-</div>
+## Kesimpulan
 
-*Terminal evidence — `decode-output.txt` (arsip transkrip sesi solve).*
-
-<div class="nx-evidence-grid">
-<figure><a href="assets/black-box-protocol-n4t0/term-sha256.png" target="_blank" rel="noopener"><img src="assets/black-box-protocol-n4t0/term-sha256.png" alt="term-sha256.png" loading="lazy"></a><figcaption>term-sha256.png</figcaption></figure>
-</div>
-
-*Terminal evidence — `sha256.txt` (arsip transkrip sesi solve).*
-
-### Transkrip mentah & script
-
-- [`decode-output.txt`](assets/black-box-protocol-n4t0/decode-output.txt)
-- [`decode_xlsx.py`](assets/black-box-protocol-n4t0/decode_xlsx.py)
-- [`sha256.txt`](assets/black-box-protocol-n4t0/sha256.txt)
-
-## Tabel Evidence
-
-| Bukti | File | Keterangan |
-|---|---|---|
-| Hash attachment | `assets/black-box-protocol-n4t0/sha256.txt` | SHA-256 XLSX |
-| Decoder | `assets/black-box-protocol-n4t0/decode_xlsx.py` | Script decode tiga kolom |
-| Output decoder | `assets/black-box-protocol-n4t0/decode-output.txt` | Output asli |
-| Log submit lama | `work/bb_submit_agent.jsonl` | 53 percobaan di backend lama |
-| Submit web | `assets/black-box-protocol-n4t0/00b-submit-platform.png` | Screenshot form platform |
-| Release map | `work/release_map.json` | Kandidat alternatif |
+Status `OPEN / CANDIDATE`; tidak ada bukti flag accepted.

@@ -35,7 +35,7 @@
 
 Kita dikasih PDF laporan kegiatan. Katanya semua sudah ditulis, tapi bos bilang tidak lihat apa-apa. Biasanya clue-nya ada di lapisan teks yang tidak terlihat, metadata, atau objek tersembunyi di PDF.
 
-<div class="nx-evidence-preview"><a href="62-notulen-senin-pagi-04-bukti-evidence.html"><img src="assets/notulen-senin-pagi/00b-submit-platform.png" alt="Pratinjau evidence Notulen Senin Pagi" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="62-notulen-senin-pagi-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="62-notulen-senin-pagi-04-bukti-evidence.html"><img src="assets/notulen-senin-pagi/00b-terminal-evidence.png" alt="Pratinjau evidence Notulen Senin Pagi" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="62-notulen-senin-pagi-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

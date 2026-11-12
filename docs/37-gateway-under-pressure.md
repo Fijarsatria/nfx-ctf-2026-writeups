@@ -49,7 +49,7 @@ Jadi ceritanya gini. `gateway` adalah binary PIE dengan menu: register session, 
 - Exploit: leak canary + PIE base dari audit, lalu ret2win `release_gateway()` dengan satu gadget `ret` untuk alignment.
 - Flag: `NFX{Nyoss_Gte3wayy_Pr3ssureee0!}`.
 
-<div class="nx-evidence-preview"><a href="37-gateway-under-pressure-07-bukti-evidence.html"><img src="assets/gateway-under-pressure/00b-submit-platform.png" alt="Pratinjau evidence Gateway Under Pressure" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="37-gateway-under-pressure-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="37-gateway-under-pressure-07-bukti-evidence.html"><img src="assets/gateway-under-pressure/00b-terminal-evidence.png" alt="Pratinjau evidence Gateway Under Pressure" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="37-gateway-under-pressure-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

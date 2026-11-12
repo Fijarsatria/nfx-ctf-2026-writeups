@@ -24,10 +24,10 @@ NFX{Nyoss_Gte3wayy_Pr3ssureee0!}
 
 Status `verified platform` menurut `writeups/FLAGS.md`. Tidak ada submit ulang ke platform pada tugas ini.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/gateway-under-pressure/00b-submit-platform.png)
+![Terminal evidence (real)](assets/gateway-under-pressure/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

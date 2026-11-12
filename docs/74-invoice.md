@@ -35,7 +35,7 @@
 
 Invoice PNG menyimpan payload di LSB. Kita ekstrak bit paling rendah dari kanal warna untuk membaca pesan.
 
-<div class="nx-evidence-preview"><a href="74-invoice-04-bukti-evidence.html"><img src="assets/invoice/00b-submit-platform.png" alt="Pratinjau evidence Invoice" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="74-invoice-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="74-invoice-04-bukti-evidence.html"><img src="assets/invoice/00b-terminal-evidence.png" alt="Pratinjau evidence Invoice" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="74-invoice-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

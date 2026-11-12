@@ -56,7 +56,7 @@ Jadi ceritanya gini. evidence Windows: `SAM`, `SYSTEM`, `SECURITY`, `NTUSER.DAT`
 - Setelah 8/8 Q&A selesai, platform mengembalikan flag final:
   `NFX{The_Real_Access_Was_Kumiko_All_Along}`.
 
-<div class="nx-evidence-preview"><a href="24-access-remains-10-bukti-evidence.html"><img src="assets/access-remains/00b-submit-platform.png" alt="Pratinjau evidence Access Remains" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="24-access-remains-10-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="24-access-remains-10-bukti-evidence.html"><img src="assets/access-remains/00b-terminal-evidence.png" alt="Pratinjau evidence Access Remains" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="24-access-remains-10-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

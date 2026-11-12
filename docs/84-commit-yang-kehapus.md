@@ -35,7 +35,7 @@
 
 Ada repo publik dengan commit yang dihapus. Object dangling masih bisa ditemukan lewat `git fsck`, lalu isinya didekripsi.
 
-<div class="nx-evidence-preview"><a href="84-commit-yang-kehapus-04-bukti-evidence.html"><img src="assets/commit-yang-kehapus/00b-submit-platform.png" alt="Pratinjau evidence Commit yang kehapus" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="84-commit-yang-kehapus-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="84-commit-yang-kehapus-04-bukti-evidence.html"><img src="assets/commit-yang-kehapus/00b-terminal-evidence.png" alt="Pratinjau evidence Commit yang kehapus" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="84-commit-yang-kehapus-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

@@ -70,7 +70,7 @@ Jadi ceritanya gini. Target `10.10.20.23` mengekspos empat service: console `:80
 - Submit pertama ditolak karena typo `w1r1t3` (kelebihan `1`); setelah
   dikoreksi menjadi `wr1t3`, platform menerima `+500 points`.
 
-<div class="nx-evidence-preview"><a href="17-record-keeper-user-08-bukti-evidence.html"><img src="assets/record-keeper-user/00b-submit-platform.png" alt="Pratinjau evidence Record Keeper (User)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="17-record-keeper-user-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="17-record-keeper-user-08-bukti-evidence.html"><img src="assets/record-keeper-user/00b-terminal-evidence.png" alt="Pratinjau evidence Record Keeper (User)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="17-record-keeper-user-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

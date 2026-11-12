@@ -35,7 +35,7 @@
 
 Foto `drop_point.jpg` menyimpan EXIF lengkap: kamera, artis, serial, GPS, dan cipher. EXIF itu jadi key untuk mendekripsi pesan.
 
-<div class="nx-evidence-preview"><a href="86-left-behind-in-the-metadata-04-bukti-evidence.html"><img src="assets/left-behind-in-the-metadata/00b-submit-platform.png" alt="Pratinjau evidence Left Behind in the Metadata" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="86-left-behind-in-the-metadata-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="86-left-behind-in-the-metadata-04-bukti-evidence.html"><img src="assets/left-behind-in-the-metadata/00b-terminal-evidence.png" alt="Pratinjau evidence Left Behind in the Metadata" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="86-left-behind-in-the-metadata-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

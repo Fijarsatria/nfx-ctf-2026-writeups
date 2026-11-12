@@ -36,7 +36,7 @@
 
 Jadi ceritanya gini. Kita dikasih script Bash kecil. Dia mengecek flag dengan tiga lapis: base64, dibalik, lalu ROT13. Karena semua lapisannya reversibel, kita tinggal balik urutannya: ROT13 dulu, balik lagi, lalu decode base64.
 
-<div class="nx-evidence-preview"><a href="59-easy-bash-layers-05-bukti-evidence.html"><img src="assets/easy-bash-layers/00b-submit-platform.png" alt="Pratinjau evidence Easy Bash Layers" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="59-easy-bash-layers-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="59-easy-bash-layers-05-bukti-evidence.html"><img src="assets/easy-bash-layers/00b-terminal-evidence.png" alt="Pratinjau evidence Easy Bash Layers" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="59-easy-bash-layers-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

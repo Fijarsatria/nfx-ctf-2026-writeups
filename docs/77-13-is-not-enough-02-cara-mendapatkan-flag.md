@@ -1,24 +1,43 @@
-# 13 Is Not Enough — Flag & Verifikasi
+# 13 Is Not Enough — Cara Mendapatkan Flag
 
 [← Overview](77-13-is-not-enough.md) · [Index](index.md)
 
-> **Langkah 2/5 — Cara Mendapatkan Flag.** Cara Mendapatkan Flag
+> **Langkah 2/5 — Cara Mendapatkan Flag.**
 >
-> **Titik penting:** NFX{Y0U_R0T4T3D_TH3_L3TT3R5_N0W_F1X_TH3_D1G1T5}
->
-> **Berikutnya:** [Flag](77-13-is-not-enough-03-flag.md)
-
 > **Flag:** `NFX{Y0U_R0T4T3D_TH3_L3TT3R5_N0W_F1X_TH3_D1G1T5}`
-> **Status:** `VERIFIED`
+> **Status:** `VERIFIED` (flag), metode `UNVERIFIED`
 
-1. Terapkan ROT13 pada huruf.
-2. Terapkan rotasi digit (ROT5) pada angka.
-3. Gabungkan hasilnya dan cek format flag.
+## Ciphertext
 
-### Bukti submit di platform
+```text
+p5J9Y9\R;XJRF9^RG>LR5H;JJ;TR;XJR\;J:J>HRE>AvF^L
+```
 
-![00b-submit-platform.png](assets/13-is-not-enough/00b-submit-platform.png)
+## Catatan jujur: ROT13+ROT5 belum cocok
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+Judul challenge (“13 Is Not Enough”) mengarah ke ROT13 + ROT5. Namun jika
+keduanya diterapkan ke ciphertext:
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+```text
+c0W4L4\E;KWES4^ET>YE0U;WW;GE;KWE\;W:W>UER>NiS^Y
+```
+
+Hasilnya **bukan** flag. Jadi masih ada layer/transform lain yang belum
+direproduksi.
+
+Flag yang diterima platform:
+
+```text
+NFX{Y0U_R0T4T3D_TH3_L3TT3R5_N0W_F1X_TH3_D1G1T5}
+```
+
+## Yang perlu dilengkapi
+
+- Cari transformasi persis yang memetakan ciphertext → flag
+  (bandingkan dengan known plaintext; cek substitusi/affine/Vigenère).
+- Setelah ketemu, tulis recipe/langkahnya di sini.
+- Jangan mengklaim “ROT13+ROT5” sebagai metode final tanpa output yang cocok.
+
+## Bukti submit
+
+Gunakan log API asli, bukan screenshot mockup.

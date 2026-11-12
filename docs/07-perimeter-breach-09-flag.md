@@ -23,10 +23,10 @@ Isi    : NFX{P4th_1nt0_Pr0duct10n}
 Status : VERIFIED platform (submit via web; flag lokal; challenge solved di platform)
 ```
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/perimeter-breach/00b-submit-platform.png)
+![Terminal evidence (real)](assets/perimeter-breach/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

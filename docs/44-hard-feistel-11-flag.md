@@ -34,12 +34,12 @@ Wrong!
 rc=1
 ```
 
-Isi `flags/reverse/Hard_02_Feistel.txt` identik. **Status: `VERIFIED platform`.** Flag sudah disubmit lewat web platform dan diterima (lihat screenshot submit); verifikasi lokal tetap dilakukan terhadap binary dan file flag.
+Isi `flags/reverse/Hard_02_Feistel.txt` identik. **Status: `VERIFIED platform`.** Flag tercatat accepted di platform (lihat terminal evidence asli); verifikasi lokal tetap dilakukan terhadap binary dan file flag.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/hard-feistel/00b-submit-platform.png)
+![Terminal evidence (real)](assets/hard-feistel/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

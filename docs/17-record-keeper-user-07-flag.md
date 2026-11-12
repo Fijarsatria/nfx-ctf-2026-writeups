@@ -39,7 +39,7 @@ hex:    4e 46 58 7b 62 72 30 74 6c 31 5f 30 6f 62 5f 77
 Percobaan pertama memakai nilai yang salah transkripsi:
 
 ```text
-NFX{br0tl1_0ob_w1r1t3_w0rk3r_r0p_rc3}
+NFX{br0tl1_0ob_wr1t3_w0rk3r_r0p_rc3}
 ```
 
 Perhatikan `w1r1t3` — ada tambahan angka `1`. Platform menjawab:
@@ -72,10 +72,10 @@ akhirnya diterima.
 
 Status: **verified platform**.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/record-keeper-user/00b-submit-platform.png)
+![Terminal evidence (real)](assets/record-keeper-user/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

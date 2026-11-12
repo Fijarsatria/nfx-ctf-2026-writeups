@@ -33,9 +33,9 @@
 
 ## Cerita singkat
 
-Judulnya bilang ROT13 saja tidak cukup. Huruf dan angka diperlakukan berbeda; kita perlu membalik kedua transformasi.
+Judulnya mengarah ke ROT13. Namun ciphertext yang diberikan tidak cocok dengan ROT13+ROT5 sederhana; metode persisnya masih perlu diverifikasi (lihat halaman Cara Mendapatkan Flag).
 
-<div class="nx-evidence-preview"><a href="77-13-is-not-enough-04-bukti-evidence.html"><img src="assets/13-is-not-enough/00b-submit-platform.png" alt="Pratinjau evidence 13 Is Not Enough" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="77-13-is-not-enough-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="77-13-is-not-enough-04-bukti-evidence.html"><img src="assets/13-is-not-enough/00b-terminal-evidence.png" alt="Pratinjau evidence 13 Is Not Enough" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="77-13-is-not-enough-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

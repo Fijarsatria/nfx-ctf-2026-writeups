@@ -25,10 +25,10 @@
 *Challenge brief asli di platform NFX CTF 2026.*
 
 <div class="nx-evidence-grid">
-<figure><a href="assets/progress-bar-user/00b-submit-platform.png" target="_blank" rel="noopener"><img src="assets/progress-bar-user/00b-submit-platform.png" alt="00b-submit-platform.png" loading="lazy"></a><figcaption>00b-submit-platform.png</figcaption></figure>
+<figure><a href="assets/progress-bar-user/00b-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/progress-bar-user/00b-terminal-evidence.png" alt="Terminal evidence (real)" loading="lazy"></a><figcaption>Terminal evidence (real)</figcaption></figure>
 </div>
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
 ### Terminal (arsip sesi)
 
@@ -78,7 +78,7 @@
 | PHP2Shell | `assets/progress-bar-user/02-php2shell.txt` | Chain CVE-2026-109618, upload stage, offset |
 | Loopback leak | `assets/progress-bar-user/03-internal-services.txt` | `/api/config`, UCP inbox, automation `shell=True` |
 | User flag | `assets/progress-bar-user/04-user-flag.txt` | Response root, base64/hex/hash |
-| Submit web | `assets/progress-bar-user/00b-submit-platform.png` | Screenshot form platform |
+| Terminal evidence (real) | `assets/progress-bar-user/00b-terminal-evidence.png` | Capture terminal asli |
 | Source service | `assets/progress-bar-user/08-src22-excerpt.txt` | Kutipan `/opt/*/app.py` + entrypoint |
 | Render exploit | `assets/progress-bar-user/06-php2shell.png` | Render chain + loopback (bukan screenshot live) |
 | Render flag | `assets/progress-bar-user/07-flag.png` | Render flag lokal |

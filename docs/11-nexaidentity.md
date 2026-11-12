@@ -49,7 +49,7 @@ Jadi ceritanya gini. **NexaIdentity** adalah direktori karyawan NexaCommerce ber
 - Payload `email[$ne]=x&password[$ne]=x` membuat query mencocokkan user pertama (admin, Nadia Kusuma) → session admin.
 - `/admin` lalu menampilkan *Emergency recovery token*: `NFX{n0sql_0p3r4t0r_4uth_byp4ss}`.
 
-<div class="nx-evidence-preview"><a href="11-nexaidentity-08-bukti-evidence.html"><img src="assets/nexaidentity/00b-submit-platform.png" alt="Pratinjau evidence NexaIdentity" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="11-nexaidentity-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="11-nexaidentity-08-bukti-evidence.html"><img src="assets/nexaidentity/00b-terminal-evidence.png" alt="Pratinjau evidence NexaIdentity" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="11-nexaidentity-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

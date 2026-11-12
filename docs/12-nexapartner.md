@@ -49,7 +49,7 @@ Jadi ceritanya gini. **NexaPartner** adalah portal partner/reseller NexaCommerce
 - Payload `{"__proto__":{"role":"admin","isAdmin":true,"admin":true,"tier":"platinum"}}` mencemari `Object.prototype` (atau objek otorisasi turunannya).
 - Setelah itu `/admin` berubah dari `403` menjadi `302 /admin/audit`; halaman audit menampilkan recovery token: `NFX{js0n_pr0t0_p0llut10n_4dm1n_byp4ss}`.
 
-<div class="nx-evidence-preview"><a href="12-nexapartner-08-bukti-evidence.html"><img src="assets/nexapartner/00b-submit-platform.png" alt="Pratinjau evidence NexaPartner" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="12-nexapartner-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="12-nexapartner-08-bukti-evidence.html"><img src="assets/nexapartner/00b-terminal-evidence.png" alt="Pratinjau evidence NexaPartner" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="12-nexapartner-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

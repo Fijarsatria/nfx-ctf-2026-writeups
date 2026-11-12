@@ -53,7 +53,7 @@ Challenge punya tiga lapisan:
    filter 20 bit bocor di posisi 500 menemukan `p,q`.
 3. **AES-GCM.** Key = `SHA256(p||q)`, lalu `decrypt_and_verify` membuka flag.
 
-<div class="nx-evidence-preview"><a href="18-broken-signature-scheme-07-bukti-evidence.html"><img src="assets/broken-signature-scheme/00b-submit-platform.png" alt="Pratinjau evidence Broken Signature Scheme" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="18-broken-signature-scheme-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="18-broken-signature-scheme-07-bukti-evidence.html"><img src="assets/broken-signature-scheme/00b-terminal-evidence.png" alt="Pratinjau evidence Broken Signature Scheme" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="18-broken-signature-scheme-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

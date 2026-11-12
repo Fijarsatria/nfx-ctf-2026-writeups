@@ -53,7 +53,7 @@ Jadi ceritanya gini. **LinkVault** adalah aplikasi Go 1.26.0 untuk submit URL, f
 - XSS berjalan di origin `127.0.0.1:80` dengan cookie admin. Payload memanggil `/flag` (admin-only), lalu mengirim hasilnya ke `/api/share?to=<user>&d=<flag>`; penyerang membaca inbox-nya di `/reports`.
 - Flag diperoleh dari instance live: `NFX{L1nkV4ult_cve_26_3p1c_!}`.
 
-<div class="nx-evidence-preview"><a href="49-linkvault-11-bukti-evidence.html"><img src="assets/linkvault/00b-submit-platform.png" alt="Pratinjau evidence LinkVault" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="49-linkvault-11-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="49-linkvault-11-bukti-evidence.html"><img src="assets/linkvault/00b-terminal-evidence.png" alt="Pratinjau evidence LinkVault" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="49-linkvault-11-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

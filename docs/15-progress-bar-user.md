@@ -73,7 +73,7 @@ Jadi ceritanya gini. Target `10.10.20.22` menjalankan Apache prefork + **mod_php
 - Nilai tersebut **byte-identik** dengan `user.txt` di target, tetapi platform
   menolaknya. Instance sudah di-redeploy dan dibaca ulang; hasilnya sama.
 
-<div class="nx-evidence-preview"><a href="15-progress-bar-user-09-bukti-evidence.html"><img src="assets/progress-bar-user/00b-submit-platform.png" alt="Pratinjau evidence Progress Bar (User)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="15-progress-bar-user-09-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="15-progress-bar-user-09-bukti-evidence.html"><img src="assets/progress-bar-user/00b-terminal-evidence.png" alt="Pratinjau evidence Progress Bar (User)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="15-progress-bar-user-09-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

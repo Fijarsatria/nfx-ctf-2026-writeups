@@ -50,7 +50,7 @@ Jadi ceritanya gini. `leaker()` memakai `printf(nickname)` → **format string**
 - ROP **ORW**: `read(0, path, ...)` → raw `open(path)` → `xchg edi,eax` (fd = rax) → `read(fd, out, ...)` → `write(1, out, ...)`.
 - Flag: `NFX{ex3cve_d3ni3d_but_0pen_r34d_writ3_s4v3d_th3_day}`.
 
-<div class="nx-evidence-preview"><a href="38-narrowgate-08-bukti-evidence.html"><img src="assets/narrowgate/00b-submit-platform.png" alt="Pratinjau evidence NarrowGate" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="38-narrowgate-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="38-narrowgate-08-bukti-evidence.html"><img src="assets/narrowgate/00b-terminal-evidence.png" alt="Pratinjau evidence NarrowGate" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="38-narrowgate-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

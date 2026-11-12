@@ -59,6 +59,7 @@ markdown_extensions:
 extra:
   generator: false
 nav:
+- Audit: AUDIT.md
 - NFX CTF 2026: index.md
 - NF · Boot To Root:
   - 01. Forgotten Commit (Root):

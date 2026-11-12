@@ -1,24 +1,31 @@
-# Follow Jarvis! — Flag & Verifikasi
+# Follow Jarvis! — Cara Mendapatkan Flag
 
 [← Overview](83-follow-jarvis.md) · [Index](index.md)
 
-> **Langkah 2/5 — Cara Mendapatkan Flag.** Cara Mendapatkan Flag
+> **Langkah 2/5 — Cara Mendapatkan Flag.**
 >
-> **Titik penting:** NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}
->
-> **Berikutnya:** [Flag](83-follow-jarvis-03-flag.md)
-
 > **Flag:** `NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}`
-> **Status:** `VERIFIED`
+> **Status:** `VERIFIED` (admin-assisted)
 
-1. Follow Instagram/TikTok/LinkedIn Jarvis (minimal 2).
-2. Buka ticket Discord dengan subject `Follow Jarvis`.
-3. Kirim screenshot bukti; flag diberikan admin.
+Challenge ini **bukan celah teknis**, melainkan challenge sponsor/intro.
 
-### Bukti submit di platform
+## Langkah
 
-![00b-submit-platform.png](assets/follow-jarvis/00b-submit-platform.png)
+1. Follow minimal **dua** akun resmi Jarvis (Instagram/TikTok/LinkedIn).
+2. Buka ticket di Discord dengan subject `Follow Jarvis`.
+3. Kirim screenshot bukti follow.
+4. Admin memverifikasi lalu memberikan flag.
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+```text
+NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}
+```
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+## Bukti yang seharusnya dilampirkan
+
+- Screenshot follow akun.
+- Screenshot ticket Discord + balasan admin.
+- Log submit/flag accepted.
+
+> Catatan audit: halaman ini sebelumnya dinilai C karena “butuh ticket/admin”.
+> Itu memang sifat challenge-nya; lengkapi dengan screenshot ticket asli dan
+> labeli **admin-assisted intro**.

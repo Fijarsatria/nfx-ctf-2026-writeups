@@ -34,7 +34,7 @@
 
 Namanya Matryoshka: encoding berlapis. Setiap lapisan harus dibuka satu per satu sampai isinya flag.
 
-<div class="nx-evidence-preview"><a href="69-matryoshka-encoding-04-bukti-evidence.html"><img src="assets/matryoshka-encoding/00b-submit-platform.png" alt="Pratinjau evidence Matryoshka Encoding" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="69-matryoshka-encoding-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="69-matryoshka-encoding-04-bukti-evidence.html"><img src="assets/matryoshka-encoding/00b-terminal-evidence.png" alt="Pratinjau evidence Matryoshka Encoding" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="69-matryoshka-encoding-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

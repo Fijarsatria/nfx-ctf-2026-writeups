@@ -36,6 +36,6 @@ cat /tmp/rootflag
 ```
 
 Status: **VERIFIED platform**. Flag sudah di-submit lewat form web platform
-dan diterima. Screenshot submit ada di `assets/forgotten-commit-root/00b-submit-platform.png`.
+dan diterima. Terminal evidence asli ada di `assets/forgotten-commit-root/00b-terminal-evidence.png`.
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

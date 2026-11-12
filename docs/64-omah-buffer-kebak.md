@@ -35,7 +35,7 @@
 
 Binary pwn klasik: input kita bisa menimpa return address. Kita cek proteksi, cari offset, lalu susun payload untuk membuka shell atau memanggil fungsi flag.
 
-<div class="nx-evidence-preview"><a href="64-omah-buffer-kebak-04-bukti-evidence.html"><img src="assets/omah-buffer-kebak/00b-submit-platform.png" alt="Pratinjau evidence Omah Buffer Kebak" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="64-omah-buffer-kebak-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="64-omah-buffer-kebak-04-bukti-evidence.html"><img src="assets/omah-buffer-kebak/00b-terminal-evidence.png" alt="Pratinjau evidence Omah Buffer Kebak" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="64-omah-buffer-kebak-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

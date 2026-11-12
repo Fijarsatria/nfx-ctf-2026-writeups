@@ -36,7 +36,7 @@
 
 Jadi ceritanya gini. Kita dikasih satu gambar `evidence.png`. Kalau dilihat biasa, ya cuma gambar. Tapi setelah dicek, ada ZIP yang nyempil di belakang file PNG. ZIP-nya berisi `passwords.txt` dan `flag.txt` yang dikunci password. Kita tinggal coba daftar password itu sampai ketemu yang cocok.
 
-<div class="nx-evidence-preview"><a href="57-image-metadata-05-bukti-evidence.html"><img src="assets/image-metadata/00b-submit-platform.png" alt="Pratinjau evidence Image Metadata" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="57-image-metadata-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="57-image-metadata-05-bukti-evidence.html"><img src="assets/image-metadata/00b-terminal-evidence.png" alt="Pratinjau evidence Image Metadata" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="57-image-metadata-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

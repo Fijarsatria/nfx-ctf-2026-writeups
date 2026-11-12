@@ -49,7 +49,7 @@ Jadi ceritanya gini. artefak hanya berupa profil Chrome (`ChromeProfile/`), tanp
 - Extension non-webstore **ZenVPN 2.7.1** dan timestamp bookmark/search **20250314** melengkapi komponen flag.
 - Flag disusun dari empat artefak: `wraithbyte` + `cve202421412` + `20250314` + `zenvpn271`.
 
-<div class="nx-evidence-preview"><a href="06-insider-09-bukti-evidence.html"><img src="assets/insider/00b-submit-platform.png" alt="Pratinjau evidence insider" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="06-insider-09-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="06-insider-09-bukti-evidence.html"><img src="assets/insider/00b-terminal-evidence.png" alt="Pratinjau evidence insider" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="06-insider-09-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

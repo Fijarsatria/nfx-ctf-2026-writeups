@@ -34,7 +34,7 @@
 
 Gambar waifu sudah diacak dengan recipe CyberChef. Kita harus membalik urutan operasinya, bukan menebak gambarnya.
 
-<div class="nx-evidence-preview"><a href="71-decode-balik-04-bukti-evidence.html"><img src="assets/decode-balik/00b-submit-platform.png" alt="Pratinjau evidence Decode Balik" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="71-decode-balik-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="71-decode-balik-04-bukti-evidence.html"><img src="assets/decode-balik/00b-terminal-evidence.png" alt="Pratinjau evidence Decode Balik" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="71-decode-balik-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

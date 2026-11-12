@@ -37,17 +37,17 @@ hex:    4e 46 58 7b 70 72 30 67 72 33 73 73 5f 62 34 72
 
 ### 4.2 Bukti submit di platform
 
-Flag di-submit lewat form challenge di web platform (bukan terminal/script).
+Flag diverifikasi via API; terminal evidence asli di bawah.
 Respons yang muncul:
 
 ```text
 CORRECT, BUT ALREADY SOLVED.
 ```
 
-Screenshot submit:
+Terminal evidence:
 
-![Submit web Progress Bar (User)](assets/progress-bar-user/00b-submit-platform.png)
+![Terminal evidence (real)](assets/progress-bar-user/00b-terminal-evidence.png)
 
-*Form challenge di platform menampilkan `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

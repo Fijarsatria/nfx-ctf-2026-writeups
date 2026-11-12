@@ -37,7 +37,7 @@
 
 Jadi ceritanya gini. Kita dikasih satu binary ELF kecil bernama `baby_strings`. Programnya cuma minta flag, lalu membandingkan input kita dengan flag yang tersimpan di dalam binary. Karena flagnya tidak dienkripsi, kita bisa langsung intip pakai `strings`.
 
-<div class="nx-evidence-preview"><a href="53-baby-strings-05-bukti-evidence.html"><img src="assets/baby-strings/00b-submit-platform.png" alt="Pratinjau evidence Baby Strings" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="53-baby-strings-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="53-baby-strings-05-bukti-evidence.html"><img src="assets/baby-strings/00b-terminal-evidence.png" alt="Pratinjau evidence Baby Strings" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="53-baby-strings-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

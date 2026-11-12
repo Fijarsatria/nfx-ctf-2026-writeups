@@ -15,10 +15,10 @@
 2. Cari baris `DEBUG_PAYLOAD`.
 3. Cocokkan dengan orphan commit untuk melengkapi flag.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/pipeline-phantom/00b-submit-platform.png)
+![Terminal evidence (real)](assets/pipeline-phantom/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

@@ -49,7 +49,7 @@ Jadi ceritanya gini. `challenge.py` membocorkan `MASTER = b"\x13\x37" * 16` di s
   berisi prefix `user-input-goes-here:|` diikuti flag.
 - Flag: `NXCTF{cbc_1v_r3u53_l34k5_k3y5tr34m_b0fbd4d35f80}`.
 
-<div class="nx-evidence-preview"><a href="22-static-iv-offline-06-bukti-evidence.html"><img src="assets/static-iv-offline/00b-submit-platform.png" alt="Pratinjau evidence Static IV Offline" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="22-static-iv-offline-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="22-static-iv-offline-06-bukti-evidence.html"><img src="assets/static-iv-offline/00b-terminal-evidence.png" alt="Pratinjau evidence Static IV Offline" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="22-static-iv-offline-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

@@ -19,10 +19,10 @@ pdfdetach -list laporan_kegiatan_bulan_desember.pdf
 2. Ekstrak attachment/objek tersembunyi.
 3. Decode isi yang masih dibungkus untuk mendapatkan flag.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/titipan-akhir-tahun/00b-submit-platform.png)
+![Terminal evidence (real)](assets/titipan-akhir-tahun/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

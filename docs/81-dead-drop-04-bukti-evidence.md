@@ -25,10 +25,10 @@
 *Challenge brief asli di platform NFX CTF 2026.*
 
 <div class="nx-evidence-grid">
-<figure><a href="assets/dead-drop/00b-submit-platform.png" target="_blank" rel="noopener"><img src="assets/dead-drop/00b-submit-platform.png" alt="00b-submit-platform.png" loading="lazy"></a><figcaption>00b-submit-platform.png</figcaption></figure>
+<figure><a href="assets/dead-drop/00b-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/dead-drop/00b-terminal-evidence.png" alt="Terminal evidence (real)" loading="lazy"></a><figcaption>Terminal evidence (real)</figcaption></figure>
 </div>
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
 ### Terminal (arsip sesi)
 
@@ -45,5 +45,5 @@
 ## Tabel Evidence
 
 - Challenge brief: `assets/dead-drop/00-challenge-platform.png`
-- Submit web: `assets/dead-drop/00b-submit-platform.png`
+- Terminal evidence (real): `assets/dead-drop/00b-terminal-evidence.png`
 - Catatan mentah: lihat folder `assets/dead-drop/`

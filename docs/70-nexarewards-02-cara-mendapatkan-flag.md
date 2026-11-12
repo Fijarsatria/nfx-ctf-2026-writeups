@@ -15,10 +15,10 @@
 2. Kirim beberapa request redeem secara paralel.
 3. Kalau saldo bertambah lebih dari sekali, tukar ke item/flag.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/nexarewards/00b-submit-platform.png)
+![Terminal evidence (real)](assets/nexarewards/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

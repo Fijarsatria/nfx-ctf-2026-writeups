@@ -34,7 +34,7 @@
 
 Kebakaran di sebuah lokasi. Dari foto/berita kita cari nama gedung, lalu nama perusahaan/pemilik yang terkait.
 
-<div class="nx-evidence-preview"><a href="76-kebakaran-04-bukti-evidence.html"><img src="assets/kebakaran/00b-submit-platform.png" alt="Pratinjau evidence Kebakaran" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="76-kebakaran-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="76-kebakaran-04-bukti-evidence.html"><img src="assets/kebakaran/00b-terminal-evidence.png" alt="Pratinjau evidence Kebakaran" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="76-kebakaran-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

@@ -23,10 +23,10 @@ Verifikasi:
 - `_encrypt_vault(flag) == _VAULT_STATE` (round-trip PASS).
 - Flag sama dengan `flags/wave2/The_Alchemists_Sandbox.txt`.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/the-alchemists-sandbox/00b-submit-platform.png)
+![Terminal evidence (real)](assets/the-alchemists-sandbox/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

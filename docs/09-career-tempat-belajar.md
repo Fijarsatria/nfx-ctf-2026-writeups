@@ -60,7 +60,7 @@ Jadi ceritanya gini. challenge memberi sebuah poster AI berjudul **“DIGITAL HO
 - Profil Gravatar live tersebut memuat flag di field `aboutMe`:
   `NFX{Gr4v4t4r_0s1nt_R3cru1t3r_D1hL34Rn}`.
 
-<div class="nx-evidence-preview"><a href="09-career-tempat-belajar-07-bukti-evidence.html"><img src="assets/career-tempat-belajar/00b-submit-platform.png" alt="Pratinjau evidence Career Tempat Belajar" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="09-career-tempat-belajar-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="09-career-tempat-belajar-07-bukti-evidence.html"><img src="assets/career-tempat-belajar/00b-terminal-evidence.png" alt="Pratinjau evidence Career Tempat Belajar" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="09-career-tempat-belajar-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

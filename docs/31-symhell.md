@@ -57,7 +57,7 @@ Jadi ceritanya gini. service menjalankan input pengguna dengan `subprocess.run(l
   `bash: line 1: NFX{...}: command not found`.
 - Server mengembalikan stderr jika stdout kosong, sehingga flag bocor.
 
-<div class="nx-evidence-preview"><a href="31-symhell-06-bukti-evidence.html"><img src="assets/symhell/00b-submit-platform.png" alt="Pratinjau evidence SymHell" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="31-symhell-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="31-symhell-06-bukti-evidence.html"><img src="assets/symhell/00b-terminal-evidence.png" alt="Pratinjau evidence SymHell" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="31-symhell-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

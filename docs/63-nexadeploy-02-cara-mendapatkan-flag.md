@@ -15,10 +15,10 @@
 2. Kirim YAML dengan tag Python yang berbahaya, misalnya `!!python/object/apply:os.system`.
 3. Kalau RCE berhasil, baca flag dari environment atau file di server.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/nexadeploy/00b-submit-platform.png)
+![Terminal evidence (real)](assets/nexadeploy/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

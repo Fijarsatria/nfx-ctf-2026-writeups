@@ -1,35 +1,43 @@
-# Black Box Protocol N4T0 — Flag & Verifikasi
+# Black Box Protocol N4T0 — Flag
 
 [← Overview](02-black-box-protocol-n4t0.md) · [Index](index.md)
 
-> **Langkah 5/7 — Flag.** Flag di-submit lewat form challenge di web platform (bukan terminal/script).
+> **Langkah 5/7 — Flag.**
 >
-> **Titik penting:** NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}
->
-> **Berikutnya:** [Bukti / Evidence](02-black-box-protocol-n4t0-06-bukti-evidence.md)
+> **Kandidat:** `NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}`
+> **Status:** `OPEN / CANDIDATE — ditolak`
 
-> **Flag:** `NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}`
-> **Status:** `VERIFIED`
-
-Flag challenge:
+## Kandidat
 
 ```text
 NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}
 ```
 
-### Bukti submit di platform
+## Hasil submit
 
-Flag di-submit lewat form challenge di web platform (bukan terminal/script).
-Respons yang muncul:
+Semua kandidat yang dicoba ditolak:
 
-```text
-CORRECT, BUT ALREADY SOLVED.
+```json
+{"name":"BlackBox","id":"f72a1790-01af-4e03-b789-00a949c8c270",
+ "flag":"NFX{N4T0PH0N3T1C1N1_C0mbO_H3X}",
+ "http":200,"result":{"success":false,"message":"Incorrect flag"}}
 ```
 
-Screenshot submit:
+Kandidat lengkap dengan `_fl0At_b4r4ng` juga ditolak pada percobaan terpisah.
+`total_solves` challenge = **0**, jadi belum ada solver publik.
 
-![Submit web Black Box Protocol N4T0](assets/black-box-protocol-n4t0/00b-submit-platform.png)
+## Bukti terminal (real)
 
-*Form challenge di platform menampilkan `CORRECT, BUT ALREADY SOLVED.`*
+`00b-terminal-evidence.png` sekarang adalah **capture terminal asli** dari log API:
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+```text
+$ python3 submit_curl.py f72a1790... 'NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}'
+(200, {'success': False, 'message': 'Incorrect flag'})
+```
+
+Screenshot mockup lama (`SOLVED · 120 pts · 20 solves`, input `XXX{...}`) sudah
+dihapus. Statistik platform asli: `0 solves`, 500 pts dynamic.
+
+## Status
+
+`OPEN / CANDIDATE`. Flag accepted belum ditemukan.

@@ -2,7 +2,7 @@
 
 [← Overview](04-feistel-differential.md) · [Index](index.md)
 
-> **Langkah 7/9 — Flag.** Verifikasi lewat form submit web platform ada di halaman Flag (00b-submit-platform.png).
+> **Langkah 7/9 — Flag.** Verifikasi via API platform tercatat di halaman Flag (00b-terminal-evidence.png).
 >
 > **Titik penting:** NFXCTF{d1ff3r3nt14l_crypt0_pwn5_f31st3l_45322835}
 >
@@ -15,7 +15,7 @@
 NFXCTF{d1ff3r3nt14l_crypt0_pwn5_f31st3l_45322835}
 ```
 
-Verifikasi lewat form submit web platform ada di halaman Flag
-(`00b-submit-platform.png`).
+Verifikasi via API platform tercatat di halaman Flag
+(`00b-terminal-evidence.png`).
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

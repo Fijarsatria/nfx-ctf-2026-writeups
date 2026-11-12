@@ -15,10 +15,10 @@
 2. Jalankan `git fsck --lost-found` untuk mencari dangling blob.
 3. Baca blob, susun key, dekripsi ciphertext.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/commit-yang-kehapus/00b-submit-platform.png)
+![Terminal evidence (real)](assets/commit-yang-kehapus/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

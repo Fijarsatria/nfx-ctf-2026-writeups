@@ -49,7 +49,7 @@ Jadi ceritanya gini. **ChangeTrack** adalah Flask/gunicorn yang meniru `changede
 - Payload RCE `{{ cycler.__init__.__globals__.os.popen('cat /flag.txt').read() }}` mengeksekusi perintah sebagai **root** dan mengirim hasilnya ke webhook eksternal (webhook.site) → **SSTI OOB**.
 - Flag: `NFX{ch4ng3_d3t3ct10n_j1nj4_sst1_oob_cve_2024_32651_2026}`. Nama CVE di flag merujuk pada **CVE-2024-32651** (SSTI pada notification template changedetection.io).
 
-<div class="nx-evidence-preview"><a href="48-changetrack-08-bukti-evidence.html"><img src="assets/changetrack/00b-submit-platform.png" alt="Pratinjau evidence ChangeTrack" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="48-changetrack-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="48-changetrack-08-bukti-evidence.html"><img src="assets/changetrack/00b-terminal-evidence.png" alt="Pratinjau evidence ChangeTrack" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="48-changetrack-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

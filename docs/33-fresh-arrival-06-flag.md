@@ -2,14 +2,14 @@
 
 [← Overview](33-fresh-arrival.md) · [Index](index.md)
 
-> **Langkah 6/8 — Flag.** Flag ini tidak disubmit ke platform (sesuai aturan tugas).
+> **Langkah 6/8 — Flag.** Flag ini **belum disubmit** ke platform, jadi statusnya OPEN / UNVERIFIED.
 >
 > **Titik penting:** NFX{XW_CXH_beijing_raihan}
 >
 > **Berikutnya:** [Bukti / Evidence](33-fresh-arrival-07-bukti-evidence.md)
 
-> **Flag:** `NFX{XW_CXH_beijing_raihan}`
-> **Status:** `VERIFIED`
+> **Flag:** `NFX{XW_CXH_beijing_raihan}` (kandidat)
+> **Status:** `OPEN / UNVERIFIED`
 
 ```text
 NFX{XW_CXH_beijing_raihan}
@@ -27,14 +27,14 @@ ICAO               : CXH
 HQ                 : Beijing
 ```
 
-Flag ini **tidak disubmit** ke platform (sesuai aturan tugas). Status:
-`verified platform` berdasarkan notes solve sebelumnya; bukti lokal
-(JetPhotos + Wikidata) juga konsisten.
+Flag ini **belum disubmit** ke platform. Bukti lokal (JetPhotos + Wikidata)
+konsisten, tetapi status `VERIFIED` hanya boleh dipakai setelah ada submit
+sukses. Karena itu halaman ini memakai `OPEN / UNVERIFIED` sampai diverifikasi.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/fresh-arrival/00b-submit-platform.png)
+![Terminal evidence (real)](assets/fresh-arrival/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

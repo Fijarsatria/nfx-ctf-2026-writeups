@@ -61,7 +61,7 @@ Jadi ceritanya gini. challenge meminta **bukti Fiat–Shamir** untuk VDF `y = 2^
   `π^l · x^(T mod l) ≡ y (mod N)`.
 - Flag: `NFX{x0r_f4ct0r1ng_4nd_f4st_vdf_byp4ss_m4k3s_1t_h4rd}`.
 
-<div class="nx-evidence-preview"><a href="23-unbreakable-delay-07-bukti-evidence.html"><img src="assets/unbreakable-delay/00b-submit-platform.png" alt="Pratinjau evidence Unbreakable Delay" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="23-unbreakable-delay-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="23-unbreakable-delay-07-bukti-evidence.html"><img src="assets/unbreakable-delay/00b-terminal-evidence.png" alt="Pratinjau evidence Unbreakable Delay" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="23-unbreakable-delay-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

@@ -1,24 +1,31 @@
-# Tempat Belajar — Flag & Verifikasi
+# Tempat Belajar — Flag
 
 [← Overview](85-tempat-belajar.md) · [Index](index.md)
 
-> **Langkah 3/5 — Flag.** Flag
+> **Langkah 3/5 — Flag.**
 >
-> **Titik penting:** NFX{Op3n_S0urc3_Pl4tF0m_D1hL34Rn_J4R!}
->
-> **Berikutnya:** [Bukti / Evidence](85-tempat-belajar-04-bukti-evidence.md)
+> **Status:** `OPEN / CANDIDATE`
+> **Kandidat:** `NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4R!}`
 
-> **Flag:** `NFX{Op3n_S0urc3_Pl4tF0m_D1hL34Rn_J4R!}`
-> **Status:** `VERIFIED`
+## Kandidat artefak (DITOLAK)
 
 ```text
-NFX{Op3n_S0urc3_Pl4tF0m_D1hL34Rn_J4R!}
+NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4R!}
 ```
 
-### Bukti submit di platform
+Ini adalah hasil decode base64 dari dua post `@career.dihlearn.id`.
+Platform menolaknya, termasuk varian corrected `Pl4tF0rm`, `D1hL34rn`,
+`S0urc1`.
 
-![00b-submit-platform.png](assets/tempat-belajar/00b-submit-platform.png)
+## Status
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+- `total_solves` challenge = **1** (Kaens), bukan akun kita.
+- Terminal evidence menampilkan API response **`Incorrect flag`**.
+- Flag accepted belum ditemukan; kemungkinan ada di DM `@dihlearn.id`.
+- Jangan menandai halaman ini `VERIFIED` sampai ada submit sukses asli.
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+## Bukti kegagalan
+
+![Terminal evidence (real)](assets/tempat-belajar/00b-terminal-evidence.png)
+
+*Terminal evidence: API response `Incorrect flag` untuk kandidat `D1hL34Rn`.*

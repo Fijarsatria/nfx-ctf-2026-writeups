@@ -37,7 +37,7 @@
 
 Jadi ceritanya gini. Kali ini flagnya tidak muncul sebagai plaintext. Binary menyimpan byte-byte hasil XOR dengan satu kunci 8-bit. Karena kuncinya cuma 0–255, kita bisa coba semua kemungkinan sampai keluar format `NFX{`.
 
-<div class="nx-evidence-preview"><a href="54-baby-xor-05-bukti-evidence.html"><img src="assets/baby-xor/00b-submit-platform.png" alt="Pratinjau evidence Baby XOR" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="54-baby-xor-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="54-baby-xor-05-bukti-evidence.html"><img src="assets/baby-xor/00b-terminal-evidence.png" alt="Pratinjau evidence Baby XOR" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="54-baby-xor-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

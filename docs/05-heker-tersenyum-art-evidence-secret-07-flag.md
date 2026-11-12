@@ -25,10 +25,10 @@ Status : VERIFIED platform (submit via web; tersimpan lokal; challenge solved di
 
 Flag ini konsisten dengan tema challenge: `LSB` dan “3ASY OR H4RD” — apakah LSB mudah atau sulit, tergantung apakah payload-nya hanya container biasa atau terenkripsi.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/heker-tersenyum-art-evidence-secret/00b-submit-platform.png)
+![Terminal evidence (real)](assets/heker-tersenyum-art-evidence-secret/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

@@ -34,7 +34,7 @@
 
 Fitur supply feed menerima XML. Kalau parser XML mengizinkan entity eksternal, kita bisa membaca file lokal lewat XXE.
 
-<div class="nx-evidence-preview"><a href="72-nexasupply-04-bukti-evidence.html"><img src="assets/nexasupply/00b-submit-platform.png" alt="Pratinjau evidence NexaSupply" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="72-nexasupply-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="72-nexasupply-04-bukti-evidence.html"><img src="assets/nexasupply/00b-terminal-evidence.png" alt="Pratinjau evidence NexaSupply" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="72-nexasupply-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

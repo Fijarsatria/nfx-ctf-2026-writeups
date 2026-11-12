@@ -15,10 +15,10 @@
 2. Uji injeksi dengan `' OR 1=1-- -`, lalu sesuaikan jumlah kolom untuk UNION.
 3. Setelah session admin, buka halaman admin dan ambil flag.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/nexacommerce/00b-submit-platform.png)
+![Terminal evidence (real)](assets/nexacommerce/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

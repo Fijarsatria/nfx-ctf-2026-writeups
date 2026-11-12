@@ -34,7 +34,7 @@
 
 Parser resource-nya punya bug. Kita perlu cari input yang membuat parser membaca di luar batas atau menimpa struktur internal.
 
-<div class="nx-evidence-preview"><a href="65-the-broken-resource-parser-04-bukti-evidence.html"><img src="assets/the-broken-resource-parser/00b-submit-platform.png" alt="Pratinjau evidence THE BROKEN RESOURCE PARSER" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="65-the-broken-resource-parser-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="65-the-broken-resource-parser-04-bukti-evidence.html"><img src="assets/the-broken-resource-parser/00b-terminal-evidence.png" alt="Pratinjau evidence THE BROKEN RESOURCE PARSER" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="65-the-broken-resource-parser-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

@@ -51,7 +51,7 @@ Jadi ceritanya gini. `rahasia.pdf` bukan PDF lagi: seluruh byte di-XOR dengan **
 - Setelah didekripsi, file valid sebagai PDF 1.4; teks di halaman pertama
   memuat flag `NFX{k3tuk_p1ntu_bUk4_d0kum3n_x0r}`.
 
-<div class="nx-evidence-preview"><a href="28-dokodemo-door-08-bukti-evidence.html"><img src="assets/dokodemo-door/00b-submit-platform.png" alt="Pratinjau evidence Dokodemo Door" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="28-dokodemo-door-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="28-dokodemo-door-08-bukti-evidence.html"><img src="assets/dokodemo-door/00b-terminal-evidence.png" alt="Pratinjau evidence Dokodemo Door" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="28-dokodemo-door-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

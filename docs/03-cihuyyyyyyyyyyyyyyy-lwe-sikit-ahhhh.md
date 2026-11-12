@@ -52,7 +52,7 @@ Jadi ceritanya gini. attachment `lwe.py` bukan kode challenge, melainkan **trans
   di platform; KDF/skema enkripsi tidak disertakan di lampiran (lihat §3.4).
 - Flag: `NFXCTF{l4tt1c3_sm4ll_s3cr3t_LWE_7e2a0195}`.
 
-<div class="nx-evidence-preview"><a href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-06-bukti-evidence.html"><img src="assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/00b-submit-platform.png" alt="Pratinjau evidence Cihuyyyyyyyyyyyyyyy LWE sikit ahhhh" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-06-bukti-evidence.html"><img src="assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/00b-terminal-evidence.png" alt="Pratinjau evidence Cihuyyyyyyyyyyyyyyy LWE sikit ahhhh" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

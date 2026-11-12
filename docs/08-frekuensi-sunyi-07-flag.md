@@ -32,10 +32,10 @@ VERIFIED FLAG (accepted by platform, submit log: Correct! +460 points):
   NFX{b0sC4_Ce01L}
 ```
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/frekuensi-sunyi/00b-submit-platform.png)
+![Terminal evidence (real)](assets/frekuensi-sunyi/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

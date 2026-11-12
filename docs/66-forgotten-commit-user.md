@@ -35,7 +35,7 @@
 
 Ini tahap User dari Forgotten Commit. Webroot membocorkan `.git`, history-nya menyimpan kredensial, lalu kita SSH sebagai user dan baca user.txt.
 
-<div class="nx-evidence-preview"><a href="66-forgotten-commit-user-04-bukti-evidence.html"><img src="assets/forgotten-commit-user/00b-submit-platform.png" alt="Pratinjau evidence Forgotten Commit (User)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="66-forgotten-commit-user-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="66-forgotten-commit-user-04-bukti-evidence.html"><img src="assets/forgotten-commit-user/00b-terminal-evidence.png" alt="Pratinjau evidence Forgotten Commit (User)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="66-forgotten-commit-user-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

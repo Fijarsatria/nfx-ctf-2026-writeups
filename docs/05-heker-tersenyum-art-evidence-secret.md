@@ -49,7 +49,7 @@ Jadi ceritanya gini. attachment berupa PNG 1495×2424 yang seluruhnya grayscale,
 - Container R berisi 108 byte payload, container B berisi 53 byte; keduanya high-entropy (tidak langsung terbaca sebagai teks).
 - Flag final yang tercatat untuk challenge ini adalah `NFX{LSB_3ASY_OR_H4RD_IDK}`.
 
-<div class="nx-evidence-preview"><a href="05-heker-tersenyum-art-evidence-secret-08-bukti-evidence.html"><img src="assets/heker-tersenyum-art-evidence-secret/00b-submit-platform.png" alt="Pratinjau evidence Heker Tersenyum - Art Evidence Secret" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="05-heker-tersenyum-art-evidence-secret-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="05-heker-tersenyum-art-evidence-secret-08-bukti-evidence.html"><img src="assets/heker-tersenyum-art-evidence-secret/00b-terminal-evidence.png" alt="Pratinjau evidence Heker Tersenyum - Art Evidence Secret" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="05-heker-tersenyum-art-evidence-secret-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

@@ -1,49 +1,35 @@
-# Tempat Belajar — Evidence / Bukti
-
-<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">1 transkrip / script</span></div>
-
+# Tempat Belajar — Bukti / Evidence
 
 [← Overview](85-tempat-belajar.md) · [Index](index.md)
 
-> **Langkah 4/5 — Bukti / Evidence.** Bukti / Evidence
+> **Langkah 4/5 — Bukti / Evidence.**
 >
-> **Titik penting:** arsip screenshot dan transkrip
->
-> **Berikutnya:** [Referensi](85-tempat-belajar-05-referensi.md)
+> **Titik penting:** terminal evidence menunjukkan API response `Incorrect flag`.
 
+## Artefak
 
-## Arsip Evidence
+- `office.png` — metadata `Author=Kada`, `Title=Dih Office`,
+  `Comment=3%4TD'aPBA*Z,QPN`.
+- Post `@career.dihlearn.id`:
+  - `TkZYe09wM25fUzB1cmMzX`
+  - `1BsNHRGMG1fRDFoTDNybl9KNFIhfQ`
+- Decode: `NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4R!}` (ditolak).
 
-> Semua file berasal dari `assets/tempat-belajar/`. Screenshot platform dan terminal adalah bukti asli dari sesi solve; transkrip mentah tetap ditautkan di bagian bawah.
+## Terminal evidence (real)
 
-### Platform
+![Terminal evidence (real)](assets/tempat-belajar/00b-terminal-evidence.png)
 
-<div class="nx-evidence-grid">
-<figure><a href="assets/tempat-belajar/00-challenge-platform.png" target="_blank" rel="noopener"><img src="assets/tempat-belajar/00-challenge-platform.png" alt="00-challenge-platform.png" loading="lazy"></a><figcaption>00-challenge-platform.png</figcaption></figure>
-</div>
+Terminal evidence di atas menampilkan API response:
 
-*Challenge brief asli di platform NFX CTF 2026.*
+```text
+$ python3 submit_curl.py 0884fecf... 'NFX{Op3n_S0urc3_Pl4tF0m_D1hL34Rn_J4R!}'
+(200, {'success': False, 'message': 'Incorrect flag'})
+```
 
-<div class="nx-evidence-grid">
-<figure><a href="assets/tempat-belajar/00b-submit-platform.png" target="_blank" rel="noopener"><img src="assets/tempat-belajar/00b-submit-platform.png" alt="00b-submit-platform.png" loading="lazy"></a><figcaption>00b-submit-platform.png</figcaption></figure>
-</div>
+Jadi ini adalah **bukti kegagalan**, bukan bukti `CORRECT`.
+Halaman `85-tempat-belajar-03-flag.md` dan index sudah dikoreksi ke `OPEN`.
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+## Artefak teks
 
-### Terminal (arsip sesi)
-
-<div class="nx-evidence-grid">
-<figure><a href="assets/tempat-belajar/term-01-solve.png" target="_blank" rel="noopener"><img src="assets/tempat-belajar/term-01-solve.png" alt="term-01-solve.png" loading="lazy"></a><figcaption>term-01-solve.png</figcaption></figure>
-</div>
-
-*Terminal evidence — `01-solve.txt` (arsip transkrip sesi solve).*
-
-### Transkrip mentah & script
-
-- [`01-solve.txt`](assets/tempat-belajar/01-solve.txt)
-
-## Tabel Evidence
-
-- Challenge brief: `assets/tempat-belajar/00-challenge-platform.png`
-- Submit web: `assets/tempat-belajar/00b-submit-platform.png`
-- Catatan mentah: lihat folder `assets/tempat-belajar/`
+Foto poster dan kedua post karier disimpan di folder evidence challenge.
+Tidak ada bukti submit sukses untuk Tempat Belajar.

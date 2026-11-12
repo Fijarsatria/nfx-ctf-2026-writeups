@@ -2,13 +2,13 @@
 
 [← Overview](78-kunci-sudo-sing-kesasar.md) · [Index](index.md)
 
-> **Langkah 5/5 — Referensi.** Memory leak, token reuse.
+> **Langkah 5/5 — Referensi.** Parser rule, struct field, heap/stack corruption.
 >
-> **Titik penting:** Memory leak, token reuse.
+> **Titik penting:** Parser rule, struct field, heap/stack corruption.
 >
 > **Selesai.** Kembali ke [Overview](78-kunci-sudo-sing-kesasar.md).
 
-Memory leak, token reuse.
+Parser rule, struct field, heap/stack corruption.
 
 ### Evidence langkah ini
 

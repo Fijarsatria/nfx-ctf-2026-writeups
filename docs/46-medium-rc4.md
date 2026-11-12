@@ -51,7 +51,7 @@ Jadi ceritanya gini. binary `medium_rc4` adalah ELF x86-64 PIE, stripped, dan me
 - Karena RC4 simetris, dekripsi memakai rutin yang sama dengan enkripsi. Cukup ekstrak key + ciphertext, jalankan RC4, selesai.
 - Flag: `NFX{rc4_1s_s1mpl3_but_d34dly_1n_r3v3rs1ng}`.
 
-<div class="nx-evidence-preview"><a href="46-medium-rc4-03-perintah-akuisisi-bukti.html"><img src="assets/medium-rc4/00b-submit-platform.png" alt="Pratinjau evidence Medium RC4" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="46-medium-rc4-03-perintah-akuisisi-bukti.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="46-medium-rc4-03-perintah-akuisisi-bukti.html"><img src="assets/medium-rc4/00b-terminal-evidence.png" alt="Pratinjau evidence Medium RC4" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="46-medium-rc4-03-perintah-akuisisi-bukti.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

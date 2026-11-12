@@ -68,7 +68,7 @@ Jadi ceritanya gini. Target `10.10.20.22` adalah Apache prefork + mod_php **PHP 
   `x; id; echo ---CAT---; cat /root/root.txt ... #` memberi eksekusi root.
 - Root flag: `NFX{fr0m_w4tcht0w3r_c0nf1g_t0_r00t_3xp0rt_j0b}`.
 
-<div class="nx-evidence-preview"><a href="14-progress-bar-root-08-bukti-evidence.html"><img src="assets/progress-bar-root/00b-submit-platform.png" alt="Pratinjau evidence Progress Bar (Root)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="14-progress-bar-root-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="14-progress-bar-root-08-bukti-evidence.html"><img src="assets/progress-bar-root/00b-terminal-evidence.png" alt="Pratinjau evidence Progress Bar (Root)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="14-progress-bar-root-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

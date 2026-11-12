@@ -15,10 +15,10 @@
 NFX{j4v4scr1pt_0bfusc4t3d_but_st1ll_r34d4bl3}
 ```
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/easy-js-obfuscation/00b-submit-platform.png)
+![Terminal evidence (real)](assets/easy-js-obfuscation/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

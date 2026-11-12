@@ -58,7 +58,7 @@ Jadi ceritanya gini. attachment `FreyaSayangkuh` adalah **ZIP** berisi `freya_sa
   `NXCTF{FR3Y4_MY_L0V3LY!}`.
 - Flag platform: `NFX{FR3Y4_MY_L0V3LY!}`.
 
-<div class="nx-evidence-preview"><a href="29-my-lovely-freya-08-bukti-evidence.html"><img src="assets/my-lovely-freya/00b-submit-platform.png" alt="Pratinjau evidence My Lovely Freya" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="29-my-lovely-freya-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="29-my-lovely-freya-08-bukti-evidence.html"><img src="assets/my-lovely-freya/00b-terminal-evidence.png" alt="Pratinjau evidence My Lovely Freya" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="29-my-lovely-freya-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

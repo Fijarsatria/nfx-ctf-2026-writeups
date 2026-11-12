@@ -43,10 +43,10 @@ Sebagai konteks, user flag yang ikut terbaca adalah
 `NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}` (lihat writeup
 `progress-bar-user.md` untuk catatan penolakan platform).
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/progress-bar-root/00b-submit-platform.png)
+![Terminal evidence (real)](assets/progress-bar-root/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

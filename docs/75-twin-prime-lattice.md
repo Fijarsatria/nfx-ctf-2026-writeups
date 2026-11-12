@@ -34,7 +34,7 @@
 
 RSA dengan dua prima yang sangat berdekatan. Selisih kecil bisa ditemukan dengan Fermat factorization, lalu private key dihitung.
 
-<div class="nx-evidence-preview"><a href="75-twin-prime-lattice-04-bukti-evidence.html"><img src="assets/twin-prime-lattice/00b-submit-platform.png" alt="Pratinjau evidence Twin Prime Lattice" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="75-twin-prime-lattice-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="75-twin-prime-lattice-04-bukti-evidence.html"><img src="assets/twin-prime-lattice/00b-terminal-evidence.png" alt="Pratinjau evidence Twin Prime Lattice" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="75-twin-prime-lattice-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

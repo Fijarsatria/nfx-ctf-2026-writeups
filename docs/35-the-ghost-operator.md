@@ -65,7 +65,7 @@ Jadi ceritanya gini. `investigation.zip` berisi repo git dengan satu commit yang
 - Flag yang diterima platform: `NFX{villa_istana_bunga_lembang}` —
   nama safehouse + kota Lembang (bukan sekadar `villa_istana_bunga`).
 
-<div class="nx-evidence-preview"><a href="35-the-ghost-operator-08-bukti-evidence.html"><img src="assets/the-ghost-operator/00b-submit-platform.png" alt="Pratinjau evidence The Ghost Operator" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="35-the-ghost-operator-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="35-the-ghost-operator-08-bukti-evidence.html"><img src="assets/the-ghost-operator/00b-terminal-evidence.png" alt="Pratinjau evidence The Ghost Operator" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="35-the-ghost-operator-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

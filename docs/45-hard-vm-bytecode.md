@@ -53,7 +53,7 @@ Jadi ceritanya gini. `hard_vm` bukan validator biasa: ia adalah **interpreter by
 - Dengan membalik urutan operasi (`CMP → ROL⁻¹ → ADD⁻¹ → XOR⁻¹`), semua 33 karakter dapat dipulihkan tanpa menjalankan binary.
 - Flag: `NFX{vm_byt3c0d3_1s_l1k3_4_puzzl3}`.
 
-<div class="nx-evidence-preview"><a href="45-hard-vm-bytecode-03-perintah-akuisisi-bukti.html"><img src="assets/hard-vm-bytecode/00b-submit-platform.png" alt="Pratinjau evidence Hard VM Bytecode" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="45-hard-vm-bytecode-03-perintah-akuisisi-bukti.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="45-hard-vm-bytecode-03-perintah-akuisisi-bukti.html"><img src="assets/hard-vm-bytecode/00b-terminal-evidence.png" alt="Pratinjau evidence Hard VM Bytecode" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="45-hard-vm-bytecode-03-perintah-akuisisi-bukti.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

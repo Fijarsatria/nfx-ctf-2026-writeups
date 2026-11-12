@@ -72,7 +72,7 @@ Jadi ceritanya gini. foothold dimulai dari RCE **CVE-2026-111497 (Node2Shell)** 
   # NFX{sp00l3r_4rch1v3_r00t_pwn3d}
   ```
 
-<div class="nx-evidence-preview"><a href="16-record-keeper-root-09-bukti-evidence.html"><img src="assets/record-keeper-root/00b-submit-platform.png" alt="Pratinjau evidence Record Keeper (Root)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="16-record-keeper-root-09-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="16-record-keeper-root-09-bukti-evidence.html"><img src="assets/record-keeper-root/00b-terminal-evidence.png" alt="Pratinjau evidence Record Keeper (Root)" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="16-record-keeper-root-09-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

@@ -31,10 +31,10 @@
 *Evidence — `00-original.png`.*
 
 <div class="nx-evidence-grid">
-<figure><a href="assets/heker-tersenyum-art-evidence-secret/00b-submit-platform.png" target="_blank" rel="noopener"><img src="assets/heker-tersenyum-art-evidence-secret/00b-submit-platform.png" alt="00b-submit-platform.png" loading="lazy"></a><figcaption>00b-submit-platform.png</figcaption></figure>
+<figure><a href="assets/heker-tersenyum-art-evidence-secret/00b-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/heker-tersenyum-art-evidence-secret/00b-terminal-evidence.png" alt="Terminal evidence (real)" loading="lazy"></a><figcaption>Terminal evidence (real)</figcaption></figure>
 </div>
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
 ### Terminal (arsip sesi)
 

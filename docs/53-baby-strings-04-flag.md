@@ -15,10 +15,10 @@
 NFX{str1ngs_4r3_y0ur_b3st_fr13nd}
 ```
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/baby-strings/00b-submit-platform.png)
+![Terminal evidence (real)](assets/baby-strings/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

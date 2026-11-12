@@ -34,7 +34,7 @@
 
 NexaDeploy punya fitur deploy berbasis YAML. Kalau YAML-nya di-load pakai loader tidak aman, kita bisa menyisipkan objek yang mengeksekusi command.
 
-<div class="nx-evidence-preview"><a href="63-nexadeploy-04-bukti-evidence.html"><img src="assets/nexadeploy/00b-submit-platform.png" alt="Pratinjau evidence NexaDeploy" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="63-nexadeploy-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="63-nexadeploy-04-bukti-evidence.html"><img src="assets/nexadeploy/00b-terminal-evidence.png" alt="Pratinjau evidence NexaDeploy" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="63-nexadeploy-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

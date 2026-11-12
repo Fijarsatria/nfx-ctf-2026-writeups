@@ -1,6 +1,6 @@
 # Tragedi 9/11
 
-<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Osint</span><span class="nx-chip">Hard</span><span class="nx-chip">380 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Osint</span><span class="nx-chip">Hard</span><span class="nx-chip">380 poin</span><span class="nx-badge nx-badge-open">OPEN</span></div>
 
 
 | Field | Nilai |
@@ -12,8 +12,8 @@
 | Author | `salep88` |
 | Solves | `7` |
 | Tools | curl, python3, git |
-| Flag | `NFX{OS1NT_DU4R_D34_D0R}` |
-| Status | `VERIFIED` |
+| Flag | `NFX{OS1NT_DU4R_D34_D0R}` (solved lokal, belum disubmit) |
+| Status | `OPEN / UNVERIFIED` |
 
 [← Kembali ke Index](index.md)
 
@@ -51,9 +51,9 @@ Jadi ceritanya gini. video challenge adalah rekaman 9/11 berdurasi **58,5 detik*
 - Repo saat ini terlihat “bersih”, tetapi **history git** menyimpan
   commit `df34505` yang menambahkan `.env` berisi flag.
 - Commit `ea765a9` menghapus `.env`, tetapi objek commit lama tetap ada.
-- Flag: `NFX{OS1NT_DU4R_D34_D0R}`.
+- Kandidat flag (solved lokal, belum disubmit): `NFX{OS1NT_DU4R_D34_D0R}`.
 
-<div class="nx-evidence-preview"><a href="36-tragedi-9-11-07-bukti-evidence.html"><img src="assets/tragedi-9-11/00b-submit-platform.png" alt="Pratinjau evidence Tragedi 9/11" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="36-tragedi-9-11-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="36-tragedi-9-11-07-bukti-evidence.html"><img src="assets/tragedi-9-11/00b-terminal-evidence.png" alt="Pratinjau evidence Tragedi 9/11" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="36-tragedi-9-11-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
@@ -63,7 +63,7 @@ Jadi ceritanya gini. video challenge adalah rekaman 9/11 berdurasi **58,5 detik*
 <a class="nx-page-card" href="36-tragedi-9-11-03-analisis-jejak.html"><b>Analisis Jejak</b><span>Membaca alur dan akar masalah</span></a>
 <a class="nx-page-card" href="36-tragedi-9-11-04-analisis-jejak-2.html"><b>Analisis Jejak</b><span>Membaca alur dan akar masalah</span></a>
 <a class="nx-page-card" href="36-tragedi-9-11-05-pencarian-verifikasi.html"><b>Pencarian &amp; Verifikasi</b><span>Baca bagian ini</span></a>
-<a class="nx-page-card" href="36-tragedi-9-11-06-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="36-tragedi-9-11-06-flag.html"><b>Flag</b><span>Flag dan status verifikasi</span></a>
 <a class="nx-page-card" href="36-tragedi-9-11-07-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
 <a class="nx-page-card" href="36-tragedi-9-11-08-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

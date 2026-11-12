@@ -24,10 +24,10 @@ cat flags/misc/ChangeTrack.txt
 
 Flag yang sama muncul di body webhook dari instance live. Tidak ada submit ke platform.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/changetrack/00b-submit-platform.png)
+![Terminal evidence (real)](assets/changetrack/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

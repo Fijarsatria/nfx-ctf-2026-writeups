@@ -34,7 +34,7 @@
 
 Brand Studio memakai template Jinja2. Kalau input user masuk ke template, kita bisa SSTI dan mengeksekusi command.
 
-<div class="nx-evidence-preview"><a href="79-nexadocs-04-bukti-evidence.html"><img src="assets/nexadocs/00b-submit-platform.png" alt="Pratinjau evidence NexaDocs" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="79-nexadocs-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="79-nexadocs-04-bukti-evidence.html"><img src="assets/nexadocs/00b-terminal-evidence.png" alt="Pratinjau evidence NexaDocs" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="79-nexadocs-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

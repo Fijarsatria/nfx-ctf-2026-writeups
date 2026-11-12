@@ -52,7 +52,7 @@ Jadi ceritanya gini. service adalah simulator konvensi: register, main mini-game
 - Format string `%7$p` membocorkan canary dan `%17$p` membocorkan return address libc (`libc+0x29d90`).
 - ROP `pop rdi; "/bin/sh"; system` → shell, lalu `cat flag.txt`.
 
-<div class="nx-evidence-preview"><a href="10-nfxctf-convention-08-bukti-evidence.html"><img src="assets/nfxctf-convention/00b-submit-platform.png" alt="Pratinjau evidence NFXCTF Convention" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="10-nfxctf-convention-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="10-nfxctf-convention-08-bukti-evidence.html"><img src="assets/nfxctf-convention/00b-terminal-evidence.png" alt="Pratinjau evidence NFXCTF Convention" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="10-nfxctf-convention-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

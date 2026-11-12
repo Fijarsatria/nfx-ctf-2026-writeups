@@ -2,7 +2,7 @@
 
 [← Overview](09-career-tempat-belajar.md) · [Index](index.md)
 
-> **Langkah 6/8 — Flag.** Flag ini sudah disubmit lewat web platform dan diterima (lihat screenshot submit).
+> **Langkah 6/8 — Flag.** Flag ini tercatat accepted di platform; terminal evidence asli ada di halaman Flag.
 >
 > **Titik penting:** NFX{Gr4v4t4r_0s1nt_R3cru1t3r_D1hL34Rn}
 >
@@ -25,14 +25,14 @@ job_title             : CEO
 aboutMe               : NFX{Gr4v4t4r_0s1nt_R3cru1t3r_D1hL34Rn}
 ```
 
-Flag ini sudah disubmit lewat web platform dan diterima (lihat screenshot
-submit). Verifikasi lokal tetap dilakukan lewat respons API Gravatar yang
-live, bukan tebakan.
+Flag ini tercatat accepted di platform (lihat terminal evidence asli).
+Verifikasi lokal tetap dilakukan lewat respons API Gravatar yang live, bukan
+tebakan.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/career-tempat-belajar/00b-submit-platform.png)
+![Terminal evidence (real)](assets/career-tempat-belajar/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

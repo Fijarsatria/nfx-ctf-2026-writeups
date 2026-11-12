@@ -36,7 +36,7 @@
 
 Jadi ceritanya gini. Kita punya ciphertext XOR dengan kunci 4 karakter. Karena format flag-nya sudah diketahui (`NFXCTF{`), kita bisa nebak 4 byte pertama plaintext, XOR dengan ciphertext, dan langsung dapat kuncinya.
 
-<div class="nx-evidence-preview"><a href="56-ghost-xor-05-bukti-evidence.html"><img src="assets/ghost-xor/00b-submit-platform.png" alt="Pratinjau evidence Ghost XOR" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="56-ghost-xor-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="56-ghost-xor-05-bukti-evidence.html"><img src="assets/ghost-xor/00b-terminal-evidence.png" alt="Pratinjau evidence Ghost XOR" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="56-ghost-xor-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

@@ -56,7 +56,7 @@ Jadi ceritanya gini. `app.py` memakai **satu nonce GCM global** untuk dua key be
   `msg[:idx]` memuat `admin = True`.
 - Flag: `NFX{gcm_f0rb1dd3n_4tt4ck_du4l_t4g_c0ll1s10n_m4st3r}`.
 
-<div class="nx-evidence-preview"><a href="20-flagkeepers-07-bukti-evidence.html"><img src="assets/flagkeepers/00b-submit-platform.png" alt="Pratinjau evidence FlagKeepers" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="20-flagkeepers-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="20-flagkeepers-07-bukti-evidence.html"><img src="assets/flagkeepers/00b-terminal-evidence.png" alt="Pratinjau evidence FlagKeepers" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="20-flagkeepers-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

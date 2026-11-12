@@ -54,7 +54,7 @@ Last-Modified: Fri, 21 Aug 2026 06:24:15 GMT
 Keduanya mengirim JPEG. JPEG pertama adalah Tomoyo di koridor sekolah (decoy/awal). JPEG kedua adalah Tomoyo dengan overlay teks:
 
 ```text
-{D36A64128F80788B60C677EF94FA7157}
+{D36A64128F80788B60C677EF94EA7157}
 ```
 
 ### Evidence langkah ini

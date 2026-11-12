@@ -19,10 +19,10 @@ exiftool export
 2. Cari ZIP/attachment dan ekstrak.
 3. Baca domain/URL dan case ID, lalu susun flag sesuai format.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/file-analysis-the-suspicious-invoice/00b-submit-platform.png)
+![Terminal evidence (real)](assets/file-analysis-the-suspicious-invoice/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

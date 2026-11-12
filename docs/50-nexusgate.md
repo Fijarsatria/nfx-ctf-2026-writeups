@@ -53,7 +53,7 @@ Jadi ceritanya gini. **NexusGate** terdiri dari edge reverse proxy Node.js (`:80
 - Nonce bot adalah `aud` yang dipakai bot admin saat mengambil `/tickets/latest?aud=<nonce>` melalui edge cache (`undici interceptors.cache()`). Cache key tidak memisahkan admin vs anonim, sehingga penyerang mendapatkan HTML admin yang berisi `MASTER_TICKET`.
 - `POST /flag` dengan ticket tersebut mengembalikan flag: `NFX{n3xu5_g4t3_0v3r_gr4nt_c4ch3_smuggl3_2026}`.
 
-<div class="nx-evidence-preview"><a href="50-nexusgate-11-bukti-evidence.html"><img src="assets/nexusgate/00b-submit-platform.png" alt="Pratinjau evidence NexusGate" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="50-nexusgate-11-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="50-nexusgate-11-bukti-evidence.html"><img src="assets/nexusgate/00b-terminal-evidence.png" alt="Pratinjau evidence NexusGate" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="50-nexusgate-11-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

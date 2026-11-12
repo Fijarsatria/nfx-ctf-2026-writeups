@@ -52,7 +52,7 @@ Jadi ceritanya gini. 200 signature ECDSA pada `secp256k1`; nonce `k` selalu `< 2
   dan AES-GCM tag valid.
 - Flag: `NXCTF{ecds4_hnp_n0nc3_b14s_8b1t_l4tt1c3_a3d2ae498097}`.
 
-<div class="nx-evidence-preview"><a href="19-ecdsa-nonce-bias-06-bukti-evidence.html"><img src="assets/ecdsa-nonce-bias/00b-submit-platform.png" alt="Pratinjau evidence ECDSA Nonce Bias" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="19-ecdsa-nonce-bias-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="19-ecdsa-nonce-bias-06-bukti-evidence.html"><img src="assets/ecdsa-nonce-bias/00b-terminal-evidence.png" alt="Pratinjau evidence ECDSA Nonce Bias" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="19-ecdsa-nonce-bias-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

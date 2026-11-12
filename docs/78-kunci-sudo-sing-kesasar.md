@@ -28,13 +28,13 @@
 | 2 | Cara Mendapatkan Flag | NFX{Wh33W0kTh3Tok-k} | [Buka](78-kunci-sudo-sing-kesasar-02-cara-mendapatkan-flag.md) |
 | 3 | Flag | NFX{Wh33W0kTh3Tok-k} | [Buka](78-kunci-sudo-sing-kesasar-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](78-kunci-sudo-sing-kesasar-04-bukti-evidence.md) |
-| 5 | Referensi | Memory leak, token reuse. | [Buka](78-kunci-sudo-sing-kesasar-05-referensi.md) |
+| 5 | Referensi | Parser rule, struct field, heap/stack corruption. | [Buka](78-kunci-sudo-sing-kesasar-05-referensi.md) |
 
 ## Cerita singkat
 
-Binary pwn dengan bug yang membocorkan token. Kita cari token di memory/output, lalu pakai untuk membuka fungsi rahasia.
+Binary pwn non-PIE dengan parser rule yang salah mengelola struct akses. Respons service menunjukkan `uid=1000 suid=1000`; tujuan exploit adalah membuat `suid=0` agar `buka_kunci()` membaca `flag.txt`.
 
-<div class="nx-evidence-preview"><a href="78-kunci-sudo-sing-kesasar-04-bukti-evidence.html"><img src="assets/kunci-sudo-sing-kesasar/00b-submit-platform.png" alt="Pratinjau evidence Kunci Sudo Sing Kesasar" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="78-kunci-sudo-sing-kesasar-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="78-kunci-sudo-sing-kesasar-04-bukti-evidence.html"><img src="assets/kunci-sudo-sing-kesasar/00b-terminal-evidence.png" alt="Pratinjau evidence Kunci Sudo Sing Kesasar" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="78-kunci-sudo-sing-kesasar-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

@@ -55,7 +55,7 @@ Jadi ceritanya gini. cipher adalah Feistel 7 ronde pada blok 32-bit (dua half 16
 - Verifikasi: 280.000/280.000 baris cocok. Dekripsi `flag.enc` menghasilkan
   flag + padding PKCS#7 `03 03 03`.
 
-<div class="nx-evidence-preview"><a href="04-feistel-differential-08-bukti-evidence.html"><img src="assets/feistel-differential/00b-submit-platform.png" alt="Pratinjau evidence Feistel Differential" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="04-feistel-differential-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="04-feistel-differential-08-bukti-evidence.html"><img src="assets/feistel-differential/00b-terminal-evidence.png" alt="Pratinjau evidence Feistel Differential" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="04-feistel-differential-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

@@ -52,7 +52,7 @@ Jadi ceritanya gini. binary `medium_tea` memvalidasi flag 40 byte dari `argv[1]`
 - Karena TEA invertibel, dekripsi dilakukan dengan urutan ronde terbalik, `sum` dimulai dari `0xc6ef3720` dan dikurangi `delta` setiap ronde.
 - Flag: `NFX{t1ny_3ncrypt10n_4lg0r1thm_32_r0und5}`.
 
-<div class="nx-evidence-preview"><a href="47-medium-tea-03-perintah-akuisisi-bukti.html"><img src="assets/medium-tea/00b-submit-platform.png" alt="Pratinjau evidence Medium TEA" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="47-medium-tea-03-perintah-akuisisi-bukti.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="47-medium-tea-03-perintah-akuisisi-bukti.html"><img src="assets/medium-tea/00b-terminal-evidence.png" alt="Pratinjau evidence Medium TEA" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="47-medium-tea-03-perintah-akuisisi-bukti.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

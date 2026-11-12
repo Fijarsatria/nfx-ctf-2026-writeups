@@ -35,7 +35,7 @@
 
 Arsip infra-runbooks menyimpan repo Git. Ada branch tersembunyi yang berisi config dengan kredensial/flag.
 
-<div class="nx-evidence-preview"><a href="81-dead-drop-04-bukti-evidence.html"><img src="assets/dead-drop/00b-submit-platform.png" alt="Pratinjau evidence Dead Drop" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="81-dead-drop-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="81-dead-drop-04-bukti-evidence.html"><img src="assets/dead-drop/00b-terminal-evidence.png" alt="Pratinjau evidence Dead Drop" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="81-dead-drop-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

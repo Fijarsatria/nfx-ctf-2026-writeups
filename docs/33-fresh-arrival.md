@@ -1,6 +1,6 @@
 # Fresh Arrival
 
-<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Osint</span><span class="nx-chip">Medium</span><span class="nx-chip">340 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Osint</span><span class="nx-chip">Medium</span><span class="nx-chip">340 poin</span><span class="nx-badge nx-badge-open">OPEN</span></div>
 
 
 | Field | Nilai |
@@ -12,8 +12,8 @@
 | Author | `Ariaf` |
 | Solves | `9` |
 | Tools | curl, python3, exiftool |
-| Flag | `NFX{XW_CXH_beijing_raihan}` |
-| Status | `VERIFIED` |
+| Flag | `NFX{XW_CXH_beijing_raihan}` (solved lokal, belum disubmit) |
+| Status | `OPEN / UNVERIFIED` |
 
 [← Kembali ke Index](index.md)
 
@@ -53,9 +53,9 @@ Jadi ceritanya gini. foto challenge adalah **Boeing 737-341(SF)**, registrasi **
   (B-2908), lalu Yangtze River Express, Suparna Airlines, Central Airlines,
   dan terakhir PK-ADL/Aero Nusantara Cargo.
 - China Xinhua Airlines: IATA **XW**, ICAO **CXH**, markas **Beijing**.
-- Flag: `NFX{XW_CXH_beijing_raihan}`.
+- Kandidat flag (solved lokal, belum disubmit): `NFX{XW_CXH_beijing_raihan}`.
 
-<div class="nx-evidence-preview"><a href="33-fresh-arrival-07-bukti-evidence.html"><img src="assets/fresh-arrival/00b-submit-platform.png" alt="Pratinjau evidence Fresh Arrival" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="33-fresh-arrival-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="33-fresh-arrival-07-bukti-evidence.html"><img src="assets/fresh-arrival/00b-terminal-evidence.png" alt="Pratinjau evidence Fresh Arrival" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="33-fresh-arrival-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
@@ -65,7 +65,7 @@ Jadi ceritanya gini. foto challenge adalah **Boeing 737-341(SF)**, registrasi **
 <a class="nx-page-card" href="33-fresh-arrival-03-analisis-jejak.html"><b>Analisis Jejak</b><span>Membaca alur dan akar masalah</span></a>
 <a class="nx-page-card" href="33-fresh-arrival-04-analisis-jejak-2.html"><b>Analisis Jejak</b><span>Membaca alur dan akar masalah</span></a>
 <a class="nx-page-card" href="33-fresh-arrival-05-pencarian-verifikasi.html"><b>Pencarian &amp; Verifikasi</b><span>Baca bagian ini</span></a>
-<a class="nx-page-card" href="33-fresh-arrival-06-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="33-fresh-arrival-06-flag.html"><b>Flag</b><span>Flag dan status verifikasi</span></a>
 <a class="nx-page-card" href="33-fresh-arrival-07-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
 <a class="nx-page-card" href="33-fresh-arrival-08-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
 </div>

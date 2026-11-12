@@ -4,29 +4,29 @@
 
 > **Langkah 6/8 — Flag.** Flag
 >
-> **Titik penting:** NFXCTF{ARSIP_MERAH_204}
+> **Titik penting:** NFXCTF{arsip_merah_204}
 >
 > **Berikutnya:** [Bukti / Evidence](26-panggilan-terakhir-07-bukti-evidence.md)
 
-> **Flag:** `NFXCTF{ARSIP_MERAH_204}`
+> **Flag:** `NFXCTF{arsip_merah_204}`
 > **Status:** `VERIFIED`
 
 ```text
-NFXCTF{ARSIP_MERAH_204}
+NFXCTF{arsip_merah_204}
 ```
 
 Verifikasi/status:
 
 ```text
 Sumber : flags/wave2/Panggilan_Terakhir.txt
-Isi    : NFXCTF{ARSIP_MERAH_204}
+Isi    : NFXCTF{arsip_merah_204}
 Status : VERIFIED platform (submit via web; transkrip audio + flag file cocok)
 ```
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/panggilan-terakhir/00b-submit-platform.png)
+![Terminal evidence (real)](assets/panggilan-terakhir/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

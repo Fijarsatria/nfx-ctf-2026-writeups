@@ -36,7 +36,7 @@
 
 Jadi ceritanya gini. Flag-nya disembunyiin di array angka JavaScript. Tiap angka di-XOR dengan `0x33`, lalu hasilnya dibalik. Ada dua array: satu flag asli, satu decoy. Kita tinggal decode array yang benar.
 
-<div class="nx-evidence-preview"><a href="60-easy-js-obfuscation-05-bukti-evidence.html"><img src="assets/easy-js-obfuscation/00b-submit-platform.png" alt="Pratinjau evidence Easy JS Obfuscation" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="60-easy-js-obfuscation-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="60-easy-js-obfuscation-05-bukti-evidence.html"><img src="assets/easy-js-obfuscation/00b-terminal-evidence.png" alt="Pratinjau evidence Easy JS Obfuscation" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="60-easy-js-obfuscation-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

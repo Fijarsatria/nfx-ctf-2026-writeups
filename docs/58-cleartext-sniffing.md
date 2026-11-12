@@ -37,7 +37,7 @@
 
 Jadi ceritanya gini. Kita dikasih file `traffic.pcap`. Di dalamnya ada percakapan protokol lama yang masih mengirim data tanpa enkripsi. Karena plaintext, kita bisa langsung cari string `USER`, `PASS`, atau `NFX` di dalam pcap.
 
-<div class="nx-evidence-preview"><a href="58-cleartext-sniffing-05-bukti-evidence.html"><img src="assets/cleartext-sniffing/00b-submit-platform.png" alt="Pratinjau evidence Cleartext Sniffing" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="58-cleartext-sniffing-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="58-cleartext-sniffing-05-bukti-evidence.html"><img src="assets/cleartext-sniffing/00b-terminal-evidence.png" alt="Pratinjau evidence Cleartext Sniffing" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="58-cleartext-sniffing-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

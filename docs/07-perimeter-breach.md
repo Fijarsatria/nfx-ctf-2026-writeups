@@ -52,7 +52,7 @@ Jadi ceritanya gini. tiga log (`access.log` Nginx, `auth.log` syslog, `webapp.lo
 - Persistence: `deploy` membuat user **`svc_backup`** (UID 1002, group sudo), mengganti password, lalu login SSH publickey sebagai `svc_backup` (14:41:27).
 - Flag: `NFX{P4th_1nt0_Pr0duct10n}`.
 
-<div class="nx-evidence-preview"><a href="07-perimeter-breach-10-bukti-evidence.html"><img src="assets/perimeter-breach/00b-submit-platform.png" alt="Pratinjau evidence Perimeter Breach" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="07-perimeter-breach-10-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="07-perimeter-breach-10-bukti-evidence.html"><img src="assets/perimeter-breach/00b-terminal-evidence.png" alt="Pratinjau evidence Perimeter Breach" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="07-perimeter-breach-10-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

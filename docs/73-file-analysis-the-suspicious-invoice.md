@@ -35,7 +35,7 @@
 
 Invoice-nya bukan dokumen biasa. Ada ZIP/attachment yang menyimpan domain C2 dan case ID; flag dirangkai dari temuan itu.
 
-<div class="nx-evidence-preview"><a href="73-file-analysis-the-suspicious-invoice-04-bukti-evidence.html"><img src="assets/file-analysis-the-suspicious-invoice/00b-submit-platform.png" alt="Pratinjau evidence File Analysis: The Suspicious Invoice" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="73-file-analysis-the-suspicious-invoice-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="73-file-analysis-the-suspicious-invoice-04-bukti-evidence.html"><img src="assets/file-analysis-the-suspicious-invoice/00b-terminal-evidence.png" alt="Pratinjau evidence File Analysis: The Suspicious Invoice" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="73-file-analysis-the-suspicious-invoice-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

@@ -61,7 +61,7 @@ Jadi ceritanya gini. attachment aslinya adalah `rekaman_lobi.wav`: PCM 16-bit, 4
   Morse, atau payload tambahan; satu-satunya pesan adalah teks pada
   spektrogram.
 
-<div class="nx-evidence-preview"><a href="08-frekuensi-sunyi-08-bukti-evidence.html"><img src="assets/frekuensi-sunyi/00b-submit-platform.png" alt="Pratinjau evidence Frekuensi Sunyi" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="08-frekuensi-sunyi-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="08-frekuensi-sunyi-08-bukti-evidence.html"><img src="assets/frekuensi-sunyi/00b-terminal-evidence.png" alt="Pratinjau evidence Frekuensi Sunyi" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="08-frekuensi-sunyi-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

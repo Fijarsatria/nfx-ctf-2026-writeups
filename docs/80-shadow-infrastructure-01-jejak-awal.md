@@ -2,13 +2,26 @@
 
 [← Overview](80-shadow-infrastructure.md) · [Index](index.md)
 
-> **Langkah 1/5 — Jejak Awal.** Baca brief challenge dan cek attachment/service yang diberikan.
+> **Langkah 1/5 — Jejak Awal.**
 >
-> **Titik penting:** Baca brief challenge dan cek attachment/service yang diberikan.
->
-> **Berikutnya:** [Cara Mendapatkan Flag](80-shadow-infrastructure-02-cara-mendapatkan-flag.md)
+> **Titik penting:** hostkey `SHA256:8f91c2a40e77b3d1952c` + `dns_beacon.zip`.
 
-Baca brief challenge dan cek attachment/service yang diberikan. Catat endpoint, file, atau petunjuk awal sebelum masuk ke langkah berikutnya.
+Brief challenge hanya memberi satu petunjuk:
+
+```text
+SHA256:8f91c2a40e77b3d1952c
+```
+
+Attachment `dns_beacon.zip` berisi empat artefak intelijen:
+
+| File | Isi |
+|---|---|
+| `shodan_scan.json` | snapshot scanner global: IP, ASN, port, SSH fingerprint |
+| `passive_dns.csv` | riwayat A record domain |
+| `ct_certificates.json` | sertifikat publik + SAN |
+| `dns_txt_records.txt` | TXT record `beacon-vault` dan decoy `health-check` |
+
+Tujuan: hubungkan **hostkey → IP → domain → sertifikat → DNS TXT → flag**.
 
 ### Evidence langkah ini
 

@@ -31,10 +31,10 @@
 *Evidence — `00-provided-spectrogram.png`.*
 
 <div class="nx-evidence-grid">
-<figure><a href="assets/frekuensi-sunyi/00b-submit-platform.png" target="_blank" rel="noopener"><img src="assets/frekuensi-sunyi/00b-submit-platform.png" alt="00b-submit-platform.png" loading="lazy"></a><figcaption>00b-submit-platform.png</figcaption></figure>
+<figure><a href="assets/frekuensi-sunyi/00b-terminal-evidence.png" target="_blank" rel="noopener"><img src="assets/frekuensi-sunyi/00b-terminal-evidence.png" alt="Terminal evidence (real)" loading="lazy"></a><figcaption>Terminal evidence (real)</figcaption></figure>
 </div>
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
 ### Terminal (arsip sesi)
 

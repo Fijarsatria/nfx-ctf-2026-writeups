@@ -15,10 +15,10 @@
 2. Ekstrak LSB dari kanal yang mengandung teks.
 3. Decode payload untuk mendapatkan flag.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/invoice/00b-submit-platform.png)
+![Terminal evidence (real)](assets/invoice/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

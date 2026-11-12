@@ -58,7 +58,7 @@ Jadi ceritanya gini. `chall.py` mengevaluasi ekspresi Python di sandbox AST yang
   memverifikasi hasilnya.
 - Flag: `NFXCTF{pyj41l_4st_4lch3my_vm_pwn_d84f216a}`.
 
-<div class="nx-evidence-preview"><a href="32-the-alchemists-sandbox-09-bukti-evidence.html"><img src="assets/the-alchemists-sandbox/00b-submit-platform.png" alt="Pratinjau evidence The Alchemist&#x27;s Sandbox" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="32-the-alchemists-sandbox-09-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="32-the-alchemists-sandbox-09-bukti-evidence.html"><img src="assets/the-alchemists-sandbox/00b-terminal-evidence.png" alt="Pratinjau evidence The Alchemist&#x27;s Sandbox" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="32-the-alchemists-sandbox-09-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

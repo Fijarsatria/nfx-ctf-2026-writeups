@@ -55,7 +55,7 @@ Jadi ceritanya gini. `castaway` membaca calon flag dari **stdin** (`fgets`), buk
 - Inversi dilakukan per byte dengan brute force 256 kandidat; key state dipulihkan berurutan dari ciphertext.
 - Flag: `NFX{c4st4w4y_0n_4n_0p4qu3_st4t3_m4ch1n3}`.
 
-<div class="nx-evidence-preview"><a href="43-castaway-03-perintah-akuisisi-bukti.html"><img src="assets/castaway/00b-submit-platform.png" alt="Pratinjau evidence Castaway" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="43-castaway-03-perintah-akuisisi-bukti.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="43-castaway-03-perintah-akuisisi-bukti.html"><img src="assets/castaway/00b-terminal-evidence.png" alt="Pratinjau evidence Castaway" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="43-castaway-03-perintah-akuisisi-bukti.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

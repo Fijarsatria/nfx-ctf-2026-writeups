@@ -24,10 +24,10 @@ Flag   : NFX{Mizore_Promise_Never_Forgotten_The_Bluebird_Still_Sings}
 Status : verified platform (challenge sudah solved)
 ```
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/bluebird-session/00b-submit-platform.png)
+![Terminal evidence (real)](assets/bluebird-session/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

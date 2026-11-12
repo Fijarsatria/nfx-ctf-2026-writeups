@@ -34,7 +34,7 @@
 
 Gift card di NexaRewards bisa dipakai dua kali kalau request dikirim bersamaan. Ini race condition pada pengecekan saldo/redeem.
 
-<div class="nx-evidence-preview"><a href="70-nexarewards-04-bukti-evidence.html"><img src="assets/nexarewards/00b-submit-platform.png" alt="Pratinjau evidence NexaRewards" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="70-nexarewards-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="70-nexarewards-04-bukti-evidence.html"><img src="assets/nexarewards/00b-terminal-evidence.png" alt="Pratinjau evidence NexaRewards" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="70-nexarewards-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

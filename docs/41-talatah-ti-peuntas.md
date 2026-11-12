@@ -52,7 +52,7 @@ Jadi ceritanya gini. service "pengelola talatah" mem-parsing pesan protokol **TL
 - Exploit: leak `printf@got`, hitung libc, tulis `system` ke `free@got`, taruh `/bin/sh` di `.bss`, lalu `delete` node → `free("/bin/sh")` = `system("/bin/sh")`.
 - Flag: `NFX{HiduPPk1T4AAyangMelawann}`.
 
-<div class="nx-evidence-preview"><a href="41-talatah-ti-peuntas-09-bukti-evidence.html"><img src="assets/talatah-ti-peuntas/00b-submit-platform.png" alt="Pratinjau evidence Talatah Ti Peuntas" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="41-talatah-ti-peuntas-09-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="41-talatah-ti-peuntas-09-bukti-evidence.html"><img src="assets/talatah-ti-peuntas/00b-terminal-evidence.png" alt="Pratinjau evidence Talatah Ti Peuntas" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="41-talatah-ti-peuntas-09-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

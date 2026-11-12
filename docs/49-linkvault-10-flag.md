@@ -24,10 +24,10 @@ cat flags/web/LinkVault.txt
 
 Flag yang sama muncul di halaman `/reports` milik user penyerang pada instance live. Tidak ada submit ke platform.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/linkvault/00b-submit-platform.png)
+![Terminal evidence (real)](assets/linkvault/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

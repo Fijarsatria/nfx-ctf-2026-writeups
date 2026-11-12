@@ -1,18 +1,35 @@
-# Shadow Infrastructure — Flag & Verifikasi
+# Shadow Infrastructure — Flag
 
 [← Overview](80-shadow-infrastructure.md) · [Index](index.md)
 
-> **Langkah 3/5 — Flag.** Flag
+> **Langkah 3/5 — Flag.**
 >
-> **Titik penting:** flag belum ditemukan
->
-> **Berikutnya:** [Bukti / Evidence](80-shadow-infrastructure-04-bukti-evidence.md)
-
-> **Flag:** **OPEN — belum ditemukan**
-> **Status:** `🟡 OPEN`
+> **Flag:** `NFXCTF{dn5_ct_l0g_p1v0t_b34c0n_a72e4091}`
+> **Status:** `VERIFIED`
 
 ```text
-OPEN — belum ditemukan
+NFXCTF{dn5_ct_l0g_p1v0t_b34c0n_a72e4091}
 ```
 
-> Belum ada flag yang bisa dicantumkan. Lihat halaman Analisis dan Evidence untuk detail kendala.
+### Terminal evidence (real)
+
+![00b-terminal-evidence.png](assets/shadow-infrastructure/00b-terminal-evidence.png)
+
+*Capture terminal asli dari artefak `dns_beacon.zip` + log submit API.*
+
+### Bukti submit asli (API log)
+
+Tidak memakai screenshot mockup. Bukti diambil dari log submit asli:
+
+```json
+{"time":1794038734.9063294,
+ "name":"ShadowInfra",
+ "id":"569aa7ba-dd3a-4aa4-9049-11ace5fc6dea",
+ "flag":"NFXCTF{dn5_ct_l0g_p1v0t_b34c0n_a72e4091}",
+ "http":200,
+ "result":{"success":true,"message":"Correct, but already solved."}}
+```
+
+Fakta pendukung:
+- `total_solves` challenge ini di platform = **11**.
+- Flag diterima dengan prefix **NFXCTF**; `NFX{...}` ditolak.

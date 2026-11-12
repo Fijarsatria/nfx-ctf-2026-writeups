@@ -34,7 +34,7 @@
 
 Login NexaCommerce bisa dilewati lewat SQL injection. Kita susun payload UNION supaya query login mengembalikan user admin.
 
-<div class="nx-evidence-preview"><a href="67-nexacommerce-04-bukti-evidence.html"><img src="assets/nexacommerce/00b-submit-platform.png" alt="Pratinjau evidence NexaCommerce" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="67-nexacommerce-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="67-nexacommerce-04-bukti-evidence.html"><img src="assets/nexacommerce/00b-terminal-evidence.png" alt="Pratinjau evidence NexaCommerce" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="67-nexacommerce-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

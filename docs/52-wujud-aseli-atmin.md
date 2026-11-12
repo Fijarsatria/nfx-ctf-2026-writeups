@@ -65,7 +65,7 @@ Alur besarnya:
 6. Flag: `NFX{NFCC_Goes_to_NCSC_2026}`.
 7. Submit → **`Correct! +460 points.`**
 
-<div class="nx-evidence-preview"><a href="52-wujud-aseli-atmin-05-bukti-evidence.html"><img src="assets/wujud-aseli-atmin/00b-submit-platform.png" alt="Pratinjau evidence Wujud Aseli Atmin" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="52-wujud-aseli-atmin-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="52-wujud-aseli-atmin-05-bukti-evidence.html"><img src="assets/wujud-aseli-atmin/00b-terminal-evidence.png" alt="Pratinjau evidence Wujud Aseli Atmin" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="52-wujud-aseli-atmin-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

@@ -2,14 +2,14 @@
 
 [← Overview](36-tragedi-9-11.md) · [Index](index.md)
 
-> **Langkah 6/8 — Flag.** Flag ini tidak disubmit ke platform (sesuai aturan tugas).
+> **Langkah 6/8 — Flag.** Flag ini **belum disubmit** ke platform, jadi statusnya OPEN / UNVERIFIED.
 >
 > **Titik penting:** NFX{OS1NT_DU4R_D34_D0R}
 >
 > **Berikutnya:** [Bukti / Evidence](36-tragedi-9-11-07-bukti-evidence.md)
 
-> **Flag:** `NFX{OS1NT_DU4R_D34_D0R}`
-> **Status:** `VERIFIED`
+> **Flag:** `NFX{OS1NT_DU4R_D34_D0R}` (kandidat)
+> **Status:** `OPEN / UNVERIFIED`
 
 ```text
 NFX{OS1NT_DU4R_D34_D0R}
@@ -31,14 +31,14 @@ SERVER_PORT=
 NFX{OS1NT_DU4R_D34_D0R}
 ```
 
-Flag ini **tidak disubmit** ke platform (sesuai aturan tugas). Status:
-`verified platform` berdasarkan notes solve sebelumnya; bukti lokal
-(git history live) juga konsisten.
+Flag ini **belum disubmit** ke platform. Bukti lokal (git history live)
+konsisten, tetapi status `VERIFIED` hanya boleh dipakai setelah ada submit
+sukses. Karena itu halaman ini memakai `OPEN / UNVERIFIED` sampai diverifikasi.
 
-### Bukti submit di platform
+### Terminal evidence (real)
 
-![00b-submit-platform.png](assets/tragedi-9-11/00b-submit-platform.png)
+![Terminal evidence (real)](assets/tragedi-9-11/00b-terminal-evidence.png)
 
-*Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+*Terminal evidence (real).*
 
-> **Bukti submit:** screenshot form challenge di atas menampilkan `CORRECT, BUT ALREADY SOLVED.`
+> **Bukti:** terminal evidence (real).

@@ -52,7 +52,7 @@ Jadi ceritanya gini. **PageStream** adalah aplikasi Express/EJS + MySQL untuk ko
 - EJS yang ditimpa dieksekusi saat `GET /dashboard` → **RCE root**. Kami menjalankan `id` dan `/readflag $(cat /etc/pagestream.key)` dan mendapatkan flag.
 - Flag: `NFX{f3w_n_d4y_ch41ns_f0r_w3b_pwn_1s_n0t_th4t_h4rd_7734a1}`.
 
-<div class="nx-evidence-preview"><a href="51-pagestream-10-bukti-evidence.html"><img src="assets/pagestream/00b-submit-platform.png" alt="Pratinjau evidence PageStream" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="51-pagestream-10-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="51-pagestream-10-bukti-evidence.html"><img src="assets/pagestream/00b-terminal-evidence.png" alt="Pratinjau evidence PageStream" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="51-pagestream-10-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

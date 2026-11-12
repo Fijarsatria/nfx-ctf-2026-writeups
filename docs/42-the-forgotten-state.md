@@ -51,7 +51,7 @@ Jadi ceritanya gini. service mengelola 16 record (`create`, `release`, `view`, `
 - `view` → leak `free@got`; `edit` → tulis `system` ke `free@got`; `release` pada record berisi `"/bin/sh"` → `free("/bin/sh")` = `system("/bin/sh")`.
 - Flag: `NFX{ElC0nloe_Forg0tten_StaticcD42#}`.
 
-<div class="nx-evidence-preview"><a href="42-the-forgotten-state-09-bukti-evidence.html"><img src="assets/the-forgotten-state/00b-submit-platform.png" alt="Pratinjau evidence THE FORGOTTEN STATE" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="42-the-forgotten-state-09-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="42-the-forgotten-state-09-bukti-evidence.html"><img src="assets/the-forgotten-state/00b-terminal-evidence.png" alt="Pratinjau evidence THE FORGOTTEN STATE" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="42-the-forgotten-state-09-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

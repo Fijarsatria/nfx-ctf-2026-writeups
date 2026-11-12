@@ -49,7 +49,7 @@ Jadi ceritanya gini. RSA 1024-bit dengan `e=65537`; hanya `chall.py` yang diberi
 - Dekripsi RSA memberi plaintext yang di-zero-pad di kiri:
   `NFXCTF{C0pp3rsm1th_p4rt14l_k3y_3xp0sur3_9617eda9}`.
 
-<div class="nx-evidence-preview"><a href="21-rsa-coppersmith-cihuy-06-bukti-evidence.html"><img src="assets/rsa-coppersmith-cihuy/00b-submit-platform.png" alt="Pratinjau evidence RSA Coppersmith cihuy" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="21-rsa-coppersmith-cihuy-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="21-rsa-coppersmith-cihuy-06-bukti-evidence.html"><img src="assets/rsa-coppersmith-cihuy/00b-terminal-evidence.png" alt="Pratinjau evidence RSA Coppersmith cihuy" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="21-rsa-coppersmith-cihuy-06-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

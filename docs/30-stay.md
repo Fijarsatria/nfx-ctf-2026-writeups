@@ -50,7 +50,7 @@ Jadi ceritanya gini. tidak ada attachment: payload ada di **teks lirik pada desk
   `NXCTF{st4y_w1th_m3_1n_th3_d4rk}`.
 - Flag platform: `NFX{st4y_w1th_m3_1n_th3_d4rk}`.
 
-<div class="nx-evidence-preview"><a href="30-stay-05-bukti-evidence.html"><img src="assets/stay/00b-submit-platform.png" alt="Pratinjau evidence Stay" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="30-stay-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="30-stay-05-bukti-evidence.html"><img src="assets/stay/00b-terminal-evidence.png" alt="Pratinjau evidence Stay" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="30-stay-05-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

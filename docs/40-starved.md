@@ -49,7 +49,7 @@ Jadi ceritanya gini. `leaker()` mencetak nickname dengan `printf(nickname)` → 
 - ROP: `close(0)` → `open("flag.txt")` (hasilnya fd 0) → `read(0, bss, 0x100)` → `write(1, bss, 0x100)`.
 - Flag: `NFX{st4rv3d_s3cc0mp_fd0_r3us3_r0p_m4st3r}`.
 
-<div class="nx-evidence-preview"><a href="40-starved-08-bukti-evidence.html"><img src="assets/starved/00b-submit-platform.png" alt="Pratinjau evidence Starved" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="40-starved-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="40-starved-08-bukti-evidence.html"><img src="assets/starved/00b-terminal-evidence.png" alt="Pratinjau evidence Starved" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="40-starved-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
