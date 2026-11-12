@@ -20,3 +20,9 @@ Hint:
 - “melewati autentikasi standar” → mass assignment role.
 - “operasi penulisan berkas sembarang” → upload filename traversal.
 - “pengambilalihan kontrol alur eksekusi runtime” → overwrite EJS view → RCE.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/pagestream/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

@@ -11,3 +11,9 @@
 Urutan encode: `base64 → reverse → ROT13`.
 
 Maka decode: `ROT13 → reverse → base64 decode`. ROT13 dua kali sama dengan tidak diapa-apakan, jadi kita bisa langsung pakai `codecs.decode(..., "rot_13")`.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/easy-bash-layers/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

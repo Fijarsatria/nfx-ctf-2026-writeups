@@ -1,0 +1,21 @@
+$ tar -tzf shadow_repo.tar.gz | head -30
+shadow_repo/README.md
+shadow_repo/.env.staging
+shadow_repo/.git/HEAD
+shadow_repo/.git/config
+shadow_repo/.git/refs/heads/main
+shadow_repo/.git/objects/ee/98b90e16d46e762ded9ac53855fa9aaf76c997
+shadow_repo/.git/objects/07/2fa88b519697052c0aea2705abae2061825a86
+shadow_repo/.git/objects/56/3fe90ede662f3b8f89719317d3c5e0a0ce2604
+shadow_repo/.git/objects/21/d5a194fb6a627b1702cbf74b51589789988b72
+shadow_repo/.git/objects/79/132ac3c2e4351df6f9c408b2daa798300b1045
+shadow_repo/.git/objects/8a/b1c15c537e07378763c74ad450b8391a50d4bc
+shadow_repo/.git/objects/70/6f2702eb1a619012bb71c58e2b3db82049d1b9
+shadow_repo/.git/objects/a9/e13b26146a71c87d43831b6493c2b3ae5aa908
+
+$ rm -rf /tmp/commit && mkdir /tmp/commit && tar -xzf shadow_repo.tar.gz -C /tmp/commit && cd /tmp/commit/shadow_repo && git log --oneline --all --decorate | head
+a9e13b2 (HEAD -> main) Remove sensitive staging key before public release
+706f270 Initial staging configuration
+
+$ git fsck --lost-found
+dangling blob 21d5a194fb6a627b1702cbf74b51589789988b72

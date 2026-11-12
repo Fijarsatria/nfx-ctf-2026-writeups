@@ -51,3 +51,9 @@ flag cipher  : nonce=01733cfb..., tag=7e4bc9c1...
 
 `output.txt` memuat `n` (orde secp256k1), 200 objek
 `{msg, r, s, h, top8_k, K_BITS}`, dan `flag_ciphertext`.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/ecdsa-nonce-bias/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

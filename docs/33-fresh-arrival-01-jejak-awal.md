@@ -53,3 +53,9 @@ $ sha256sum osint/spotted.jpg
   `curl`.
 - Service: tidak ada; seluruh challenge berbasis gambar dan sumber publik.
 - Sumber publik: Yandex Images, JetPhotos, Wikidata, Wikipedia.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/fresh-arrival/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

@@ -82,3 +82,9 @@ p = (-δ + sqrt(δ² + 4N)) / 2,   δ = ±2^k
 Jika `K` lebih besar tetapi hanya mengenai beberapa bit rendah, `q` tetap
 dekat dengan `p`; kandidat `δ` dapat dienumerasi, atau diserang dengan
 Fermat/Coppersmith. Intinya: **relasi XOR menghapus entropi faktorisasi**.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/unbreakable-delay/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

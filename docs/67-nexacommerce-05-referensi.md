@@ -9,3 +9,9 @@
 > **Selesai.** Kembali ke [Overview](67-nexacommerce.md).
 
 SQL injection, UNION-based auth bypass.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/nexacommerce/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

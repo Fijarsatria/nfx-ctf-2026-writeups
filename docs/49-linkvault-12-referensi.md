@@ -14,3 +14,9 @@
 - Chromedp / headless Chromium.
 - CVE-2026-56858 (penamaan challenge untuk bug escaping regex pada `html/template`).
 - OWASP: Server-Side Request Forgery Prevention Cheat Sheet; XSS Prevention Cheat Sheet.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/linkvault/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

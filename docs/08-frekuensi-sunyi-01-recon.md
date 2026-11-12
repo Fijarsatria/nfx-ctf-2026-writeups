@@ -47,3 +47,9 @@ a556512ee8203fc4c080013303f496bef9a01902fe3e8a7766433f502c293dea  view
   diarsipkan (`soundfile`) diadaptasi memakai `scipy.io.wavfile`. Hasil
   pemrosesannya sama.
 - Tidak ada service jaringan; challenge sepenuhnya offline.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/frekuensi-sunyi/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

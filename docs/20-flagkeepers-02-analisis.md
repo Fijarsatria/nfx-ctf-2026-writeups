@@ -104,3 +104,9 @@ idx = (0 - 14·16) mod 256 = 32
 
 Karena `msg[:32]` sudah mencakup 12 byte pertama, kondisi
 `b"admin = True" in msg[:idx]` benar. Jadi cukup 14 kali opsi `[2]`.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/flagkeepers/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

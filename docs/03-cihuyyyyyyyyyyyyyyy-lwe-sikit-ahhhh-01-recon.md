@@ -66,3 +66,9 @@ dict_keys(['__builtins__', 'q', 'n', 'm', 'A', 'b', 'ct'])
 **Temuan:** file hanya berisi data; tidak ada fungsi enkripsi/dekripsi, tidak
 ada komentar, tidak ada import. Artinya peserta harus mengenali struktur LWE
 dari bentuk data.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

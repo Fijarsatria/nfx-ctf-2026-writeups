@@ -9,3 +9,9 @@
 > **Berikutnya:** [Solver](55-baby-python-03-solver.md)
 
 `candidate[::-1]` berarti input dibalik. Jadi untuk mendapatkan flag, kita decode base64 `_enc`, lalu balik string hasilnya.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/baby-python/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

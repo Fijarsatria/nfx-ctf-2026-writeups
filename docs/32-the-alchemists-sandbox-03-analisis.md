@@ -72,3 +72,9 @@ Dengan pola yang sama, key `_VAULT_STATE` dibangun:
 ```text
 '_' 'V' 'A' 'U' 'L' 'T' '_' 'S' 'T' 'A' 'T' 'E'
 ```
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/the-alchemists-sandbox/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

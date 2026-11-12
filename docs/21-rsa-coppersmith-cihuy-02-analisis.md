@@ -61,3 +61,9 @@ m = c^d mod N
 
 Plaintext RSA di sini sengaja di-zero-pad di kiri sampai 128 byte, jadi flag
 muncul setelah `lstrip(b"\x00")`.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/rsa-coppersmith-cihuy/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

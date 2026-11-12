@@ -9,3 +9,9 @@
 > **Selesai.** Kembali ke [Overview](77-13-is-not-enough.md).
 
 ROT13 + ROT5, alphanumeric rotation.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/13-is-not-enough/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

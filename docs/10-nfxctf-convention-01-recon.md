@@ -31,3 +31,9 @@ Platform tidak melampirkan file (`attachments: []`); challenge berupa service TC
 | `.../src/peserta/ld-linux-x86-64.so.2` | 240.936 B | (loader Ubuntu 22.04, lihat `assets/.../01-file-hash-checksec.txt`) |
 
 Bundle zip asli: `work/upstream/qazwsx/pwn/NFXCTFConvention.zip` (berisi `peserta/oscar_convention`, `libc.so.6`, `ld-linux-x86-64.so.2`). Ada juga `oscar_local`, yaitu rebuild lokal untuk uji; writeup ini memakai `oscar_convention` asli.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/nfxctf-convention/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

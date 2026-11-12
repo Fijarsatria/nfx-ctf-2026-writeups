@@ -13,3 +13,9 @@
 - NATO phonetic alphabet.
 - `work/event/crypto/black-box-protocol-n4t0/ANALYSIS.md` (analisis lokal
   sebelumnya, kesimpulan sama: payload habis, flag platform tidak cocok).
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/black-box-protocol-n4t0/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

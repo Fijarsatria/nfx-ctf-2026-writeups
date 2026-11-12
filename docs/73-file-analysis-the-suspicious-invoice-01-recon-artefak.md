@@ -9,3 +9,13 @@
 > **Berikutnya:** [Cara Mendapatkan Flag](73-file-analysis-the-suspicious-invoice-02-cara-mendapatkan-flag.md)
 
 Baca brief challenge dan cek attachment/service yang diberikan. Catat endpoint, file, atau petunjuk awal sebelum masuk ke langkah berikutnya.
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/file-analysis-the-suspicious-invoice/term-01-solve.png)
+
+*Terminal evidence — `01-solve.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-solve.txt`](assets/file-analysis-the-suspicious-invoice/01-solve.txt)

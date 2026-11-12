@@ -55,3 +55,9 @@ unknown_bits = 212
 
 `300 + 212 = 512`, jadi `p` adalah prima 512-bit dan `N` adalah produk dua
 prima 512-bit (RSA-1024).
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/rsa-coppersmith-cihuy/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

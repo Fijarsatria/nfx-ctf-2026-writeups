@@ -53,3 +53,9 @@ sig_forge = (sig0 · sig1 · sig2) mod N
 
 Verifikasi: `sig_forge^e mod N == target`. Ini lolos karena tidak ada hashing
 dan tidak ada padding pada pesan.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/broken-signature-scheme/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

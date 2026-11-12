@@ -10,3 +10,9 @@
 
 - Python `base64.b64decode`.
 - Slice `[::-1]` untuk membalik string.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/baby-python/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

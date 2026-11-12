@@ -22,3 +22,9 @@
 ```
 
 Temuan recon: `/admin`, `/admin/login.php`, `/uploads`, `/robots.txt`, `/.env` (403), `/.git` (403).
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/perimeter-breach/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

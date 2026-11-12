@@ -23,3 +23,9 @@
 > Note: Kumiko adalah waifu admin. Informasi ini mungkin relevan, mungkin juga tidak.
 >
 > pass: nxctf.id
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/access-remains/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

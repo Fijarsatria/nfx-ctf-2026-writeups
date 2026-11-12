@@ -64,3 +64,9 @@ c617b4d71998d0def7afab221836f095b7b7db908443aef1cb717a7b1ba2101e  view.mp4
 - Tools: `ffprobe`, `ffmpeg`, `sha256sum`, `git`, `curl`, `python3`.
 - Service publik: Reddit (diblokir dari environment ini), GitHub.
 - Video: `drive/view.mp4` (hasil unduhan dari lampiran Google Drive).
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/tragedi-9-11/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

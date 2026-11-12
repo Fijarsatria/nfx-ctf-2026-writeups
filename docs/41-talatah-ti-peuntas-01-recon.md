@@ -35,3 +35,9 @@ Service asli: `NFX/PWNNXCTF-2026/TalatahTiPeuntas` (TCP), saat penulisan stopped
   ./ld-linux-x86-64.so.2 --library-path . ./talatah
   ```
 - Tools: `file`, `sha256sum`, `strings`, `objdump`, `nm`, `readelf`, `pwntools`.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/talatah-ti-peuntas/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

@@ -66,3 +66,9 @@ f09319de1b54bdae19a4946dee4317710be2d147630b1519dc770d2a1408e3fb  README.txt
 - `crypt` (glibc) untuk verifikasi SHA-512 crypt
 - `exiftool`, `file`, `strings`
 - `secret-tool`/`gnome-keyring-daemon` tersedia, tetapi parser manual lebih deterministik
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/bluebird-session/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

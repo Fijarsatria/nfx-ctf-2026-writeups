@@ -79,3 +79,9 @@ Byte yang terbentuk:
 
 Hasil: `C0mbO_H3X_` ("combo hex"). Underscore terakhir adalah bagian data
 (pemisah menuju kolom C), bukan padding.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/black-box-protocol-n4t0/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

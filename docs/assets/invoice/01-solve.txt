@@ -1,0 +1,15 @@
+$ file invoice.png
+invoice.png: PNG image data, 1055 x 1491, 8-bit/color RGB, non-interlaced
+
+$ zsteg invoice.png | head -30
+imagedata           .. text: ":/%]T?A<0"
+chunk:0:IHDR        .. file: Adobe Photoshop Color swatch, version 0, 1055 colors; 1st RGB space (0), w 0x5d3, x 0x802, y 0, z 0; 2nd space (64768), w 0xff02, x 0x200, y 0, z 0
+b1,r,lsb,xy         .. b1,r,msb,xy         .. b1,g,lsb,xy         .. b1,g,msb,xy         .. b1,b,lsb,xy         .. b1,b,msb,xy         .. b1,rgb,lsb,xy       .. text: "QzI9MTg1LjIyMC4xMDEuNDU6NDQ0NDtLRVk9YTFiMmMzO05YQ1RGe2w1Yl9sMDRkNV90aDNfcDR5\nbDA0ZH0K\n"
+b1,rgb,msb,xy       .. b1,bgr,lsb,xy       .. text: "AQucPT[X"
+b1,bgr,msb,xy       .. b2,r,lsb,xy         .. b2,r,msb,xy         .. b2,g,lsb,xy         .. b2,g,msb,xy         .. text: "uUUuUUUUui"
+b2,b,lsb,xy         .. b2,b,msb,xy         .. file: OpenPGP Secret Key
+b2,rgb,lsb,xy       .. b2,rgb,msb,xy       .. b2,bgr,lsb,xy       .. b2,bgr,msb,xy       .. b3,r,lsb,xy         .. b3,r,msb,xy         .. b3,g,lsb,xy         .. b3,g,msb,xy         .. b3,b,lsb,xy         .. b3,b,msb,xy         .. b3,rgb,lsb,xy       .. file: PGP Secret Sub-key -
+b3,rgb,msb,xy       .. b3,bgr,lsb,xy       .. b3,bgr,msb,xy       .. b4,r,lsb,xy         .. b4,r,msb,xy         .. text: "wwwwwwwww{"
+b4,g,lsb,xy         .. b4,g,msb,xy         .. text: ["w" repeated 8 times]
+b4,b,lsb,xy         .. b4,b,msb,xy         .. text: "wwwww7www;33333w"
+b4,rgb,lsb,xy       .. b4,rgb,msb,xy       .. b4,bgr,lsb,xy       .. b4,bgr,msb,xy       ..                     

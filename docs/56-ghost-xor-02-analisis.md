@@ -13,3 +13,9 @@ Kunci panjangnya 4. Empat byte pertama plaintext pasti `NFXC` (awal `NFXCTF{`). 
 ```text
 key = ciphertext[0:4] XOR "NFXC"
 ```
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/ghost-xor/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

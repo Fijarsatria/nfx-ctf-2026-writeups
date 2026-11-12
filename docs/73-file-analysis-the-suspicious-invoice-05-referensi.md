@@ -9,3 +9,9 @@
 > **Selesai.** Kembali ke [Overview](73-file-analysis-the-suspicious-invoice.md).
 
 File carving, ZIP extraction, IOC.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/file-analysis-the-suspicious-invoice/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

@@ -49,3 +49,9 @@ meta Comment        .. text: "The smallest details matter."
 meta PhotoLocation  .. text: "SmFrYXJ0YSBTZWxhdGFuLCAxMzMwLCBSVyAyMCwgUlQgMTAsIFMzVnJkWEpwZFdzNU9RPT0="
 imagedata           .. text: "HHH\r\r\rHHHAAA"
 ```
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/heker-tersenyum-art-evidence-secret/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

@@ -9,3 +9,9 @@
 > **Selesai.** Kembali ke [Overview](63-nexadeploy.md).
 
 Unsafe YAML deserialization, `yaml.load` vs `safe_load`.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/nexadeploy/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

@@ -59,3 +59,9 @@ x/xl/worksheets/sheet1.xml
 
 **Temuan:** hanya 11 part, satu worksheet, satu drawing kosong, tidak ada
 `docProps`, `customXml`, `vbaProject.bin`, `comments*.xml`, atau media.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/black-box-protocol-n4t0/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

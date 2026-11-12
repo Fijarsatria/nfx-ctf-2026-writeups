@@ -9,3 +9,9 @@
 > **Selesai.** Kembali ke [Overview](69-matryoshka-encoding.md).
 
 Layered encoding, base64, compression.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/matryoshka-encoding/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

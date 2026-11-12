@@ -21,3 +21,9 @@ Hint tersirat:
 - “menyisipkan aturan filter tanpa otorisasi” → internal import API.
 - “escaping ekspresi reguler pada engine template HTML” → `html/template` + regex literal.
 - “mengambil alih sesi administrator” → admin bot Chromium.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/linkvault/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

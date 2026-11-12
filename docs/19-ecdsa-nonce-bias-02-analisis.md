@@ -79,3 +79,9 @@ Tiga pemeriksaan independen:
 1. `d·G == pubkey.pointQ` (x dan y).
 2. Untuk semua 200 signature, `k_i = (h_i + d·r_i)·s_i^{-1} mod n < 2^248`.
 3. AES-GCM `decrypt_and_verify` tidak melempar exception.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/ecdsa-nonce-bias/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

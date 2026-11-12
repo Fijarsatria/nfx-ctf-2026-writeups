@@ -67,3 +67,9 @@ Struktur `output.txt`:
   "flag_cipher": {"nonce_hex": "...", "ct_hex": "...", "tag_hex": "..."}
 }
 ```
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/broken-signature-scheme/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

@@ -1,0 +1,52 @@
+$ exiftool laporan_kegiatan_bulan_november.pdf | head -20
+ExifTool Version Number         : 12.76
+File Name                       : laporan_kegiatan_bulan_november.pdf
+Directory                       : .
+File Size                       : 83 kB
+File Modification Date/Time     : 2026:11:07 17:27:02+07:00
+File Access Date/Time           : 2026:11:12 16:19:28+07:00
+File Inode Change Date/Time     : 2026:11:07 18:35:50+07:00
+File Permissions                : -rw-r--r--
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.7
+Linearized                      : No
+Page Count                      : 1
+Language                        : en
+Tagged PDF                      : Yes
+XMP Toolkit                     : 3.1-701
+Producer                        : Microsoft® Word 2021
+Creator                         : Syahril Rizky Fauzan
+Creator Tool                    : Microsoft® Word 2021
+
+$ pdftotext laporan_kegiatan_bulan_november.pdf - | head -40
+Laporan Kegiatan Bulanan
+Divisi Operasional | Periode: November 2026
+
+1. Ringkasan Kegiatan
+Selama bulan November, tim menyelesaikan pemeliharaan rutin peralatan
+kantor dan memperbarui inventaris perlengkapan. Seluruh kegiatan berjalan
+sesuai jadwal tanpa kendala berarti.
+
+2. Rapat dan Koordinasi
+Rapat koordinasi mingguan dilaksanakan setiap hari Senin pukul 09.00.
+Pada rapat minggu ketiga, disepakati pembaruan jadwal piket dan
+pembagian tugas untuk kegiatan akhir tahun.
+
+3. Kendala dan Catatan
+Pengadaan beberapa perlengkapan tertunda karena keterlambatan
+pengiriman dari pemasok. Diperkirakan selesai pada awal November.
+
+4. Rencana Bulan Berikutnya
+•
+•
+•
+
+Menyelesaikan pengadaan perlengkapan yang tertunda
+Menyusun anggaran kegiatan tahun depan
+Mengadakan evaluasi internal akhir tahun
+
+NFX{M4kHLuK_T4k_K4s4T_M4T4}
+
+

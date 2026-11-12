@@ -25,3 +25,9 @@ ChromeProfile/Default/
 ```
 
 Profil atas nama **Noah Fox** (`n.fox@nfx-aero.example`), sesuai acquisition note.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/insider/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

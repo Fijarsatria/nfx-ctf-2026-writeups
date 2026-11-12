@@ -11,3 +11,9 @@
 - `flags/misc/Frekuensi_Sunyi.report.txt` — report analisis dan submit log.
 - `flags/misc/Frekuensi_Sunyi_spectrogram.png` — spektrogram bersih.
 - Teknik: Short-Time Fourier Transform (STFT), median filtering, ROT13.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/frekuensi-sunyi/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

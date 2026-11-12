@@ -54,3 +54,9 @@ $ head -5 pairs.txt
 $ wc -l pairs.txt
 280027 pairs.txt      # 27 baris header/komentar + 280000 data
 ```
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/feistel-differential/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

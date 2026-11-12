@@ -12,3 +12,9 @@
 - `flags/wave2/The_Alchemists_Sandbox.txt` — flag terverifikasi.
 - Python `ast` module, assignment expressions (PEP 572), `getattr`,
   rotasi 16-bit.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/the-alchemists-sandbox/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

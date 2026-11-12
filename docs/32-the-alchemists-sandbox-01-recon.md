@@ -42,3 +42,9 @@ Tidak ada service; challenge berupa source yang dijalankan lokal.
 - OS: Linux x86-64.
 - Tools: Python 3.12, `ast`, `struct`.
 - Tidak ada dependency eksternal.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/the-alchemists-sandbox/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

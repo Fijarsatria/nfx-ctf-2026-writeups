@@ -1,0 +1,36 @@
+$ exiftool drop_point.jpg | head -30
+ExifTool Version Number         : 12.76
+File Name                       : drop_point.jpg
+Directory                       : .
+File Size                       : 690 bytes
+File Modification Date/Time     : 2026:11:07 14:55:44+07:00
+File Access Date/Time           : 2026:11:12 16:19:27+07:00
+File Inode Change Date/Time     : 2026:11:07 18:35:46+07:00
+File Permissions                : -rw-r--r--
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Exif Byte Order                 : Big-endian (Motorola, MM)
+Make                            : NFX-Imaging-Corp
+Camera Model Name               : FieldCam-X9
+Artist                          : @nfx_courier_07
+User Comment                    : CIPHER:98e8be19a5ebb50b8d0ed72cadf4801a01753252bbf0d97d0cc0a76145185f9096be3f15df61ae22
+Serial Number                   : NFX-SN-8842109
+GPS Latitude Ref                : South
+GPS Longitude Ref               : East
+Image Width                     : 1
+Image Height                    : 1
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 1
+Image Size                      : 1x1
+Megapixels                      : 0.000001
+GPS Latitude                    : 6 deg 10' 31.08" S
+GPS Longitude                   : 106 deg 49' 36.84" E
+GPS Position                    : 6 deg 10' 31.08" S, 106 deg 49' 36.84" E
+
+$ strings -a drop_point.jpg | grep -iE "NFX|CIPHER|Artist|Serial" | head -20
+NFX-Imaging-Corp
+@nfx_courier_07
+NFX-SN-8842109
+CIPHER:98e8be19a5ebb50b8d0ed72cadf4801a01753252bbf0d97d0cc0a76145185f9096be3f15df61ae22

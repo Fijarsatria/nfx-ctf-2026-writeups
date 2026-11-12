@@ -77,3 +77,9 @@ e_i = (b_i - (A·s)_i) mod 257,  lalu dipusatkan ke [-128,128]
 
 Hasil nyata: `max|s| = 1`, `max|e| = 2`, dan 64/64 baris memenuhi
 `A·s + e ≡ b (mod 257)`.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

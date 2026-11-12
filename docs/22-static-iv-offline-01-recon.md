@@ -31,3 +31,9 @@
 - Python 3.12
 - `pycryptodome` (`Crypto.Cipher.AES`, `Crypto.Util.Padding`)
 - Tidak perlu service / Sage.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/static-iv-offline/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

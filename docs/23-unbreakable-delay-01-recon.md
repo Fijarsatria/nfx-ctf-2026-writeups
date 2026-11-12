@@ -51,3 +51,9 @@ NFX{x0r_f4ct0r1ng_4nd_f4st_vdf_byp4ss_m4k3s_1t_h4rd}
 ```
 
 Nama flag adalah hint serangan: **XOR factoring** dan **fast VDF bypass**.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/unbreakable-delay/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

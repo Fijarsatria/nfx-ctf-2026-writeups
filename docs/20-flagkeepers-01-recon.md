@@ -71,3 +71,9 @@ Menu:
 
 **Bug utama:** `nonce` dibuat sekali di awal proses dan dipakai ulang untuk
 semua enkripsi, baik `key_a` maupun `key_b`.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/flagkeepers/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

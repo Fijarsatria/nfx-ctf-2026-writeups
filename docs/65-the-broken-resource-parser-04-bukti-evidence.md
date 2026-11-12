@@ -1,6 +1,6 @@
 # THE BROKEN RESOURCE PARSER — Evidence / Bukti
 
-<div class="nx-challenge-head"><span class="nx-chip">2 screenshot</span><span class="nx-chip">0 transkrip / script</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">1 transkrip / script</span></div>
 
 
 [← Overview](65-the-broken-resource-parser.md) · [Index](index.md)
@@ -29,6 +29,18 @@
 </div>
 
 *Submit flag di platform: `CORRECT, BUT ALREADY SOLVED.`*
+
+### Terminal (arsip sesi)
+
+<div class="nx-evidence-grid">
+<figure><a href="assets/the-broken-resource-parser/term-01-solve.png" target="_blank" rel="noopener"><img src="assets/the-broken-resource-parser/term-01-solve.png" alt="term-01-solve.png" loading="lazy"></a><figcaption>term-01-solve.png</figcaption></figure>
+</div>
+
+*Terminal evidence — `01-solve.txt` (arsip transkrip sesi solve).*
+
+### Transkrip mentah & script
+
+- [`01-solve.txt`](assets/the-broken-resource-parser/01-solve.txt)
 
 ## Tabel Evidence
 

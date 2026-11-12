@@ -35,3 +35,9 @@ Service asli: `NFX/Starved` (TCP 41825), saat penulisan berstatus stopped. Anali
   ./ld-linux-x86-64.so.2 --library-path . ./chall
   ```
 - Tools: `file`, `sha256sum`, `strings`, `objdump`, `nm`, `pwntools`, `ROP`.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/starved/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

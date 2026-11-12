@@ -9,3 +9,9 @@
 > **Selesai.** Kembali ke [Overview](85-tempat-belajar.md).
 
 OSINT Instagram, base64 artifact.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/tempat-belajar/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

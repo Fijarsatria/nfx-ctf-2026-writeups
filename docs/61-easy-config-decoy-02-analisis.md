@@ -15,3 +15,9 @@ NFX{c0nf + 1g_ + d3c0y_ + p4rts + _ + 4r3_fun}
 ```
 
 Hasilnya flag asli. Dua string `NFX{...}` yang utuh adalah decoy.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/easy-config-decoy/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

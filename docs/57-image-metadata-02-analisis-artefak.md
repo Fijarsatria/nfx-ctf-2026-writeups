@@ -21,3 +21,9 @@ flag.txt
 ```
 
 `flag.txt` terenkripsi. `passwords.txt` berisi daftar kandidat password.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/image-metadata/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

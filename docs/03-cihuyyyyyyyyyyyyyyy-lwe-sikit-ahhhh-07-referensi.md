@@ -13,3 +13,9 @@
 - Kannan, *Minkowski's convex body theorem and integer programming* (1987).
 - Howgrave-Graham / Coppersmith lattice techniques.
 - Kyber/ML-KEM parameter set (NIST FIPS 203).
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

@@ -1,0 +1,32 @@
+$ unzip -l infra-runbooks.zip | head -20
+Archive:  infra-runbooks.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+      268  2026-10-26 01:00   infra-runbooks/README.md
+      547  2026-10-26 01:00   infra-runbooks/.git/config
+       73  2026-10-26 01:00   infra-runbooks/.git/description
+       21  2026-10-26 01:00   infra-runbooks/.git/HEAD
+      454  2026-10-26 01:00   infra-runbooks/.git/index
+      169  2026-10-26 01:00   infra-runbooks/.git/packed-refs
+      478  2026-10-26 01:00   infra-runbooks/.git/hooks/applypatch-msg.sample
+      896  2026-10-26 01:00   infra-runbooks/.git/hooks/commit-msg.sample
+     4726  2026-10-26 01:00   infra-runbooks/.git/hooks/fsmonitor-watchman.sample
+      189  2026-10-26 01:00   infra-runbooks/.git/hooks/post-update.sample
+      424  2026-10-26 01:00   infra-runbooks/.git/hooks/pre-applypatch.sample
+     1649  2026-10-26 01:00   infra-runbooks/.git/hooks/pre-commit.sample
+      416  2026-10-26 01:00   infra-runbooks/.git/hooks/pre-merge-commit.sample
+     1374  2026-10-26 01:00   infra-runbooks/.git/hooks/pre-push.sample
+     4898  2026-10-26 01:00   infra-runbooks/.git/hooks/pre-rebase.sample
+      544  2026-10-26 01:00   infra-runbooks/.git/hooks/pre-receive.sample
+     1492  2026-10-26 01:00   infra-runbooks/.git/hooks/prepare-commit-msg.sample
+
+$ rm -rf /tmp/dead && mkdir /tmp/dead && unzip -q infra-runbooks.zip -d /tmp/dead && cd /tmp/dead/infra-runbooks && git branch -a && git log --all --oneline --decorate | head
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+3064ff7 (HEAD -> main, origin/main, origin/HEAD) add cron schedule
+5cbbec3 docs: oncall checklist
+a3d5fe5 add log rotation script
+0a913b4 init: add readme
+
+$ git show $(git rev-list --all --objects | grep -i config | head -1 | cut -d" " -f1) 2>/dev/null | head -30

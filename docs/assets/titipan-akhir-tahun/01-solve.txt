@@ -1,0 +1,51 @@
+$ exiftool laporan_kegiatan_bulan_desember.pdf | head -20
+ExifTool Version Number         : 12.76
+File Name                       : laporan_kegiatan_bulan_desember.pdf
+Directory                       : .
+File Size                       : 2.4 kB
+File Modification Date/Time     : 2026:11:07 17:26:59+07:00
+File Access Date/Time           : 2026:11:12 16:19:28+07:00
+File Inode Change Date/Time     : 2026:11:07 18:35:50+07:00
+File Permissions                : -rw-r--r--
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.7
+Linearized                      : No
+Page Count                      : 1
+
+$ pdfdetach -list laporan_kegiatan_bulan_desember.pdf
+1 embedded files
+1: doksli.txt
+
+$ strings -a laporan_kegiatan_bulan_desember.pdf | head -30
+%PDF-1.7
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Names << /EmbeddedFiles << /Names [(doksli.txt) 7 0 R] >> >> >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1316 >>
+stream
+BT /F2 16 Tf 72 780 Td (Laporan Kegiatan Bulanan) Tj ET
+BT /F1 11 Tf 72 758 Td (Divisi Operasional | Periode: Desember 2026) Tj ET
+BT /F2 12 Tf 72 722 Td (1. Ringkasan Kegiatan) Tj ET
+BT /F1 11 Tf 72 704 Td (Selama bulan Desember, tim menyelesaikan pemeliharaan rutin peralatan) Tj ET
+BT /F1 11 Tf 72 689 Td (kantor dan memperbarui inventaris perlengkapan. Seluruh kegiatan) Tj ET
+BT /F1 11 Tf 72 674 Td (berjalan sesuai jadwal tanpa kendala berarti.) Tj ET
+BT /F2 12 Tf 72 645 Td (2. Rapat dan Koordinasi) Tj ET
+BT /F1 11 Tf 72 627 Td (Rapat koordinasi mingguan dilaksanakan setiap hari Senin pukul 09.00.) Tj ET
+BT /F1 11 Tf 72 612 Td (Pada rapat minggu ketiga, disepakati pembaruan jadwal piket dan) Tj ET
+BT /F1 11 Tf 72 597 Td (pembagian tugas untuk kegiatan akhir tahun.) Tj ET
+BT /F2 12 Tf 72 568 Td (3. Kendala dan Catatan) Tj ET
+BT /F1 11 Tf 72 550 Td (Pengadaan beberapa perlengkapan tertunda karena keterlambatan) Tj ET
+BT /F1 11 Tf 72 535 Td (pengiriman dari pemasok. Diperkirakan selesai pada awal Januari.) Tj ET
+BT /F2 12 Tf 72 506 Td (4. Rencana Bulan Berikutnya) Tj ET
+BT /F1 11 Tf 72 488 Td (- Menyelesaikan pengadaan perlengkapan yang tertunda) Tj ET
+BT /F1 11 Tf 72 473 Td (- Menyusun anggaran kegiatan tahun depan) Tj ET
+BT /F1 11 Tf 72 458 Td (- Mengadakan evaluasi internal akhir tahun) Tj ET

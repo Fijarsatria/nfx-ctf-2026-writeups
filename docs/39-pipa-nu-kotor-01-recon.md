@@ -33,3 +33,9 @@ Tidak ada libc tambahan; binary non-PIE dan statically addressed. Service asli t
   cd pwn/PipaNuKotor/peserta
   ./pipa
   ```
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/pipa-nu-kotor/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

@@ -12,3 +12,9 @@
 - `flags/crypto/Dokodemo_Door.txt` — flag terverifikasi.
 - Teknik: repeating-key XOR, crib-drag, known-plaintext attack, PDF
   `ASCII85Decode` + `FlateDecode`.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/dokodemo-door/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

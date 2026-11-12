@@ -12,3 +12,9 @@
 - Joux, *Authentication failures in NIST version of GCM*.
 - *Forbidden attack* pada GCM nonce reuse.
 - AES-GCM-SIV (RFC 8452) untuk nonce misuse resistance.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/flagkeepers/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

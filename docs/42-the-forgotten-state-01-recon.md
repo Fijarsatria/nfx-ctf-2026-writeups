@@ -35,3 +35,9 @@ Service asli: `NFX/PWNNXCTF-2026/TheForgottenState` (TCP), saat penulisan stoppe
   ./ld-linux-x86-64.so.2 --library-path . ./state
   ```
 - Tools: `file`, `sha256sum`, `strings`, `objdump`, `nm`, `readelf`, `pwntools`.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/the-forgotten-state/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

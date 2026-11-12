@@ -9,3 +9,9 @@
 > **Berikutnya:** [Solver](60-easy-js-obfuscation-03-solver.md)
 
 Prosesnya: XOR `0x33` per byte, lalu reverse. Kita bisa decode pakai Python.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/easy-js-obfuscation/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

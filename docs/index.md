@@ -6,7 +6,7 @@
 <div class="nx-stats">
 <div class="nx-stat"><strong>86</strong><span>Challenge</span></div>
 <div class="nx-stat"><strong>745</strong><span>Halaman</span></div>
-<div class="nx-stat"><strong>911</strong><span>File bukti</span></div>
+<div class="nx-stat"><strong>933</strong><span>File bukti</span></div>
 <div class="nx-stat"><strong>84</strong><span>Verified</span></div>
 </div>
 </div>

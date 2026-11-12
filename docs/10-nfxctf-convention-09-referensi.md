@@ -12,3 +12,9 @@
 - Catatan lama: `work/event/pwn/nfxctf-convention/solve/WRITEUP.md`.
 - pwntools ELF/ROP: <https://docs.pwntools.com/>
 - Format string positional arguments: `man 3 printf`.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/nfxctf-convention/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

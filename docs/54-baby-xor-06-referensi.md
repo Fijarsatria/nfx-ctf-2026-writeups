@@ -10,3 +10,9 @@
 
 - XOR cipher dan brute force key 8-bit.
 - `objdump -s -j .rodata`.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/baby-xor/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

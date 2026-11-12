@@ -72,3 +72,9 @@ p  c1  c2    ->   c1 = E(p),  c2 = E(p XOR Δ)
 
 Jadi ada 280.000 known plaintext/ciphertext pairs (dua per baris) di bawah
 **satu master key**.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/feistel-differential/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

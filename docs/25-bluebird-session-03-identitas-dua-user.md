@@ -45,3 +45,9 @@ mizore False
 ```
 
 Password login mizore: **`Bluebirds1927!`**.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/bluebird-session/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

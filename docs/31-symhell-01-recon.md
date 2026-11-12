@@ -41,3 +41,9 @@ $ sha256sum forensics/symhell/app.py
   sudah diketahui dari `flags/forensics/symhell.txt`, service dijalankan di
   `127.0.0.1:1337`, lalu `/flag.txt` dihapus kembali. **Tidak ada submit ke
   platform dan tidak ada koneksi ke service remote.**
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/symhell/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

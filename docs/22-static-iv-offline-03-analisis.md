@@ -47,3 +47,9 @@ PREFIX + b"|" + flag = b"user-input-goes-here:|" + flag
 ```
 
 Setelah dekripsi dan `unpad`, flag diambil dengan `split(b"|", 1)[1]`.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/static-iv-offline/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

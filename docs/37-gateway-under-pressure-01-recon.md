@@ -33,3 +33,9 @@ Tidak ada libc/loader tambahan; binary memakai glibc host. Service asli terdafta
   cd pwn/GatewayUnderPressure/peserta
   ./gateway
   ```
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/gateway-under-pressure/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*

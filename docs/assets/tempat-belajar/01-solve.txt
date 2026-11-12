@@ -1,0 +1,27 @@
+$ exiftool office.png | head -25
+ExifTool Version Number         : 12.76
+File Name                       : office.png
+Directory                       : .
+File Size                       : 3.2 MB
+File Modification Date/Time     : 2026:11:07 17:26:51+07:00
+File Access Date/Time           : 2026:11:12 16:19:28+07:00
+File Inode Change Date/Time     : 2026:11:07 18:35:50+07:00
+File Permissions                : -rw-r--r--
+File Type                       : PNG
+File Type Extension             : png
+MIME Type                       : image/png
+Image Width                     : 1824
+Image Height                    : 2346
+Bit Depth                       : 8
+Color Type                      : RGB
+Compression                     : Deflate/Inflate
+Filter                          : Adaptive
+Interlace                       : Noninterlaced
+Author                          : Kada
+Comment                         : 3%4TD'aPBA*Z,QPN
+Title                           : Dih Office
+Image Size                      : 1824x2346
+Megapixels                      : 4.3
+
+$ strings -a office.png | grep -iE "instagram|base64|NFX|dihlearn" | head -20
+nfxt

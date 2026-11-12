@@ -1,0 +1,20 @@
+$ file export
+export: Microsoft Word 2007+
+
+$ unzip -l export | head -30
+Archive:  export
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+      949  2026-02-09 08:15   [Content_Types].xml
+      600  2026-02-09 08:15   _rels/.rels
+      847  2026-02-09 08:15   docProps/core.xml
+      379  2026-02-09 08:15   docProps/app.xml
+      903  2026-02-09 08:15   word/document.xml
+      355  2026-02-09 08:15   word/settings.xml
+      497  2026-02-09 08:15   word/styles.xml
+      597  2026-02-09 08:15   word/_rels/document.xml.rels
+      356  2026-02-09 08:15   word/_rels/settings.xml.rels
+---------                     -------
+     5483                     9 files
+
+$ strings -a export | grep -iE "http|cdn|jarvis|flag" | head -20
