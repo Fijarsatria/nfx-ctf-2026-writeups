@@ -1,0 +1,9 @@
+$ printf "ALL ALL=(ALL) /bin/sh\\n" | ./kunci
+=== sudo - penjaga aturan sudoers ===
+format rule : ALL ALL=(ALL) CMD
+rule : [-] sudo ditolak: uid=1000 suid=1000 (bukan root)
+
+$ python3 -c "print(\"ALL\"+\"A\"*1020)" | ./kunci
+=== sudo - penjaga aturan sudoers ===
+format rule : ALL ALL=(ALL) CMD
+rule : [-] sudo ditolak: uid=1000 suid=1000 (bukan root)

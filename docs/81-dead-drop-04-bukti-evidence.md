@@ -47,3 +47,22 @@
 - Challenge brief: `assets/dead-drop/00-challenge-platform.png`
 - Terminal evidence (real): `assets/dead-drop/00b-terminal-evidence.png`
 - Catatan mentah: lihat folder `assets/dead-drop/`
+
+## Bukti tambahan (Dead Drop)
+
+![Bukti Dead Drop](assets/dead-drop/10-bukti.png)
+
+*Terminal evidence — config leak, `git fsck`, dan public API 404.*
+
+- `.git/config` menyimpan `http.extraheader` berisi token GitHub (disensor).
+- `git branch -a` hanya `main`; `git fsck --full --unreachable --no-reflogs`
+  kosong; semua blob dipindai, tidak ada flag.
+- `https://api.github.com/repos/netmetrics-net/infra-runbooks` → 404.
+- Repo publik organisasi hanya `c2-deploy-pipeline`.
+- Branch remote tidak ada di zip; klaim branch tersembunyi tidak bisa
+  diverifikasi dari artefak ini.
+
+**Berkas mentah:** [ANALYSIS.md](assets/dead-drop/10-ANALYSIS.md) ·
+[git-config-redacted.txt](assets/dead-drop/10-git-config-redacted.txt) ·
+[public-api-404.json](assets/dead-drop/10-public-api-404.json) ·
+[org-repos.json](assets/dead-drop/10-org-repos.json)

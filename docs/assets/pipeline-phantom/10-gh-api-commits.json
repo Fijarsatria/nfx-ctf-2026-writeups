@@ -1,0 +1,124 @@
+[
+  {
+    "sha": "20ae2fcdc41250c7405b5d37d767c0b7bcb81988",
+    "node_id": "C_kwDOVXGOetoAKDIwYWUyZmNkYzQxMjUwYzc0MDViNWQzN2Q3NjdjMGI3YmNiODE5ODg",
+    "commit": {
+      "author": {
+        "name": "Dimas Wirawan",
+        "email": "dimas.wirawan@netmetrics-net.example",
+        "date": "2026-10-25T18:25:35Z"
+      },
+      "committer": {
+        "name": "Dimas Wirawan",
+        "email": "dimas.wirawan@netmetrics-net.example",
+        "date": "2026-10-25T18:25:35Z"
+      },
+      "message": "ci(pipeline): add edge deployment workflow and automated sync",
+      "tree": {
+        "sha": "af7719052a3e6655ae57c943c4667185cdbdd994",
+        "url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/git/trees/af7719052a3e6655ae57c943c4667185cdbdd994"
+      },
+      "url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/git/commits/20ae2fcdc41250c7405b5d37d767c0b7bcb81988",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/commits/20ae2fcdc41250c7405b5d37d767c0b7bcb81988",
+    "html_url": "https://github.com/netmetrics-net/c2-deploy-pipeline/commit/20ae2fcdc41250c7405b5d37d767c0b7bcb81988",
+    "comments_url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/commits/20ae2fcdc41250c7405b5d37d767c0b7bcb81988/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "3f1ce83da788ef4807fead50e503d6a6c2419d84",
+        "url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/commits/3f1ce83da788ef4807fead50e503d6a6c2419d84",
+        "html_url": "https://github.com/netmetrics-net/c2-deploy-pipeline/commit/3f1ce83da788ef4807fead50e503d6a6c2419d84"
+      }
+    ]
+  },
+  {
+    "sha": "3f1ce83da788ef4807fead50e503d6a6c2419d84",
+    "node_id": "C_kwDOVXGOetoAKDNmMWNlODNkYTc4OGVmNDgwN2ZlYWQ1MGU1MDNkNmE2YzI0MTlkODQ",
+    "commit": {
+      "author": {
+        "name": "Dimas Wirawan",
+        "email": "dimas.wirawan@netmetrics-net.example",
+        "date": "2026-10-25T18:25:35Z"
+      },
+      "committer": {
+        "name": "Dimas Wirawan",
+        "email": "dimas.wirawan@netmetrics-net.example",
+        "date": "2026-10-25T18:25:35Z"
+      },
+      "message": "feat(metrics): implement resource metrics collector & queue worker",
+      "tree": {
+        "sha": "50a8f0b40b993e07c3671cfc4ccf1250f316aa41",
+        "url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/git/trees/50a8f0b40b993e07c3671cfc4ccf1250f316aa41"
+      },
+      "url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/git/commits/3f1ce83da788ef4807fead50e503d6a6c2419d84",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/commits/3f1ce83da788ef4807fead50e503d6a6c2419d84",
+    "html_url": "https://github.com/netmetrics-net/c2-deploy-pipeline/commit/3f1ce83da788ef4807fead50e503d6a6c2419d84",
+    "comments_url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/commits/3f1ce83da788ef4807fead50e503d6a6c2419d84/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "2d8a6d08032d1e0ddf5b228f4c781ca1d0eecb9e",
+        "url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/commits/2d8a6d08032d1e0ddf5b228f4c781ca1d0eecb9e",
+        "html_url": "https://github.com/netmetrics-net/c2-deploy-pipeline/commit/2d8a6d08032d1e0ddf5b228f4c781ca1d0eecb9e"
+      }
+    ]
+  },
+  {
+    "sha": "2d8a6d08032d1e0ddf5b228f4c781ca1d0eecb9e",
+    "node_id": "C_kwDOVXGOetoAKDJkOGE2ZDA4MDMyZDFlMGRkZjViMjI4ZjRjNzgxY2ExZDBlZWNiOWU",
+    "commit": {
+      "author": {
+        "name": "Dimas Wirawan",
+        "email": "dimas.wirawan@netmetrics-net.example",
+        "date": "2026-10-25T18:25:34Z"
+      },
+      "committer": {
+        "name": "Dimas Wirawan",
+        "email": "dimas.wirawan@netmetrics-net.example",
+        "date": "2026-10-25T18:25:34Z"
+      },
+      "message": "feat(core): initial scaffold for distributed telemetry relay agent",
+      "tree": {
+        "sha": "784575b0c4edb2c26c8b1f8c6c09e71fe3ce700a",
+        "url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/git/trees/784575b0c4edb2c26c8b1f8c6c09e71fe3ce700a"
+      },
+      "url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/git/commits/2d8a6d08032d1e0ddf5b228f4c781ca1d0eecb9e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/commits/2d8a6d08032d1e0ddf5b228f4c781ca1d0eecb9e",
+    "html_url": "https://github.com/netmetrics-net/c2-deploy-pipeline/commit/2d8a6d08032d1e0ddf5b228f4c781ca1d0eecb9e",
+    "comments_url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/commits/2d8a6d08032d1e0ddf5b228f4c781ca1d0eecb9e/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+
+    ]
+  }
+]

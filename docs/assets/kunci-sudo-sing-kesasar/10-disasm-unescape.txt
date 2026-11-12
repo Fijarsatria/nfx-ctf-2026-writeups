@@ -1,0 +1,46 @@
+000000000040136c <unescape_copy>:
+  40136c:	f3 0f 1e fa          	endbr64
+  401370:	55                   	push   rbp
+  401371:	48 89 e5             	mov    rbp,rsp
+  401374:	48 89 7d e8          	mov    QWORD PTR [rbp-0x18],rdi
+  401378:	48 89 75 e0          	mov    QWORD PTR [rbp-0x20],rsi
+  40137c:	48 89 55 d8          	mov    QWORD PTR [rbp-0x28],rdx
+  401380:	48 c7 45 f8 00 00 00 	mov    QWORD PTR [rbp-0x8],0x0
+  401387:	00 
+  401388:	48 c7 45 f0 00 00 00 	mov    QWORD PTR [rbp-0x10],0x0
+  40138f:	00 
+  401390:	eb 51                	jmp    4013e3 <unescape_copy+0x77>
+  401392:	48 8b 55 e0          	mov    rdx,QWORD PTR [rbp-0x20]
+  401396:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+  40139a:	48 01 d0             	add    rax,rdx
+  40139d:	0f b6 00             	movzx  eax,BYTE PTR [rax]
+  4013a0:	3c 5c                	cmp    al,0x5c
+  4013a2:	75 13                	jne    4013b7 <unescape_copy+0x4b>
+  4013a4:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+  4013a8:	48 83 c0 01          	add    rax,0x1
+  4013ac:	48 3b 45 d8          	cmp    rax,QWORD PTR [rbp-0x28]
+  4013b0:	73 05                	jae    4013b7 <unescape_copy+0x4b>
+  4013b2:	48 83 45 f8 01       	add    QWORD PTR [rbp-0x8],0x1
+  4013b7:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+  4013bb:	48 8d 50 01          	lea    rdx,[rax+0x1]
+  4013bf:	48 89 55 f8          	mov    QWORD PTR [rbp-0x8],rdx
+  4013c3:	48 8b 55 e0          	mov    rdx,QWORD PTR [rbp-0x20]
+  4013c7:	48 8d 0c 10          	lea    rcx,[rax+rdx*1]
+  4013cb:	48 8b 45 f0          	mov    rax,QWORD PTR [rbp-0x10]
+  4013cf:	48 8d 50 01          	lea    rdx,[rax+0x1]
+  4013d3:	48 89 55 f0          	mov    QWORD PTR [rbp-0x10],rdx
+  4013d7:	48 8b 55 e8          	mov    rdx,QWORD PTR [rbp-0x18]
+  4013db:	48 01 c2             	add    rdx,rax
+  4013de:	0f b6 01             	movzx  eax,BYTE PTR [rcx]
+  4013e1:	88 02                	mov    BYTE PTR [rdx],al
+  4013e3:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+  4013e7:	48 3b 45 d8          	cmp    rax,QWORD PTR [rbp-0x28]
+  4013eb:	72 a5                	jb     401392 <unescape_copy+0x26>
+  4013ed:	48 8b 55 e8          	mov    rdx,QWORD PTR [rbp-0x18]
+  4013f1:	48 8b 45 f0          	mov    rax,QWORD PTR [rbp-0x10]
+  4013f5:	48 01 d0             	add    rax,rdx
+  4013f8:	c6 00 00             	mov    BYTE PTR [rax],0x0
+  4013fb:	90                   	nop
+  4013fc:	5d                   	pop    rbp
+  4013fd:	c3                   	ret
+

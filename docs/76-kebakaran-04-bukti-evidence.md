@@ -47,3 +47,21 @@
 - Challenge brief: `assets/kebakaran/00-challenge-platform.png`
 - Terminal evidence (real): `assets/kebakaran/00b-terminal-evidence.png`
 - Catatan mentah: lihat folder `assets/kebakaran/`
+
+## Bukti tambahan (Kebakaran)
+
+![Bukti Kebakaran](assets/kebakaran/10-bukti.png)
+
+*Terminal evidence — metadata, strings, dan dekomposisi flag.*
+
+- `exiftool -a -u -g1`: tidak ada GPS/komentar/XMP.
+- `strings`, `binwalk`, `zsteg`: tidak ada payload.
+- Flag accepted: `NXCTF{GLORIA_SETIABAKTI_SINARHARAPAN}` → Gloria,
+  Setiabakti, Sinarharapan.
+- Nominatim/Overpass/Bing/DuckDuckGo tidak menemukan cluster tiga toko di
+  Jawa Barat.
+- **Koordinat gang dan frame Street View tidak ada.** Halaman ini tidak
+  mengarang lokasi.
+
+**Berkas mentah:** [ANALYSIS.md](assets/kebakaran/10-ANALYSIS.md) ·
+[kebakaran.jpeg](assets/kebakaran/10-kebakaran.jpeg)

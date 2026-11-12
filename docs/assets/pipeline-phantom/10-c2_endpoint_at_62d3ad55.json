@@ -1,0 +1,6 @@
+{
+  "endpoint": "https://c2.veloxphantom.net/gate",
+  "backup_key_fragment": "4nd_0rph4n_c0mm1t_l34k_9f82}",
+  "cluster_auth": "bearer-velox-staging-token",
+  "last_verified_utc": "2026-10-25T14:30:00Z"
+}

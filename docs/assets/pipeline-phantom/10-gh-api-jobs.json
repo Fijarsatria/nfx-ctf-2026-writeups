@@ -1,0 +1,113 @@
+{
+  "total_count": 1,
+  "jobs": [
+    {
+      "id": 121252951677,
+      "run_id": 40221200390,
+      "workflow_name": "Deploy C2 Infrastructure",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/actions/runs/40221200390",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVXGOes8AAAAcOz02fQ",
+      "head_sha": "20ae2fcdc41250c7405b5d37d767c0b7bcb81988",
+      "url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/actions/jobs/121252951677",
+      "html_url": "https://github.com/netmetrics-net/c2-deploy-pipeline/actions/runs/40221200390/job/121252951677",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-25T18:25:47Z",
+      "started_at": "2026-10-25T18:25:49Z",
+      "completed_at": "2026-10-25T18:26:02Z",
+      "name": "Build & Edge Deployment",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-25T18:25:50Z",
+          "completed_at": "2026-10-25T18:25:51Z"
+        },
+        {
+          "name": "Checkout Source Code",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-25T18:25:51Z",
+          "completed_at": "2026-10-25T18:25:52Z"
+        },
+        {
+          "name": "Set up Python 3.11",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-25T18:25:52Z",
+          "completed_at": "2026-10-25T18:25:52Z"
+        },
+        {
+          "name": "Install Dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-25T18:25:52Z",
+          "completed_at": "2026-10-25T18:25:59Z"
+        },
+        {
+          "name": "Run Unit Tests & Lint",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-25T18:25:59Z",
+          "completed_at": "2026-10-25T18:26:00Z"
+        },
+        {
+          "name": "Validate Deployment Secrets",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-25T18:26:00Z",
+          "completed_at": "2026-10-25T18:26:00Z"
+        },
+        {
+          "name": "Deploy to Regional Ingestors",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-25T18:26:00Z",
+          "completed_at": "2026-10-25T18:26:00Z"
+        },
+        {
+          "name": "Post Set up Python 3.11",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13,
+          "started_at": "2026-10-25T18:26:00Z",
+          "completed_at": "2026-10-25T18:26:00Z"
+        },
+        {
+          "name": "Post Checkout Source Code",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 14,
+          "started_at": "2026-10-25T18:26:00Z",
+          "completed_at": "2026-10-25T18:26:00Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15,
+          "started_at": "2026-10-25T18:26:00Z",
+          "completed_at": "2026-10-25T18:26:00Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/netmetrics-net/c2-deploy-pipeline/check-runs/121252951677",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 1000000007,
+      "runner_name": "GitHub Actions 1000000007",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    }
+  ]
+}

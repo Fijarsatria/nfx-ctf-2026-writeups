@@ -35,3 +35,22 @@
 - Challenge brief: `assets/kunci-sudo-sing-kesasar/00-challenge-platform.png`
 - Terminal evidence (real): `assets/kunci-sudo-sing-kesasar/00b-terminal-evidence.png`
 - Catatan mentah: lihat folder `assets/kunci-sudo-sing-kesasar/`
+
+## Bukti tambahan (Kunci Sudo)
+
+![Bukti Kunci Sudo](assets/kunci-sudo-sing-kesasar/10-bukti.png)
+
+*Terminal evidence — analisis gate `suid==0` dan uji lokal.*
+
+- Gate sukses: `struct->suid == 0` → `buka_kunci()`.
+- `struct->suid` di-set `1000` dan tidak ada write user-controlled setelahnya.
+- `baca_baris` max `0x3ff` byte + null di `buf[0x3ff]`; pointer struct di
+  `buf[0x400]` tidak tersentuh.
+- `unescape_copy` menulis maksimum `len` byte ke `malloc(len+1)`.
+- Uji lokal: semua input ditolak `uid=1000 suid=1000`; tidak ada crash.
+- **Exploit `suid==0` tidak terbukti** dengan binary ini. Flag accepted
+  berasal dari service, bukan dari exploit lokal yang direproduksi.
+
+**Berkas mentah:** [ANALYSIS.md](assets/kunci-sudo-sing-kesasar/10-ANALYSIS.md) ·
+[full-disasm.txt](assets/kunci-sudo-sing-kesasar/10-full-disasm.txt) ·
+[local-tests.txt](assets/kunci-sudo-sing-kesasar/10-local-tests.txt)
