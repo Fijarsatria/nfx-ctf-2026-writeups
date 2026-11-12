@@ -25,3 +25,10 @@ NFX{sql1_un10n_bas3d_4uth_byp4ss}
 *Terminal evidence (real).*
 
 > **Bukti:** terminal evidence (real).
+
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/nexacommerce/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*

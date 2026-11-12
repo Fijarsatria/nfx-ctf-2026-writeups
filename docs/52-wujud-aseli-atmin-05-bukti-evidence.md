@@ -101,6 +101,14 @@
 - [`09-base64-decode.txt`](assets/wujud-aseli-atmin/09-base64-decode.txt)
 - [`10-submit.txt`](assets/wujud-aseli-atmin/10-submit.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/wujud-aseli-atmin/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 Semua di `writeups/assets/wujud-aseli-atmin/`:

@@ -25,3 +25,10 @@ NFX{g1t_h1story_s3cr3ts_l34d_t0_ssh}
 *Terminal evidence (real).*
 
 > **Bukti:** terminal evidence (real).
+
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/forgotten-commit-user/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*

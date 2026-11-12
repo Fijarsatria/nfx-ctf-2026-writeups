@@ -25,3 +25,10 @@ NFXCTF{h4shc4t_cr4ck1ng_z1p_succ3ssfu11y}
 *Terminal evidence (real).*
 
 > **Bukti:** terminal evidence (real).
+
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/image-metadata/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*

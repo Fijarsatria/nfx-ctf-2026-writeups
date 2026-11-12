@@ -33,3 +33,10 @@ Status : VERIFIED platform (submit via web; flag lokal; challenge solved di plat
 *Terminal evidence (real).*
 
 > **Bukti:** terminal evidence (real).
+
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/perimeter-breach/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*

@@ -14,10 +14,6 @@
 - Decode Base64:
   `NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4Ya}`.
 
-## Bukti submit web
-
-![Submit web Tempat Belajar](assets/tempat-belajar/00b-submit-platform.png)
-
 Form challenge di platform menampilkan:
 
 ```text
@@ -45,3 +41,10 @@ diterima platform berasal dari teks Base64 yang benar.
 ![Crop fragmen Base64 Instagram](assets/tempat-belajar/09-instagram-fragments-crop.png)
 
 *Crop bagian atas gambar: fragmen Base64 dari post Instagram.*
+
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/tempat-belajar/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*

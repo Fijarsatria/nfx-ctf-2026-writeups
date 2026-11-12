@@ -54,3 +54,10 @@ dan diterima. Terminal evidence asli ada di `assets/forgotten-commit-root/00b-te
 - [`01-live-recon.txt`](assets/forgotten-commit-root/01-live-recon.txt)
 - [`02d-live-inventory.txt`](assets/forgotten-commit-root/02d-live-inventory.txt)
 - [`02-live-dump.txt`](assets/forgotten-commit-root/02-live-dump.txt)
+
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/forgotten-commit-root/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*

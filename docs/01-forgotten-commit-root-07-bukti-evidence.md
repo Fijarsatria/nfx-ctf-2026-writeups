@@ -105,6 +105,14 @@
 - [`03b-live-root.txt`](assets/forgotten-commit-root/03b-live-root.txt)
 - [`04-live-flag.txt`](assets/forgotten-commit-root/04-live-flag.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/forgotten-commit-root/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

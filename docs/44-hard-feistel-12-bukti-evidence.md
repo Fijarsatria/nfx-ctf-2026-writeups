@@ -119,6 +119,14 @@
 - [`08-gdb-output-buffer.txt`](assets/hard-feistel/08-gdb-output-buffer.txt)
 - [`solve_feistel.py`](assets/hard-feistel/solve_feistel.py)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/hard-feistel/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

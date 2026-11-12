@@ -70,6 +70,14 @@
 - [`04-typo.txt`](assets/record-keeper-user/04-typo.txt)
 - [`07-console-excerpt.txt`](assets/record-keeper-user/07-console-excerpt.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/record-keeper-user/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

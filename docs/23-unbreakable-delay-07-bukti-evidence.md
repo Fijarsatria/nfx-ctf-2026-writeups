@@ -43,6 +43,14 @@
 - [`sim-output.txt`](assets/unbreakable-delay/sim-output.txt)
 - [`sim_vdf.py`](assets/unbreakable-delay/sim_vdf.py)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/unbreakable-delay/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

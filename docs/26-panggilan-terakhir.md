@@ -12,7 +12,7 @@
 | Author | `Candelena` |
 | Solves | `7` |
 | Tools | python3, tshark |
-| Flag | `NFXCTF{arsip_merah_204}` |
+| Flag | `NFXCTF{ARSIP_MERAH_204}` |
 | Status | `VERIFIED` |
 
 [← Kembali ke Index](index.md)
@@ -36,7 +36,7 @@ Jadi ceritanya gini. `korban.pcap` berisi satu panggilan SIP antara Raka (ext 20
 | 3 | Ekstraksi RTP | RTP header 12 byte, payload 160 byte (20 ms @ 8 kHz), total UDP payload 172 byte. | [Buka](26-panggilan-terakhir-03-ekstraksi-rtp.md) |
 | 4 | Transkripsi | NFXCTF { ARSIP _ MERAH _ 204 } | [Buka](26-panggilan-terakhir-04-transkripsi.md) |
 | 5 | Pemulihan Artefak | python3 solve_panggilan.py | [Buka](26-panggilan-terakhir-05-pemulihan-artefak.md) |
-| 6 | Flag | NFXCTF{arsip_merah_204} | [Buka](26-panggilan-terakhir-06-flag.md) |
+| 6 | Flag | NFXCTF{ARSIP_MERAH_204} | [Buka](26-panggilan-terakhir-06-flag.md) |
 | 7 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](26-panggilan-terakhir-07-bukti-evidence.md) |
 | 8 | Referensi | — | [Buka](26-panggilan-terakhir-08-referensi.md) |
 
@@ -46,7 +46,7 @@ Jadi ceritanya gini. `korban.pcap` berisi satu panggilan SIP antara Raka (ext 20
 - SDP menegosiasikan `RTP/AVP 0` = **PCMU/8000** (G.711 μ-law), RTP port 4000 ↔ 4002.
 - RTP diekstrak per arah, di-decode μ-law menjadi WAV 8 kHz.
 - Dina (stream 4002 → 4000) mengucapkan flag secara lisan: “NFXCTF, kurung kurawa buka, garis bawah, merah, garis bawah, 2 0 4, kurung kurawa tutup”.
-- Flag: `NFXCTF{arsip_merah_204}`.
+- Flag: `NFXCTF{ARSIP_MERAH_204}`.
 
 <div class="nx-evidence-preview"><a href="26-panggilan-terakhir-07-bukti-evidence.html"><img src="assets/panggilan-terakhir/00b-terminal-evidence.png" alt="Pratinjau evidence Panggilan Terakhir" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="26-panggilan-terakhir-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

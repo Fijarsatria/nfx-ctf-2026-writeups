@@ -16,13 +16,14 @@
 NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4Ya}
 ```
 
-## Bukti submit
-
-![Submit web Tempat Belajar](assets/tempat-belajar/00b-submit-platform.png)
-
-*Form challenge di web platform menampilkan `CORRECT, BUT ALREADY SOLVED.`*
-
 ## Catatan
 
 Kandidat lama `NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4R!}` ditolak. Flag yang benar
 berakhir `J4Ya` dan berasal dari teks Base64 di Instagram `@dihlearn.id`.
+
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/tempat-belajar/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*

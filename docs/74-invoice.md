@@ -10,7 +10,7 @@
 | Difficulty | `Easy` |
 | Poin | `100` |
 | Tools | exiftool, zsteg |
-| Flag | `NFXCTF{l5b_l04d5_th3_p4yl04d}` |
+| Flag | `NXCTF{l5b_l04d5_th3_p4yl04d}` |
 | Status | `VERIFIED` |
 
 [← Kembali ke Index](index.md)
@@ -27,7 +27,7 @@
 |---:|---|---|---|
 | 1 | Recon Artefak | `zsteg` kanal `b1,rgb,lsb,xy`. | [Buka](74-invoice-01-recon-artefak.md) |
 | 2 | Cara Mendapatkan Flag | Base64-decode string LSB. | [Buka](74-invoice-02-cara-mendapatkan-flag.md) |
-| 3 | Flag | NFXCTF{l5b_l04d5_th3_p4yl04d} | [Buka](74-invoice-03-flag.md) |
+| 3 | Flag | NXCTF{l5b_l04d5_th3_p4yl04d} | [Buka](74-invoice-03-flag.md) |
 | 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](74-invoice-04-bukti-evidence.md) |
 | 5 | Referensi | LSB steganography, zsteg. | [Buka](74-invoice-05-referensi.md) |
 

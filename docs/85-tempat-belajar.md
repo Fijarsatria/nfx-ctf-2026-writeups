@@ -57,7 +57,7 @@ Setelah teks Base64 yang benar dari Instagram didekode, flag
 `..._J4Ya` diterima platform. Status dikoreksi menjadi `VERIFIED` pada
 2026-11-13.
 
-<div class="nx-evidence-preview"><a href="85-tempat-belajar-04-bukti-evidence.html"><img src="assets/tempat-belajar/00b-submit-platform.png" alt="Submit web Tempat Belajar" loading="lazy"></a><span>Screenshot submit web: <code>CORRECT, BUT ALREADY SOLVED.</code></span></div>
+<div class="nx-evidence-preview"><a href="85-tempat-belajar-04-bukti-evidence.html"><img src="assets/tempat-belajar/00b-platform-validation.png" alt="Submit web Tempat Belajar" loading="lazy"></a><span>Screenshot submit web: <code>CORRECT, BUT ALREADY SOLVED.</code></span></div>
 
 ## Navigasi Halaman
 

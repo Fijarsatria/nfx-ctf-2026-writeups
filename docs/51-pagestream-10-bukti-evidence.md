@@ -71,6 +71,14 @@
 - [`exploit_pagestream.py`](assets/pagestream/exploit_pagestream.py)
 - [`source-notes.txt`](assets/pagestream/source-notes.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/pagestream/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

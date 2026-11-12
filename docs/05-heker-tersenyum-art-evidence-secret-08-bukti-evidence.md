@@ -88,6 +88,14 @@
 - [`R-payload.bin`](assets/heker-tersenyum-art-evidence-secret/R-payload.bin)
 - [`solve_heker.py`](assets/heker-tersenyum-art-evidence-secret/solve_heker.py)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/heker-tersenyum-art-evidence-secret/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

@@ -32,3 +32,10 @@ Verifikasi via API platform tercatat di halaman Flag
 **Berkas mentah terkait:**
 
 - [`solver-output.txt`](assets/feistel-differential/solver-output.txt)
+
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/feistel-differential/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*

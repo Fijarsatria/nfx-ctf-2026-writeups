@@ -114,6 +114,14 @@
 - [`11-note-exiftool.txt`](assets/access-remains/11-note-exiftool.txt)
 - [`solve_access.sh`](assets/access-remains/solve_access.sh)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/access-remains/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

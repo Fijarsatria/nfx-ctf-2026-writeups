@@ -70,6 +70,14 @@
 - [`04-user-flag.txt`](assets/progress-bar-user/04-user-flag.txt)
 - [`08-src22-excerpt.txt`](assets/progress-bar-user/08-src22-excerpt.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/progress-bar-user/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

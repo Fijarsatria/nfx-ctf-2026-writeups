@@ -71,6 +71,14 @@
 - [`05-md5-derivation.txt`](assets/career-tempat-belajar/05-md5-derivation.txt)
 - [`06-gravatar-http.txt`](assets/career-tempat-belajar/06-gravatar-http.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/career-tempat-belajar/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 Semua bukti berada di `writeups/assets/career-tempat-belajar/`.

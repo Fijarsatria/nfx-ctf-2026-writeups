@@ -116,6 +116,14 @@
 - [`13-password-verify.txt`](assets/bluebird-session/13-password-verify.txt)
 - [`solve_bluebird.py`](assets/bluebird-session/solve_bluebird.py)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/bluebird-session/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

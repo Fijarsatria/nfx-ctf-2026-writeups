@@ -66,6 +66,14 @@
 - [`admin-audit.html`](assets/nexapartner/admin-audit.html)
 - [`exploit_nexapartner.py`](assets/nexapartner/exploit_nexapartner.py)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/nexapartner/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

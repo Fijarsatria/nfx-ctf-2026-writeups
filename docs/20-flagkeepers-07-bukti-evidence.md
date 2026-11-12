@@ -46,6 +46,14 @@
 - [`offline-sim-output.txt`](assets/flagkeepers/offline-sim-output.txt)
 - [`offline_sim.py`](assets/flagkeepers/offline_sim.py)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/flagkeepers/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

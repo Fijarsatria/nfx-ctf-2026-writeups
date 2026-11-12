@@ -40,8 +40,9 @@ Flag sudah disubmit lewat web platform dan diterima (`CORRECT, BUT ALREADY SOLVE
 
 > **Bukti:** terminal evidence (real).
 
-### Bukti submit web
+## Validasi platform (real)
 
-![Screenshot submit web](assets/fresh-arrival/00b-submit-platform.png)
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/fresh-arrival/00b-platform-validation.png)
 
-*Form challenge menampilkan `CORRECT, BUT ALREADY SOLVED.`*
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*

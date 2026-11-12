@@ -106,6 +106,14 @@
 - [`08-checksec.txt`](assets/hard-vm-bytecode/08-checksec.txt)
 - [`solve_vm.py`](assets/hard-vm-bytecode/solve_vm.py)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/hard-vm-bytecode/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

@@ -60,6 +60,14 @@
 - [`extract_text.py`](assets/dokodemo-door/extract_text.py)
 - [`solve_dokodemo.py`](assets/dokodemo-door/solve_dokodemo.py)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/dokodemo-door/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 Semua bukti berada di `writeups/assets/dokodemo-door/`.

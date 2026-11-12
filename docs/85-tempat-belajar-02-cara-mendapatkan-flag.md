@@ -47,12 +47,6 @@ NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4Ya}
 CORRECT, BUT ALREADY SOLVED.
 ```
 
-Screenshot submit:
-
-![Submit web Tempat Belajar](assets/tempat-belajar/00b-submit-platform.png)
-
-*Form challenge menampilkan `CORRECT, BUT ALREADY SOLVED.`*
-
 ### Screenshot Instagram
 
 ![Profil Instagram @career.dihlearn.id](assets/tempat-belajar/09-instagram-fragments.png)

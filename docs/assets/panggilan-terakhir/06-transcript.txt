@@ -32,4 +32,4 @@
 - "kurung kurawa buka/tutu" = "{...}".
 - "garis bawah" = "_".
 - "merah" = MERAH.
-=> NFXCTF{arsip_merah_204}
+=> NFXCTF{ARSIP_MERAH_204}

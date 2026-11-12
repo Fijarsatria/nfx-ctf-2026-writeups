@@ -79,6 +79,14 @@
 - [`07-vib-sources.md`](assets/the-ghost-operator/07-vib-sources.md)
 - [`08-attempt-log.txt`](assets/the-ghost-operator/08-attempt-log.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/the-ghost-operator/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 Semua bukti berada di `writeups/assets/the-ghost-operator/`.

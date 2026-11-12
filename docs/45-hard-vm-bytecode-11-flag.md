@@ -46,3 +46,10 @@ Isi `flags/reverse/Hard_01_VM_Bytecode.txt` identik. **Status: `VERIFIED platfor
 *Terminal evidence (real).*
 
 > **Bukti:** terminal evidence (real).
+
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/hard-vm-bytecode/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*

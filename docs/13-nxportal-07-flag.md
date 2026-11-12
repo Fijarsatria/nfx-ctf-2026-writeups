@@ -31,6 +31,13 @@ Tidak ada flag yang dicantumkan.
 
 > Belum ada flag yang bisa dicantumkan. Lihat halaman Analisis dan Evidence untuk detail kendala.
 
+## Validasi platform
+
+**Belum ada screenshot `CORRECT, BUT ALREADY SOLVED.`** untuk NXPortal karena
+flag challenge belum ditemukan. Challenge ini tetap **OPEN** dan tidak
+diklaim `VERIFIED`. Screenshot yang ada hanya brief/analisis, bukan bukti
+submit sukses.
+
 ### Evidence langkah ini
 
 ![00-challenge-platform.png](assets/nxportal/00-challenge-platform.png)

@@ -78,6 +78,14 @@
 - [`exploit.py`](assets/pipa-nu-kotor/exploit.py)
 - [`flag.txt`](assets/pipa-nu-kotor/flag.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/pipa-nu-kotor/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

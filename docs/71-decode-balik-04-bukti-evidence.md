@@ -30,6 +30,14 @@
 
 *Terminal evidence (real).*
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/decode-balik/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 - Challenge brief: `assets/decode-balik/00-challenge-platform.png`

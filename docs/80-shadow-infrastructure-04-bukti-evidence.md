@@ -60,3 +60,10 @@ _shard2.beacon-vault.cdn-nfx.org. 300 IN TXT "part2=YzBuX2E3MmU0MDkxfQ=="
 
 > Catatan audit: halaman ini sebelumnya memakai screenshot mockup untuk challenge
 > lain. Sekarang bukti yang dipakai adalah isi attachment asli dan log submit API.
+
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/shadow-infrastructure/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*

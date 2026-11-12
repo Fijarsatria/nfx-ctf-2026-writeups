@@ -78,6 +78,14 @@
 - [`05-zero-width-seq.txt`](assets/stay/05-zero-width-seq.txt)
 - [`solve_stay.py`](assets/stay/solve_stay.py)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/stay/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 Semua bukti berada di `writeups/assets/stay/`.

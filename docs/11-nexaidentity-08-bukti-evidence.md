@@ -83,6 +83,14 @@
 - [`admin-flag.html`](assets/nexaidentity/admin-flag.html)
 - [`exploit_nexaidentity.py`](assets/nexaidentity/exploit_nexaidentity.py)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/nexaidentity/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

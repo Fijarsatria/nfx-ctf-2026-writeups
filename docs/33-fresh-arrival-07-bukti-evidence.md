@@ -83,6 +83,14 @@
 - [`06-jetphotos-page.txt`](assets/fresh-arrival/06-jetphotos-page.txt)
 - [`07-hashes.txt`](assets/fresh-arrival/07-hashes.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/fresh-arrival/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 Semua bukti berada di `writeups/assets/fresh-arrival/`.

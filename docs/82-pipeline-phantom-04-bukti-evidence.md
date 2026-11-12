@@ -42,6 +42,14 @@
 
 - [`01-solve.txt`](assets/pipeline-phantom/01-solve.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/pipeline-phantom/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 - Challenge brief: `assets/pipeline-phantom/00-challenge-platform.png`
@@ -68,3 +76,12 @@
 [deploy.yml](assets/pipeline-phantom/10-deploy.yml) ·
 [c2_endpoint.json](assets/pipeline-phantom/10-c2_endpoint_at_62d3ad55.json) ·
 [logs 403](assets/pipeline-phantom/10-logs-endpoint-403.json)
+
+**Respons API mentah (arsip):**
+
+- [repo](assets/pipeline-phantom/10-gh-api-repo.json)
+- [run](assets/pipeline-phantom/10-gh-api-run.json)
+- [jobs](assets/pipeline-phantom/10-gh-api-jobs.json)
+- [commits](assets/pipeline-phantom/10-gh-api-commits.json)
+- [issues](assets/pipeline-phantom/10-gh-api-issues.json)
+- [branches](assets/pipeline-phantom/10-gh-api-branches.json)

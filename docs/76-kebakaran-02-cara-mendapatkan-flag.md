@@ -47,6 +47,15 @@ Tiga usaha di sekitar lokasi:
 *Google Maps map view kawasan Kalipah Apo. Street View pada titik ini tidak
 tersedia saat capture, jadi bukti yang dipakai adalah map view + nama tempat.*
 
+<div class="nx-evidence-grid">
+<figure><a href="assets/kebakaran/10-google-maps-gloria.png" target="_blank" rel="noopener"><img src="assets/kebakaran/10-google-maps-gloria.png" alt="Map view Toko Gloria" loading="lazy"></a><figcaption>Map view — Toko Gloria</figcaption></figure>
+<figure><a href="assets/kebakaran/10-google-maps-setiabakti.png" target="_blank" rel="noopener"><img src="assets/kebakaran/10-google-maps-setiabakti.png" alt="Map view Setiabakti" loading="lazy"></a><figcaption>Map view — Setiabakti</figcaption></figure>
+<figure><a href="assets/kebakaran/10-google-maps-sinarharapan.png" target="_blank" rel="noopener"><img src="assets/kebakaran/10-google-maps-sinarharapan.png" alt="Map view Sinar Harapan" loading="lazy"></a><figcaption>Map view — Sinar Harapan</figcaption></figure>
+</div>
+
+*Tiga map view di sekitar Kalipah Apo. Titik yang dipakai untuk flag adalah
+Toko Gloria, Setiabakti, dan Sinar Harapan.*
+
 ## 3. Susun flag
 
 Urut alfabetis:

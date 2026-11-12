@@ -51,6 +51,14 @@
 - [`verify-output.txt`](assets/rsa-coppersmith-cihuy/verify-output.txt)
 - [`verify.py`](assets/rsa-coppersmith-cihuy/verify.py)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/rsa-coppersmith-cihuy/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

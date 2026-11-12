@@ -106,6 +106,14 @@
 - [`08-checksec.txt`](assets/medium-rc4/08-checksec.txt)
 - [`solve_rc4.py`](assets/medium-rc4/solve_rc4.py)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/medium-rc4/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 Semua bukti berada di `writeups/assets/medium-rc4/`.

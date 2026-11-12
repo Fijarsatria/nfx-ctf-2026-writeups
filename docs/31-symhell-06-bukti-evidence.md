@@ -57,6 +57,14 @@
 - [`app.py`](assets/symhell/app.py)
 - [`exploit_local.txt`](assets/symhell/exploit_local.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/symhell/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 Semua bukti berada di `writeups/assets/symhell/`.

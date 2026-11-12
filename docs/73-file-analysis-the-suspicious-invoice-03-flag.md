@@ -25,3 +25,10 @@ NFX{zip_t1221_cdn-jarvis-update.example_jarvis-ir-case-2026-0211}
 *Terminal evidence (real).*
 
 > **Bukti:** terminal evidence (real).
+
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/file-analysis-the-suspicious-invoice/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*

@@ -85,6 +85,14 @@
 - [`exploit.py`](assets/talatah-ti-peuntas/exploit.py)
 - [`flag.txt`](assets/talatah-ti-peuntas/flag.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/talatah-ti-peuntas/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

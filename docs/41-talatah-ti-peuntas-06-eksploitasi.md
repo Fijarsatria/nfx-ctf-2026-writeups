@@ -58,3 +58,9 @@ def fake_node(dataptr, name=b'PWN', length=8):
 **Berkas mentah langkah ini:**
 
 - [`02b-record-layout.txt`](assets/talatah-ti-peuntas/02b-record-layout.txt)
+
+**Terminal evidence offset libc/gadget:**
+
+![term-libc-offsets-and-gadgets.png](assets/term-libc-offsets-and-gadgets.png)
+
+*Arsip terminal — offset libc/gadget yang dipakai di sesi solve.*

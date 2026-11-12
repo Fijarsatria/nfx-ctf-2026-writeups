@@ -1,13 +1,13 @@
 <div class="nx-hero">
 <div class="nx-kicker">NFX CTF 2026 · Writeup Book</div>
-<h1>NFX CTF 2026<br><span class="nx-hero-sub">Medium–Hard, dari recon sampai flag</span></h1>
-<p>Kumpulan writeup 86 challenge NFX CTF 2026, disusun langkah per langkah. Setiap challenge dipecah menjadi bagian yang mengikuti isinya, lengkap dengan command, output, serta screenshot.</p>
+<h1>NFX CTF 2026<br><span class="nx-hero-sub">86 challenge · 85 verified · 1 open</span></h1>
+<p>Kumpulan writeup 86 challenge NFX CTF 2026, disusun langkah per langkah. Setiap challenge dipecah menjadi bagian yang mengikuti isinya, lengkap dengan command, output, serta screenshot. Semua challenge <b>VERIFIED</b> punya screenshot validasi asli dari platform.</p>
 <div class="nx-byline"><span class="nx-byline-dot"></span>Disusun oleh <strong>B0TCIL</strong></div>
 <div class="nx-stats">
 <div class="nx-stat"><strong>86</strong><span>Challenge</span></div>
-<div class="nx-stat"><strong>746</strong><span>Halaman</span></div>
-<div class="nx-stat"><strong>948</strong><span>File bukti</span></div>
-<div class="nx-stat"><strong>81</strong><span>Verified</span></div>
+<div class="nx-stat"><strong>85</strong><span>Verified</span></div>
+<div class="nx-stat"><strong>85</strong><span>Validasi platform</span></div>
+<div class="nx-stat"><strong>1</strong><span>Open</span></div>
 </div>
 </div>
 

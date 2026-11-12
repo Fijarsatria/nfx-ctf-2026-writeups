@@ -43,6 +43,14 @@
 - [`solve_lwe.py`](assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solve_lwe.py)
 - [`solver-output.txt`](assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solver-output.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

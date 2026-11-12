@@ -12,7 +12,7 @@
 | Author | `Ariaf` |
 | Solves | `8` |
 | Tools | exiftool, tshark, Wireshark, openssl |
-| Flag | `NFXCTF{D36A64128F80788B60C677EF94EA7157}` |
+| Flag | `NFX{D36A64128F80788B60C677EF94FA7157}` |
 | Status | `VERIFIED` |
 
 [← Kembali ke Index](index.md)
@@ -38,7 +38,7 @@ Jadi ceritanya gini. `capture.pcapng` adalah capture loopback dengan FTP (port 2
 | 5 | Analisis Artefak | Setiap record setelah ChangeCipherSpec memiliki bentuk: | [Buka](27-weak-handshake-05-analisis-artefak-4.md) |
 | 6 | Pemulihan Artefak | Script lengkap: assets/weak-handshake/solveweak.py. | [Buka](27-weak-handshake-06-pemulihan-artefak.md) |
 | 7 | Output | — | [Buka](27-weak-handshake-07-output.md) |
-| 8 | Flag | NFXCTF{D36A64128F80788B60C677EF94EA7157} | [Buka](27-weak-handshake-08-flag.md) |
+| 8 | Flag | NFX{D36A64128F80788B60C677EF94FA7157} | [Buka](27-weak-handshake-08-flag.md) |
 | 9 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](27-weak-handshake-09-bukti-evidence.md) |
 | 10 | Referensi | — | [Buka](27-weak-handshake-10-referensi.md) |
 
@@ -50,7 +50,7 @@ Jadi ceritanya gini. `capture.pcapng` adalah capture loopback dengan FTP (port 2
 - Modulus RSA difaktorkan dengan **Fermat** karena `p` dan `q` hanya berselisih **236**; private key dipulihkan.
 - Sesi memakai **Extended Master Secret** (extension `0x0017`), sehingga master secret dihitung dari `session_hash`, bukan `client_random+server_random`.
 - Dua respons HTTPS didekripsi menjadi dua JPEG; JPEG kedua memuat overlay flag `{D36A64128F80788B60C677EF94EA7157}`.
-- Flag: `NFXCTF{D36A64128F80788B60C677EF94EA7157}`.
+- Flag: `NFX{D36A64128F80788B60C677EF94FA7157}`.
 
 <div class="nx-evidence-preview"><a href="27-weak-handshake-09-bukti-evidence.html"><img src="assets/weak-handshake/00b-terminal-evidence.png" alt="Pratinjau evidence Weak Handshake" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="27-weak-handshake-09-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

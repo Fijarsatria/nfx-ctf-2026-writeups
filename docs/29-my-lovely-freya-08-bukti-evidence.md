@@ -66,6 +66,14 @@
 - [`decrypt_surat.sh`](assets/my-lovely-freya/decrypt_surat.sh)
 - [`extract_hidden.py`](assets/my-lovely-freya/extract_hidden.py)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/my-lovely-freya/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 Semua bukti berada di `writeups/assets/my-lovely-freya/`.

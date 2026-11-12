@@ -30,6 +30,14 @@
 
 *Terminal evidence (real).*
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/kunci-sudo-sing-kesasar/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 - Challenge brief: `assets/kunci-sudo-sing-kesasar/00-challenge-platform.png`
@@ -54,3 +62,11 @@
 **Berkas mentah:** [ANALYSIS.md](assets/kunci-sudo-sing-kesasar/10-ANALYSIS.md) ·
 [full-disasm.txt](assets/kunci-sudo-sing-kesasar/10-full-disasm.txt) ·
 [local-tests.txt](assets/kunci-sudo-sing-kesasar/10-local-tests.txt)
+
+**Disassembly mentah:**
+
+- [main](assets/kunci-sudo-sing-kesasar/10-disasm-main.txt)
+- [baca_baris](assets/kunci-sudo-sing-kesasar/10-disasm-baca-barisy.txt)
+- [unescape_copy](assets/kunci-sudo-sing-kesasar/10-disasm-unescape.txt)
+- [buka_kunci](assets/kunci-sudo-sing-kesasar/10-disasm-buka-kunci.txt)
+- [rodata](assets/kunci-sudo-sing-kesasar/10-rodata.txt)

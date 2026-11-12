@@ -28,7 +28,7 @@
 
 Attachment `flight_recovery_manifest.xlsx` punya satu sheet `Mail_Black_Box`
 dengan tiga kolom ber-encoding berbeda. Decode kolom A/B/C berhasil, tetapi
-cara menyusun flag-nya belum terbukti diterima platform.
+dan flag yang disusun dari tiga bagian itu diterima platform.
 
 ## Decode tiga kolom
 

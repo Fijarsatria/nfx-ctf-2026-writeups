@@ -36,3 +36,10 @@ Tidak memakai screenshot mockup. Bukti diambil dari log submit asli:
 Fakta pendukung:
 - `total_solves` challenge ini di platform = **11**.
 - Flag diterima dengan prefix **NFXCTF**; `NFX{...}` ditolak.
+
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/shadow-infrastructure/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*

@@ -85,6 +85,14 @@
 - [`exploit.py`](assets/the-forgotten-state/exploit.py)
 - [`flag.txt`](assets/the-forgotten-state/flag.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/the-forgotten-state/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

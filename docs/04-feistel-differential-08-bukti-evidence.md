@@ -44,6 +44,14 @@
 - [`solve_original_firstmodel.py`](assets/feistel-differential/solve_original_firstmodel.py)
 - [`solver-output.txt`](assets/feistel-differential/solver-output.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/feistel-differential/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

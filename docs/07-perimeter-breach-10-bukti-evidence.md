@@ -80,6 +80,14 @@
 - [`auth.log`](assets/perimeter-breach/auth.log)
 - [`webapp.log`](assets/perimeter-breach/webapp.log)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/perimeter-breach/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

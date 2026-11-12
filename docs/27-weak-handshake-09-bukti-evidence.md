@@ -143,6 +143,14 @@
 - [`tomoyo_priv.pem`](assets/weak-handshake/tomoyo_priv.pem)
 - [`wh.pcap`](assets/weak-handshake/wh.pcap)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/weak-handshake/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

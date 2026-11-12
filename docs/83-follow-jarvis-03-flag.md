@@ -32,3 +32,10 @@ NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}
 
 *Screenshot Discord: follow `@jarvis.biz.id`, DM admin Edien, dan flag
 `NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}`.*
+
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/follow-jarvis/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*

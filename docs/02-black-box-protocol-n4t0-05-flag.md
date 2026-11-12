@@ -16,13 +16,14 @@
 NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}
 ```
 
-## Bukti submit web
-
-![Submit web Black Box Protocol N4T0](assets/black-box-protocol-n4t0/00b-submit-platform.png)
-
-*Form challenge di platform menampilkan `CORRECT, BUT ALREADY SOLVED.`*
-
 ## Catatan
 
 Flag ini diterima lewat form web platform (`CORRECT, BUT ALREADY SOLVED.`).
 Screenshot submit ada di halaman ini.
+
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/black-box-protocol-n4t0/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*

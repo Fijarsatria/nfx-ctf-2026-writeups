@@ -78,6 +78,14 @@
 - [`exploit.py`](assets/gateway-under-pressure/exploit.py)
 - [`flag.txt`](assets/gateway-under-pressure/flag.txt)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/gateway-under-pressure/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

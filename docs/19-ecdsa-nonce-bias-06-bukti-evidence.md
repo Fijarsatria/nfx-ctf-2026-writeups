@@ -51,6 +51,14 @@
 - [`verify-output.txt`](assets/ecdsa-nonce-bias/verify-output.txt)
 - [`verify.py`](assets/ecdsa-nonce-bias/verify.py)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/ecdsa-nonce-bias/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 | Bukti | File | Keterangan |

@@ -63,6 +63,14 @@
 - [`05-audio-analysis.txt`](assets/frekuensi-sunyi/05-audio-analysis.txt)
 - [`solve_frekuensi.py`](assets/frekuensi-sunyi/solve_frekuensi.py)
 
+## Validasi platform (real)
+
+![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/frekuensi-sunyi/00b-platform-validation.png)
+
+*Screenshot asli dari platform NFX CTF 2026. Platform menjawab
+`CORRECT, BUT ALREADY SOLVED.` untuk flag ini.*
+
+
 ## Tabel Evidence
 
 Semua bukti berada di `writeups/assets/frekuensi-sunyi/`.
