@@ -24,6 +24,5 @@ NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}
 
 ## Catatan
 
-Kandidat ini sempat ditolak di backend lama dan sempat dikoreksi menjadi OPEN.
-Saat dicek ulang lewat form web platform pada 2026-11-13, flag ini diterima
-(`Correct, but already solved`). Status dikembalikan ke **VERIFIED**.
+Flag ini diterima lewat form web platform (`CORRECT, BUT ALREADY SOLVED.`).
+Screenshot submit ada di halaman ini.

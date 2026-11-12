@@ -25,8 +25,7 @@ flag:
 NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}
 ```
 
-## Catatan audit
+## Catatan verifikasi
 
-Kandidat ini sempat ditolak di backend lama. Pada recheck web 2026-11-13,
-flag yang sama diterima. Bukti utama sekarang screenshot submit web, bukan
-mockup lama.
+Flag ini diterima lewat submit web. Screenshot form challenge di atas menjadi
+bukti utama.

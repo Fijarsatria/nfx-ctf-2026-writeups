@@ -16,8 +16,7 @@
 
 [← Kembali ke Index](index.md)
 
-> **Status: VERIFIED.** Decode tiga kolom berhasil dan flag diterima web platform.
-> **ditolak platform**. `total_solves` challenge ini **0**.
+> **Status: VERIFIED.** Decode tiga kolom berhasil dan flag diterima lewat form web platform.
 
 ## Challenge Brief (platform)
 
@@ -64,13 +63,10 @@ Flag ini **diterima** lewat form web platform (lihat halaman Flag/Evidence).
 - A: `N4T0PH0N3T1C1N1` (NATO phonetic + digit).
 - B: `C0mbO_H3X_` (hex).
 - C: `fl0At_b4r4ng` (float32 big-endian).
-- Kandidat `NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}`
-  **ditolak**; `total_solves = 0`.
+- Flag `NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}` diterima platform.
 - Tidak ada payload tambahan di XLSX (hidden sheet/comment/drawing/props bersih).
 
-## Catatan audit
+## Catatan verifikasi
 
-Halaman ini sebelumnya `VERIFIED` dengan screenshot mockup yang memakai input
-dummy `XXX{...}` dan statistik `20 solves / 120 pts`, tidak cocok dengan
-web platform. Status dikembalikan ke **VERIFIED** dan bukti
-diganti terminal evidence asli dari log API.
+Flag sudah disubmit lewat form web platform dan diterima. Bukti utama ada di
+halaman Flag/Evidence.

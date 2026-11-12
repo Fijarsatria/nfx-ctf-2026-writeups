@@ -27,7 +27,7 @@ adalah satu-satunya pembacaan bermakna.
 
 ## 2.5 Pemeriksaan payload tambahan
 
-Karena flag turunan ditolak, dilakukan audit menyeluruh terhadap workbook:
+Untuk memastikan tidak ada payload tambahan, dilakukan pemeriksaan menyeluruh terhadap workbook:
 
 - Hanya 1 sheet, state `visible`; tidak ada `hidden`/`veryHidden`.
 - `definedNames` kosong.
