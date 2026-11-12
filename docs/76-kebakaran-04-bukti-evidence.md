@@ -58,10 +58,12 @@
 - `strings`, `binwalk`, `zsteg`: tidak ada payload.
 - Flag accepted: `NXCTF{GLORIA_SETIABAKTI_SINARHARAPAN}` → Gloria,
   Setiabakti, Sinarharapan.
-- Nominatim/Overpass/Bing/DuckDuckGo tidak menemukan cluster tiga toko di
-  Jawa Barat.
-- **Koordinat gang dan frame Street View tidak ada.** Halaman ini tidak
-  mengarang lokasi.
+- Lokasi: **Kalipah Apo, Karang Anyar, Astanaanyar, Bandung**.
+- Tiga usaha: Toko Gloria, Setiabakti, Sinar Harapan.
+- Screenshot Google Maps map view/place search tersedia di
+  `10-google-maps-gloria-search.png`, `10-google-maps-setiabakti-search.png`,
+  dan `10-google-maps-gang.png`.
+- Frame Street View papan toko belum tersimpan; tidak diklaim ada.
 
 **Berkas mentah:** [ANALYSIS.md](assets/kebakaran/10-ANALYSIS.md) ·
 [kebakaran.jpeg](assets/kebakaran/10-kebakaran.jpeg)

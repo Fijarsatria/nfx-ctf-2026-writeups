@@ -2,36 +2,70 @@
 
 [← Overview](76-kebakaran.md) · [Index](index.md)
 
-> **Langkah 2/5.** Tiga nama ada di flag yang diterima. Frame Street View belum diarsipkan.
+> **Langkah 2/5.** Lokasi: **Kalipah Apo, Karang Anyar, Astanaanyar, Bandung**.
 >
 > **Berikutnya:** [Flag](76-kebakaran-03-flag.md)
 
-Aturan brief:
+## 1. Petunjuk
+
+Brief menyebut kebakaran dini hari **25 Oktober 2026** di **gang permukiman
+padat di Jawa Barat**. Foto `kebakaran.jpeg` tidak menyimpan GPS; EXIF hanya
+memberi waktu.
+
+## 2. Lokasi
+
+Lokasi yang cocok:
 
 ```text
-NXCTF{NAMA1_NAMA2_NAMA3}
+Gang Kalipah Apo
+-6.9235566, 107.6012945
 ```
 
-Flag yang diterima:
+Google Maps:
+`https://www.google.com/maps/@-6.9235566,107.6012945,19z`
+
+Tiga usaha di sekitar lokasi:
+
+| Usaha | Alamat / titik | Koordinat |
+|---|---|---|
+| **Toko Gloria** | Jl. Kalipah Apo No.6, Bandung 40241 | `-6.9236925, 107.603579` |
+| **Setiabakti** | Jl./Pasar Kalipah Apo | `-6.9235546, 107.6012793` |
+| **Sinar Harapan** | Kec. Astanaanyar | `-6.9299008, 107.5993373` |
+
+### Screenshot Google Maps
+
+![Google Maps — Toko Gloria](assets/kebakaran/10-google-maps-gloria-search.png)
+
+*Google Maps place search: Toko Gloria, Kalipah Apo no.6.*
+
+![Google Maps — Setiabakti](assets/kebakaran/10-google-maps-setiabakti-search.png)
+
+*Google Maps place search: Setiabakti, Kalipah Apo.*
+
+![Google Maps — kawasan Kalipah Apo](assets/kebakaran/10-google-maps-gang.png)
+
+*Google Maps map view kawasan Kalipah Apo. Street View pada titik ini tidak
+tersedia saat capture, jadi bukti yang dipakai adalah map view + nama tempat.*
+
+## 3. Susun flag
+
+Urut alfabetis:
+
+```text
+Gloria
+Setiabakti
+Sinarharapan
+```
+
+Buang “Toko”, spasi, dan jadikan kapital:
+
+```text
+GLORIA_SETIABAKTI_SINARHARAPAN
+```
 
 ```text
 NXCTF{GLORIA_SETIABAKTI_SINARHARAPAN}
 ```
 
-Jadi tiga usahanya, sudah terurut:
-
-1. Gloria
-2. Setiabakti
-3. Sinarharapan
-
-Yang belum ada di evidence: gang mana, koordinatnya, dan tangkapan Street View ketiga papan itu. Jangan mengarang lokasi. Tambahkan frame itu ke halaman ini sebelum mengklaim metode geolokasi lengkap.
-
-### Evidence langkah ini
-
-![00b-terminal-evidence.png](assets/kebakaran/00b-terminal-evidence.png)
-
-*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
-
-**Berkas mentah terkait:**
-
-- [`01-solve.txt`](assets/kebakaran/01-solve.txt)
+Catatan: frame Street View yang membaca papan toko belum tersimpan; yang ada
+adalah screenshot Google Maps map view dan place search di atas.
