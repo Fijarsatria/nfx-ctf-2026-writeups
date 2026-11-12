@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](64-omah-buffer-kebak-04-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](64-omah-buffer-kebak-04-bukti-evidence.md)
+
 > **Flag:** `NFX{OmahhKUuD0Ndoll_Uw0nggG}`
 > **Status:** `VERIFIED`
 

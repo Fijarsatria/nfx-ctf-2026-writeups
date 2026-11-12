@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](47-medium-tea-11-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](47-medium-tea-11-bukti-evidence.md)
+
 > **Flag:** `NFX{t1ny_3ncrypt10n_4lg0r1thm_32_r0und5}`
 > **Status:** `VERIFIED`
 

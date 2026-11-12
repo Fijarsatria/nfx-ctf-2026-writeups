@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](48-changetrack-08-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](48-changetrack-08-bukti-evidence.md)
+
 > **Flag:** `NFX{ch4ng3_d3t3ct10n_j1nj4_sst1_oob_cve_2024_32651_2026}`
 > **Status:** `VERIFIED`
 

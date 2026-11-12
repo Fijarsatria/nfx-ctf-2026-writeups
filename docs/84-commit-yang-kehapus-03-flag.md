@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](84-commit-yang-kehapus-04-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](84-commit-yang-kehapus-04-bukti-evidence.md)
+
 > **Flag:** `NFXCTF{g1t_d4ngl1ng_bl0b_h4v0c_5c8a19d4}`
 > **Status:** `VERIFIED`
 

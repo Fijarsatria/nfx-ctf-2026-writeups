@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](13-nxportal-08-bukti-evidence.md)
 
+> **Asal flag.** Flag **belum ditemukan**; halaman ini berisi blocker, bukan flag.  
+> **Tingkat bukti metode.** OPEN. [Buka Evidence](13-nxportal-08-bukti-evidence.md)
+
 > **Flag:** **OPEN — belum ditemukan**
 > **Status:** `OPEN`
 

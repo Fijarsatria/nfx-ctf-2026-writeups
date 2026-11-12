@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](27-weak-handshake-09-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](27-weak-handshake-09-bukti-evidence.md)
+
 > **Flag:** `NFXCTF{D36A64128F80788B60C677EF94EA7157}`
 > **Status:** `VERIFIED`
 

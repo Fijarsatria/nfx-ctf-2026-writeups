@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](66-forgotten-commit-user-04-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](66-forgotten-commit-user-04-bukti-evidence.md)
+
 > **Flag:** `NFX{g1t_h1story_s3cr3ts_l34d_t0_ssh}`
 > **Status:** `VERIFIED`
 

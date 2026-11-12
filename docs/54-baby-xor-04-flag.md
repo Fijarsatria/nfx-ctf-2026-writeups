@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](54-baby-xor-05-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](54-baby-xor-05-bukti-evidence.md)
+
 > **Flag:** `NFX{x0r_1s_fun_but_n0t_s3cur3}`
 > **Status:** `VERIFIED`
 

@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](42-the-forgotten-state-09-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](42-the-forgotten-state-09-bukti-evidence.md)
+
 > **Flag:** `NFX{ElC0nloe_Forg0tten_StaticcD42#}`
 > **Status:** `VERIFIED`
 

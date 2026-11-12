@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](81-dead-drop-04-bukti-evidence.md)
 
+> **Asal flag.** Flag accepted; config leak terdokumentasi, tetapi branch remote **tidak ada di zip**.  
+> **Tingkat bukti metode.** Metode sebagian. [Buka Evidence](81-dead-drop-04-bukti-evidence.md)
+
 > **Flag:** `NFX{g1t_c0nf1g_h34d3r_l34k_h1dd3n_br4nch_9c1e7a}`
 > **Status:** `VERIFIED`
 

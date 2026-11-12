@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](71-decode-balik-04-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](71-decode-balik-04-bukti-evidence.md)
+
 > **Flag:** `NFX{CuM4_D3c0D3_B4L!k_Aj4_H4Ru5Ny4_G4mP4nG}`
 > **Status:** `VERIFIED`
 

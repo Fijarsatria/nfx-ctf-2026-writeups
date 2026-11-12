@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](29-my-lovely-freya-08-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](29-my-lovely-freya-08-bukti-evidence.md)
+
 > **Flag:** `NFX{FR3Y4_MY_L0V3LY!}`
 > **Status:** `VERIFIED`
 

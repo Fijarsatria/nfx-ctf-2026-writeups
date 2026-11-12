@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](11-nexaidentity-08-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](11-nexaidentity-08-bukti-evidence.md)
+
 > **Flag:** `NFX{n0sql_0p3r4t0r_4uth_byp4ss}`
 > **Status:** `VERIFIED`
 

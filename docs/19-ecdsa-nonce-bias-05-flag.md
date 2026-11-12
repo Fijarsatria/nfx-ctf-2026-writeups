@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](19-ecdsa-nonce-bias-06-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](19-ecdsa-nonce-bias-06-bukti-evidence.md)
+
 > **Flag:** `NXCTF{ecds4_hnp_n0nc3_b14s_8b1t_l4tt1c3_a3d2ae498097}`
 > **Status:** `VERIFIED`
 

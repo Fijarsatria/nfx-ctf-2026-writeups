@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](77-13-is-not-enough-04-bukti-evidence.md)
 
+> **Asal flag.** Flag accepted lewat UI platform; transformasi ciphertext **belum ditemukan**.  
+> **Tingkat bukti metode.** Metode belum terdokumentasi. [Buka Evidence](77-13-is-not-enough-04-bukti-evidence.md)
+
 > **Flag:** `NFX{Y0U_R0T4T3D_TH3_L3TT3R5_N0W_F1X_TH3_D1G1T5}`
 > **Status:** `VERIFIED`
 

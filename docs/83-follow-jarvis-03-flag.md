@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](83-follow-jarvis-04-bukti-evidence.md)
 
+> **Asal flag.** Flag diberikan admin lewat DM Discord setelah follow akun sponsor.  
+> **Tingkat bukti metode.** Admin-assisted. [Buka Evidence](83-follow-jarvis-04-bukti-evidence.md)
+
 > **Flag:** `NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}`
 > **Status:** `VERIFIED`
 

@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](43-castaway-13-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](43-castaway-13-bukti-evidence.md)
+
 > **Flag:** `NFX{c4st4w4y_0n_4n_0p4qu3_st4t3_m4ch1n3}`
 > **Status:** `VERIFIED`
 

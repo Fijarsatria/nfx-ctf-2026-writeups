@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](52-wujud-aseli-atmin-05-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](52-wujud-aseli-atmin-05-bukti-evidence.md)
+
 > **Flag:** `NFX{NFCC_Goes_to_NCSC_2026}`
 > **Status:** `VERIFIED`
 

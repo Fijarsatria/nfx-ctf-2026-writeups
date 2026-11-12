@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](22-static-iv-offline-06-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](22-static-iv-offline-06-bukti-evidence.md)
+
 > **Flag:** `NXCTF{cbc_1v_r3u53_l34k5_k3y5tr34m_b0fbd4d35f80}`
 > **Status:** `VERIFIED`
 

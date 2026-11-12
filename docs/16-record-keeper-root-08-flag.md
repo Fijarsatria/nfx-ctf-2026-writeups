@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](16-record-keeper-root-09-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](16-record-keeper-root-09-bukti-evidence.md)
+
 > **Flag:** `NFX{sp00l3r_4rch1v3_r00t_pwn3d}`
 > **Status:** `VERIFIED`
 

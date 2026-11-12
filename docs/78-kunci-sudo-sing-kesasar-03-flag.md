@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](78-kunci-sudo-sing-kesasar-04-bukti-evidence.md)
 
+> **Asal flag.** Flag accepted dari service; exploit `suid==0` **belum terbukti** di binary lokal.  
+> **Tingkat bukti metode.** Metode sebagian. [Buka Evidence](78-kunci-sudo-sing-kesasar-04-bukti-evidence.md)
+
 > **Flag:** `NFX{Wh33W0kTh3Tok-k}`
 > **Status:** `VERIFIED`
 

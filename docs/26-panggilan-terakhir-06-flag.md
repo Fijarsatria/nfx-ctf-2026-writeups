@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](26-panggilan-terakhir-07-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](26-panggilan-terakhir-07-bukti-evidence.md)
+
 > **Flag:** `NFXCTF{arsip_merah_204}`
 > **Status:** `VERIFIED`
 

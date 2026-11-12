@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](56-ghost-xor-05-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](56-ghost-xor-05-bukti-evidence.md)
+
 > **Flag:** `NFXCTF{x0r_1s_sup3r_34sy_r1ght_a8f9c2}`
 > **Status:** `VERIFIED`
 

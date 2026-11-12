@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](76-kebakaran-04-bukti-evidence.md)
 
+> **Asal flag.** Flag accepted; lokasi/koordinat dan frame Street View **tidak diarsipkan**.  
+> **Tingkat bukti metode.** Metode sebagian. [Buka Evidence](76-kebakaran-04-bukti-evidence.md)
+
 > **Flag:** `NXCTF{GLORIA_SETIABAKTI_SINARHARAPAN}`
 > **Status:** `VERIFIED`
 

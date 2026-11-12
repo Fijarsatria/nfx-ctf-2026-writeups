@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](37-gateway-under-pressure-07-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](37-gateway-under-pressure-07-bukti-evidence.md)
+
 > **Flag:** `NFX{Nyoss_Gte3wayy_Pr3ssureee0!}`
 > **Status:** `VERIFIED`
 

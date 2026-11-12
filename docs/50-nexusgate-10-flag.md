@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](50-nexusgate-11-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](50-nexusgate-11-bukti-evidence.md)
+
 > **Flag:** `NFX{n3xu5_g4t3_0v3r_gr4nt_c4ch3_smuggl3_2026}`
 > **Status:** `VERIFIED`
 

@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](24-access-remains-10-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](24-access-remains-10-bukti-evidence.md)
+
 > **Flag:** `NFX{The_Real_Access_Was_Kumiko_All_Along}`
 > **Status:** `VERIFIED`
 

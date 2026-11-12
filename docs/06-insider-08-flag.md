@@ -8,6 +8,9 @@
 >
 > **Berikutnya:** [Bukti / Evidence](06-insider-09-bukti-evidence.md)
 
+> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](06-insider-09-bukti-evidence.md)
+
 > **Flag:** `NFX{wraithbyte_cve202421412_20250314_zenvpn271}`
 > **Status:** `VERIFIED`
 
