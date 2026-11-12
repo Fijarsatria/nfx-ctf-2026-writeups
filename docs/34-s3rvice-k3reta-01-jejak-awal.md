@@ -87,3 +87,9 @@ Jadi lokasi harus dibaca dari **isi visual** dan konteks challenge.
 **Berkas mentah langkah ini:**
 
 - [`02-exif-and-hash.txt`](assets/s3rvice-k3reta/02-exif-and-hash.txt)
+
+### Screenshot video YouTube
+
+![Video KRL Footage Drone](assets/s3rvice-k3reta/09-youtube-video.png)
+
+*Screenshot halaman YouTube “KRL Footage Drone | Cilebut - Bojong Gede” — sumber frame kereta.*

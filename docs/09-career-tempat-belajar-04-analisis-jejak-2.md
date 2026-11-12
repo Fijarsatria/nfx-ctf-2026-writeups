@@ -61,3 +61,9 @@ untuk mengecoh, bukan bagian dari flag.
 
 - [`02-office-metadata.txt`](assets/career-tempat-belajar/02-office-metadata.txt)
 - [`06-gravatar-http.txt`](assets/career-tempat-belajar/06-gravatar-http.txt)
+
+### Screenshot profil Gravatar
+
+![Profil Gravatar Dihlearn.id](assets/career-tempat-belajar/09-gravatar-profile.png)
+
+*Screenshot web profil Gravatar `Dihlearn.id` — bio memuat flag.*
