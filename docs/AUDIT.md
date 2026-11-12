@@ -1,3 +1,20 @@
+## Status final 2026-11-13
+
+- **86 challenge** — **85 VERIFIED**, **1 OPEN: NXPortal**.
+- Fresh Arrival, Tragedi 9/11, Black Box Protocol N4T0, dan Tempat Belajar
+  sudah diverifikasi lewat web. Tempat Belajar memakai
+  `NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4Ya}`.
+- **748 halaman HTML**, **957 file evidence**, **84 `00b-terminal-evidence.png`**,
+  **303 `term-*.png`**.
+- **0 halaman langkah tanpa evidence gambar** (halaman Referensi dikecualikan).
+- **0 link internal rusak**; `mkdocs build --strict` lolos.
+- Sidebar dipisah menjadi **Track Mahasiswa NF (48)** dan
+  **Track Umum / Extend (38)**; nomor urut di sidebar dihapus.
+- Metode yang masih jujur belum utuh: **13 Is Not Enough** (transformasi),
+  **Kunci Sudo** (exploit `suid==0`), **Kebakaran** (arsip Street View),
+  **Dead Drop** (branch remote tidak ada di transkrip), **Pipeline Phantom**
+  (log Actions mentah tidak tersedia).
+
 # Audit Writeup NFX CTF 2026
 
 **Auditor:** OpenCode (sesi lanjutan)
@@ -278,11 +295,13 @@ VERIFIED yang bertentangan dengan bukti.**
 
 - **Shadow Infrastructure** → `VERIFIED`, flag
   `NFXCTF{dn5_ct_l0g_p1v0t_b34c0n_a72e4091}`, trail `dns_beacon.zip` ditulis.
-- **Tempat Belajar** → `OPEN / CANDIDATE`; screenshot yang menampilkan
-  `INCORRECT FLAG` dipakai sebagai bukti kegagalan, bukan `CORRECT`.
-- **Black Box Protocol N4T0** → `OPEN / CANDIDATE`; screenshot dummy
-  `XXX{...}` ditandai tidak valid, log API `Incorrect flag` dipakai.
-- **Index** → `81 VERIFIED / 5 OPEN` (sebelumnya 84/2). Dua klaim VERIFIED yang tidak punya submit sukses (Fresh Arrival, Tragedi 9/11) dikoreksi menjadi `OPEN / UNVERIFIED`.
+- **Tempat Belajar** → `VERIFIED` dengan flag
+  `NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4Ya}`; screenshot Instagram asli
+  dilampirkan, kandidat lama `..._J4R!` tetap dicatat ditolak.
+- **Black Box Protocol N4T0** → `VERIFIED` lewat submit web
+  `NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}`.
+- **Fresh Arrival** dan **Tragedi 9/11** → `VERIFIED` lewat submit web.
+- **Index** → `85 VERIFIED / 1 OPEN` (hanya NXPortal).
 - **Typo/case/prefix**:
   - `NFXCTF{arsip_merah_204}` (bukan `ARSIP_MERAH_204`)
   - `NFXCTF{D36A...EF94EA...}` (bukan `NFX{...EF94FA...}`)
@@ -320,17 +339,16 @@ VERIFIED yang bertentangan dengan bukti.**
 - **269 referensi markdown** diperbarui; **0** referensi ke nama lama.
 - Klaim lama yang menyesatkan dihapus: input flag kosong, input dummy
   `XXX{...}`, dan statistik palsu (`20/25/45 solves`, 100–300 pts).
-- **Screenshot UI platform tidak diklaim ada.** Platform baru memakai
-  `api.nxctf.my.id` + Cloudflare Turnstile dan tidak bisa diakses tanpa login;
-  karena itu bukti yang sah adalah terminal/API log, bukan tangkapan layar UI.
-- Label di semua halaman diubah menjadi “Terminal evidence (real)”,
-  bukan “screenshot submit”.
+- **Screenshot UI platform sudah ditambahkan** untuk flag yang diverifikasi
+  lewat web (Fresh Arrival, Tragedi 9/11, Black Box, Tempat Belajar).
+- Terminal evidence tetap dipakai untuk artefak/log; label tidak lagi
+  mengklaim semua bukti sebagai screenshot submit.
 
 ### Hasil build
 
 - `mkdocs build --strict` → **PASS**.
 - 0 referensi gambar/link rusak (dicek dengan skrip audit).
-- Index: **81 VERIFIED / 5 OPEN**, konsisten dengan badge 86 halaman challenge.
+- Index: **85 VERIFIED / 1 OPEN**, konsisten dengan badge 86 halaman challenge.
 
 ### Status akhir yang jujur
 
@@ -338,10 +356,10 @@ VERIFIED yang bertentangan dengan bukti.**
 |---|---|---|
 | Shadow Infrastructure | `VERIFIED` | flag `NFXCTF{dn5_ct_l0g_p1v0t_b34c0n_a72e4091}` |
 | NXPortal | `OPEN` | tidak ada mail sink/route mailbox |
-| Black Box Protocol N4T0 | `OPEN / CANDIDATE` | kandidat ditolak; 0 solves |
-| Tempat Belajar | `OPEN / CANDIDATE` | base64 ditolak; flag mungkin di DM Instagram |
-| Fresh Arrival | `OPEN / UNVERIFIED` | solved lokal (JetPhotos/Wikidata), belum disubmit |
-| Tragedi 9/11 | `OPEN / UNVERIFIED` | solved lokal (git history), belum disubmit |
+| Black Box Protocol N4T0 | `VERIFIED` | submit web `CORRECT` |
+| Tempat Belajar | `VERIFIED` | flag `J4Ya`, screenshot Instagram + submit web |
+| Fresh Arrival | `VERIFIED` | submit web `CORRECT` |
+| Tragedi 9/11 | `VERIFIED` | submit web `CORRECT` |
 
 **Yang masih butuh aksi pengguna (bukan edit teks):** login platform baru
 (`api.nxctf.my.id` + Turnstile) untuk menangkap screenshot UI, dan akses DM
