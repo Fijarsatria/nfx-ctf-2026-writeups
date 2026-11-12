@@ -1,0 +1,14 @@
+$ cat flags/misc/Pipeline_Phantom.report.txt
+Full flag reconstructed from two sources:
+1) Actions log line 273 (run 40221200390, job 121252951677):
+   [DEBUG_PAYLOAD]: N F X { g h _ 4 c t 1 0 n s _ m 4 s k _ b y p 4 s s _
+   => prefix NFX{gh_4ct10ns_m4sk_byp4ss_
+2) Public issue #1 "[SECURITY AUDIT] Reverted temporary branch: Credential leak prevented"
+   points to reverted commit 62d3ad55d0cd1d95c64fc0168e317b928b0b4d95.
+   File config/c2_endpoint.json in that commit contains:
+   {"backup_key_fragment":"4nd_0rph4n_c0mm1t_l34k_9f82}", ...}
+
+Concatenation:
+NFX{gh_4ct10ns_m4sk_byp4ss_4nd_0rph4n_c0mm1t_l34k_9f82}
+
+$ grep -RIn "DEBUG_PAYLOAD" work/umum-mahasiswa-nf/Misc/pipeline-phantom 2>/dev/null | head
