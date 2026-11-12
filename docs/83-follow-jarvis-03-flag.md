@@ -22,3 +22,10 @@ NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}
 *Terminal evidence (real).*
 
 > **Bukti:** terminal evidence (real).
+
+## Bukti admin
+
+![DM Discord admin Edien](assets/follow-jarvis/09-discord-admin-flag.png)
+
+*Screenshot Discord: follow `@jarvis.biz.id`, DM admin Edien, dan flag
+`NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}`.*

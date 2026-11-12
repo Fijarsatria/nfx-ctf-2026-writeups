@@ -14,9 +14,3 @@
 - Dokumentasi PHP `session.upload_progress`.
 - Python `subprocess` documentation — risiko `shell=True`.
 - OWASP: OS Command Injection; Insecure Direct Object Reference pada file flag.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/progress-bar-user/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

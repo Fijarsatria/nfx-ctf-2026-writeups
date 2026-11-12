@@ -13,9 +13,3 @@
 - `writeups/assets/libc-offsets-and-gadgets.txt` — offset gadget.
 - `man 2 seccomp`, `man 2 prctl`, `man 2 open`.
 - Writeup referensi (diperiksa ulang, tidak disalin mentah): `/tmp/opencode/skywriteups/writeups/14-narrowgate.md`.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/narrowgate/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

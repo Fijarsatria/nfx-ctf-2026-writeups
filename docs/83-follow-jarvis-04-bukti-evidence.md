@@ -1,6 +1,6 @@
 # Follow Jarvis! — Evidence / Bukti
 
-<div class="nx-challenge-head"><span class="nx-chip">2 screenshot</span><span class="nx-chip">0 transkrip / script</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">0 transkrip / script</span></div>
 
 
 [← Overview](83-follow-jarvis.md) · [Index](index.md)
@@ -34,4 +34,12 @@
 
 - Challenge brief: `assets/follow-jarvis/00-challenge-platform.png`
 - Terminal evidence (real): `assets/follow-jarvis/00b-terminal-evidence.png`
+- Bukti Discord/admin: `assets/follow-jarvis/09-discord-admin-flag.png`
 - Catatan mentah: lihat folder `assets/follow-jarvis/`
+
+### Screenshot Discord + flag admin
+
+![DM Discord admin Edien](assets/follow-jarvis/09-discord-admin-flag.png)
+
+*Screenshot Discord: `@jarvis.biz.id` follow, DM admin Edien, dan flag
+`NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}`.*

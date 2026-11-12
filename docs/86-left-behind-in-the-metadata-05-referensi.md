@@ -9,9 +9,3 @@
 > **Selesai.** Kembali ke [Overview](86-left-behind-in-the-metadata.md).
 
 EXIF metadata, GPS, custom SHA256 stream cipher.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/left-behind-in-the-metadata/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

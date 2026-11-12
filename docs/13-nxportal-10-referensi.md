@@ -14,13 +14,3 @@
   Password Recovery Mechanism).
 - `changedetection.io` bukan target challenge ini; hanya inspirasi untuk
   ChangeTrack.
-
-### Evidence langkah ini
-
-![term-08-login-tests.png](assets/nxportal/term-08-login-tests.png)
-
-*Terminal evidence — `08-login-tests.txt` (arsip transkrip sesi solve).*
-
-**Berkas mentah langkah ini:**
-
-- [`08-login-tests.txt`](assets/nxportal/08-login-tests.txt)

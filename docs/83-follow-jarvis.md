@@ -34,7 +34,7 @@
 
 Challenge sponsor. Kita follow minimal dua akun Jarvis, buka ticket Discord, kirim bukti, lalu admin memberi flag.
 
-<div class="nx-evidence-preview"><a href="83-follow-jarvis-04-bukti-evidence.html"><img src="assets/follow-jarvis/00b-terminal-evidence.png" alt="Pratinjau evidence Follow Jarvis!" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="83-follow-jarvis-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="83-follow-jarvis-04-bukti-evidence.html"><img src="assets/follow-jarvis/09-discord-admin-flag.png" alt="Pratinjau evidence Follow Jarvis!" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="83-follow-jarvis-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 

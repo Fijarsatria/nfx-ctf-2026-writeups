@@ -12,9 +12,3 @@
 - Wesolowski, *Efficient Verifiable Delay Functions* (2019).
 - Pietrzak, *Simple Verifiable Delay Functions* (2018).
 - Rivest, Shamir, Adleman — kesulitan faktorisasi RSA.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/unbreakable-delay/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

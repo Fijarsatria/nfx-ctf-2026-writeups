@@ -18,9 +18,3 @@
 - Villa Istana Bunga: `https://penginapan.net/villa-istana-bunga-vib-komplek-villa-terbesar-di-lembang-bandung/`
 - Villa Istana Bunga: `https://www.villalembang09.com/`
 - `flags/_suspect/_post.txt` — string wave 1 `NFX{Villa_Istana_Bunga}`.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/the-ghost-operator/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

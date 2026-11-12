@@ -12,9 +12,3 @@
 - `writeups/assets/starved/02b-seccomp.txt` — decode filter.
 - `writeups/assets/libc-offsets-and-gadgets.txt` — offset libc.
 - `man 2 seccomp`, `man 2 prctl`, `man 2 read`.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/starved/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

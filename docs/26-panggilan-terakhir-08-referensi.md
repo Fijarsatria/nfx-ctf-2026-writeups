@@ -12,9 +12,3 @@
 - RTP (RFC 3550), payload type 0 = PCMU/8000.
 - G.711 μ-law decoding.
 - faster-whisper untuk ASR.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/panggilan-terakhir/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

@@ -9,9 +9,3 @@
 > **Selesai.** Kembali ke [Overview](71-decode-balik.md).
 
 CyberChef recipe reversing.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/decode-balik/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

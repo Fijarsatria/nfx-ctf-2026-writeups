@@ -9,9 +9,3 @@
 > **Selesai.** Kembali ke [Overview](72-nexasupply.md).
 
 XXE, external entity, local file read.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/nexasupply/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

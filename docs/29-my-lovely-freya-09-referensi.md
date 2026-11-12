@@ -12,9 +12,3 @@
 - `flags/wave2/My_Lovely_Freya.txt` — flag platform.
 - Spesifikasi PNG (IHDR, IDAT, filter types 0–4).
 - OpenSSL `enc` — format `Salted__`, PBKDF2, AES-256-CBC.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/my-lovely-freya/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

@@ -9,9 +9,3 @@
 > **Selesai.** Kembali ke [Overview](62-notulen-senin-pagi.md).
 
 PDF text layer, metadata, hidden text.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/notulen-senin-pagi/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

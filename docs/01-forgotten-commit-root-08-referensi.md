@@ -13,9 +13,3 @@
 - fzf man page: `--listen[=[ADDR:]PORT]` dan action `execute(...)`.
 - Prinsip least privilege untuk `sudoers` (NOPASSWD + binary dengan fitur exec).
 - OWASP: exposure of `.git` metadata dan secret management.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/forgotten-commit-root/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

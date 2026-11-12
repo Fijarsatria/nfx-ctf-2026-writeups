@@ -9,9 +9,3 @@
 > **Selesai.** Kembali ke [Overview](70-nexarewards.md).
 
 Race condition, double spend, parallel requests.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/nexarewards/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

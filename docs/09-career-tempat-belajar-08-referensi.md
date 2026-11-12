@@ -15,9 +15,3 @@
 - `flags/osint/Career_Tempat_Belajar.txt` — flag yang sama, tersimpan lokal.
 - `flags/osint/Tempat_Belajar.status.txt` — catatan investigasi sebelumnya
   (email `dihlearn.id@gmail.com` → flag Career).
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/career-tempat-belajar/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

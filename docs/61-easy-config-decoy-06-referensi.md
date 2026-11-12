@@ -10,9 +10,3 @@
 
 - `objdump -s -j .rodata`.
 - Flag yang dipecah dan decoy string.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/easy-config-decoy/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

@@ -20,18 +20,24 @@ Challenge ini **bukan celah teknis**, melainkan challenge sponsor/intro.
 NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}
 ```
 
-## Bukti yang seharusnya dilampirkan
+## Bukti asli yang dilampirkan
 
 - Screenshot follow akun.
 - Screenshot ticket Discord + balasan admin.
 - Log submit/flag accepted.
 
-> Catatan audit: halaman ini sebelumnya dinilai C karena “butuh ticket/admin”.
-> Itu memang sifat challenge-nya; lengkapi dengan screenshot ticket asli dan
-> labeli **admin-assisted intro**.
+> Challenge ini memang **admin-assisted**; bukti asli berupa screenshot follow
+> dan DM Discord dengan admin.
 
 ### Evidence langkah ini
 
 ![00b-terminal-evidence.png](assets/follow-jarvis/00b-terminal-evidence.png)
 
 *Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+### Screenshot Discord + flag admin
+
+![DM Discord admin Edien](assets/follow-jarvis/09-discord-admin-flag.png)
+
+*Screenshot Discord: follow `@jarvis.biz.id`, DM admin Edien, dan flag yang
+diberikan.*

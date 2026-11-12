@@ -16,9 +16,3 @@
 - El Diario NY (12 Sep 2021): `https://eldiariony.com/2021/09/12/video-inedito-del-9-11-capta-a-dueno-de-tienda-salvando-a-mujer-de-nube-de-polvo/`
 - `flags/wave2/Tragedi_911.txt` — flag tersimpan lokal.
 - `/tmp/opencode/skywriteups/writeups/13-tragedi-9-11.md` — draft sebelumnya.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/tragedi-9-11/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

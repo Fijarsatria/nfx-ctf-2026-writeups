@@ -12,9 +12,3 @@
 - Coppersmith / close-prime factorization.
 - Fermat factorization dan diskriminan kuadrat.
 - NIST SP 800-38D — AES-GCM.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/broken-signature-scheme/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

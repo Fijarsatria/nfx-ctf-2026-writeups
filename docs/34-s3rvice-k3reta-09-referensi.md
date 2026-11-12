@@ -22,13 +22,3 @@
   `https://www.youtube.com/watch?v=Z5_IssE_liM`
 - YouTube: adirosesFPV, “4K DRONE FOOTAGE STASIUN CILEBUT BOGOR”,
   `https://www.youtube.com/watch?v=ElYNDiCAWYk`
-
-### Evidence langkah ini
-
-![term-05-youtube-drone-candidates.png](assets/s3rvice-k3reta/term-05-youtube-drone-candidates.png)
-
-*Terminal evidence — `05-youtube-drone-candidates.txt` (arsip transkrip sesi solve).*
-
-**Berkas mentah langkah ini:**
-
-- [`05-youtube-drone-candidates.txt`](assets/s3rvice-k3reta/05-youtube-drone-candidates.txt)

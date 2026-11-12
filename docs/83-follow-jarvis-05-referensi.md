@@ -9,9 +9,3 @@
 > **Selesai.** Kembali ke [Overview](83-follow-jarvis.md).
 
 Ticket Discord, sponsor challenge.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/follow-jarvis/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

@@ -12,9 +12,3 @@
 - Differential cryptanalysis (Biham & Shamir).
 - Z3 SMT solver.
 - PKCS#7 padding.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/feistel-differential/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

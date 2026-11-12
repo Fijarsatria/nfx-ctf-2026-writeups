@@ -12,9 +12,3 @@
 - `flags/wave2/Stay.txt` — flag platform.
 - Unicode Standard: `U+200B`, `U+200C`, `U+200D`, `U+2060`.
 - Teknik: zero-width steganography, Base64, repeating-key XOR.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/stay/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

@@ -14,9 +14,3 @@
   revisited* (1997).
 - Boneh, *Twenty years of attacks on the RSA cryptosystem*.
 - `fpylll` LLL documentation.
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/rsa-coppersmith-cihuy/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*

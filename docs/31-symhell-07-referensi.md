@@ -13,9 +13,3 @@
 - Bash manual: command substitution `$(<file)`, pathname expansion, bracket
   expressions.
 - Writeup referensi `10-symhell.md` (endpoint publik dan strategi glob).
-
-### Evidence langkah ini
-
-![00-challenge-platform.png](assets/symhell/00-challenge-platform.png)
-
-*Challenge brief asli di platform NFX CTF 2026.*
