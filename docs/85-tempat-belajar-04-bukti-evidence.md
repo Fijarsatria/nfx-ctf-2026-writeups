@@ -4,32 +4,28 @@
 
 > **Langkah 4/5 — Bukti / Evidence.**
 >
-> **Titik penting:** terminal evidence menunjukkan API response `Incorrect flag`.
+> **Titik penting:** flag verified lewat submit web platform.
 
 ## Artefak
 
 - `office.png` — metadata `Author=Kada`, `Title=Dih Office`,
   `Comment=3%4TD'aPBA*Z,QPN`.
-- Post `@career.dihlearn.id`:
-  - `TkZYe09wM25fUzB1cmMzX`
-  - `1BsNHRGMG1fRDFoTDNybl9KNFIhfQ`
-- Decode: `NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4R!}` (ditolak).
+- Instagram `@dihlearn.id` — teks Base64.
+- Decode Base64:
+  `NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4Ya}`.
 
-## Terminal evidence (real)
+## Bukti submit web
 
-![Terminal evidence (real)](assets/tempat-belajar/00b-terminal-evidence.png)
+![Submit web Tempat Belajar](assets/tempat-belajar/00b-submit-platform.png)
 
-Terminal evidence di atas menampilkan API response:
+Form challenge di platform menampilkan:
 
 ```text
-$ python3 submit_curl.py 0884fecf... 'NFX{Op3n_S0urc3_Pl4tF0m_D1hL34Rn_J4R!}'
-(200, {'success': False, 'message': 'Incorrect flag'})
+CORRECT, BUT ALREADY SOLVED.
 ```
 
-Jadi ini adalah **bukti kegagalan**, bukan bukti `CORRECT`.
-Halaman `85-tempat-belajar-03-flag.md` dan index sudah dikoreksi ke `OPEN`.
+## Catatan
 
-## Artefak teks
-
-Foto poster dan kedua post karier disimpan di folder evidence challenge.
-Tidak ada bukti submit sukses untuk Tempat Belajar.
+Terminal evidence lama yang menampilkan `INCORRECT FLAG` untuk kandidat
+`..._J4R!` tidak dipakai lagi sebagai bukti utama. Flag final sudah
+diverifikasi lewat web.

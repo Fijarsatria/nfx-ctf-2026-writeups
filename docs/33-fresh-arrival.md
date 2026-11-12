@@ -1,6 +1,6 @@
 # Fresh Arrival
 
-<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Osint</span><span class="nx-chip">Medium</span><span class="nx-chip">340 poin</span><span class="nx-badge nx-badge-open">OPEN</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Osint</span><span class="nx-chip">Medium</span><span class="nx-chip">340 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
 
 
 | Field | Nilai |
@@ -12,8 +12,8 @@
 | Author | `Ariaf` |
 | Solves | `9` |
 | Tools | curl, python3, exiftool |
-| Flag | `NFX{XW_CXH_beijing_raihan}` (solved lokal, belum disubmit) |
-| Status | `OPEN / UNVERIFIED` |
+| Flag | `NFX{XW_CXH_beijing_raihan}` |
+| Status | `VERIFIED` |
 
 [← Kembali ke Index](index.md)
 
@@ -53,7 +53,7 @@ Jadi ceritanya gini. foto challenge adalah **Boeing 737-341(SF)**, registrasi **
   (B-2908), lalu Yangtze River Express, Suparna Airlines, Central Airlines,
   dan terakhir PK-ADL/Aero Nusantara Cargo.
 - China Xinhua Airlines: IATA **XW**, ICAO **CXH**, markas **Beijing**.
-- Kandidat flag (solved lokal, belum disubmit): `NFX{XW_CXH_beijing_raihan}`.
+- Flag verified lewat submit web: `NFX{XW_CXH_beijing_raihan}`.
 
 <div class="nx-evidence-preview"><a href="33-fresh-arrival-07-bukti-evidence.html"><img src="assets/fresh-arrival/00b-terminal-evidence.png" alt="Pratinjau evidence Fresh Arrival" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="33-fresh-arrival-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

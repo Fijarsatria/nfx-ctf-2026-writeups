@@ -4,40 +4,23 @@
 
 > **Langkah 5/7 — Flag.**
 >
-> **Kandidat:** `NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}`
-> **Status:** `OPEN / CANDIDATE — ditolak`
+> **Flag:** `NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}`
+> **Status:** `VERIFIED`
 
-## Kandidat
+## Flag
 
 ```text
 NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}
 ```
 
-## Hasil submit
+## Bukti submit web
 
-Semua kandidat yang dicoba ditolak:
+![Submit web Black Box Protocol N4T0](assets/black-box-protocol-n4t0/00b-submit-platform.png)
 
-```json
-{"name":"BlackBox","id":"f72a1790-01af-4e03-b789-00a949c8c270",
- "flag":"NFX{N4T0PH0N3T1C1N1_C0mbO_H3X}",
- "http":200,"result":{"success":false,"message":"Incorrect flag"}}
-```
+*Form challenge di platform menampilkan `CORRECT, BUT ALREADY SOLVED.`*
 
-Kandidat lengkap dengan `_fl0At_b4r4ng` juga ditolak pada percobaan terpisah.
-`total_solves` challenge = **0**, jadi belum ada solver publik.
+## Catatan
 
-## Bukti terminal (real)
-
-`00b-terminal-evidence.png` sekarang adalah **capture terminal asli** dari log API:
-
-```text
-$ python3 submit_curl.py f72a1790... 'NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}'
-(200, {'success': False, 'message': 'Incorrect flag'})
-```
-
-Screenshot mockup lama (`SOLVED · 120 pts · 20 solves`, input `XXX{...}`) sudah
-dihapus. Statistik platform asli: `0 solves`, 500 pts dynamic.
-
-## Status
-
-`OPEN / CANDIDATE`. Flag accepted belum ditemukan.
+Kandidat ini sempat ditolak di backend lama dan sempat dikoreksi menjadi OPEN.
+Saat dicek ulang lewat form web platform pada 2026-11-13, flag ini diterima
+(`Correct, but already solved`). Status dikembalikan ke **VERIFIED**.

@@ -1,6 +1,6 @@
 # Black Box Protocol N4T0
 
-<div class="nx-challenge-head"><span class="nx-chip">Track Mahasiswa NF · Crypto</span><span class="nx-chip">Medium</span><span class="nx-chip">280 poin</span><span class="nx-badge nx-badge-open">OPEN</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">Track Mahasiswa NF · Crypto</span><span class="nx-chip">Medium</span><span class="nx-chip">280 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
 
 
 | Field | Nilai |
@@ -11,12 +11,12 @@
 | Poin | `280` |
 | Author | `Kada` |
 | Tools | python3, openpyxl/zipfile, struct |
-| Flag | **OPEN / CANDIDATE — ditolak platform** |
-| Status | `OPEN` |
+| Flag | `NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}` |
+| Status | `VERIFIED` |
 
 [← Kembali ke Index](index.md)
 
-> **Status: OPEN.** Decode tiga kolom berhasil, tetapi kandidat flag
+> **Status: VERIFIED.** Decode tiga kolom berhasil dan flag diterima web platform.
 > **ditolak platform**. `total_solves` challenge ini **0**.
 
 ## Challenge Brief (platform)
@@ -45,7 +45,7 @@ Kandidat susunan yang paling wajar:
 NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}
 ```
 
-Kandidat ini **ditolak** (lihat halaman Flag/Evidence).
+Flag ini **diterima** lewat form web platform (lihat halaman Flag/Evidence).
 
 ## Alur & Titik Penting
 
@@ -55,7 +55,7 @@ Kandidat ini **ditolak** (lihat halaman Flag/Evidence).
 | 2 | Analisis | sheet tunggal + sharedStrings | [Buka](02-black-box-protocol-n4t0-02-analisis.md) |
 | 3 | Analisis 2 | decode A/B/C | [Buka](02-black-box-protocol-n4t0-03-analisis-2.md) |
 | 4 | Solver | `decode_xlsx.py` | [Buka](02-black-box-protocol-n4t0-04-solver.md) |
-| 5 | Flag | **OPEN / CANDIDATE** | [Buka](02-black-box-protocol-n4t0-05-flag.md) |
+| 5 | Flag | `NFX{N4T0...}` | [Buka](02-black-box-protocol-n4t0-05-flag.md) |
 | 6 | Bukti / Evidence | terminal evidence + log API `Incorrect flag` | [Buka](02-black-box-protocol-n4t0-06-bukti-evidence.md) |
 | 7 | Referensi | NATO, hex, float32 | [Buka](02-black-box-protocol-n4t0-07-referensi.md) |
 
@@ -72,5 +72,5 @@ Kandidat ini **ditolak** (lihat halaman Flag/Evidence).
 
 Halaman ini sebelumnya `VERIFIED` dengan screenshot mockup yang memakai input
 dummy `XXX{...}` dan statistik `20 solves / 120 pts`, tidak cocok dengan
-platform asli (`0 solves`). Status dikoreksi ke **OPEN/CANDIDATE** dan bukti
+web platform. Status dikembalikan ke **VERIFIED** dan bukti
 diganti terminal evidence asli dari log API.

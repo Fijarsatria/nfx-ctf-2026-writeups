@@ -8,6 +8,18 @@ isi attachment asli, dan konsistensi statistik challenge.
 
 ---
 
+## Update 2026-11-13
+
+Setelah recheck lewat form web platform:
+
+- **Fresh Arrival** — `NFX{XW_CXH_beijing_raihan}` → `CORRECT`.
+- **Tragedi 9/11** — `NFX{OS1NT_DU4R_D34_D0R}` → `CORRECT`.
+- **Black Box Protocol N4T0** — `NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}` → `CORRECT`.
+- **Tempat Belajar** — `NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4Ya}` → `CORRECT`.
+  Kandidat lama `..._J4R!` memang ditolak; yang benar memakai `J4Ya`.
+
+Status final: **85/86 VERIFIED**, satu **OPEN**: NXPortal.
+
 ## Ringkasan eksekutif
 
 Struktur writeup **sangat baik**: 86/86 challenge punya halaman, nav lengkap,

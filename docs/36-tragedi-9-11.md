@@ -1,6 +1,6 @@
 # Tragedi 9/11
 
-<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Osint</span><span class="nx-chip">Hard</span><span class="nx-chip">380 poin</span><span class="nx-badge nx-badge-open">OPEN</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">Track Umum / Extend · Osint</span><span class="nx-chip">Hard</span><span class="nx-chip">380 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
 
 
 | Field | Nilai |
@@ -12,8 +12,8 @@
 | Author | `salep88` |
 | Solves | `7` |
 | Tools | curl, python3, git |
-| Flag | `NFX{OS1NT_DU4R_D34_D0R}` (solved lokal, belum disubmit) |
-| Status | `OPEN / UNVERIFIED` |
+| Flag | `NFX{OS1NT_DU4R_D34_D0R}` |
+| Status | `VERIFIED` |
 
 [← Kembali ke Index](index.md)
 
@@ -51,7 +51,7 @@ Jadi ceritanya gini. video challenge adalah rekaman 9/11 berdurasi **58,5 detik*
 - Repo saat ini terlihat “bersih”, tetapi **history git** menyimpan
   commit `df34505` yang menambahkan `.env` berisi flag.
 - Commit `ea765a9` menghapus `.env`, tetapi objek commit lama tetap ada.
-- Kandidat flag (solved lokal, belum disubmit): `NFX{OS1NT_DU4R_D34_D0R}`.
+- Flag verified lewat submit web: `NFX{OS1NT_DU4R_D34_D0R}`.
 
 <div class="nx-evidence-preview"><a href="36-tragedi-9-11-07-bukti-evidence.html"><img src="assets/tragedi-9-11/00b-terminal-evidence.png" alt="Pratinjau evidence Tragedi 9/11" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="36-tragedi-9-11-07-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 

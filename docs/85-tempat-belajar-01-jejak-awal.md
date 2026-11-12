@@ -12,7 +12,14 @@
 exiftool -Author -Title -Comment office.png
 ```
 
-Nama "Dih" mengarah ke Instagram `@dihlearn.id` dan `@career.dihlearn.id`. Base64 di post karier ada di halaman berikutnya, dan platform menolak hasil decode-nya.
+```text
+Author  : Kada
+Title   : Dih Office
+Comment : 3%4TD'aPBA*Z,QPN
+```
+
+Nama “Dih” mengarah ke Instagram `@dihlearn.id`. Komentar di metadata adalah
+decoy/password, bukan flag.
 
 ### Evidence langkah ini
 
