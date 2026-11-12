@@ -12,6 +12,10 @@ Baca brief challenge dan cek attachment/service yang diberikan. Catat endpoint, 
 
 ### Evidence langkah ini
 
-![00-challenge-platform.png](assets/nexasupply/00-challenge-platform.png)
+![term-01-solve.png](assets/nexasupply/term-01-solve.png)
 
-*Challenge brief asli di platform NFX CTF 2026.*
+*Terminal evidence — `01-solve.txt` (arsip transkrip sesi solve).*
+
+**Berkas mentah langkah ini:**
+
+- [`01-solve.txt`](assets/nexasupply/01-solve.txt)
