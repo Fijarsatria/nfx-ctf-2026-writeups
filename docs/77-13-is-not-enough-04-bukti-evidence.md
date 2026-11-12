@@ -49,11 +49,7 @@
 - Analisis: `assets/13-is-not-enough/10-ANALYSIS.md`
 - Ciphertext + intermediate: `assets/13-is-not-enough/10-ciphertext.txt`
 
-## Bukti tambahan
-
-![Bukti 13 Is Not Enough](assets/13-is-not-enough/10-bukti.png)
-
-*Terminal evidence — solver empat layer dan flag final.*
+## Ringkasan
 
 - Panjang ciphertext dan flag sama-sama 47 karakter.
 - ROT13+ROT5 langsung **tidak** cocok.
