@@ -35,3 +35,13 @@ codecs.decode("ASK{o0fP4_Pr01Y}", "rot_13")
 ```text
 NFX{b0sC4_Ce01L}
 ```
+
+### Evidence langkah ini
+
+![00-provided-spectrogram.png](assets/frekuensi-sunyi/00-provided-spectrogram.png)
+
+*Spectrogram — `00-provided-spectrogram.png`.*
+
+**Berkas mentah terkait:**
+
+- [`05-audio-analysis.txt`](assets/frekuensi-sunyi/05-audio-analysis.txt)

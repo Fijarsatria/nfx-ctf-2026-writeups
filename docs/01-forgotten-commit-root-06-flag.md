@@ -39,3 +39,15 @@ Status: **VERIFIED platform**. Flag sudah di-submit lewat form web platform
 dan diterima. Terminal evidence asli ada di `assets/forgotten-commit-root/00b-terminal-evidence.png`.
 
 > **Bukti:** terminal evidence (real).
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/forgotten-commit-root/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-live-recon.txt`](assets/forgotten-commit-root/01-live-recon.txt)
+- [`02d-live-inventory.txt`](assets/forgotten-commit-root/02d-live-inventory.txt)
+- [`02-live-dump.txt`](assets/forgotten-commit-root/02-live-dump.txt)

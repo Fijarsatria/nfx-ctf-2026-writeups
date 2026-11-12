@@ -46,3 +46,15 @@ Karakter yang masih diizinkan antara lain:
 ```text
 $ { } [ ] ( ) ~ ! - _ . / \ | & ; < > = + , : " ' @ % ^ ` spasi tab
 ```
+
+### Evidence langkah ini
+
+![term-02-hashes.png](assets/symhell/term-02-hashes.png)
+
+*Terminal evidence — transkrip langkah — `term-02-hashes.png`.*
+
+**Berkas mentah terkait:**
+
+- [`03-exploit-transcript.txt`](assets/symhell/03-exploit-transcript.txt)
+- [`02-hashes.txt`](assets/symhell/02-hashes.txt)
+- [`exploit_local.txt`](assets/symhell/exploit_local.txt)

@@ -28,3 +28,13 @@ print(subprocess.check_output(["./peserta/resparser"], input=payload).decode())
 ```
 
 Diuji lokal dengan `flag.txt` berisi `TESTFLAG`: program mencetak `FLAG: TESTFLAG`. Di service, isi file itu adalah `NFX{Ad1o0Ssss_Br0k3nnn_fl3gg}`.
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/the-broken-resource-parser/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/the-broken-resource-parser/01-solve.txt)

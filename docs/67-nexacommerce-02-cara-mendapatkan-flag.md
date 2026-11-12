@@ -23,3 +23,13 @@ flag for the audit console: NFX{sql1_un10n_bas3d_4uth_byp4ss}
 ```
 
 Nama flag menyebut UNION, tetapi payload yang diterima server adalah `' OR 1=1-- -`. Jangan menggantinya dengan UNION kalau bypass ini sudah cukup.
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/nexacommerce/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/nexacommerce/01-solve.txt)

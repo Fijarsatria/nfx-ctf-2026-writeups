@@ -109,3 +109,9 @@ Log submit asli (`work/submit_curl_log.jsonl`):
 ```json
 {"name":"ShadowInfra","id":"569aa7ba-dd3a-4aa4-9049-11ace5fc6dea","flag":"NFXCTF{dn5_ct_l0g_p1v0t_b34c0n_a72e4091}","http":200,"result":{"success":true,"message":"Correct, but already solved."}}
 ```
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/shadow-infrastructure/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*

@@ -16,3 +16,13 @@ Offset Time        : +07:00
 ```
 
 Brief meminta tiga nama usaha dari Google Street View sebelum kejadian: urut alfabet, tanpa kata "Toko", tanpa spasi, huruf kapital, dipisah `_`. Foto sendiri hanya gang malam, tembok bergrafiti, dan api di ujung gang.
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/kebakaran/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/kebakaran/01-solve.txt)

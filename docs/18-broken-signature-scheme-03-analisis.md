@@ -59,3 +59,14 @@ key = SHA256( p_bytes || q_bytes )     # big-endian, panjang minimal
 Karena `p,q` 1024-bit, masing-masing 128 byte. Tag diverifikasi oleh
 `decrypt_and_verify`, sehingga keberhasilan dekripsi sekaligus membuktikan
 `p` dan `q` benar.
+
+### Evidence langkah ini
+
+![term-solver-output.png](assets/broken-signature-scheme/term-solver-output.png)
+
+*Terminal evidence — transkrip langkah — `term-solver-output.png`.*
+
+**Berkas mentah terkait:**
+
+- [`solver-output.txt`](assets/broken-signature-scheme/solver-output.txt)
+- [`verify-output.txt`](assets/broken-signature-scheme/verify-output.txt)

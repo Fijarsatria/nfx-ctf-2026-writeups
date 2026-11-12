@@ -11,3 +11,13 @@ grep -E '^(e|bits|leak_bits) ' output.txt
 ```
 
 `e = 65537`, modulus 2048-bit, dan ada leak 32 bit. Karena kedua prima hampir sama, `isqrt(N)` sudah cukup dekat. Leak itu hanya konfirmasi, bukan syarat Fermat.
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/twin-prime-lattice/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/twin-prime-lattice/01-solve.txt)

@@ -11,3 +11,13 @@ Sumber yang diarsipkan adalah `Pipeline_Phantom.report.txt`, bukan dump Actions 
 ```text
 https://github.com/netmetrics-net/c2-deploy-pipeline
 ```
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/pipeline-phantom/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/pipeline-phantom/01-solve.txt)

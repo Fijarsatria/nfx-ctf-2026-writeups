@@ -41,3 +41,9 @@ NFX{Y0U_R0T4T3D_TH3_L3TT3R5_N0W_F1X_TH3_D1G1T5}
 ## Bukti submit
 
 Gunakan log API asli, bukan screenshot mockup.
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/13-is-not-enough/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*

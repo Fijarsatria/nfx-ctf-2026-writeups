@@ -17,3 +17,13 @@ b1,rgb,lsb,xy .. text: "QzI9MTg1LjIyMC4xMDEuNDU6NDQ0NDtLRVk9YTFiMmMzO05YQ1RGe2w1
 ```
 
 Baris kanal lain adalah noise. Jangan mengikuti semuanya.
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/invoice/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/invoice/01-solve.txt)

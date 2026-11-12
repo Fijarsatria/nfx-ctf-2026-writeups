@@ -62,3 +62,9 @@ NFX{g1t_h1story_s3cr3ts_l34d_t0_ssh}
 
 Flag ini accepted (500 poin). Root path-nya ada di challenge
 **Forgotten Commit (Root)** (fzf `--listen` → RCE root).
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/forgotten-commit-user/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*

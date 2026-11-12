@@ -12,3 +12,13 @@ pdftotext -layout laporan_kegiatan_bulan_november.pdf -
 ```
 
 EXIF hanya menyebut pembuat `Syahril Rizky Fauzan`. Flag tidak ada di metadata.
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/notulen-senin-pagi/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/notulen-senin-pagi/01-solve.txt)

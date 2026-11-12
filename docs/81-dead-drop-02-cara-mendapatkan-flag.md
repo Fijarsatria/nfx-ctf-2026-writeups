@@ -17,3 +17,13 @@ Hasilnya diawali `x-access-token:github_pat_`. Itu token yang tertinggal di conf
 Nama flag (`g1t_c0nf1g_h34d3r_l34k_h1dd3n_br4nch_...`) mengatakan langkah berikutnya memakai token itu untuk membaca branch tersembunyi di remote. Transkrip arsip berhenti di header ini. Jangan menulis seolah branch itu ada di dalam zip.
 
 Token lengkap tidak dicantumkan di halaman ini. Ambil dari attachment, decode sendiri, dan jangan memakainya di luar challenge.
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/dead-drop/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/dead-drop/01-solve.txt)

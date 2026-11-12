@@ -13,3 +13,13 @@ curl -sS -c cookies -H 'ngrok-skip-browser-warning: 1' \
 ```
 
 Response: `302` ke `/dashboard`. Field yang masuk template adalah `company_name` di `POST /studio`.
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/nexadocs/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/nexadocs/01-solve.txt)

@@ -18,3 +18,13 @@ NFX{M4kHLuK_T4k_K4s4T_M4T4}
 ```
 
 Di viewer, baris flag berwarna putih di atas putih. Itu sebabnya bos "tidak melihat apa-apa". Jangan berhenti di metadata.
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/notulen-senin-pagi/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/notulen-senin-pagi/01-solve.txt)

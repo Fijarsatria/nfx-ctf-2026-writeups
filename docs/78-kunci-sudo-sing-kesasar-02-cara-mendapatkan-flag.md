@@ -65,3 +65,9 @@ NFX{Wh33W0kTh3Tok-k}
 
 > Catatan audit: klaim lama “memory leak, token reuse” tidak didukung binary.
 > Binary dan static finding di atas adalah bukti yang bisa direproduksi.
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/kunci-sudo-sing-kesasar/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*

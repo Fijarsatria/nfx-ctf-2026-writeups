@@ -39,3 +39,13 @@ echo TkZYe3k0bWxfdW5TNGYzX2wwNGQzcl90MF9yY2V9Cg== | base64 -d
 ```text
 NFX{y4ml_unS4f3_l04d3r_t0_rce}
 ```
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/nexadeploy/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/nexadeploy/01-solve.txt)

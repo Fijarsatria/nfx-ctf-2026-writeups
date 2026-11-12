@@ -61,3 +61,14 @@ Maka kandidat terkuat:
 ```text
 NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}
 ```
+
+### Evidence langkah ini
+
+![term-decode-output.png](assets/black-box-protocol-n4t0/term-decode-output.png)
+
+*Terminal evidence — transkrip langkah — `term-decode-output.png`.*
+
+**Berkas mentah terkait:**
+
+- [`decode-output.txt`](assets/black-box-protocol-n4t0/decode-output.txt)
+- [`sha256.txt`](assets/black-box-protocol-n4t0/sha256.txt)

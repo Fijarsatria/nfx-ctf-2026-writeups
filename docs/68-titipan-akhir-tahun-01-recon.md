@@ -16,3 +16,13 @@ pdfdetach -list laporan_kegiatan_bulan_desember.pdf
 ```
 
 Teks halaman hanya laporan rutin. Barang yang "belum dibuka" adalah file tertanam, bukan teks tersembunyi.
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/titipan-akhir-tahun/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/titipan-akhir-tahun/01-solve.txt)

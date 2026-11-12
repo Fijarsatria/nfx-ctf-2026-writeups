@@ -21,3 +21,13 @@ Yang mencurigakan:
 [http "https://github.com/"]
     extraheader = AUTHORIZATION: basic <base64>
 ```
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/dead-drop/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/dead-drop/01-solve.txt)

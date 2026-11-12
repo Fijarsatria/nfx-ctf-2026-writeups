@@ -22,3 +22,13 @@ curl -sS -b cookies -d 'item_id=audit-report' "$HOST/store/buy" | grep NFX
 ```text
 NFX{r4c3_c0nd1t10n_g1ft_c4rd_d0ubl3_sp3nd}
 ```
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/nexarewards/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/nexarewards/01-solve.txt)

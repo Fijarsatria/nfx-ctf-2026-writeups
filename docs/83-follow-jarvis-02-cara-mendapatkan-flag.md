@@ -29,3 +29,9 @@ NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}
 > Catatan audit: halaman ini sebelumnya dinilai C karena “butuh ticket/admin”.
 > Itu memang sifat challenge-nya; lengkapi dengan screenshot ticket asli dan
 > labeli **admin-assisted intro**.
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/follow-jarvis/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*

@@ -20,3 +20,13 @@ User Comment    : CIPHER:98e8be19...ae22
 ```
 
 Bentuk desimal koordinat itu adalah `-6.1753,106.8269` (Monas, Jakarta).
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/left-behind-in-the-metadata/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/left-behind-in-the-metadata/01-solve.txt)

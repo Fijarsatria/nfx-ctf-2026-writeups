@@ -20,3 +20,13 @@ NFXCTF{3x1f_gp5_m3t4_tr4c3_9f41c8b2e70d}
 ```
 
 Urutan field dan format GPS (`-6.1753,106.8269`, tanpa spasi) harus persis. Hasil dekripsi berawalan `NFXCTF`, bukan `NFX`.
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/left-behind-in-the-metadata/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/left-behind-in-the-metadata/01-solve.txt)

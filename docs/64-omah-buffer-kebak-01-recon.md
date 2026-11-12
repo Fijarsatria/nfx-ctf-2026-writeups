@@ -16,3 +16,13 @@ nm peserta/omah | grep obong
 ```
 
 Tidak ada canary. Binary non-PIE. NX menyala, jadi jalurnya ret2win, bukan shellcode.
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/omah-buffer-kebak/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/omah-buffer-kebak/01-solve.txt)

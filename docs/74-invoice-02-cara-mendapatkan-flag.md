@@ -17,3 +17,13 @@ C2=185.220.101.45:4444;KEY=a1b2c3;NXCTF{l5b_l04d5_th3_p4yl04d}
 ```
 
 Prefix flag adalah `NXCTF`, bukan `NFX`.
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/invoice/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/invoice/01-solve.txt)

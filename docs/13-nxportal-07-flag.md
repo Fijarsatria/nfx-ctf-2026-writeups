@@ -27,3 +27,15 @@ UNSOLVED — NXPortal (web) — recheck 2026-11-08
 Tidak ada flag yang dicantumkan.
 
 > Belum ada flag yang bisa dicantumkan. Lihat halaman Analisis dan Evidence untuk detail kendala.
+
+### Evidence langkah ini
+
+![00-challenge-platform.png](assets/nxportal/00-challenge-platform.png)
+
+*Challenge brief asli di platform — `00-challenge-platform.png`.*
+
+**Berkas mentah terkait:**
+
+- [`02-forgot.txt`](assets/nxportal/02-forgot.txt)
+- [`09-source-fuzz.txt`](assets/nxportal/09-source-fuzz.txt)
+- [`06-reset-tests.txt`](assets/nxportal/06-reset-tests.txt)

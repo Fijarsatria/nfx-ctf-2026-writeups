@@ -51,3 +51,9 @@ Gunakan log API asli:
 ```json
 {"name":"decode_balik","flag":"NFX{CuM4_D3c0D3_B4L!k_Aj4_H4Ru5Ny4_G4mP4nG}","result":{"success":true,"message":"Correct, but already solved."}}
 ```
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/decode-balik/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*

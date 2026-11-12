@@ -13,3 +13,13 @@ curl -sS -c cookies \
 ```
 
 Endpoint redeem: `POST /redeem` dengan `code=NEXA-RACE-60`. Item flag ada di store sebagai `audit-report`.
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/nexarewards/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/nexarewards/01-solve.txt)

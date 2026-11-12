@@ -56,3 +56,15 @@ cf3122ac29bbed1bfd220e43dc19990c1fe20227a883d85b463a8d550a5a1124  bb24f650-...
 - `7z` (ZipCrypto)
 - Python 3 + Pillow
 - `regripper` (untuk sanity check registry)
+
+### Evidence langkah ini
+
+![term-04-unzip.png](assets/access-remains/term-04-unzip.png)
+
+*Terminal evidence — transkrip langkah — `term-04-unzip.png`.*
+
+**Berkas mentah terkait:**
+
+- [`00-file-tree.txt`](assets/access-remains/00-file-tree.txt)
+- [`04-unzip.txt`](assets/access-remains/04-unzip.txt)
+- [`02-masterkey.txt`](assets/access-remains/02-masterkey.txt)

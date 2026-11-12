@@ -64,3 +64,9 @@ Gunakan log API asli (bukan screenshot mockup):
 ```json
 {"name":"Matryoshka_Encoding","flag":"NFXCTF{m4try0shk4_0n10n_p33l3d_c309b71e}","result":{"success":true}}
 ```
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/matryoshka-encoding/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*

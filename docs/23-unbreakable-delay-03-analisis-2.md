@@ -43,3 +43,13 @@ VDF mengasumsikan prover tidak tahu orde grup. Begitu `φ(N)` diketahui,
 seluruh "delay" hilang: baik evaluasi `y` maupun pembuatan `π` menjadi
 beberapa eksponensial modular biasa. Ini bukan sekadar speedup — ini
 menghancurkan properti **sequentiality** yang menjadi definisi VDF.
+
+### Evidence langkah ini
+
+![term-sim-output.png](assets/unbreakable-delay/term-sim-output.png)
+
+*Terminal evidence — transkrip langkah — `term-sim-output.png`.*
+
+**Berkas mentah terkait:**
+
+- [`sim-output.txt`](assets/unbreakable-delay/sim-output.txt)

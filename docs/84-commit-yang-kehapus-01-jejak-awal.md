@@ -22,3 +22,13 @@ AWS_ACCESS_KEY_ID=AKIA-NFX-99204811
 ```
 
 Author kedua commit: `k.vance@ops-shadow-nfx.internal`.
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/commit-yang-kehapus/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/commit-yang-kehapus/01-solve.txt)

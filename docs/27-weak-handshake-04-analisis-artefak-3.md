@@ -64,3 +64,15 @@ master       = 151953826976a847c1f4f12e205237f2b575e4d508060e7fa7e3a3c199b9a2b5
                f740c3d31d9fb759dcd402dec43edef1
 server_key   = 175295cce7a2ec71273d1191526a5e06
 ```
+
+### Evidence langkah ini
+
+![01-clannad.webp](assets/weak-handshake/01-clannad.webp)
+
+*Artefak challenge — `01-clannad.webp`.*
+
+**Berkas mentah terkait:**
+
+- [`00-recon.txt`](assets/weak-handshake/00-recon.txt)
+- [`12-ftp-control.txt`](assets/weak-handshake/12-ftp-control.txt)
+- [`13-cert.txt`](assets/weak-handshake/13-cert.txt)

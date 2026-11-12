@@ -30,3 +30,13 @@ NFXCTF{g1t_d4ngl1ng_bl0b_h4v0c_5c8a19d4}
 ```
 
 XOR langsung dengan `SHA256(key)` tidak cocok. Yang benar adalah keystream `SHA256(key || uint32_be(i))`.
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/commit-yang-kehapus/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/commit-yang-kehapus/01-solve.txt)

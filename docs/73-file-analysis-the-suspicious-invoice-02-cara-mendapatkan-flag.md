@@ -23,3 +23,13 @@ NFX{zip_t1221_cdn-jarvis-update.example_jarvis-ir-case-2026-0211}
 ```
 
 Hyperlink `https://jarvis.example/invoice` bukan domain yang dipakai flag.
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/file-analysis-the-suspicious-invoice/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/file-analysis-the-suspicious-invoice/01-solve.txt)

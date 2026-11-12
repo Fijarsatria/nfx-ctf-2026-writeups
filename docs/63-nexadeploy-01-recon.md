@@ -14,3 +14,13 @@ curl -sS -c cookies -d 'email=devops@nexadeploy.test&password=deploy1234' \
 ```
 
 Kredensial itu tertulis di halaman login challenge. Response yang diharapkan: `302` ke `/dashboard`.
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/nexadeploy/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/nexadeploy/01-solve.txt)

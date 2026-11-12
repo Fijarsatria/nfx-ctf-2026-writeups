@@ -21,3 +21,13 @@ FLAG: TESTFLAG
 ```
 
 Di service, `flag.txt` berisi `NFX{OmahhKUuD0Ndoll_Uw0nggG}`.
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/omah-buffer-kebak/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/omah-buffer-kebak/01-solve.txt)

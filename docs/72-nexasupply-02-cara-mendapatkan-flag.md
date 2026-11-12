@@ -18,3 +18,13 @@ curl -sS -b cookies -H 'ngrok-skip-browser-warning: 1' \
 ```text
 NFX{xxe_supply_f33d_l0c4l_f1l3_r34d}
 ```
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/nexasupply/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/nexasupply/01-solve.txt)

@@ -25,3 +25,13 @@ NFX{gh_4ct10ns_m4sk_byp4ss_4nd_0rph4n_c0mm1t_l34k_9f82}
 ```
 
 Log Actions mentah tidak ada di folder evidence. Halaman ini mengikuti report arsip.
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/pipeline-phantom/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/pipeline-phantom/01-solve.txt)

@@ -34,3 +34,13 @@ Walaupun solver memakai known-plaintext, struktur diferensial berguna untuk
 verifikasi: untuk setiap Δ, ciphertext difference `c1 XOR c2` harus konsisten
 dengan key. Solver akhir mengecek **kedua** ciphertext pada semua 280.000
 baris, bukan hanya 7 baris yang dipakai menyelesaikan model.
+
+### Evidence langkah ini
+
+![term-solver-output.png](assets/feistel-differential/term-solver-output.png)
+
+*Terminal evidence — transkrip langkah — `term-solver-output.png`.*
+
+**Berkas mentah terkait:**
+
+- [`solver-output.txt`](assets/feistel-differential/solver-output.txt)

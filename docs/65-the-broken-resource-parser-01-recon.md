@@ -17,3 +17,13 @@ nm peserta/resparser | grep ' win$'
 ```
 
 `main` membaca panjang, lalu blob. `parse_resource` menyalin field nama ke buffer di `rbp-0x30`. Panjang nama boleh sampai `0x100`, jadi return address bisa ditimpa.
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/the-broken-resource-parser/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/the-broken-resource-parser/01-solve.txt)

@@ -29,3 +29,13 @@ curl -sS -b cookies -H 'ngrok-skip-browser-warning: 1' \
 ```text
 NFX{j1nja2_sstI_rce_v1a_gl0bals}
 ```
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/nexadocs/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/nexadocs/01-solve.txt)

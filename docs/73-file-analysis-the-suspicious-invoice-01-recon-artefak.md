@@ -12,3 +12,13 @@ unzip -l export
 ```
 
 Tidak ada macro. Relasi yang berbahaya ada di `word/_rels/settings.xml.rels`, bukan di teks invoice.
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/file-analysis-the-suspicious-invoice/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/file-analysis-the-suspicious-invoice/01-solve.txt)

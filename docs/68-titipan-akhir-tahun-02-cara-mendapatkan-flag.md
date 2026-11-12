@@ -16,3 +16,13 @@ Isi file: `TkZYe0QzQzBEM19ENE5EM0MwRDNfTDRHMX0=`
 ```text
 NFX{D3C0D3_D4ND3C0D3_L4G1}
 ```
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/titipan-akhir-tahun/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/titipan-akhir-tahun/01-solve.txt)

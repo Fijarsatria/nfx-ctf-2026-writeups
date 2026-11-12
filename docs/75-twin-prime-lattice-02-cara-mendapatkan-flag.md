@@ -27,3 +27,13 @@ NXCTF{tw1n_pr1m3s_m33t_l4tt1c3_c0pp3r5m1th_af6854ba29a3}
 ```
 
 Skrip ini dijalankan ulang terhadap `output.txt` asli. Judul menyebut lattice, tetapi faktor yang berdekatan selesai dengan Fermat. Prefix flag adalah `NXCTF`.
+
+### Evidence langkah ini
+
+![00b-terminal-evidence.png](assets/twin-prime-lattice/00b-terminal-evidence.png)
+
+*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/twin-prime-lattice/01-solve.txt)

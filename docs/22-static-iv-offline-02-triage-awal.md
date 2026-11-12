@@ -54,3 +54,14 @@ $ cat output.txt
 Panjang ciphertext: 80 byte = 5 blok AES (kelipatan 16). Prefix
 `user-input-goes-here:|` panjangnya 22 byte, sehingga total plaintext
 22 + 48 = 70 byte, lalu dipad ke 80.
+
+### Evidence langkah ini
+
+![term-solver-output.png](assets/static-iv-offline/term-solver-output.png)
+
+*Terminal evidence — transkrip langkah — `term-solver-output.png`.*
+
+**Berkas mentah terkait:**
+
+- [`solver-output.txt`](assets/static-iv-offline/solver-output.txt)
+- [`verify-output.txt`](assets/static-iv-offline/verify-output.txt)

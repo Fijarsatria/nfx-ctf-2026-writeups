@@ -11,3 +11,13 @@ Bukan UNION. Payload yang berhasil pada sesi ini adalah boolean bypass. Host `*.
 ```text
 email=' OR 1=1-- -&password=x
 ```
+
+### Evidence langkah ini
+
+![term-01-solve.png](assets/nexacommerce/term-01-solve.png)
+
+*Terminal evidence — transkrip langkah — `term-01-solve.png`.*
+
+**Berkas mentah terkait:**
+
+- [`01-solve.txt`](assets/nexacommerce/01-solve.txt)
