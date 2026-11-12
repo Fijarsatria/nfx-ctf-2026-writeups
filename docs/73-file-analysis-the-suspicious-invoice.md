@@ -1,0 +1,48 @@
+# File Analysis: The Suspicious Invoice
+
+<div class="nx-challenge-head"><span class="nx-chip">Track Mahasiswa NF · Forensics</span><span class="nx-chip">Easy</span><span class="nx-chip">100 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+
+
+| Field | Nilai |
+|---|---|
+| Event | `umum/mahasiswa_nf` |
+| Kategori | `Forensics` |
+| Difficulty | `Easy` |
+| Poin | `100` |
+| Tools | exiftool |
+| Flag | `NFX{zip_t1221_cdn-jarvis-update.example_jarvis-ir-case-2026-0211}` |
+| Status | `VERIFIED` |
+
+[← Kembali ke Index](index.md)
+
+## Challenge Brief (platform)
+
+![00-challenge-platform.png](assets/file-analysis-the-suspicious-invoice/00-challenge-platform.png)
+
+*Challenge brief asli di platform NFX CTF 2026.*
+
+## Alur & Titik Penting
+
+| # | Langkah | Titik penting | Buka |
+|---:|---|---|---|
+| 1 | Recon Artefak | Baca brief challenge dan cek attachment/service yang diberikan. | [Buka](73-file-analysis-the-suspicious-invoice-01-recon-artefak.md) |
+| 2 | Cara Mendapatkan Flag | NFX{zip_t1221_cdn-jarvis-update.example_jarvis-ir-case-2026-0211} | [Buka](73-file-analysis-the-suspicious-invoice-02-cara-mendapatkan-flag.md) |
+| 3 | Flag | NFX{zip_t1221_cdn-jarvis-update.example_jarvis-ir-case-2026-0211} | [Buka](73-file-analysis-the-suspicious-invoice-03-flag.md) |
+| 4 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](73-file-analysis-the-suspicious-invoice-04-bukti-evidence.md) |
+| 5 | Referensi | File carving, ZIP extraction, IOC. | [Buka](73-file-analysis-the-suspicious-invoice-05-referensi.md) |
+
+## Cerita singkat
+
+Invoice-nya bukan dokumen biasa. Ada ZIP/attachment yang menyimpan domain C2 dan case ID; flag dirangkai dari temuan itu.
+
+<div class="nx-evidence-preview"><a href="73-file-analysis-the-suspicious-invoice-04-bukti-evidence.html"><img src="assets/file-analysis-the-suspicious-invoice/00b-submit-platform.png" alt="Pratinjau evidence File Analysis: The Suspicious Invoice" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="73-file-analysis-the-suspicious-invoice-04-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+
+## Navigasi Halaman
+
+<div class="nx-page-grid">
+<a class="nx-page-card" href="73-file-analysis-the-suspicious-invoice-01-recon-artefak.html"><b>Recon Artefak</b><span>Enumerasi target dan bukti awal</span></a>
+<a class="nx-page-card" href="73-file-analysis-the-suspicious-invoice-02-cara-mendapatkan-flag.html"><b>Cara Mendapatkan Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="73-file-analysis-the-suspicious-invoice-03-flag.html"><b>Flag</b><span>Flag dan verifikasi platform</span></a>
+<a class="nx-page-card" href="73-file-analysis-the-suspicious-invoice-04-bukti-evidence.html"><b>Bukti / Evidence</b><span>Screenshot, transkrip, dan artefak</span></a>
+<a class="nx-page-card" href="73-file-analysis-the-suspicious-invoice-05-referensi.html"><b>Referensi</b><span>Sumber dan bacaan lanjutan</span></a>
+</div>

@@ -71,6 +71,13 @@ nav:
     - Flag & Verifikasi: 01-forgotten-commit-root-06-flag.md
     - Evidence / Bukti: 01-forgotten-commit-root-07-bukti-evidence.md
     - Referensi: 01-forgotten-commit-root-08-referensi.md
+  - 66. Forgotten Commit (User):
+    - 66-forgotten-commit-user.md
+    - Recon: 66-forgotten-commit-user-01-recon.md
+    - Flag & Verifikasi: 66-forgotten-commit-user-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 66-forgotten-commit-user-03-flag.md
+    - Evidence / Bukti: 66-forgotten-commit-user-04-bukti-evidence.md
+    - Referensi: 66-forgotten-commit-user-05-referensi.md
 - NF · Crypto:
   - 02. Black Box Protocol N4T0:
     - 02-black-box-protocol-n4t0.md
@@ -109,6 +116,27 @@ nav:
     - Flag & Verifikasi: 56-ghost-xor-04-flag.md
     - Evidence / Bukti: 56-ghost-xor-05-bukti-evidence.md
     - Referensi: 56-ghost-xor-06-referensi.md
+  - 71. Decode Balik:
+    - 71-decode-balik.md
+    - Recon: 71-decode-balik-01-recon.md
+    - Flag & Verifikasi: 71-decode-balik-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 71-decode-balik-03-flag.md
+    - Evidence / Bukti: 71-decode-balik-04-bukti-evidence.md
+    - Referensi: 71-decode-balik-05-referensi.md
+  - 75. Twin Prime Lattice:
+    - 75-twin-prime-lattice.md
+    - Recon: 75-twin-prime-lattice-01-recon.md
+    - Flag & Verifikasi: 75-twin-prime-lattice-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 75-twin-prime-lattice-03-flag.md
+    - Evidence / Bukti: 75-twin-prime-lattice-04-bukti-evidence.md
+    - Referensi: 75-twin-prime-lattice-05-referensi.md
+  - 77. 13 Is Not Enough:
+    - 77-13-is-not-enough.md
+    - Recon: 77-13-is-not-enough-01-recon.md
+    - Flag & Verifikasi: 77-13-is-not-enough-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 77-13-is-not-enough-03-flag.md
+    - Evidence / Bukti: 77-13-is-not-enough-04-bukti-evidence.md
+    - Referensi: 77-13-is-not-enough-05-referensi.md
 - NF · Forensics:
   - 05. Heker Tersenyum - Art Evidence Secret:
     - 05-heker-tersenyum-art-evidence-secret.md
@@ -162,6 +190,27 @@ nav:
     - Flag & Verifikasi: 58-cleartext-sniffing-04-flag.md
     - Evidence / Bukti: 58-cleartext-sniffing-05-bukti-evidence.md
     - Referensi: 58-cleartext-sniffing-06-referensi.md
+  - '73. File Analysis: The Suspicious Invoice':
+    - 73-file-analysis-the-suspicious-invoice.md
+    - Recon Artefak: 73-file-analysis-the-suspicious-invoice-01-recon-artefak.md
+    - Flag & Verifikasi: 73-file-analysis-the-suspicious-invoice-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 73-file-analysis-the-suspicious-invoice-03-flag.md
+    - Evidence / Bukti: 73-file-analysis-the-suspicious-invoice-04-bukti-evidence.md
+    - Referensi: 73-file-analysis-the-suspicious-invoice-05-referensi.md
+  - 74. Invoice:
+    - 74-invoice.md
+    - Recon Artefak: 74-invoice-01-recon-artefak.md
+    - Flag & Verifikasi: 74-invoice-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 74-invoice-03-flag.md
+    - Evidence / Bukti: 74-invoice-04-bukti-evidence.md
+    - Referensi: 74-invoice-05-referensi.md
+  - 81. Dead Drop:
+    - 81-dead-drop.md
+    - Recon Artefak: 81-dead-drop-01-recon-artefak.md
+    - Flag & Verifikasi: 81-dead-drop-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 81-dead-drop-03-flag.md
+    - Evidence / Bukti: 81-dead-drop-04-bukti-evidence.md
+    - Referensi: 81-dead-drop-05-referensi.md
 - NF · Misc:
   - 08. Frekuensi Sunyi:
     - 08-frekuensi-sunyi.md
@@ -182,6 +231,34 @@ nav:
     - Flag & Verifikasi: 52-wujud-aseli-atmin-04-flag.md
     - Evidence / Bukti: 52-wujud-aseli-atmin-05-bukti-evidence.md
     - Referensi: 52-wujud-aseli-atmin-06-referensi.md
+  - 62. Notulen Senin Pagi:
+    - 62-notulen-senin-pagi.md
+    - Recon: 62-notulen-senin-pagi-01-recon.md
+    - Flag & Verifikasi: 62-notulen-senin-pagi-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 62-notulen-senin-pagi-03-flag.md
+    - Evidence / Bukti: 62-notulen-senin-pagi-04-bukti-evidence.md
+    - Referensi: 62-notulen-senin-pagi-05-referensi.md
+  - 68. Titipan Akhir Tahun:
+    - 68-titipan-akhir-tahun.md
+    - Recon: 68-titipan-akhir-tahun-01-recon.md
+    - Flag & Verifikasi: 68-titipan-akhir-tahun-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 68-titipan-akhir-tahun-03-flag.md
+    - Evidence / Bukti: 68-titipan-akhir-tahun-04-bukti-evidence.md
+    - Referensi: 68-titipan-akhir-tahun-05-referensi.md
+  - 69. Matryoshka Encoding:
+    - 69-matryoshka-encoding.md
+    - Recon: 69-matryoshka-encoding-01-recon.md
+    - Flag & Verifikasi: 69-matryoshka-encoding-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 69-matryoshka-encoding-03-flag.md
+    - Evidence / Bukti: 69-matryoshka-encoding-04-bukti-evidence.md
+    - Referensi: 69-matryoshka-encoding-05-referensi.md
+  - 82. Pipeline Phantom:
+    - 82-pipeline-phantom.md
+    - Recon: 82-pipeline-phantom-01-recon.md
+    - Flag & Verifikasi: 82-pipeline-phantom-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 82-pipeline-phantom-03-flag.md
+    - Evidence / Bukti: 82-pipeline-phantom-04-bukti-evidence.md
+    - Referensi: 82-pipeline-phantom-05-referensi.md
 - NF · Osint:
   - 09. Career Tempat Belajar:
     - 09-career-tempat-belajar.md
@@ -193,6 +270,41 @@ nav:
     - Flag & Verifikasi: 09-career-tempat-belajar-06-flag.md
     - Evidence / Bukti: 09-career-tempat-belajar-07-bukti-evidence.md
     - Referensi: 09-career-tempat-belajar-08-referensi.md
+  - 76. Kebakaran:
+    - 76-kebakaran.md
+    - Jejak Awal: 76-kebakaran-01-jejak-awal.md
+    - Flag & Verifikasi: 76-kebakaran-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 76-kebakaran-03-flag.md
+    - Evidence / Bukti: 76-kebakaran-04-bukti-evidence.md
+    - Referensi: 76-kebakaran-05-referensi.md
+  - 80. Shadow Infrastructure:
+    - 80-shadow-infrastructure.md
+    - Jejak Awal: 80-shadow-infrastructure-01-jejak-awal.md
+    - Flag & Verifikasi: 80-shadow-infrastructure-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 80-shadow-infrastructure-03-flag.md
+    - Evidence / Bukti: 80-shadow-infrastructure-04-bukti-evidence.md
+    - Referensi: 80-shadow-infrastructure-05-referensi.md
+  - 84. Commit yang kehapus:
+    - 84-commit-yang-kehapus.md
+    - Jejak Awal: 84-commit-yang-kehapus-01-jejak-awal.md
+    - Flag & Verifikasi: 84-commit-yang-kehapus-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 84-commit-yang-kehapus-03-flag.md
+    - Evidence / Bukti: 84-commit-yang-kehapus-04-bukti-evidence.md
+    - Referensi: 84-commit-yang-kehapus-05-referensi.md
+  - 85. Tempat Belajar:
+    - 85-tempat-belajar.md
+    - Jejak Awal: 85-tempat-belajar-01-jejak-awal.md
+    - Flag & Verifikasi: 85-tempat-belajar-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 85-tempat-belajar-03-flag.md
+    - Evidence / Bukti: 85-tempat-belajar-04-bukti-evidence.md
+    - Referensi: 85-tempat-belajar-05-referensi.md
+  - 86. Left Behind in the Metadata:
+    - 86-left-behind-in-the-metadata.md
+    - Jejak Awal: 86-left-behind-in-the-metadata-01-jejak-awal.md
+    - Flag & Verifikasi: 86-left-behind-in-the-metadata-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 86-left-behind-in-the-metadata-03-flag.md
+    - Evidence / Bukti: 86-left-behind-in-the-metadata-04-bukti-evidence.md
+    - Referensi: 86-left-behind-in-the-metadata-05-referensi.md
 - NF · Pwn:
   - 10. NFXCTF Convention:
     - 10-nfxctf-convention.md
@@ -205,6 +317,27 @@ nav:
     - Flag & Verifikasi: 10-nfxctf-convention-07-flag.md
     - Evidence / Bukti: 10-nfxctf-convention-08-bukti-evidence.md
     - Referensi: 10-nfxctf-convention-09-referensi.md
+  - 64. Omah Buffer Kebak:
+    - 64-omah-buffer-kebak.md
+    - Recon: 64-omah-buffer-kebak-01-recon.md
+    - Flag & Verifikasi: 64-omah-buffer-kebak-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 64-omah-buffer-kebak-03-flag.md
+    - Evidence / Bukti: 64-omah-buffer-kebak-04-bukti-evidence.md
+    - Referensi: 64-omah-buffer-kebak-05-referensi.md
+  - 65. THE BROKEN RESOURCE PARSER:
+    - 65-the-broken-resource-parser.md
+    - Recon: 65-the-broken-resource-parser-01-recon.md
+    - Flag & Verifikasi: 65-the-broken-resource-parser-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 65-the-broken-resource-parser-03-flag.md
+    - Evidence / Bukti: 65-the-broken-resource-parser-04-bukti-evidence.md
+    - Referensi: 65-the-broken-resource-parser-05-referensi.md
+  - 78. Kunci Sudo Sing Kesasar:
+    - 78-kunci-sudo-sing-kesasar.md
+    - Recon: 78-kunci-sudo-sing-kesasar-01-recon.md
+    - Flag & Verifikasi: 78-kunci-sudo-sing-kesasar-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 78-kunci-sudo-sing-kesasar-03-flag.md
+    - Evidence / Bukti: 78-kunci-sudo-sing-kesasar-04-bukti-evidence.md
+    - Referensi: 78-kunci-sudo-sing-kesasar-05-referensi.md
 - NF · Web:
   - 11. NexaIdentity:
     - 11-nexaidentity.md
@@ -240,6 +373,41 @@ nav:
     - Evidence / Bukti: 13-nxportal-08-bukti-evidence.md
     - Rencana Penyelesaian (OPEN): 13-nxportal-09-rencana-penyelesaian-open.md
     - Referensi: 13-nxportal-10-referensi.md
+  - 63. NexaDeploy:
+    - 63-nexadeploy.md
+    - Recon: 63-nexadeploy-01-recon.md
+    - Flag & Verifikasi: 63-nexadeploy-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 63-nexadeploy-03-flag.md
+    - Evidence / Bukti: 63-nexadeploy-04-bukti-evidence.md
+    - Referensi: 63-nexadeploy-05-referensi.md
+  - 67. NexaCommerce:
+    - 67-nexacommerce.md
+    - Recon: 67-nexacommerce-01-recon.md
+    - Flag & Verifikasi: 67-nexacommerce-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 67-nexacommerce-03-flag.md
+    - Evidence / Bukti: 67-nexacommerce-04-bukti-evidence.md
+    - Referensi: 67-nexacommerce-05-referensi.md
+  - 70. NexaRewards:
+    - 70-nexarewards.md
+    - Recon: 70-nexarewards-01-recon.md
+    - Flag & Verifikasi: 70-nexarewards-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 70-nexarewards-03-flag.md
+    - Evidence / Bukti: 70-nexarewards-04-bukti-evidence.md
+    - Referensi: 70-nexarewards-05-referensi.md
+  - 72. NexaSupply:
+    - 72-nexasupply.md
+    - Recon: 72-nexasupply-01-recon.md
+    - Flag & Verifikasi: 72-nexasupply-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 72-nexasupply-03-flag.md
+    - Evidence / Bukti: 72-nexasupply-04-bukti-evidence.md
+    - Referensi: 72-nexasupply-05-referensi.md
+  - 79. NexaDocs:
+    - 79-nexadocs.md
+    - Recon: 79-nexadocs-01-recon.md
+    - Flag & Verifikasi: 79-nexadocs-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 79-nexadocs-03-flag.md
+    - Evidence / Bukti: 79-nexadocs-04-bukti-evidence.md
+    - Referensi: 79-nexadocs-05-referensi.md
 - Extend · Boot To Root:
   - 14. Progress Bar (Root):
     - 14-progress-bar-root.md
@@ -732,3 +900,11 @@ nav:
     - Flag & Verifikasi: 61-easy-config-decoy-04-flag.md
     - Evidence / Bukti: 61-easy-config-decoy-05-bukti-evidence.md
     - Referensi: 61-easy-config-decoy-06-referensi.md
+- NF · Intro:
+  - 83. Follow Jarvis!:
+    - 83-follow-jarvis.md
+    - Recon: 83-follow-jarvis-01-recon.md
+    - Flag & Verifikasi: 83-follow-jarvis-02-cara-mendapatkan-flag.md
+    - Flag & Verifikasi: 83-follow-jarvis-03-flag.md
+    - Evidence / Bukti: 83-follow-jarvis-04-bukti-evidence.md
+    - Referensi: 83-follow-jarvis-05-referensi.md

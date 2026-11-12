@@ -1,18 +1,18 @@
 <div class="nx-hero">
 <div class="nx-kicker">NFX CTF 2026 · Writeup Book</div>
 <h1>NFX CTF 2026<br><span class="nx-hero-sub">Medium–Hard, dari recon sampai flag</span></h1>
-<p>Kumpulan writeup 61 challenge NFX CTF 2026, disusun langkah per langkah. Setiap challenge dipecah menjadi bagian yang mengikuti isinya, lengkap dengan command, output, serta screenshot.</p>
+<p>Kumpulan writeup 86 challenge NFX CTF 2026, disusun langkah per langkah. Setiap challenge dipecah menjadi bagian yang mengikuti isinya, lengkap dengan command, output, serta screenshot.</p>
 <div class="nx-byline"><span class="nx-byline-dot"></span>Disusun oleh <strong>B0TCIL</strong></div>
 <div class="nx-stats">
-<div class="nx-stat"><strong>61</strong><span>Challenge</span></div>
-<div class="nx-stat"><strong>595</strong><span>Halaman</span></div>
-<div class="nx-stat"><strong>862</strong><span>File bukti</span></div>
-<div class="nx-stat"><strong>60</strong><span>Verified</span></div>
+<div class="nx-stat"><strong>86</strong><span>Challenge</span></div>
+<div class="nx-stat"><strong>745</strong><span>Halaman</span></div>
+<div class="nx-stat"><strong>911</strong><span>File bukti</span></div>
+<div class="nx-stat"><strong>84</strong><span>Verified</span></div>
 </div>
 </div>
 
 <div class="nx-toc-grid">
-<a class="nx-toc-card" href="#daftar-challenge"><b>Daftar challenge</b><span>Filter 61 challenge berdasarkan status, kategori, atau nama.</span></a>
+<a class="nx-toc-card" href="#daftar-challenge"><b>Daftar challenge</b><span>Filter 86 challenge berdasarkan status, kategori, atau nama.</span></a>
 <a class="nx-toc-card" href="#status"><b>Status flag</b><span>Arti VERIFIED dan OPEN.</span></a>
 <a class="nx-toc-card" href="#cara-pakai"><b>Cara pakai</b><span>Alur membaca dan struktur tiap challenge.</span></a>
 <a class="nx-toc-card" href="#catatan"><b>Catatan</b><span>Challenge OPEN dan hal yang perlu diketahui.</span></a>
@@ -21,14 +21,15 @@
 ## Jelajahi kategori
 
 <div class="nx-cats">
-<button type="button" class="nx-cat" data-category-filter="Boot To Root"><span class="nx-cat-name">Boot To Root</span><span class="nx-cat-count">5 challenge · 5 solved</span></button>
-<button type="button" class="nx-cat" data-category-filter="Crypto"><span class="nx-cat-name">Crypto</span><span class="nx-cat-count">10 challenge · 10 solved</span></button>
-<button type="button" class="nx-cat" data-category-filter="Forensics"><span class="nx-cat-name">Forensics</span><span class="nx-cat-count">9 challenge · 9 solved</span></button>
-<button type="button" class="nx-cat" data-category-filter="Misc"><span class="nx-cat-name">Misc</span><span class="nx-cat-count">7 challenge · 7 solved</span></button>
-<button type="button" class="nx-cat" data-category-filter="Osint"><span class="nx-cat-name">Osint</span><span class="nx-cat-count">5 challenge · 5 solved</span></button>
-<button type="button" class="nx-cat" data-category-filter="Pwn"><span class="nx-cat-name">Pwn</span><span class="nx-cat-count">7 challenge · 7 solved</span></button>
-<button type="button" class="nx-cat" data-category-filter="Web"><span class="nx-cat-name">Web</span><span class="nx-cat-count">7 challenge · 6 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Boot To Root"><span class="nx-cat-name">Boot To Root</span><span class="nx-cat-count">6 challenge · 6 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Crypto"><span class="nx-cat-name">Crypto</span><span class="nx-cat-count">13 challenge · 13 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Forensics"><span class="nx-cat-name">Forensics</span><span class="nx-cat-count">12 challenge · 12 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Misc"><span class="nx-cat-name">Misc</span><span class="nx-cat-count">11 challenge · 11 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Osint"><span class="nx-cat-name">Osint</span><span class="nx-cat-count">10 challenge · 9 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Pwn"><span class="nx-cat-name">Pwn</span><span class="nx-cat-count">10 challenge · 10 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Web"><span class="nx-cat-name">Web</span><span class="nx-cat-count">12 challenge · 11 solved</span></button>
 <button type="button" class="nx-cat" data-category-filter="Reverse"><span class="nx-cat-name">Reverse</span><span class="nx-cat-count">11 challenge · 11 solved</span></button>
+<button type="button" class="nx-cat" data-category-filter="Intro"><span class="nx-cat-name">Intro</span><span class="nx-cat-count">1 challenge · 1 solved</span></button>
 </div>
 
 ## Daftar challenge
@@ -38,8 +39,8 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 <div class="nx-filters">
 <label class="nx-search"><span>Cari challenge · tekan /</span><input id="nx-search" type="search" placeholder="Nama, kategori, atau difficulty..." autocomplete="off"></label>
 <div class="nx-filter-group" role="group" aria-label="Filter status"><span class="nx-filter-label">Status</span><button type="button" class="nx-filter is-active" data-status-filter="all">Semua</button>
-<button type="button" class="nx-filter" data-status-filter="VERIFIED">VERIFIED (60)</button>
-<button type="button" class="nx-filter" data-status-filter="OPEN">OPEN (1)</button>
+<button type="button" class="nx-filter" data-status-filter="VERIFIED">VERIFIED (84)</button>
+<button type="button" class="nx-filter" data-status-filter="OPEN">OPEN (2)</button>
 </div>
 <div class="nx-filter-group" role="group" aria-label="Filter kategori"><span class="nx-filter-label">Kategori</span><button type="button" class="nx-filter is-active" data-category-filter="all">Semua</button>
 <button type="button" class="nx-filter" data-category-filter="Boot To Root">Boot To Root</button>
@@ -50,9 +51,10 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 <button type="button" class="nx-filter" data-category-filter="Pwn">Pwn</button>
 <button type="button" class="nx-filter" data-category-filter="Web">Web</button>
 <button type="button" class="nx-filter" data-category-filter="Reverse">Reverse</button>
+<button type="button" class="nx-filter" data-category-filter="Intro">Intro</button>
 </div>
 </div>
-<div class="nx-result-line"><strong id="nx-count">61 challenge</strong><button type="button" id="nx-reset" class="nx-reset">Reset filter</button></div>
+<div class="nx-result-line"><strong id="nx-count">86 challenge</strong><button type="button" id="nx-reset" class="nx-reset">Reset filter</button></div>
 <div class="nx-table-wrap">
 <table id="nx-challenge-table" class="nx-challenge-table">
 <thead><tr><th>No</th><th>Challenge</th><th>Difficulty</th><th>Poin</th><th>Status</th><th>Halaman</th></tr></thead>
@@ -118,6 +120,31 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 <tr data-category="Reverse" data-status="VERIFIED" data-difficulty="Easy" data-search="Easy Bash Layers Reverse Easy Track Mahasiswa NF"><td>59</td><td><a href="59-easy-bash-layers.html"><strong>Easy Bash Layers</strong></a><br><span class="nx-row-sub">NF · Reverse</span></td><td>Easy</td><td>260</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="59-easy-bash-layers.html">7 halaman</a></td></tr>
 <tr data-category="Reverse" data-status="VERIFIED" data-difficulty="Easy" data-search="Easy JS Obfuscation Reverse Easy Track Mahasiswa NF"><td>60</td><td><a href="60-easy-js-obfuscation.html"><strong>Easy JS Obfuscation</strong></a><br><span class="nx-row-sub">NF · Reverse</span></td><td>Easy</td><td>260</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="60-easy-js-obfuscation.html">7 halaman</a></td></tr>
 <tr data-category="Reverse" data-status="VERIFIED" data-difficulty="Easy" data-search="Easy Config Decoy Reverse Easy Track Mahasiswa NF"><td>61</td><td><a href="61-easy-config-decoy.html"><strong>Easy Config Decoy</strong></a><br><span class="nx-row-sub">NF · Reverse</span></td><td>Easy</td><td>260</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="61-easy-config-decoy.html">7 halaman</a></td></tr>
+<tr data-category="Misc" data-status="VERIFIED" data-difficulty="Baby" data-search="Notulen Senin Pagi Misc Baby Track Mahasiswa NF"><td>62</td><td><a href="62-notulen-senin-pagi.html"><strong>Notulen Senin Pagi</strong></a><br><span class="nx-row-sub">NF · Misc</span></td><td>Baby</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="62-notulen-senin-pagi.html">6 halaman</a></td></tr>
+<tr data-category="Web" data-status="VERIFIED" data-difficulty="Easy" data-search="NexaDeploy Web Easy Track Mahasiswa NF"><td>63</td><td><a href="63-nexadeploy.html"><strong>NexaDeploy</strong></a><br><span class="nx-row-sub">NF · Web</span></td><td>Easy</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="63-nexadeploy.html">6 halaman</a></td></tr>
+<tr data-category="Pwn" data-status="VERIFIED" data-difficulty="Baby" data-search="Omah Buffer Kebak Pwn Baby Track Mahasiswa NF"><td>64</td><td><a href="64-omah-buffer-kebak.html"><strong>Omah Buffer Kebak</strong></a><br><span class="nx-row-sub">NF · Pwn</span></td><td>Baby</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="64-omah-buffer-kebak.html">6 halaman</a></td></tr>
+<tr data-category="Pwn" data-status="VERIFIED" data-difficulty="Easy" data-search="THE BROKEN RESOURCE PARSER Pwn Easy Track Mahasiswa NF"><td>65</td><td><a href="65-the-broken-resource-parser.html"><strong>THE BROKEN RESOURCE PARSER</strong></a><br><span class="nx-row-sub">NF · Pwn</span></td><td>Easy</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="65-the-broken-resource-parser.html">6 halaman</a></td></tr>
+<tr data-category="Boot To Root" data-status="VERIFIED" data-difficulty="Easy" data-search="Forgotten Commit (User) Boot To Root Easy Track Mahasiswa NF"><td>66</td><td><a href="66-forgotten-commit-user.html"><strong>Forgotten Commit (User)</strong></a><br><span class="nx-row-sub">NF · Boot To Root</span></td><td>Easy</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="66-forgotten-commit-user.html">6 halaman</a></td></tr>
+<tr data-category="Web" data-status="VERIFIED" data-difficulty="Easy" data-search="NexaCommerce Web Easy Track Mahasiswa NF"><td>67</td><td><a href="67-nexacommerce.html"><strong>NexaCommerce</strong></a><br><span class="nx-row-sub">NF · Web</span></td><td>Easy</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="67-nexacommerce.html">6 halaman</a></td></tr>
+<tr data-category="Misc" data-status="VERIFIED" data-difficulty="Easy" data-search="Titipan Akhir Tahun Misc Easy Track Mahasiswa NF"><td>68</td><td><a href="68-titipan-akhir-tahun.html"><strong>Titipan Akhir Tahun</strong></a><br><span class="nx-row-sub">NF · Misc</span></td><td>Easy</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="68-titipan-akhir-tahun.html">6 halaman</a></td></tr>
+<tr data-category="Misc" data-status="VERIFIED" data-difficulty="Easy" data-search="Matryoshka Encoding Misc Easy Track Mahasiswa NF"><td>69</td><td><a href="69-matryoshka-encoding.html"><strong>Matryoshka Encoding</strong></a><br><span class="nx-row-sub">NF · Misc</span></td><td>Easy</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="69-matryoshka-encoding.html">6 halaman</a></td></tr>
+<tr data-category="Web" data-status="VERIFIED" data-difficulty="Easy" data-search="NexaRewards Web Easy Track Mahasiswa NF"><td>70</td><td><a href="70-nexarewards.html"><strong>NexaRewards</strong></a><br><span class="nx-row-sub">NF · Web</span></td><td>Easy</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="70-nexarewards.html">6 halaman</a></td></tr>
+<tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Easy" data-search="Decode Balik Crypto Easy Track Mahasiswa NF"><td>71</td><td><a href="71-decode-balik.html"><strong>Decode Balik</strong></a><br><span class="nx-row-sub">NF · Crypto</span></td><td>Easy</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="71-decode-balik.html">6 halaman</a></td></tr>
+<tr data-category="Web" data-status="VERIFIED" data-difficulty="Baby" data-search="NexaSupply Web Baby Track Mahasiswa NF"><td>72</td><td><a href="72-nexasupply.html"><strong>NexaSupply</strong></a><br><span class="nx-row-sub">NF · Web</span></td><td>Baby</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="72-nexasupply.html">6 halaman</a></td></tr>
+<tr data-category="Forensics" data-status="VERIFIED" data-difficulty="Easy" data-search="File Analysis: The Suspicious Invoice Forensics Easy Track Mahasiswa NF"><td>73</td><td><a href="73-file-analysis-the-suspicious-invoice.html"><strong>File Analysis: The Suspicious Invoice</strong></a><br><span class="nx-row-sub">NF · Forensics</span></td><td>Easy</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="73-file-analysis-the-suspicious-invoice.html">6 halaman</a></td></tr>
+<tr data-category="Forensics" data-status="VERIFIED" data-difficulty="Easy" data-search="Invoice Forensics Easy Track Mahasiswa NF"><td>74</td><td><a href="74-invoice.html"><strong>Invoice</strong></a><br><span class="nx-row-sub">NF · Forensics</span></td><td>Easy</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="74-invoice.html">6 halaman</a></td></tr>
+<tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Easy" data-search="Twin Prime Lattice Crypto Easy Track Mahasiswa NF"><td>75</td><td><a href="75-twin-prime-lattice.html"><strong>Twin Prime Lattice</strong></a><br><span class="nx-row-sub">NF · Crypto</span></td><td>Easy</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="75-twin-prime-lattice.html">6 halaman</a></td></tr>
+<tr data-category="Osint" data-status="VERIFIED" data-difficulty="Easy" data-search="Kebakaran Osint Easy Track Mahasiswa NF"><td>76</td><td><a href="76-kebakaran.html"><strong>Kebakaran</strong></a><br><span class="nx-row-sub">NF · Osint</span></td><td>Easy</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="76-kebakaran.html">6 halaman</a></td></tr>
+<tr data-category="Crypto" data-status="VERIFIED" data-difficulty="Easy" data-search="13 Is Not Enough Crypto Easy Track Mahasiswa NF"><td>77</td><td><a href="77-13-is-not-enough.html"><strong>13 Is Not Enough</strong></a><br><span class="nx-row-sub">NF · Crypto</span></td><td>Easy</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="77-13-is-not-enough.html">6 halaman</a></td></tr>
+<tr data-category="Pwn" data-status="VERIFIED" data-difficulty="Easy" data-search="Kunci Sudo Sing Kesasar Pwn Easy Track Mahasiswa NF"><td>78</td><td><a href="78-kunci-sudo-sing-kesasar.html"><strong>Kunci Sudo Sing Kesasar</strong></a><br><span class="nx-row-sub">NF · Pwn</span></td><td>Easy</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="78-kunci-sudo-sing-kesasar.html">6 halaman</a></td></tr>
+<tr data-category="Web" data-status="VERIFIED" data-difficulty="Easy" data-search="NexaDocs Web Easy Track Mahasiswa NF"><td>79</td><td><a href="79-nexadocs.html"><strong>NexaDocs</strong></a><br><span class="nx-row-sub">NF · Web</span></td><td>Easy</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="79-nexadocs.html">6 halaman</a></td></tr>
+<tr data-category="Osint" data-status="OPEN" data-difficulty="Easy" data-search="Shadow Infrastructure Osint Easy Track Mahasiswa NF"><td>80</td><td><a href="80-shadow-infrastructure.html"><strong>Shadow Infrastructure</strong></a><br><span class="nx-row-sub">NF · Osint</span></td><td>Easy</td><td>300</td><td><span class="nx-badge nx-badge-open">OPEN</span></td><td><a href="80-shadow-infrastructure.html">6 halaman</a></td></tr>
+<tr data-category="Forensics" data-status="VERIFIED" data-difficulty="Baby" data-search="Dead Drop Forensics Baby Track Mahasiswa NF"><td>81</td><td><a href="81-dead-drop.html"><strong>Dead Drop</strong></a><br><span class="nx-row-sub">NF · Forensics</span></td><td>Baby</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="81-dead-drop.html">6 halaman</a></td></tr>
+<tr data-category="Misc" data-status="VERIFIED" data-difficulty="Easy" data-search="Pipeline Phantom Misc Easy Track Mahasiswa NF"><td>82</td><td><a href="82-pipeline-phantom.html"><strong>Pipeline Phantom</strong></a><br><span class="nx-row-sub">NF · Misc</span></td><td>Easy</td><td>120</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="82-pipeline-phantom.html">6 halaman</a></td></tr>
+<tr data-category="Intro" data-status="VERIFIED" data-difficulty="Easy" data-search="Follow Jarvis! Intro Easy Track Mahasiswa NF"><td>83</td><td><a href="83-follow-jarvis.html"><strong>Follow Jarvis!</strong></a><br><span class="nx-row-sub">NF · Intro</span></td><td>Easy</td><td>250</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="83-follow-jarvis.html">6 halaman</a></td></tr>
+<tr data-category="Osint" data-status="VERIFIED" data-difficulty="Baby" data-search="Commit yang kehapus Osint Baby Track Mahasiswa NF"><td>84</td><td><a href="84-commit-yang-kehapus.html"><strong>Commit yang kehapus</strong></a><br><span class="nx-row-sub">NF · Osint</span></td><td>Baby</td><td>260</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="84-commit-yang-kehapus.html">6 halaman</a></td></tr>
+<tr data-category="Osint" data-status="VERIFIED" data-difficulty="Easy" data-search="Tempat Belajar Osint Easy Track Mahasiswa NF"><td>85</td><td><a href="85-tempat-belajar.html"><strong>Tempat Belajar</strong></a><br><span class="nx-row-sub">NF · Osint</span></td><td>Easy</td><td>300</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="85-tempat-belajar.html">6 halaman</a></td></tr>
+<tr data-category="Osint" data-status="VERIFIED" data-difficulty="Baby" data-search="Left Behind in the Metadata Osint Baby Track Mahasiswa NF"><td>86</td><td><a href="86-left-behind-in-the-metadata.html"><strong>Left Behind in the Metadata</strong></a><br><span class="nx-row-sub">NF · Osint</span></td><td>Baby</td><td>440</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="86-left-behind-in-the-metadata.html">6 halaman</a></td></tr>
 </tbody></table></div>
 <div id="nx-empty" class="nx-empty" hidden>Tidak ada challenge yang cocok. Coba kata kunci atau filter lain.</div>
 
@@ -127,7 +154,7 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 <div class="nx-legend"><span class="nx-badge nx-badge-verified">VERIFIED</span><p>Flag sudah diterima platform. Halaman Flag memuat bukti submit.</p></div>
 <div class="nx-legend"><span class="nx-badge nx-badge-open">OPEN</span><p>Flag belum ditemukan. Halaman berisi analisis dan kendala yang ditemui, bukan flag.</p></div>
 </div>
-<p class="nx-verified-note"><strong>60/60 flag</strong> sudah disubmit lewat web platform dan diterima (screenshot submit di tiap halaman Flag).</p>
+<p class="nx-verified-note"><strong>84/84 flag</strong> sudah disubmit lewat web platform dan diterima (screenshot submit di tiap halaman Flag).</p>
 
 ## Cara pakai
 
@@ -159,7 +186,7 @@ Setiap halaman juga punya daftar isi di sisi kanan, tombol salin pada blok kode,
     Halaman NXPortal berisi analisis dan kendala yang ditemui. Tidak ada flag yang dicantumkan untuk challenge ini.
 
 !!! success "Flag sudah diverifikasi"
-    Seluruh 60 flag challenge yang solved sudah disubmit lewat web platform dan diterima. NXPortal tetap OPEN karena flag-nya belum ditemukan.
+    Seluruh 84 flag challenge yang solved sudah disubmit lewat web platform dan diterima. NXPortal tetap OPEN karena flag-nya belum ditemukan.
 
 !!! tip "Bonus Insane"
     **NarrowGate** adalah challenge Insane dan tetap disertakan sebagai bonus.
