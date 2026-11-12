@@ -52,3 +52,14 @@ Screenshot submit:
 ![Submit web Tempat Belajar](assets/tempat-belajar/00b-submit-platform.png)
 
 *Form challenge menampilkan `CORRECT, BUT ALREADY SOLVED.`*
+
+### Screenshot Instagram
+
+![Profil Instagram @career.dihlearn.id](assets/tempat-belajar/09-instagram-fragments.png)
+
+*Screenshot profil `@career.dihlearn.id` yang memuat fragmen Base64 di bagian atas gambar.*
+
+Fragmen publik di screenshot ini decode ke kandidat lama
+`..._J4R!`, dan kandidat itu **ditolak** platform. Flag accepted yang dipakai
+di halaman ini adalah `..._J4Ya`, yang berasal dari teks Base64 yang benar di
+Instagram.
