@@ -28,8 +28,12 @@
   const categoryButtons = Array.from(
     document.querySelectorAll("[data-category-filter]")
   );
+  const eventButtons = Array.from(
+    document.querySelectorAll("[data-event-filter]")
+  );
   let status = "all";
   let category = "all";
+  let track = "all";
   let query = "";
 
   function sync(buttons, attribute, value) {
@@ -46,9 +50,10 @@
       const matchStatus = status === "all" || row.dataset.status === status;
       const matchCategory =
         category === "all" || row.dataset.category === category;
+      const matchTrack = track === "all" || row.dataset.event === track;
       const matchQuery =
         !query || row.dataset.search.toLowerCase().includes(query);
-      const show = matchStatus && matchCategory && matchQuery;
+      const show = matchStatus && matchCategory && matchTrack && matchQuery;
       row.hidden = !show;
       if (show) visible += 1;
     });
@@ -74,6 +79,16 @@
     });
   });
 
+  eventButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      track = button.dataset.eventFilter;
+      sync(eventButtons, "eventFilter", track);
+      apply();
+      const target = document.getElementById("daftar-challenge");
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+
   if (search) {
     search.addEventListener("input", function () {
       query = search.value.trim().toLowerCase();
@@ -85,10 +100,12 @@
     reset.addEventListener("click", function () {
       status = "all";
       category = "all";
+      track = "all";
       query = "";
       if (search) search.value = "";
       sync(statusButtons, "statusFilter", status);
       sync(categoryButtons, "categoryFilter", category);
+      sync(eventButtons, "eventFilter", track);
       apply();
     });
   }
