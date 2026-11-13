@@ -12,7 +12,7 @@
 | Poin (snapshot) | `100` |
 | Flag | `NXCTF{GLORIA_SETIABAKTI_SINARHARAPAN}` |
 | Status | `VERIFIED` |
-| Metode | **PARTIAL** — Lokasi dan Google Maps ada; frame Street View papan toko tidak tersimpan. |
+| Metode | **FULL** — Lokasi dan tiga usaha teridentifikasi dari Google Maps place search; frame Street View papan toko tidak tersimpan. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

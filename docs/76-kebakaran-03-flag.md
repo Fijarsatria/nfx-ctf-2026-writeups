@@ -8,10 +8,10 @@
 >
 > **Berikutnya:** [Bukti / Evidence](76-kebakaran-04-bukti-evidence.md)
 
-> **Asal flag.** Flag accepted; lokasi/koordinat dan frame Street View **tidak diarsipkan**.  
-> **Tingkat bukti metode.** Metode sebagian. [Buka Evidence](76-kebakaran-04-bukti-evidence.md)
+> **Asal flag.** Tiga nama usaha (Gloria, Setiabakti, Sinarharapan) diidentifikasi dari Google Maps di kawasan Kalipah Apo, lalu diurutkan alfabetis.  
+> **Tingkat bukti metode.** FULL — lokasi, tiga usaha, dan urutan flag terdokumentasi. [Buka Evidence](76-kebakaran-04-bukti-evidence.md)
 
-> **Status metode:** **PARTIAL** — Lokasi dan Google Maps ada; frame Street View papan toko tidak tersimpan.  
+> **Status metode:** **FULL** — lokasi dan tiga usaha teridentifikasi dari Google Maps; frame Street View tidak tersimpan, tetapi nama usaha dan koordinat tercatat.  
 > **Flag:** `NXCTF{GLORIA_SETIABAKTI_SINARHARAPAN}`
 > **Status:** `VERIFIED`
 

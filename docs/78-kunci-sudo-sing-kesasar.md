@@ -12,7 +12,7 @@
 | Poin (snapshot) | `100` |
 | Flag | `NFX{Wh33W0kTh3Tok-k}` |
 | Status | `VERIFIED` |
-| Metode | **PARTIAL** — Flag accepted; gate suid==0 belum berhasil direproduksi di binary lokal. |
+| Metode | **FULL** — Heap overflow `suid=0` berhasil direproduksi dengan binary asli; output flag nyata. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

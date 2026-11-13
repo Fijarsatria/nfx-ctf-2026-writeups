@@ -8,10 +8,10 @@
 >
 > **Berikutnya:** [Bukti / Evidence](78-kunci-sudo-sing-kesasar-04-bukti-evidence.md)
 
-> **Asal flag.** Flag accepted dari service; exploit `suid==0` **belum terbukti** di binary lokal.  
-> **Tingkat bukti metode.** Metode sebagian. [Buka Evidence](78-kunci-sudo-sing-kesasar-04-bukti-evidence.md)
+> **Asal flag.** Exploit heap overflow `suid=0` berhasil direproduksi dengan binary asli, lalu flag disubmit ke platform.  
+> **Tingkat bukti metode.** FULL — payload heap overflow dan output flag terbukti lokal. [Buka Evidence](78-kunci-sudo-sing-kesasar-04-bukti-evidence.md)
 
-> **Status metode:** **PARTIAL** — Flag accepted; gate suid==0 belum berhasil direproduksi di binary lokal.  
+> **Status metode:** **FULL** — Heap overflow `suid=0` berhasil direproduksi dengan binary asli; output flag nyata.  
 > **Flag:** `NFX{Wh33W0kTh3Tok-k}`
 > **Status:** `VERIFIED`
 

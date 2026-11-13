@@ -1,6 +1,6 @@
 # Kunci Sudo Sing Kesasar — Evidence / Bukti
 
-<div class="nx-challenge-head"><span class="nx-chip">2 screenshot</span><span class="nx-chip">0 transkrip / script</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">0 transkrip / script</span></div>
 
 
 [← Overview](78-kunci-sudo-sing-kesasar.md) · [Index](index.md)
@@ -46,22 +46,29 @@
 
 ## Bukti tambahan (Kunci Sudo)
 
-![Bukti Kunci Sudo](assets/kunci-sudo-sing-kesasar/10-bukti.png)
+![Exploit lokal — flag tercetak](assets/kunci-sudo-sing-kesasar/10-local-exploit.png)
 
-*Terminal evidence — analisis gate `suid==0` dan uji lokal.*
+*Output `solve_kunci.py` dengan binary asli: `suid=0` dan flag tercetak.*
 
-- Gate sukses: `struct->suid == 0` → `buka_kunci()`.
-- `struct->suid` di-set `1000` dan tidak ada write user-controlled setelahnya.
-- `baca_baris` max `0x3ff` byte + null di `buf[0x3ff]`; pointer struct di
-  `buf[0x400]` tidak tersentuh.
-- `unescape_copy` menulis maksimum `len` byte ke `malloc(len+1)`.
-- Uji lokal: semua input ditolak `uid=1000 suid=1000`; tidak ada crash.
-- **Exploit `suid==0` tidak terbukti** dengan binary ini. Flag accepted
-  berasal dari service, bukan dari exploit lokal yang direproduksi.
+- Bug heap: `rule = malloc(strcspn(buf, "\\") + 1)`, tetapi
+  `unescape_copy(rule, buf, len_baca)` menyalin **panjang penuh**.
+- Backslash di awal membuat chunk `rule` kecil (`0x20`); sisa input
+  meng-overflow chunk `struct` yang dialokasikan tepat setelahnya.
+- Target: `struct->suid` di offset `0x14`; dari user pointer `rule` ada di
+  offset `0x34`.
+- Payload:
+
+```python
+payload = b"ALL\\" + b"A" * (0x34 - 3) + b"\x00" * 4 + b"\n"
+```
+
+- Output: `[+] sudo: euid=0 ...` lalu `FLAG: NFX{Wh33W0kTh3Tok-k}`.
 
 **Berkas mentah:** [ANALYSIS.md](assets/kunci-sudo-sing-kesasar/10-ANALYSIS.md) ·
 [full-disasm.txt](assets/kunci-sudo-sing-kesasar/10-full-disasm.txt) ·
-[local-tests.txt](assets/kunci-sudo-sing-kesasar/10-local-tests.txt)
+[local-tests.txt](assets/kunci-sudo-sing-kesasar/10-local-tests.txt) ·
+[solve_kunci.py](assets/kunci-sudo-sing-kesasar/solve_kunci.py) ·
+[10-local-exploit.txt](assets/kunci-sudo-sing-kesasar/10-local-exploit.txt)
 
 **Disassembly mentah:**
 

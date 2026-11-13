@@ -27,8 +27,8 @@ Screenshot itu diambil langsung dari form challenge di
 | VERIFIED | **85** |
 | OPEN | **1** (NXPortal) |
 | Validasi platform (`00b-platform-validation.png`) | **85** |
-| Metode **FULL** | **80** |
-| Metode **PARTIAL** | **4** |
+| Metode **FULL** | **82** |
+| Metode **PARTIAL** | **2** |
 | Metode **ADMIN-ASSISTED** | **1** |
 | Metode **OPEN** | **1** |
 
