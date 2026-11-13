@@ -18,7 +18,7 @@ fstat=5, newfstatat=0x106, brk=0xc, exit=0x3c, exit_group=0xe7
 read=0 dengan arg0 == 0 (SCMP_CMP_EQ)
 ```
 
-Detail decode ada di `writeups/assets/starved/02b-seccomp.txt`. Konsekuensinya:
+Detail decode ada di `docs/assets/starved/02b-seccomp.txt`. Konsekuensinya:
 
 - `execve` diblokir → tidak bisa `system("/bin/sh")`.
 - `read(3, ...)` diblokir karena arg0 ≠ 0.

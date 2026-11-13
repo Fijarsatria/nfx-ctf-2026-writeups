@@ -11,6 +11,7 @@
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
 > **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](67-nexacommerce-04-bukti-evidence.md)
 
+> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{sql1_un10n_bas3d_4uth_byp4ss}`
 > **Status:** `VERIFIED`
 

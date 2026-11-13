@@ -11,3 +11,7 @@
 - Konsep LSB steganography pada PNG.
 - `zsteg` documentation.
 - Teknik base64 bertingkat pada metadata PNG.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

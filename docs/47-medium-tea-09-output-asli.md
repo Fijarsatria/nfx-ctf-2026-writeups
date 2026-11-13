@@ -4,15 +4,15 @@
 
 > **Langkah 9/12 — Output asli.** Perhatikan bahwa hasil dekripsi per blok membentuk teks yang dapat dibaca, dan enkripsi ulang menghasilkan ciphertext identik.
 >
-> **Titik penting:** python3 writeups/assets/medium-tea/solve_tea.py · NFX{t1ny_3ncrypt10n_4lg0r1thm_32_r0und5}
+> **Titik penting:** python3 docs/assets/medium-tea/solve_tea.py · NFX{t1ny_3ncrypt10n_4lg0r1thm_32_r0und5}
 >
 > **Berikutnya:** [Flag](47-medium-tea-10-flag.md)
 
 ## 3.3 Output asli
 
 ```text
-$ python3 writeups/assets/medium-tea/solve_tea.py
-[*] binary     : /home/bocil/ctf/nfx/reverse/Medium_02_TEA/medium_tea
+$ python3 docs/assets/medium-tea/solve_tea.py
+[*] binary     : <repo>/reverse/Medium_02_TEA/medium_tea
 [*] ciphertext : d08b910e9e3d818eeadab483cfc8fd8a083b44836a130476724d7205905af697db1395e7c74c5385
 [*] key words  : 0x1337beef 0xcafebabe 0xdeadc0de 0x0badf00d
 [*] delta      : 0x9e3779b9; sum akhir = 0xc6ef3720

@@ -12,3 +12,7 @@
 - `secret-tool` / libsecret.
 - SHA-512 crypt (`$6$`) dan yescrypt (`$y$`).
 - Teknik overlay teks pada JPEG.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

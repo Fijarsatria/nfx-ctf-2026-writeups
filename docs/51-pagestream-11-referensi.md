@@ -13,3 +13,7 @@
 - EJS template execution / Express view cache.
 - OWASP: Mass Assignment, Path Traversal, Unrestricted File Upload.
 - CWE-915 (Mass Assignment), CWE-22 (Path Traversal), CWE-434 (Unrestricted Upload), CWE-250 (Execution with Unnecessary Privileges).
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

@@ -10,3 +10,7 @@
 
 - `man strings`
 - ELF format: `.rodata` dan string table.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

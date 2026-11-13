@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Web` |
 | Difficulty | `Hard` |
-| Poin | `320` |
+| Poin (snapshot) | `320` |
 | Author | `Ariaf` |
 | Solves | `10` |
 | Tools | curl, docker |
 | Flag | `NFX{n3xu5_g4t3_0v3r_gr4nt_c4ch3_smuggl3_2026}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

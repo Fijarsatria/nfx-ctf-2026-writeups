@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Forensics` |
 | Difficulty | `Medium` |
-| Poin | `380` |
+| Poin (snapshot) | `380` |
 | Author | `Candelena` |
 | Solves | `7` |
 | Tools | python3, tshark |
 | Flag | `NFXCTF{ARSIP_MERAH_204}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

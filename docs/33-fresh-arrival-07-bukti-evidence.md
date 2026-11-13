@@ -5,7 +5,7 @@
 
 [← Overview](33-fresh-arrival.md) · [Index](index.md)
 
-> **Langkah 7/8 — Bukti / Evidence.** Semua bukti berada di writeups/assets/fresh-arrival/.
+> **Langkah 7/8 — Bukti / Evidence.** Semua bukti berada di docs/assets/fresh-arrival/.
 >
 > **Titik penting:** arsip screenshot dan transkrip
 >
@@ -93,7 +93,7 @@
 
 ## Tabel Evidence
 
-Semua bukti berada di `writeups/assets/fresh-arrival/`.
+Semua bukti berada di `docs/assets/fresh-arrival/`.
 
 | Bukti | File | Keterangan |
 |---|---|---|

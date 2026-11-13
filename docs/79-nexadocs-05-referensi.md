@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](79-nexadocs.md).
 
 Jinja2 SSTI, globals, RCE.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

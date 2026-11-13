@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](56-ghost-xor.md).
 
 - Known-plaintext attack pada XOR dengan kunci berulang.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

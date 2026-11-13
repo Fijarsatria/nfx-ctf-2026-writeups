@@ -27,7 +27,7 @@ Semua blob di object store dipindai; tidak ada string `NFX{...}`,
 Base64 itu decode ke:
 
 ```text
-x-access-token:github_pat_11BX4...<disensor>...N29Z
+x-access-token:github_pat_<REDACTED>
 ```
 
 Token lengkap ada di attachment. **Jangan dipakai di luar challenge.**

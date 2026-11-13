@@ -13,3 +13,7 @@
 - fzf man page: `--listen[=[ADDR:]PORT]` dan action `execute(...)`.
 - Prinsip least privilege untuk `sudoers` (NOPASSWD + binary dengan fitur exec).
 - OWASP: exposure of `.git` metadata dan secret management.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

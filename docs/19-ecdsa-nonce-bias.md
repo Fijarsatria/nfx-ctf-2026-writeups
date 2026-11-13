@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Crypto` |
 | Difficulty | `Hard` |
-| Poin | `260` |
+| Poin (snapshot) | `260` |
 | Author | `rio` |
 | Solves | `13` |
 | Tools | python3, sage, fpylll, git |
 | Flag | `NXCTF{ecds4_hnp_n0nc3_b14s_8b1t_l4tt1c3_a3d2ae498097}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 
@@ -33,8 +35,8 @@ Jadi ceritanya gini. 200 signature ECDSA pada `secp256k1`; nonce `k` selalu `< 2
 |---:|---|---|---|
 | 1 | Recon | python3 challenge.py | [Buka](19-ecdsa-nonce-bias-01-recon.md) |
 | 2 | Analisis | Untuk setiap signature: | [Buka](19-ecdsa-nonce-bias-02-analisis.md) |
-| 3 | Script lengkap | Tersimpan di writeups/assets/ecdsa-nonce-bias/solve.py: | [Buka](19-ecdsa-nonce-bias-03-script-lengkap.md) |
-| 4 | Solver | python3 writeups/assets/ecdsa-nonce-bias/solve.py | [Buka](19-ecdsa-nonce-bias-04-solver.md) |
+| 3 | Script lengkap | Tersimpan di docs/assets/ecdsa-nonce-bias/solve.py: | [Buka](19-ecdsa-nonce-bias-03-script-lengkap.md) |
+| 4 | Solver | python3 docs/assets/ecdsa-nonce-bias/solve.py | [Buka](19-ecdsa-nonce-bias-04-solver.md) |
 | 5 | Flag | NXCTF{ecds4_hnp_n0nc3_b14s_8b1t_l4tt1c3_a3d2ae498097} | [Buka](19-ecdsa-nonce-bias-05-flag.md) |
 | 6 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](19-ecdsa-nonce-bias-06-bukti-evidence.md) |
 | 7 | Referensi | secret keys in Diffie-Hellman and related schemes (HNP). | [Buka](19-ecdsa-nonce-bias-07-referensi.md) |

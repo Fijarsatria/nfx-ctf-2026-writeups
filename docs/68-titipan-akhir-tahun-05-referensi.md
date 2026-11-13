@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](68-titipan-akhir-tahun.md).
 
 PDF attachment, embedded object, encoding.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

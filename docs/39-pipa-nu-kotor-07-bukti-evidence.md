@@ -90,9 +90,9 @@
 
 | Bukti | File | Keterangan |
 |---|---|---|
-| Identitas/hash/checksec | `writeups/assets/pipa-nu-kotor/01-file-hash-checksec.txt` | no PIE, no canary, NX |
-| Disassembly | `writeups/assets/pipa-nu-kotor/02-disasm.txt` | `op_buka`, `op_tulis`, `op_login`, `op_tutup`, `cetak_flag` |
-| Layout struct | `writeups/assets/pipa-nu-kotor/02b-struct.txt` | Field dan offset flags |
-| Exploit | `writeups/assets/pipa-nu-kotor/exploit.py` | Urutan open/write/close/reopen |
-| Output | `writeups/assets/pipa-nu-kotor/03-exploit-run.txt` | Login root + flag lokal |
-| Flag/status | `writeups/assets/pipa-nu-kotor/04-flag-status.txt` | Flag dari `flags/pwn/` |
+| Identitas/hash/checksec | `docs/assets/pipa-nu-kotor/01-file-hash-checksec.txt` | no PIE, no canary, NX |
+| Disassembly | `docs/assets/pipa-nu-kotor/02-disasm.txt` | `op_buka`, `op_tulis`, `op_login`, `op_tutup`, `cetak_flag` |
+| Layout struct | `docs/assets/pipa-nu-kotor/02b-struct.txt` | Field dan offset flags |
+| Exploit | `docs/assets/pipa-nu-kotor/exploit.py` | Urutan open/write/close/reopen |
+| Output | `docs/assets/pipa-nu-kotor/03-exploit-run.txt` | Login root + flag lokal |
+| Flag/status | `docs/assets/pipa-nu-kotor/04-flag-status.txt` | Flag dari `flags/pwn/` |

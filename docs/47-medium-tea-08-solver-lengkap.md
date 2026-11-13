@@ -2,15 +2,15 @@
 
 [← Overview](47-medium-tea.md) · [Index](index.md)
 
-> **Langkah 8/12 — Solver lengkap.** File: writeups/assets/medium-tea/solvetea.py
+> **Langkah 8/12 — Solver lengkap.** File: docs/assets/medium-tea/solvetea.py
 >
-> **Titik penting:** File: writeups/assets/medium-tea/solvetea.py
+> **Titik penting:** File: docs/assets/medium-tea/solvetea.py
 >
 > **Berikutnya:** [Output asli](47-medium-tea-09-output-asli.md)
 
 ## 3.2 Solver lengkap
 
-File: `writeups/assets/medium-tea/solve_tea.py`
+File: `docs/assets/medium-tea/solve_tea.py`
 
 ```python
 #!/usr/bin/env python3
@@ -27,8 +27,7 @@ import sys
 
 from elftools.elf.elffile import ELFFile
 
-ROOT = pathlib.Path(__file__).resolve().parents[3]
-DEFAULT_BIN = ROOT / "reverse" / "Medium_02_TEA" / "medium_tea"
+DEFAULT_BIN = pathlib.Path(__file__).resolve().parent / "medium_tea"
 
 M32 = 0xFFFFFFFF
 DELTA = 0x9E3779B9

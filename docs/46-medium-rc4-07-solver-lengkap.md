@@ -2,15 +2,15 @@
 
 [← Overview](46-medium-rc4.md) · [Index](index.md)
 
-> **Langkah 7/11 — Solver lengkap.** File: writeups/assets/medium-rc4/solverc4.py
+> **Langkah 7/11 — Solver lengkap.** File: docs/assets/medium-rc4/solverc4.py
 >
-> **Titik penting:** File: writeups/assets/medium-rc4/solverc4.py
+> **Titik penting:** File: docs/assets/medium-rc4/solverc4.py
 >
 > **Berikutnya:** [Menjalankan solver](46-medium-rc4-08-menjalankan-solver.md)
 
 ## 3.2 Solver lengkap
 
-File: `writeups/assets/medium-rc4/solve_rc4.py`
+File: `docs/assets/medium-rc4/solve_rc4.py`
 
 ```python
 #!/usr/bin/env python3
@@ -25,8 +25,7 @@ import sys
 
 from elftools.elf.elffile import ELFFile
 
-ROOT = pathlib.Path(__file__).resolve().parents[3]          # /home/bocil/ctf/nfx
-DEFAULT_BIN = ROOT / "reverse" / "Medium_01_RC4" / "medium_rc4"
+DEFAULT_BIN = pathlib.Path(__file__).resolve().parent / "medium_rc4"
 
 def read_vaddr(path: pathlib.Path, vaddr: int, size: int) -> bytes:
     """Ambil `size` byte dari alamat virtual `vaddr` memakai program header PT_LOAD."""

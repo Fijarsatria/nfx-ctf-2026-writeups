@@ -8,11 +8,13 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Forensics` |
 | Difficulty | `Medium` |
-| Poin | `100` |
+| Poin (snapshot) | `100` |
 | Author | `Ariaf` |
 | Tools | gobuster, sqlmap, python3, tshark, git |
 | Flag | `NFX{P4th_1nt0_Pr0duct10n}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

@@ -10,3 +10,7 @@
 
 - Base64, `rev`, ROT13.
 - Urutan encode harus dibalik saat decode.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

@@ -13,6 +13,7 @@
 > **Tingkat bukti metode.** Terdokumentasi penuh.
 > [Buka cara mendapatkan flag](77-13-is-not-enough-02-cara-mendapatkan-flag.md).
 
+> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{Y0U_R0T4T3D_TH3_L3TT3R5_N0W_F1X_TH3_D1G1T5}`
 > **Status:** `VERIFIED`
 

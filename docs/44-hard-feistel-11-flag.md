@@ -11,6 +11,7 @@
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
 > **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](44-hard-feistel-12-bukti-evidence.md)
 
+> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{f315t3l_n3tw0rk_16_r0und5_r3v3rs3d}`
 > **Status:** `VERIFIED`
 

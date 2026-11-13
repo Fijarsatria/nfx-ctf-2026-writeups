@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](85-tempat-belajar.md).
 
 OSINT Instagram, base64 artifact.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

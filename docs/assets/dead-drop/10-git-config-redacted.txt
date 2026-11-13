@@ -1,4 +1,4 @@
 [http "https://github.com/"]
     extraheader = AUTHORIZATION: basic <base64>
 
-decode = x-access-token:github_pat_11BX4HD2Q...<disensor>...eFN29Z
+decode = x-access-token:github_pat_<REDACTED>

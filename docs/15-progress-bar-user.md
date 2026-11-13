@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Boot To Root` |
 | Difficulty | `Hard` |
-| Poin | `460` |
+| Poin (snapshot) | `460` |
 | Author | `Ariaf` |
 | Solves | `3` |
 | Tools | nmap, curl, python3 |
 | Flag | `NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

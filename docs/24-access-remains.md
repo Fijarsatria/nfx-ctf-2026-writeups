@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Forensics` |
 | Difficulty | `Hard` |
-| Poin | `360` |
+| Poin (snapshot) | `360` |
 | Author | `Ariaf` |
 | Solves | `8` |
 | Tools | python3, exiftool, sage |
 | Flag | `NFX{The_Real_Access_Was_Kumiko_All_Along}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

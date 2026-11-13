@@ -7,13 +7,23 @@
 |---|---|
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Forensics` |
+| Author | `Kesatria Baja Ringan` |
 | Difficulty | `Easy` |
-| Poin | `100` |
+| Poin (snapshot) | `100` |
 | Tools | exiftool, zsteg |
 | Flag | `NXCTF{l5b_l04d5_th3_p4yl04d}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
+
+
+## TL;DR
+
+- **Flag:** `NXCTF{l5b_l04d5_th3_p4yl04d}`
+- **Metode:** **FULL** — metode utama berhasil direproduksi.
+- **Baca langkah lengkap:** [Cara Mendapatkan Flag](73-file-analysis-the-suspicious-invoice-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)
 

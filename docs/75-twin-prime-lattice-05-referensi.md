@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](75-twin-prime-lattice.md).
 
 Fermat factorization, RSA twin primes.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

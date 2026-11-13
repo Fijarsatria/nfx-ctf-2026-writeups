@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](65-the-broken-resource-parser.md).
 
 Parser bug, memory corruption.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

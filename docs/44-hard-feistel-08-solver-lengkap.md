@@ -2,15 +2,15 @@
 
 [← Overview](44-hard-feistel.md) · [Index](index.md)
 
-> **Langkah 8/13 — Solver lengkap.** File: writeups/assets/hard-feistel/solvefeistel.py
+> **Langkah 8/13 — Solver lengkap.** File: docs/assets/hard-feistel/solvefeistel.py
 >
-> **Titik penting:** File: writeups/assets/hard-feistel/solvefeistel.py
+> **Titik penting:** File: docs/assets/hard-feistel/solvefeistel.py
 >
 > **Berikutnya:** [Output asli](44-hard-feistel-09-output-asli.md)
 
 ## 3.2 Solver lengkap
 
-File: `writeups/assets/hard-feistel/solve_feistel.py`
+File: `docs/assets/hard-feistel/solve_feistel.py`
 
 ```python
 #!/usr/bin/env python3
@@ -28,8 +28,7 @@ import sys
 
 from elftools.elf.elffile import ELFFile
 
-ROOT = pathlib.Path(__file__).resolve().parents[3]
-DEFAULT_BIN = ROOT / "reverse" / "Hard_02_Feistel" / "hard_feistel"
+DEFAULT_BIN = pathlib.Path(__file__).resolve().parent / "hard_feistel"
 
 M32 = 0xFFFFFFFF
 M16 = 0xFFFF

@@ -12,3 +12,7 @@
 - `flags/wave2/My_Lovely_Freya.txt` — flag platform.
 - Spesifikasi PNG (IHDR, IDAT, filter types 0–4).
 - OpenSSL `enc` — format `Salted__`, PBKDF2, AES-256-CBC.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

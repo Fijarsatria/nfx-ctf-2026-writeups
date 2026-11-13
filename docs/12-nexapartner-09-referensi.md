@@ -12,3 +12,7 @@
 - PortSwigger: Prototype pollution → privilege escalation.
 - `Object.hasOwn`, `Object.create(null)`, `Map`.
 - CWE-1321 (Improperly Controlled Modification of Object Prototype Attributes), CWE-915, CWE-863.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

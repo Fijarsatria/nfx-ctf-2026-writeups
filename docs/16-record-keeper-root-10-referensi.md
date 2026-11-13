@@ -14,3 +14,7 @@
 - Node.js 24.22.1 security release — CVE-2026-111497 (Brotli decoder).
 - `Arkango/CVE-2026-111497` — exploit worker record transform.
 - Prinsip least privilege untuk sudoers dan service spooler.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

@@ -7,13 +7,23 @@
 |---|---|
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Pwn` |
+| Author | `Amablex` |
 | Difficulty | `Baby` |
-| Poin | `100` |
+| Poin (snapshot) | `100` |
 | Tools | pwntools, checksec |
 | Flag | `NFX{OmahhKUuD0Ndoll_Uw0nggG}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — ret2win dengan binary asli; offset `0x48` dan alamat `obong` diverifikasi, output flag nyata. Service remote sudah offline. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
+
+
+## TL;DR
+
+- **Flag:** `NFX{OmahhKUuD0Ndoll_Uw0nggG}`
+- **Metode:** **FULL** — ret2win dengan binary asli; offset 0x48 dan alamat obong diverifikasi, output flag nyata. Service remote sudah offline.
+- **Baca langkah lengkap:** [Cara Mendapatkan Flag](64-omah-buffer-kebak-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)
 

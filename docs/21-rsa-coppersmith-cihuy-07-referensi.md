@@ -14,3 +14,7 @@
   revisited* (1997).
 - Boneh, *Twenty years of attacks on the RSA cryptosystem*.
 - `fpylll` LLL documentation.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

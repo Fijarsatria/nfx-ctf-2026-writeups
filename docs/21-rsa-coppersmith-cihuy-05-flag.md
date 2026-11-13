@@ -11,6 +11,7 @@
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
 > **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](21-rsa-coppersmith-cihuy-06-bukti-evidence.md)
 
+> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFXCTF{C0pp3rsm1th_p4rt14l_k3y_3xp0sur3_9617eda9}`
 > **Status:** `VERIFIED`
 

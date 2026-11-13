@@ -17,7 +17,7 @@ prctl(PR_SET_NO_NEW_PRIVS, 1, 0, 0, 0)
 prctl(PR_SET_SECCOMP, SECCOMP_MODE_FILTER, &prog)
 ```
 
-Allow-list (decode lengkap di `writeups/assets/narrowgate/02b-seccomp.txt`):
+Allow-list (decode lengkap di `docs/assets/narrowgate/02b-seccomp.txt`):
 
 ```text
 read(0), write(1), open(2), close(3), lseek(8), fstat(5),

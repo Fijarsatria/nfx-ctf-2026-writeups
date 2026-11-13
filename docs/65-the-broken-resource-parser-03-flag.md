@@ -11,6 +11,7 @@
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
 > **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](65-the-broken-resource-parser-04-bukti-evidence.md)
 
+> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{Ad1o0Ssss_Br0k3nnn_fl3gg}`
 > **Status:** `VERIFIED`
 

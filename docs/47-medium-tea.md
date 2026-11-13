@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Reverse` |
 | Difficulty | `Medium` |
-| Poin | `100` |
+| Poin (snapshot) | `100` |
 | Author | `cypera` |
 | Solves | `25` |
 | Tools | python3, pwntools, checksec, gdb, objdump, readelf, strings, sage |
 | Flag | `NFX{t1ny_3ncrypt10n_4lg0r1thm_32_r0und5}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 
@@ -33,13 +35,13 @@ Jadi ceritanya gini. binary `medium_tea` memvalidasi flag 40 byte dari `argv[1]`
 |---:|---|---|---|
 | 1 | Recon | NFX{...} | [Buka](47-medium-tea-01-recon.md) |
 | 2 | Triage awal | file reverse/Medium_02_TEA/medium_tea | [Buka](47-medium-tea-02-triage-awal.md) |
-| 3 | Perintah akuisisi bukti | file "$BIN" > writeups/assets/medium-tea/01-identitas.txt | [Buka](47-medium-tea-03-perintah-akuisisi-bukti.md) |
+| 3 | Perintah akuisisi bukti | file "$BIN" > docs/assets/medium-tea/01-identitas.txt | [Buka](47-medium-tea-03-perintah-akuisisi-bukti.md) |
 | 4 | Alur utama | Input 40 byte disalin ke [rsp], lalu diproses 5 blok × 8 byte. | [Buka](47-medium-tea-04-alur-utama.md) |
 | 5 | Round function TEA yang dimodifikasi | Binary melakukan hal yang sama, tetapi dengan konstanta berbeda: | [Buka](47-medium-tea-05-round-function-tea-yang-dimodifikasi.md) |
 | 6 | Analisis | Dari lea r10,[rip+0xef9] # 2040 dan panjang 40 byte: | [Buka](47-medium-tea-06-analisis.md) |
 | 7 | Strategi | — | [Buka](47-medium-tea-07-strategi.md) |
-| 8 | Solver lengkap | File: writeups/assets/medium-tea/solvetea.py | [Buka](47-medium-tea-08-solver-lengkap.md) |
-| 9 | Output asli | python3 writeups/assets/medium-tea/solve_tea.py | [Buka](47-medium-tea-09-output-asli.md) |
+| 8 | Solver lengkap | File: docs/assets/medium-tea/solvetea.py | [Buka](47-medium-tea-08-solver-lengkap.md) |
+| 9 | Output asli | python3 docs/assets/medium-tea/solve_tea.py | [Buka](47-medium-tea-09-output-asli.md) |
 | 10 | Flag | NFX{t1ny_3ncrypt10n_4lg0r1thm_32_r0und5} | [Buka](47-medium-tea-10-flag.md) |
 | 11 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](47-medium-tea-11-bukti-evidence.md) |
 | 12 | Referensi | — | [Buka](47-medium-tea-12-referensi.md) |

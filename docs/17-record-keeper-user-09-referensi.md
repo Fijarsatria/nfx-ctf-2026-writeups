@@ -14,3 +14,7 @@
 - `Arkango/CVE-2026-111497` — exploit worker record transform.
 - Imperva / Akamai / OX Security — analisis Node2Shell.
 - Dokumentasi Node.js `zlib.createBrotliDecompress`.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

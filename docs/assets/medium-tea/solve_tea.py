@@ -12,8 +12,7 @@ import sys
 
 from elftools.elf.elffile import ELFFile
 
-ROOT = pathlib.Path(__file__).resolve().parents[3]
-DEFAULT_BIN = ROOT / "reverse" / "Medium_02_TEA" / "medium_tea"
+DEFAULT_BIN = pathlib.Path(__file__).resolve().parent / "medium_tea"
 
 M32 = 0xFFFFFFFF
 DELTA = 0x9E3779B9

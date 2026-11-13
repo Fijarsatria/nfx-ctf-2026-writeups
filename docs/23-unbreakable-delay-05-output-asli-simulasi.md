@@ -4,14 +4,14 @@
 
 > **Langkah 5/8 — Output asli simulasi.** Output asli simulasi
 >
-> **Titik penting:** python3 writeups/assets/unbreakable-delay/sim_vdf.py
+> **Titik penting:** python3 docs/assets/unbreakable-delay/sim_vdf.py
 >
 > **Berikutnya:** [Flag](23-unbreakable-delay-06-flag.md)
 
 ## 3.3 Output asli simulasi
 
 ```text
-$ python3 writeups/assets/unbreakable-delay/sim_vdf.py
+$ python3 docs/assets/unbreakable-delay/sim_vdf.py
 [instance] N bits       = 1023
 [instance] p ^ q        = 0x1000000000000000000000000000000000000000000000000000000000000000000000000000
 [instance] p            = 0x8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005eedbeef123477cdf

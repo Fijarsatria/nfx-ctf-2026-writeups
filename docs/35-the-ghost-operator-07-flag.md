@@ -11,6 +11,7 @@
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
 > **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](35-the-ghost-operator-08-bukti-evidence.md)
 
+> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{villa_istana_bunga_lembang}`
 > **Status:** `VERIFIED`
 

@@ -5,7 +5,7 @@
 
 [← Overview](30-stay.md) · [Index](index.md)
 
-> **Langkah 5/6 — Bukti / Evidence.** Semua bukti berada di writeups/assets/stay/.
+> **Langkah 5/6 — Bukti / Evidence.** Semua bukti berada di docs/assets/stay/.
 >
 > **Titik penting:** arsip screenshot dan transkrip
 >
@@ -88,7 +88,7 @@
 
 ## Tabel Evidence
 
-Semua bukti berada di `writeups/assets/stay/`.
+Semua bukti berada di `docs/assets/stay/`.
 
 | Bukti | File | Keterangan |
 |---|---|---|

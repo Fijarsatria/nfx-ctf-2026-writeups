@@ -2,16 +2,16 @@
 
 [← Overview](21-rsa-coppersmith-cihuy.md) · [Index](index.md)
 
-> **Langkah 4/7 — Solver.** Script writeups/assets/rsa-coppersmith-cihuy/verify.py mengecek ulang:
+> **Langkah 4/7 — Solver.** Script docs/assets/rsa-coppersmith-cihuy/verify.py mengecek ulang:
 >
-> **Titik penting:** python3 writeups/assets/rsa-coppersmith-cihuy/solve.py · python3 verify.py · NFXCTF{C0pp3rsm1th_p4rt14l_k3y_3xp0sur3_9617eda9}
+> **Titik penting:** python3 docs/assets/rsa-coppersmith-cihuy/solve.py · python3 verify.py · NFXCTF{C0pp3rsm1th_p4rt14l_k3y_3xp0sur3_9617eda9}
 >
 > **Berikutnya:** [Flag](21-rsa-coppersmith-cihuy-05-flag.md)
 
 ## 3.2 Output asli
 
 ```text
-$ python3 writeups/assets/rsa-coppersmith-cihuy/solve.py
+$ python3 docs/assets/rsa-coppersmith-cihuy/solve.py
 m 2 dim 4
 m 3 dim 6
 m 4 dim 8
@@ -21,7 +21,7 @@ PT bytes: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
 
 ## 3.3 Verifikasi
 
-Script `writeups/assets/rsa-coppersmith-cihuy/verify.py` mengecek ulang:
+Script `docs/assets/rsa-coppersmith-cihuy/verify.py` mengecek ulang:
 
 ```text
 $ python3 verify.py

@@ -7,13 +7,23 @@
 |---|---|
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Forensics` |
+| Author | `Ariaf` |
 | Difficulty | `Baby` |
-| Poin | `100` |
+| Poin (snapshot) | `100` |
 | Tools | git |
 | Flag | `NFX{g1t_c0nf1g_h34d3r_l34k_h1dd3n_br4nch_9c1e7a}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — Token `.git/config` dipakai untuk membaca hidden branch `archive/q3-handover`; flag ada di `notes/handover.txt`. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
+
+
+## TL;DR
+
+- **Flag:** `NFX{g1t_c0nf1g_h34d3r_l34k_h1dd3n_br4nch_9c1e7a}`
+- **Metode:** **PARTIAL** — Config leak terdokumentasi; branch remote tidak ada di zip.
+- **Baca langkah lengkap:** [Cara Mendapatkan Flag](81-dead-drop-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)
 

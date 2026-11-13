@@ -8,11 +8,13 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Osint` |
 | Difficulty | `Medium` |
-| Poin | `380` |
+| Poin (snapshot) | `380` |
 | Author | `Kada` |
 | Tools | curl, python3, exiftool, git |
 | Flag | `NFX{Gr4v4t4r_0s1nt_R3cru1t3r_D1hL34Rn}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

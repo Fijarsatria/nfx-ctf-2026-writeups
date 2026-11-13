@@ -12,3 +12,7 @@
 - ZIP local file header format.
 - `zsteg` LSB extraction.
 - Teknik trailer data setelah `IEND`.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

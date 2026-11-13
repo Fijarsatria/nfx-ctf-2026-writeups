@@ -7,12 +7,22 @@
 |---|---|
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Web` |
+| Author | `Ariaf` |
 | Difficulty | `Easy` |
-| Poin | `100` |
+| Poin (snapshot) | `100` |
 | Flag | `NFX{r4c3_c0nd1t10n_g1ft_c4rd_d0ubl3_sp3nd}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
+
+
+## TL;DR
+
+- **Flag:** `NFX{r4c3_c0nd1t10n_g1ft_c4rd_d0ubl3_sp3nd}`
+- **Metode:** **FULL** — metode utama berhasil direproduksi.
+- **Baca langkah lengkap:** [Cara Mendapatkan Flag](70-nexarewards-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)
 

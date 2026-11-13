@@ -29,8 +29,8 @@ from scipy.io import wavfile
 from scipy.ndimage import median_filter
 from scipy.signal import stft
 
-WAV = Path("/home/bocil/ctf/nfx/work/event/misc/frekuensi-sunyi/rekaman_lobi.wav")
-OUT = Path("/home/bocil/ctf/nfx/writeups/assets/frekuensi-sunyi")
+WAV = Path("<repo>/work/event/misc/frekuensi-sunyi/rekaman_lobi.wav")
+OUT = Path("<repo>/docs/assets/frekuensi-sunyi")
 TRANSCRIPTION = "ASK{o0fP4_Pr01Y}"
 
 fs, audio = wavfile.read(WAV)

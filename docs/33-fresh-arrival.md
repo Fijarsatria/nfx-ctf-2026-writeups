@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Osint` |
 | Difficulty | `Medium` |
-| Poin | `340` |
+| Poin (snapshot) | `340` |
 | Author | `Ariaf` |
 | Solves | `9` |
 | Tools | curl, python3, exiftool |
 | Flag | `NFX{XW_CXH_beijing_raihan}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

@@ -8,11 +8,13 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Web` |
 | Difficulty | `Medium` |
-| Poin | `480` |
+| Poin (snapshot) | `480` |
 | Author | `Ariaf` |
 | Tools | curl, python3, sage, git, docker |
 | Flag | **OPEN — belum ditemukan** |
 | Status | `OPEN` |
+| Metode | **OPEN** — flag belum ditemukan. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

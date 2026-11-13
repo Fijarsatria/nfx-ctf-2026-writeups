@@ -2,7 +2,7 @@
 
 [← Overview](10-nfxctf-convention.md) · [Index](index.md)
 
-> **Langkah 5/9 — Eksploitasi.** Tersimpan lengkap di writeups/assets/nfxctf-convention/exploit.py.
+> **Langkah 5/9 — Eksploitasi.** Tersimpan lengkap di docs/assets/nfxctf-convention/exploit.py.
 >
 > **Titik penting:** python3 exploit.py \| tee 03-exploit-run.txt · NFX{LOCAL_TEST_FLAG_CONVENTION}
 >
@@ -29,7 +29,7 @@
 
 ## 3.3 Script exploit
 
-Tersimpan lengkap di `writeups/assets/nfxctf-convention/exploit.py`. Bagian inti:
+Tersimpan lengkap di `docs/assets/nfxctf-convention/exploit.py`. Bagian inti:
 
 ```python
 p.sendlineafter(b'name: ', b'pwner')
@@ -54,7 +54,7 @@ p.sendline(b'cat flag.txt; echo PWNED_END')
 Menjalankan:
 
 ```bash
-cd writeups/assets/nfxctf-convention
+cd docs/assets/nfxctf-convention
 echo 'NFX{LOCAL_TEST_FLAG_CONVENTION}' > flag.txt     # fixture uji lokal
 python3 exploit.py | tee 03-exploit-run.txt
 ```

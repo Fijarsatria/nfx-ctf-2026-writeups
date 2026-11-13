@@ -16,3 +16,7 @@
 - Cargo Facts, “Startup Aero Nusantara Cargo acquires 1st 737-300F”
   (12 Nov 2025) — konteks pengiriman PK-ADL.
 - `flags/wave2/Fresh_Arrival.NOTES.md` — catatan solve sebelumnya.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

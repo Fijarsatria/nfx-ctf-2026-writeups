@@ -10,8 +10,7 @@ import sys
 
 from elftools.elf.elffile import ELFFile
 
-ROOT = pathlib.Path(__file__).resolve().parents[3]          # /home/bocil/ctf/nfx
-DEFAULT_BIN = ROOT / "reverse" / "Medium_01_RC4" / "medium_rc4"
+DEFAULT_BIN = pathlib.Path(__file__).resolve().parent / "medium_rc4"
 
 
 def read_vaddr(path: pathlib.Path, vaddr: int, size: int) -> bytes:

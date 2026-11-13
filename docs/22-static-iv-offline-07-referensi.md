@@ -11,3 +11,7 @@
 - NIST SP 800-38A — CBC mode.
 - PKCS#7 padding (RFC 5652).
 - OWASP Cryptographic Storage Cheat Sheet.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

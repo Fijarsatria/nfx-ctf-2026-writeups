@@ -4,7 +4,7 @@
 
 > **Langkah 5/14 — Analisis.** ptrace(PTRACETRACEME, 0, 1, 0) normalnya mengembalikan 0.
 >
-> **Titik penting:** strace -f -e trace=ptrace ./reverse/Hard_03_Castaway/castaway < writeups/assets/castaway/castaway_in.txt · cat writeups/assets/castaway/castaway_in.txt \| ./reverse/Hard_03_Castaway/castaway
+> **Titik penting:** strace -f -e trace=ptrace ./reverse/Hard_03_Castaway/castaway < docs/assets/castaway/castaway_in.txt · cat docs/assets/castaway/castaway_in.txt \| ./reverse/Hard_03_Castaway/castaway
 >
 > **Berikutnya:** [Fungsi transform `0x1282`](43-castaway-06-fungsi-transform-0x1282.md)
 
@@ -15,7 +15,7 @@
 Ini terlihat pada bukti:
 
 ```text
-$ strace -f -e trace=ptrace ./reverse/Hard_03_Castaway/castaway < writeups/assets/castaway/castaway_in.txt
+$ strace -f -e trace=ptrace ./reverse/Hard_03_Castaway/castaway < docs/assets/castaway/castaway_in.txt
 ptrace(PTRACE_TRACEME)                  = -1 EPERM (Operation not permitted)
 flag> Nope.
 ```
@@ -23,7 +23,7 @@ flag> Nope.
 Sedangkan eksekusi normal:
 
 ```text
-$ cat writeups/assets/castaway/castaway_in.txt | ./reverse/Hard_03_Castaway/castaway
+$ cat docs/assets/castaway/castaway_in.txt | ./reverse/Hard_03_Castaway/castaway
 flag> Access granted.
 ```
 

@@ -12,3 +12,7 @@
 - Windows DPAPI masterkey & Credential Manager format.
 - ZipCrypto vs AES-256 ZIP.
 - Teknik overlay teks pada JPEG.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

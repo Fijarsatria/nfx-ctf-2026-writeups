@@ -54,7 +54,7 @@ Catatan sebelumnya (`flags/web/NXPortal.txt`) menyebut:
 - `curl`, `python3` + `requests`.
 - Instance dijalankan ulang dengan:
   ```bash
-  cd /home/bocil/ctf/nfx
+  cd <repo>
   python3 nxapi.py nx-up "NFX/NXPortal" "NFXCTF-NFCC-NXCTF-2026"
   ```
 - Sink email eksternal untuk uji: **mail.tm** (API gratis).

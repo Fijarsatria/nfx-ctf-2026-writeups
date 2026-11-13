@@ -16,7 +16,7 @@
 from pathlib import Path
 import itertools
 
-SRC = Path("/home/bocil/ctf/nfx/crypto/Dokodemo_Door/rahasia.pdf")
+SRC = Path("<repo>/crypto/Dokodemo_Door/rahasia.pdf")
 HEAD = b"%PDF-1.4\n"
 TAIL = b"%%EOF\n"
 

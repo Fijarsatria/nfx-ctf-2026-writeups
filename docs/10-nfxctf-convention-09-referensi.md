@@ -12,3 +12,7 @@
 - Catatan lama: `work/event/pwn/nfxctf-convention/solve/WRITEUP.md`.
 - pwntools ELF/ROP: <https://docs.pwntools.com/>
 - Format string positional arguments: `man 3 printf`.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

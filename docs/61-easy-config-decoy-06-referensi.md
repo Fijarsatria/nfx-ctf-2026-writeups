@@ -10,3 +10,7 @@
 
 - `objdump -s -j .rodata`.
 - Flag yang dipecah dan decoy string.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

@@ -2,15 +2,15 @@
 
 [← Overview](19-ecdsa-nonce-bias.md) · [Index](index.md)
 
-> **Langkah 3/7 — Script lengkap.** Tersimpan di writeups/assets/ecdsa-nonce-bias/solve.py:
+> **Langkah 3/7 — Script lengkap.** Tersimpan di docs/assets/ecdsa-nonce-bias/solve.py:
 >
-> **Titik penting:** Tersimpan di writeups/assets/ecdsa-nonce-bias/solve.py:
+> **Titik penting:** Tersimpan di docs/assets/ecdsa-nonce-bias/solve.py:
 >
 > **Berikutnya:** [Solver](19-ecdsa-nonce-bias-04-solver.md)
 
 ## 3.1 Script lengkap
 
-Tersimpan di `writeups/assets/ecdsa-nonce-bias/solve.py`:
+Tersimpan di `docs/assets/ecdsa-nonce-bias/solve.py`:
 
 ```python
 import json, hashlib

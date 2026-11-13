@@ -12,3 +12,7 @@
 - `objdump(1)`, `readelf(1)` — binutils.
 - `pyelftools` — parsing ELF.
 - `pwntools` `ELF.checksec()`.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

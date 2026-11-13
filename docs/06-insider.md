@@ -8,11 +8,13 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Forensics` |
 | Difficulty | `Medium` |
-| Poin | `100` |
+| Poin (snapshot) | `100` |
 | Author | `Zer0` |
 | Tools | python3, exiftool, git |
 | Flag | `NFX{wraithbyte_cve202421412_20250314_zenvpn271}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

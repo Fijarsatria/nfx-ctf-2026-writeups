@@ -8,12 +8,14 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Crypto` |
 | Difficulty | `Medium` |
-| Poin | `200` |
+| Poin (snapshot) | `200` |
 | Author | `Illal` |
 | Solves | `16` |
 | Tools | curl, python3, sage, fpylll |
 | Flag | `NFXCTF{l4tt1c3_sm4ll_s3cr3t_LWE_7e2a0195}` |
 | Status | `VERIFIED` |
+| Metode | **PARTIAL** — Secret LWE berhasil dipulihkan, tetapi dekripsi ct tidak bisa direproduksi byte-exact karena KDF/nonce tidak ada di lampiran. Flag diverifikasi lewat platform. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 
@@ -33,8 +35,8 @@ Jadi ceritanya gini. attachment `lwe.py` bukan kode challenge, melainkan **trans
 |---:|---|---|---|
 | 1 | Recon | head -5 lwe.py | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-01-recon.md) |
 | 2 | Analisis | Data cocok dengan LWE public key / transkrip satu sisi: | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-02-analisis.md) |
-| 3 | Solver | Tersimpan di writeups/assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solvelwe.py: | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-03-solver.md) |
-| 4 | Solver | python3 writeups/assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solve_lwe.py lwe.py | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-04-solver-2.md) |
+| 3 | Solver | Tersimpan di docs/assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solvelwe.py: | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-03-solver.md) |
+| 4 | Solver | python3 docs/assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solve_lwe.py lwe.py | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-04-solver-2.md) |
 | 5 | Flag | NFXCTF{l4tt1c3_sm4ll_s3cr3t_LWE_7e2a0195} | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-05-flag.md) |
 | 6 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-06-bukti-evidence.md) |
 | 7 | Referensi | Cryptography (2005). | [Buka](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-07-referensi.md) |

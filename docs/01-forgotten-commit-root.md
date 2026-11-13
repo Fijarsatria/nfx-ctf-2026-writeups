@@ -8,12 +8,14 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Boot To Root` |
 | Difficulty | `Medium` |
-| Poin | `100` |
+| Poin (snapshot) | `100` |
 | Author | `Ariaf` |
 | Solves | `21` |
 | Tools | nmap, curl, git |
 | Flag | `NFX{fzf_l1st3n_r00t_sh3ll_pwn3d}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

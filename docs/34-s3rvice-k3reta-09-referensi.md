@@ -22,3 +22,7 @@
   `https://www.youtube.com/watch?v=Z5_IssE_liM`
 - YouTube: adirosesFPV, “4K DRONE FOOTAGE STASIUN CILEBUT BOGOR”,
   `https://www.youtube.com/watch?v=ElYNDiCAWYk`
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

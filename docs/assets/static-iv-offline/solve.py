@@ -1,9 +1,10 @@
 import hashlib, json
+from pathlib import Path
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 
 MASTER = b"\x13\x37" * 16
-d = json.load(open("output.txt"))
+d = json.load(open(Path(__file__).resolve().parent / "output.txt"))
 ct = bytes.fromhex(d["ct_hex"])
 iv = bytes.fromhex(d["iv_hex"])
 counter = d["counter"]

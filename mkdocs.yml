@@ -60,6 +60,9 @@ extra:
   generator: false
 nav:
 - NFX CTF 2026: index.md
+- Metadata & Snapshot: METADATA.md
+- Cara Menjalankan Solver: REPRODUCIBILITY.md
+- Referensi Umum: REFERENSI.md
 - Track Mahasiswa NF:
   - Boot To Root:
     - Forgotten Commit (Root):
@@ -458,7 +461,7 @@ nav:
       - Flag & Verifikasi: 61-easy-config-decoy-04-flag.md
       - Evidence / Bukti: 61-easy-config-decoy-05-bukti-evidence.md
       - Referensi: 61-easy-config-decoy-06-referensi.md
-  - Intro:
+  - Linux:
     - Follow Jarvis!:
       - 83-follow-jarvis.md
       - Recon: 83-follow-jarvis-01-recon.md

@@ -8,11 +8,13 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Osint` |
 | Difficulty | `Easy` |
-| Poin | `300` |
+| Poin (snapshot) | `300` |
 | Author | `Kada` |
 | Tools | exiftool, python3, browser |
 | Flag | `NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4Ya}` |
 | Status | `VERIFIED` |
+| Metode | **PARTIAL** — Flag accepted; provenance teks J4Ya dari artefak Instagram/DM belum ditunjukkan penuh. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

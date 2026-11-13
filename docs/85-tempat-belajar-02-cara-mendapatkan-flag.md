@@ -29,14 +29,25 @@ Akun yang terkait:
 - `@dihlearn.id` — poster “Digital Hour Learning”.
 - `@career.dihlearn.id` — akun karier.
 
-Di Instagram `@dihlearn.id` ada teks **Base64**. Teks itu didekode menjadi:
+Di Instagram `@dihlearn.id` ada teks **Base64**. Artefak yang berhasil
+disimpan (screenshot profil `@career.dihlearn.id`) memuat fragmen Base64 yang
+decode ke kandidat lama:
+
+```text
+NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4R!}
+```
+
+Kandidat ini **ditolak** platform. Flag yang diterima platform berbeda satu
+karakter di bagian akhir:
 
 ```text
 NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4Ya}
 ```
 
-Kandidat dari post karier yang berakhiran `J4R!` adalah artefak lama dan
-**ditolak** platform. Yang benar memakai `J4Ya`.
+Perubahan `R!` → `Ya` adalah koreksi yang diterima platform, bukan hasil
+decode langsung dari screenshot yang tersimpan. Karena itu status metode
+challenge ini tetap **PARTIAL**: flag valid, tetapi provenance `J4Ya` dari
+artefak Instagram/DM belum bisa ditunjukkan penuh.
 
 ## 3. Submit ke platform
 
@@ -55,5 +66,6 @@ CORRECT, BUT ALREADY SOLVED.
 
 Fragmen publik di screenshot ini decode ke kandidat lama
 `..._J4R!`, dan kandidat itu **ditolak** platform. Flag accepted yang dipakai
-di halaman ini adalah `..._J4Ya`, yang berasal dari teks Base64 yang benar di
-Instagram.
+di halaman ini adalah `..._J4Ya`; koreksi satu karakter ini dibuktikan oleh
+respons platform (`CORRECT, BUT ALREADY SOLVED.`), bukan oleh screenshot
+Instagram yang tersimpan.

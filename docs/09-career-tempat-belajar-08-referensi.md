@@ -15,3 +15,7 @@
 - `flags/osint/Career_Tempat_Belajar.txt` — flag yang sama, tersimpan lokal.
 - `flags/osint/Tempat_Belajar.status.txt` — catatan investigasi sebelumnya
   (email `dihlearn.id@gmail.com` → flag Career).
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

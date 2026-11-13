@@ -13,3 +13,7 @@
 - Kannan, *Minkowski's convex body theorem and integer programming* (1987).
 - Howgrave-Graham / Coppersmith lattice techniques.
 - Kyber/ML-KEM parameter set (NIST FIPS 203).
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

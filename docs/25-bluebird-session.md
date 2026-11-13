@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Forensics` |
 | Difficulty | `Hard` |
-| Poin | `420` |
+| Poin (snapshot) | `420` |
 | Author | `Ariaf` |
 | Solves | `5` |
 | Tools | strings, exiftool |
 | Flag | `NFX{Mizore_Promise_Never_Forgotten_The_Bluebird_Still_Sings}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

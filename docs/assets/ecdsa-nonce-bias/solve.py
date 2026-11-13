@@ -1,7 +1,8 @@
 import json, hashlib, sys
+from pathlib import Path
 from fpylll import IntegerMatrix, LLL, BKZ
 from Crypto.Cipher import AES
-d=json.load(open('output.txt')); n=int(d['n'],16); sigs=d['signatures']; B=1<<248
+d=json.load(open(Path(__file__).resolve().parent/'output.txt')); n=int(d['n'],16); sigs=d['signatures']; B=1<<248
 
 def check_d(dd):
     if dd<=0 or dd>=n: return False

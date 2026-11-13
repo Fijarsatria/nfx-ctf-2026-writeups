@@ -2,7 +2,7 @@
 
 [← Overview](37-gateway-under-pressure.md) · [Index](index.md)
 
-> **Langkah 5/8 — Eksploitasi.** Tersimpan di writeups/assets/gateway-under-pressure/exploit.py:
+> **Langkah 5/8 — Eksploitasi.** Tersimpan di docs/assets/gateway-under-pressure/exploit.py:
 >
 > **Titik penting:** python3 exploit.py \| tee 03-exploit-run.txt · NFX{LOCAL_TEST_FLAG_GATEWAY}
 >
@@ -30,7 +30,7 @@
 
 ### 3.3 Script exploit
 
-Tersimpan di `writeups/assets/gateway-under-pressure/exploit.py`:
+Tersimpan di `docs/assets/gateway-under-pressure/exploit.py`:
 
 ```python
 p.sendline(b'2'); p.recvuntil(b') : '); p.sendline(b'4096')
@@ -51,7 +51,7 @@ p.recvuntil(b'dispatch payload : '); p.send(payload)
 Menjalankan:
 
 ```bash
-cd writeups/assets/gateway-under-pressure
+cd docs/assets/gateway-under-pressure
 echo 'NFX{LOCAL_TEST_FLAG_GATEWAY}' > flag.txt
 python3 exploit.py | tee 03-exploit-run.txt
 ```

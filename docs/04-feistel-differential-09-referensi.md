@@ -12,3 +12,7 @@
 - Differential cryptanalysis (Biham & Shamir).
 - Z3 SMT solver.
 - PKCS#7 padding.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

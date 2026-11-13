@@ -5,7 +5,7 @@
 
 [← Overview](31-symhell.md) · [Index](index.md)
 
-> **Langkah 6/7 — Bukti / Evidence.** Semua bukti berada di writeups/assets/symhell/.
+> **Langkah 6/7 — Bukti / Evidence.** Semua bukti berada di docs/assets/symhell/.
 >
 > **Titik penting:** arsip screenshot dan transkrip
 >
@@ -67,7 +67,7 @@
 
 ## Tabel Evidence
 
-Semua bukti berada di `writeups/assets/symhell/`.
+Semua bukti berada di `docs/assets/symhell/`.
 
 | Bukti | File | Keterangan |
 |---|---|---|

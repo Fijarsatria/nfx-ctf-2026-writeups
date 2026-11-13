@@ -2,7 +2,7 @@
 
 [← Overview](20-flagkeepers.md) · [Index](index.md)
 
-> **Langkah 4/8 — Solver.** Tersimpan di writeups/assets/flagkeepers/exploitlive.py (ringkas):
+> **Langkah 4/8 — Solver.** Tersimpan di docs/assets/flagkeepers/exploitlive.py (ringkas):
 >
 > **Titik penting:** NFX{gcm_f0rb1dd3n_4tt4ck_du4l_t4g_c0ll1s10n_m4st3r}
 >
@@ -10,7 +10,7 @@
 
 ## 3.2 Exploit live
 
-Tersimpan di `writeups/assets/flagkeepers/exploit_live.py` (ringkas):
+Tersimpan di `docs/assets/flagkeepers/exploit_live.py` (ringkas):
 
 ```python
 samples = []
@@ -43,7 +43,7 @@ print(recv_until())
 
 ## 3.3 Output live asli
 
-Log `writeups/assets/flagkeepers/live_run.log`:
+Log `docs/assets/flagkeepers/live_run.log`:
 
 ```text
 [banner ok] 210

@@ -35,3 +35,7 @@ layer itu dibuka, baru ROT13 masuk akal (prefix `ASK` → `NFX`).
 - ROT5 / ROT18 — rotasi digit dan kombinasi ROT13+ROT5.
 - XOR cipher — operasi bitwise yang simetris (`a ^ k ^ k = a`).
 - Leetspeak — substitusi angka ke huruf (0=O, 1=I/L, 3=E, 4=A, 5=S).
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

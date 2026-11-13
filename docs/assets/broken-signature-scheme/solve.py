@@ -1,7 +1,8 @@
 import json, hashlib, math
+from pathlib import Path
 from Crypto.Cipher import AES
 
-d = json.load(open("output.txt"))
+d = json.load(open(Path(__file__).resolve().parent / "output.txt"))
 N = int(d["N"], 16)
 leak = int(d["leak"], 16)
 pos, lb, db = d["leak_pos"], d["leak_bits"], d["delta_bits"]

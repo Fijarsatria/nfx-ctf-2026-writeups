@@ -8,12 +8,21 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Crypto` |
 | Difficulty | `Baby` |
-| Poin | `100` |
+| Poin (snapshot) | `100` |
 | Author | `Candelena` |
 | Flag | `NFXCTF{x0r_1s_sup3r_34sy_r1ght_a8f9c2}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
+
+
+## TL;DR
+
+- **Flag:** `NFXCTF{x0r_1s_sup3r_34sy_r1ght_a8f9c2}`
+- **Metode:** **FULL** — metode utama berhasil direproduksi.
+- **Baca langkah lengkap:** [Cara Mendapatkan Flag](56-ghost-xor-04-flag.md)
 
 ## Challenge Brief (platform)
 

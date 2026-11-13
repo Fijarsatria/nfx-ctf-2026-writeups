@@ -7,13 +7,23 @@
 |---|---|
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Boot To Root` |
+| Author | `Ariaf` |
 | Difficulty | `Easy` |
-| Poin | `100` |
+| Poin (snapshot) | `100` |
 | Tools | nmap, curl, git |
 | Flag | `NFX{g1t_h1story_s3cr3ts_l34d_t0_ssh}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
+
+
+## TL;DR
+
+- **Flag:** `NFX{g1t_h1story_s3cr3ts_l34d_t0_ssh}`
+- **Metode:** **FULL** — metode utama berhasil direproduksi.
+- **Baca langkah lengkap:** [Cara Mendapatkan Flag](66-forgotten-commit-user-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)
 

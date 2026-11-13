@@ -97,10 +97,10 @@
 
 | Bukti | File | Keterangan |
 |---|---|---|
-| Identitas/hash/checksec | `writeups/assets/talatah-ti-peuntas/01-file-hash-checksec.txt` | non-PIE, partial RELRO |
-| Disassembly | `writeups/assets/talatah-ti-peuntas/02-disasm.txt` | `op_parse`, `op_view`, `op_edit`, `op_delete` |
-| Layout node/chunk | `writeups/assets/talatah-ti-peuntas/02b-record-layout.txt` | Offset overflow |
-| GOT | `writeups/assets/talatah-ti-peuntas/02c-got.txt` | `free@got`, `printf@got` |
-| Exploit | `writeups/assets/talatah-ti-peuntas/exploit.py` | Full chain |
-| Output | `writeups/assets/talatah-ti-peuntas/03-exploit-run.txt` | Leak + shell + flag lokal |
-| Flag/status | `writeups/assets/talatah-ti-peuntas/04-flag-status.txt` | Flag dari `flags/pwn/` |
+| Identitas/hash/checksec | `docs/assets/talatah-ti-peuntas/01-file-hash-checksec.txt` | non-PIE, partial RELRO |
+| Disassembly | `docs/assets/talatah-ti-peuntas/02-disasm.txt` | `op_parse`, `op_view`, `op_edit`, `op_delete` |
+| Layout node/chunk | `docs/assets/talatah-ti-peuntas/02b-record-layout.txt` | Offset overflow |
+| GOT | `docs/assets/talatah-ti-peuntas/02c-got.txt` | `free@got`, `printf@got` |
+| Exploit | `docs/assets/talatah-ti-peuntas/exploit.py` | Full chain |
+| Output | `docs/assets/talatah-ti-peuntas/03-exploit-run.txt` | Leak + shell + flag lokal |
+| Flag/status | `docs/assets/talatah-ti-peuntas/04-flag-status.txt` | Flag dari `flags/pwn/` |

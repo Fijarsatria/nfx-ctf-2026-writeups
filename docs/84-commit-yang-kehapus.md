@@ -7,13 +7,23 @@
 |---|---|
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Osint` |
+| Author | `—` |
 | Difficulty | `Baby` |
-| Poin | `260` |
+| Poin (snapshot) | `260` |
 | Tools | git |
 | Flag | `NFXCTF{g1t_d4ngl1ng_bl0b_h4v0c_5c8a19d4}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
+
+
+## TL;DR
+
+- **Flag:** `NFXCTF{g1t_d4ngl1ng_bl0b_h4v0c_5c8a19d4}`
+- **Metode:** **FULL** — metode utama berhasil direproduksi.
+- **Baca langkah lengkap:** [Cara Mendapatkan Flag](84-commit-yang-kehapus-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)
 

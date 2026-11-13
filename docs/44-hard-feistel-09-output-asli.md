@@ -4,15 +4,15 @@
 
 > **Langkah 9/13 — Output asli.** Blok terakhir berisi 3d 7d 00 — } diikuti padding nol.
 >
-> **Titik penting:** python3 writeups/assets/hard-feistel/solve_feistel.py · NFX{f315t3l_n3tw0rk_16_r0und5_r3v3rs3d}
+> **Titik penting:** python3 docs/assets/hard-feistel/solve_feistel.py · NFX{f315t3l_n3tw0rk_16_r0und5_r3v3rs3d}
 >
 > **Berikutnya:** [Verifikasi tambahan dengan gdb](44-hard-feistel-10-verifikasi-tambahan-dengan-gdb.md)
 
 ## 3.3 Output asli
 
 ```text
-$ python3 writeups/assets/hard-feistel/solve_feistel.py
-[*] binary     : /home/bocil/ctf/nfx/reverse/Hard_02_Feistel/hard_feistel
+$ python3 docs/assets/hard-feistel/solve_feistel.py
+[*] binary     : <repo>/reverse/Hard_02_Feistel/hard_feistel
 [*] round keys : 16 x 16-bit
     0x005a 0x0079 0x0098 0x00b7 0x00d6 0x00f5 0x0014 0x0033 0x0052 0x0071 0x0090 0x00af 0x00ce 0x00ed 0x000c 0x002b
 [*] ciphertext : b949ad0bcc2c088063ec6501c0776b744cb390a40840aeb3ff87facc95252c4d11b585907ca91072

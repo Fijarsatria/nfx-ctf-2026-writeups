@@ -13,3 +13,7 @@
 - NATO phonetic alphabet.
 - `work/event/crypto/black-box-protocol-n4t0/ANALYSIS.md` (analisis lokal
   sebelumnya, kesimpulan sama: payload habis, flag platform tidak cocok).
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

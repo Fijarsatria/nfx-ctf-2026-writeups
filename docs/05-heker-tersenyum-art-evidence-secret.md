@@ -8,11 +8,13 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Forensics` |
 | Difficulty | `Medium` |
-| Poin | `280` |
+| Poin (snapshot) | `280` |
 | Author | `salep88` |
 | Tools | python3, strings, binwalk, exiftool, zsteg |
 | Flag | `NFX{LSB_3ASY_OR_H4RD_IDK}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

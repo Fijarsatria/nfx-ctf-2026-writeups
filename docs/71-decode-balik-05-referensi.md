@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](71-decode-balik.md).
 
 CyberChef recipe reversing.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

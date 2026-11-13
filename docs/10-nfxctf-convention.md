@@ -8,12 +8,14 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Pwn` |
 | Difficulty | `Medium` |
-| Poin | `280` |
+| Poin (snapshot) | `280` |
 | Author | `Kada` |
 | Solves | `12` |
 | Tools | python3, pwntools, checksec, objdump, strings |
 | Flag | `NFX{h4ck3r_c0nv3nt10n_m4st3r_pwn3r_9988776655}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

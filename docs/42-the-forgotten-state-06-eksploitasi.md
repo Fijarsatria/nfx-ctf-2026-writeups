@@ -2,7 +2,7 @@
 
 [← Overview](42-the-forgotten-state.md) · [Index](index.md)
 
-> **Langkah 6/10 — Eksploitasi.** Tersimpan di writeups/assets/the-forgotten-state/exploit.py:
+> **Langkah 6/10 — Eksploitasi.** Tersimpan di docs/assets/the-forgotten-state/exploit.py:
 >
 > **Titik penting:** python3 exploit.py \| tee 03-exploit-run.txt · NFX{LOCAL_TEST_FLAG_STATE}
 >
@@ -20,7 +20,7 @@
 
 ## 3.2 Script lengkap
 
-Tersimpan di `writeups/assets/the-forgotten-state/exploit.py`:
+Tersimpan di `docs/assets/the-forgotten-state/exploit.py`:
 
 ```python
 create(p, b'rec0', b'A'*0x20)
@@ -43,7 +43,7 @@ p.sendline(b'cat flag.txt; echo END_PWN')
 Menjalankan:
 
 ```bash
-cd writeups/assets/the-forgotten-state
+cd docs/assets/the-forgotten-state
 echo 'NFX{LOCAL_TEST_FLAG_STATE}' > flag.txt
 python3 exploit.py | tee 03-exploit-run.txt
 ```

@@ -10,3 +10,7 @@
 
 - Python `base64.b64decode`.
 - Slice `[::-1]` untuk membalik string.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

@@ -2,15 +2,15 @@
 
 [← Overview](18-broken-signature-scheme.md) · [Index](index.md)
 
-> **Langkah 4/8 — Solver.** Tersimpan di writeups/assets/broken-signature-scheme/solve.py:
+> **Langkah 4/8 — Solver.** Tersimpan di docs/assets/broken-signature-scheme/solve.py:
 >
-> **Titik penting:** Tersimpan di writeups/assets/broken-signature-scheme/solve.py:
+> **Titik penting:** Tersimpan di docs/assets/broken-signature-scheme/solve.py:
 >
 > **Berikutnya:** [Solver](18-broken-signature-scheme-05-solver-2.md)
 
 ## 3.1 Script lengkap
 
-Tersimpan di `writeups/assets/broken-signature-scheme/solve.py`:
+Tersimpan di `docs/assets/broken-signature-scheme/solve.py`:
 
 ```python
 import json, hashlib, math

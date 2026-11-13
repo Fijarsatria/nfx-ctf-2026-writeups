@@ -13,8 +13,7 @@ import sys
 
 from elftools.elf.elffile import ELFFile
 
-ROOT = pathlib.Path(__file__).resolve().parents[3]
-DEFAULT_BIN = ROOT / "reverse" / "Hard_02_Feistel" / "hard_feistel"
+DEFAULT_BIN = pathlib.Path(__file__).resolve().parent / "hard_feistel"
 
 M32 = 0xFFFFFFFF
 M16 = 0xFFFF

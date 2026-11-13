@@ -4,7 +4,7 @@
 
 > **Langkah 1/7 — Recon.** Tidak ada hint tambahan.
 >
-> **Titik penting:** file flight_recovery_manifest.xlsx · mkdir -p /tmp/opencode/bb && cd /tmp/opencode/bb · cp /home/bocil/ctf/nfx/umum/Crypto/black-box-protocol-n4t0/flight_recovery_manifest.xlsx .
+> **Titik penting:** file flight_recovery_manifest.xlsx · mkdir -p /tmp/opencode/bb && cd /tmp/opencode/bb · cp <repo>/umum/Crypto/black-box-protocol-n4t0/flight_recovery_manifest.xlsx .
 >
 > **Berikutnya:** [Analisis](02-black-box-protocol-n4t0-02-analisis.md)
 
@@ -41,7 +41,7 @@ flight_recovery_manifest.xlsx: Microsoft Excel 2007+
 
 ```bash
 $ mkdir -p /tmp/opencode/bb && cd /tmp/opencode/bb
-$ cp /home/bocil/ctf/nfx/umum/Crypto/black-box-protocol-n4t0/flight_recovery_manifest.xlsx .
+$ cp <repo>/umum/Crypto/black-box-protocol-n4t0/flight_recovery_manifest.xlsx .
 $ unzip -o -q flight_recovery_manifest.xlsx -d x
 $ find x -type f | sort
 x/[Content_Types].xml

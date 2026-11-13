@@ -13,3 +13,7 @@
 - OWASP: Server-Side Template Injection.
 - PortSwigger: SSTI → RCE.
 - CWE-1336 (Improper Neutralization of Special Elements Used in a Template Engine), CWE-287 (Improper Authentication).
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

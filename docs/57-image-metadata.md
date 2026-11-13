@@ -8,12 +8,21 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Forensics` |
 | Difficulty | `Easy` |
-| Poin | `220` |
+| Poin (snapshot) | `220` |
 | Author | `Candelena` |
 | Flag | `NFXCTF{h4shc4t_cr4ck1ng_z1p_succ3ssfu11y}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
+
+
+## TL;DR
+
+- **Flag:** `NFXCTF{h4shc4t_cr4ck1ng_z1p_succ3ssfu11y}`
+- **Metode:** **FULL** — metode utama berhasil direproduksi.
+- **Baca langkah lengkap:** [Cara Mendapatkan Flag](57-image-metadata-04-flag.md)
 
 ## Challenge Brief (platform)
 

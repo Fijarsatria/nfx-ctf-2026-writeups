@@ -12,3 +12,7 @@
 - Express `express.urlencoded({ extended: true })` dan `qs` bracket notation.
 - MongoDB query operators `$ne`, `$gt`, `$regex`.
 - CWE-943 (Improper Neutralization of Special Elements in Data Query Logic), CWE-287.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

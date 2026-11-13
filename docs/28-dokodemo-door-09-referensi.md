@@ -12,3 +12,7 @@
 - `flags/crypto/Dokodemo_Door.txt` — flag terverifikasi.
 - Teknik: repeating-key XOR, crib-drag, known-plaintext attack, PDF
   `ASCII85Decode` + `FlateDecode`.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

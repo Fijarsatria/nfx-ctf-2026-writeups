@@ -493,3 +493,11 @@ table.nx-challenge-table td:nth-child(5) { white-space: nowrap; }
   .nx-hero { animation: none; }
   .nx-progress { transition: none; }
 }
+
+/* Method-status badges (FULL / PARTIAL / ADMIN) */
+.nx-badge-full { background: rgba(16,185,129,.14); color: #6ee7b7; border: 1px solid rgba(16,185,129,.3); }
+.nx-badge-partial { background: rgba(245,158,11,.14); color: #fcd34d; border: 1px solid rgba(245,158,11,.3); }
+.nx-badge-admin { background: rgba(59,130,246,.14); color: #93c5fd; border: 1px solid rgba(59,130,246,.3); }
+[data-md-color-scheme="default"] .nx-badge-full { color: #047857; background: rgba(16,185,129,.12); border-color: rgba(16,185,129,.4); }
+[data-md-color-scheme="default"] .nx-badge-partial { color: #b45309; background: rgba(245,158,11,.12); border-color: rgba(245,158,11,.42); }
+[data-md-color-scheme="default"] .nx-badge-admin { color: #1d4ed8; background: rgba(59,130,246,.1); border-color: rgba(59,130,246,.4); }

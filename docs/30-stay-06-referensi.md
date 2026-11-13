@@ -12,3 +12,7 @@
 - `flags/wave2/Stay.txt` — flag platform.
 - Unicode Standard: `U+200B`, `U+200C`, `U+200D`, `U+2060`.
 - Teknik: zero-width steganography, Base64, repeating-key XOR.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

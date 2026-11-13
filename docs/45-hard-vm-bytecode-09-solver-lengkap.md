@@ -2,15 +2,15 @@
 
 [← Overview](45-hard-vm-bytecode.md) · [Index](index.md)
 
-> **Langkah 9/13 — Solver lengkap.** File: writeups/assets/hard-vm-bytecode/solvevm.py
+> **Langkah 9/13 — Solver lengkap.** File: docs/assets/hard-vm-bytecode/solvevm.py
 >
-> **Titik penting:** File: writeups/assets/hard-vm-bytecode/solvevm.py
+> **Titik penting:** File: docs/assets/hard-vm-bytecode/solvevm.py
 >
 > **Berikutnya:** [Output asli](45-hard-vm-bytecode-10-output-asli.md)
 
 ## 3.2 Solver lengkap
 
-File: `writeups/assets/hard-vm-bytecode/solve_vm.py`
+File: `docs/assets/hard-vm-bytecode/solve_vm.py`
 
 ```python
 #!/usr/bin/env python3
@@ -31,8 +31,7 @@ import sys
 
 from elftools.elf.elffile import ELFFile
 
-ROOT = pathlib.Path(__file__).resolve().parents[3]
-DEFAULT_BIN = ROOT / "reverse" / "Hard_01_VM_Bytecode" / "hard_vm"
+DEFAULT_BIN = pathlib.Path(__file__).resolve().parent / "hard_vm"
 
 OP = {0: "HALT", 1: "LOAD", 2: "XOR", 3: "ADD", 4: "ROL", 5: "CMP", 0xFF: "OK"}
 

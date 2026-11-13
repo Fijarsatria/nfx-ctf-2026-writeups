@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](78-kunci-sudo-sing-kesasar.md).
 
 Parser rule, struct field, heap/stack corruption.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

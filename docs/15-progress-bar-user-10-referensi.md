@@ -14,3 +14,7 @@
 - Dokumentasi PHP `session.upload_progress`.
 - Python `subprocess` documentation — risiko `shell=True`.
 - OWASP: OS Command Injection; Insecure Direct Object Reference pada file flag.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Crypto` |
 | Difficulty | `Medium` |
-| Poin | `120` |
+| Poin (snapshot) | `120` |
 | Author | `Illal` |
 | Solves | `20` |
 | Tools | python3, sage, fpylll, git |
 | Flag | `NFXCTF{C0pp3rsm1th_p4rt14l_k3y_3xp0sur3_9617eda9}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 
@@ -33,8 +35,8 @@ Jadi ceritanya gini. RSA 1024-bit dengan `e=65537`; hanya `chall.py` yang diberi
 |---:|---|---|---|
 | 1 | Recon | Isi chall.py hanya konstanta: | [Buka](21-rsa-coppersmith-cihuy-01-recon.md) |
 | 2 | Analisis | Faktor p dapat ditulis: | [Buka](21-rsa-coppersmith-cihuy-02-analisis.md) |
-| 3 | Script lengkap | Tersimpan di writeups/assets/rsa-coppersmith-cihuy/solve.py: | [Buka](21-rsa-coppersmith-cihuy-03-script-lengkap.md) |
-| 4 | Solver | python3 writeups/assets/rsa-coppersmith-cihuy/solve.py | [Buka](21-rsa-coppersmith-cihuy-04-solver.md) |
+| 3 | Script lengkap | Tersimpan di docs/assets/rsa-coppersmith-cihuy/solve.py: | [Buka](21-rsa-coppersmith-cihuy-03-script-lengkap.md) |
+| 4 | Solver | python3 docs/assets/rsa-coppersmith-cihuy/solve.py | [Buka](21-rsa-coppersmith-cihuy-04-solver.md) |
 | 5 | Flag | NFXCTF{C0pp3rsm1th_p4rt14l_k3y_3xp0sur3_9617eda9} | [Buka](21-rsa-coppersmith-cihuy-05-flag.md) |
 | 6 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](21-rsa-coppersmith-cihuy-06-bukti-evidence.md) |
 | 7 | Referensi | vulnerabilities (1997). | [Buka](21-rsa-coppersmith-cihuy-07-referensi.md) |

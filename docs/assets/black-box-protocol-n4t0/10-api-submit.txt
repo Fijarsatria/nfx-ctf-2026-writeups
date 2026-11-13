@@ -1,0 +1,10 @@
+$ # Black Box Protocol N4T0 — timeline submit
+$ # 2026-11-07 14:50 WIB — kandidat urutan kolom salah
+$ python3 submit_flag.py f72a1790-01af-4e03-b789-00a949c8c270 'NFX{C0mbO_H3X_N4T0PH0N3T1C1N1}'
+(200, {'success': False, 'message': 'Incorrect flag'})
+
+$ # 2026-11-07 20:17 WIB — challenge di-update (updated_at 13:17 UTC)
+$ # 2026-11-13 — flag final (urutan A-B-C) diterima
+$ python3 submit_flag.py f72a1790-01af-4e03-b789-00a949c8c270 'NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}'
+(200, {'success': True, 'message': 'Correct, but already solved.'})
+# total_solves = 20

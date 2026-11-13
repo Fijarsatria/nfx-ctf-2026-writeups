@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](69-matryoshka-encoding.md).
 
 Layered encoding, base64, compression.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

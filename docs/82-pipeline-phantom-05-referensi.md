@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](82-pipeline-phantom.md).
 
 GitHub Actions log, orphan commit.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

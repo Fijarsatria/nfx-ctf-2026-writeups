@@ -1,18 +1,28 @@
 # Follow Jarvis!
 
-<div class="nx-challenge-head"><span class="nx-chip">Track Mahasiswa NF · Intro</span><span class="nx-chip">Easy</span><span class="nx-chip">250 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">Track Mahasiswa NF · Linux</span><span class="nx-chip">Easy</span><span class="nx-chip">250 poin</span><span class="nx-badge nx-badge-verified">VERIFIED</span></div>
 
 
 | Field | Nilai |
 |---|---|
 | Event | `umum/mahasiswa_nf` |
-| Kategori | `Intro` |
+| Kategori | `Linux` |
+| Author | `—` |
 | Difficulty | `Easy` |
-| Poin | `250` |
+| Poin (snapshot) | `250` |
 | Flag | `NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}` |
 | Status | `VERIFIED` |
+| Metode | **ADMIN-ASSISTED** — flag dari admin/event staff. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
+
+
+## TL;DR
+
+- **Flag:** `NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}`
+- **Metode:** **ADMIN-ASSISTED** — Flag diberikan admin melalui DM Discord setelah follow akun sponsor.
+- **Baca langkah lengkap:** [Cara Mendapatkan Flag](83-follow-jarvis-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)
 

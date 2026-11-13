@@ -5,7 +5,7 @@
 
 [← Overview](28-dokodemo-door.md) · [Index](index.md)
 
-> **Langkah 8/9 — Bukti / Evidence.** Semua bukti berada di writeups/assets/dokodemo-door/.
+> **Langkah 8/9 — Bukti / Evidence.** Semua bukti berada di docs/assets/dokodemo-door/.
 >
 > **Titik penting:** arsip screenshot dan transkrip
 >
@@ -70,7 +70,7 @@
 
 ## Tabel Evidence
 
-Semua bukti berada di `writeups/assets/dokodemo-door/`.
+Semua bukti berada di `docs/assets/dokodemo-door/`.
 
 | Bukti | File | Keterangan |
 |---|---|---|

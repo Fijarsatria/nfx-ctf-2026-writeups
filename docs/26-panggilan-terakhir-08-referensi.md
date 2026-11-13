@@ -12,3 +12,7 @@
 - RTP (RFC 3550), payload type 0 = PCMU/8000.
 - G.711 μ-law decoding.
 - faster-whisper untuk ASR.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

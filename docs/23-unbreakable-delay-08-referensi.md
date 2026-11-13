@@ -12,3 +12,7 @@
 - Wesolowski, *Efficient Verifiable Delay Functions* (2019).
 - Pietrzak, *Simple Verifiable Delay Functions* (2018).
 - Rivest, Shamir, Adleman — kesulitan faktorisasi RSA.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

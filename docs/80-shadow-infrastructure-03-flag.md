@@ -7,6 +7,7 @@
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
 > **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](80-shadow-infrastructure-04-bukti-evidence.md)
 
+> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFXCTF{dn5_ct_l0g_p1v0t_b34c0n_a72e4091}`
 > **Status:** `VERIFIED`
 

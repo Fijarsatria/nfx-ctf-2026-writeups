@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](84-commit-yang-kehapus.md).
 
 Git dangling object, deleted commit.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

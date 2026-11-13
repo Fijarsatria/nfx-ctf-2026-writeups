@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Misc` |
 | Difficulty | `Hard` |
-| Poin | `320` |
+| Poin (snapshot) | `320` |
 | Author | `salep88` |
 | Solves | `10` |
 | Tools | python3, exiftool, openssl |
 | Flag | `NFX{FR3Y4_MY_L0V3LY!}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

@@ -1,6 +1,6 @@
 # Dead Drop — Evidence / Bukti
 
-<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">1 transkrip / script</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">4 screenshot</span><span class="nx-chip">2 transkrip / script</span></div>
 
 
 [← Overview](81-dead-drop.md) · [Index](index.md)
@@ -38,9 +38,16 @@
 
 *Terminal evidence — `01-solve.txt` (arsip transkrip sesi solve).*
 
+<div class="nx-evidence-grid">
+<figure><a href="assets/dead-drop/term-10-git-ls-remote.png" target="_blank" rel="noopener"><img src="assets/dead-drop/term-10-git-ls-remote.png" alt="git ls-remote dan handover" loading="lazy"></a><figcaption>term-10-git-ls-remote.png</figcaption></figure>
+</div>
+
+*Terminal evidence — token dari `.git/config` dipakai untuk membaca hidden branch `archive/q3-handover` dan tag `incident-0914`.*
+
 ### Transkrip mentah & script
 
 - [`01-solve.txt`](assets/dead-drop/01-solve.txt)
+- [`10-git-ls-remote.txt`](assets/dead-drop/10-git-ls-remote.txt)
 
 ## Validasi platform (real)
 
@@ -60,17 +67,18 @@
 
 ![Bukti Dead Drop](assets/dead-drop/10-bukti.png)
 
-*Terminal evidence — config leak, `git fsck`, dan public API 404.*
+*Terminal evidence — config leak dan analisis awal.*
 
-- `.git/config` menyimpan `http.extraheader` berisi token GitHub (disensor).
-- `git branch -a` hanya `main`; `git fsck --full --unreachable --no-reflogs`
-  kosong; semua blob dipindai, tidak ada flag.
-- `https://api.github.com/repos/netmetrics-net/infra-runbooks` → 404.
-- Repo publik organisasi hanya `c2-deploy-pipeline`.
-- Branch remote tidak ada di zip; klaim branch tersembunyi tidak bisa
-  diverifikasi dari artefak ini.
+- `.git/config` menyimpan `http.extraheader` berisi token GitHub (disensor di writeup).
+- Token masih valid saat snapshot; `git ls-remote` membaca ref tersembunyi
+  `refs/heads/archive/q3-handover` dan tag `incident-0914` (commit `67e53bf`).
+- `git fetch --tags` lalu `git show incident-0914:notes/handover.txt`
+  menampilkan flag.
+- Ini melengkapi langkah yang sebelumnya tidak ada di zip: branch tersembunyi
+  hanya bisa dibaca lewat token dari config.
 
 **Berkas mentah:** [ANALYSIS.md](assets/dead-drop/10-ANALYSIS.md) ·
 [git-config-redacted.txt](assets/dead-drop/10-git-config-redacted.txt) ·
+[10-git-ls-remote.txt](assets/dead-drop/10-git-ls-remote.txt) ·
 [public-api-404.json](assets/dead-drop/10-public-api-404.json) ·
 [org-repos.json](assets/dead-drop/10-org-repos.json)

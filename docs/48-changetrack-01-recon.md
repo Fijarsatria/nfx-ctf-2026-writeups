@@ -40,7 +40,7 @@ Tidak ada source lokal di workspace. Yang tersedia hanya metadata platform dan i
 Instance di-launch dengan:
 
 ```bash
-cd /home/bocil/ctf/nfx
+cd <repo>
 python3 nxapi.py nx-up "NFX/ChangeTrack" "NFXCTF-NFCC-NXCTF-2026"
 ```
 

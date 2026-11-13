@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](72-nexasupply.md).
 
 XXE, external entity, local file read.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

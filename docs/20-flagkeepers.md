@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Crypto` |
 | Difficulty | `Hard` |
-| Poin | `440` |
+| Poin (snapshot) | `440` |
 | Author | `Ariaf` |
 | Solves | `4` |
 | Tools | python3, sage |
 | Flag | `NFX{gcm_f0rb1dd3n_4tt4ck_du4l_t4g_c0ll1s10n_m4st3r}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 
@@ -33,7 +35,7 @@ Jadi ceritanya gini. `app.py` memakai **satu nonce GCM global** untuk dua key be
 |---:|---|---|---|
 | 1 | Recon | tcp://s1.nfx.my.id:43210 | [Buka](20-flagkeepers-01-recon.md) |
 | 2 | Analisis | Untuk nonce 12 byte: | [Buka](20-flagkeepers-02-analisis.md) |
-| 3 | Helper GF(2^128) / GHASH | Tersimpan di writeups/assets/flagkeepers/gcmtool.py. | [Buka](20-flagkeepers-03-helper-gf-2-128-ghash.md) |
+| 3 | Helper GF(2^128) / GHASH | Tersimpan di docs/assets/flagkeepers/gcmtool.py. | [Buka](20-flagkeepers-03-helper-gf-2-128-ghash.md) |
 | 4 | Solver | NFX{gcm_f0rb1dd3n_4tt4ck_du4l_t4g_c0ll1s10n_m4st3r} | [Buka](20-flagkeepers-04-solver.md) |
 | 5 | Reproduksi offline | python3 offline_sim.py | [Buka](20-flagkeepers-05-reproduksi-offline.md) |
 | 6 | Flag | NFX{gcm_f0rb1dd3n_4tt4ck_du4l_t4g_c0ll1s10n_m4st3r} | [Buka](20-flagkeepers-06-flag.md) |

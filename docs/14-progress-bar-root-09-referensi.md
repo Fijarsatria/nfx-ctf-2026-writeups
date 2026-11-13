@@ -13,3 +13,7 @@
 - 9bie / 3em0, `php2shell` — PoC dan penjelasan chain.
 - Python `subprocess` documentation — risiko `shell=True`.
 - OWASP: OS Command Injection; Credential Exposure; Least Privilege.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

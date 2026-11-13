@@ -2,15 +2,15 @@
 
 [← Overview](04-feistel-differential.md) · [Index](index.md)
 
-> **Langkah 5/9 — Script lengkap.** Tersimpan di writeups/assets/feistel-differential/solve.py:
+> **Langkah 5/9 — Script lengkap.** Tersimpan di docs/assets/feistel-differential/solve.py:
 >
-> **Titik penting:** Tersimpan di writeups/assets/feistel-differential/solve.py:
+> **Titik penting:** Tersimpan di docs/assets/feistel-differential/solve.py:
 >
 > **Berikutnya:** [Solver](04-feistel-differential-06-solver.md)
 
 ## 3.2 Script lengkap
 
-Tersimpan di `writeups/assets/feistel-differential/solve.py`:
+Tersimpan di `docs/assets/feistel-differential/solve.py`:
 
 ```python
 #!/usr/bin/env python3

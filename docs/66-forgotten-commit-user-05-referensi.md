@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](66-forgotten-commit-user.md).
 
 Git exposure, git-dumper, credential leak.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

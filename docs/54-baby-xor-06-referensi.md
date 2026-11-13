@@ -10,3 +10,7 @@
 
 - XOR cipher dan brute force key 8-bit.
 - `objdump -s -j .rodata`.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

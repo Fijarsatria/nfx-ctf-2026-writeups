@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](70-nexarewards.md).
 
 Race condition, double spend, parallel requests.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

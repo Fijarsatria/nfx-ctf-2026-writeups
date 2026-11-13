@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](73-file-analysis-the-suspicious-invoice.md).
 
 File carving, ZIP extraction, IOC.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

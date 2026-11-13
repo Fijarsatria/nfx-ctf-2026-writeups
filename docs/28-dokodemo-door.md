@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Misc` |
 | Difficulty | `Medium` |
-| Poin | `160` |
+| Poin (snapshot) | `160` |
 | Author | `Kada` |
 | Solves | `18` |
 | Tools | python3, strings |
 | Flag | `NFX{k3tuk_p1ntu_bUk4_d0kum3n_x0r}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

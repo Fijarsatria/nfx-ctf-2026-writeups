@@ -8,9 +8,10 @@
 >
 > **Berikutnya:** [Bukti / Evidence](64-omah-buffer-kebak-04-bukti-evidence.md)
 
-> **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
+> **Asal flag.** Flag dicetak oleh exploit ret2win lokal memakai binary asli, lalu disubmit ke platform.  
 > **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](64-omah-buffer-kebak-04-bukti-evidence.md)
 
+> **Status metode:** **FULL** — ret2win dengan binary asli; offset `0x48` dan alamat `obong` diverifikasi, output flag nyata. Service remote sudah offline.  
 > **Flag:** `NFX{OmahhKUuD0Ndoll_Uw0nggG}`
 > **Status:** `VERIFIED`
 

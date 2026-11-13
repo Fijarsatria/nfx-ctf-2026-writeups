@@ -112,11 +112,11 @@
 
 | Bukti | File | Keterangan |
 |---|---|---|
-| Identitas/hash/checksec | `writeups/assets/starved/01-file-hash-checksec.txt` | PIE, canary, Full RELRO |
-| Disassembly | `writeups/assets/starved/02-disasm.txt` | `leaker`, `main`, `setup_seccomp` |
-| Seccomp decode | `writeups/assets/starved/02b-seccomp.txt` | Allow-list + `read` fd 0 |
-| Layout stack | `writeups/assets/starved/02c-records.txt` | Offset canary/RBP/RIP |
-| Leak probe | `writeups/assets/starved/03b-leak-probe.txt` | `%27`, `%29`, `%85` |
-| Exploit | `writeups/assets/starved/exploit.py` | pwntools ORW |
-| Output | `writeups/assets/starved/03-exploit-run.txt`, `03c-run-printable.txt` | Flag lokal + padding |
-| Flag/status | `writeups/assets/starved/04-flag-status.txt` | Flag dari `flags/pwn/` |
+| Identitas/hash/checksec | `docs/assets/starved/01-file-hash-checksec.txt` | PIE, canary, Full RELRO |
+| Disassembly | `docs/assets/starved/02-disasm.txt` | `leaker`, `main`, `setup_seccomp` |
+| Seccomp decode | `docs/assets/starved/02b-seccomp.txt` | Allow-list + `read` fd 0 |
+| Layout stack | `docs/assets/starved/02c-records.txt` | Offset canary/RBP/RIP |
+| Leak probe | `docs/assets/starved/03b-leak-probe.txt` | `%27`, `%29`, `%85` |
+| Exploit | `docs/assets/starved/exploit.py` | pwntools ORW |
+| Output | `docs/assets/starved/03-exploit-run.txt`, `03c-run-printable.txt` | Flag lokal + padding |
+| Flag/status | `docs/assets/starved/04-flag-status.txt` | Flag dari `flags/pwn/` |

@@ -97,10 +97,10 @@
 
 | Bukti | File | Keterangan |
 |---|---|---|
-| Identitas/hash/checksec | `writeups/assets/the-forgotten-state/01-file-hash-checksec.txt` | non-PIE, partial RELRO |
-| Disassembly | `writeups/assets/the-forgotten-state/02-disasm.txt` | `op_create`, `op_release`, `op_view`, `op_edit`, `op_list` |
-| Layout record/global | `writeups/assets/the-forgotten-state/02b-record-layout.txt` | `table`, `active`, field record |
-| GOT | `writeups/assets/the-forgotten-state/02c-got.txt` | `free@got` |
-| Exploit | `writeups/assets/the-forgotten-state/exploit.py` | Overflow + GOT hijack |
-| Output | `writeups/assets/the-forgotten-state/03-exploit-run.txt` | Leak + shell + flag lokal |
-| Flag/status | `writeups/assets/the-forgotten-state/04-flag-status.txt` | Flag dari `flags/pwn/` |
+| Identitas/hash/checksec | `docs/assets/the-forgotten-state/01-file-hash-checksec.txt` | non-PIE, partial RELRO |
+| Disassembly | `docs/assets/the-forgotten-state/02-disasm.txt` | `op_create`, `op_release`, `op_view`, `op_edit`, `op_list` |
+| Layout record/global | `docs/assets/the-forgotten-state/02b-record-layout.txt` | `table`, `active`, field record |
+| GOT | `docs/assets/the-forgotten-state/02c-got.txt` | `free@got` |
+| Exploit | `docs/assets/the-forgotten-state/exploit.py` | Overflow + GOT hijack |
+| Output | `docs/assets/the-forgotten-state/03-exploit-run.txt` | Leak + shell + flag lokal |
+| Flag/status | `docs/assets/the-forgotten-state/04-flag-status.txt` | Flag dari `flags/pwn/` |

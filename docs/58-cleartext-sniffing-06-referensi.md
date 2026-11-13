@@ -10,3 +10,7 @@
 
 - Analisis pcap dengan `strings` untuk protokol cleartext.
 - Protokol lama: Telnet/FTP/HTTP tanpa TLS.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

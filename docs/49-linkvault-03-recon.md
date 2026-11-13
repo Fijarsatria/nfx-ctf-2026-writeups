@@ -15,7 +15,7 @@
 - Instance dijalankan dengan:
 
 ```bash
-cd /home/bocil/ctf/nfx
+cd <repo>
 python3 nxapi.py nx-up "NFX/LinkVault" "NFXCTF-NFCC-NXCTF-2026"
 ```
 

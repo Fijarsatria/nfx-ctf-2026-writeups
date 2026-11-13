@@ -5,7 +5,7 @@
 
 [← Overview](52-wujud-aseli-atmin.md) · [Index](index.md)
 
-> **Langkah 5/6 — Bukti / Evidence.** Semua di writeups/assets/wujud-aseli-atmin/:
+> **Langkah 5/6 — Bukti / Evidence.** Semua di docs/assets/wujud-aseli-atmin/:
 >
 > **Titik penting:** arsip screenshot dan transkrip
 >
@@ -111,7 +111,7 @@
 
 ## Tabel Evidence
 
-Semua di `writeups/assets/wujud-aseli-atmin/`:
+Semua di `docs/assets/wujud-aseli-atmin/`:
 
 | Bukti | File | Keterangan |
 |---|---|---|

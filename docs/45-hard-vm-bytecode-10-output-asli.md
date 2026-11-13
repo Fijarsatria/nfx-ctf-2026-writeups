@@ -4,15 +4,15 @@
 
 > **Langkah 10/13 — Output asli.** Output asli
 >
-> **Titik penting:** python3 writeups/assets/hard-vm-bytecode/solve_vm.py · NFX{vm_byt3c0d3_1s_l1k3_4_puzzl3}
+> **Titik penting:** python3 docs/assets/hard-vm-bytecode/solve_vm.py · NFX{vm_byt3c0d3_1s_l1k3_4_puzzl3}
 >
 > **Berikutnya:** [Flag](45-hard-vm-bytecode-11-flag.md)
 
 ## 3.3 Output asli
 
 ```text
-$ python3 writeups/assets/hard-vm-bytecode/solve_vm.py
-[*] binary        : /home/bocil/ctf/nfx/reverse/Hard_01_VM_Bytecode/hard_vm
+$ python3 docs/assets/hard-vm-bytecode/solve_vm.py
+[*] binary        : <repo>/reverse/Hard_01_VM_Bytecode/hard_vm
 [*] bytecode      : 498 byte @ 0x2080
 [*] 16 byte awal  : 01 00 00 02 00 5a 03 00 21 04 00 01 05 00 6a 01
 [*] jumlah insn   : 166 (3 byte/insn)

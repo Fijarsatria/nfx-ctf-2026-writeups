@@ -18,3 +18,7 @@
 - Villa Istana Bunga: `https://penginapan.net/villa-istana-bunga-vib-komplek-villa-terbesar-di-lembang-bandung/`
 - Villa Istana Bunga: `https://www.villalembang09.com/`
 - `flags/_suspect/_post.txt` — string wave 1 `NFX{Villa_Istana_Bunga}`.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

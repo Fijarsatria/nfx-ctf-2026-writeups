@@ -8,13 +8,22 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Reverse` |
 | Difficulty | `Baby` |
-| Poin | `200` |
+| Poin (snapshot) | `200` |
 | Author | `cypera` |
 | Tools | python3 |
 | Flag | `NFX{pyth0n_scr1pt_k1ds_4r3_n0t_s4f3}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
+
+
+## TL;DR
+
+- **Flag:** `NFX{pyth0n_scr1pt_k1ds_4r3_n0t_s4f3}`
+- **Metode:** **FULL** — metode utama berhasil direproduksi.
+- **Baca langkah lengkap:** [Cara Mendapatkan Flag](55-baby-python-04-flag.md)
 
 ## Challenge Brief (platform)
 

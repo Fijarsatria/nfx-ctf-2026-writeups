@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Osint` |
 | Difficulty | `Medium` |
-| Poin | `380` |
+| Poin (snapshot) | `380` |
 | Author | `Ariaf` |
 | Solves | `7` |
 | Tools | curl, python3, sage, angr, git, gpg |
 | Flag | `NFX{villa_istana_bunga_lembang}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

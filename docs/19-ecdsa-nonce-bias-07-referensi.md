@@ -14,3 +14,7 @@
   with partially known nonces*.
 - RFC 6979 — Deterministic ECDSA.
 - `fpylll` LLL/BKZ documentation.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

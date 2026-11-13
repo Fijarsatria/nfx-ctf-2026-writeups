@@ -14,3 +14,7 @@
   Password Recovery Mechanism).
 - `changedetection.io` bukan target challenge ini; hanya inspirasi untuk
   ChangeTrack.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

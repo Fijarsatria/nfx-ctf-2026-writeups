@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Misc` |
 | Difficulty | `Medium` |
-| Poin | `240` |
+| Poin (snapshot) | `240` |
 | Author | `Illal` |
 | Solves | `14` |
 | Tools | python3, git |
 | Flag | `NFXCTF{pyj41l_4st_4lch3my_vm_pwn_d84f216a}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

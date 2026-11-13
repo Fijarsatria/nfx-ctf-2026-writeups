@@ -5,7 +5,7 @@
 
 [← Overview](34-s3rvice-k3reta.md) · [Index](index.md)
 
-> **Langkah 8/9 — Bukti / Evidence.** Semua bukti berada di writeups/assets/s3rvice-k3reta/.
+> **Langkah 8/9 — Bukti / Evidence.** Semua bukti berada di docs/assets/s3rvice-k3reta/.
 >
 > **Titik penting:** arsip screenshot dan transkrip
 >
@@ -88,7 +88,7 @@ tautan YouTube, dan feed video drone/kereta. Bukti untuk Q9–Q10.*
 
 ## Tabel Evidence
 
-Semua bukti berada di `writeups/assets/s3rvice-k3reta/`.
+Semua bukti berada di `docs/assets/s3rvice-k3reta/`.
 
 | Bukti | File | Keterangan |
 |---|---|---|

@@ -13,3 +13,7 @@
 - Fermat factorization.
 - PKCS#1 v1.5 RSA encryption.
 - Wireshark TLS decryption dengan RSA private key.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

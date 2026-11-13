@@ -8,13 +8,22 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Reverse` |
 | Difficulty | `Easy` |
-| Poin | `260` |
+| Poin (snapshot) | `260` |
 | Author | `cypera` |
 | Tools | objdump |
 | Flag | `NFX{c0nf1g_d3c0y_p4rts_4r3_fun}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
+
+
+## TL;DR
+
+- **Flag:** `NFX{c0nf1g_d3c0y_p4rts_4r3_fun}`
+- **Metode:** **FULL** — metode utama berhasil direproduksi.
+- **Baca langkah lengkap:** [Cara Mendapatkan Flag](61-easy-config-decoy-04-flag.md)
 
 ## Challenge Brief (platform)
 

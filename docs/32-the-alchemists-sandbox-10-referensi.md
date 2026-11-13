@@ -12,3 +12,7 @@
 - `flags/wave2/The_Alchemists_Sandbox.txt` — flag terverifikasi.
 - Python `ast` module, assignment expressions (PEP 572), `getattr`,
   rotasi 16-bit.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

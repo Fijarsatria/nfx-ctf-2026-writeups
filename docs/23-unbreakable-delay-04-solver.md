@@ -25,7 +25,7 @@
 
 Karena instance asli tidak tersedia, dibuat instance sintetis dengan
 `p XOR q = 2^300` untuk mendemonstrasikan seluruh matematika. Script:
-`writeups/assets/unbreakable-delay/sim_vdf.py`.
+`docs/assets/unbreakable-delay/sim_vdf.py`.
 
 ```python
 import hashlib, math

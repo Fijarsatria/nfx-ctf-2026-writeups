@@ -8,13 +8,22 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Reverse` |
 | Difficulty | `Baby` |
-| Poin | `200` |
+| Poin (snapshot) | `200` |
 | Author | `cypera` |
 | Tools | strings |
 | Flag | `NFX{str1ngs_4r3_y0ur_b3st_fr13nd}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
+
+
+## TL;DR
+
+- **Flag:** `NFX{str1ngs_4r3_y0ur_b3st_fr13nd}`
+- **Metode:** **FULL** — metode utama berhasil direproduksi.
+- **Baca langkah lengkap:** [Cara Mendapatkan Flag](53-baby-strings-04-flag.md)
 
 ## Challenge Brief (platform)
 

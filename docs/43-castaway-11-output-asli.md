@@ -4,15 +4,15 @@
 
 > **Langkah 11/14 — Output asli.** antidebug=1 menghasilkan byte non-printable, jadi kandidat itu ditolak.
 >
-> **Titik penting:** python3 writeups/assets/castaway/solve_castaway.py · NFX{c4st4w4y_0n_4n_0p4qu3_st4t3_m4ch1n3}
+> **Titik penting:** python3 docs/assets/castaway/solve_castaway.py · NFX{c4st4w4y_0n_4n_0p4qu3_st4t3_m4ch1n3}
 >
 > **Berikutnya:** [Flag](43-castaway-12-flag.md)
 
 ## 3.3 Output asli
 
 ```text
-$ python3 writeups/assets/castaway/solve_castaway.py
-[*] binary        : /home/bocil/ctf/nfx/reverse/Hard_03_Castaway/castaway
+$ python3 docs/assets/castaway/solve_castaway.py
+[*] binary        : <repo>/reverse/Hard_03_Castaway/castaway
 [*] sbox256       : 0a dd ef 13 16 8c fb f9 22 08 b9 71 03 9d 27 c3 ... (256 byte)
 [*] sbox16        : dc 5a c5 d4 1c d2 bb 6b 82 5c 9a f1 d1 96 76 bd
 [*] ciphertext    : d554ada841e3e679f6bf13d01d319dd72db7cd6ea9c8e8a4957bcacbb55f16f0362681c32cfb9b74

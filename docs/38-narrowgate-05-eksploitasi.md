@@ -2,7 +2,7 @@
 
 [← Overview](38-narrowgate.md) · [Index](index.md)
 
-> **Langkah 5/9 — Eksploitasi.** Tersimpan di writeups/assets/narrowgate/exploit.py.
+> **Langkah 5/9 — Eksploitasi.** Tersimpan di docs/assets/narrowgate/exploit.py.
 >
 > **Titik penting:** python3 exploit.py \| tee 03-exploit-run.txt · NFX{LOCAL_TEST_FLAG_NARROWGATE}
 >
@@ -34,7 +34,7 @@
 
 ## 3.2 Script exploit
 
-Tersimpan di `writeups/assets/narrowgate/exploit.py`. Bagian inti:
+Tersimpan di `docs/assets/narrowgate/exploit.py`. Bagian inti:
 
 ```python
 p.sendline(b'%27$p|%29$p|%43$p')
@@ -59,7 +59,7 @@ p.send(b'flag.txt\x00')
 Menjalankan:
 
 ```bash
-cd writeups/assets/narrowgate
+cd docs/assets/narrowgate
 echo 'NFX{LOCAL_TEST_FLAG_NARROWGATE}' > flag.txt
 python3 exploit.py | tee 03-exploit-run.txt
 ```

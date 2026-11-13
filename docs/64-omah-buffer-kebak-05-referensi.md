@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](64-omah-buffer-kebak.md).
 
 Buffer overflow, checksec, pwntools cyclic.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

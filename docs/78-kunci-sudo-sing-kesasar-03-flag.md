@@ -11,6 +11,7 @@
 > **Asal flag.** Flag accepted dari service; exploit `suid==0` **belum terbukti** di binary lokal.  
 > **Tingkat bukti metode.** Metode sebagian. [Buka Evidence](78-kunci-sudo-sing-kesasar-04-bukti-evidence.md)
 
+> **Status metode:** **PARTIAL** — Flag accepted; gate suid==0 belum berhasil direproduksi di binary lokal.  
 > **Flag:** `NFX{Wh33W0kTh3Tok-k}`
 > **Status:** `VERIFIED`
 

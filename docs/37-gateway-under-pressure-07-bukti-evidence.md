@@ -90,9 +90,9 @@
 
 | Bukti | File | Keterangan |
 |---|---|---|
-| Identitas/hash/checksec | `writeups/assets/gateway-under-pressure/01-file-hash-checksec.txt` | `file`, sha256, checksec |
-| Disassembly | `writeups/assets/gateway-under-pressure/02-disasm.txt` | `do_audit`, `do_dispatch`, `release_gateway`, `main` |
-| Layout stack | `writeups/assets/gateway-under-pressure/02b-stack.txt` | Offset canary/RBP/RIP |
-| Exploit | `writeups/assets/gateway-under-pressure/exploit.py` | pwntools |
-| Output | `writeups/assets/gateway-under-pressure/03-exploit-run.txt` | Leak + ret2win |
-| Flag/status | `writeups/assets/gateway-under-pressure/04-flag-status.txt` | Flag dari `flags/pwn/` |
+| Identitas/hash/checksec | `docs/assets/gateway-under-pressure/01-file-hash-checksec.txt` | `file`, sha256, checksec |
+| Disassembly | `docs/assets/gateway-under-pressure/02-disasm.txt` | `do_audit`, `do_dispatch`, `release_gateway`, `main` |
+| Layout stack | `docs/assets/gateway-under-pressure/02b-stack.txt` | Offset canary/RBP/RIP |
+| Exploit | `docs/assets/gateway-under-pressure/exploit.py` | pwntools |
+| Output | `docs/assets/gateway-under-pressure/03-exploit-run.txt` | Leak + ret2win |
+| Flag/status | `docs/assets/gateway-under-pressure/04-flag-status.txt` | Flag dari `flags/pwn/` |

@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](63-nexadeploy.md).
 
 Unsafe YAML deserialization, `yaml.load` vs `safe_load`.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](76-kebakaran.md).
 
 OSINT geolocation, news search.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

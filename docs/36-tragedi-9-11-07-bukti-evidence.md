@@ -5,7 +5,7 @@
 
 [← Overview](36-tragedi-9-11.md) · [Index](index.md)
 
-> **Langkah 7/8 — Bukti / Evidence.** Semua bukti berada di writeups/assets/tragedi-9-11/.
+> **Langkah 7/8 — Bukti / Evidence.** Semua bukti berada di docs/assets/tragedi-9-11/.
 >
 > **Titik penting:** arsip screenshot dan transkrip
 >
@@ -81,7 +81,7 @@
 
 ## Tabel Evidence
 
-Semua bukti berada di `writeups/assets/tragedi-9-11/`.
+Semua bukti berada di `docs/assets/tragedi-9-11/`.
 
 | Bukti | File | Keterangan |
 |---|---|---|

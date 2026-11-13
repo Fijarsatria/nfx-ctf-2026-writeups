@@ -13,3 +13,7 @@
 - Bash manual: command substitution `$(<file)`, pathname expansion, bracket
   expressions.
 - Writeup referensi `10-symhell.md` (endpoint publik dan strategi glob).
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

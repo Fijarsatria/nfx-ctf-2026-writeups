@@ -12,7 +12,7 @@
 
 Karena oracle sudah tidak selalu hidup, serangan juga direproduksi offline
 dengan `app.py` semantics dan flag placeholder. Script:
-`writeups/assets/flagkeepers/offline_sim.py`.
+`docs/assets/flagkeepers/offline_sim.py`.
 
 ```text
 $ python3 offline_sim.py

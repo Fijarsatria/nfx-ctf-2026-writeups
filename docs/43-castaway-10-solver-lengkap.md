@@ -2,15 +2,15 @@
 
 [← Overview](43-castaway.md) · [Index](index.md)
 
-> **Langkah 10/14 — Solver lengkap.** File: writeups/assets/castaway/solvecastaway.py
+> **Langkah 10/14 — Solver lengkap.** File: docs/assets/castaway/solvecastaway.py
 >
-> **Titik penting:** File: writeups/assets/castaway/solvecastaway.py
+> **Titik penting:** File: docs/assets/castaway/solvecastaway.py
 >
 > **Berikutnya:** [Output asli](43-castaway-11-output-asli.md)
 
 ## 3.2 Solver lengkap
 
-File: `writeups/assets/castaway/solve_castaway.py`
+File: `docs/assets/castaway/solve_castaway.py`
 
 ```python
 #!/usr/bin/env python3
@@ -37,8 +37,7 @@ import sys
 
 from elftools.elf.elffile import ELFFile
 
-ROOT = pathlib.Path(__file__).resolve().parents[3]
-DEFAULT_BIN = ROOT / "reverse" / "Hard_03_Castaway" / "castaway"
+DEFAULT_BIN = pathlib.Path(__file__).resolve().parent / "castaway"
 
 def read_vaddr(path: pathlib.Path, vaddr: int, size: int) -> bytes:
     with open(path, "rb") as f:

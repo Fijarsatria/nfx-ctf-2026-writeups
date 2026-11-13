@@ -5,7 +5,7 @@
 
 [← Overview](10-nfxctf-convention.md) · [Index](index.md)
 
-> **Langkah 8/9 — Bukti / Evidence.** Semua file ada di writeups/assets/nfxctf-convention/:
+> **Langkah 8/9 — Bukti / Evidence.** Semua file ada di docs/assets/nfxctf-convention/:
 >
 > **Titik penting:** arsip screenshot dan transkrip
 >
@@ -96,7 +96,7 @@
 
 ## Tabel Evidence
 
-Semua file ada di `writeups/assets/nfxctf-convention/`:
+Semua file ada di `docs/assets/nfxctf-convention/`:
 
 | Bukti | File | Keterangan |
 |---|---|---|

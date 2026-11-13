@@ -7,12 +7,22 @@
 |---|---|
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Web` |
+| Author | `Ariaf` |
 | Difficulty | `Baby` |
-| Poin | `100` |
+| Poin (snapshot) | `100` |
 | Flag | `NFX{xxe_supply_f33d_l0c4l_f1l3_r34d}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
+
+
+## TL;DR
+
+- **Flag:** `NFX{xxe_supply_f33d_l0c4l_f1l3_r34d}`
+- **Metode:** **FULL** — metode utama berhasil direproduksi.
+- **Baca langkah lengkap:** [Cara Mendapatkan Flag](72-nexasupply-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)
 

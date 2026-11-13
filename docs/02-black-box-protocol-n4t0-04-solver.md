@@ -2,9 +2,9 @@
 
 [← Overview](02-black-box-protocol-n4t0.md) · [Index](index.md)
 
-> **Langkah 4/7 — Solver.** Tersimpan di writeups/assets/black-box-protocol-n4t0/decodexlsx.py:
+> **Langkah 4/7 — Solver.** Tersimpan di docs/assets/black-box-protocol-n4t0/decodexlsx.py:
 >
-> **Titik penting:** python3 writeups/assets/black-box-protocol-n4t0/decode_xlsx.py
+> **Titik penting:** python3 docs/assets/black-box-protocol-n4t0/decode_xlsx.py
 >
 > **Berikutnya:** [Flag](02-black-box-protocol-n4t0-05-flag.md)
 
@@ -19,7 +19,7 @@
 
 ### 3.2 Script
 
-Tersimpan di `writeups/assets/black-box-protocol-n4t0/decode_xlsx.py`:
+Tersimpan di `docs/assets/black-box-protocol-n4t0/decode_xlsx.py`:
 
 ```python
 import struct
@@ -50,7 +50,7 @@ print("with separators:", "N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng")
 ### 3.3 Output asli
 
 ```text
-$ python3 writeups/assets/black-box-protocol-n4t0/decode_xlsx.py
+$ python3 docs/assets/black-box-protocol-n4t0/decode_xlsx.py
 A (NATO)      : N4T0PH0N3T1C1N1
 B (hex)       : C0mbO_H3X_
 C (float32 BE): fl0At_b4r4ng

@@ -7,13 +7,23 @@
 |---|---|
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Misc` |
+| Author | `Syahril` |
 | Difficulty | `Baby` |
-| Poin | `100` |
+| Poin (snapshot) | `100` |
 | Tools | exiftool |
 | Flag | `NFX{M4kHLuK_T4k_K4s4T_M4T4}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
+
+
+## TL;DR
+
+- **Flag:** `NFX{M4kHLuK_T4k_K4s4T_M4T4}`
+- **Metode:** **FULL** — metode utama berhasil direproduksi.
+- **Baca langkah lengkap:** [Cara Mendapatkan Flag](62-notulen-senin-pagi-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)
 

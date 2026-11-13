@@ -8,12 +8,14 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Crypto` |
 | Difficulty | `Medium` |
-| Poin | `100` |
+| Poin (snapshot) | `100` |
 | Author | `Illal` |
 | Solves | `23` |
 | Tools | python3, sage, z3 |
 | Flag | `NFXCTF{d1ff3r3nt14l_crypt0_pwn5_f31st3l_45322835}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 
@@ -35,8 +37,8 @@ Jadi ceritanya gini. cipher adalah Feistel 7 ronde pada blok 32-bit (dua half 16
 | 2 | Analisis | File berisi 14 blok, masing-masing 20.000 baris, dengan header: | [Buka](04-feistel-differential-02-analisis.md) |
 | 3 | Analisis | Total unknown = 7 × 16 = 112 bit. | [Buka](04-feistel-differential-03-analisis-2.md) |
 | 4 | Strategi | — | [Buka](04-feistel-differential-04-strategi.md) |
-| 5 | Script lengkap | Tersimpan di writeups/assets/feistel-differential/solve.py: | [Buka](04-feistel-differential-05-script-lengkap.md) |
-| 6 | Solver | python3 writeups/assets/feistel-differential/solve.py | [Buka](04-feistel-differential-06-solver.md) |
+| 5 | Script lengkap | Tersimpan di docs/assets/feistel-differential/solve.py: | [Buka](04-feistel-differential-05-script-lengkap.md) |
+| 6 | Solver | python3 docs/assets/feistel-differential/solve.py | [Buka](04-feistel-differential-06-solver.md) |
 | 7 | Flag | NFXCTF{d1ff3r3nt14l_crypt0_pwn5_f31st3l_45322835} | [Buka](04-feistel-differential-07-flag.md) |
 | 8 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](04-feistel-differential-08-bukti-evidence.md) |
 | 9 | Referensi | — | [Buka](04-feistel-differential-09-referensi.md) |

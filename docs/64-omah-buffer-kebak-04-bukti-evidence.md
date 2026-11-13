@@ -1,6 +1,6 @@
 # Omah Buffer Kebak — Evidence / Bukti
 
-<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">1 transkrip / script</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">4 screenshot</span><span class="nx-chip">2 script / output</span></div>
 
 
 [← Overview](64-omah-buffer-kebak.md) · [Index](index.md)
@@ -38,9 +38,19 @@
 
 *Terminal evidence — `01-solve.txt` (arsip transkrip sesi solve).*
 
+<div class="nx-evidence-grid">
+<figure><a href="assets/omah-buffer-kebak/10-local-exploit.png" target="_blank" rel="noopener"><img src="assets/omah-buffer-kebak/10-local-exploit.png" alt="Exploit lokal — flag tercetak" loading="lazy"></a><figcaption>10-local-exploit.png</figcaption></figure>
+</div>
+
+*Output `solve_omah.py` dengan binary asli dan `flag.txt` challenge.*
+
 ### Transkrip mentah & script
 
 - [`01-solve.txt`](assets/omah-buffer-kebak/01-solve.txt)
+- [`solve_omah.py`](assets/omah-buffer-kebak/solve_omah.py)
+- [`10-local-exploit.txt`](assets/omah-buffer-kebak/10-local-exploit.txt)
+- [`flag.txt`](assets/omah-buffer-kebak/flag.txt)
+- [`omah`](assets/omah-buffer-kebak/omah)
 
 ## Validasi platform (real)
 
@@ -53,5 +63,9 @@
 ## Tabel Evidence
 
 - Challenge brief: `assets/omah-buffer-kebak/00-challenge-platform.png`
-- Terminal evidence (real): `assets/omah-buffer-kebak/00b-terminal-evidence.png`
-- Catatan mentah: lihat folder `assets/omah-buffer-kebak/`
+- Terminal evidence: `assets/omah-buffer-kebak/00b-terminal-evidence.png`
+- Binary asli: `assets/omah-buffer-kebak/omah`
+- Exploit: `assets/omah-buffer-kebak/solve_omah.py`
+- Output lokal: `assets/omah-buffer-kebak/10-local-exploit.txt`
+- Terminal output: `assets/omah-buffer-kebak/10-local-exploit.png`
+- Validasi platform: `assets/omah-buffer-kebak/00b-platform-validation.png`

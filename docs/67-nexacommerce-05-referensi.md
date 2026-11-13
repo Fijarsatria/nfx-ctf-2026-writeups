@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](67-nexacommerce.md).
 
 SQL injection, UNION-based auth bypass.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

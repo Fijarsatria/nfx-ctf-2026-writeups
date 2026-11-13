@@ -1,0 +1,15 @@
+$ # token diambil dari .git/config (extraheader), lalu dipakai read-only
+$ git ls-remote "https://x-access-token:<REDACTED>@github.com/netmetrics-net/infra-runbooks.git"
+3064ff7d8a90daabbc7df37286fdf10374be788b	HEAD
+67e53bf02846bf10f36e28bb75997f2cfe3605ca	refs/heads/archive/q3-handover
+3064ff7d8a90daabbc7df37286fdf10374be788b	refs/heads/main
+67e53bf02846bf10f36e28bb75997f2cfe3605ca	refs/tags/incident-0914
+
+$ git fetch --tags
+$ git show incident-0914:notes/handover.txt
+Handover notes - Q3
+Akses staging sudah gue serahin ke tim lain.
+Semua service accounts dan database credentials sudah di-revoke atau dialihkan.
+Jangan tanya kenapa gue resign mendadak.
+
+sig: NFX{g1t_c0nf1g_h34d3r_l34k_h1dd3n_br4nch_9c1e7a}

@@ -112,10 +112,10 @@
 
 | Bukti | File | Keterangan |
 |---|---|---|
-| Identitas/hash/checksec | `writeups/assets/narrowgate/01-file-hash-checksec.txt` | PIE, canary, Full RELRO |
-| Disassembly | `writeups/assets/narrowgate/02-disasm.txt` | `leaker`, `main`, `setup_seccomp` |
-| Seccomp decode | `writeups/assets/narrowgate/02b-seccomp.txt` | Allow-list BPF |
-| Leak probe | `writeups/assets/narrowgate/03b-leak-probe.txt` | `%27`, `%29`, `%43` |
-| Exploit | `writeups/assets/narrowgate/exploit.py` | ORW ROP |
-| Output | `writeups/assets/narrowgate/03-exploit-run.txt`, `03c-run-printable.txt` | Flag lokal + padding |
-| Flag/status | `writeups/assets/narrowgate/04-flag-status.txt` | Flag dari `flags/pwn/` |
+| Identitas/hash/checksec | `docs/assets/narrowgate/01-file-hash-checksec.txt` | PIE, canary, Full RELRO |
+| Disassembly | `docs/assets/narrowgate/02-disasm.txt` | `leaker`, `main`, `setup_seccomp` |
+| Seccomp decode | `docs/assets/narrowgate/02b-seccomp.txt` | Allow-list BPF |
+| Leak probe | `docs/assets/narrowgate/03b-leak-probe.txt` | `%27`, `%29`, `%43` |
+| Exploit | `docs/assets/narrowgate/exploit.py` | ORW ROP |
+| Output | `docs/assets/narrowgate/03-exploit-run.txt`, `03c-run-printable.txt` | Flag lokal + padding |
+| Flag/status | `docs/assets/narrowgate/04-flag-status.txt` | Flag dari `flags/pwn/` |

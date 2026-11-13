@@ -1,6 +1,6 @@
 # Decode Balik — Evidence / Bukti
 
-<div class="nx-challenge-head"><span class="nx-chip">2 screenshot</span><span class="nx-chip">0 transkrip / script</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">3 screenshot</span><span class="nx-chip">1 script</span></div>
 
 
 [← Overview](71-decode-balik.md) · [Index](index.md)
@@ -30,6 +30,12 @@
 
 *Terminal evidence (real).*
 
+<div class="nx-evidence-grid">
+<figure><a href="assets/decode-balik/10-waifu-decoded.jpg" target="_blank" rel="noopener"><img src="assets/decode-balik/10-waifu-decoded.jpg" alt="JPEG hasil decode — flag" loading="lazy"></a><figcaption>10-waifu-decoded.jpg</figcaption></figure>
+</div>
+
+*JPEG hasil decode `waifu.png`; flag tertulis di sisi kanan gambar.*
+
 ## Validasi platform (real)
 
 ![Validasi platform — CORRECT, BUT ALREADY SOLVED.](assets/decode-balik/00b-platform-validation.png)
@@ -41,5 +47,8 @@
 ## Tabel Evidence
 
 - Challenge brief: `assets/decode-balik/00-challenge-platform.png`
-- Terminal evidence (real): `assets/decode-balik/00b-terminal-evidence.png`
-- Catatan mentah: lihat folder `assets/decode-balik/`
+- Terminal evidence: `assets/decode-balik/00b-terminal-evidence.png`
+- Attachment asli: `assets/decode-balik/waifu.png`
+- JPEG hasil decode: `assets/decode-balik/10-waifu-decoded.jpg`
+- Solver: `assets/decode-balik/solve_decode_balik.py`
+- Validasi platform: `assets/decode-balik/00b-platform-validation.png`

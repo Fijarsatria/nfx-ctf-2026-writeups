@@ -22,8 +22,7 @@ import sys
 
 from elftools.elf.elffile import ELFFile
 
-ROOT = pathlib.Path(__file__).resolve().parents[3]
-DEFAULT_BIN = ROOT / "reverse" / "Hard_03_Castaway" / "castaway"
+DEFAULT_BIN = pathlib.Path(__file__).resolve().parent / "castaway"
 
 
 def read_vaddr(path: pathlib.Path, vaddr: int, size: int) -> bytes:

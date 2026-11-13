@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Feistel Differential: recover 7 x 16-bit round keys from known pairs with z3."""
 import sys
-sys.path.insert(0, ".")
+from pathlib import Path
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE))
 from z3 import *
 from cipher import encrypt_block, key_schedule, decrypt_block
 
@@ -27,7 +29,7 @@ def enc(block, ks):
     return Concat(L, R)
 
 blocks = []; cur = None
-for line in open("pairs.txt"):
+for line in open(HERE / "pairs.txt"):
     line = line.strip()
     if not line:
         continue
@@ -62,7 +64,7 @@ for diff, lst in blocks:
         tot += 1
         ok += (encrypt_block(p, kk) == c1 and encrypt_block(p ^ diff, kk) == c2)
 print("VERIFY", ok, "/", tot)
-ct = bytes.fromhex(open("flag.enc").read().strip())
+ct = bytes.fromhex((HERE / "flag.enc").read_text().strip())
 pt = b"".join(decrypt_block(int.from_bytes(ct[i:i+4], "big"), kk).to_bytes(4, "big")
               for i in range(0, len(ct), 4))
 print("FLAGPT", repr(pt))

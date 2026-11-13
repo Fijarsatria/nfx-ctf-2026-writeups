@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](83-follow-jarvis.md).
 
 Ticket Discord, sponsor challenge.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

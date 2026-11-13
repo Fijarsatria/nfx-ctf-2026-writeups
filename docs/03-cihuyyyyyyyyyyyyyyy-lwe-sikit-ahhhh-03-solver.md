@@ -2,9 +2,9 @@
 
 [← Overview](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh.md) · [Index](index.md)
 
-> **Langkah 3/7 — Solver.** Tersimpan di writeups/assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solvelwe.py:
+> **Langkah 3/7 — Solver.** Tersimpan di docs/assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solvelwe.py:
 >
-> **Titik penting:** Tersimpan di writeups/assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solvelwe.py:
+> **Titik penting:** Tersimpan di docs/assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solvelwe.py:
 >
 > **Berikutnya:** [Solver](03-cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh-04-solver-2.md)
 
@@ -19,7 +19,7 @@
 ## 3.2 Script lengkap
 
 Tersimpan di
-`writeups/assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solve_lwe.py`:
+`docs/assets/cihuyyyyyyyyyyyyyyy-lwe-sikit-ahhhh/solve_lwe.py`:
 
 ```python
 #!/usr/bin/env python3
@@ -68,6 +68,38 @@ for r in range(d):
 else:
     print("no short vector found")
 ```
+
+## 3.3 Apakah `ct` bisa didekripsi?
+
+`ct` yang diberikan berukuran **41 byte**, sama dengan panjang flag yang
+diterima platform:
+
+```text
+ct  = 8c8d8b0001438bf68076c012df3bb170d82e882152d9c13ab813435e7e5ada38a9abfed5eec11cbfb4
+len = 41 byte
+```
+
+Dengan flag yang diketahui, keystream-nya bisa dihitung:
+
+```text
+ks = ct XOR flag
+   = c2cbd3435505f09ab402b423bc08ee03b51ae44d0daaf259ca203701320d9f679ececcb4def0258ac9
+```
+
+Tetapi **tidak ada kode KDF, nonce, atau fungsi enkripsi** di `lwe.py`.
+Yang tersedia hanya `A`, `b`, `q`, dan `ct`. Artinya hubungan `ct` dengan
+`secret s`/`error e` tidak bisa dibuktikan dari lampiran.
+
+Kandidat KDF yang sudah diuji dan **tidak cocok**:
+
+- `s`/`e` sebagai byte mentah, string, JSON, atau join desimal;
+- SHA-256, SHA-1, MD5 dari `s`/`e` (byte, string, JSON);
+- XOR/repeat stream dari hash tersebut;
+- AES-CTR dan RC4 dengan key turunan SHA-256 dari `s`/`e`.
+
+Karena tidak ada yang cocok, status metode challenge ini tetap **PARTIAL**:
+secret LWE berhasil dipulihkan, tetapi dekripsi `ct` tidak bisa direproduksi
+byte-exact. Flag diverifikasi lewat platform, bukan diklaim dari solver.
 
 ### Evidence langkah ini
 

@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Pwn` |
 | Difficulty | `Hard` |
-| Poin | `340` |
+| Poin (snapshot) | `340` |
 | Author | `Amablex` |
 | Solves | `9` |
 | Tools | python3, pwntools, checksec, objdump, readelf, strings |
 | Flag | `NFX{ElC0nloe_Forg0tten_StaticcD42#}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

@@ -5,7 +5,7 @@
 
 [← Overview](08-frekuensi-sunyi.md) · [Index](index.md)
 
-> **Langkah 8/9 — Bukti / Evidence.** Semua bukti berada di writeups/assets/frekuensi-sunyi/.
+> **Langkah 8/9 — Bukti / Evidence.** Semua bukti berada di docs/assets/frekuensi-sunyi/.
 >
 > **Titik penting:** arsip screenshot dan transkrip
 >
@@ -73,7 +73,7 @@
 
 ## Tabel Evidence
 
-Semua bukti berada di `writeups/assets/frekuensi-sunyi/`.
+Semua bukti berada di `docs/assets/frekuensi-sunyi/`.
 
 | Bukti | File | Keterangan |
 |---|---|---|

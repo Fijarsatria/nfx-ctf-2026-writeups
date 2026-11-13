@@ -2,7 +2,7 @@
 
 [← Overview](18-broken-signature-scheme.md) · [Index](index.md)
 
-> **Langkah 5/8 — Solver.** Script writeups/assets/broken-signature-scheme/verify.py:
+> **Langkah 5/8 — Solver.** Script docs/assets/broken-signature-scheme/verify.py:
 >
 > **Titik penting:** python3 solve.py · python3 verify.py · cd crypto/Broken_Signature_Scheme_Multi_Layer
 >
@@ -20,7 +20,7 @@ FLAG = NXCTF{mult1_l4y3r_l4tt1c3_r54_s1gn4tur3_hnp_8c211ad6b5a6}
 
 ## 3.4 Verifikasi tiga layer
 
-Script `writeups/assets/broken-signature-scheme/verify.py`:
+Script `docs/assets/broken-signature-scheme/verify.py`:
 
 ```text
 $ python3 verify.py

@@ -8,11 +8,13 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Misc` |
 | Difficulty | `Medium` |
-| Poin | `180` |
+| Poin (snapshot) | `180` |
 | Author | `Kesatria Baja Ringan` |
 | Tools | python3 |
 | Flag | `NFX{b0sC4_Ce01L}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 

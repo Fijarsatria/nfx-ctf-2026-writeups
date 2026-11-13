@@ -5,7 +5,7 @@
 
 [← Overview](32-the-alchemists-sandbox.md) · [Index](index.md)
 
-> **Langkah 9/10 — Bukti / Evidence.** Semua bukti berada di writeups/assets/the-alchemists-sandbox/.
+> **Langkah 9/10 — Bukti / Evidence.** Semua bukti berada di docs/assets/the-alchemists-sandbox/.
 >
 > **Titik penting:** arsip screenshot dan transkrip
 >
@@ -54,7 +54,7 @@
 
 ## Tabel Evidence
 
-Semua bukti berada di `writeups/assets/the-alchemists-sandbox/`.
+Semua bukti berada di `docs/assets/the-alchemists-sandbox/`.
 
 | Bukti | File | Keterangan |
 |---|---|---|

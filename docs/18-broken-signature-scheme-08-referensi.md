@@ -12,3 +12,7 @@
 - Coppersmith / close-prime factorization.
 - Fermat factorization dan diskriminan kuadrat.
 - NIST SP 800-38D — AES-GCM.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

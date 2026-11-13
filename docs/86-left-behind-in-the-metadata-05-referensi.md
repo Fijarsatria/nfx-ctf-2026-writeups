@@ -9,3 +9,7 @@
 > **Selesai.** Kembali ke [Overview](86-left-behind-in-the-metadata.md).
 
 EXIF metadata, GPS, custom SHA256 stream cipher.
+
+## Referensi umum
+
+Lihat [Referensi Umum](REFERENSI.md) untuk dokumentasi tools, RFC, dan bacaan per kategori.

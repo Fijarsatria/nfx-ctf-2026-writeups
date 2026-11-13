@@ -8,12 +8,14 @@
 | Event | `umum_Extend` |
 | Kategori | `Crypto` |
 | Difficulty | `Medium` |
-| Poin | `360` |
+| Poin (snapshot) | `360` |
 | Author | `Kad` |
 | Solves | `8` |
 | Tools | python3, sage, git |
 | Flag | `NFX{x0r_f4ct0r1ng_4nd_f4st_vdf_byp4ss_m4k3s_1t_h4rd}` |
 | Status | `VERIFIED` |
+| Metode | **FULL** — metode utama berhasil direproduksi. |
+| Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
 
@@ -35,7 +37,7 @@ Jadi ceritanya gini. challenge meminta **bukti Fiat–Shamir** untuk VDF `y = 2^
 | 2 | Analisis | Verifiable Delay Function memungkinkan pihak lain memverifikasi bahwa suatu fungsi dievaluasi selama T langkah berurutan yang tidak dapat diparalelkan. | [Buka](23-unbreakable-delay-02-analisis.md) |
 | 3 | Analisis | Setelah p,q diketahui: | [Buka](23-unbreakable-delay-03-analisis-2.md) |
 | 4 | Solver | Karena instance asli tidak tersedia, dibuat instance sintetis dengan p XOR q = 2^300 untuk mendemonstrasikan seluruh matematika. | [Buka](23-unbreakable-delay-04-solver.md) |
-| 5 | Output asli simulasi | python3 writeups/assets/unbreakable-delay/sim_vdf.py | [Buka](23-unbreakable-delay-05-output-asli-simulasi.md) |
+| 5 | Output asli simulasi | python3 docs/assets/unbreakable-delay/sim_vdf.py | [Buka](23-unbreakable-delay-05-output-asli-simulasi.md) |
 | 6 | Flag | NFX{x0r_f4ct0r1ng_4nd_f4st_vdf_byp4ss_m4k3s_1t_h4rd} | [Buka](23-unbreakable-delay-06-flag.md) |
 | 7 | Bukti / Evidence | arsip screenshot dan transkrip | [Buka](23-unbreakable-delay-07-bukti-evidence.md) |
 | 8 | Referensi | — | [Buka](23-unbreakable-delay-08-referensi.md) |
