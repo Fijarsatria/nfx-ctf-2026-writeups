@@ -17,6 +17,25 @@ Sumber yang dimaksud ternyata **post TikTok `@fandi_8510`** (display name
 > the KRL was paralyzed, and now it can be passed at maximum speed.”
 > `#commuterline #djidrone #explorebogor #bojonggede #cilebut`
 
+![Profil TikTok Fandi27 / fandi_8510](assets/s3rvice-k3reta/05b-fandi27-tiktok-profile.png)
+
+*Screenshot profil TikTok `@fandi_8510` (display name Fandi27): bio
+“Bogor | DJI Drone”, tautan YouTube, dan feed video drone/kereta. Ini bukti
+langsung untuk Q9 (handle) dan Q10 (post 1 Februari 2026).*
+
+Cara verifikasi:
+
+- Buka `https://www.tiktok.com/@fandi_8510`; profil menampilkan display name
+  **Fandi27**, handle **fandi_8510**, bio **Bogor | DJI Drone**, dan tautan
+  YouTube.
+- Feed video berisi rekaman drone di atas rel/kereta, termasuk video pinned
+  yang memperlihatkan jalur KRL.
+- Handle `fandi_8510` cocok dengan pola Q9 `(xxxxx_xxxx)` = 5 huruf + `_` +
+  4 digit.
+
+SHA-256 screenshot:
+`17d40aa750dffa2c116094a5634711741a9f1955566842db49c90a321cc6ace8`.
+
 Tanggal post yang terlihat: **1 Februari 2026** (`01/02/2026`).
 
 | No | Pertanyaan | Jawaban | Bukti |

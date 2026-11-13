@@ -1,6 +1,6 @@
 # S3rvice K3reta — Evidence / Bukti
 
-<div class="nx-challenge-head"><span class="nx-chip">7 screenshot</span><span class="nx-chip">4 transkrip / script</span></div>
+<div class="nx-challenge-head"><span class="nx-chip">8 screenshot</span><span class="nx-chip">4 transkrip / script</span></div>
 
 
 [← Overview](34-s3rvice-k3reta.md) · [Index](index.md)
@@ -64,6 +64,13 @@
 
 *Evidence — `06-crop-top-bottom.png`.*
 
+<div class="nx-evidence-grid">
+<figure><a href="assets/s3rvice-k3reta/05b-fandi27-tiktok-profile.png" target="_blank" rel="noopener"><img src="assets/s3rvice-k3reta/05b-fandi27-tiktok-profile.png" alt="Profil TikTok Fandi27 / fandi_8510" loading="lazy"></a><figcaption>05b-fandi27-tiktok-profile.png</figcaption></figure>
+</div>
+
+*Profil TikTok `@fandi_8510` (display name Fandi27): bio “Bogor | DJI Drone”,
+tautan YouTube, dan feed video drone/kereta. Bukti untuk Q9–Q10.*
+
 ### Transkrip mentah & script
 
 - [`02-exif-and-hash.txt`](assets/s3rvice-k3reta/02-exif-and-hash.txt)
@@ -91,3 +98,4 @@ Semua bukti berada di `writeups/assets/s3rvice-k3reta/`.
 | Sumber berita | `04-sumber-berita.md` | Kutipan + URL untuk Q1–Q6 |
 | Kandidat drone | `05-youtube-drone-candidates.txt` | Video & akun yang ditemukan |
 | Crop atas/bawah | `06-crop-top-bottom.png` | Detail atap/polybag dan cakrawala |
+| Profil TikTok Fandi27 | `05b-fandi27-tiktok-profile.png` | 1609×950, SHA-256 `17d40aa750dffa2c116094a5634711741a9f1955566842db49c90a321cc6ace8`; handle `fandi_8510`, bio “Bogor \| DJI Drone” |

@@ -60,10 +60,13 @@ Jadi ceritanya gini. gambar `from_train.jpeg` adalah foto dari jendela KRL yang 
   `21/11/2012`, `98`, `200 M`, `Atlas`, `6007`.
 - Q9–Q13 sudah terjawab: `fandi_8510`, `01/02/2026`,
   `Rofi Servis Drone Bogor`, `7R73+FM7`, `RofiServis`.
+- Bukti profil TikTok `@fandi_8510` (display name Fandi27, bio
+  “Bogor | DJI Drone”, feed video drone/kereta) tersimpan di
+  `assets/s3rvice-k3reta/05b-fandi27-tiktok-profile.png`.
 - Flag valid: `NFX{Dr0n3_T3rb41k_T3mp4t_S3rv1c3_T3rb41k_J4uh_B4ng3T_BTW_B4ng_R0f1_K3r3n_S3rb4_b1s4}`
   (diterima platform, `+480`).
 
-<div class="nx-evidence-preview"><a href="34-s3rvice-k3reta-08-bukti-evidence.html"><img src="assets/s3rvice-k3reta/00b-terminal-evidence.png" alt="Pratinjau evidence S3rvice K3reta" loading="lazy"></a><span>Pratinjau evidence. Buka halaman <a href="34-s3rvice-k3reta-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
+<div class="nx-evidence-preview"><a href="34-s3rvice-k3reta-08-bukti-evidence.html"><img src="assets/s3rvice-k3reta/05b-fandi27-tiktok-profile.png" alt="Pratinjau evidence S3rvice K3reta — profil TikTok Fandi27" loading="lazy"></a><span>Pratinjau evidence: profil TikTok <code>@fandi_8510</code> (Fandi27, bio “Bogor | DJI Drone”). Buka halaman <a href="34-s3rvice-k3reta-08-bukti-evidence.html">Evidence / Bukti</a> untuk semua screenshot dan transkrip.</span></div>
 
 ## Navigasi Halaman
 
