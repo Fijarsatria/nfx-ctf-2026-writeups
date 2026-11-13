@@ -198,3 +198,11 @@ Setiap halaman juga punya daftar isi di sisi kanan, tombol salin pada blok kode,
 
 !!! tip "Bonus Insane"
     **NarrowGate** adalah challenge Insane dan tetap disertakan sebagai bonus.
+
+!!! note "Kenapa 86, bukan 96?"
+    Event utama berisi **86 challenge**: 48 Track Mahasiswa NF + 38 Track Umum /
+    Extend. Sebelum event utama ada **5 challenge warm-up** terpisah (Base,
+    Exif ME, Pramuka, Danau, NexaSupport) dan ada event **staging** internal.
+    Warm-up/staging tidak masuk skor event utama. Kalau ada yang menyebut
+    **96**, kemungkinan itu menghitung 86 + 5 warm-up + 5 staging/duplikat.
+    Tabel dan writeup di halaman ini fokus pada **86 challenge event utama**.
