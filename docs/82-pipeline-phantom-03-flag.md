@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](82-pipeline-phantom-04-bukti-evidence.md)
 
 > **Asal flag.** Flag direkonstruksi dari repo/issue/commit publik dan report arsip; log mentah GitHub 403.  
-> **Tingkat bukti metode.** Metode kuat, log mentah terbatas. [Buka Evidence](82-pipeline-phantom-04-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{gh_4ct10ns_m4sk_byp4ss_4nd_0rph4n_c0mm1t_l34k_9f82}`
 > **Status:** `VERIFIED`
 

@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](36-tragedi-9-11-07-bukti-evidence.md)
 
 > **Asal flag.** Flag dari git history video, lalu disubmit lewat web.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](36-tragedi-9-11-07-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{OS1NT_DU4R_D34_D0R}`
 > **Status:** `VERIFIED`
 

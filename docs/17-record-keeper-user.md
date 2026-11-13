@@ -14,7 +14,6 @@
 | Tools | nmap, curl, python3, sage, git |
 | Flag | `NFX{br0tl1_0ob_wr1t3_w0rk3r_r0p_rc3}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

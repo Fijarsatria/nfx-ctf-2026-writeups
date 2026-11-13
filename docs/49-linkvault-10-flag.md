@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](49-linkvault-11-bukti-evidence.md)
 
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](49-linkvault-11-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{L1nkV4ult_cve_26_3p1c_!}`
 > **Status:** `VERIFIED`
 

@@ -14,7 +14,6 @@
 | Tools | python3, sage, fpylll, git |
 | Flag | `NFXCTF{C0pp3rsm1th_p4rt14l_k3y_3xp0sur3_9617eda9}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

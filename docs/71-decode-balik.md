@@ -12,7 +12,6 @@
 | Poin (snapshot) | `100` |
 | Flag | `NFX{CuM4_D3c0D3_B4L!k_Aj4_H4Ru5Ny4_G4mP4nG}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — Decode berlapis dari kanal merah `waifu.png` berhasil direproduksi sampai JPEG yang memuat flag. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -21,7 +20,6 @@
 ## TL;DR
 
 - **Flag:** `NFX{CuM4_D3c0D3_B4L!k_Aj4_H4Ru5Ny4_G4mP4nG}`
-- **Metode:** **FULL** — Decode berlapis dari kanal merah waifu.png berhasil direproduksi sampai JPEG yang memuat flag.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](71-decode-balik-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)

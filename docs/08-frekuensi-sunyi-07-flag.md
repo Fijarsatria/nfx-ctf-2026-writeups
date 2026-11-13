@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](08-frekuensi-sunyi-08-bukti-evidence.md)
 
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](08-frekuensi-sunyi-08-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{b0sC4_Ce01L}`
 > **Status:** `VERIFIED`
 

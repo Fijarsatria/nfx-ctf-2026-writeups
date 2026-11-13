@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](71-decode-balik-04-bukti-evidence.md)
 
 > **Asal flag.** Flag dibaca dari JPEG hasil decode `waifu.png` (Base64 → zlib → Base64 → JPEG), lalu disubmit ke platform.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](71-decode-balik-04-bukti-evidence.md)
 
-> **Status metode:** **FULL** — Decode berlapis dari kanal merah `waifu.png` berhasil direproduksi sampai JPEG yang memuat flag.  
 > **Flag:** `NFX{CuM4_D3c0D3_B4L!k_Aj4_H4Ru5Ny4_G4mP4nG}`
 > **Status:** `VERIFIED`
 

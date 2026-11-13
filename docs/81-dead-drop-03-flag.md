@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](81-dead-drop-04-bukti-evidence.md)
 
 > **Asal flag.** Token dari `.git/config` dipakai untuk membaca hidden branch `archive/q3-handover`; `notes/handover.txt` memuat flag.  
-> **Tingkat bukti metode.** FULL — hidden branch berhasil di-fetch dan flag dibaca dari `notes/handover.txt`. [Buka Evidence](81-dead-drop-04-bukti-evidence.md)
 
-> **Status metode:** **FULL** — token config leak dipakai untuk membaca hidden branch `archive/q3-handover`; flag ada di `notes/handover.txt`.  
 > **Flag:** `NFX{g1t_c0nf1g_h34d3r_l34k_h1dd3n_br4nch_9c1e7a}`
 > **Status:** `VERIFIED`
 

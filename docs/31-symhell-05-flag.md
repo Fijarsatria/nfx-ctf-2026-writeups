@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](31-symhell-06-bukti-evidence.md)
 
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](31-symhell-06-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{5ymH3ll_RUnT1m3_3v4l_53cr3t_PwN!}`
 > **Status:** `VERIFIED`
 

@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](15-progress-bar-user-09-bukti-evidence.md)
 
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](15-progress-bar-user-09-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{pr0gr3ss_b4r_qu3u3_st4g1ng_pwn3d_4s_www_d4t4}`
 > **Status:** `VERIFIED`
 

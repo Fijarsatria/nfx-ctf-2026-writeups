@@ -14,7 +14,6 @@
 | Tools | python3, sage |
 | Flag | `NXCTF{mult1_l4y3r_l4tt1c3_r54_s1gn4tur3_hnp_8c211ad6b5a6}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

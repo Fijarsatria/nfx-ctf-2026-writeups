@@ -14,7 +14,6 @@
 | Tools | python3, git |
 | Flag | `NFXCTF{pyj41l_4st_4lch3my_vm_pwn_d84f216a}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

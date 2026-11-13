@@ -14,7 +14,6 @@
 | Tools | python3, sage, fpylll, git |
 | Flag | `NXCTF{ecds4_hnp_n0nc3_b14s_8b1t_l4tt1c3_a3d2ae498097}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

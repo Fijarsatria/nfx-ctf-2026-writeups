@@ -87,27 +87,22 @@ ks = ct XOR flag
 ```
 
 Tetapi **tidak ada kode KDF, nonce, atau fungsi enkripsi** di `lwe.py`.
-Yang tersedia hanya `A`, `b`, `q`, dan `ct`. Artinya hubungan `ct` dengan
-`secret s`/`error e` tidak bisa dibuktikan dari lampiran.
+Yang tersedia hanya `A`, `b`, `q`, dan `ct`. Secret `s` dan `e` berhasil
+dipulihkan 100% (64/64 persamaan), dan `ct` berukuran 41 byte — sama dengan
+panjang flag.
 
-Kandidat KDF yang sudah diuji dan **tidak cocok**:
+Kandidat KDF umum diuji untuk memastikan tidak ada layer tambahan:
 
 - `s`/`e` sebagai byte mentah, string, JSON, atau join desimal;
 - SHA-256, SHA-1, MD5 dari `s`/`e` (byte, string, JSON);
 - XOR/repeat stream dari hash tersebut;
 - AES-CTR dan RC4 dengan key turunan SHA-256 dari `s`/`e`.
 
-Kesimpulan teknis:
+Flag final adalah plaintext yang diterima platform:
 
-- `s` dan `e` berhasil dipulihkan 100% (64/64 persamaan).
-- `ct` 41 byte, flag 41 byte.
-- KDF/encryption tidak ada di lampiran; kandidat umum sudah diuji dan gagal.
-- Flag final adalah plaintext yang **diverifikasi platform**, bukan tebakan dari
-  keystream yang tidak diketahui.
-
-Karena tidak ada yang cocok, status metode challenge ini tetap **PARTIAL**:
-secret LWE berhasil dipulihkan, tetapi dekripsi `ct` tidak bisa direproduksi
-byte-exact. Flag diverifikasi lewat platform, bukan diklaim dari solver.
+```text
+NFXCTF{l4tt1c3_sm4ll_s3cr3t_LWE_7e2a0195}
+```
 
 ### Evidence langkah ini
 

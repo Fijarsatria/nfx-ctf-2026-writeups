@@ -14,7 +14,6 @@
 | Tools | python3 |
 | Flag | `NFX{st4y_w1th_m3_1n_th3_d4rk}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

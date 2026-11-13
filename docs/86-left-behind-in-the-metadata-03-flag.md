@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](86-left-behind-in-the-metadata-04-bukti-evidence.md)
 
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](86-left-behind-in-the-metadata-04-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFXCTF{3x1f_gp5_m3t4_tr4c3_9f41c8b2e70d}`
 > **Status:** `VERIFIED`
 

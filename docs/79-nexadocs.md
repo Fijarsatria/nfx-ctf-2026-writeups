@@ -12,7 +12,6 @@
 | Poin (snapshot) | `100` |
 | Flag | `NFX{j1nja2_sstI_rce_v1a_gl0bals}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -21,7 +20,6 @@
 ## TL;DR
 
 - **Flag:** `NFX{j1nja2_sstI_rce_v1a_gl0bals}`
-- **Metode:** **FULL** — metode utama berhasil direproduksi.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](79-nexadocs-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)

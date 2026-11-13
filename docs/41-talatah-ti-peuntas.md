@@ -14,7 +14,6 @@
 | Tools | python3, pwntools, checksec, objdump, readelf, strings |
 | Flag | `NFX{HiduPPk1T4AAyangMelawann}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

@@ -12,7 +12,6 @@
 | Author | `cypera` |
 | Flag | `NFX{b4sh_l4y3rs_w1ll_n0t_st0p_m3}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -21,7 +20,6 @@
 ## TL;DR
 
 - **Flag:** `NFX{b4sh_l4y3rs_w1ll_n0t_st0p_m3}`
-- **Metode:** **FULL** — metode utama berhasil direproduksi.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](59-easy-bash-layers-04-flag.md)
 
 ## Challenge Brief (platform)

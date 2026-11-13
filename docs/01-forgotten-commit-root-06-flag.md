@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](01-forgotten-commit-root-07-bukti-evidence.md)
 
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](01-forgotten-commit-root-07-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{fzf_l1st3n_r00t_sh3ll_pwn3d}`
 > **Status:** `VERIFIED`
 

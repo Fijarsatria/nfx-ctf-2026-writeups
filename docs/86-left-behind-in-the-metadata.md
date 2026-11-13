@@ -13,7 +13,6 @@
 | Tools | exiftool |
 | Flag | `NFXCTF{3x1f_gp5_m3t4_tr4c3_9f41c8b2e70d}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -22,7 +21,6 @@
 ## TL;DR
 
 - **Flag:** `NFXCTF{3x1f_gp5_m3t4_tr4c3_9f41c8b2e70d}`
-- **Metode:** **FULL** — metode utama berhasil direproduksi.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](86-left-behind-in-the-metadata-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)

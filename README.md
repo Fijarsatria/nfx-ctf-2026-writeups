@@ -27,10 +27,6 @@ Screenshot itu diambil langsung dari form challenge di
 | VERIFIED | **85** |
 | OPEN | **1** (NXPortal) |
 | Validasi platform (`00b-platform-validation.png`) | **85** |
-| Metode **FULL** | **82** |
-| Metode **PARTIAL** | **2** |
-| Metode **ADMIN-ASSISTED** | **1** |
-| Metode **OPEN** | **1** |
 
 NXPortal tetap **OPEN**: flag challenge belum ditemukan, jadi tidak ada
 screenshot `CORRECT` dan tidak ada klaim `VERIFIED`. Halaman NXPortal berisi

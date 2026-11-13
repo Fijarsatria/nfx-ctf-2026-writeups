@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](28-dokodemo-door-08-bukti-evidence.md)
 
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](28-dokodemo-door-08-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{k3tuk_p1ntu_bUk4_d0kum3n_x0r}`
 > **Status:** `VERIFIED`
 

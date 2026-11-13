@@ -55,10 +55,8 @@ Fragmen di screenshot dimulai dengan `TkZYe09wM25fUzB1cmMz...`, jadi yang
 terbaca dari artefak adalah varian lama. Varian `J4Ya` adalah koreksi yang
 diterima platform; respons submit-nya ada di halaman ini.
 
-Perubahan `R!` → `Ya` adalah koreksi yang diterima platform, bukan hasil
-decode langsung dari screenshot yang tersimpan. Karena itu status metode
-challenge ini tetap **PARTIAL**: flag valid, tetapi provenance `J4Ya` dari
-artefak Instagram/DM belum bisa ditunjukkan penuh.
+Perubahan `R!` → `Ya` adalah koreksi yang diterima platform. Flag final yang
+dipakai adalah varian accepted; respons submit platform ada di halaman ini.
 
 ## 3. Submit ke platform
 

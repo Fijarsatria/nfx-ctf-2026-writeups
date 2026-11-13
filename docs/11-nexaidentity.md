@@ -14,7 +14,6 @@
 | Tools | curl, python3 |
 | Flag | `NFX{n0sql_0p3r4t0r_4uth_byp4ss}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

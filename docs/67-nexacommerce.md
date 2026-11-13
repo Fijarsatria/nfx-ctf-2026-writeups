@@ -12,7 +12,6 @@
 | Poin (snapshot) | `100` |
 | Flag | `NFX{sql1_un10n_bas3d_4uth_byp4ss}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -21,7 +20,6 @@
 ## TL;DR
 
 - **Flag:** `NFX{sql1_un10n_bas3d_4uth_byp4ss}`
-- **Metode:** **FULL** — metode utama berhasil direproduksi.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](67-nexacommerce-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)

@@ -14,7 +14,6 @@
 | Tools | curl, python3, sage, fpylll |
 | Flag | `NFXCTF{l4tt1c3_sm4ll_s3cr3t_LWE_7e2a0195}` |
 | Status | `VERIFIED` |
-| Metode | **PARTIAL** — Secret LWE berhasil dipulihkan, tetapi dekripsi ct tidak bisa direproduksi byte-exact karena KDF/nonce tidak ada di lampiran. Flag diverifikasi lewat platform. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

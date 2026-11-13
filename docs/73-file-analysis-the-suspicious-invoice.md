@@ -13,7 +13,6 @@
 | Tools | exiftool |
 | Flag | `NFX{zip_t1221_cdn-jarvis-update.example_jarvis-ir-case-2026-0211}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -22,7 +21,6 @@
 ## TL;DR
 
 - **Flag:** `NFX{zip_t1221_cdn-jarvis-update.example_jarvis-ir-case-2026-0211}`
-- **Metode:** **FULL** — metode utama berhasil direproduksi.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](73-file-analysis-the-suspicious-invoice-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)

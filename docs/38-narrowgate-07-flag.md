@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](38-narrowgate-08-bukti-evidence.md)
 
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](38-narrowgate-08-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{ex3cve_d3ni3d_but_0pen_r34d_writ3_s4v3d_th3_day}`
 > **Status:** `VERIFIED`
 

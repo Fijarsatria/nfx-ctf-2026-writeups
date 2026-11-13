@@ -13,7 +13,6 @@
 | Tools | git |
 | Flag | `NFX{gh_4ct10ns_m4sk_byp4ss_4nd_0rph4n_c0mm1t_l34k_9f82}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -22,7 +21,6 @@
 ## TL;DR
 
 - **Flag:** `NFX{gh_4ct10ns_m4sk_byp4ss_4nd_0rph4n_c0mm1t_l34k_9f82}`
-- **Metode:** **FULL** — Repo/issue/commit publik kuat; log mentah GitHub Actions 403 karena butuh admin repo.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](82-pipeline-phantom-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)

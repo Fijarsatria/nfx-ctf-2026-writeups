@@ -14,7 +14,6 @@
 | Tools | curl, python3, strings, docker |
 | Flag | `NFX{L1nkV4ult_cve_26_3p1c_!}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

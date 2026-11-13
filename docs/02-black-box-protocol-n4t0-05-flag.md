@@ -6,10 +6,8 @@
 >
 > **Asal flag.** Decode tiga kolom XLSX dengan urutan **A-B-C**, lalu
 > disubmit lewat form web platform.
-> **Tingkat bukti metode.** Terdokumentasi.
 > [Buka Evidence](02-black-box-protocol-n4t0-06-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}`
 > **Status:** `VERIFIED`
 

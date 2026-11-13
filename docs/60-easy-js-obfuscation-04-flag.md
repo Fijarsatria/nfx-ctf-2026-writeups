@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](60-easy-js-obfuscation-05-bukti-evidence.md)
 
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](60-easy-js-obfuscation-05-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{j4v4scr1pt_0bfusc4t3d_but_st1ll_r34d4bl3}`
 > **Status:** `VERIFIED`
 

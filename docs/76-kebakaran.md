@@ -12,7 +12,6 @@
 | Poin (snapshot) | `100` |
 | Flag | `NXCTF{GLORIA_SETIABAKTI_SINARHARAPAN}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — Lokasi dan tiga usaha teridentifikasi dari Google Maps place search; frame Street View papan toko tidak tersimpan. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -21,7 +20,6 @@
 ## TL;DR
 
 - **Flag:** `NXCTF{GLORIA_SETIABAKTI_SINARHARAPAN}`
-- **Metode:** **PARTIAL** — Lokasi dan Google Maps ada; frame Street View papan toko tidak tersimpan.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](76-kebakaran-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)

@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](33-fresh-arrival-07-bukti-evidence.md)
 
 > **Asal flag.** Flag dari JetPhotos + Wikidata, lalu disubmit lewat web.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](33-fresh-arrival-07-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{XW_CXH_beijing_raihan}`
 > **Status:** `VERIFIED`
 

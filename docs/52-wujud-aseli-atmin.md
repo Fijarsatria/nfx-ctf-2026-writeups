@@ -14,7 +14,6 @@
 | Tools | binwalk, exiftool, zsteg, sage, z3, git |
 | Flag | `NFX{NFCC_Goes_to_NCSC_2026}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -23,7 +22,6 @@
 ## TL;DR
 
 - **Flag:** `NFX{NFCC_Goes_to_NCSC_2026}`
-- **Metode:** **FULL** — metode utama berhasil direproduksi.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](52-wujud-aseli-atmin-04-flag.md)
 
 ## Challenge Brief (platform)

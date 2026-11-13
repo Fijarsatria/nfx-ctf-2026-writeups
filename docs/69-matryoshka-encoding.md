@@ -12,7 +12,6 @@
 | Poin (snapshot) | `100` |
 | Flag | `NFXCTF{m4try0shk4_0n10n_p33l3d_c309b71e}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -21,7 +20,6 @@
 ## TL;DR
 
 - **Flag:** `NFXCTF{m4try0shk4_0n10n_p33l3d_c309b71e}`
-- **Metode:** **FULL** — metode utama berhasil direproduksi.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](69-matryoshka-encoding-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)

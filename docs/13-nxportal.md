@@ -13,7 +13,6 @@
 | Tools | curl, python3, sage, git, docker |
 | Flag | **OPEN — belum ditemukan** |
 | Status | `OPEN` |
-| Metode | **OPEN** — flag belum ditemukan. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

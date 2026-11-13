@@ -14,7 +14,6 @@
 | Tools | exiftool, tshark, Wireshark, openssl |
 | Flag | `NFX{D36A64128F80788B60C677EF94FA7157}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

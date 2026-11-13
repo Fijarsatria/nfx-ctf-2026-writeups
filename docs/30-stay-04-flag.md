@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](30-stay-05-bukti-evidence.md)
 
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](30-stay-05-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{st4y_w1th_m3_1n_th3_d4rk}`
 > **Status:** `VERIFIED`
 

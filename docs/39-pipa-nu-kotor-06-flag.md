@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](39-pipa-nu-kotor-07-bukti-evidence.md)
 
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](39-pipa-nu-kotor-07-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{Si44aTehKuduSadarDip4lakSave3Jari1}`
 > **Status:** `VERIFIED`
 

@@ -12,7 +12,6 @@
 | Tools | `python3`, `codecs` |
 | Flag | `NFX{Y0U_R0T4T3D_TH3_L3TT3R5_N0W_F1X_TH3_D1G1T5}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -21,7 +20,6 @@
 ## TL;DR
 
 - **Flag:** `NFX{Y0U_R0T4T3D_TH3_L3TT3R5_N0W_F1X_TH3_D1G1T5}`
-- **Metode:** **FULL** — Solver empat layer berhasil direproduksi dan flag diterima platform.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](77-13-is-not-enough-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)

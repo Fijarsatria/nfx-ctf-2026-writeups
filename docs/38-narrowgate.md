@@ -14,7 +14,6 @@
 | Tools | python3, pwntools, checksec, objdump, strings |
 | Flag | `NFX{ex3cve_d3ni3d_but_0pen_r34d_writ3_s4v3d_th3_day}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

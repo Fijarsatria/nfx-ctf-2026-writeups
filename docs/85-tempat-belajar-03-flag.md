@@ -6,9 +6,7 @@
 >
 > **Status:** `VERIFIED`
 > **Asal flag.** Flag dari teks Base64 Instagram `@dihlearn.id` + screenshot submit web.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](85-tempat-belajar-04-bukti-evidence.md)
 
-> **Status metode:** **PARTIAL** — Flag accepted; provenance teks J4Ya dari artefak Instagram/DM belum ditunjukkan penuh.  
 > **Flag:** `NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4Ya}`
 
 ## Flag

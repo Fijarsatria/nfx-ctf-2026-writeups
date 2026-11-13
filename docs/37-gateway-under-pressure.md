@@ -14,7 +14,6 @@
 | Tools | python3, pwntools, checksec, objdump, strings |
 | Flag | `NFX{Nyoss_Gte3wayy_Pr3ssureee0!}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

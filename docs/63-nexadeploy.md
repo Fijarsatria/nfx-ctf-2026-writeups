@@ -12,7 +12,6 @@
 | Poin (snapshot) | `100` |
 | Flag | `NFX{y4ml_unS4f3_l04d3r_t0_rce}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -21,7 +20,6 @@
 ## TL;DR
 
 - **Flag:** `NFX{y4ml_unS4f3_l04d3r_t0_rce}`
-- **Metode:** **FULL** — metode utama berhasil direproduksi.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](63-nexadeploy-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)

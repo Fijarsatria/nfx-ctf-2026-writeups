@@ -13,7 +13,6 @@
 | Tools | strings |
 | Flag | `NFXCTF{cl34rt3xt_pr0t0c0ls_l34k_s3cr3ts}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -22,7 +21,6 @@
 ## TL;DR
 
 - **Flag:** `NFXCTF{cl34rt3xt_pr0t0c0ls_l34k_s3cr3ts}`
-- **Metode:** **FULL** — metode utama berhasil direproduksi.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](58-cleartext-sniffing-04-flag.md)
 
 ## Challenge Brief (platform)

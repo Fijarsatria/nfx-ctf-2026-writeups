@@ -14,7 +14,6 @@
 | Tools | strings, sage, git |
 | Flag | `NFX{5ymH3ll_RUnT1m3_3v4l_53cr3t_PwN!}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)

@@ -13,7 +13,6 @@
 | Tools | objdump |
 | Flag | `NFX{x0r_1s_fun_but_n0t_s3cur3}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -22,7 +21,6 @@
 ## TL;DR
 
 - **Flag:** `NFX{x0r_1s_fun_but_n0t_s3cur3}`
-- **Metode:** **FULL** — metode utama berhasil direproduksi.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](54-baby-xor-04-flag.md)
 
 ## Challenge Brief (platform)

@@ -12,7 +12,6 @@
 | Poin (snapshot) | `100` |
 | Flag | `NFX{Wh33W0kTh3Tok-k}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — Heap overflow `suid=0` berhasil direproduksi dengan binary asli; output flag nyata. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -21,7 +20,6 @@
 ## TL;DR
 
 - **Flag:** `NFX{Wh33W0kTh3Tok-k}`
-- **Metode:** **PARTIAL** — Flag accepted; gate suid==0 belum berhasil direproduksi di binary lokal.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](78-kunci-sudo-sing-kesasar-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)

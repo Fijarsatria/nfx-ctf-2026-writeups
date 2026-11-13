@@ -12,7 +12,6 @@
 | Poin (snapshot) | `250` |
 | Flag | `NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}` |
 | Status | `VERIFIED` |
-| Metode | **ADMIN-ASSISTED** — flag dari admin/event staff. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -21,7 +20,6 @@
 ## TL;DR
 
 - **Flag:** `NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}`
-- **Metode:** **ADMIN-ASSISTED** — Flag diberikan admin melalui DM Discord setelah follow akun sponsor.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](83-follow-jarvis-02-cara-mendapatkan-flag.md)
 
 ## Challenge Brief (platform)

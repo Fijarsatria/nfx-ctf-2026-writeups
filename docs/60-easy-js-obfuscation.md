@@ -12,7 +12,6 @@
 | Author | `cypera` |
 | Flag | `NFX{j4v4scr1pt_0bfusc4t3d_but_st1ll_r34d4bl3}` |
 | Status | `VERIFIED` |
-| Metode | **FULL** — metode utama berhasil direproduksi. |
 | Snapshot | 2026-11-13 |
 
 [← Kembali ke Index](index.md)
@@ -21,7 +20,6 @@
 ## TL;DR
 
 - **Flag:** `NFX{j4v4scr1pt_0bfusc4t3d_but_st1ll_r34d4bl3}`
-- **Metode:** **FULL** — metode utama berhasil direproduksi.
 - **Baca langkah lengkap:** [Cara Mendapatkan Flag](60-easy-js-obfuscation-04-flag.md)
 
 ## Challenge Brief (platform)

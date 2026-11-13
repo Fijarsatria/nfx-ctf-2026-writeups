@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](63-nexadeploy-04-bukti-evidence.md)
 
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](63-nexadeploy-04-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{y4ml_unS4f3_l04d3r_t0_rce}`
 > **Status:** `VERIFIED`
 

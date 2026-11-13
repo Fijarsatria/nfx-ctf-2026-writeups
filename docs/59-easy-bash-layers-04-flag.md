@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](59-easy-bash-layers-05-bukti-evidence.md)
 
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](59-easy-bash-layers-05-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{b4sh_l4y3rs_w1ll_n0t_st0p_m3}`
 > **Status:** `VERIFIED`
 

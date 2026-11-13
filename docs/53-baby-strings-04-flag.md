@@ -9,9 +9,7 @@
 > **Berikutnya:** [Bukti / Evidence](53-baby-strings-05-bukti-evidence.md)
 
 > **Asal flag.** Flag diperoleh dari langkah exploit/solver yang terdokumentasi, lalu disubmit ke platform.  
-> **Tingkat bukti metode.** Terdokumentasi. [Buka Evidence](53-baby-strings-05-bukti-evidence.md)
 
-> **Status metode:** **FULL** — metode utama berhasil direproduksi.  
 > **Flag:** `NFX{str1ngs_4r3_y0ur_b3st_fr13nd}`
 > **Status:** `VERIFIED`
 
