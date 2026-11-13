@@ -97,6 +97,14 @@ Kandidat KDF yang sudah diuji dan **tidak cocok**:
 - XOR/repeat stream dari hash tersebut;
 - AES-CTR dan RC4 dengan key turunan SHA-256 dari `s`/`e`.
 
+Kesimpulan teknis:
+
+- `s` dan `e` berhasil dipulihkan 100% (64/64 persamaan).
+- `ct` 41 byte, flag 41 byte.
+- KDF/encryption tidak ada di lampiran; kandidat umum sudah diuji dan gagal.
+- Flag final adalah plaintext yang **diverifikasi platform**, bukan tebakan dari
+  keystream yang tidak diketahui.
+
 Karena tidak ada yang cocok, status metode challenge ini tetap **PARTIAL**:
 secret LWE berhasil dipulihkan, tetapi dekripsi `ct` tidak bisa direproduksi
 byte-exact. Flag diverifikasi lewat platform, bukan diklaim dari solver.

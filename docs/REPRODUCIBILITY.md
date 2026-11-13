@@ -47,6 +47,7 @@ flag yang sama dengan yang diterima platform.
 | Castaway | [`solve_castaway.py`](assets/castaway/solve_castaway.py) | [`castaway`](assets/castaway/castaway) | `cd docs/assets/castaway && python3 solve_castaway.py` | `NFX{c4st4w4y_0n_4n_0p4qu3_st4t3_m4ch1n3}` |
 | Decode Balik | [`solve_decode_balik.py`](assets/decode-balik/solve_decode_balik.py) | [`waifu.png`](assets/decode-balik/waifu.png) | `cd docs/assets/decode-balik && python3 solve_decode_balik.py` | JPEG `10-waifu-decoded.jpg`; flag terlihat di gambar |
 | Omah Buffer Kebak | [`solve_omah.py`](assets/omah-buffer-kebak/solve_omah.py) | [`omah`](assets/omah-buffer-kebak/omah), `flag.txt` | `cd docs/assets/omah-buffer-kebak && python3 solve_omah.py` | `FLAG: NFX{OmahhKUuD0Ndoll_Uw0nggG}` |
+| Kunci Sudo Sing Kesasar | [`solve_kunci.py`](assets/kunci-sudo-sing-kesasar/solve_kunci.py) | [`kunci`](assets/kunci-sudo-sing-kesasar/kunci), `flag.txt` | `cd docs/assets/kunci-sudo-sing-kesasar && python3 solve_kunci.py` | `FLAG: NFX{Wh33W0kTh3Tok-k}` |
 
 ### Contoh output nyata
 

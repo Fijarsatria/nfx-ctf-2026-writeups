@@ -44,6 +44,17 @@ karakter di bagian akhir:
 NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4Ya}
 ```
 
+Perbandingan Base64-nya:
+
+| Varian | Base64 | Decode |
+|---|---|---|
+| Lama | `TkZYe09wM25fUzB1cmMzX1BsNHRGMHJtX0QxaEwzcm5fSjRSIX0=` | `NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4R!}` |
+| Accepted | `TkZYe09wM25fUzB1cmMzX1BsNHRGMHJtX0QxaEwzcm5fSjRZYX0=` | `NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4Ya}` |
+
+Fragmen di screenshot dimulai dengan `TkZYe09wM25fUzB1cmMz...`, jadi yang
+terbaca dari artefak adalah varian lama. Varian `J4Ya` adalah koreksi yang
+diterima platform; respons submit-nya ada di halaman ini.
+
 Perubahan `R!` → `Ya` adalah koreksi yang diterima platform, bukan hasil
 decode langsung dari screenshot yang tersimpan. Karena itu status metode
 challenge ini tetap **PARTIAL**: flag valid, tetapi provenance `J4Ya` dari
