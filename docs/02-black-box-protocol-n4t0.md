@@ -8,13 +8,11 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Crypto` |
 | Difficulty | `Medium` |
-| Poin (snapshot) | `280` |
+| Poin | `280` |
 | Author | `Kada` |
 | Tools | python3, openpyxl/zipfile, struct |
 | Flag | `NFX{N4T0_PH0N3T1C_1N1_C0mbO_H3X_fl0At_b4r4ng}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 > **Status: VERIFIED.** Decode tiga kolom berhasil dan flag diterima lewat form web platform.

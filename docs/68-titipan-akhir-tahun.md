@@ -9,12 +9,10 @@
 | Kategori | `Misc` |
 | Author | `Syahril` |
 | Difficulty | `Easy` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Tools | exiftool |
 | Flag | `NFX{D3C0D3_D4ND3C0D3_L4G1}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

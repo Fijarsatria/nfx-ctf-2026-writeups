@@ -1,7 +1,7 @@
 # Reproducibility — Cara Menjalankan Solver
 
-**Snapshot:** 2026-11-13. Halaman ini menjelaskan cara menjalankan solver yang
-disertakan di repo, input yang dibutuhkan, dan output yang diharapkan.
+Halaman ini menjelaskan cara menjalankan solver yang disertakan di repo, input
+yang dibutuhkan, dan output yang diharapkan.
 
 ## Konvensi path
 

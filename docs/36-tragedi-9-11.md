@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Osint` |
 | Difficulty | `Hard` |
-| Poin (snapshot) | `380` |
+| Poin | `380` |
 | Author | `salep88` |
 | Solves | `7` |
 | Tools | curl, python3, git |
 | Flag | `NFX{OS1NT_DU4R_D34_D0R}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

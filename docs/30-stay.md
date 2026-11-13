@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Misc` |
 | Difficulty | `Medium` |
-| Poin (snapshot) | `340` |
+| Poin | `340` |
 | Author | `Kesatria Baja Ringan` |
 | Solves | `9` |
 | Tools | python3 |
 | Flag | `NFX{st4y_w1th_m3_1n_th3_d4rk}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

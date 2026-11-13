@@ -8,13 +8,11 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Osint` |
 | Difficulty | `Medium` |
-| Poin (snapshot) | `380` |
+| Poin | `380` |
 | Author | `Kada` |
 | Tools | curl, python3, exiftool, git |
 | Flag | `NFX{Gr4v4t4r_0s1nt_R3cru1t3r_D1hL34Rn}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)
@@ -42,10 +40,6 @@ Jadi ceritanya gini. challenge memberi sebuah poster AI berjudul **“DIGITAL HO
 
 ## Ringkasan
 
-> Catatan metadata: `writeups/_manifest.json` mencatat 380 poin / 7 solves,
-> sedangkan `umum/Osint/career-tempat-belajar/challenge.json` mencatat
-> 480 poin / 2 solves (snapshot saat challenge baru dibuat). Angka platform
-> terbaru yang dipakai di tabel; perbedaannya dicatat agar tidak menyesatkan.
 ## TL;DR
 
 - Challenge memberi sebuah poster AI berjudul **“DIGITAL HOUR LEARNING”**.

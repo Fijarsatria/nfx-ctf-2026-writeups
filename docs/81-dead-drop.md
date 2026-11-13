@@ -9,12 +9,10 @@
 | Kategori | `Forensics` |
 | Author | `Ariaf` |
 | Difficulty | `Baby` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Tools | git |
 | Flag | `NFX{g1t_c0nf1g_h34d3r_l34k_h1dd3n_br4nch_9c1e7a}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

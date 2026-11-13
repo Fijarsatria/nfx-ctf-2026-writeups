@@ -8,13 +8,11 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Misc` |
 | Difficulty | `Medium` |
-| Poin (snapshot) | `180` |
+| Poin | `180` |
 | Author | `Kesatria Baja Ringan` |
 | Tools | python3 |
 | Flag | `NFX{b0sC4_Ce01L}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)
@@ -43,11 +41,6 @@ Jadi ceritanya gini. attachment aslinya adalah `rekaman_lobi.wav`: PCM 16-bit, 4
 
 ## Ringkasan
 
-> Catatan metadata: `writeups/_manifest.json` mencatat 180 poin / 17 solves /
-> author `syahril`, sedangkan `challenge.json` kerja dan report submit
-> mencatat 460 poin / 3 solves / author `Kesatria Baja Ringan`. Nilai dari
-> report submit (`+460`) dipakai di tabel ini; perbedaannya dicatat agar
-> tidak menyesatkan.
 ## TL;DR
 
 - Attachment aslinya adalah `rekaman_lobi.wav`: PCM 16-bit, 44.100 Hz, stereo,

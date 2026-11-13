@@ -9,11 +9,9 @@
 | Kategori | `Web` |
 | Author | `Ariaf` |
 | Difficulty | `Baby` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Flag | `NFX{xxe_supply_f33d_l0c4l_f1l3_r34d}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

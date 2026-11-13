@@ -9,11 +9,9 @@
 | Kategori | `Crypto` |
 | Author | `Ariaf` |
 | Difficulty | `Easy` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Flag | `NFX{CuM4_D3c0D3_B4L!k_Aj4_H4Ru5Ny4_G4mP4nG}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

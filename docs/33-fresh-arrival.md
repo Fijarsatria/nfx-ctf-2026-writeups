@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Osint` |
 | Difficulty | `Medium` |
-| Poin (snapshot) | `340` |
+| Poin | `340` |
 | Author | `Ariaf` |
 | Solves | `9` |
 | Tools | curl, python3, exiftool |
 | Flag | `NFX{XW_CXH_beijing_raihan}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

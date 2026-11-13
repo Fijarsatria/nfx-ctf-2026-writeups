@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Reverse` |
 | Difficulty | `Hard` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Author | `Kesatria Baja Ringan` |
 | Solves | `22` |
 | Tools | python3, pwntools, checksec, gdb, objdump, readelf, strings |
 | Flag | `NFX{c4st4w4y_0n_4n_0p4qu3_st4t3_m4ch1n3}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

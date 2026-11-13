@@ -9,11 +9,9 @@
 | Kategori | `Linux` |
 | Author | `—` |
 | Difficulty | `Easy` |
-| Poin (snapshot) | `250` |
+| Poin | `250` |
 | Flag | `NFX{Th4nk_Y0u_F0r_Supp0rt1ng_NFXCTF_x_Jarvis}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

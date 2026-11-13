@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Reverse` |
 | Difficulty | `Hard` |
-| Poin (snapshot) | `230` |
+| Poin | `230` |
 | Author | `cypera` |
 | Solves | `19` |
 | Tools | python3, pwntools, checksec, gdb, objdump, readelf, strings, sage |
 | Flag | `NFX{f315t3l_n3tw0rk_16_r0und5_r3v3rs3d}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

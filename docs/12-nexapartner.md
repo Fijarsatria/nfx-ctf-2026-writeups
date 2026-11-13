@@ -8,14 +8,12 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Web` |
 | Difficulty | `Medium` |
-| Poin (snapshot) | `200` |
+| Poin | `200` |
 | Author | `Ariaf` |
 | Solves | `16` |
 | Tools | curl, python3 |
 | Flag | `NFX{js0n_pr0t0_p0llut10n_4dm1n_byp4ss}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

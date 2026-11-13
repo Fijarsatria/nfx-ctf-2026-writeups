@@ -8,13 +8,11 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Osint` |
 | Difficulty | `Easy` |
-| Poin (snapshot) | `300` |
+| Poin | `300` |
 | Author | `Kada` |
 | Tools | exiftool, python3, browser |
 | Flag | `NFX{Op3n_S0urc3_Pl4tF0m_D1hL3rn_J4Ya}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

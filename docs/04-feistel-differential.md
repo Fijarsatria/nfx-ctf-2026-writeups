@@ -8,14 +8,12 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Crypto` |
 | Difficulty | `Medium` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Author | `Illal` |
 | Solves | `23` |
 | Tools | python3, sage, z3 |
 | Flag | `NFXCTF{d1ff3r3nt14l_crypt0_pwn5_f31st3l_45322835}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

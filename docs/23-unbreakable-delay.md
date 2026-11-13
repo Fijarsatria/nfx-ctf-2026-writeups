@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Crypto` |
 | Difficulty | `Medium` |
-| Poin (snapshot) | `360` |
+| Poin | `360` |
 | Author | `Kad` |
 | Solves | `8` |
 | Tools | python3, sage, git |
 | Flag | `NFX{x0r_f4ct0r1ng_4nd_f4st_vdf_byp4ss_m4k3s_1t_h4rd}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

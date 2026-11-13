@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Forensics` |
 | Difficulty | `Hard` |
-| Poin (snapshot) | `420` |
+| Poin | `420` |
 | Author | `Ariaf` |
 | Solves | `5` |
 | Tools | strings, exiftool |
 | Flag | `NFX{Mizore_Promise_Never_Forgotten_The_Bluebird_Still_Sings}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

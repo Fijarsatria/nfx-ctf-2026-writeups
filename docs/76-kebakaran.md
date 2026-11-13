@@ -9,11 +9,9 @@
 | Kategori | `Osint` |
 | Author | `KBR` |
 | Difficulty | `Easy` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Flag | `NXCTF{GLORIA_SETIABAKTI_SINARHARAPAN}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

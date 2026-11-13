@@ -8,13 +8,11 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Forensics` |
 | Difficulty | `Baby` |
-| Poin (snapshot) | `180` |
+| Poin | `180` |
 | Author | `Candelena` |
 | Tools | strings |
 | Flag | `NFXCTF{cl34rt3xt_pr0t0c0ls_l34k_s3cr3ts}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

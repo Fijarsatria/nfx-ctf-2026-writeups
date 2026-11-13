@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Forensics` |
 | Difficulty | `Hard` |
-| Poin (snapshot) | `360` |
+| Poin | `360` |
 | Author | `Ariaf` |
 | Solves | `8` |
 | Tools | python3, exiftool, sage |
 | Flag | `NFX{The_Real_Access_Was_Kumiko_All_Along}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

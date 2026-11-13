@@ -9,12 +9,10 @@
 | Kategori | `Forensics` |
 | Author | `Zer0` |
 | Difficulty | `Easy` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Tools | exiftool |
 | Flag | `NFX{zip_t1221_cdn-jarvis-update.example_jarvis-ir-case-2026-0211}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

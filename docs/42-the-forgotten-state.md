@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Pwn` |
 | Difficulty | `Hard` |
-| Poin (snapshot) | `340` |
+| Poin | `340` |
 | Author | `Amablex` |
 | Solves | `9` |
 | Tools | python3, pwntools, checksec, objdump, readelf, strings |
 | Flag | `NFX{ElC0nloe_Forg0tten_StaticcD42#}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

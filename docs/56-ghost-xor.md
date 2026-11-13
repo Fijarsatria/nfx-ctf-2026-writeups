@@ -8,12 +8,10 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Crypto` |
 | Difficulty | `Baby` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Author | `Candelena` |
 | Flag | `NFXCTF{x0r_1s_sup3r_34sy_r1ght_a8f9c2}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

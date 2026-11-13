@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Crypto` |
 | Difficulty | `Hard` |
-| Poin (snapshot) | `180` |
+| Poin | `180` |
 | Author | `rio` |
 | Solves | `17` |
 | Tools | python3, sage |
 | Flag | `NXCTF{mult1_l4y3r_l4tt1c3_r54_s1gn4tur3_hnp_8c211ad6b5a6}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

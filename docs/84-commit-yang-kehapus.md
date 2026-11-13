@@ -9,12 +9,10 @@
 | Kategori | `Osint` |
 | Author | `—` |
 | Difficulty | `Baby` |
-| Poin (snapshot) | `260` |
+| Poin | `260` |
 | Tools | git |
 | Flag | `NFXCTF{g1t_d4ngl1ng_bl0b_h4v0c_5c8a19d4}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

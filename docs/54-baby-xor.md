@@ -8,13 +8,11 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Reverse` |
 | Difficulty | `Baby` |
-| Poin (snapshot) | `260` |
+| Poin | `260` |
 | Author | `cypera` |
 | Tools | objdump |
 | Flag | `NFX{x0r_1s_fun_but_n0t_s3cur3}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

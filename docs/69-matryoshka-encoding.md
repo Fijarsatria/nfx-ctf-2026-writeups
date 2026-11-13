@@ -9,11 +9,9 @@
 | Kategori | `Misc` |
 | Author | `Illal` |
 | Difficulty | `Easy` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Flag | `NFXCTF{m4try0shk4_0n10n_p33l3d_c309b71e}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

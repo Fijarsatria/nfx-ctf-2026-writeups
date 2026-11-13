@@ -9,11 +9,9 @@
 | Kategori | `Web` |
 | Author | `Ariaf` |
 | Difficulty | `Easy` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Flag | `NFX{sql1_un10n_bas3d_4uth_byp4ss}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

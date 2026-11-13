@@ -9,12 +9,10 @@
 | Kategori | `Boot To Root` |
 | Author | `Ariaf` |
 | Difficulty | `Easy` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Tools | nmap, curl, git |
 | Flag | `NFX{g1t_h1story_s3cr3ts_l34d_t0_ssh}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

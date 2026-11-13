@@ -60,7 +60,6 @@ extra:
   generator: false
 nav:
 - NFX CTF 2026: index.md
-- Metadata & Snapshot: METADATA.md
 - Cara Menjalankan Solver: REPRODUCIBILITY.md
 - Referensi Umum: REFERENSI.md
 - Track Mahasiswa NF:

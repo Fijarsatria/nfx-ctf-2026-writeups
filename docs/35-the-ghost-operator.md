@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Osint` |
 | Difficulty | `Medium` |
-| Poin (snapshot) | `380` |
+| Poin | `380` |
 | Author | `Ariaf` |
 | Solves | `7` |
 | Tools | curl, python3, sage, angr, git, gpg |
 | Flag | `NFX{villa_istana_bunga_lembang}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

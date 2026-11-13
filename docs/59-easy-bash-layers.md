@@ -8,12 +8,10 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Reverse` |
 | Difficulty | `Easy` |
-| Poin (snapshot) | `260` |
+| Poin | `260` |
 | Author | `cypera` |
 | Flag | `NFX{b4sh_l4y3rs_w1ll_n0t_st0p_m3}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

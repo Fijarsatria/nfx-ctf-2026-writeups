@@ -8,13 +8,11 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Forensics` |
 | Difficulty | `Medium` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Author | `Zer0` |
 | Tools | python3, exiftool, git |
 | Flag | `NFX{wraithbyte_cve202421412_20250314_zenvpn271}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

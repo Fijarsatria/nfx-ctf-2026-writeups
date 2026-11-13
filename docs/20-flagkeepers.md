@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Crypto` |
 | Difficulty | `Hard` |
-| Poin (snapshot) | `440` |
+| Poin | `440` |
 | Author | `Ariaf` |
 | Solves | `4` |
 | Tools | python3, sage |
 | Flag | `NFX{gcm_f0rb1dd3n_4tt4ck_du4l_t4g_c0ll1s10n_m4st3r}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

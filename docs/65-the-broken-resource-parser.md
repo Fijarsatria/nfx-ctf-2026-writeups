@@ -9,11 +9,9 @@
 | Kategori | `Pwn` |
 | Author | `Amablex` |
 | Difficulty | `Easy` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Flag | `NFX{Ad1o0Ssss_Br0k3nnn_fl3gg}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

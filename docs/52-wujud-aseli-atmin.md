@@ -8,14 +8,12 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Misc` |
 | Difficulty | `Medium` |
-| Poin (snapshot) | `420` |
+| Poin | `420` |
 | Author | `Syahril` |
 | Solves | `2 saat writeup dibuat` |
 | Tools | binwalk, exiftool, zsteg, sage, z3, git |
 | Flag | `NFX{NFCC_Goes_to_NCSC_2026}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

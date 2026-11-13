@@ -8,13 +8,11 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Osint` |
 | Difficulty | `Easy` |
-| Poin (snapshot) | `300` |
+| Poin | `300` |
 | Author | `Illal` |
 | Tools | unzip, jq, grep, base64 |
 | Flag | `NFXCTF{dn5_ct_l0g_p1v0t_b34c0n_a72e4091}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

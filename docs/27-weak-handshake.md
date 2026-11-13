@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Forensics` |
 | Difficulty | `Medium` |
-| Poin (snapshot) | `360` |
+| Poin | `360` |
 | Author | `Ariaf` |
 | Solves | `8` |
 | Tools | exiftool, tshark, Wireshark, openssl |
 | Flag | `NFX{D36A64128F80788B60C677EF94FA7157}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

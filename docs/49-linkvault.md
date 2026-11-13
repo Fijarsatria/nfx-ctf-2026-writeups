@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Web` |
 | Difficulty | `Hard` |
-| Poin (snapshot) | `360` |
+| Poin | `360` |
 | Author | `Ariaf` |
 | Solves | `8` |
 | Tools | curl, python3, strings, docker |
 | Flag | `NFX{L1nkV4ult_cve_26_3p1c_!}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

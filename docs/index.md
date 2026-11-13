@@ -65,7 +65,7 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 <div class="nx-result-line"><strong id="nx-count">86 challenge</strong><button type="button" id="nx-reset" class="nx-reset">Reset filter</button></div>
 <div class="nx-table-wrap">
 <table id="nx-challenge-table" class="nx-challenge-table">
-<thead><tr><th>Challenge</th><th>Difficulty</th><th>Poin (snapshot)</th><th>Status</th><th>Halaman</th></tr></thead>
+<thead><tr><th>Challenge</th><th>Difficulty</th><th>Poin</th><th>Status</th><th>Halaman</th></tr></thead>
 <tbody>
 <tr data-event="NF" data-category="Boot To Root" data-status="VERIFIED" data-difficulty="Medium" data-search="Forgotten Commit (Root) Boot To Root Medium Track Mahasiswa NF"><td><a href="01-forgotten-commit-root.html"><strong>Forgotten Commit (Root)</strong></a><br><span class="nx-row-sub">NF · Boot To Root</span></td><td>Medium</td><td>100</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="01-forgotten-commit-root.html">9 halaman</a></td></tr>
 <tr data-event="NF" data-category="Crypto" data-status="VERIFIED" data-difficulty="Medium" data-search="Black Box Protocol N4T0 Crypto Medium Track Mahasiswa NF"><td><a href="02-black-box-protocol-n4t0.html"><strong>Black Box Protocol N4T0</strong></a><br><span class="nx-row-sub">NF · Crypto</span></td><td>Medium</td><td>280</td><td><span class="nx-badge nx-badge-verified">VERIFIED</span></td><td><a href="02-black-box-protocol-n4t0.html">8 halaman</a></td></tr>
@@ -162,13 +162,11 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 <div class="nx-legend"><span class="nx-badge nx-badge-verified">VERIFIED</span><p>Flag tercatat accepted di platform. Halaman Flag memuat terminal evidence asli dan log API.</p></div>
 <div class="nx-legend"><span class="nx-badge nx-badge-open">OPEN</span><p>Flag belum ditemukan atau belum diverifikasi platform. Halaman berisi analisis dan kendala, bukan klaim VERIFIED.</p></div>
 </div>
-<p class="nx-verified-note"><strong>Snapshot metadata:</strong> 2026-11-13. Poin di tabel adalah poin saat solve/snapshot, bukan poin live; platform memakai <em>dynamic scoring</em> (max points, decay per solve, min points). Solves dan poin live bisa berbeda.</p>
-<p class="nx-verified-note"><strong>85/86 flag</strong> tercatat accepted di platform. Satu challenge masih <strong>OPEN</strong>: NXPortal. Bukti tiap flag berupa <em>terminal evidence asli</em> dan/atau screenshot submit web.</p>
 
 ## Cara pakai
 
 <div class="nx-steps">
-<div class="nx-step"><span>01</span><b>Buka Overview</b><p>Lihat TL;DR, status flag, status metode, dan navigasi halaman challenge.</p></div>
+<div class="nx-step"><span>01</span><b>Buka Overview</b><p>Lihat TL;DR, status flag, dan navigasi halaman challenge.</p></div>
 <div class="nx-step"><span>02</span><b>Ikuti Recon → Analisis</b><p>Pahami target, endpoint, file, dan akar masalahnya.</p></div>
 <div class="nx-step"><span>03</span><b>Jalankan Eksploitasi</b><p>Semua command dan output disertakan agar bisa direproduksi.</p></div>
 <div class="nx-step"><span>04</span><b>Cek Flag & Evidence</b><p>Verifikasi flag lewat screenshot platform dan lihat terminal evidence, transkrip, serta artefak.</p></div>
@@ -176,7 +174,7 @@ Cari challenge, lalu saring berdasarkan status atau kategori. Klik kartu kategor
 
 Setiap halaman juga punya daftar isi di sisi kanan, tombol salin pada blok kode, pencarian global, dan tombol kembali ke atas.
 
-> **Mau menjalankan solver?** Lihat [Cara Menjalankan Solver](REPRODUCIBILITY.md) — input, binary, dependency, dan expected output per challenge. Metadata poin/solves ada di [Metadata & Snapshot](METADATA.md).
+> **Mau menjalankan solver?** Lihat [Cara Menjalankan Solver](REPRODUCIBILITY.md) — input, binary, dependency, dan expected output per challenge.
 
 !!! info "Cara membaca tiap langkah"
     - **Langkah X/Y** menunjukkan posisi langkah dan tujuan singkatnya.
@@ -195,9 +193,6 @@ Setiap halaman juga punya daftar isi di sisi kanan, tombol salin pada blok kode,
 
 !!! info "NXPortal masih OPEN"
     Halaman NXPortal berisi analisis dan kendala yang ditemui. Tidak ada flag yang dicantumkan untuk challenge ini.
-
-!!! success "Flag sudah diverifikasi"
-    85 dari 86 challenge berstatus VERIFIED (flag tercatat accepted di platform). Satu masih OPEN: NXPortal.
 
 !!! tip "Bonus Insane"
     **NarrowGate** adalah challenge Insane dan tetap disertakan sebagai bonus.

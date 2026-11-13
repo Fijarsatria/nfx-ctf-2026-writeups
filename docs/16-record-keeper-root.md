@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Boot To Root` |
 | Difficulty | `Medium` |
-| Poin (snapshot) | `460` |
+| Poin | `460` |
 | Author | `Ariaf` |
 | Solves | `3` |
 | Tools | nmap, curl, python3, sage |
 | Flag | `NFX{sp00l3r_4rch1v3_r00t_pwn3d}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

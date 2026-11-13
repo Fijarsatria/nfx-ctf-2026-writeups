@@ -9,12 +9,10 @@
 | Kategori | `Osint` |
 | Author | `—` |
 | Difficulty | `Baby` |
-| Poin (snapshot) | `440` |
+| Poin | `440` |
 | Tools | exiftool |
 | Flag | `NFXCTF{3x1f_gp5_m3t4_tr4c3_9f41c8b2e70d}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

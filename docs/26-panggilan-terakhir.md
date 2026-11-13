@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Forensics` |
 | Difficulty | `Medium` |
-| Poin (snapshot) | `380` |
+| Poin | `380` |
 | Author | `Candelena` |
 | Solves | `7` |
 | Tools | python3, tshark |
 | Flag | `NFXCTF{ARSIP_MERAH_204}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

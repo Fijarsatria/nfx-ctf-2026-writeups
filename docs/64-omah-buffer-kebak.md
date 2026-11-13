@@ -9,12 +9,10 @@
 | Kategori | `Pwn` |
 | Author | `Amablex` |
 | Difficulty | `Baby` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Tools | pwntools, checksec |
 | Flag | `NFX{OmahhKUuD0Ndoll_Uw0nggG}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

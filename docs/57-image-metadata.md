@@ -8,12 +8,10 @@
 | Event | `umum/mahasiswa_nf` |
 | Kategori | `Forensics` |
 | Difficulty | `Easy` |
-| Poin (snapshot) | `220` |
+| Poin | `220` |
 | Author | `Candelena` |
 | Flag | `NFXCTF{h4shc4t_cr4ck1ng_z1p_succ3ssfu11y}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

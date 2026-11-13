@@ -9,12 +9,10 @@
 | Kategori | `Forensics` |
 | Author | `Kesatria Baja Ringan` |
 | Difficulty | `Easy` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Tools | exiftool, zsteg |
 | Flag | `NXCTF{l5b_l04d5_th3_p4yl04d}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 

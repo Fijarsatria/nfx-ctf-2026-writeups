@@ -8,14 +8,12 @@
 | Event | `umum_Extend` |
 | Kategori | `Misc` |
 | Difficulty | `Medium` |
-| Poin (snapshot) | `240` |
+| Poin | `240` |
 | Author | `Illal` |
 | Solves | `14` |
 | Tools | python3, git |
 | Flag | `NFXCTF{pyj41l_4st_4lch3my_vm_pwn_d84f216a}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 ## Challenge Brief (platform)

@@ -9,12 +9,10 @@
 | Kategori | `Misc` |
 | Author | `Syahril` |
 | Difficulty | `Baby` |
-| Poin (snapshot) | `100` |
+| Poin | `100` |
 | Tools | exiftool |
 | Flag | `NFX{M4kHLuK_T4k_K4s4T_M4T4}` |
 | Status | `VERIFIED` |
-| Snapshot | 2026-11-13 |
-
 [← Kembali ke Index](index.md)
 
 
